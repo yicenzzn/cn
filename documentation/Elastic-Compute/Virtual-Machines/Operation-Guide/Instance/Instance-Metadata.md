@@ -38,7 +38,7 @@
 
 ### Linux系统
 
-在系统内获取元数据根目录：
+1在系统内获取元数据根目录：
 ```Shell
 curl http://169.254.169.254/metadata/latest/
 ```
@@ -46,7 +46,7 @@ curl http://169.254.169.254/metadata/latest/
 ```
 ["attributes/","network/","placement/","image/","description","instance-name","instance-type","instance-id","pin"]
 ```
-参照【元数据信息】，根据目录结构指定元数据查询：<br>
+2参照【元数据信息】，根据目录结构指定元数据查询：<br>
 * 获取实例的hostname：
 ```Shell
 curl http://169.254.169.254/metadata/latest/attributes/hostname
