@@ -37,51 +37,52 @@
 元数据访问地址：`http://169.254.169.254/metadata/latest/ `,元数据具有目录层级，以"目录名"+"/"结尾时，将返回该目录所包含的下级元数据项。
 
 ### Linux系统
+ 1 在系统内获取元数据根目录：<br>
+ ```Shell
+ curl http://169.254.169.254/metadata/latest/
+ ```
+ 将以以下形式返回：
+ ```
+ ["attributes/","network/","placement/","image/","description","instance-name","instance-type","instance-id","pin"]
+ ```
+ 2 参照【元数据信息】，根据目录结构指定元数据查询：<br>
+ * 获取实例的hostname：
+ ```Shell
+ curl http://169.254.169.254/metadata/latest/attributes/hostname
+ ```
+ * 获取实例的ID：
+ ```Shell
+ curl http://169.254.169.254/metadata/latest/instance-id
+ ```
 
-1. 在系统内获取元数据根目录：
-    ```Shell
-    curl http://169.254.169.254/metadata/latest/
-    ```
-    将以以下形式返回：
-    ```
-    ["attributes/","network/","placement/","image/","description","instance-name","instance-type","instance-id","pin"]
-    ```
-2. 参照【元数据信息】，根据目录结构指定元数据查询：<br>
-  * 获取实例的hostname：
-    ```Shell
-    curl http://169.254.169.254/metadata/latest/attributes/hostname
-    ```
-  * 获取实例的ID：
-    ```Shell
-    curl http://169.254.169.254/metadata/latest/instance-id
-    ```
+ 
 
 ### Windows系统
 
 1. 在系统内获取元数据根目录（使用Powershell）：<br>
-    ```
-    Invoke-RestMethod http://169.254.169.254/metadata/latest/
-    ```
-    将以以下形式返回：
-    ```
-    attributes/
-    network/
-    placement/
-    image/
-    description
-    instance-name
-    instance-type
-    instance-id
-    pin
-    ```
+```
+Invoke-RestMethod http://169.254.169.254/metadata/latest/
+```
+将以以下形式返回：
+```
+attributes/
+network/
+placement/
+image/
+description
+instance-name
+instance-type
+instance-id
+pin
+```
 
 2. 参照**元数据信息**，根据目录结构指定元数据查询：<br>
-  * 获取实例的镜像ID：
-    ```
-    Invoke-RestMethod http://169.254.169.254/metadata/latest/image/image-id
-    ```
-  * 获取实例主网卡的内网IPv4地址（网卡索引从1开始，主网卡填写“1”，以此类推）：
-    ```
-    Invoke-RestMethod http://169.254.169.254/metadata/latest/network/1/local-ipv4
-    ```
+* 获取实例的镜像ID：
+```
+Invoke-RestMethod http://169.254.169.254/metadata/latest/image/image-id
+```
+* 获取实例主网卡的内网IPv4地址（网卡索引从1开始，主网卡填写“1”，以此类推）：
+```
+Invoke-RestMethod http://169.254.169.254/metadata/latest/network/1/local-ipv4
+```
 
