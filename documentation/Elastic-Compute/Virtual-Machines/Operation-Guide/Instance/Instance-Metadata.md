@@ -38,27 +38,27 @@
 
 ### Linux系统
 
-1 在系统内获取元数据根目录：
-    ```
+1. 在系统内获取元数据根目录：
+    ```Shell
     curl http://169.254.169.254/metadata/latest/
     ```
-将以以下形式返回：
-```
-["attributes/","network/","placement/","image/","description","instance-name","instance-type","instance-id","pin"]
-```
-2 参照【元数据信息】，根据目录结构指定元数据查询：<br>
-* 获取实例的hostname：
+    将以以下形式返回：
     ```
+    ["attributes/","network/","placement/","image/","description","instance-name","instance-type","instance-id","pin"]
+    ```
+2. 参照【元数据信息】，根据目录结构指定元数据查询：<br>
+  * 获取实例的hostname：
+    ```Shell
     curl http://169.254.169.254/metadata/latest/attributes/hostname
     ```
-* 获取实例的ID：
-    ```
+  * 获取实例的ID：
+    ```Shell
     curl http://169.254.169.254/metadata/latest/instance-id
     ```
 
 ### Windows系统
 
-1 在系统内获取元数据根目录（使用Powershell）：<br>
+1. 在系统内获取元数据根目录（使用Powershell）：<br>
     ```
     Invoke-RestMethod http://169.254.169.254/metadata/latest/
     ```
@@ -75,7 +75,7 @@
     pin
     ```
 
-2 参照**元数据信息**，根据目录结构指定元数据查询：<br>
+2. 参照**元数据信息**，根据目录结构指定元数据查询：<br>
   * 获取实例的镜像ID：
     ```
     Invoke-RestMethod http://169.254.169.254/metadata/latest/image/image-id
