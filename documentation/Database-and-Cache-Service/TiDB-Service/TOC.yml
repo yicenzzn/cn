@@ -34,11 +34,11 @@ items:
   - name: 入门指南
     items:
       - name: 创建实例
-        href: Getting-Started/Create-Instance.md
+        href: Getting-Started/Create-1st-Instance.md
       - name: 连接实例
-        href: Getting-Started/Connect-Instance.md
+        href: Getting-Started/Connect-My-Instance.md
       - name: 监控实例
-        href: Getting-Started/TiDB-Monitor.md
+        href: Getting-Started/Monitor-TiDB.md
 
   - name: 操作指南
     items:
