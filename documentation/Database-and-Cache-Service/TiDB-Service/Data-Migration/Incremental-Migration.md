@@ -30,7 +30,9 @@
 ![创建同步任务2](../../../../image/TiDB/incremental-migration-2.png)
 
 5.  填写增量相关信息，具体有：
-- MySQL 初始位置 GTID
+- MySQL 初始位置 GTID。 该信息可以从dumping导出文件的meta信息中获得。
+![获得GTID](../../../../image/TiDB/get-GTID.png)
+
 - 然后从选择要同步的表，表名支持* 通配符。点击 **编辑规则** 可编辑表的筛选规则。
 - 选择完成后，勾选 **授权 DTS 服务管理源库与目标端**, 然后点击 **确认**。
 
