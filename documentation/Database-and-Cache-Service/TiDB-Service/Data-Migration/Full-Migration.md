@@ -12,10 +12,17 @@ TiDB 控制台支持将 MySQL 的数据全量迁移到 TiDB 中，迁移步骤�
 > 1. 导出文件的格式必须是sql文件。
 > 2. 使用 -F 选项将单个文件的最大大小保持在 256 MiB 或以下。
 
+```SHELL
+dumpling -u <your account > -p <your password>  -h <mysql host>  -P 3306 --filetype sql   -o /tmp/tidb -t 8 -r 200000  -F 256MiB
+```
+
+![导出数据](../../../../image/TiDB/mysql-dumpling.png)
+
 2. 将导出的数据打包为 \*.tar.gz的格式，例如:
 ```SHELL
-tar –zcvf dts.tar.gz ./*
+tar -zcvf mysql-data.tar.gz export-2021-09-06T17:38:11+08:00
 ```
+
 ![打包文件](../../../../image/TiDB/tar-data-migration.png)
 
 
