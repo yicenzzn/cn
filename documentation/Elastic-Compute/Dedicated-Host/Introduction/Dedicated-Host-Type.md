@@ -2,11 +2,9 @@
 
 专有宿主机规格标识其对应的计算、内存、存储、网络能力以及支持调度在该宿主机上的云主机实例类型。
 
-创建专有资源池时需指定其创建的，专有资源池
-
 以下为当前京东云在售的专有宿主机规格信息，不同地域可售卖规格不完全相同，请以实例创建页面所显示为准。具体在售实例规格类型根据不同应用场景可以分为：
 
-* [通用型](instance-type-family#user-content-1)、
+* [通用型](instance-type-family#user-content-1)
 * [内存型](instance-type-family#user-content-2)
 * [高频计算型](instance-type-family#user-content-3)
 * GPUp40h型：[p40型](instance-type-family#user-content-4)、[p40h型](instance-type-family#user-content-5)、[v100型](instance-type-family#user-content-6)
@@ -105,6 +103,7 @@
 
 GPU型当前提供三类：P40型、P40h型及V100型。
 <div id="user-content-4"></div>
+
 ### P40型
 
 **配置详情：**
@@ -125,6 +124,7 @@ GPU型当前提供三类：P40型、P40h型及V100型。
 
 ### P40h型
 <div id="user-content-5"></div>
+
 **配置详情：**
 
 * vCPU数：56C
@@ -144,6 +144,7 @@ GPU型当前提供三类：P40型、P40h型及V100型。
 
 ### V100型
 <div id="user-content-6"></div>
+
 **配置详情：**
 
 * vCPU数：40C
