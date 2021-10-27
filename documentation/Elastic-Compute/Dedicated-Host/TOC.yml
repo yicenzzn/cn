@@ -1,4 +1,4 @@
-  name: 高可用组
+  name: 专有宿主机
   href: 
   items:
   - name: 产品简介
@@ -11,63 +11,37 @@
       href: Introduction/Benefits.md
     - name: 产品功能
       href: Introduction/Features.md
+    - name: 宿主机规格
+      href: Introduction/Dedicated-Host-Type.md
     - name: 限制说明 
       href: Introduction/Restrictions.md
+    - name: 资源调度说明 
+      href: Operation-Guide/Resource-Scheduling-Rules.md
     - name: 应用场景 
       href: Introduction/Scenarios.md    
   - name: 产品定价
     items:
     - name: 计费概述
       href: Pricing/Billing-Overview.md
-  - name: 入门指南
-    href: Getting-Start.md
+    - name: 计费规则
+      href: Pricing/Billing-Rules.md
+    - name: 价格总览
+      href: Pricing/Price-Overview.md
+    - name: 购买流程
+      href: Pricing/Purchase-Process.md
+    - name: 续费流程
+      href: Pricing/Renew-Process.md
   - name: 操作指南
     items:
-    - name: 创建高可用组
-      href: /Operation-Guide/Create-AG.md
-    - name: 修改实例模板
-      href: /Operation-Guide/Modify-Instance-Template.md
-    - name: 自动伸缩
-      items:
-      - name: 自动伸缩概述
-        href: /Operation-Guide/Auto-Scaling/Auto-Scaling-Overview.md
-      - name: 开启自动伸缩
-        href: /Operation-Guide/Auto-Scaling/Enable-AS.md
-      - name: 关闭自动伸缩
-        href: /Operation-Guide/Auto-Scaling/Disable-AS.md
-      - name: 修改自动伸缩
-        href: /Operation-Guide/Auto-Scaling/Modify-AS-Attributes.md
-      - name: 创建自动伸缩策略
-        href: /Operation-Guide/Auto-Scaling/Create-AS-Strategy.md
-      - name: 启用自动伸缩策略
-        href: /Operation-Guide/Auto-Scaling/Enable-AS-Strategy.md
-      - name: 禁用自动伸缩策略
-        href: /Operation-Guide/Auto-Scaling/Disable-AS-Strategy.md
-      - name: 手动添加实例
-        href: /Operation-Guide/Add-Instance-Manually.md
-      - name: 手动移除实例
-        href: /Operation-Guide/Remove-Instance-Manually.md
-      - name: 删除高可用组
-        href: /Operation-Guide/Delete-AG.md
-  - name: 最佳实践
-    items:
-    - name: 最佳配置
-      href: Best-Practices/Best-configuration-recommendation.md
-    - name: 配置开机自启动
-      href: Best-Practices/Auto-Enable-Services-on-Startup.md
-    - name: 设置固定出口IP
-      href: Best-Practices/Set-Static-Outbound-IP.md
-  - name: 教程
-    status: 0
-    items:     
-  - name: API参考
-    status: 0
-    href:
-  - name: SDK参考
-    status: 0
-    href:
-  - name: FAQ
-    status: 0
-    href: 
-  - name: 相关资源
-    status: 0
+    - name: 创建专有宿主机
+      href: Operation-Guide/Create-DH.md
+    - name: 创建专有资源池
+      href: Operation-Guide/Create-DP.md
+    - name: 在专有资源池或专有宿主机上新建云主机
+      href: Operation-Guide/Add-Instance-in-DH-or-DP.md
+    - name: 删除专有宿主机
+      href: Operation-Guide/Delete-DH.md
+    - name: 删除专有资源池
+      href: Operation-Guide/Delete-DP.md
+    - name: 删除专有资源池或专有宿主机上的云主机
+      href: Operation-Guide/Delete-Instance-in-DH-or-DP.md
