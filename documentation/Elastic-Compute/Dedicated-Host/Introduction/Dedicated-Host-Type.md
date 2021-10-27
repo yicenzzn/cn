@@ -6,8 +6,7 @@
 
 * [通用型](instance-type-family#user-content-1)
 * [内存型](instance-type-family#user-content-2)
-* [高频计算型](instance-type-family#user-content-3)
-* GPUp40h型：[p40型](instance-type-family#user-content-4)、[p40h型](instance-type-family#user-content-5)、[v100型](instance-type-family#user-content-6)
+
 
 ## 通用型
 <div id="user-content-1"></div>
@@ -79,87 +78,4 @@
 |m.n2.8xlarge|32|256|4
 |m.n2.16xlarge|64|512|4
 |m.n2.18xlarge|72|576|4
-
-## 高频计算型
-<div id="user-content-3"></div>
-
-**配置详情：**
-
-* vCPU数：72C
-* 内存：576GB
-* 处理器：3.2 GHz主频的Intel Xeon Gold 6146（Skylake）
-
-**支持的云主机实例规格**
-
-实例规格|vCPU（核）|内存（GB）|网卡多队列
-:---|:---|:---|:---
-|h.g2.large|2|8|2
-|h.g2.xlarge|4|16|4
-|h.g2.2xlarge|8|32|4
-|h.g2.4xlarge|16|64|4
-|h.g2.8xlarge|32|128|4
-
-## GPU型
-
-GPU型当前提供三类：P40型、P40h型及V100型。
-<div id="user-content-4"></div>
-
-### P40型
-
-**配置详情：**
-
-* vCPU数：56C
-* 内存：220GB
-* 处理器：2.1 GHz主频的Intel Xeon E5-2683 v4（Broadwell）
-* GPU：Nvidia Tesla P40
-* 本地存储：4 x 960GB SSD，请注意 **关机时本地数据盘数据将被清空**
-
-**支持的云主机实例规格**
-
-实例规格|vCPU（核）|内存（GB）|GPU|本地数据盘（临时存储）|网卡多队列
-:---|:---|:---|:---|:---|:---|
-|p.n1p40.3xlarge|12|48|1 x Nvidia Tesla P40|1 x 960GB SSD|4
-|p.n1p40.7xlarge|28|110|2 x Nvidia Tesla P40|2 x 960GB SSD|4
-|p.n1p40.14xlarge|56|220|4 x Nvidia Tesla P40|4 x 960GB SSD|4
-
-### P40h型
-<div id="user-content-5"></div>
-
-**配置详情：**
-
-* vCPU数：56C
-* 内存：220GB
-* 处理器：2.1 GHz主频的Intel Xeon E5-2683 v4（Broadwell）
-* GPU：Nvidia Tesla P40
-* 本地存储：4 x 1200GB HDD，请注意 **关机时本地数据盘数据将被清空**
-
-**支持的云主机实例规格**
-
-实例规格|vCPU（核）|内存（GB）|GPU|本地数据盘（临时存储）|网卡多队列
-:---|:---|:---|:---|:---|:---|
-|p.n1p40h.3xlarge|12|48|1 x Nvidia Tesla P40|1 x 1200GB HDD|4
-|p.n1p40h.7xlarge|28|110|2 x Nvidia Tesla P40|2 x 1200GB HDD|4
-|p.n1p40h.14xlarge|56|220|4 x Nvidia Tesla P40|4 x 1200GB HDD|4
-
-
-### V100型
-<div id="user-content-6"></div>
-
-**配置详情：**
-
-* vCPU数：40C
-* 内存：220GB
-* 处理器：2.1 GHz主频的Intel Xeon E5-2650 v4（Broadwell）
-* GPU：Nvidia Tesla V100
-* 本地存储：4 x 1200GB HDD，请注意 **关机时本地数据盘数据将被清空**
-
-**支持的云主机实例规格**
-
-实例规格|vCPU（核）|内存（GB）|GPU|本地数据盘（临时存储）|网卡多队列
-:---|:---|:---|:---|:---|:---|
-|p.n1v100.2xlarge|8|44|1 x Nvidia Tesla V100|1 x 6000GB HDD|4
-|p.n1v100.5xlarge|20|110|2 x Nvidia Tesla V100|2 x 6000GB HDD|4
-|p.n1v100.10xlarge|40|220|4 x Nvidia Tesla V100|4 x 6000GB HDD|4
-
-
 
