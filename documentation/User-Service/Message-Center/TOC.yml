@@ -1,9 +1,0 @@
-  name: 消息中心
-  href: 
-  items:
-  - name: 消息管理
-    items:
-    href: Message-Management.md
-  - name: 联系人管理
-    items:
-    href: Contact-Management.md
