@@ -14,6 +14,9 @@
 <a href="https://www.jdcloud.com/cn/videoDetail/209"> 查看视频</a>
 https://jdcloud-portal.oss.cn-north-1.jcloudcs.com/video/d2be1243-6b30-475a-a3b8-d45720a70bbe20200701121225.mp4
 
+https://user-images.githubusercontent.com/6877923/115474571-03c75800-a23e-11eb-8096-8973aad5fa9f.mp4
+
+
 ## 相关概念
 了解京东云云主机时，通常会涉及到的概念请参见[核心概念](Core-Concepts.md)。
 ## 相关服务
