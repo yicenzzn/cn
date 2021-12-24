@@ -7,8 +7,8 @@
 云主机管理方式比物理服务器更简单高效，您可根据实际需要对这些资源进行灵活的组合，您可通过控制台、OpenAPI或CLI随时创建指定数量的云主机，在使用过程中可以根据业务规模随时调整实例规格，对于过剩或闲置的资源也可以进行释放以便节约投入成本。京东云云主机为您快速部署应用提供稳定可靠的基础能力，使您更专注于核心业务创新。
 
 <video id="video1" style="width:600px;max-width:100%;" controls="">
-    <source src="mov_bbb.mp4" type="video/mp4">
-    <source src="mov_bbb.ogg" type="video/ogg">
+    <source src="https://jdcloud-portal.oss.cn-north-1.jcloudcs.com/video/d2be1243-6b30-475a-a3b8-d45720a70bbe20200701121225.mp4" type="video/mp4">
+    <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
     Your browser does not support HTML5 video.
   </video>
 
