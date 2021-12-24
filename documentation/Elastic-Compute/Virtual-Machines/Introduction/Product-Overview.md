@@ -5,13 +5,14 @@
 <img src="https://img1.jcloudcs.com/cn/image/vm/Product-Introduction-Overview-New.png" width="500">
 </div>
 云主机管理方式比物理服务器更简单高效，您可根据实际需要对这些资源进行灵活的组合，您可通过控制台、OpenAPI或CLI随时创建指定数量的云主机，在使用过程中可以根据业务规模随时调整实例规格，对于过剩或闲置的资源也可以进行释放以便节约投入成本。京东云云主机为您快速部署应用提供稳定可靠的基础能力，使您更专注于核心业务创新。
-
 <div class="video">
-          <video poster="//jdcloud-portal.oss.cn-north-1.jcloudcs.com/video/bab59ffb-d4d6-4407-b165-6e8f9d80733920200701115101.png" id="video" controls="controls" preload="auto" autoplay="autoplay" x5-video-player-type="h5" data-v-2612178d="" style="
+          <video poster="https://jdcloud-portal.oss.cn-north-1.jcloudcs.com/video/bab59ffb-d4d6-4407-b165-6e8f9d80733920200701115101.png" id="video" controls="controls" preload="auto" autoplay="autoplay" x5-video-player-type="h5"  style="
     width: 100%;
     max-width: 800px;
     max-height: 600px;
-"><source src="//jdcloud-portal.oss.cn-north-1.jcloudcs.com/video/d2be1243-6b30-475a-a3b8-d45720a70bbe20200701121225.mp4" type="video/mp4" data-v-2612178d="">当前浏览器不能支持视频播放，请采用chrome或IE9以上浏览器
+">
+                    <source src="https://jdcloud-portal.oss.cn-north-1.jcloudcs.com/video/d2be1243-6b30-475a-a3b8-d45720a70bbe20200701121225.mp4" type="video/mp4"></source>
+                    <p>当前浏览器不能支持视频播放，请采用chrome或IE9以上浏览器</p>
           </video>
           </div>
 
