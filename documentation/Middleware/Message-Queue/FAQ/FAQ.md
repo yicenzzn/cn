@@ -70,7 +70,7 @@ A：该报错是客户端重新拉取路由，属于正常情况。
 
 **Q：常见返回错误码
 
-使用http/https方式拉取消息，常见错误码：https://docs.jdcloud.com/cn/message-queue/response-result
+使用http/https方式拉取消息，[常见错误码](../Operation-Guide/API-Reference/Call-Method/Response-Result.md)。
 
 **Q：如何判断消费签名是否正确
 
