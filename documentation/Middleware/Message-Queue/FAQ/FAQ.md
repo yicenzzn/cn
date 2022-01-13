@@ -1,4 +1,6 @@
 # 常见问题
+
+## 功能类
 **Q：消息队列 JCQ 支持外网访问吗？**
 
 A：华北-北京地域支持HTTPS的方式公网访问。
@@ -14,6 +16,13 @@ A：存储的消息最多保存 3 天，超过 3 天未消费的消息会被删�
 **Q：每个用户Topic支持的最大TPS限额是多少？**
 
 A：目前每个Topic支持的TPS最大限额为5000，如不能满足您的业务需求，请联系客服。
+
+**Q：常见返回错误码**
+
+使用http/https方式拉取消息，[常见错误码](../Operation-Guide/API-Reference/Call-Method/Response-Result.md)。
+
+## 使用问题
+
 
 **Q：用户拉取不到消息怎么办？**
 
@@ -68,23 +77,21 @@ A：该报错是客户端重新拉取路由，属于正常情况。
 2. 订阅的创建者是子账号A，但是代码中使用的ak/sk，不是该子账号的ak/sk
     建议是哪个账号创建的订阅，就用哪个账号的ak/sk来进行消费。
 
-**Q：常见返回错误码**
 
-使用http/https方式拉取消息，[常见错误码](../Operation-Guide/API-Reference/Call-Method/Response-Result.md)。
 
 **Q：如何判断消费签名是否正确**
 
 使用工具[签名算法](../Operation-Guide/API-Reference/Call-Method/Signature-Algorithm.md)。该工具会返回签名计算过程中排序后的key、signSource和最终的签名。
 
-**拉取不到消息**
+**Q: 拉取不到消息**
 
 1. topic中没有消息，或者发送方没有发送消息。
 
-3. 如果用户消费时带了tag，则会开启tag过滤规则，过滤没有此tag的消息。消费时代码里不要带tag，或者填写正确的tag。tag功能参考：https://docs.jdcloud.com/cn/message-queue/produce-and-consume-message
+2. 如果用户消费时带了tag，则会开启tag过滤规则，过滤没有此tag的消息。消费时代码里不要带tag，或者填写正确的tag，请参考[消费分类](../Best-Practice/Message-Classification.md).
 
-5. 如果用户以重启进程方式拉取，每次拉取一条消息，都会拉同一个partition，若此partition无消息则会一直拉不到。建议将拉取逻辑放到循环里，在进程内循环拉取。循环拉取过程中，会出现一会儿能拉到数据，一会儿拉不到，属于正常情况。
+3. 如果用户以重启进程方式拉取，每次拉取一条消息，都会拉同一个partition，若此partition无消息则会一直拉不到。建议将拉取逻辑放到循环里，在进程内循环拉取。循环拉取过程中，会出现一会儿能拉到数据，一会儿拉不到，属于正常情况。
 
-**如何判断消息是否进入Topic**
+**Q: 如何判断消息是否进入Topic**
 
 1. 联系消息发送方，确认消息是否成功发送，消息成功发送会返回messageId，每一条消息都有独立的messageId，可以和消息发送方进行确认。
 
