@@ -61,7 +61,7 @@ The heart beat service for the channel localAddress: 10.0.0.3:44452, remoteAddre
 
 A：该报错是客户端重新拉取路由，属于正常情况。
 
-**Q：报错Topic不存在**
+**Q：报错订阅不存在**
 
 消费日志中报错`subscription not exist`，通常有以下两种原因:
 1. topic下没有此订阅
@@ -75,3 +75,28 @@ A：该报错是客户端重新拉取路由，属于正常情况。
 **Q：如何判断消费签名是否正确**
 
 使用工具[签名算法](../Operation-Guide/API-Reference/Call-Method/Signature-Algorithm.md)。该工具会返回签名计算过程中排序后的key、signSource和最终的签名。
+
+**拉取不到消息**
+
+1. topic中没有消息，或者发送方没有发送消息。
+
+3. 如果用户消费时带了tag，则会开启tag过滤规则，过滤没有此tag的消息。消费时代码里不要带tag，或者填写正确的tag。tag功能参考：https://docs.jdcloud.com/cn/message-queue/produce-and-consume-message
+
+5. 如果用户以重启进程方式拉取，每次拉取一条消息，都会拉同一个partition，若此partition无消息则会一直拉不到。建议将拉取逻辑放到循环里，在进程内循环拉取。循环拉取过程中，会出现一会儿能拉到数据，一会儿拉不到，属于正常情况。
+
+**如何判断消息是否进入Topic**
+
+1. 联系消息发送方，确认消息是否成功发送，消息成功发送会返回messageId，每一条消息都有独立的messageId，可以和消息发送方进行确认。
+
+2. 如果是开普勒、云交易、宙斯的用户，可以根据订单号，查询消息是否进入topic，步骤如下：
+
+   (1) 登录京东云控制台，消息队列JCQ - 消息查询。如果用的是云鼎，请登录云鼎控制台
+
+   (2) 选择地域、topic、**Business ID**，**Business ID为订单号**，点击查询。如果查询不到消息，请联系下业务方确认消息是否正常发送。
+ 
+
+3. 只能查询到消息生命周期3天以内的消息，3天之前的消息，请联系业务方进行确认。
+
+4. 消息查询更详细使用方式参考：[查询消息](../Operation-Guide/Message-Management/Query-Message.md)
+
+
