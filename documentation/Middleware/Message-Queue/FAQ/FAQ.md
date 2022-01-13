@@ -61,17 +61,17 @@ The heart beat service for the channel localAddress: 10.0.0.3:44452, remoteAddre
 
 A：该报错是客户端重新拉取路由，属于正常情况。
 
-**Q：报错Topic不存在
+**Q：报错Topic不存在**
 
 消费日志中报错`subscription not exist`，通常有以下两种原因:
 1. topic下没有此订阅
 2. 订阅的创建者是子账号A，但是代码中使用的ak/sk，不是该子账号的ak/sk
     建议是哪个账号创建的订阅，就用哪个账号的ak/sk来进行消费。
 
-**Q：常见返回错误码
+**Q：常见返回错误码**
 
 使用http/https方式拉取消息，[常见错误码](../Operation-Guide/API-Reference/Call-Method/Response-Result.md)。
 
-**Q：如何判断消费签名是否正确
+**Q：如何判断消费签名是否正确**
 
-使用工具[签名算法](../Operation-Guide/API-Reference/Call-Method/Signature-Algorithm.md)。该工具会返回签名计算过程中排序后的key、signSource和最终的签名
+使用工具[签名算法](../Operation-Guide/API-Reference/Call-Method/Signature-Algorithm.md)。该工具会返回签名计算过程中排序后的key、signSource和最终的签名。
