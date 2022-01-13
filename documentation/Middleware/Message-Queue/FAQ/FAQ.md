@@ -74,4 +74,4 @@ A：该报错是客户端重新拉取路由，属于正常情况。
 
 **Q：如何判断消费签名是否正确
 
-使用工具：https://github.com/xinyulu3344/jcqsign 。该工具会返回签名计算过程中排序后的key、signSource和最终的签名
+使用工具[签名算法](../Operation-Guide/API-Reference/Call-Method/Signature-Algorithm.md)。该工具会返回签名计算过程中排序后的key、signSource和最终的签名
