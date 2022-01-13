@@ -19,11 +19,13 @@ A：目前每个Topic支持的TPS最大限额为5000，如不能满足您的业�
 
 **Q：常见返回错误码**
 
-使用http/https方式拉取消息，[常见错误码](../Operation-Guide/API-Reference/Call-Method/Response-Result.md)。
+A：使用http/https方式拉取消息，[常见错误码](../Operation-Guide/API-Reference/Call-Method/Response-Result.md)。
 
 ## 使用问题
 
 **Q：用户拉取不到消息怎么办？**
+
+A：请从以下问题中排查：
 
 1. topic中没有消息，或者发送方没有发送消息。
 
@@ -33,7 +35,7 @@ A：目前每个Topic支持的TPS最大限额为5000，如不能满足您的业�
 
 **Q：用户订阅不上消息怎么办？**
 
-A： 用户未授予合适的权限导致，需要参考[主主授权](https://docs.jdcloud.com/cn/message-queue/main-main-authorization)对被授权用户进行授权。
+A：用户未授予合适的权限导致，需要参考[主主授权](https://docs.jdcloud.com/cn/message-queue/main-main-authorization)对被授权用户进行授权。
 
 **Q：拉消息，返回{"code":500,"message":"FAILED","status":"FAILED"}怎么办？**
 
@@ -75,18 +77,22 @@ A：该报错是客户端重新拉取路由，属于正常情况。
 
 **Q：报错订阅不存在**
 
-消费日志中报错`subscription not exist`，通常有以下两种原因:
+A：消费日志中报错`subscription not exist`，通常有以下两种原因:
+
 1. topic下没有此订阅
+
 2. 订阅的创建者是子账号A，但是代码中使用的ak/sk，不是该子账号的ak/sk
     建议是哪个账号创建的订阅，就用哪个账号的ak/sk来进行消费。
 
 **Q：如何判断消费签名是否正确**
 
-使用工具[签名算法](../Operation-Guide/API-Reference/Call-Method/Signature-Algorithm.md)。该工具会返回签名计算过程中排序后的key、signSource和最终的签名。
+A：使用工具[签名算法](../Operation-Guide/API-Reference/Call-Method/Signature-Algorithm.md)。该工具会返回签名计算过程中排序后的key、signSource和最终的签名。
 
 
 
 **Q: 如何判断消息是否进入Topic**
+
+A：请参考以下场景：
 
 1. 联系消息发送方，确认消息是否成功发送，消息成功发送会返回messageId，每一条消息都有独立的messageId，可以和消息发送方进行确认。
 
