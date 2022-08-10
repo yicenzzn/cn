@@ -2,6 +2,8 @@
 
 慢日志是Redis用来记录命令执行时间过长请求的机制。通过慢日志查询功能，用户可查找性能变慢原因，并优化性能。
 
+
+
 ## 控制台慢日志查询
 
 1.	登录 [Redis 控制台](https://redis-console.jdcloud.com/redis)，选择目标实例。
@@ -13,7 +15,7 @@
 4.	设置查询时间，查看慢日志记录。
 
 
-![](../../../../../image/Redis/SlowLog-1.png)
+![](../../../../../image/Redis/SlowLog-1-1.png)
 
 5. 下载和查看慢日志
 
@@ -32,7 +34,7 @@
 然后直接vim相关文件就可以查看到相关日志信息。
 
 
-涉及的两个配置参数，见下表。实例配置参数的修改以及参数解释请参考 [集群参数配置](../Instance-Management/Modify-Instancename.md)
+该功能涉及到以下两个配置参数，您可通过调整参数值来配置慢日志，参数调整方式见： [集群参数配置](../Instance-Management/Modify-Instancename.md)
 
 |  参数   |   说明     | 
 |  :---   |   :---     |
