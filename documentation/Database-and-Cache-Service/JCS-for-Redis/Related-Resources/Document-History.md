@@ -100,7 +100,7 @@
 | 动态名称 | 动态描述  | 发布时间	  | 相关文档   |
 |   :---  |  :---   |  :---  |:---  |
 |   支持慢日志查询	|  通过慢日志查询功能，用户可查找性能变慢原因，并优化性能。	|   2020-03	|    [慢日志查询](../Operation-Guide/Cache-Analysis/SlowLog.md)	| 
-|   开放参数修改	|  帮助用户对当前Redis实例的参数进行配置调优。	|   2020-01	|    [参数修改](../Operation-Guide/Instance-Management/Modify-Instancename.md)	| 
+|   开放集群参数修改功能	|  用户可修改集群配置参数，从而可对当前Redis实例的参数进行配置调优。	|   2020-01	|    [集群参数配置](../Operation-Guide/Instance-Management/Modify-Instancename.md)	| 
 
 
 ## 2019年及之前
