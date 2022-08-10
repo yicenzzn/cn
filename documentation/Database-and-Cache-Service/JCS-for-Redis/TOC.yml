@@ -140,6 +140,8 @@
         href: Best-Practices/Doc-1.md
       - name: Redis迁移解决方案
         href: Best-Practices/Doc-2.md 
+      - name: 合理使用大key
+        href: Best-Practices/Doc-3.md 
   - name: 性能测试
     items:
       - name: 测试环境
