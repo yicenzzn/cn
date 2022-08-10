@@ -26,15 +26,17 @@
 
 另外，我们目前具备完备的监控来提前识别大key带来的影响，或者帮助分析大Key造成性能问题。
 
-- 慢日志统计（可调整 slowlog-log-slower-than 参数阈值）
+- 慢日志统计（可调整 slowlog-log-slower-than 参数阈值，云上操作步骤可参考： [集群参数配置](../Operation-Guide/Instance-Management/Modify-Instancename.md) ）
 
-- 大key统计功能
+- 大key统计功能（云上操作步骤可参考： [大Key热Key分析](../Operation-Guide/Cache-Analysis/Key-Analysis.md)  ）
 
-- 内存使用监控和内存使用率告警（集群和节点维度）
+- 内存使用监控和内存使用率告警（集群和节点维度）（云上操作步骤可参考：  [实例监控](../Operation-Guide/Monitoring/Monitoring.md)    ）
 
-- 网络流出流量告警
+- 网络流出流量告警（云上操作步骤可参考：  [实例监控](../Operation-Guide/Monitoring/Monitoring.md)    ）
+
 
 ## 大key使用实践
+
 应该合理使用redis，一方面，尽量避免大key出现；另一方面，即使少量大key，只要使用规范，大部分时候影响也不大。以下为对大Key的使用原则建议：
 
 - 定期通过大key统计功能检查缓存中存在的大key，并进行合理拆分，提前识别并解决大key风险。
