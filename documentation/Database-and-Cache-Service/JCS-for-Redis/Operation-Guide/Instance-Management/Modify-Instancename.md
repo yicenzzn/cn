@@ -30,7 +30,7 @@
 |  notify-keyspace-events |  定义了服务器将发送哪些类型的通知   |	 		  | [K , E , g , $ , l , s , h , z , x , e , A]字母的组合 |  
 | min-slaves-to-write | 当主节点有效的从节点个数小于这个值时拒绝写入   |  0   | 	0/1  | 
 | min-slaves-max-lag |有效从节点的延时必须小于这个值，单位秒  | 10  | 1-3600  | 
-| @slave-appendonly |  开启从持久化  | no  | yes/no | 
+| @slave-appendonly |  开启从持久化  | yes  | yes/no | 
 | appendfsync | aof文件调用fsync强制落盘的策略    | everysec  | no/everysec/always  | 
 | lua-time-limit |  lua脚本的最长执行时间（毫秒）, 当超过这个时间时,可通过执行script kill杀死正在执行的Lua脚本，设置为0表示没有时间限制  | 5000 | 1000-60000  | 
 | slowlog-max-len | 最多记录最近多少条慢日志。慢日志记录会消耗内存   | 1024 | 128-10000  | 
