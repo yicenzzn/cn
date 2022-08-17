@@ -13,7 +13,7 @@
 * 您可以编写代码调用京东云OpenAPI服务访问京东云的产品和服务。详细信息请参见[OpenAPI](https://docs.jdcloud.com/coc-virtual-machines/api/overview)。
 
 ## 使用云主机
-京东云提供Web操作界面，即控制台，您可以使用京东云账号直接登录[云主机控制台](https://cns-console.jdcloud.com/compute/list)，对您的云主机进行管理及操作。
+京东云提供Web操作界面，即控制台，您可以使用京东云账号直接登录[云主机控制台](https://coc-cns-console.jdcloud.com/compute/list)，对您的云主机进行管理及操作。
 
 京东云也提供了API接口方便您管理云主机，有关云主机API操作的详细信息，请参见[OpenAPI文档](https://docs.jdcloud.com/cn/coc-virtual-machines/api/overview)。您可以使用SDK（支持 Java/Python/Go/Node.js/PHP/.Net/C++）编程或使用京东云云命令行工具（CLI）调用云主机API，具体请参考：[SDK文档](https://docs.jdcloud.com?act=3)及[CLI文档](https://docs.jdcloud.com/cn/cli/introduction)。
 
