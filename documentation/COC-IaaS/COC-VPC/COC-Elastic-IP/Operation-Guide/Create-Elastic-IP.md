@@ -49,5 +49,5 @@
 
 - [价格总览](../Pricing/Price-Overview.md)
 - [使用限制](../Pricing/Restrictions.md)
-- [绑定资源](../Pricing/Associate-Elastic-Ip.md)
+- [绑定资源](../Pricing/Associate-Elastic-IP.md)
 - [常见问题](../FAQ/FAQ.md)
