@@ -47,7 +47,7 @@
 
 ## 相关参考
 
-- [价格总览](../pricing/price-overview.md)
-- [使用限制](../pricing/restrictions.md)
-- [绑定资源](../pricing/associate-elastic-ip.md)
-- [常见问题](../FAQ/faq.md)
+- [价格总览](../Pricing/Price-Overview.md)
+- [使用限制](../Pricing/Restrictions.md)
+- [绑定资源](../Pricing/Associate-Elastic-Ip.md)
+- [常见问题](../FAQ/FAQ.md)
