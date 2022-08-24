@@ -38,6 +38,6 @@
 ## 相关参考
 
 - [计费规则](Billing-Rules.md)
-- [创建弹性公网IP](../Operation-Guide/Elastic-IP-Management/Create-Elastic-IP.md)
-- [续费公网IP](../Operation-Guide/Elastic-IP-Management/Renew-Elastic-IP.md)
+- [创建弹性公网IP](../Operation-Guide/reate-Elastic-IP.md)
+- [续费公网IP](../Operation-Guide/Renew-Elastic-IP.md)
 
