@@ -4,7 +4,6 @@
 - [创建公网IP](restrictions#user-content-1)
 - [绑定资源](restrictions#user-content-2)
 - [调整带宽](restrictions#user-content-3)
-- [共享带宽包](restrictions#user-content-4)
 - [删除公网IP](restrictions#user-content-5)
 
 ### 创建公网IP
@@ -25,17 +24,17 @@
 ### 调整带宽
 <div id="user-content-3"></div>
 
-- 所有计费模式下弹性公网IP均支持调整带宽上限。其中包年包月计费模式下的弹性公网IP，提升带宽时，到期时间不变，需支付带宽差价，不支持降低带宽。按用量计费的资源支持升降带宽。
+- 合作弹性公网IP均支持调整带宽上限。其中包年包月计费模式下的弹性公网IP，提升带宽时，到期时间不变，需支付带宽差价，不支持降低带宽。
 
 
 ### 删除公网IP
 <div id="user-content-5"></div>
 
 - 不支持删除处于绑定状态的合作弹性公网IP，如需删除IP，需先解绑资源；
-- 不支持删除包年包月未到期的资源。
+- 不支持删除包年包月的资源。
 
 ## 相关参考
-- [创建公网IP](../Operation-Guide/Elastic-IP-Management/Create-Elastic-IP.md)
-- [修改带宽](../Operation-Guide/Elastic-IP-Management/Modify-Elastic-IP.md)
-- [删除公网IP](../Operation-Guide/Elastic-IP-Management/Delete-Elastic-IP.md)
-- [绑定资源](../Operation-Guide/Elastic-IP-Management/Associate-Elastic-IP.md)
+- [创建公网IP](../Operation-Guide/Create-Elastic-IP.md)
+- [修改带宽](../Operation-Guide/Modify-Elastic-IP.md)
+- [删除公网IP](../Operation-Guide/Delete-Elastic-IP.md)
+- [绑定资源](../Operation-Guide/Associate-Elastic-IP.md)
