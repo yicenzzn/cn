@@ -11,7 +11,7 @@
 
 - 确保您已经[注册京东云账号](https://user.jdcloud.com/register?returnUrl=https%3A%2F%2Fwww.jdcloud.com%2F)，并实现[实名认证](https://docs.jdcloud.com/cn/real-name-verification/introduction)；
 - 确保您已开通合作地域权限；
-- 确保账户中有足够余额，相关限制请查看[使用限制](../Introduction/restrictions.md)；
+- 确保账户中有足够余额，相关限制请查看[使用限制](../Introduction/Restrictions.md)；
 - 公网IP可创建数量受配额限制，如需提升配额请提[工单申请](https://ticket.jdcloud.com/applyorder/submit)。
 
 
