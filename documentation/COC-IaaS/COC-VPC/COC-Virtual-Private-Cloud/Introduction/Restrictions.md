@@ -1,5 +1,5 @@
 # 使用限制
-本文将详细介绍私有网络、子网、安全组、路由表、ACL、VPCpeering资源的配额及相关使用限制。
+本文将详细介绍私有网络、子网、安全组、路由表、ACL资源的配额及相关使用限制。
 - [私有网络（VPC）](restrictions#user-content-1)
 - [子网](restrictions#user-content-2)
 - [路由表](restrictions#user-content-3)
