@@ -40,12 +40,14 @@
 
 > 目前包年包月计费类型的购买时长包括1-9个月、1年。
 
-步骤7：完成上述步骤后，点击立即购买按键，进入订单确认以及支付页。完成支付后，返回弹性公网IP列表页，查看弹性公网IP创建情况。
+步骤7（可选）：勾选自动续费，后续为您自动续费，保障服务持续可用。
+
+步骤8：完成上述步骤后，点击立即购买按键，进入订单确认以及支付页。完成支付后，返回弹性公网IP列表页，查看弹性公网IP创建情况。
 
 
 ## 相关参考
 
-- [价格总览](https://docs.jdcloud.com/cn/elastic-ip/price-overview)
-- [使用限制](https://docs.jdcloud.com/cn/elastic-ip/restrictions)
-- [绑定资源](https://docs.jdcloud.com/cn/elastic-ip/associate-elastic-ip)
-- [常见问题](https://docs.jdcloud.com/cn/elastic-ip/faq)
+- [价格总览](../pricing/price-overview)
+- [使用限制](../pricing/restrictions)
+- [绑定资源](../pricing/associate-elastic-ip)
+- [常见问题](../FAQ/faq)
