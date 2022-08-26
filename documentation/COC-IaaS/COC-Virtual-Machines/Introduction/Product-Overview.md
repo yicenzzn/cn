@@ -1,5 +1,5 @@
 # 概述
-合作云主机（Cloud on Cloud Virtual Machines,COCVM）是京东云提供的一种基础计算服务单元，提供处理能力可弹性伸缩的计算服务。合作云主机（以下简称“云主机”）涉及多种概念，如下图所示，包括镜像、云硬盘、VPC/子网（该部分均为合作资源）等，每种资源都提供多种配置选项，您可以根据实际需要进行选择。
+合作云主机（Cooperative Cloud Virtual Machines,CoCVM）是京东云提供的一种基础计算服务单元，提供处理能力可弹性伸缩的计算服务。合作云主机（以下简称“云主机”）涉及多种概念，如下图所示，包括镜像、云硬盘、VPC/子网（该部分均为合作资源）等，每种资源都提供多种配置选项，您可以根据实际需要进行选择。
 <div align="center">
 <img src="https://img1.jcloudcs.com/cn/image/vm/Product-Introduction-Overview-New.png" width="500">
 </div>
