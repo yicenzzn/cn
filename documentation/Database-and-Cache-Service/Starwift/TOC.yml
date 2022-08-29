@@ -25,23 +25,18 @@ items:
         href: Pricing/Billing-Rules.md
       - name: 价格总览
         href: Pricing/Price-Overview.md   
-  - name: 快速入门（未完成）
+  - name: 快速入门
     items:
       - name: 操作流程
-        href: Getting-Started/operation.md
+        href: Getting-Started/Quick-Start.md
       - name: 创建实例
         href: Getting-Started/Create-Instance1.md
       - name: 创建账号
         href: Getting-Started/Create-Account1.md
       - name: 白名单设置
-        href: Getting-Started/SetWhiteList1.md
+        href: Getting-Started/Set-Whitelist1.md
       - name: 连接实例
         href: Getting-Started/Connect-Instance.md    
-      - name: 创建数据库和表
-        href: Getting-Started/Create-Database-Table.md   
-      - name: 导入数据
-        href: Getting-Started/loadingData.md  
- 
   - name: 操作指南
     items:
       - name: 实例管理
@@ -69,14 +64,6 @@ items:
             href: Operation-Guide/Account/Grant-Privilege.md
           - name: 重置密码
             href: Operation-Guide/Account/Reset-Password.md
-            
-      - name: 监控报警
-        items:
-          - name: 设置报警规则
-            href: Operation-Guide/Monitor-Alarm/Set-Alarm-Rules.md
-          - name: 查看监控信息
-            href: Operation-Guide/Monitor-Alarm/View-Monitor-Information.md
-
       - name: 安全管理
         items:
           - name: 白名单设置
@@ -89,15 +76,20 @@ items:
           - name: 通过 JDBC 连接
             href: Operation-Guide/Connection/JDBC.md
 
-      - name: 外部数据导入
+      - name: 数据迁移
         items:
-          - name: 从Spark导入
-            href: Operation-Guide/localDataLoading/loading-spark.md
-          - name: 从自建ClickHouse导入
-            href: Operation-Guide/localDataLoading/local-clickhouse-clickhouse.md
+          - name: 从文件导入
+            href: Operation-Guide/Data-Migration/Load-Data-From-File.md
+          - name: 从ClickHouse导入
+            href: Operation-Guide/Data-Migration/local-clickhouse-clickhouse.md
+      - name: 监控报警
+        items:
+          - name: 设置报警规则
+            href: Operation-Guide/Monitor-Alarm/Set-Alarm-Rules.md
+          - name: 查看监控信息
+            href: Operation-Guide/Monitor-Alarm/View-Monitor-Information.md
 
-
-  - name: 最佳实践
+  - name: 最佳实践（待定）
     items:
       - name: 数据导入
         href: Best-Practices/Load-Data-From-File.md
