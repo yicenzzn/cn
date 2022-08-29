@@ -16,7 +16,8 @@
 ```
 clickhouse-client --host="<old host>" --port="<old port>" --user="<old user name>" --password="<old password>" --query="SHOW databases"  > database.list
 ```
-####     参数说明：
+
+**参数说明**
 
 | 参数          | 说明                         |
 | ------------- | :--------------------------- |
@@ -54,7 +55,8 @@ clickhouse-client --host="<old host>" --port="<old port>" --user="<old user name
 ```
 clickhouse-client --host="<new host>" --port="<new port>" --user="<new user name>" --password="<new password>"  < table.sql
 ```
-** 参数说明**
+
+**参数说明**
 
 | 参数          | 说明                                                   |
 | ------------- | :----------------------------------------------------- |
@@ -74,7 +76,7 @@ clickhouse-client --host="<new host>" --port="<new port>" --user="<new user name
 insert into <new_database>.<new_table> select * from remote('old_endpoint', <old_database>.<old_table>, '<username>', '<password>');
 ```
 
-** 参数说明**
+**参数说明**
 
 | 参数         | 说明                                                         |
 | ------------ | :----------------------------------------------------------- |
