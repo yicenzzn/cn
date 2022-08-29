@@ -36,7 +36,7 @@ items:
       - name: 白名单设置
         href: Getting-Started/Set-Whitelist1.md
       - name: 连接实例
-        href: Getting-Started/Connect-Instance.md    
+        href: Getting-Started/Connect-Instance1.md    
   - name: 操作指南
     items:
       - name: 实例管理
@@ -82,9 +82,9 @@ items:
   - name: 数据迁移
     items:
       - name: 从文件导入
-        href: Data-Migration/Load-Data-From-File.md
+        href: Data-Migration/Migration-From-File.md
       - name: 从 ClickHouse 导入
-        href: Data-Migration/Load-Data-From-Clickhouse.md        
+        href: Data-Migration/Migration-From-Clickhouse.md        
   - name: 常见问题
     items:
       - name: FAQ
