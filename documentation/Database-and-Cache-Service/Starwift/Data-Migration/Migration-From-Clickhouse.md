@@ -1,4 +1,4 @@
-# 从 ClickHouse 导入
+# 从 ClickHouse 迁移
 
 本文主要介绍如何从 ClickHouse 将数据库表及数据迁移到 Starwift 上。
 
