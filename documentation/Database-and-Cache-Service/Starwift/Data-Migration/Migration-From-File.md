@@ -1,4 +1,4 @@
-# 数据导入
+# 从数据文件迁移
 本文介绍如何将本地文件的数据导入至云原生实时数仓 Starwift 中。
 
 Starwift 兼容 ClickHouse 协议，因此可以使用 ClickHouse 的客户端进行数据导入。
