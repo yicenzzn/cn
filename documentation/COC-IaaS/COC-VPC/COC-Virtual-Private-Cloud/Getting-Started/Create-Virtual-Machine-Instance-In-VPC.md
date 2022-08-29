@@ -14,6 +14,8 @@
 
 - 确保您已经[注册京东云账号](https://user.jdcloud.com/register?returnUrl=https%3A%2F%2Fwww.jdcloud.com%2F)，并实现[实名认证](https://realname.jdcloud.com/account/verify)；
 
+- 开通需要部署云主机实例的地域；
+
 - 确保账户中有足够余额；
 
 - 确保需要创建的资源数量配额充足，如需提升配额请提[工单申请](https://ticket.jdcloud.com/applyorder/submit)。
