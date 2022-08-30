@@ -34,6 +34,5 @@
 ## 相关参考
 
 - [使用限制](../../Introduction/Restrictions.md)
-- [常见问题](https://docs.jdcloud.com/cn/elastic-ip/faq)
 - [创建公网IP](Create-Elastic-IP.md)
-
+- [常见问题](../FAQ/FAQ.md)
