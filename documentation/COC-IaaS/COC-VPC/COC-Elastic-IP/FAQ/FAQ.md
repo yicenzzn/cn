@@ -11,3 +11,8 @@ A：目前不支持使用共享带宽包。
 
 Q：合作弹性公网IP出入方向带宽上限是如何配置？</br>
 A：合作弹性公网IP入向带宽（公网流向京东云方向）分配规则：用户从控制台或 openAPI 购买的 IP 带宽上限小于等于10 Mbps，则该 IP 的入向带宽均为10Mbps；若您购买的带宽上限大于10 Mbps，则该 IP 的出入方向带宽配置一致，即入向带宽等于出向带宽等于您购买的带宽；
+
+## 相关参考
+
+- [创建弹性公网IP](../Operation-Guide/Create-Elastic-IP.md)
+- [价格总览](../Pricing/Price-Overview.md)
