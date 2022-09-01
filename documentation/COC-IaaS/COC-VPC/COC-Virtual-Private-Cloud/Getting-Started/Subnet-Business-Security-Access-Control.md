@@ -51,7 +51,7 @@
 
 #### 创建ACL
 
-步骤1：进入[京东云控制台](https://console.jdcloud.com/overview)，点击左侧导航条 【私有网络 】-> 【网络ACL】，进入网络ACL列表页面
+步骤1：进入[京东云控制台](https://console.jdcloud.com/overview)，点击左侧导航条 合作云产品->【合作私有网络】->【合作网络ACL】，进入网络ACL列表页面
 
 步骤2：点击【创建】按钮，弹出网络ACL创建弹框；
 
