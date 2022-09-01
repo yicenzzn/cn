@@ -2,15 +2,16 @@
 
 ## 操作场景
 
-通过此教学您可以在京东云完成基础的网络模型部署并对其访问进行控制，本教程将网络分为三层，分别是负责对外的WEB层、负责逻辑的APP层、负责数据的DB层。其中WEB层只能与公网和APP层互通，APP层只能与WEB层和DB层互通，DB层只能与APP层互通。完成后可获得以下资源：
+通过此文档您可以在京东云完成基础的网络模型部署并对其访问进行控制，本教程将网络分为三层，分别是负责对外的WEB层、负责逻辑的APP层、负责数据的DB层。其中WEB层只能与公网和APP层互通，APP层只能与WEB层和DB层互通，DB层只能与APP层互通。完成后可获得以下资源：
 
-- 1个私有网络
-- 3个子网
-- 3个ACL
+- 1个合作私有网络
+- 3个合作子网
+- 3个合作网络ACL
 
 ## 前提条件及限制
 
 - 确保您已经[注册京东云账号](https://user.jdcloud.com/register?returnUrl=https%3A%2F%2Fwww.jdcloud.com%2F)，并实现[实名认证](https://docs.jdcloud.com/cn/real-name-verification/introduction)；
+- 确保您已开通可创建合作云产品地域。
 
 
 ## **操作步骤**
@@ -23,7 +24,7 @@
 
 <div id="user-content-1"> </div>
 
-步骤1：进入[京东云控制台](https://console.jdcloud.com/overview)，点击左侧导航条选择 网络->【私有网络】，进入私有网络列表页；
+步骤1：进入[京东云控制台](https://console.jdcloud.com/overview)，点击左侧导航条选择 合作云产品->【合作私有网络】，进入合作私有网络列表页；
 
 步骤2：点击【创建】按钮，弹出创建配置窗口；
 
@@ -36,7 +37,7 @@
 <div id="user-content-2"> </div>
 
 
-步骤1：进入[京东云控制台](https://console.jdcloud.com/overview)，点击左侧导航条选择 网络->【私有网络】-> 【子网】，进入子网列表页；
+步骤1：进入[京东云控制台](https://console.jdcloud.com/overview)，点击左侧导航条选择 合作云产品->【合作私有网络】->【合作子网】，进入子网列表页；
 
 步骤2：选择创建子网所属地域，点击【创建】按钮，进入创建弹窗；
 
