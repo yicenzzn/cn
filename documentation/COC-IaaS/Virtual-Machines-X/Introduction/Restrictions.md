@@ -17,7 +17,7 @@
 ## 其他限制
 限制项   |限制规则|例外申请方式   
 :------- |:---|:---     
-可选择的实例规格|可参见[云主机实例规格](https://docs.jdcloud.com/cn/coc-virtual-machines/instance-type-family)|不支持调整
+可选择的实例规格|可参见[实例规格](https://docs.jdcloud.com/cn/coc-virtual-machines/instance-type-family)|不支持调整
 可选择的官方镜像种类|可参见[官方镜像发行版](https://docs.jdcloud.com/cn/coc-virtual-machines/image-type)|不支持调整        
 单地域实例限额|20台|工单
 伙伴快照限额|1台主机只支持创建1个快照|不支持调整
