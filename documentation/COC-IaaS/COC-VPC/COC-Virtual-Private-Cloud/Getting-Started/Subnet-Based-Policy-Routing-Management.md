@@ -58,4 +58,5 @@
 
 - [创建VPC](../Operation-Guide/VPC-Configuration.md)
 - [创建子网](../Operation-Guide/Subnet-Configuration.md)
+- [配置路由表](../Operation-Guide/Route-Table-Configuration.md)
 - [创建云主机](../../../COC-Virtual-Machines/Operation-Guide/Instance/Create-Instance.md)
