@@ -6,7 +6,7 @@
 
 1. 选择创建私有网络所属地域，点击“创建”按钮；
 
-1. 地域选择：在此步骤仍可以选择创建私有网络的地域，如果所选地域限额已满，可以通过“提交工单”提升限额；
+1. 地域选择：在此步骤仍可以选择创建私有网络的地域，如果所选地域限额已满，可以通过[提交工单](https://ticket.jdcloud.com/applyorder/submit)提升限额；
 
 1. 设置私有网络名称：名称不可为空，只支持中文、数字、大小写字母、英文下划线“\_”及中划线“\-”，且不能超过32字符；
 
@@ -14,9 +14,7 @@
 
 1. 点击【确定】后即可进入“控制台”查看创建的私有网络；
 
-![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Based-Policy-Routing-Management/Step1-1.png)
 
-![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Based-Policy-Routing-Management/Step1-2.png)
 
 
 
@@ -26,7 +24,7 @@
 
 1. 选择创建子网所属地域，点击“创建”按钮；
 
-1. 地域选择：在此步骤仍可以选择创建子网的地域，如果所选地域限额已满，可以通过“提交工单”提升限额；
+1. 地域选择：在此步骤仍可以选择创建子网的地域，如果所选地域限额已满，可以通过[提交工单](https://ticket.jdcloud.com/applyorder/submit)提升限额；
 
 1. 选择所属私有网络，子网必须创建在某个私有网络内。
 
@@ -42,9 +40,7 @@
 
 1. 点击【确定】后即可进入“控制台”查看创建的子网；
 
-![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Based-Policy-Routing-Management/Step2-1.png)
 
-![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Based-Policy-Routing-Management/Step2-2.png)
 
 
 
@@ -58,4 +54,4 @@
 
 4.点击【确定】后即可为子网更换路由表；
 
-![](/image/Networking/Virtual-Private-Cloud/Getting-Started/Subnet-Based-Policy-Routing-Management/Step3-1.png)
+
