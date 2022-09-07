@@ -11,7 +11,7 @@
 ## 前提条件及限制
 
 - 确保您已经[注册京东云账号](https://user.jdcloud.com/register?returnUrl=https%3A%2F%2Fwww.jdcloud.com%2F)，并实现[实名认证](https://docs.jdcloud.com/cn/real-name-verification/introduction)；
-- 确保您已开通可创建合作云产品地域。
+- 确保您已开通可创建合作云产品的地域。
 
 
 ## **操作步骤**
@@ -131,7 +131,9 @@
 完成上述操作，即可完成基于子网级别的访问进行控制，保障业务安全运行。
 
 ## 相关参考
-
+- [创建VPC](../Operation-Guide/VPC-Configuration.md)
+- [创建子网](../Operation-Guide/Subnet-Configuration.md)
+- [创建云主机](../../../COC-Virtual-Machines/Operation-Guide/Instance/Create-Instance.md)
 - [ACL概述](../Introduction/Features/Network-ACL-Features.md)
 - [ACL配置](../Operation-Guide/Network-ACL-Configuration.md)
 - [安全组概述](../Introduction/Features/Security-Group-Features.md)
