@@ -28,3 +28,7 @@
 - 在WEB层子网中部署如负载均衡等WEB层资源；
 - 在APP层子网中部署APP程序服务器
 - 在DB层子网中部署数据库产品。
+## 相关参考
+- [创建VPC](../Operation-Guide/VPC-Configuration.md)
+- [创建子网](../Operation-Guide/Subnet-Configuration.md)
+- [创建云主机](../../../COC-Virtual-Machines/Operation-Guide/Instance/Create-Instance.md)
