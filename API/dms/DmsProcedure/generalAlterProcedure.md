@@ -27,10 +27,10 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/procedure:generalAlter
 |**deterministic**|Boolean|False| |确定性。|
 |**definitionSql**|String|False| |存储过程定义SQL。|
 |**completeSql**|String|True| |创建存储过程定义完整SQL。|
-|**parameters**|[Parameter[]](#parameter)|False| |参数列表。|
+|**parameters**|[Parameter[]](generalalterprocedure#parameter)|False| |参数列表。|
 |**comment**|String|False| |注释|
 
-### <div id="Parameter">Parameter</div>
+### <div id="parameter">Parameter</div>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**name**|String|True| |参数名称。|
@@ -41,14 +41,14 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/procedure:generalAlter
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)| |
-|**requestId**|[String](#result)|请求id|
+|**result**|[Result](generalalterprocedure#result)| |
+|**requestId**|[String](generalalterprocedure#result)|请求id|
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**dmsSqls**|[DmsSql[]](#dmssql)|生成sql。|
-### <div id="DmsSql">DmsSql</div>
+|**dmsSqls**|[DmsSql[]](generalalterprocedure#dmssql)|生成sql。|
+### <div id="dmssql">DmsSql</div>
 |名称|类型|描述|
 |---|---|---|
 |**sql**|String|SQL语句。|

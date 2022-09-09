@@ -2,7 +2,7 @@
 
 
 ## 描述
-sql格式化
+sql格式化，支持Mysql，Stardb
 
 ## 请求方式
 POST
@@ -25,6 +25,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/sql:format
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](formatsql#result)| |
+|**requestId**|[String](formatsql#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
@@ -32,6 +33,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/sql:format
 |**strResult**|String|格式化后的SQL|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

@@ -25,10 +25,10 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/trigger:info
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)| |
-|**requestId**|[String](#result)|请求id|
+|**result**|[Result](triggerinfo#result)| |
+|**requestId**|[String](triggerinfo#result)|请求id|
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**dbName**|String|数据库名称。|

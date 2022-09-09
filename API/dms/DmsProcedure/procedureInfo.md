@@ -25,10 +25,10 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/procedure:info
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)| |
-|**requestId**|[String](#result)|请求id|
+|**result**|[Result](procedureinfo#result)| |
+|**requestId**|[String](procedureinfo#result)|请求id|
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**dbName**|String|数据库名称。|
@@ -39,9 +39,9 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/procedure:info
 |**deterministic**|Boolean|确定性。|
 |**definitionSql**|String|存储过程定义SQL。|
 |**completeSql**|String|创建存储过程定义完整SQL。|
-|**parameters**|[Parameter[]](#parameter)|查询条件。|
+|**parameters**|[Parameter[]](procedureinfo#parameter)|查询条件。|
 |**comment**|String|注释|
-### <div id="Parameter">Parameter</div>
+### <div id="parameter">Parameter</div>
 |名称|类型|描述|
 |---|---|---|
 |**name**|String|参数名称。|

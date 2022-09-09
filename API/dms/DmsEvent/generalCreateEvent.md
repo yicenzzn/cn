@@ -35,14 +35,14 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/event:generalCreate
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)| |
-|**requestId**|[String](#result)|请求id|
+|**result**|[Result](generalcreateevent#result)| |
+|**requestId**|[String](generalcreateevent#result)|请求id|
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**dmsSqls**|[DmsSql[]](#dmssql)|生成sql。|
-### <div id="DmsSql">DmsSql</div>
+|**dmsSqls**|[DmsSql[]](generalcreateevent#dmssql)|生成sql。|
+### <div id="dmssql">DmsSql</div>
 |名称|类型|描述|
 |---|---|---|
 |**sql**|String|SQL语句。|

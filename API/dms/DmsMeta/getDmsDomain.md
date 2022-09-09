@@ -2,7 +2,7 @@
 
 
 ## 描述
-获取Dms域名
+获取Dms域名，仅供前端使用
 
 ## 请求方式
 GET
@@ -22,6 +22,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/getDmsDomain
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](getdmsdomain#result)| |
+|**requestId**|[String](getdmsdomain#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
@@ -29,6 +30,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/getDmsDomain
 |**domains**|Object|区域到域名映射，例{"cn-north-1":"http://10.222.49.154:8080", "cn-east-1":"http://10.222.49.154:8080"}。|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|
