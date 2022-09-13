@@ -1,11 +1,11 @@
 ## 新建云电脑池
 ### 使用场景
-购买云电脑实例，创建云电脑。<br>
+创建一组云电脑，可以授权多用户使用。<br>
 ### 前提条件
 1、已登录京东云控制台。<br>
 2、选择一级菜单“弹性计算”下的二级菜单“云电脑”。<br>
 ### 操作步骤
-1、进入云电脑管理后台，点击左侧功能栏  “云电脑管理”，进入云电脑实例页面。点击“创建”进入购买云电脑页面。<br>
+1、进入云电脑管理后台，点击左侧功能栏  “云电脑池管理”，进入云电脑池列表页。点击“创建”进入创建云电脑池页面。<br>
 ![image](https://user-images.githubusercontent.com/103625856/172815250-f4d13f59-ad8e-4b41-8f9f-bc50226368a8.png)<br>
 ![image](https://user-images.githubusercontent.com/103625856/174574532-cb67c6bb-8d95-46b0-933c-38de5e2b5928.png)<br>
 ![image](https://user-images.githubusercontent.com/103625856/174574681-1e21bf89-bf52-45e2-8d92-1cb627275862.png)<br>
