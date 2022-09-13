@@ -114,7 +114,7 @@
           - name: 根据备份创建实例
             href: Operation-Guide/Restore-Backup/ReplicaSet/Create-Instance-By-Backup.md
           - name: 根据跨地域备份创建实例
-            href: Operation-Guide/Restore-Backup/ReplicaSet/Create-Instance-By-Synchronization-Backup.md
+            href: Operation-Guide/Restore-Backup/ReplicaSet/Create-Instace-By-Synchronization-Backup.md
           - name: 根据备份恢复实例
             href: Operation-Guide/Restore-Backup/ReplicaSet/Restore-Instance-By-Backup.md
       - name: 监控报警

@@ -52,7 +52,7 @@
 
 - [根据时间点创建实例](./Restore-Backup/ReplicaSet/Create-Instance-By-Point-In-Time.md)
 
-- [根据跨地域备份文件创建实例](./Restore-Backup/ReplicaSet/Create-Instance-By-Synchronization-Backup.md)
+- [根据跨地域备份文件创建实例](./Restore-Backup/ReplicaSet/Create-Instace-By-Synchronization-Backup.md)
 
 - [根据备份恢复实例](./Restore-Backup/ReplicaSet/Restore-Instance-By-Backup.md)
 
