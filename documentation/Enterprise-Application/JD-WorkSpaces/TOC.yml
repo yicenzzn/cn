@@ -53,8 +53,8 @@ items:
         href: Getting-Started/Workspace-Instance.md
       - name: 云电脑管理
         href: Getting-Started/Workspace-Details.md
-     #- name: 镜像管理
-      # href: Getting-Started/Private-Image.md  
+      - name: 镜像管理
+        href: Getting-Started/Private-Image.md  
       - name: 策略管理
         href: Getting-Started/Policy-Management.md
      #- name: 云电脑用户
