@@ -20,9 +20,9 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/procedure:invoke
 |**dataSourceId**|Integer|True| |数据源id|
 |**dbName**|String|True| |数据库名称。|
 |**procedureName**|String|True| |存储过程名称。|
-|**parameters**|[Parameter[]](#parameter)|True| |参数。|
+|**parameters**|[Parameter[]](procedureinvoke#parameter)|True| |参数。|
 
-### <div id="Parameter">Parameter</div>
+### <div id="parameter">Parameter</div>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**name**|String|True| |参数名称。|
@@ -33,10 +33,10 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/procedure:invoke
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)| |
-|**requestId**|[String](#result)|请求id|
+|**result**|[Result](procedureinvoke#result)| |
+|**requestId**|[String](procedureinvoke#result)|请求id|
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**returnValue**|Object[]|json数组，返回输出参数的名称与值|

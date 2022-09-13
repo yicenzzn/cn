@@ -26,6 +26,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/personalSql:query
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](querypersonalsqls#result)| |
+|**requestId**|[String](querypersonalsqls#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
@@ -45,6 +46,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/personalSql:query
 |**hint**|String|Sql备注。|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

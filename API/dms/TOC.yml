@@ -105,7 +105,7 @@ items:
           - name: generalDropEvent
             herf: DmsEvent/generalDropEvent.md
           - name: eventInfo
-            herf: DmsView/eventInfo.md
+            herf: DmsEvent/eventInfo.md
 
       - name: 函数
         items:

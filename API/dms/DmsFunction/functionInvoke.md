@@ -20,9 +20,9 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/function:invoke
 |**dataSourceId**|Integer|True| |数据源id|
 |**dbName**|String|True| |数据库名称。|
 |**functionName**|String|True| |函数名称。|
-|**parameters**|[Parameter[]](#parameter)|False| |参数。|
+|**parameters**|[Parameter[]](functioninvoke#parameter)|False| |参数。|
 
-### <div id="Parameter">Parameter</div>
+### <div id="parameter">Parameter</div>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**name**|String|True| |参数名称。|
@@ -33,10 +33,10 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/function:invoke
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)| |
-|**requestId**|[String](#result)|请求id|
+|**result**|[Result](functioninvoke#result)| |
+|**requestId**|[String](functioninvoke#result)|请求id|
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**returnValue**|String|返回值|

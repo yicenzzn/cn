@@ -24,11 +24,11 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/procedure:generalCreate
 |**dataAccess**|String|True| |数据访问，DEFAULT("DEFAULT", 1),NO_SQL("NO_SQL", 2), CONTAINS_SQL("CONTAINS_SQL", 3), READS_SQL_DATA("READS_SQL_DATA", 4), MODIFIES_SQL_DATA("MODIFIES_SQL_DATA", 5);|
 |**deterministic**|Boolean|True| |确定性。|
 |**definitionSql**|String|True| |存储过程定义SQL。|
-|**parameters**|[Parameter[]](#parameter)|False| |参数列表。|
+|**parameters**|[Parameter[]](generalcreateprocedure#parameter)|False| |参数列表。|
 |**definer**|String|False| |定义者。|
 |**comment**|String|False| |注释。|
 
-### <div id="Parameter">Parameter</div>
+### <div id="parameter">Parameter</div>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**name**|String|True| |参数名称。|
@@ -39,14 +39,14 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/procedure:generalCreate
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)| |
-|**requestId**|[String](#result)|请求id|
+|**result**|[Result](generalcreateprocedure#result)| |
+|**requestId**|[String](generalcreateprocedure#result)|请求id|
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**dmsSqls**|[DmsSql[]](#dmssql)|生成sql。|
-### <div id="DmsSql">DmsSql</div>
+|**dmsSqls**|[DmsSql[]](generalcreateprocedure#dmssql)|生成sql。|
+### <div id="dmssql">DmsSql</div>
 |名称|类型|描述|
 |---|---|---|
 |**sql**|String|SQL语句。|

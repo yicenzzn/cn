@@ -30,6 +30,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/instances:query
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](queryinstance#result)| |
+|**requestId**|[String](queryinstance#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
@@ -43,7 +44,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/instances:query
 ### <div id="dmsinstance">DmsInstance</div>
 |名称|类型|描述|
 |---|---|---|
-|**dbType**|Integer|数据库类型，CDS("CDS", 1), MYSQL("MYSQL", 2), ORACLE("ORACLE", 3), SQLSERVER("SQLSERVER", 4), CDSMYSQL("CDSMYSQL", 5), CDSORACLE("CDSORACLE", 6), CDSSQLSERVER("CDSSQLSERVER", 7), DATACENTER("DATACENTER", 8), HBASE("Hbase",9),MONGODB("MongoDb",10),ES("ES",11), MYSQL_INS("MYSQL_INS",12), DRDS_INS("DRDS_INS",13), STARDB_INS("STARDB_INS",14), STARDB_PROXY_INS("STARDB_PROXY_INS",15);。|
+|**dbType**|Integer|数据库类型，CDS("CDS", 1), MYSQL("MYSQL", 2), ORACLE("ORACLE", 3), SQLSERVER("SQLSERVER", 4), CDSMYSQL("CDSMYSQL", 5), CDSORACLE("CDSORACLE", 6), CDSSQLSERVER("CDSSQLSERVER", 7), DATACENTER("DATACENTER", 8), HBASE("Hbase",9),MONGODB("MongoDb",10),ES("ES",11), MYSQL_INS("MYSQL_INS",12), DRDS_INS("DRDS_INS",13), STARDB_INS("STARDB_INS",14), STARDB_PROXY_INS("STARDB_PROXY_INS",15), CLICK_HOUSE_INS("CLICK_HOUSE_INS",16), TIDB_INS("TIDB_INS",17);。|
 |**dataSource**|[DataSource](queryinstance#datasource)|数据源详情。|
 |**instanceInfo**|Object|从RDS，DRDS获取的数据源详情。|
 ### <div id="datasource">DataSource</div>
@@ -59,7 +60,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/instances:query
 |**passwd**|String|数据库密码。|
 |**passwdEcrypt**|String|数据库加密密码。|
 |**cdsCluster**|String|Cds集群名称。|
-|**dbType**|Integer|数据库类型，CDS("CDS", 1), MYSQL("MYSQL", 2), ORACLE("ORACLE", 3), SQLSERVER("SQLSERVER", 4), CDSMYSQL("CDSMYSQL", 5), CDSORACLE("CDSORACLE", 6), CDSSQLSERVER("CDSSQLSERVER", 7), DATACENTER("DATACENTER", 8), HBASE("Hbase",9),MONGODB("MongoDb",10),ES("ES",11), MYSQL_INS("MYSQL_INS",12), DRDS_INS("DRDS_INS",13),STARDB_INS("STARDB_INS",14), STARDB_PROXY_INS("STARDB_PROXY_INS",15);。|
+|**dbType**|Integer|数据库类型，CDS("CDS", 1), MYSQL("MYSQL", 2), ORACLE("ORACLE", 3), SQLSERVER("SQLSERVER", 4), CDSMYSQL("CDSMYSQL", 5), CDSORACLE("CDSORACLE", 6), CDSSQLSERVER("CDSSQLSERVER", 7), DATACENTER("DATACENTER", 8), HBASE("Hbase",9),MONGODB("MongoDb",10),ES("ES",11), MYSQL_INS("MYSQL_INS",12), DRDS_INS("DRDS_INS",13),STARDB_INS("STARDB_INS",14), STARDB_PROXY_INS("STARDB_PROXY_INS",15), CLICK_HOUSE_INS("CLICK_HOUSE_INS",16), TIDB_INS("TIDB_INS",17);|
 |**createTime**|String|创建时间。|
 |**environmentType**|Integer|环境类型，已废弃。|
 |**dbTypeName**|String|已废弃。|
@@ -82,6 +83,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/instances:query
 |**extra**|String|保留字段。|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|
