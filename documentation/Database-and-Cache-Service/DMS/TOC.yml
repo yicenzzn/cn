@@ -33,7 +33,7 @@ items:
         items:
           - name: 视图管理
             href: Operation-Guide/view-management.md
-	  - name: 存储过程管理
+          - name: 存储过程管理
             href: Operation-Guide/procedure-management.md
           - name: 函数管理
             href: Operation-Guide/function-management.md
