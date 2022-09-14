@@ -6,9 +6,9 @@
 2、选择一级菜单“弹性计算”下的二级菜单“云电脑”。<br>
 ### 操作步骤
 1、进入云电脑管理后台，点击左侧功能栏  “云电脑管理”，进入用云电脑管理页面。<br>
-![image](https://user-images.githubusercontent.com/103625856/172816450-9cebd6a7-f129-4bd3-987b-8079181963a3.png)<br>
-2、在云电脑列表操作区，对云电脑进行开机、关机、重启、续费操作；。<br>
-![image](https://user-images.githubusercontent.com/103625856/172818573-02ef2e1d-0ed1-4004-b488-af2483894f0a.png)<br>
+![image](https://user-images.githubusercontent.com/103625856/190094811-07e64e94-12d5-49ef-8e8b-81f0f31b7b7c.png)<br>
+2、在云电脑列表操作区，对云电脑进行开机、关机、重启、续费、调整配置、生成镜像、调整策略、解绑用户等操作；。<br>
+![image](https://user-images.githubusercontent.com/103625856/190108200-893fa886-fdbe-4d3c-93b2-67865d1865f0.png)<br>
 从停止服务时刻起您的实例和实例中的数据保留7天，7天后会向您发送资源释放通知，资源回收后数据无法找回。<br>
 资源停用7天内，即未触发资源回收前，您可对其进行续费操作，续费后资源将自动恢复使用。若续费后实例未恢复成运行状态，请您手动启动实例。<br>
 
