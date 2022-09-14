@@ -28,12 +28,12 @@
 
 ### 实例创建
 
-- [创建副本集实例](./Get-Started-Replica/Create-ReplicaSet-Instance.md)
+- [创建副本集实例](./Getting-Started-Replica/Create-ReplicaSet-Instance.md)
 - [创建分片集群实例](./Get-Started-Shard/Create-Sharding-Instance.md)
 
 ### 实例管理
 
-- [设置白名单](Set-WhiteList.md)
+- [设置白名单](Set-Whitelist.md)
 - [修改密码](Reset-Password.md)
 
 ### 数据库连接

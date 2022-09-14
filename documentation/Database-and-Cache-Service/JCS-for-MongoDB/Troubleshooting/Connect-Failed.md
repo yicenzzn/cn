@@ -17,7 +17,7 @@
 
     副本集请参考：[内网连接副本集实例](../Getting-Started/Getting-Started-Replica/Connect-ReplicaSet-Intranet.md)
 
-    分片集群请参考：[内网连接分片集群实例](../Getting-Started/Getting-Started-Shard/Connect-Sharding-Intranet.md)
+    分片集群请参考：[内网连接分片集群实例](../Getting-Started/Get-Started-Shard/Connect-Sharding-Intranet.md)
 
 1. 确认用于连接的云主机是否与 MongoDB 实例是否在同一个VPC。
 
