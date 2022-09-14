@@ -22,15 +22,15 @@ https://tidb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/replic
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)| |
-|**requestId**|[String](#result)|请求id|
+|**result**|[Result](describereplications#result)| |
+|**requestId**|[String](describereplications#result)|请求id|
 
-### <div id="Result">Result</div>
+### <div id="result">result</div>
 |名称|类型|描述|
 |---|---|---|
 |**totalCount**|Integer|总记录数|
-|**replications**|[ReplicationTask[]](#replicationtask)| |
-### <div id="ReplicationTask">ReplicationTask</div>
+|**replications**|[ReplicationTask[]](describereplications#replicationtask)| |
+### <div id="replicationtask">ReplicationTask</div>
 |名称|类型|描述|
 |---|---|---|
 |**taskId**|String|复制任务ID|

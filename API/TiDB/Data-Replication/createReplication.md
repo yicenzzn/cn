@@ -18,9 +18,9 @@ https://tidb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/replic
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**replication**|[ReplicationSpec](#replicationspec)|True| |新建TiCDC复制任务|
+|**replication**|[ReplicationSpec](createreplication#replicationspec)|True| |新建TiCDC复制任务|
 
-### <div id="ReplicationSpec">ReplicationSpec</div>
+### <div id="replicationspec">ReplicationSpec</div>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**startTS**|String|False| |复制的起始时间戳|
