@@ -51,7 +51,7 @@
         items:
           - name: 实例状态
             href: Operation-Guide/Instance-Management/LifeCycle.md
-          - name: 实例节点管理
+          - name: 实例节点列表
             href: Operation-Guide/Instance-Management/NodeList.md
           - name: 变更配置
             href: Operation-Guide/Instance-Management/Change-Configuration.md
