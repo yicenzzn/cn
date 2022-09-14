@@ -12,13 +12,11 @@ RDTS工具支持“全量数据迁移+增量数据迁移”：
 
 -   增量迁移：通过增量数据迁移可以实现在不停服下，平滑完成数据迁移。RDTS 迁移服务支持全量迁移 + 增量同步，将数据实时同步到云上。
 
-| 支持的源库 |  支持的目标库  |    支持的版本  | 
+| 数据同步支持的源库 |  数据同步支持的目标库  |    支持的版本  | 
 | :--- | :---  |  :---  | 
-| 自建开源 Redis（standalone、codis）| 云缓存Redis（标准版、Proxy集群版）   |  2.8\3.0\3.2\4.0\5.0  | 
-| 自建开源cluster集群                | 云缓存Redis（Cluster集群版）        |  2.8\3.0\3.2\4.0\5.0   | 
-| 云缓存Redis（标准版、Proxy集群版）  |  云缓存Redis（标准版、Proxy集群版）  | 2.8\4.0  | 
-| 云缓存Redis（Cluster集群版）       |  云缓存Redis（Cluster集群版）       | 5.0  | 
-| 云缓存Redis（标准版、Proxy集群版、Cluster集群版） | 自建Redis（主从模式、Cluster集群、Codis）   | 注意高版本向低版本迁移时，请确定是否有低版本不支持的命令，如果有则可能在同步过程中报错。 | 
+| 自建开源 Redis（standalone、codis、Cluster集群版）| 云缓存Redis（标准版、Proxy集群版、Cluster集群版）   |  2.8\3.0\3.2\4.0\5.0  | 
+| 云缓存Redis（标准版、Proxy集群版、Cluster集群版）  |  自建Redis（主从模式、Cluster集群、Codis）    | 3.0\3.2\4.0\5.0 | 
+
 
 
 **注意：**
