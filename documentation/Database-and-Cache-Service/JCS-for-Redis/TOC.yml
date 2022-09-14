@@ -51,6 +51,8 @@
         items:
           - name: 实例状态
             href: Operation-Guide/Instance-Management/LifeCycle.md
+          - name: 实例节点管理
+            href: Operation-Guide/Instance-Management/NodeList.md
           - name: 变更配置
             href: Operation-Guide/Instance-Management/Change-Configuration.md
           - name: 删除实例
@@ -72,7 +74,9 @@
           - name: 备份恢复
             href: Operation-Guide/Backup-And-Recovery.md   
           - name: 升级实例版本
-            href: Operation-Guide/Instance-Management/UpgradeInstanceVersion.md     
+            href: Operation-Guide/Instance-Management/UpgradeInstanceVersion.md    
+          - name: WebCli
+            href: Operation-Guide/Instance-Management/WebCli.md    
       - name: 连接实例
         items:
           - name: 公网连接Redis实例
