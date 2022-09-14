@@ -4,8 +4,12 @@
 
 | 动态名称 | 动态描述  | 发布时间	  | 相关文档   |
 |   :---  |  :---   |  :---  |:---  |
+|   增加Redis5.0支持WebCli   |  支持通过WebCli直接查看实例节点数据   |  2022-08  |  [WebCli](../Operation-Guide/Instance-Management/WebCli.md)     |
+|   增加Redis5.0支持查看节点列表  |  新增Redis5.0支持节点列表   |  2022-08   | [实例节点列表](../Operation-Guide/Instance-Management/NodeList.md)   |
+|   增加Redis5.0支持大key热key查询  |  Redis5.0支持大key热key查询功能和下载数据详情功能   |   2022-08   |  [大Key热Key分析](../Operation-Guide/Cache-Analysis/Key-Analysis.md)   |
+|   公测Redis迁移工具RDTS | 支持开源Standalone、codis、cluster版本集群迁移上云   |   2022-07   | [Redis迁移工具RDTS](../Data-Migration/Data-Migration-Overview.md)    |
 |  Redis 5.0 Cluster集群版正式上线  |  Redis 5.0 Cluster集群版正式上线     |  2022-07   |  [实例架构](../Introduction/Features.md)        |
-|  公测Redis迁移工具RDTS  | 公测Redis迁移工具RDTS    |  2022-07   |  [迁移工具](../Data-Migration/Data-Migration-Overview.md)        |
+
 
 ## 2022年Q2
 
