@@ -1,4 +1,4 @@
-# Redis数据迁移工具RDTS介绍
+# Redis迁移工具RDTS介绍
 
 ## 产品介绍
 
