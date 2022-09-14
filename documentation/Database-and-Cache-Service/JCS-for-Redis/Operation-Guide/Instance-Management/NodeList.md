@@ -28,13 +28,41 @@
 |  Slot个数    |  slots  |  		Integer	  |  	节点负责的Slot个数  |  	
 |  节点已使用内存   |  usedMemory  |  		Integer	  |  	节点已使用内存，单位Byte  |  	
 |  节点总内存   |  maxMemory	  |  	Integer	  |  	节点总内存，单位Byte  |  	
-|  节点名称    |  name  |  	String  |  	节点名称，唯一标识一个节点  |  
+
 
 3.当某节点发生故障时，会观测到某一节点状态异常，此时平台会自动触发高可用机制进行故障恢复。
 
 - 为监测节点运行状态，您可配置节点异常监控指标获得监控报警，配置方式见： [节点异常监控](../Monitoring/Node-Notice.md)  
 
 4.通过每个节点所在行的操作中，点击WebCli，可直接查看当前节点的信息。通过列表顶部的WebCli可查看当前实例维度的实例信息数据。
+
+
+##  节点故障模拟
+
+可参考以下操作来模拟节点故障。
+
+1、	进入实例的节点列表页，可以查看到当前实例的所有节点信息，并且均为正常状态
+
+![](../../../../../image/Redis/NodeList-2.png)
+ 
+2、	通过命令行删除一个主节点pod，
+
+
+    kubectl delete pod redis-fdpdmewsykky-shard-0-master-0 -n redis-fdpdmewsykky
+ 
+ 
+ 
+3、	回到控制台页面，可看到节点发生异常
+
+ ![](../../../../../image/Redis/NodeList-3.png)
+ 
+4、	此时会自动触发Redis高可用机制，redis开始自动主从切换。
+
+5、	待切换完成后，Pod会重新正常运行、在Redis节点列表页也可观测到节点开始正常运转。
+ 
+ ![](../../../../../image/Redis/NodeList-4.png)
+
+
 
 
 
