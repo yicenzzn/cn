@@ -80,4 +80,4 @@
 
 ## 计费
 
-云数据库 MongoDB 支持 包年包月 和 按配置 计费两种计费类型。详细说明请参见[计费概述](../Pricing/Billing-Overview.md)。
+云数据库 MongoDB 支持**包年包月**和**按配置计费**两种计费类型。详细说明请参见[计费概述](../Pricing/Billing-Overview.md)。
