@@ -2,7 +2,7 @@
 
 
 ## 描述
-开启 TiDB 和 MySQL 客户端之间的 SSL 连接功能。
+开启 TiDB 实例的 Internet 公网服务。开启后，并配置 IP 白名单后，可以在 VPC 外通过公网域名访问 TiDB 实例。
 
 ## 请求方式
 POST
