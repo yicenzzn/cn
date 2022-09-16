@@ -6,10 +6,9 @@
 2、选择一级菜单“ 弹性计算”下的二级菜单“云电脑”。<br>
 ### 操作步骤
 1、进入云电脑管理后台，点击左侧功能栏  “策略管理”，进入策略管理页面。包含：主机策略以及用户策略。默认选中主机策略。点击“创建”，进入创建策略页面。<br>
-![image](https://user-images.githubusercontent.com/103625856/172797242-0818a776-af32-4fbe-90cb-a538cc3c4996.png)<br>
-![image](https://user-images.githubusercontent.com/103625856/172798643-a7aafc39-44e6-4aca-bacb-d05901b04b11.png)<br>
-![image](https://user-images.githubusercontent.com/103625856/172799094-0dde014d-dd4b-45a7-b301-f612f98c200d.png)<br>
-![image](https://user-images.githubusercontent.com/103625856/177912649-03c65353-652a-4aa2-bf23-4f66aeb34ec7.png)<br>
+![image](https://user-images.githubusercontent.com/103625856/190592122-836f6643-7e73-4e4f-b136-c2348fa57052.png)<br>
+![image](https://user-images.githubusercontent.com/103625856/190592631-3424d883-94eb-4103-b7c9-31b6f8142a81.png)<br>
+![image](https://user-images.githubusercontent.com/103625856/190592926-034fcf1e-4129-4f2e-82a8-b159249e6e01.png)<br>
 2、填写创建策略相关信息：<br>
 地域：默认选择“华北-北京”<br>
 工作区：如果未创建工作区，请先创建工作区<br>
