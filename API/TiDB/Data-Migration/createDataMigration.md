@@ -18,7 +18,7 @@ https://tidb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/migrat
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**migrationType**|String|True| |迁移任务类型，支持以下类型（大小写不敏感）：-FULL_IMPORT:全量数据导入|
+|**migrationType**|String|True| |迁移任务类型，支持以下类型（大小写不敏感）：<br>-FULL_IMPORT:全量数据导入|
 |**importTask**|[FullImportTask](createdatamigration#fullimporttask)|True| |使用 TiDB Lightning 进行的数据迁移任务|
 
 ### <div id="fullimporttask">FullImportTask</div>
