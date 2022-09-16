@@ -50,9 +50,11 @@ b)	端口取值1-65535，可填写单一端口如“22”或端口范围如“20
 |1434       |SQL Server      | SQL Server SQL Server的UDP端口，用于向请求者返回SQL Server使用了哪个TCP/IP端口       | 
 |3306       |MySQL      | MySQL 数据库的默认端口，用于 MySQL 对外提供服务          | 
 |3389       |Windows Server Remote Desktop Services      |Windows Server Remote Desktop Services（远程桌面服务）端口，可以通过这个端口使用软件连接Windows实例           | 
-|8080       |代理端口      |8080端口同80端口，是被用于 WWW 代理服务的，可以实现网页浏览，经常在访问某个网站或使用代理服务器的时候，需要在IP地址后加上“:8080”端口号。另外安装 Apache Tomcat web server 服务后，默认的服务端口即8080           | 
-<br>
+|8080       |代理端口      |8080端口同80端口，是被用于 WWW 代理服务的，可以实现网页浏览，经常在访问某个网站或使用代理服务器的时候，需要在IP地址后加上“:8080”端口号。另外安装 Apache Tomcat web server 服务后，默认的服务端口即8080           | <br>
+
+
 3、选中用户策略。点击“创建”，进入创建用户策略页面。<br>
+ 
  ![image](https://user-images.githubusercontent.com/103625856/190594087-1793c671-5f74-4313-8042-8a57a134abc9.png)<br>
  ![image](https://user-images.githubusercontent.com/103625856/190594334-743089bf-324a-46a6-ac8a-a2e581f45800.png)<br>
 
