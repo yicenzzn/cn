@@ -16,5 +16,11 @@
    关机：批量为池内的云电脑进行关机。<br>
    重启：批量为池内的云电脑进行重启。<br>
    修改重置类型：批量为池内的云电脑修改重置类型。<br>
+4、云电脑池详情，包含：基本信息、用户信息、云电脑信息。<br>
+![image](https://user-images.githubusercontent.com/103625856/190570017-86aed0a2-9644-4cec-9c3a-40eff56aba56.png)<br>
+![image](https://user-images.githubusercontent.com/103625856/190571419-0831d1bc-3eba-43cd-9808-a92432d3cae6.png)<br>
+
+
+
 
 
