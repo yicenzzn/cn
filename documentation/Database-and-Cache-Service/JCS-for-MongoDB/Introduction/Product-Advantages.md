@@ -44,5 +44,5 @@
 - [创建分片集群实例](../Getting-Started/Get-Started-Shard/Create-Sharding-Instance.md)
 - [产品概述](./Product-Overview.md)
 - [产品规格](./Product-Specifications.md)
-- [实例价格](../Pricing/Price-Of-Instance.md)
+- [实例价格](../Pricing/Price-Overview.md)
 - [查看监控信息](../Operation-Guide/Monitoring/Monitoring.md)

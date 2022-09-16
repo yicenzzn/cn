@@ -35,5 +35,5 @@
 
 - [产品概述](Product-Overview.md)
 - [产品规格](../Introduction/Product-Specifications.md)
-- [实例价格](../Pricing/Price-Of-Instance.md)
+- [实例价格](../Pricing/Price-Overview.md)
 

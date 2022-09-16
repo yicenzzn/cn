@@ -18,9 +18,9 @@
   - name: 产品定价
     items:
       - name: 计费概述
-        href: Pricing/Billing-overall.md
+        href: Pricing/Billing-Overview.md
       - name: 实例价格
-        href: Pricing/Price-Of-Instance.md 
+        href: Pricing/Price-Overview.md 
       - name: 续费流程
         href: Pricing/Renew-Process.md
   - name: 快速入门
