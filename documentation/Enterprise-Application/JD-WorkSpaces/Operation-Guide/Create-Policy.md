@@ -5,7 +5,7 @@
 1、已登录京东云控制台。<br>
 2、选择一级菜单“ 弹性计算”下的二级菜单“云电脑”。<br>
 ### 操作步骤
-1、进入云电脑管理后台，点击左侧功能栏  “策略管理”，进入策略管理页面。点击“创建”，进入创建策略页面。<br>
+1、进入云电脑管理后台，点击左侧功能栏  “策略管理”，进入策略管理页面。包含：主机策略以及用户策略。默认选中主机策略。点击“创建”，进入创建策略页面。<br>
 ![image](https://user-images.githubusercontent.com/103625856/172797242-0818a776-af32-4fbe-90cb-a538cc3c4996.png)<br>
 ![image](https://user-images.githubusercontent.com/103625856/172798643-a7aafc39-44e6-4aca-bacb-d05901b04b11.png)<br>
 ![image](https://user-images.githubusercontent.com/103625856/172799094-0dde014d-dd4b-45a7-b301-f612f98c200d.png)<br>
