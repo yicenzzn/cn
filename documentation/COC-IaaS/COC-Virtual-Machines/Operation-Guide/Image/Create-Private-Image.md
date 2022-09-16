@@ -20,19 +20,4 @@
 <div align="center"><img src="https://img1.jcloudcs.com/cn/image/vm/Operation-Guide-Image-create2-a.png" width="700"></div>
 
 ![](https://img1.jcloudcs.com/cn/image/vm/Operation-Guide-Image-create3.png)
- 
-## 相关参考
- 
-[镜像类型转换](Convert-Image.md)
- 
-[设备名分配规则](../Storage/Assign-Device-Name.md)
-
-
-  [1]: https://cns-console.jdcloud.com/
-  [2]: https://console.jdcloud.com/
-  [3]: ./images/Operation-Guide-Image-create1.png "Operation-Guide-Image-create1.png"
-  [4]: ./images/Operation-Guide-Image-create2.png "Operation-Guide-Image-create2.png"
-  [5]: ./images/Operation-Guide-Image-create3.png "Operation-Guide-Image-create3.png"
-
-  [6]: ./images/Operation-Guide-Image-create4.png "Operation-Guide-Image-create4.png"
 
