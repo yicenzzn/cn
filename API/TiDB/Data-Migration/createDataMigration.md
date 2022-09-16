@@ -2,7 +2,7 @@
 
 
 ## 描述
-查询 TiDB 数据迁移任务的信息
+创建一个数据迁移任务，可以将对象存储 OSS 中的数据导入到 TiDB 实例中，具体可以参考帮助文档。
 
 ## 请求方式
 POST
@@ -18,7 +18,7 @@ https://tidb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/migrat
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**migrationType**|String|True| |迁移任务类型，支持以下类型（大小写不敏感）：-FULL_IMPORT:全量数据导入|
+|**migrationType**|String|True| |迁移任务类型，支持以下类型（大小写不敏感）：<br>-FULL_IMPORT:全量数据导入|
 |**importTask**|[FullImportTask](createdatamigration#fullimporttask)|True| |使用 TiDB Lightning 进行的数据迁移任务|
 
 ### <div id="fullimporttask">FullImportTask</div>
