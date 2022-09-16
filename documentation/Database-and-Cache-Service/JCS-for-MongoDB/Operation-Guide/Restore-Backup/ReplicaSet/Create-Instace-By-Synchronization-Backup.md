@@ -6,7 +6,7 @@
 
 ## 注意事项
 
-- 新势力的存储空间不应小于源实例，否则可能创建失败；
+- 新势力的存储空间不应小于源实例，否则可能创建失败。
 
 - 创建完成时间与源实例的数据量大小有关，通常在几分钟至数小时内完成。
 
@@ -14,7 +14,7 @@
 
 ## 操作步骤
 
-1. 登录[MongoDB控制台](https://mongodb-console.jdcloud.com/mongodb)，
+1. 登录[MongoDB控制台](https://mongodb-console.jdcloud.com/mongodb)；
 
 2. 点击左侧列表中的**跨地域备份同步**标签，进入相应页面；
 
