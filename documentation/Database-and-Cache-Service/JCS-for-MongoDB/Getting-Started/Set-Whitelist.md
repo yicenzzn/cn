@@ -36,4 +36,4 @@ MongoDB实例创建完成后，默认会将当前实例所在VPC的CIDR加入到
 | 接口名称                                                     | 接口描述           |
 | ------------------------------------------------------------ | ------------------ |
 | [describeSecurityIps](../../../../API/JCS-for-MongoDB/Security-Management/describeSecurityIps.md) | 查询实例访问白名单 |
-| [modifySecurityIps](../../../../API/JCS-for-MongoDB/Security-Management/modifySecurityIps.md) | 修改实例访问       |
+| [modifySecurityIps](../../../../API/JCS-for-MongoDB/Security-Management/modifySecurityIps.md) | 修改实例访问白名单 |
