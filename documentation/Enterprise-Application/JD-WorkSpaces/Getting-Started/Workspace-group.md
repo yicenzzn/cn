@@ -19,6 +19,7 @@
 4、云电脑池详情，包含：基本信息、用户信息、云电脑信息。<br>
 ![image](https://user-images.githubusercontent.com/103625856/190570017-86aed0a2-9644-4cec-9c3a-40eff56aba56.png)<br>
 ![image](https://user-images.githubusercontent.com/103625856/190571419-0831d1bc-3eba-43cd-9808-a92432d3cae6.png)<br>
+![image](https://user-images.githubusercontent.com/103625856/190572560-9b48cf9b-992a-4f12-a07c-9d7e2ca043a0.png)<br>
 
 
 
