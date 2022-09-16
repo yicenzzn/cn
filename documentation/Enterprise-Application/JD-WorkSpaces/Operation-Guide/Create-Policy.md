@@ -53,8 +53,8 @@ b)	端口取值1-65535，可填写单一端口如“22”或端口范围如“20
 |8080       |代理端口      |8080端口同80端口，是被用于 WWW 代理服务的，可以实现网页浏览，经常在访问某个网站或使用代理服务器的时候，需要在IP地址后加上“:8080”端口号。另外安装 Apache Tomcat web server 服务后，默认的服务端口即8080           | 
 <br>
 3、选中用户策略。点击“创建”，进入创建用户策略页面。<br>
-![image](https://user-images.githubusercontent.com/103625856/190592926-034fcf1e-4129-4f2e-82a8-b159249e6e01.png)<br>
-![image](https://user-images.githubusercontent.com/103625856/190593725-acda1e7b-5d3d-46da-8844-a4bc6e3cbd0a.png)<br>
+ ![image](https://user-images.githubusercontent.com/103625856/190594087-1793c671-5f74-4313-8042-8a57a134abc9.png)<br>
+ ![image](https://user-images.githubusercontent.com/103625856/190594334-743089bf-324a-46a6-ac8a-a2e581f45800.png)<br>
 
 (1)软件规则未设置时，允许运行所有软件。 <br>
 (2)黑名单非空时，禁止运行列表中的软件；白名单非空时，仅允许运行列表种的软件。<br>
