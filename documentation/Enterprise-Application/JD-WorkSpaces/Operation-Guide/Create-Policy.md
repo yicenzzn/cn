@@ -8,7 +8,7 @@
 1、进入云电脑管理后台，点击左侧功能栏  “策略管理”，进入策略管理页面。包含：主机策略以及用户策略。默认选中主机策略。点击“创建”，进入创建策略页面。<br>
 ![image](https://user-images.githubusercontent.com/103625856/190592122-836f6643-7e73-4e4f-b136-c2348fa57052.png)<br>
 ![image](https://user-images.githubusercontent.com/103625856/190592631-3424d883-94eb-4103-b7c9-31b6f8142a81.png)<br>
-![image](https://user-images.githubusercontent.com/103625856/190592926-034fcf1e-4129-4f2e-82a8-b159249e6e01.png)<br>
+
 2、填写创建策略相关信息：<br>
 地域：默认选择“华北-北京”<br>
 工作区：如果未创建工作区，请先创建工作区<br>
@@ -52,7 +52,10 @@ b)	端口取值1-65535，可填写单一端口如“22”或端口范围如“20
 |3389       |Windows Server Remote Desktop Services      |Windows Server Remote Desktop Services（远程桌面服务）端口，可以通过这个端口使用软件连接Windows实例           | 
 |8080       |代理端口      |8080端口同80端口，是被用于 WWW 代理服务的，可以实现网页浏览，经常在访问某个网站或使用代理服务器的时候，需要在IP地址后加上“:8080”端口号。另外安装 Apache Tomcat web server 服务后，默认的服务端口即8080           | 
 <br>
-软件黑白名单：<br>
+3、选中用户策略。点击“创建”，进入创建用户策略页面。<br>
+![image](https://user-images.githubusercontent.com/103625856/190592926-034fcf1e-4129-4f2e-82a8-b159249e6e01.png)<br>
+![image](https://user-images.githubusercontent.com/103625856/190593725-acda1e7b-5d3d-46da-8844-a4bc6e3cbd0a.png)<br>
+
 (1)软件规则未设置时，允许运行所有软件。 <br>
 (2)黑名单非空时，禁止运行列表中的软件；白名单非空时，仅允许运行列表种的软件。<br>
 (3)黑名单与白名单都添加某软件时，禁止运行该软件。<br>
