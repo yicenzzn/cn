@@ -2,7 +2,7 @@
 
 
 ## 描述
-关闭TiDB服务的公网访问域名
+关闭 TiDB 实例的 Internet 公网服务。 关闭后，将不能在 VPC 外访问 TiDB 实例。
 
 ## 请求方式
 POST
