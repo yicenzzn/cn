@@ -5,11 +5,10 @@
 1、已登录京东云控制台。<br>
 2、选择一级菜单“ 弹性计算”下的二级菜单“云电脑”。<br>
 ### 操作步骤
-1、进入云电脑管理后台，点击左侧功能栏  “策略管理”，进入策略管理页面。点击“创建”，进入创建策略页面。<br>
-![image](https://user-images.githubusercontent.com/103625856/172797242-0818a776-af32-4fbe-90cb-a538cc3c4996.png)<br>
-![image](https://user-images.githubusercontent.com/103625856/172798643-a7aafc39-44e6-4aca-bacb-d05901b04b11.png)<br>
-![image](https://user-images.githubusercontent.com/103625856/172799094-0dde014d-dd4b-45a7-b301-f612f98c200d.png)<br>
-![image](https://user-images.githubusercontent.com/103625856/177912649-03c65353-652a-4aa2-bf23-4f66aeb34ec7.png)<br>
+1、进入云电脑管理后台，点击左侧功能栏  “策略管理”，进入策略管理页面。包含：主机策略以及用户策略。默认选中主机策略。点击“创建”，进入创建策略页面。<br>
+![image](https://user-images.githubusercontent.com/103625856/190592122-836f6643-7e73-4e4f-b136-c2348fa57052.png)<br>
+![image](https://user-images.githubusercontent.com/103625856/190592631-3424d883-94eb-4103-b7c9-31b6f8142a81.png)<br>
+
 2、填写创建策略相关信息：<br>
 地域：默认选择“华北-北京”<br>
 工作区：如果未创建工作区，请先创建工作区<br>
@@ -51,9 +50,14 @@ b)	端口取值1-65535，可填写单一端口如“22”或端口范围如“20
 |1434       |SQL Server      | SQL Server SQL Server的UDP端口，用于向请求者返回SQL Server使用了哪个TCP/IP端口       | 
 |3306       |MySQL      | MySQL 数据库的默认端口，用于 MySQL 对外提供服务          | 
 |3389       |Windows Server Remote Desktop Services      |Windows Server Remote Desktop Services（远程桌面服务）端口，可以通过这个端口使用软件连接Windows实例           | 
-|8080       |代理端口      |8080端口同80端口，是被用于 WWW 代理服务的，可以实现网页浏览，经常在访问某个网站或使用代理服务器的时候，需要在IP地址后加上“:8080”端口号。另外安装 Apache Tomcat web server 服务后，默认的服务端口即8080           | 
-<br>
-软件黑白名单：<br>
+|8080       |代理端口      |8080端口同80端口，是被用于 WWW 代理服务的，可以实现网页浏览，经常在访问某个网站或使用代理服务器的时候，需要在IP地址后加上“:8080”端口号。另外安装 Apache Tomcat web server 服务后，默认的服务端口即8080           | <br>
+
+
+3、选中用户策略。点击“创建”，进入创建用户策略页面。<br>
+ 
+ ![image](https://user-images.githubusercontent.com/103625856/190594087-1793c671-5f74-4313-8042-8a57a134abc9.png)<br>
+ ![image](https://user-images.githubusercontent.com/103625856/190594334-743089bf-324a-46a6-ac8a-a2e581f45800.png)<br>
+
 (1)软件规则未设置时，允许运行所有软件。 <br>
 (2)黑名单非空时，禁止运行列表中的软件；白名单非空时，仅允许运行列表种的软件。<br>
 (3)黑名单与白名单都添加某软件时，禁止运行该软件。<br>
