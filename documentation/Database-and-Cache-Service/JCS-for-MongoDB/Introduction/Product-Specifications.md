@@ -1,6 +1,6 @@
 # 产品规格
 
-京东云云数据库MongoDB目前支持以下规格
+京东云云数据库MongoDB目前支持以下规格实例，你可以根据表格中所描述的相关参数进行选购。
 
 
 
@@ -104,7 +104,7 @@
 
 ## 相关参考
 
-- [实例价格](../Pricing/Price-Of-Instance.md)
+- [实例价格](../Pricing/Price-Overview.md)
 - [创建副本集实例](../Getting-Started/Getting-Started-Replica/Create-ReplicaSet-Instance.md)
 - [创建分片集群实例](../Getting-Started/Get-Started-Shard/Create-Sharding-Instance.md)
-- [产品概述](./Product-Summarization.md)
+- [产品概述](./Product-Overview.md)

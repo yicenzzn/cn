@@ -15,8 +15,8 @@
 
 - [产品优势](./Product-Advantages.md)
 
-- [实例价格](../Pricing/Price-Of-Instance.md)
+- [实例价格](../Pricing/Price-Overview.md)
 
-- [计费规则](../Pricing/Billing-overall.md)
+- [计费规则](../Pricing/Billing-Overview.md)
 
   

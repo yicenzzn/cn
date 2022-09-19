@@ -16,8 +16,8 @@
 ## 相关参考
 
 - [产品优势](../Introduction/Product-Advantages.md)
-- [价格总览](../Pricing/Price-Of-Instance.md)
-- [计费概览](../Pricing/Billing-overall.md)
+- [实例价格](../Pricing/Price-Overview.md)
+- [计费概览](../Pricing/Billing-Overview.md)
 - [创建副本集实例](../Getting-Started/Getting-Started-Replica/Create-ReplicaSet-Instance.md)
 - [创建分片集群实例](../Getting-Started/Get-Started-Shard/Create-Sharding-Instance.md)
 
