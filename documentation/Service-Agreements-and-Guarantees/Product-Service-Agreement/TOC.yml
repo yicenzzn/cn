@@ -823,5 +823,5 @@ items:
   - name: 轻量云主机服务条款
     href: Light-Virtual-Machine.md
   - name: 云原生实时数仓Starwift服务条款
-    href: Starwift-Trial-Terms-Of-Service.md   
+    href: Cloud-Native-Data-Warehouse-Starwift.md 
 
