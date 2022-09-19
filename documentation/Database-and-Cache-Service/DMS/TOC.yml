@@ -7,7 +7,7 @@ items:
         href: Introduction/Product-Overview.md
       - name: 产品优势
         href: Introduction/Benefits.md
-      - name: 产品功能
+      - name: 支持的数据库类型与功能
         href: Introduction/Features.md
       - name: 应用场景
         href: Introduction/Application-Scenarios.md
@@ -33,4 +33,12 @@ items:
         items:
           - name: 视图管理
             href: Operation-Guide/view-management.md
+          - name: 存储过程管理
+            href: Operation-Guide/procedure-management.md
+          - name: 函数管理
+            href: Operation-Guide/function-management.md
+          - name: 触发器管理
+            href: Operation-Guide/trigger-management.md
+          - name: 事件管理
+            href: Operation-Guide/event-management.md
        
