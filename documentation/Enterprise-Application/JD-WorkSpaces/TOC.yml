@@ -47,18 +47,18 @@ items:
         href: Operation-Guide/Create-Image.md
   - name: 管理指南
     items:
-      - name: 用户管理
-        href: Getting-Started/Active-Directory-Manager.md
-      - name: 工作组管理
-        href: Getting-Started/Workspace-Instance.md
       - name: 云电脑管理
         href: Getting-Started/Workspace-Details.md
-      - name: 镜像管理
-        href: Getting-Started/Private-Image.md  
+      - name: 云电脑池管理
+        href: Getting-Started/Workspace-group.md
+      - name: 工作组管理
+        href: Getting-Started/Workspace-Instance.md
+      - name: 用户管理
+        href: Getting-Started/Active-Directory-Manager.md
       - name: 策略管理
         href: Getting-Started/Policy-Management.md
-     - name: 云电脑池管理
-       href: Getting-Started/Workspace-group.md
+      - name: 镜像管理
+        href: Getting-Started/Private-Image.md  
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: API参考
