@@ -8,65 +8,59 @@
 京东云主机实例价格主要包括：实例价格（vCPU及内存）/云硬盘价格/弹性公网IP价格。其中云硬盘价格请参见[云硬盘价格总览](https://docs.jdcloud.com/cn/cloud-disk-service/price-overview)，弹性公网IP价格请参见[弹性公网IP价格总览](../../../Networking/Elastic-IP/Pricing/Price-Overview.md)。
 
 ## 实例价格：
-
+Linux系统实例价格
 <table>
    <tr>
       <td rowspan="2" colspan="2">实例规格类型</td>
       <td rowspan="2">实例规格</td>
       <td colspan="2">规格</td>
-      <td colspan="2">包月价格（元）</td>
-      <td colspan="2">按配置价格（元/小时）</td>
+      <td colspan="3">包月价格（元）</td>
       <td rowspan="2">备注</td>
    </tr>
    <tr>
       <td>CPU（核）</td>
       <td>内存（GiB）</td> 
-      <td>华北-北京<br>华东-上海<br>华南-广州</td>   
-      <td>华东-宿迁</td>    
-      <td>华北-北京<br>华东-上海<br>华南-广州</td>
-      <td>华东-宿迁</td>    
+      <td>中国-香港</td>
+      <td>亚太-曼谷</td>    
+      <td>亚太-新加坡</td>    
    </tr>
    <tr>
       <td rowspan="58">通用</td>
-      <td rowspan="14">共享</td>
-      <td>g.s3.micro</td>
-      <td>1</td>
-      <td>1</td>
-      <td>34.94</td>
-      <td>--</td>
-      <td>0.07</td>
-      <td>--</td>
-      <td></td>
-   </tr>
-   <tr>
-      <td>g.s3.small</td>
-      <td>1</td>
-      <td>2</td>
-      <td>63.53</td>
-      <td>--</td>
-      <td>0.13</td>
-      <td>--</td>
-      <td></td>
-   </tr>
-   <tr>
-      <td>g.s3.medium</td>
+      <td rowspan="14">标准</td>
+      <td>g.n3.medium</td>
       <td>1</td>
       <td>4</td>
-      <td>95.29</td>
+      <td>136.8</td>
+      <td>150.37</td>
+      <td>131.87</td>
       <td>--</td>
-      <td>0.20</td>
-      <td>--</td>
-      <td></td>
    </tr>
-    <tr>
-      <td>g.s3.large</td>
+   <tr>
+      <td>g.n3.large</td>
       <td>2</td>
       <td>8</td>
-      <td>190.58</td>
+      <td>273.6</td>
+      <td>300.8</td>
+      <td>264.48</td>
       <td>--</td>
-      <td>0.40</td>
+   </tr>
+   <tr>
+      <td>g.n3.xlarge</td>
+      <td>4</td>
+      <td>16</td>
+      <td>547.2</td>
+      <td>601.61</td>
+      <td>525.27</td>
       <td>--</td>
-      <td></td>
+   </tr>
+    <tr>
+      <td>g.n3.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>1094.4</td>
+      <td>1203.15</td>
+      <td>1053.49</td>
+      <td>--</td>
    </tr>
     <tr>
       <td>g.s3.xlarge</td>
