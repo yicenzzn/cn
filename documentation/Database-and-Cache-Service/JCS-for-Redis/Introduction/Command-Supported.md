@@ -132,18 +132,18 @@
 |:-- |:--:|:--:|:--:|:--:| :--:| 
 |  SADD    |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
 |  SCARD   |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
-|  SDIFF   |   ✓   |  x  |  受限  | 受限    |  受限    |   ✓   | 
-|  SDIFFSTORE   |   ✓   | x  |  受限  | 受限      |  受限    |   ✓   | 
-|  SINTER  |   ✓   | x  |  受限  | 受限    |  受限    |   ✓   | 
-|  SINTERSTORE    |   ✓   | x  |  受限  | 受限    |  受限    |   ✓   | 
+|  SDIFF        |   ✓   |  x  |  ✓  | 受限    |  受限    | 
+|  SDIFFSTORE   |   ✓   |  x  |  ✓  | 受限    |  受限    | 
+|  SINTER       |   ✓   |  x  |  ✓  | 受限    |  受限    | 
+|  SINTERSTORE  |   ✓   |  x  |  ✓  | 受限    |  受限    | 
 |  SISMEMBER      |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
 |  SMEMBERS   |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
-|  SMOVE      |   ✓   | x  |  受限  | 受限    |  受限    |   ✓   | 
+|  SMOVE      |   ✓   |  x  |  ✓  | 受限    |  受限    | 
 |  SPOP       |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
 |  SRANDMEMBER    |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
 |  SREM       |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
-|  SUNION     |   ✓   | x  |  受限  | 受限    |  受限    |   ✓   | 
-|  SUNIONSTORE   |   ✓   | x  |  受限  | 受限    |  受限    |   ✓   | 
+|  SUNION     |   ✓   |  x  |  ✓  | 受限    |  受限    | 
+|  SUNIONSTORE   |   ✓   |  x  |  ✓  | 受限    |  受限    | 
 |  SSCAN      |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
 
 
@@ -173,16 +173,16 @@
 |  ZREMRANGEBYLEX   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  ZPOPMAX   |   -   | -  |  -  | -   |  ✓   | 
 |  ZPOPMIN   |   -   | -  |  -  | -   |  ✓   | 
-|  BZPOPMIN  |   -   | -  |  -  | -   |  ✓   | 
-|  BZPOPMAX  |   -   | -  |  -  | -   |  ✓   | 
+|  BZPOPMIN  |   -   | -  |  -  | -   |  受限  | 
+|  BZPOPMAX  |   -   | -  |  -  | -   |  受限  | 
 
 
 ####  hyperloglog 
 | 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
 |:-- |:--:|:--:|:--:|:--:| :--:| 
 | PFADD    | ✓ | x  | ✓ |  ✓  | ✓  | 
-| PFCOUNT  | ✓ | x  | ✓ |  ✓  | ✓  | 
-| PFMERGE  | ✓ | x  | ✓ |  ✓  | ✓  | 
+| PFCOUNT  | ✓ | x  | ✓ |  ✓  | 受限  | 
+| PFMERGE  | ✓ | x  | ✓ |  ✓  | 受限  | 
 
 
 ####  Pub/Sub（发布/订阅）
@@ -201,9 +201,9 @@
 |:-- |:--:|:--:|:--:|:--:| :--:| 
 |  DISCARD   |   ✓   | x  |  ✓  | ✓   | ✓   | 
 |  EXEC      |   ✓   | x  |  ✓  | ✓   | ✓   |
-|  MULTI     |   ✓   | x  |  ✓  | ✓   | ✓   |
+|  MULTI     |   ✓   | x  |  ✓  | ✓   | 受限   |
 |  UNWATCH   |   ✓   | x  |  ✓  | ✓   | ✓   |
-|  WATCH     |   ✓   | x  |  ✓  | ✓   | ✓   |
+|  WATCH     |   ✓   | x  |  ✓  | ✓   | 受限   |
 
 
 #### Connection（连接）
@@ -213,7 +213,7 @@
 |  ECHO   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  PING   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  QUIT   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  SELECT |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
+|  SELECT |   ✓   | ✓  |  ✓  | x    | ✓   | 
 |  SWAPDB |   x   | x   |  x  | x   |  x   | 
 
 
@@ -223,10 +223,10 @@
 |  FLUSHALL  |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  FLUSHDB   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  DBSIZE    |   x   |  x  |  ✓  | ✓   |  ✓   | 
-|  TIME      |   x   |  x  |  x  | x   |  ✓   | 
+|  TIME      |   x   |  x  |  ✓  | ✓   |  ✓   | 
 |  INFO      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  KEYS      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  CLIENT KILL   |   x   | x  |  x     | x     | x     |
+|  CLIENT KILL   |   x   | x  |  x     | x     | ✓    |
 |  CLIENT LIST   |   x   | x  |  受限  | 受限  |  ✓   | 
 |  CLIENT GETNAME   |   x   | x  |  ✓  | ✓   |  ✓   | 
 |  CLIENT SETNAME   |   x   | x  |  ✓  | ✓   |  ✓   | 
@@ -238,12 +238,11 @@
 | CONFIG REWRITE   |  ✓   | ✓  |  ✓  | ✓   |  x   | 
 | CONFIG RESETSTAT  | ✓   | ✓  |  ✓  | ✓   |  x   | 
 | ROLE    |    ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  LASTSAVE  |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
+|  LASTSAVE  |   x   | x   |  ✓  | ✓   | 部分禁用   | 
 |  SHUTDOWN  |   x   | x   |  x  | x    | x     |
 |  COMMAND  |    ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  CLIENT LIST  |     ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  MONITOR     |      ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  SLOWLOG     |      ✓   | ✓  |  ✓   |  ✓  |  受限   | 
+|  SLOWLOG     |      ✓   | ✓  |  ✓   |  ✓  |  部分禁用   | 
 |  CLUSTER KEYSLOT  |  x   |  x  |  x   | x  | ✓     | 
 |  CLUSTER NODES    |  x   |  x  |  x   | x  |  ✓    | 
 |  CLUSTER GETKEYSINSLOT   |  x    |  x     | x    | x   | x     | 
