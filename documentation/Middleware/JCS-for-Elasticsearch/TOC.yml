@@ -101,7 +101,7 @@
             href: Operation-Guide/Instance/Resource-group/Change-Resource-Groups.md
           - name: 资源组筛选
             href: Operation-Guide/Instance/Resource-group/Filter-Resource-Groups.md
-      - name: 变更配置
+      - name: 集群变配
         items:
         - name: 升配集群
           href: Operation-Guide/ChangeConfig/Cluster_Expansion.md
