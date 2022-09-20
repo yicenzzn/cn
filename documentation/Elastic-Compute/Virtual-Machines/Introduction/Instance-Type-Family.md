@@ -680,7 +680,7 @@ GPU型当前提供GPU标准型和GPU虚拟化型。GPU虚拟化型规格目前�
 * vCPU与内存比接近1:4或1:8
 * 异构计算
 * GPU：
-	*  第三代：* Nvidia Tesla A100（显存80 GiB）
+	*  第三代：Nvidia Tesla A100（显存80 GiB）
 	*  第一代：Nvidia Tesla P40 或 Nvidia Tesla V100（显存16 GiB）
 * 处理器：
 	* 第三代：2.6 GHz主频的Intel Xeon Platinum 8338C（Icelake）处理器
