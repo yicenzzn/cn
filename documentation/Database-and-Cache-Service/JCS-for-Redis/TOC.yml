@@ -127,11 +127,9 @@
     items:
       - name: Redis迁移工具RDTS介绍
         href: Data-Migration/Data-Migration-Overview.md
-      - name: 使用云上工具RDTS进行迁移
+      - name: 使用RDTS迁移数据
         href: Data-Migration/MigrationDoc-1.md
-      - name: 从自建Redis迁移到云Redis
-        href: Data-Migration/MigrationDoc-2.md
-      - name: 使用开源工具迁移介绍
+      - name: 使用开源工具迁移数据
         href: Data-Migration/MigrationDoc-3.md
       - name: 迁移的监控报警配置
         href: Data-Migration/Migration-Alarm-Rules.md
