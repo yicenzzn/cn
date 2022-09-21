@@ -226,31 +226,29 @@
 |  TIME      |   x   |  x  |  ✓  | ✓   |  ✓   | 
 |  INFO      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  KEYS      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  CLIENT KILL   |   x   | x  |  x     | x     | ✓    |
-|  CLIENT LIST   |   x   | x  |  受限  | 受限  |  ✓   | 
+|  CLIENT LIST      |   ✓   | ✓  |  ✓ | ✓   |  ✓   | 
+|  CLIENT KILL      |   x   | x  |  x  | x   | ✓    |
 |  CLIENT GETNAME   |   x   | x  |  ✓  | ✓   |  ✓   | 
 |  CLIENT SETNAME   |   x   | x  |  ✓  | ✓   |  ✓   | 
 |  CONFIG GET       |   x   | x  |  ✓  | ✓   |  ✓   | 
 |  MEMORY           |   -  | - |  ✓  | ✓   |  ✓   | 
-|  LATENCY          |   x   |  x  |  ✓  | ✓   |  受限   | 
-|  CONFIG REWRITE |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  COMMAND INFO   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-| CONFIG REWRITE   |  ✓   | ✓  |  ✓  | ✓   |  x   | 
+|  LATENCY          |   x   |  x  |  ✓  | ✓   |  x   | 
+|  COMMAND        |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
+|  CONFIG REWRITE |   ✓   | ✓  |  x  | x    |  x    | 
 | CONFIG RESETSTAT  | ✓   | ✓  |  ✓  | ✓   |  x   | 
-| ROLE    |    ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  LASTSAVE  |   x   | x   |  ✓  | ✓   | 部分禁用   | 
+|    ROLE    |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
+|  LASTSAVE  |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
 |  SHUTDOWN  |   x   | x   |  x  | x    | x     |
-|  COMMAND  |    ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  MONITOR     |      ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  SLOWLOG     |      ✓   | ✓  |  ✓   |  ✓  |  部分禁用   | 
-|  CLUSTER KEYSLOT  |  x   |  x  |  x   | x  | ✓     | 
-|  CLUSTER NODES    |  x   |  x  |  x   | x  |  ✓    | 
+|  COMMAND   |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
+|  MONITOR  |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
+|  SLOWLOG  get/len   |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
+|  CLUSTER KEYSLOT|  x   |  x  |  x   | x   | ✓    | 
+|  CLUSTER NODES  |  x   |  x  |  x   | ✓  |  ✓    | 
 |  CLUSTER GETKEYSINSLOT   |  x    |  x     | x    | x   | x     | 
-|  CLUSTER SLOTS  |   x    |  x    |  x     |  x   | ✓   | 
+|  CLUSTER SLOTS  |  x   |  x  |  x   | ✓  |  ✓    | 
 |  CLUSTER INFO   |   x    |  x    |  x     |  x   | ✓   | 
 |  MODULE         |   x    |  x    |  x     |  x   | x   | 
-|  LOLWUT         |   x    |  x    |  x     |  ✓   | ✓   | 
-
+|  LOLWUT         |   -    |  -    |  -     |  -   | ✓   | 
 
 
 
@@ -264,7 +262,7 @@
 
 * CONFIG 命令，只支持CONFIG GET [parameter]子命令，并且如果是集群版Redis，返回的是某一个分片的信息。
 
-* LATENCY: 集群版的模式下，可以指定shardId。用来获取指定分片的数据，默认返回分片0的数据。
+* LATENCY: 集群版的模式下，可以指定shardId，用来获取指定分片的数据，默认返回分片0的数据。
 
 	* 1.LATENCY支持的子命令有：[LATEST] [DOCTOR] [ HISTORY event-name] [RESET [event-name … event-name]] [GRAPH event-name]
 
@@ -279,11 +277,11 @@
 #### Scripting（脚本）
 | 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
 |:-- |:--:|:--:|:--:|:--:| :--:| 
-|  EVAL      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  EVALSHA   |   ✓   | x  |  ✓  | ✓   | ✓   | 
-|  SCRIPT EXISTS   |   ✓   | x  |  ✓  | ✓   | ✓   | 
-|  SCRIPT FLUSH    |   ✓   | x  |  ✓  | ✓   | ✓   | 
-|  SCRIPT KILL     |   ✓   | x  |  ✓  | ✓   | ✓   | 
+|  EVAL      |   ✓   | ✓  |  ✓  | 受限   | 受限   | 
+|  EVALSHA   |   ✓   | x  |  ✓  | 受限   | 受限   | 
+|  SCRIPT EXISTS   |   ✓   | x  |  ✓  | 受限   | 受限   | 
+|  SCRIPT FLUSH    |   ✓   | x  |  ✓  | 受限   | 受限   | 
+|  SCRIPT KILL     |   ✓   | x  |  ✓  | 受限   | 受限   | 
 |  SCRIPT LOAD     |   ✓   | x  |  ✓  | ✓   | ✓   | 
 |  SCRIPT DEBUG    |   ✓   | x  |  ✓  | ✓   | ✓   | 
 
@@ -295,25 +293,25 @@
 |  GEOHASH  |   x   |  x  |  ✓  | ✓   | ✓   | 
 |  GEOPOS   |   x   |  x  |  ✓  | ✓   | ✓   | 
 |  GEODIST  |   x   |  x  |  ✓  | ✓   | ✓   | 
-|  GEORADIUS   |   x   |  x  |  ✓  | ✓   | ✓   | 
+| GEORADIUS |   x   |  x  |  ✓  | ✓   | ✓   | 
 |  GEORADIUSBYMEMBER   |   x   |  x  |  ✓  | ✓   | ✓   | 
 
 #### Stream
 | 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
 |:-- |:--:|:--:|:--:|:--:| :--:|  
 |  XINFO    |   x    |  x    |  x     |  x   | ✓   | 
-|  XADD    |   x    |  x    |  x     |  x   | ✓   | 
+|  XADD     |   x    |  x    |  x     |  x   | ✓   | 
 |  XTRIM    |   x    |  x    |  x     |  x   | ✓   | 
-|  XDEL    |   x    |  x    |  x     |  x   | ✓   | 
-|  XRANGE    |   x    |  x    |  x     |  x   | ✓   | 
-|  XREVRANGE    |   x    |  x    |  x     |  x   | ✓   | 
-|  XLEN    |   x    |  x    |  x     |  x   | ✓   | 
+|  XDEL     |   x    |  x    |  x     |  x   | ✓   | 
+|  XRANGE   |   x    |  x    |  x     |  x   | ✓   | 
+|XREVRANGE  |   x    |  x    |  x     |  x   | ✓   | 
+|  XLEN     |   x    |  x    |  x     |  x   | ✓   | 
 |  XREAD    |   x    |  x    |  x     |  x   | ✓   | 
-|  XGROUP    |   x    |  x    |  x     |  x   | ✓   | 
+|  XGROUP   |   x    |  x    |  x     |  x   | ✓   | 
 |  XREADGROUP    |   x    |  x    |  x     |  x   | ✓   | 
-|  XACK    |   x    |  x    |  x     |  x   | ✓   | 
-|  XCLAIM    |   x    |  x    |  x     |  x   | ✓   | 
-|  XPENDING    |   x    |  x    |  x     |  x   | ✓   | 
+|  XACK     |   x    |  x    |  x     |  x   | ✓   | 
+|  XCLAIM   |   x    |  x    |  x     |  x   | ✓   | 
+|  XPENDING |   x    |  x    |  x     |  x   | ✓   | 
 
 
 
@@ -327,7 +325,7 @@
 
 	* 2. redis4.0 lua脚本中不支持的命令有：swapdb，rename，renamenx， bgsave，bgrewriteaof，shutdown，config，cluster，post，host
 
-* 事务中不支持的命令: SCRIPT *、INFO、SLOWLOG、LATENCY、EVAL、FLUSHALL、SCAN、AUTH、EVALSHA、DBSIZE、CONFIG、FLUSHDB、RANDOMKEY、PING
+* 事务中不支持的命令: SCRIPT * 、INFO、SLOWLOG、LATENCY、EVAL、FLUSHALL、SCAN、AUTH、EVALSHA、DBSIZE、CONFIG、FLUSHDB、RANDOMKEY、PING
 
 * ZUNIONSTORE/ZINTERSTORE命令，参数为destination numkeys key [key ...] [WEIGHTS weight] [SUM|MIN|MAX]
 
