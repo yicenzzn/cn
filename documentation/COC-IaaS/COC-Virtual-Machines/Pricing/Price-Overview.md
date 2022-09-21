@@ -866,7 +866,7 @@ Linux系统实例价格
    </tr>
    <tr>
       <td rowspan="18">存储优化</td>
-      <td rowspan="12">IO</td>
+      <td rowspan="6">IO</td>
       <td>s.i2.2xlarge</td>
       <td>8</td>
       <td>64</td>
