@@ -1,12 +1,24 @@
 # 创建实例
 
-您可以在云数据库Redis控制台或者通过API新建Redis实例，本文将为您介绍如何在控制台上创建Redis实例。若您初次使用云数据库Redis版，请先了解 [使用限制](../Introduction/Restrictions.md)     和 [Redis命令支持](../Getting-Started/Command-Supported.md)    。
+您可以在云缓存Redis控制台或者通过API新建Redis实例，本文将为您介绍如何在控制台上创建Redis实例。
+
 
 ##  准备环境
 
 1、登录京东云控制台。
 
 2、在控制台页面中选择“网络> 私有网络”，新建私有网络用于对缓存实例进行安全网络隔离。
+
+若您初次使用云缓存Redis，请先了解：
+
+-  [实例架构](../Introduction/Features.md)  
+
+-  [Redis命令支持](../Getting-Started/Command-Supported.md)   
+
+-  [使用限制](../Introduction/Restrictions.md)   
+
+-  [Redis SLA](https://docs.jdcloud.com/cn/product-service-agreement/caching-redis-service-level-agreement-sla)
+
 
 
 ## 登录 Redis 控制台
@@ -107,11 +119,7 @@
 | [describeSpecConfig](http://docs.jdcloud.com/cn/jcs-for-redis/api/describespecconfig?content=API)  | 查询缓存Redis实例的规格配置信息 |
 
 
-##  相关参考
 
--  [连接实例](Connect-Instances.md)
-
--  [Redis SLA](https://docs.jdcloud.com/cn/product-service-agreement/caching-redis-service-level-agreement-sla)
 
 
 
