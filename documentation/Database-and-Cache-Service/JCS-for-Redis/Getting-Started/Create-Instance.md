@@ -13,6 +13,8 @@
 
 -  [实例架构](../Introduction/Features.md)  
 
+-  [实例规格](../Introduction/Specifications.md)  
+
 -  [Redis命令支持](../Introduction/Command-Supported.md)  
 
 -  [使用限制](../Introduction/Restrictions.md)   
@@ -50,8 +52,8 @@
 | 地域        |   建议您选择与云服务器同一个地域，不同地域的云产品内网不通。   |
 | 架构类型   |  目前可支持标准版、Proxy集群版、Cluster集群版。各版本差别可参考： [实例架构](../Introduction/Features.md)    |
 | 引擎版本   |  兼容 Redis 2.8、4.0、5.0 。2.8版已暂停售卖，建议您选择4.0及以上版本。  |
-| CPU架构    | 默认为x86架构 。 |
-| 实例规格    | 标准版支持1G-64G。Proxy集群版支持4G-4T。Cluster集群版支持3G-2T。 |
+| CPU架构    | 默认为x86架构 。还可支持信创架构，如有需要可联系客服。 |
+| 实例规格    | 标准版支持1G-32G。Proxy集群版支持4G-4T。Cluster集群版支持3G-2T。 |
 | 分片数量    | 您可根据对QPS的也无需求，选择相应的分片数量。 |
 | 分片容量    | 指单分片的容量，将根据实例规格和分片数量自动算出。 |
 | 副本数量    | 目前所有架构类型均默认2副本。 |
@@ -115,7 +117,7 @@
 
 | 接口 | 说明  |  
 |:--   |:-- |
-| [createCacheInstance](http://docs.jdcloud.com/cn/jcs-for-redis/api/createcacheinstance?content=API)    |  创建一个指定配置的缓存Redis实例：可选择版本、类型、规格（按CPU核数、内存容量、磁盘容量、带宽等划分）。自定义分片规格可通过 describeSpecConfig  接口获取，规格代码请参考： [产品规格](http://docs.jdcloud.com/cn/jcs-for-redis/specifications)   |
+| [createCacheInstance](http://docs.jdcloud.com/cn/jcs-for-redis/api/createcacheinstance?content=API)    |  创建一个指定配置的缓存Redis实例：可选择版本、类型、规格（按CPU核数、内存容量、磁盘容量、带宽等划分）。自定义分片规格可通过 describeSpecConfig  接口获取，规格代码请参考： [实例规格](../Introduction/Specifications.md)    |
 | [describeSpecConfig](http://docs.jdcloud.com/cn/jcs-for-redis/api/describespecconfig?content=API)  | 查询缓存Redis实例的规格配置信息 |
 
 
