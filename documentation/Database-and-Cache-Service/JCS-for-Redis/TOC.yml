@@ -99,7 +99,7 @@
         items:         
           - name: 慢日志查询
             href: Operation-Guide/Cache-Analysis/SlowLog.md
-          - name: Redis 4.0 缓存分析
+          - name: 缓存分析
             href: Operation-Guide/Cache-Analysis/Cache-Analysis.md
           - name: 热key大key分析
             href: Operation-Guide/Cache-Analysis/Key-Analysis.md     
