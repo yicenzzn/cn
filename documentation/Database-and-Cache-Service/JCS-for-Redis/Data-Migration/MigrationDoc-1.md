@@ -10,7 +10,7 @@
 
 3. 源端或目标端实例，需至少有一个为云Redis；不支持开源Redis迁移到开源Redis。
 
-##   创建迁移任务简介
+##   创建迁移任务
 
 【Step1】登录  [控制台](https://rdts-console.jdcloud.com/list/cn-north-1) ，进入RDTS的任务列表页，选择源库或目标库所在的地域。
 
