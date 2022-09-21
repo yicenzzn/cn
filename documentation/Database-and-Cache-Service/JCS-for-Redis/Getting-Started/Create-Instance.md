@@ -5,15 +5,15 @@
 
 ##  准备环境
 
-1、登录京东云控制台。
+1、已注册京东云账号，账户余额大于50元，可登录京东云控制台。
 
-2、在控制台页面中选择“网络> 私有网络”，新建私有网络用于对缓存实例进行安全网络隔离。
+2、确认Redis实例归属的VPC。如您还没有VPC，可在控制台页面中选择“网络> 私有网络”，新建私有网络，用于对缓存实例进行安全网络隔离。
 
-若您初次使用云缓存Redis，请先了解：
+3、若您初次使用云缓存Redis，请先了解：
 
 -  [实例架构](../Introduction/Features.md)  
 
--  [Redis命令支持](../Getting-Started/Command-Supported.md)   
+-  [Redis命令支持](../Introduction/Command-Supported.md)  
 
 -  [使用限制](../Introduction/Restrictions.md)   
 
