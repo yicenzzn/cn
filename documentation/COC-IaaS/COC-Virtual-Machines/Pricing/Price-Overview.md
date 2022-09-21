@@ -547,8 +547,8 @@ Linux系统实例价格
       <td>--</td>
    </tr>
    <tr>
-      <td rowspan="10">高频计算</td>
-      <td rowspan="10">通用</td>
+      <td rowspan="35">高频计算</td>
+      <td rowspan="18">标准</td>
       <td>h.g3.large</td>
       <td>2</td>
       <td>8</td>
@@ -627,7 +627,7 @@ Linux系统实例价格
       <td>12836.54</td>
       <td>13836.3</td>
       <td>12042.16</td>
-      <td>--/td>
+      <td>--</td>
    </tr>
    <tr>
       <td>h.g3.metal</td>
@@ -638,7 +638,6 @@ Linux系统实例价格
       <td>20112.03</td>
       <td>--</td>
    </tr>
-      </tr>
    <tr>
       <td>h.g2.large</td>
       <td>2</td>
@@ -646,7 +645,7 @@ Linux系统实例价格
       <td>391</td>
       <td>432.36</td>
       <td>377.19</td>
-      <td>--/td>
+      <td>--</td>
    </tr>
    <tr>
       <td>h.g2.xlarge</td>
@@ -657,14 +656,14 @@ Linux系统实例价格
       <td>749.96</td>
       <td>--</td>
    </tr>
-      <tr>
+   <tr>
       <td>h.g2.2xlarge</td>
       <td>8</td>
       <td>32</td>
       <td>1601.4</td>
       <td>1729.57</td>
       <td>1505.09</td>
-      <td>--/td>
+      <td>--</td>
    </tr>
    <tr>
       <td>h.g2.3xlarge</td>
@@ -675,7 +674,7 @@ Linux系统实例价格
       <td>2265.37</td>
       <td>--</td>
    </tr>
-      <tr>
+   <tr>
       <td>h.g2.4xlarge</td>
       <td>16</td>
       <td>64</td>
@@ -684,14 +683,14 @@ Linux系统实例价格
       <td>3010.91</td>
       <td>--</td>
    </tr>
-      <tr>
+   <tr>
       <td>h.g2.6xlarge</td>
       <td>24</td>
       <td>96</td>
       <td>4690.3</td>
       <td>--</td>
       <td>4530.73</td>
-      <td>--/td>
+      <td>--</td>
    </tr>
    <tr>
       <td>h.g2.8xlarge</td>
@@ -709,6 +708,160 @@ Linux系统实例价格
       <td>12836.5</td>
       <td>12971.59</td>
       <td>12042.17</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td rowspan="17">计算</td>
+      <td>h.c3.large</td>
+      <td>2</td>
+      <td>4</td>
+      <td>339.44</td>
+      <td>369.69</td>
+      <td>319.73</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c3.xlarge</td>
+      <td>4</td>
+      <td>8</td>
+      <td>678.88</td>
+      <td>739.46</td>
+      <td>638.72</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c3.2xlarge</td>
+      <td>8</td>
+      <td>16</td>
+      <td>1386.31</td>
+      <td>1478.92</td>
+      <td>1277.45</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c3.3xlarge</td>
+      <td>12</td>
+      <td>24</td>
+      <td>2008.96</td>
+      <td>2218.3</td>
+      <td>1916.9</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c3.4xlarge</td>
+      <td>16</td>
+      <td>32</td>
+      <td>2772.61</td>
+      <td>2957.76</td>
+      <td>2560.78</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c3.6xlarge</td>
+      <td>24</td>
+      <td>48</td>
+      <td>4017.92</td>
+      <td>4436.68</td>
+      <td>3833.07</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c3.8xlarge</td>
+      <td>32</td>
+      <td>64</td>
+      <td>5566.97</td>
+      <td>5915.52</td>
+      <td>5120.83</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c3.12xlarge</td>
+      <td>48</td>
+      <td>96</td>
+      <td>8035.84</td>
+      <td>8873.36</td>
+      <td>8592.92</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c3.16xlarge</td>
+      <td>64</td>
+      <td>128</td>
+      <td>11133.94</td>
+      <td>11831.04</td>
+      <td>10241.66</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c2.large</td>
+      <td>2</td>
+      <td>4</td>
+      <td>339.4</td>
+      <td>369.69</td>
+      <td>319.73</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c2.xlarge</td>
+      <td>4</td>
+      <td>8</td>
+      <td>678.9</td>
+      <td>739.46</td>
+      <td>638.72</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c2.2xlarge</td>
+      <td>8</td>
+      <td>16</td>
+      <td>1386.3</td>
+      <td>1478.92</td>
+      <td>1277.45</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c2.3xlarge</td>
+      <td>12</td>
+      <td>24</td>
+      <td>2009</td>
+      <td>2218.3</td>
+      <td>1916.9</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c2.4xlarge</td>
+      <td>16</td>
+      <td>32</td>
+      <td>2772.6</td>
+      <td>2957.76</td>
+      <td>2560.78</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c2.6xlarge</td>
+      <td>24</td>
+      <td>48</td>
+      <td>4017.9</td>
+      <td>4436.68</td>
+      <td>3833.07</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c2.8xlarge</td>
+      <td>32</td>
+      <td>64</td>
+      <td>5567</td>
+      <td>5915.52</td>
+      <td>5120.83</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>h.c2.15xlarge</td>
+      <td>60</td>
+      <td>128</td>
+      <td>11133.9</td>
+      <td>11091.65</td>
+      <td>10241.66</td>
       <td>--</td>
    </tr>
    <tr>
