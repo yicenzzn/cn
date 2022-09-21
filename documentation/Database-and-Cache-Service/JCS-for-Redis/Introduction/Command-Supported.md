@@ -30,7 +30,7 @@
 |  PTTL     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  RANDOMKEY  |   ✓   |  x  |  ✓  | ✓   | ✓   | 
 |  RENAME   |   ✓   | x  |  ✓  | 受限   | 受限   | 
-|  RENAMENX |   ✓   | x  |   受限   |  受限   | 受限   | 
+|  RENAMENX |   ✓   | x  |  ✓  |  受限   | 受限   | 
 |  RESTORE  |   ✓   | ✓  |  ✓   | ✓    | ✓   | 
 |  SORT     |   ✓   | ✓  |  ✓  | 受限   | 受限   | 
 |  TTL      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
@@ -165,8 +165,8 @@
 |  ZREVRANGEBYSCORE |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  ZREVRANK      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  ZSCORE        |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZUNIONSTORE   |   ✓   | x  |  受限  | 受限    | 受限    | 
-|  ZINTERSTORE   |   ✓   | x  |  受限  | 受限    | 受限    | 
+|  ZUNIONSTORE   |   ✓   | x  |  ✓  | 受限    | 受限    | 
+|  ZINTERSTORE   |   ✓   | x  |  ✓  | 受限    | 受限    | 
 |  ZSCAN         |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  ZRANGEBYLEX      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  ZLEXCOUNT        |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
@@ -213,7 +213,7 @@
 |  ECHO   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  PING   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  QUIT   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  SELECT |   ✓   | ✓  |  ✓  | x    | ✓   | 
+|  SELECT |   ✓   | ✓  |  ✓  | ✓   | x   | 
 |  SWAPDB |   x   | x   |  x  | x   |  x   | 
 
 
@@ -240,12 +240,12 @@
 |  LASTSAVE  |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
 |  SHUTDOWN  |   x   | x   |  x  | x    | x     |
 |  COMMAND   |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
-|  MONITOR  |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
+|  MONITOR   |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
 |  SLOWLOG  get/len   |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
 |  CLUSTER KEYSLOT|  x   |  x  |  x   | x   | ✓    | 
 |  CLUSTER NODES  |  x   |  x  |  x   | ✓  |  ✓    | 
 |  CLUSTER GETKEYSINSLOT   |  x    |  x     | x    | x   | x     | 
-|  CLUSTER SLOTS  |  x   |  x  |  x   | ✓  |  ✓    | 
+|  CLUSTER SLOTS  |  x     |  x    |  x     |  ✓  |  ✓   | 
 |  CLUSTER INFO   |   x    |  x    |  x     |  x   | ✓   | 
 |  MODULE         |   x    |  x    |  x     |  x   | x   | 
 |  LOLWUT         |   -    |  -    |  -     |  -   | ✓   | 
