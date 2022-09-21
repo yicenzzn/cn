@@ -548,7 +548,7 @@ Linux系统实例价格
    </tr>
    <tr>
       <td rowspan="35">高频计算</td>
-      <td rowspan="18">标准</td>
+      <td rowspan="18">通用</td>
       <td>h.g3.large</td>
       <td>2</td>
       <td>8</td>
@@ -865,546 +865,170 @@ Linux系统实例价格
       <td>--</td>
    </tr>
    <tr>
-      <td rowspan="28">存储优化</td>
-      <td rowspan="18">IO</td>
-      <td>s.i3.2xlarge</td>
+      <td rowspan="18">存储优化</td>
+      <td rowspan="12">IO</td>
+      <td>s.i2.2xlarge</td>
       <td>8</td>
-      <td>32</td>
-      <td>1395.7</td>
-      <td>1046.8</td>
-      <td>4.85</td>
-      <td>3.63</td>
-      <td>1*1862 GiB NVMe SSD</td>
+      <td>64</td>
+      <td>2498</td>
+      <td>2704</td>
+      <td>2280.54</td>
+      <td>1*1600 GiB NVMe SSD</td>
    </tr>
    <tr>
-      <td>s.i3.4xlarge</td>
+      <td>s.i2.4xlarge</td>
       <td>16</td>
-      <td>64</td>
-      <td>2791.4</td>
-      <td>2093.6</td>
-      <td>9.69</td>
-      <td>7.27</td>
-      <td>2*1862 GiB NVMe SSD</td>
+      <td>128</td>
+      <td>4996.01</td>
+      <td>5408.07</td>
+      <td>4561.79</td>
+      <td>2*1600 GiB NVMe SSD</td>
    </tr>   
    <tr>
-      <td>s.i3.6xlarge</td>
-      <td>24</td>
-      <td>96</td>
-      <td>4187.1</td>
-      <td>3140.4</td>
-      <td>14.54</td>
-      <td>10.9</td>
-      <td>3*1862 GiB NVMe SSD</td>
-   </tr> 
-   <tr>
-      <td>s.i3.8xlarge</td>
+      <td>s.i2.8xlarge</td>
       <td>32</td>
-      <td>128</td>
-      <td>5582.8</td>
-      <td>4187.2</td>
-      <td>19.38</td>
-      <td>14.54</td>
-      <td>4*1862 GiB NVMe SSD</td>
-   </tr> 
-   <tr>
-      <td>s.i3.12xlarge</td>
-      <td>48</td>
-      <td>192</td>
-      <td>8374.2</td>
-      <td>6280.8</td>
-      <td>29.08</td>
-      <td>21.81</td>
-      <td>6*1862 GiB NVMe SSD</td>
-   </tr>
-   <tr>
-      <td>s.i3.16xlarge</td>
-      <td>64</td>
       <td>256</td>
-      <td>11165.6</td>
-      <td>8373.4</td>
-      <td>38.77</td>
-      <td>29.08</td>
-      <td>8*1862 GiB NVMe SSD</td>
+      <td>9992.02</td>
+      <td>10816.14</td>
+      <td>9122.87</td>
+      <td>4*1600 GiB NVMe SSD</td>
    </tr> 
    <tr>
-      <td>s.i3.22xlarge</td>
-      <td>88</td>
-      <td>352</td>
-      <td>14045.7</td>
-      <td>10534.3</td>
-      <td>48.77</td>
-      <td>36.58</td>
-      <td>8*1862 GiB NVMe SSD</td>
-   </tr> 
-   <tr>
-      <td>s.i3m.4xlarge</td>
-      <td>16</td>
-      <td>54</td>
-      <td>2791.65</td>
-      <td>--</td>
-      <td>5.82</td>
-      <td>--</td>
-      <td>1*3725 GiB NVMe SSD</td>
-   </tr>    
-   <tr>
-      <td>s.i3m.8xlarge</td>
-      <td>32</td>
-      <td>108</td>
-      <td>5583.3</td>
-      <td>--</td>
-      <td>11.63</td>
-      <td>--</td>
-      <td>2*3725 GiB NVMe SSD</td>
-   </tr> 
-   <tr>
-      <td>s.i3m.12xlarge</td>
+      <td>s.i2.12xlarge</td>
       <td>48</td>
-      <td>162</td>
-      <td>8374.95</td>
+      <td>384</td>
+      <td>14988.02</td>
+      <td>16224.14</td>
       <td>--</td>
-      <td>17.45</td>
+      <td>6*1600 GiB NVMe SSD</td>
+   </tr> 
+   <tr>
+      <td>s.i2.15xlarge</td>
+      <td>60</td>
+      <td>512</td>
+      <td>17485.31</td>
       <td>--</td>
-      <td>3*3725 GiB NVMe SSD</td>
+      <td>--</td>
+      <td>7*1600 GiB NVMe SSD</td>
    </tr>
    <tr>
-      <td>s.i3m.16xlarge</td>
+      <td>s.i2.16xlarge</td>
       <td>64</td>
-      <td>216</td>
-      <td>11166.6</td>
+      <td>512</td>
       <td>--</td>
-      <td>23.26</td>
+      <td>21632.28</td>
       <td>--</td>
-      <td>4*3725 GiB NVMe SSD</td>
+      <td>8*1600 GiB NVMe SSD</td>
    </tr> 
    <tr>
-      <td>s.i3m.24xlarge</td>
-      <td>96</td>
-      <td>324</td>
-      <td>16749.9</td>
-      <td>--</td>
-      <td>34.9</td>
-      <td>--</td>
-      <td>6*3725 GiB NVMe SSD</td>
-   </tr> 
-   <tr>
-      <td>s.i3m.32xlarge</td>
-      <td>128</td>
-      <td>432</td>
-      <td>22333.2</td>
-      <td>--</td>
-      <td>46.53</td>
-      <td>--</td>
-      <td>8*3725 GiB NVMe SSD</td>
-   </tr> 
-   <tr>
-      <td>s.i1.xlarge</td>
-      <td>4</td>
-      <td>16</td>
-      <td>709</td>
-      <td>531.8</td>
-      <td>2.46</td>
-      <td>1.85</td>
-      <td>1*894 GiB SSD</td>
-   </tr>
-   <tr>
-      <td>s.i1.2xlarge</td>
-      <td>8</td>
-      <td>32</td>
-      <td>1418</td>
-      <td>1063.6</td>
-      <td>4.92</td>
-      <td>3.69</td>
-      <td>2*894 GiB SSD</td>
-   </tr>  
-   <tr>
-      <td>s.i1.4xlarge</td>
-      <td>16</td>
-      <td>64</td>
-      <td>2836</td>
-      <td>2127.2</td>
-      <td>9.85</td>
-      <td>7.39</td>
-      <td>4*894 GiB SSD</td>
-   </tr>
-   <tr>
-      <td>s.i1.8xlarge</td>
-      <td>32</td>
-      <td>128</td>
-      <td>5672</td>
-      <td>4254.4</td>
-      <td>19.69</td>
-      <td>14.77</td>
-      <td>8*894 GiB SSD</td>
-   </tr> 
-   <tr>
-      <td>s.i1.14xlarge</td>
-      <td>56</td>
-      <td>224</td>
-      <td>9926</td>
-      <td>7445.2</td>
-      <td>34.47</td>
-      <td>25.85</td>
-      <td>14*894 GiB SSD</td>
-   </tr>
-   <tr>
-      <td rowspan="10">大数据</td>
+      <td rowspan="12">大数据</td>
       <td>s.d2.xlarge</td>
       <td>4</td>
-      <td>22</td>
-      <td>834.5</td>
-      <td>625.9</td>
-      <td>2.9</td>
-      <td>2.17</td>
-      <td>1*9313 GiB HDD</td>
+      <td>32</td>
+      <td>2443.4</td>
+      <td>2036.6</td>
+      <td>--</td>
+      <td>2*1675 GiB NVMe SSD</td>
    </tr> 
    <tr>
       <td>s.d2.2xlarge</td>
       <td>8</td>
-      <td>44</td>
-      <td>1669</td>
-      <td>1251.8</td>
-      <td>5.8</td>
-      <td>4.35</td>
-      <td>2*9313 GiB HDD</td>
-   </tr> 
+      <td>64</td>
+      <td>4886.8</td>
+      <td>4073.21</td>
+      <td>--</td>
+      <td>4*1675 GiB NVMe SSD</td>
+   </tr>    
    <tr>
       <td>s.d2.4xlarge</td>
       <td>16</td>
-      <td>88</td>
-      <td>3338</td>
-      <td>2503.5</td>
-      <td>11.59</td>
-      <td>8.69</td>
-      <td>4*9313 GiB HDD</td>
+      <td>128</td>
+      <td>9773.7</td>
+      <td>8146.41</td>
+      <td>--</td>
+      <td>8*1675 GiB NVMe SSD</td>
    </tr> 
+   <tr>
+      <td>s.d2.6xlarge</td>
+      <td>24</td>
+      <td>192</td>
+      <td>14660.5</td>
+      <td>12219.62</td>
+      <td>--</td>
+      <td>12*1675 GiB NVMe SSD</td>
+   </tr>
    <tr>
       <td>s.d2.8xlarge</td>
       <td>32</td>
-      <td>176</td>
-      <td>6676</td>
-      <td>5007</td>
-      <td>23.18</td>
-      <td>17.39</td>
-      <td>8*9313 GiB HDD</td>
+      <td>256</td>
+      <td>19547.3</td>
+      <td>16292.82</td>
+      <td>--</td>
+      <td>16*1675 GiB NVMe SSD</td>
    </tr> 
    <tr>
-      <td>s.d2.10xlarge</td>
-      <td>40</td>
-      <td>220</td>
-      <td>8345</td>
-      <td>6258.8</td>
-      <td>28.98</td>
-      <td>21.73</td>
-      <td>12*9313 GiB HDD</td>
+      <td>s.d2.12xlarge</td>
+      <td>48</td>
+      <td>384</td>
+      <td>29321</td>
+      <td>24439.24</td>
+      <td>--</td>
+      <td>24*1675 GiB NVMe SSD</td>
    </tr> 
    <tr>
       <td>s.d1.xlarge</td>
       <td>4</td>
-      <td>22</td>
-      <td>694.5</td>
-      <td>520.9</td>
-      <td>2.41</td>
-      <td>1.81</td>
-      <td>1*5587 GiB HDD</td>
+      <td>32</td>
+      <td>--</td>
+      <td>2036.6</td>
+      <td>--</td>
+      <td>2*1675 GiB HDD</td>
    </tr> 
    <tr>
       <td>s.d1.2xlarge</td>
       <td>8</td>
-      <td>44</td>
-      <td>1389</td>
-      <td>1041.8</td>
-      <td>4.82</td>
-      <td>3.62</td>
-      <td>2*5587 GiB HDD</td>
-   </tr> 
+      <td>64</td>
+      <td>--</td>
+      <td>4073.21</td>
+      <td>--</td>
+      <td>4*1675 GiB HDD</td>
+   </tr>
    <tr>
       <td>s.d1.4xlarge</td>
       <td>16</td>
-      <td>88</td>
-      <td>2778</td>
-      <td>2083.5</td>
-      <td>9.65</td>
-      <td>7.23</td>
-      <td>4*5587 GiB HDD</td>
-   </tr> 
+      <td>128</td>
+      <td>--</td>
+      <td>8146.41</td>
+      <td>--</td>
+      <td>8*1675 GiB HDD</td>
+   </tr>  
+   <tr>
+      <td>s.d1.6xlarge</td>
+      <td>24</td>
+      <td>192</td>
+      <td>--</td>
+      <td>12219.62</td>
+      <td>--</td>
+      <td>12*1675 GiB HDD</td>
+   </tr>
    <tr>
       <td>s.d1.8xlarge</td>
       <td>32</td>
-      <td>176</td>
-      <td>5556</td>
-      <td>4167</td>
-      <td>19.29</td>
-      <td>14.47</td>
-      <td>8*5587 GiB HDD</td>
+      <td>256</td>
+      <td>--</td>
+      <td>16292.82</td>
+      <td>--</td>
+      <td>16*1675 GiB HDD</td>
    </tr> 
    <tr>
-      <td>s.d1.10xlarge</td>
-      <td>40</td>
-      <td>220</td>
-      <td>6945</td>
-      <td>5208.8</td>
-      <td>24.11</td>
-      <td>18.09</td>
-      <td>12*5587 GiB HDD</td>
-   </tr>    
-   
-   <tr>
-      <td rowspan="21">GPU</td>
-      <td rowspan="13">标准</td>
-      <td>p.n3a100.7large</td>
-      <td>14</td>
-      <td>120</td>
-      <td>16375</td>
-      <td>--</td>
-      <td>34.11</td>
-      <td>--</td>
-      <td>1*A100</td>
-   </tr>
-   <tr>
-      <td>p.n3a100.15large</td>
-      <td>30</td>
-      <td>240</td>
-      <td>33050</td>
-      <td>--</td>
-      <td>68.85</td>
-      <td>--</td>
-      <td>2*A100</td>
-   </tr>
-   <tr>
-      <td>p.n3a100.31large</td>
-      <td>62</td>
-      <td>480</td>
-      <td>66400</td>
-      <td>--</td>
-      <td>138.33</td>
-      <td>--</td>
-      <td>4*A100</td>
-   </tr>
-   <tr>
-      <td>p.n3a100.31xlarge</td>
-      <td>124</td>
-      <td>972</td>
-      <td>132800</td>
-      <td>--</td>
-      <td>276.67</td>
-      <td>--</td>
-      <td>8*A100</td>
-   </tr>
-   <tr>
-      <td>p.n1p40.3xlarge</td>
-      <td>12</td>
+      <td>s.d1.12xlarge</td>
       <td>48</td>
-      <td>4241.5</td>
-      <td>3181.13</td>
-      <td>14.73</td>
-      <td>11.05</td>
-      <td>1*P40<br>1*894 GiB SSD</td>
-   </tr>
-   <tr>
-     <td>p.n1p40.7xlarge</td>
-      <td>28</td>
-      <td>110</td>
-      <td>8967.5</td>
-      <td>6725.63</td>
-      <td>31.14</td>
-      <td>23.36</td>
-      <td>2*P40<br>2*894 GiB SSD</td>
-   </tr>
-   <tr>
-      <td>p.n1p40.14xlarge</td>
-      <td>56</td>
-      <td>220</td>
-      <td> 17935</td>
-      <td>13451.25</td>
-      <td>62.27</td>
-      <td>46.72</td>
-      <td>4*P40<br>4*894 GiB SSD</td>
-   </tr>
-   <tr>
-      <td>p.n1p40h.3xlarge</td>
-      <td>12</td>
-      <td>48</td>
-      <td>4073.5</td>
-      <td>3055.13</td>
-      <td>14.14</td>
-      <td>10.61</td>
-      <td>1*P40<br>1*1117 GiB HDD</td>
-   </tr>
-   <tr>
-     <td>p.n1p40h.7xlarge</td>
-      <td>28</td>
-      <td>110</td>
-      <td>8631.5</td>
-      <td>6473.63</td>
-      <td>29.97</td>
-      <td>22.48</td>
-      <td>2*P40<br>2*1117 GiB HDD</td>
-   </tr>
-   <tr>
-      <td>p.n1p40h.14xlarge</td>
-      <td>56</td>
-      <td>220</td>
-      <td>17263</td>
-      <td>12947.25</td>
-      <td>59.94</td>
-      <td>44.96</td>
-      <td>4*P40<br>4*1117 GiB HDD</td>
-   </tr>
-   <tr>
-      <td>p.n1v100.2xlarge</td>
-      <td>8</td>
-      <td>44</td>
-      <td>5969</td>
-      <td>4476.75</td>
-      <td>20.73</td>
-      <td>15.55</td>
-      <td>1*V100<br>1*5587 GiB HDD</td>
-   </tr>
-   <tr>
-      <td>p.n1v100.5xlarge</td>
-      <td>20</td>
-      <td>110</td>
-      <td>12422.5</td>
-      <td>9316.88</td>
-      <td>43.13</td>
-      <td>32.35</td>
-      <td>2*V100<br>2*5587 GiB HDD</td>
-   </tr>
-   <tr>
-      <td>p.n1v100.10xlarge</td>
-      <td>40</td>
-      <td>220</td>
-      <td>24845</td>
-      <td>18633.75</td>
-      <td>86.27</td>
-      <td>64.7</td>
-      <td>4*V100<br>4*5587 GiB HDD</td>
-   </tr>
-   <tr>
-      <td rowspan="8">虚拟化</td>
-      <td>p.c1p40g.large</td>
-      <td>2</td>
-      <td>8</td>
-      <td>737.99</td>
-      <td>553.49</td>
-      <td>2.56</td>
-      <td>1.92</td>
-      <td>1*1/6 P40 </td>   
-    </tr>
-   <tr>
-      <td>p.c1p40m.large</td>
-      <td>2</td>
-      <td>14</td>
-      <td>1051.27</td>
-      <td>788.45</td>
-      <td>3.65</td>
-      <td>2.74</td>
-      <td> 1*1/4 P40</td>   
-    </tr>
-   <tr>
-      <td>p.c1p40g.xlarge</td>
-      <td>4</td>
-      <td>14</td>
-      <td>1226.07</td>
-      <td>919.55</td>
-      <td>4.26</td>
-      <td>3.19</td>
-      <td>1*1/4 P40 </td>   
-    </tr>    
-   <tr>
-      <td>p.c1p40g.3large</td>
-      <td>6</td>
-      <td>28</td>
-      <td>2205.82</td>
-      <td>1654.37</td>
-      <td>7.66</td>
-      <td>5.74</td>
-      <td>1*1/2 P40 </td>   
-    </tr>      
-   <tr>
-      <td>p.q1p40g.large</td>
-      <td>2</td>
-      <td>8</td>
-      <td>896.83</td>
-      <td>672.63</td>
-      <td>3.11</td>
-      <td>2.34</td>
-      <td>1*1/6 P40 </td>   
-    </tr>
-   <tr>
-      <td>p.q1p40m.large</td>
-      <td>2</td>
-      <td>14</td>
-      <td>1210.12</td>
-      <td>907.59</td>
-      <td>4.20</td>
-      <td>3.15</td>
-      <td> 1*1/4 P40</td>   
-    </tr>
-   <tr>
-      <td>p.q1p40g.xlarge</td>
-      <td>4</td>
-      <td>14</td>
-      <td>1384.92</td>
-      <td>1038.69</td>
-      <td>4.81</td>
-      <td>3.61</td>
-      <td> 1*1/4 P40</td>   
-    </tr>    
-   <tr>
-      <td>p.q1p40g.3large</td>
-      <td>6</td>
-      <td>28</td>
-      <td>2364.67</td>
-      <td>1773.50</td>
-      <td>8.21</td>
-      <td>6.16</td>
-      <td>1*1/2 P40 </td>   
-    </tr>  
-   <tr>
-      <td rowspan="4">裸金属</td>
-      <td>通用</td>
-      <td>g.n2.metal</td>
-      <td>80</td>
       <td>384</td>
-      <td>9690</td>
-      <td>7267.5</td>
-      <td>33.65</td>
-      <td>25.23</td>
-      <td> </td>
-   </tr>   
-   <tr>
-      <td>安全增强内存优化</td>
-      <td>m.n4ft.metal</td>
-      <td>128</td>
-      <td>1024</td>
-      <td>21369.6</td>
-      <td>21369.6</td>
-      <td>44.52</td>
-      <td>44.52</td> 
-      <td> </td> 
-   </tr> 
-   <tr>
-      <td  rowspan="2">存储优化IO</td>
-      <td>s.i3f.metal</td>
-      <td>96</td>
-      <td>384</td>
-      <td>11955.71</td>
-      <td>11955.71</td>
-      <td>24.91</td>
-      <td>24.91</td>
-      <td>1*1862 GiB NVMe SSD</td>   
-   </tr>    
-   <tr>
-      <td>s.i2.metal</td>
-      <td>80</td>
-      <td>384</td>
-      <td>10125.7</td>
-      <td>7594.3</td>
-      <td>35.16</td>
-      <td>26.37</td>
-      <td>1*1862 GiB NVMe SSD</td>   
-   </tr>    
+      <td>--</td>
+      <td>24439.24</td>
+      <td>--</td>
+      <td>24*1675 GiB HDD</td>
+   </tr>
 </table>
 请注意：
 
