@@ -254,8 +254,8 @@ Linux系统实例价格
       <td>--</td>
    </tr>
    <tr>
-      <td rowspan="20">内存优化</td>
-      <td rowspan="20">标准</td>
+      <td rowspan="19">内存优化</td>
+      <td rowspan="15">标准</td>
       <td>m.n3.large</td>
       <td>2</td>
       <td>16</td>
@@ -319,468 +319,232 @@ Linux系统实例价格
       <td>--</td>
    </tr>
    <tr>
-      <td>m.n3.16xlarge</td>
-      <td>64</td>
-      <td>512</td>
-      <td>16157.40</td>
-      <td>17044.80</td>
-      <td>14829.86</td>
-      <td>--</td>
-   </tr>
-   </tr>
-      <td>m.n3.large</td>
-      <td>2</td>
-      <td>16</td>
-      <td>318</td>
-      <td>238.5</td>
-      <td>0.66</td>
-      <td>0.5</td>
-      <td></td>
-   </tr>
-   <tr>
-      <td>m.n3.xlarge</td>
-      <td>4</td>
-      <td>32</td>
-      <td>636</td>
-      <td>477</td>
-      <td>1.33</td>
-      <td>1</td>
-      <td></td>
-   </tr>
-   <tr>
-      <td>m.n3.2xlarge</td>
-      <td>8</td>
-      <td>64</td>
-      <td>1272</td>
-      <td>954</td>
-      <td>2.65</td>
-      <td>1.99</td>
-      <td></td>
-   </tr>
-   <tr>
-      <td>m.n3.3xlarge</td>
-      <td>12</td>
-      <td>96</td>
-      <td>1908</td>
-      <td>1431</td>
-      <td>3.98</td>
-      <td>2.99</td>
-      <td></td>
-   </tr>
-   <tr>
-      <td>m.n3.4xlarge</td>
-      <td>16</td>
-      <td>128</td>
-      <td>2544</td>
-      <td>1908</td>
-      <td>5.3</td>
-      <td>3.98</td>
-      <td></td>
-   </tr>
-   <tr>
-      <td>m.n3.6xlarge</td>
-      <td>24</td>
-      <td>192</td>
-      <td>3816</td>
-      <td>2862</td>
-      <td>7.95</td>
-      <td>5.96</td>
-      <td></td>
-   </tr>
-   <tr>
-      <td>m.n3.8xlarge</td>
-      <td>32</td>
-      <td>256</td>
-      <td>5088</td>
-      <td>3816</td>
-      <td>10.6</td>
-      <td>7.95</td>
-      <td></td>
-   </tr>
-   <tr>
-      <td>m.n3.16xlarge</td>
-      <td>64</td>
-      <td>512</td>
-      <td>10176</td>
-      <td>7632</td>
-      <td>21.2</td>
-      <td>15.9</td>
-      <td></td>
-   </tr>   
-   <tr>
       <td>m.n2.large</td>
       <td>2</td>
       <td>16</td>
-      <td>309.7</td>
-      <td>232.28</td>
-      <td>1.073</td>
-      <td>0.8</td>
-      <td></td>
+      <td>504.1</td>
+      <td>532.65</td>
+      <td>464.86</td>
+      <td>--</td>
    </tr>
-   <tr>
-     <td>m.n2.xlarge</td>
+   </tr>
+      <td>m.n2.xlarge</td>
       <td>4</td>
       <td>32</td>
-      <td>619.4</td>
-      <td>464.55</td>
-      <td>2.147</td>
-      <td>1.6</td>
-      <td></td>
+      <td>1001.4</td>
+      <td>1065.3</td>
+      <td>928.98</td>
+      <td>--</td>
    </tr>
    <tr>
       <td>m.n2.2xlarge</td>
       <td>8</td>
       <td>64</td>
-      <td>1238.8</td>
-      <td>929.1</td>
-      <td>4.304</td>
-      <td>3.2</td>
-      <td></td>
+      <td>2028.9</td>
+      <td>2130.6</td>
+      <td>1853.55</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>m.n2.3xlarge</td>
+      <td>12</td>
+      <td>96</td>
+      <td>3237.8</td>
+      <td>--</td>
+      <td>2787.69</td>
+      <td>--</td>
    </tr>
    <tr>
       <td>m.n2.4xlarge</td>
       <td>16</td>
       <td>128</td>
-      <td>2477.6</td>
-      <td>1858.2</td>
-      <td>8.607</td>
-      <td>6.4</td>
+      <td>4042.8</td>
+      <td>4261.2</td>
+      <td>3707.83</td>
+      <td>--</td>
+   </tr>
+   <tr>
+      <td>m.n2.6xlarge</td>
+      <td>24</td>
+      <td>192</td>
+      <td>6475.6</td>
+      <td>--</td>
+      <td>5576.11</td>
       <td></td>
    </tr>
-      <tr>
+   <tr>
       <td>m.n2.8xlarge</td>
       <td>32</td>
       <td>256</td>
-      <td>4955.2</td>
-      <td>3716.4</td>
-      <td>17.205</td>
-      <td>12.8</td>
-      <td></td>
+      <td>8078.7</td>
+      <td>8522.4</td>
+      <td>7414.93</td>
+      <td>--</td>
    </tr>
-      <tr>
-      <td>m.n2.16xlarge</td>
-      <td>64</td>
+   <tr>
+      <td>m.n2.15xlarge</td>
+      <td>60</td>
       <td>512</td>
-      <td>9910.4</td>
-      <td>7432.8</td>
-      <td>34.409</td>
-      <td>25.6</td>
-      <td></td>
+      <td>16157.4</td>
+      <td>15979.5</td>
+      <td>14829.86</td>
+      <td>--</td>
+   </tr>
+   
+   <tr>
+      <td rowspan="4">增强</td>
+      <td>m.e2.7xlarge</td>
+      <td>28</td>
+      <td>348</td>
+      <td>14329.04</td>
+      <td>12306.39</td>
+      <td>12516.61</td>
+      <td>-- </td>
+   </tr>
+   <tr>
+     <td>m.e2.14xlarge</td>
+      <td>56</td>
+      <td>696</td>
+      <td>28658.08</td>
+      <td>24612.78</td>
+      <td>25025.84</td>
+      <td>--</td>
+   </tr>
+   <tr>
+     <td>m.e2.26xlarge</td>
+      <td>104</td>
+      <td>1466</td>
+      <td>60363.14</td>
+      <td>51840.91</td>
+      <td>--</td>
+      <td>--</td>
+   </tr>
+   <tr>
+     <td>m.e2.52xlarge</td>
+      <td>208</td>
+      <td>2932</td>
+      <td>120726.28</td>
+      <td>103681.82</td>
+      <td>--</td>
+      <td>--</td>
    </tr> 
    <tr>
-      <td>m.n2.18xlarge</td>
-      <td>72</td>
-      <td>576</td>
-      <td>11149.2</td>
-      <td>8361.9</td>
-      <td>38.71</td>
-      <td>28.8</td>
-      <td></td>
-   </tr>  
-   <tr>
-      <td>m.n2.4xlarge</td>
-      <td>16</td>
-      <td>128</td>
-      <td>2477.6</td>
-      <td>1858.2</td>
-      <td>8.607</td>
-      <td>6.4</td>
-      <td></td>
-   </tr>
-    <tr>
-      <td>m.n2a.large</td>
-      <td>2</td>
-      <td>16</td>
-      <td>286.20</td>
-      <td>286.20</td>
-      <td>0.596</td>
-      <td>0.596</td>
-      <td></td>
-   </tr>
-  <tr>
-      <td>m.n2a.xlarge</td>
-      <td>4</td>
-      <td>32</td>
-      <td>572.40</td>
-      <td>572.40</td>
-      <td>1.193</td>
-      <td>1.193</td>
-      <td></td>
-   </tr>
-      <tr>
-      <td>m.n2a.2xlarge</td>
-      <td>8</td>
-      <td>64</td>
-      <td>1144.80</td>
-      <td>1144.80</td>
-      <td>2.385</td>
-      <td>2.385</td>
-      <td></td>
-   </tr>
-      <tr>
-      <td>m.n2a.4xlarge</td>
-      <td>16</td>
-      <td>128</td>
-      <td>2289.60</td>
-      <td>2289.60</td>
-      <td>4.77</td>
-      <td>4.77</td>
-      <td></td>
-   </tr>
-      <tr>
-      <td>m.n2a.8xlarge</td>
-      <td>32</td>
-      <td>256</td>
-      <td>4579.20</td>
-      <td>4579.20</td>
-      <td>9.54</td>
-      <td>9.54</td>
-      <td></td>
-   </tr>
-      <tr>
-      <td>m.n2a.16xlarge</td>
-      <td>64</td>
-      <td>512</td>
-      <td>9158.40</td>
-      <td>9158.40</td>
-      <td>19.08</td>
-      <td>19.08</td>
-      <td></td>
-   </tr>
-   <tr>
-      <td>m.n1.small</td>
-      <td>1</td>
-      <td>8</td>
-      <td>249</td>
-      <td>186.75</td>
-      <td>0.56</td>
-      <td>0.42</td>
-      <td>*</td>
-   </tr>
-   <tr>
-      <td>m.n1.medium</td>
-      <td>2</td>
-      <td>12</td>
-      <td>398</td>
-      <td>298.5</td>
-      <td>0.9</td>
-      <td>0.67</td>
-      <td>*</td>
-   </tr>
-   <tr>
-      <td>m.n1.large</td>
-      <td>2</td>
-      <td>16</td>
-      <td>498</td>
-      <td>373.5</td>
-      <td>1.13</td>
-      <td>0.85</td>
-      <td></td>
-   </tr>
-   <tr>
-     <td>m.n1.xlarge</td>
-      <td>4</td>
-      <td>32</td>
-      <td>996</td>
-      <td>747</td>
-      <td>2.26</td>
-      <td>1.7</td>
-      <td></td>
-   </tr>
-   <tr>
-      <td>m.n1.2xlarge</td>
-      <td>8</td>
-      <td>64</td>
-      <td>1992</td>
-      <td>1494</td>
-      <td>4.52</td>
-      <td>3.39</td>
-      <td></td>
-   </tr>
-   <tr>
-      <td>m.n1.4xlarge</td>
-      <td>16</td>
-      <td>128</td>
-      <td>3984</td>
-      <td>2988</td>
-      <td>9.04</td>
-      <td>6.78</td>
-      <td></td>
-   </tr>
-   
-   <tr>
-      <td rowspan="7">增强</td>
-      <td>m.e3.large</td>
-      <td>2</td>
-      <td>34</td>
-      <td>474</td>
-      <td>--</td>
-      <td>0.99</td>
-      <td>-- </td>
-      <td></td>
-   </tr>
-   <tr>
-     <td>m.e3.xlarge</td>
-      <td>4</td>
-      <td>68</td>
-      <td>948</td>
-      <td>--</td>
-      <td>1.98</td>
-      <td>--</td>
-      <td></td>
-   </tr>
-   <tr>
-     <td>m.e3.2xlarge</td>
-      <td>8</td>
-      <td>136</td>
-      <td>1896</td>
-      <td>--</td>
-      <td>3.95</td>
-      <td>--</td>
-      <td></td>
-   </tr>
-   <tr>
-     <td>m.e3.4xlarge</td>
-      <td>16</td>
-      <td>272</td>
-      <td>3792</td>
-      <td>--</td>
-      <td>7.9</td>
-      <td>--</td>
-      <td></td>
-   </tr>
-   <tr>
-     <td>m.e3.8xlarge</td>
-      <td>32</td>
-      <td>544</td>
-      <td>7584</td>
-      <td>--</td>
-      <td>15.8</td>
-      <td>--</td>
-      <td></td>
-   </tr>
-   <tr>
-     <td>m.e3.16xlarge</td>
-      <td>64</td>
-      <td>1088</td>
-      <td>15168</td>
-      <td>--</td>
-      <td>31.6</td>
-      <td>--</td>
-      <td></td>
-   </tr>
-   <tr>
-     <td>m.e3.31xlarge</td>
-      <td>124</td>
-      <td>2108</td>
-      <td>21804</td>
-      <td>--</td>
-      <td>45.43</td>
-      <td>--</td>
-      <td></td>
-   </tr>
-   
-   
-   <tr>
-      <td rowspan="10" colspan="2">突发性能</td>
+      <td rowspan="13" colspan="2">突发性能</td>
       <td>t.e2.small</td>
-      <td>2</td>
       <td>1</td>
-      <td>36</td>
+      <td>1</td>
       <td>--</td>
-      <td>0.13</td>
+      <td>49.93</td>
+      <td>47.43</td>
       <td>--</td>
-      <td></td>
    </tr>
    <tr>
      <td>t.e2.large</td>
       <td>2</td>
       <td>2</td>
-      <td>72</td>
       <td>--</td>
-      <td>0.25</td>
+      <td>99.86</td>
+      <td>94.87</td>
       <td>--</td>
-      <td></td>
    </tr>
    <tr>
      <td>t.e2.xlarge</td>
       <td>4</td>
       <td>4</td>
-      <td>187</td>
       <td>--</td>
-      <td>0.65</td>
+      <td>199.73</td>
+      <td>189.74</td>
       <td>--</td>
-      <td></td>
    </tr>
    <tr>
      <td>t.e2.2xlarge</td>
       <td>8</td>
       <td>8</td>
-      <td>374</td>
       <td>--</td>
-      <td>1.3</td>
+      <td>399.46</td>
+      <td>379.49</td>
       <td>--</td>
-      <td></td>
+   </tr>
+   <tr>
+      <td>t.e2.4xlarge</td>
+      <td>16</td>
+      <td>16</td>
+      <td>--</td>
+      <td>798.91</td>
+      <td>758.96</td>
+      <td>--</td>
+   </tr>
+   <tr>
+     <td>t.c2.small</td>
+      <td>1</td>
+      <td>2</td>
+      <td>--</td>
+      <td>87.6</td>
+      <td>83.22</td>
+      <td>--</td>
    </tr>
    <tr>
      <td>t.c2.large</td>
       <td>2</td>
       <td>4</td>
-      <td>96</td>
       <td>--</td>
-      <td>0.33</td>
+      <td>175.2</td>
+      <td>166.44</td>
       <td>--</td>
-      <td></td>
    </tr>
    <tr>
      <td>t.c2.xlarge</td>
       <td>4</td>
       <td>8</td>
-      <td>252</td>
       <td>--</td>
-      <td>0.88</td>
+      <td>350.4</td>
+      <td>332.88</td>
       <td>--</td>
-      <td></td>
    </tr>
    <tr>
      <td>t.c2.2xlarge</td>
       <td>8</td>
       <td>16</td>
-      <td>504</td>
       <td>--</td>
-      <td>1.75</td>
+      <td>700.8</td>
+      <td>665.76</td>
       <td>--</td>
-      <td></td>
+   </tr>
+   <tr>
+     <td>t.c2.4xlarge</td>
+      <td>16</td>
+      <td>32</td>
+      <td>--</td>
+      <td>1401.6</td>
+      <td>1331.52</td>
+      <td>--</td>
    </tr>
    <tr>
      <td>t.g2.large</td>
       <td>2</td>
       <td>8</td>
-      <td>180</td>
       <td>--</td>
-      <td>0.63</td>
+      <td>280.32</td>
+      <td>266.3</td>
       <td>--</td>
-      <td></td>
    </tr>
    <tr>
      <td>t.g2.xlarge</td>
       <td>4</td>
       <td>16</td>
-      <td>422</td>
       <td>--</td>
-      <td>1.47</td>
+      <td>560.64</td>
+      <td>532.61</td>
       <td>--</td>
-      <td></td>
    </tr>
    <tr>
      <td>t.g2.2xlarge</td>
       <td>8</td>
       <td>32</td>
-      <td>762</td>
       <td>--</td>
-      <td>2.65</td>
+      <td>1121.28</td>
+      <td>1065.22</td>
       <td>--</td>
-      <td></td>
    </tr>
    <tr>
       <td rowspan="10">高频计算</td>
