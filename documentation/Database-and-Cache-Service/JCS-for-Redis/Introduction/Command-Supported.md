@@ -1,51 +1,51 @@
 # Redis命令支持
 
-京东云缓存Redis基于2.8和4.0版本，命令的具体详细语法，请参见：[http://redis.io/commands](http://redis.io/commands)
+京东云缓存Redis基于开源版本的，命令的具体详细语法，请参见：[http://redis.io/commands](http://redis.io/commands)
 
 ## 支持的命令操作
 
 操作命令表中的标识说明如下 ：
 
 | 标识 | 说明  |  
-|:--:|:--:|
-| ✓ |  表示支持  |
-| x |  表示不支持  |
-| - |  表示 无此命令   |
-| 受限 |  表示可支持但是受限 |
+|:--   |:-- |
+| ✓    |  表示支持  |
+| x    |  表示不支持  |
+| -    |  表示 无此命令   |
+| 受限 |  对于涉及多Key操作的命令，要求单次操作时所有的Key都在同一个Slot，否则会报错 |
 
 
 
 #### Keys（键）
 | 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
 |:-- |:--:|:--:|:--:|:--:| :--:| 
-|  DEL      |  ✓   | ✓  |  ✓  | ✓   |  ✓   | 
+|  DEL      |  ✓   | ✓  |  ✓  | ✓   |  受限   | 
 |  DUMP     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  EXISTS   |  ✓   | ✓  |  ✓  | ✓   |  ✓   | 
+|  EXISTS   |  ✓   | ✓  |  ✓  | ✓   |  受限   | 
 |  EXPIRE   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  EXPIREAT |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  MOVE     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
+|  MOVE     |   ✓   | ✓  |  ✓  | ✓   | x   | 
 |  PERSIST  |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  PEXPIRE  |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  PEXPIREAT|   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  PTTL     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  RANDOMKEY  |   ✓   |  x  |  ✓  | ✓   | ✓   | 
-|  RENAME   |   ✓   | x  |  ✓  | ✓   | ✓   | 
-|  RENAMENX |   ✓   | x  |   受限   |  受限   | ✓   | 
-|  RESTORE  |   ✓   | ✓  |  受限  | 受限   | ✓   | 
-|  SORT     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
+|  RENAME   |   ✓   | x  |  ✓  | 受限   | 受限   | 
+|  RENAMENX |   ✓   | x  |  ✓  |  受限   | 受限   | 
+|  RESTORE  |   ✓   | ✓  |  ✓   | ✓    | ✓   | 
+|  SORT     |   ✓   | ✓  |  ✓  | 受限   | 受限   | 
 |  TTL      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  TYPE     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  SCAN     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  OBJECT   |   x   | x  |  ✓  | ✓    | ✓   | 
-|  UNLINK   |   -   | -  |  ✓  | ✓    | ✓   | 
-|  KEYS     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  WAIT     |   x   | x  |  x  | x   |  x   | 
-|  TOUCH    |   -   | -  |  ✓  | ✓   | ✓   | 
-|  MIGRATE  |   x   | x  |  x  | x   |  x   | 
+|  UNLINK   |   -   | -  |  ✓  | ✓    | 受限   | 
+|  KEYS     |   ✓   | ✓ |  ✓  | ✓   | ✓   | 
+|  WAIT     |   x   | x  |  x  | x    |  ✓   | 
+|  TOUCH    |   -   | -  |  ✓  | ✓   | 受限   | 
+|  MIGRATE  |   x   | x  |  x   | x    | 受限   | 
 
 **说明：**
 
-* KEYS命令：不推荐使用KEYS* 命令查询，可用scan命令进行查询。KEYS命令只能在VPC网络下使用，属于危险的命令，可能造成性能问题。如需使用，请确保在key很少的情况下使用。
+* KEYS命令：不推荐使用 KEYS* 命令查询，可用scan命令进行查询。KEYS命令只能在VPC网络下使用，属于危险的命令，可能造成性能问题。如需使用，请确保在key很少的情况下使用。
 
 * SORT命令使用方法：SORT key [BY pattern] [LIMIT offset count] [GET pattern [GET pattern ...]] [ASC|DESC] [ALPHA] [STORE destination]
 
@@ -61,7 +61,7 @@
 |:-- |:--:|:--:|:--:|:--:| :--:| 
 |  APPEND    |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  BITCOUNT  |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  BITOP     |   ✓   | x  |  ✓  | ✓   | ✓   | 
+|  BITOP     |   ✓   | x  |  ✓  | ✓   | 受限   | 
 |  BITPOS    |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  DECR      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  DECRBY    |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
@@ -72,9 +72,9 @@
 |  INCR      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  INCRBY    |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  INCRBYFLOAT   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  MGET      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  MSET      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  MSETNX   |   x   |  x  |  受限  | 受限   | ✓   | 
+|  MGET      |   ✓   | ✓  |  ✓  | ✓   | 受限  | 
+|  MSET      |   ✓   | ✓  |  ✓  | ✓   | 受限  | 
+|  MSETNX   |   x   |  x  |  受限  | 受限   | 受限   | 
 |  PSETEX   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  SET      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  SETBIT   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
@@ -108,9 +108,9 @@
 ####  List（列表）
 | 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
 |:-- |:--:|:--:|:--:|:--:| :--:| 
-|  BLPOP   |   -   | -  |  受限  | 受限   |  ✓   | 
-|  BRPOP   |   -   | -  |  受限  | 受限   |  ✓   | 
-|  BRPOPLPUSH |  -   |  -  |  受限  | 受限   |  受限   | 
+|  BLPOP   |   -   | -  |  ✓  | 受限   |  受限   | 
+|  BRPOP   |   -   | -  |  ✓  | 受限   |  受限   | 
+|  BRPOPLPUSH |  -   |  -  |  ✓  | 受限   |  受限   | 
 |  LINDEX   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  LINSERT  |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  LLEN     |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
@@ -122,7 +122,7 @@
 |  LSET     |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  LTRIM    |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  RPOP     |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  RPOPLPUSH |   ✓   |  x  |  受限  | 受限   |  受限   | 
+|  RPOPLPUSH |   ✓  |  x  |  ✓  | 受限   |  受限   | 
 |  RPUSH    |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  RPUSHX   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 
@@ -132,18 +132,18 @@
 |:-- |:--:|:--:|:--:|:--:| :--:| 
 |  SADD    |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
 |  SCARD   |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
-|  SDIFF   |   ✓   |  x  |  受限  | 受限    |  受限    |   ✓   | 
-|  SDIFFSTORE   |   ✓   | x  |  受限  | 受限      |  受限    |   ✓   | 
-|  SINTER  |   ✓   | x  |  受限  | 受限    |  受限    |   ✓   | 
-|  SINTERSTORE    |   ✓   | x  |  受限  | 受限    |  受限    |   ✓   | 
+|  SDIFF        |   ✓   |  x  |  ✓  | 受限    |  受限    | 
+|  SDIFFSTORE   |   ✓   |  x  |  ✓  | 受限    |  受限    | 
+|  SINTER       |   ✓   |  x  |  ✓  | 受限    |  受限    | 
+|  SINTERSTORE  |   ✓   |  x  |  ✓  | 受限    |  受限    | 
 |  SISMEMBER      |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
 |  SMEMBERS   |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
-|  SMOVE      |   ✓   | x  |  受限  | 受限    |  受限    |   ✓   | 
+|  SMOVE      |   ✓   |  x  |  ✓  | 受限    |  受限    | 
 |  SPOP       |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
 |  SRANDMEMBER    |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
 |  SREM       |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
-|  SUNION     |   ✓   | x  |  受限  | 受限    |  受限    |   ✓   | 
-|  SUNIONSTORE   |   ✓   | x  |  受限  | 受限    |  受限    |   ✓   | 
+|  SUNION     |   ✓   |  x  |  ✓  | 受限    |  受限    | 
+|  SUNIONSTORE   |   ✓   |  x  |  ✓  | 受限    |  受限    | 
 |  SSCAN      |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
 
 
@@ -165,24 +165,24 @@
 |  ZREVRANGEBYSCORE |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  ZREVRANK      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  ZSCORE        |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZUNIONSTORE   |   ✓   | x  |  受限  | 受限    | 受限    | 
-|  ZINTERSTORE   |   ✓   | x  |  受限  | 受限    | 受限    | 
+|  ZUNIONSTORE   |   ✓   | x  |  ✓  | 受限    | 受限    | 
+|  ZINTERSTORE   |   ✓   | x  |  ✓  | 受限    | 受限    | 
 |  ZSCAN         |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  ZRANGEBYLEX      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  ZLEXCOUNT        |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  ZREMRANGEBYLEX   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  ZPOPMAX   |   -   | -  |  -  | -   |  ✓   | 
 |  ZPOPMIN   |   -   | -  |  -  | -   |  ✓   | 
-|  BZPOPMIN  |   -   | -  |  -  | -   |  ✓   | 
-|  BZPOPMAX  |   -   | -  |  -  | -   |  ✓   | 
+|  BZPOPMIN  |   -   | -  |  -  | -   |  受限  | 
+|  BZPOPMAX  |   -   | -  |  -  | -   |  受限  | 
 
 
 ####  hyperloglog 
 | 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
 |:-- |:--:|:--:|:--:|:--:| :--:| 
 | PFADD    | ✓ | x  | ✓ |  ✓  | ✓  | 
-| PFCOUNT  | ✓ | x  | ✓ |  ✓  | ✓  | 
-| PFMERGE  | ✓ | x  | ✓ |  ✓  | ✓  | 
+| PFCOUNT  | ✓ | x  | ✓ |  ✓  | 受限  | 
+| PFMERGE  | ✓ | x  | ✓ |  ✓  | 受限  | 
 
 
 ####  Pub/Sub（发布/订阅）
@@ -201,9 +201,9 @@
 |:-- |:--:|:--:|:--:|:--:| :--:| 
 |  DISCARD   |   ✓   | x  |  ✓  | ✓   | ✓   | 
 |  EXEC      |   ✓   | x  |  ✓  | ✓   | ✓   |
-|  MULTI     |   ✓   | x  |  ✓  | ✓   | ✓   |
+|  MULTI     |   ✓   | x  |  ✓  | ✓   | 受限   |
 |  UNWATCH   |   ✓   | x  |  ✓  | ✓   | ✓   |
-|  WATCH     |   ✓   | x  |  ✓  | ✓   | ✓   |
+|  WATCH     |   ✓   | x  |  ✓  | ✓   | 受限   |
 
 
 #### Connection（连接）
@@ -213,7 +213,7 @@
 |  ECHO   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  PING   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
 |  QUIT   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  SELECT |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
+|  SELECT |   ✓   | ✓  |  ✓  | ✓   | x   | 
 |  SWAPDB |   x   | x   |  x  | x   |  x   | 
 
 
@@ -223,35 +223,32 @@
 |  FLUSHALL  |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  FLUSHDB   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  DBSIZE    |   x   |  x  |  ✓  | ✓   |  ✓   | 
-|  TIME      |   x   |  x  |  x  | x   |  ✓   | 
+|  TIME      |   x   |  x  |  ✓  | ✓   |  ✓   | 
 |  INFO      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
 |  KEYS      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  CLIENT KILL   |   x   | x  |  x     | x     | x     |
-|  CLIENT LIST   |   x   | x  |  受限  | 受限  |  ✓   | 
+|  CLIENT LIST      |   ✓   | ✓  |  ✓ | ✓   |  ✓   | 
+|  CLIENT KILL      |   x   | x  |  x  | x   | ✓    |
 |  CLIENT GETNAME   |   x   | x  |  ✓  | ✓   |  ✓   | 
 |  CLIENT SETNAME   |   x   | x  |  ✓  | ✓   |  ✓   | 
 |  CONFIG GET       |   x   | x  |  ✓  | ✓   |  ✓   | 
 |  MEMORY           |   -  | - |  ✓  | ✓   |  ✓   | 
-|  LATENCY          |   x   |  x  |  ✓  | ✓   |  受限   | 
-|  CONFIG REWRITE |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  COMMAND INFO   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-| CONFIG REWRITE   |  ✓   | ✓  |  ✓  | ✓   |  x   | 
+|  LATENCY          |   x   |  x  |  ✓  | ✓   |  x   | 
+|  COMMAND        |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
+|  CONFIG REWRITE |   ✓   | ✓  |  x  | x    |  x    | 
 | CONFIG RESETSTAT  | ✓   | ✓  |  ✓  | ✓   |  x   | 
-| ROLE    |    ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  LASTSAVE  |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
+|    ROLE    |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
+|  LASTSAVE  |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
 |  SHUTDOWN  |   x   | x   |  x  | x    | x     |
-|  COMMAND  |    ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  CLIENT LIST  |     ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  MONITOR     |      ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  SLOWLOG     |      ✓   | ✓  |  ✓   |  ✓  |  受限   | 
-|  CLUSTER KEYSLOT  |  x   |  x  |  x   | x  | ✓     | 
-|  CLUSTER NODES    |  x   |  x  |  x   | x  |  ✓    | 
+|  COMMAND   |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
+|  MONITOR   |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
+|  SLOWLOG  get/len   |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
+|  CLUSTER KEYSLOT|  x   |  x  |  x   | x   | ✓    | 
+|  CLUSTER NODES  |  x   |  x  |  x   | ✓  |  ✓    | 
 |  CLUSTER GETKEYSINSLOT   |  x    |  x     | x    | x   | x     | 
-|  CLUSTER SLOTS  |   x    |  x    |  x     |  x   | ✓   | 
+|  CLUSTER SLOTS  |  x     |  x    |  x     |  ✓  |  ✓   | 
 |  CLUSTER INFO   |   x    |  x    |  x     |  x   | ✓   | 
 |  MODULE         |   x    |  x    |  x     |  x   | x   | 
-|  LOLWUT         |   x    |  x    |  x     |  ✓   | ✓   | 
-
+|  LOLWUT         |   -    |  -    |  -     |  -   | ✓   | 
 
 
 
@@ -265,7 +262,7 @@
 
 * CONFIG 命令，只支持CONFIG GET [parameter]子命令，并且如果是集群版Redis，返回的是某一个分片的信息。
 
-* LATENCY: 集群版的模式下，可以指定shardId。用来获取指定分片的数据，默认返回分片0的数据。
+* LATENCY: 集群版的模式下，可以指定shardId，用来获取指定分片的数据，默认返回分片0的数据。
 
 	* 1.LATENCY支持的子命令有：[LATEST] [DOCTOR] [ HISTORY event-name] [RESET [event-name … event-name]] [GRAPH event-name]
 
@@ -280,11 +277,11 @@
 #### Scripting（脚本）
 | 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
 |:-- |:--:|:--:|:--:|:--:| :--:| 
-|  EVAL      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  EVALSHA   |   ✓   | x  |  ✓  | ✓   | ✓   | 
-|  SCRIPT EXISTS   |   ✓   | x  |  ✓  | ✓   | ✓   | 
-|  SCRIPT FLUSH    |   ✓   | x  |  ✓  | ✓   | ✓   | 
-|  SCRIPT KILL     |   ✓   | x  |  ✓  | ✓   | ✓   | 
+|  EVAL      |   ✓   | ✓  |  ✓  | 受限   | 受限   | 
+|  EVALSHA   |   ✓   | x  |  ✓  | 受限   | 受限   | 
+|  SCRIPT EXISTS   |   ✓   | x  |  ✓  | 受限   | 受限   | 
+|  SCRIPT FLUSH    |   ✓   | x  |  ✓  | 受限   | 受限   | 
+|  SCRIPT KILL     |   ✓   | x  |  ✓  | 受限   | 受限   | 
 |  SCRIPT LOAD     |   ✓   | x  |  ✓  | ✓   | ✓   | 
 |  SCRIPT DEBUG    |   ✓   | x  |  ✓  | ✓   | ✓   | 
 
@@ -296,25 +293,25 @@
 |  GEOHASH  |   x   |  x  |  ✓  | ✓   | ✓   | 
 |  GEOPOS   |   x   |  x  |  ✓  | ✓   | ✓   | 
 |  GEODIST  |   x   |  x  |  ✓  | ✓   | ✓   | 
-|  GEORADIUS   |   x   |  x  |  ✓  | ✓   | ✓   | 
+| GEORADIUS |   x   |  x  |  ✓  | ✓   | ✓   | 
 |  GEORADIUSBYMEMBER   |   x   |  x  |  ✓  | ✓   | ✓   | 
 
 #### Stream
 | 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
 |:-- |:--:|:--:|:--:|:--:| :--:|  
 |  XINFO    |   x    |  x    |  x     |  x   | ✓   | 
-|  XADD    |   x    |  x    |  x     |  x   | ✓   | 
+|  XADD     |   x    |  x    |  x     |  x   | ✓   | 
 |  XTRIM    |   x    |  x    |  x     |  x   | ✓   | 
-|  XDEL    |   x    |  x    |  x     |  x   | ✓   | 
-|  XRANGE    |   x    |  x    |  x     |  x   | ✓   | 
-|  XREVRANGE    |   x    |  x    |  x     |  x   | ✓   | 
-|  XLEN    |   x    |  x    |  x     |  x   | ✓   | 
+|  XDEL     |   x    |  x    |  x     |  x   | ✓   | 
+|  XRANGE   |   x    |  x    |  x     |  x   | ✓   | 
+|XREVRANGE  |   x    |  x    |  x     |  x   | ✓   | 
+|  XLEN     |   x    |  x    |  x     |  x   | ✓   | 
 |  XREAD    |   x    |  x    |  x     |  x   | ✓   | 
-|  XGROUP    |   x    |  x    |  x     |  x   | ✓   | 
+|  XGROUP   |   x    |  x    |  x     |  x   | ✓   | 
 |  XREADGROUP    |   x    |  x    |  x     |  x   | ✓   | 
-|  XACK    |   x    |  x    |  x     |  x   | ✓   | 
-|  XCLAIM    |   x    |  x    |  x     |  x   | ✓   | 
-|  XPENDING    |   x    |  x    |  x     |  x   | ✓   | 
+|  XACK     |   x    |  x    |  x     |  x   | ✓   | 
+|  XCLAIM   |   x    |  x    |  x     |  x   | ✓   | 
+|  XPENDING |   x    |  x    |  x     |  x   | ✓   | 
 
 
 
@@ -328,7 +325,7 @@
 
 	* 2. redis4.0 lua脚本中不支持的命令有：swapdb，rename，renamenx， bgsave，bgrewriteaof，shutdown，config，cluster，post，host
 
-* 事务中不支持的命令: SCRIPT *、INFO、SLOWLOG、LATENCY、EVAL、FLUSHALL、SCAN、AUTH、EVALSHA、DBSIZE、CONFIG、FLUSHDB、RANDOMKEY、PING
+* 事务中不支持的命令: SCRIPT * 、INFO、SLOWLOG、LATENCY、EVAL、FLUSHALL、SCAN、AUTH、EVALSHA、DBSIZE、CONFIG、FLUSHDB、RANDOMKEY、PING
 
 * ZUNIONSTORE/ZINTERSTORE命令，参数为destination numkeys key [key ...] [WEIGHTS weight] [SUM|MIN|MAX]
 

@@ -4,8 +4,13 @@
 
 | 动态名称 | 动态描述  | 发布时间	  | 相关文档   |
 |   :---  |  :---   |  :---  |:---  |
-|  Redis 5.0 Cluster集群版正式上线  |  Redis 5.0 Cluster集群版正式上线     |  2022-07   |  [实例架构](../Introduction/Features.md)        |
-|  公测Redis迁移工具RDTS  | 公测Redis迁移工具RDTS    |  2022-07   |  [迁移工具](../Data-Migration/Data-Migration-Overview.md)        |
+|   更新Redis5.0 命令支持文档   |  更新Redis5.0 命令支持文档    |  2022-09  |  [命令支持](../Introduction/Command-Supported.md)     |
+|   增加Redis5.0支持WebCli   |  支持通过WebCli直接查看实例节点数据   |  2022-08  |  [WebCli](../Operation-Guide/Instance-Management/WebCli.md)     |
+|   增加Redis5.0支持查看节点列表  |  新增Redis5.0支持节点列表   |  2022-08   | [实例节点列表](../Operation-Guide/Instance-Management/NodeList.md)   |
+|   增加Redis5.0支持大key热key查询  |  Redis5.0支持大key热key查询功能和下载数据详情功能   |   2022-08   |  [大Key热Key分析](../Operation-Guide/Cache-Analysis/Key-Analysis.md)   |
+|   公测Redis迁移工具RDTS | 支持开源Standalone、codis、cluster版本集群迁移上云   |   2022-07   | [Redis迁移工具RDTS](../Data-Migration/Data-Migration-Overview.md)    |
+|  Redis 5.0 Cluster集群版正式上线  |  Redis 5.0 Cluster集群版正式上线     |  2022-07   |  [实例架构](../Introduction/Features.md) 、 [实例规格](../Introduction/Specifications.md)    |
+
 
 ## 2022年Q2
 
@@ -100,7 +105,7 @@
 | 动态名称 | 动态描述  | 发布时间	  | 相关文档   |
 |   :---  |  :---   |  :---  |:---  |
 |   支持慢日志查询	|  通过慢日志查询功能，用户可查找性能变慢原因，并优化性能。	|   2020-03	|    [慢日志查询](../Operation-Guide/Cache-Analysis/SlowLog.md)	| 
-|   开放参数修改	|  帮助用户对当前Redis实例的参数进行配置调优。	|   2020-01	|    [参数修改](../Operation-Guide/Instance-Management/Modify-Instancename.md)	| 
+|   开放集群参数修改功能	|  用户可修改集群配置参数，从而可对当前Redis实例的参数进行配置调优。	|   2020-01	|    [集群参数配置](../Operation-Guide/Instance-Management/Modify-Instancename.md)	| 
 
 
 ## 2019年及之前

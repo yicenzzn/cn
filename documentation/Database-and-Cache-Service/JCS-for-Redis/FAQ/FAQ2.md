@@ -22,3 +22,13 @@ Step4：将服务端实例开启密码访问，并修改为新密码。
 
 Step5：恢复@no-auth-ignore 参数值为默认值no。
 
+**Q：创建完Redis后，默认的白名单就会设置为0.0.0.0/0，这个有什么策略可以控制嘛？**
+
+A：0.0.0.0/0 是默认值，表示这个vpc内所有的地址都可以连接这个集群，可以调用设置白名单接口修改这个值。请参考以下API：
+
+| 接口 | 说明  |  
+|:--   |:-- |
+| [describeIpWhiteList](http://docs.jdcloud.com/cn/jcs-for-redis/api/describeipwhitelist?content=API)    |  表示获取Redis实例的IP白名单（只有白名单内的IP、网络才能访问该实例）  |
+| [modifyIpWhiteList](https://docs.jdcloud.com/cn/jcs-for-redis/api/modifyipwhitelist?content=API)    |  修改Redis实例的IP白名单  |
+
+

@@ -51,6 +51,8 @@
         items:
           - name: 实例状态
             href: Operation-Guide/Instance-Management/LifeCycle.md
+          - name: 实例节点列表
+            href: Operation-Guide/Instance-Management/NodeList.md
           - name: 变更配置
             href: Operation-Guide/Instance-Management/Change-Configuration.md
           - name: 删除实例
@@ -72,7 +74,9 @@
           - name: 备份恢复
             href: Operation-Guide/Backup-And-Recovery.md   
           - name: 升级实例版本
-            href: Operation-Guide/Instance-Management/UpgradeInstanceVersion.md     
+            href: Operation-Guide/Instance-Management/UpgradeInstanceVersion.md    
+          - name: WebCli
+            href: Operation-Guide/Instance-Management/WebCli.md    
       - name: 连接实例
         items:
           - name: 公网连接Redis实例
@@ -97,7 +101,7 @@
             href: Operation-Guide/Cache-Analysis/SlowLog.md
           - name: 缓存分析
             href: Operation-Guide/Cache-Analysis/Cache-Analysis.md
-          - name: 热key大key
+          - name: 热key大key分析
             href: Operation-Guide/Cache-Analysis/Key-Analysis.md     
       - name: 账号与安全
         items:
@@ -108,8 +112,7 @@
           - name: 免密和修改密码
             href: Operation-Guide/User-Manage/Change-Password.md
           - name: 账号管理
-            href: Operation-Guide/User-Manage/UserManage.md
-          
+            href: Operation-Guide/User-Manage/UserManage.md          
       - name: 监控报警
         items:
           - name: 查看监控信息
@@ -122,13 +125,11 @@
             href: Operation-Guide/Monitoring/Node-Notice.md    
   - name: 数据迁移
     items:
-      - name: 数据迁移工具介绍
+      - name: 云缓存Redis迁移工具RDTS介绍
         href: Data-Migration/Data-Migration-Overview.md
-      - name: 使用云上工具RDTS进行迁移
+      - name: 使用RDTS迁移数据
         href: Data-Migration/MigrationDoc-1.md
-      - name: 从自建Redis迁移到云Redis
-        href: Data-Migration/MigrationDoc-2.md
-      - name: 使用开源工具迁移介绍
+      - name: 使用开源工具迁移数据
         href: Data-Migration/MigrationDoc-3.md
       - name: 迁移的监控报警配置
         href: Data-Migration/Migration-Alarm-Rules.md
@@ -140,6 +141,8 @@
         href: Best-Practices/Doc-1.md
       - name: Redis迁移解决方案
         href: Best-Practices/Doc-2.md 
+      - name: 合理使用大key
+        href: Best-Practices/Doc-3.md 
   - name: 性能测试
     items:
       - name: 测试环境
