@@ -3,6 +3,10 @@
 
 | 功能名称 | 功能描述 | 发布时间 | 相关文档|
 | :---------------| :--------------|:------------|:--------
+|OpenEuler 21.09（x86）镜像发布|基于x86架构的OpenEuler 21.09 镜像在全部地域发布上线。|2022-09|[镜像类型](https://docs.jdcloud.com/cn/virtual-machines/image-type)
+|云事件支持本地数据盘实例的故障通知|自带本地数据盘的实例规格（如存储优化型、部分GPU型）在本地盘发生故障时，系统会向云事件发送通知，可通过订阅云事件及时获知。|2022-06|[云主机事件通知](https://docs.jdcloud.com/cn/virtual-machines/event-overview)
+|A100 GPU直通型实例规格上线| 基于Nvidia Tesla A100（显存80 GiB）的直通型GPU实例规格在华东-上海地域上线，提供1/2/4/8卡主机规格。|2022-06|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family#user-content-6)
+|第三代共享型实例规格上线|基于Intel Xeon Platinum 8338C（Icelake）处理器的第三代共享型实例规格在华北-北京地域上线。|2022-05|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family#user-content-1)
 |内存优化增强型规格上线|基于Intel® 第二代傲腾持久内存（BPS），提供高内存配比的实例规格。|2022-03|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family#user-content-7)
 |存量云主机支持加入高可用组|通过调整高可用组功能，可以将一台未加入高可用组的云主机添加到高可用组，或者将一台已加入一个高可用组的云主机更换到另一个高可用组。|2022-03|[调整高可用组](https://docs.jdcloud.com/cn/virtual-machines/modify-instance-ag)
 |云主机支持资源组管理|云主机创建时支持指定资源组，创建后支持实例资源组调整，同时支持以资源组视角查看和管理实例。|2022-03|[资源组概述](https://docs.jdcloud.com/cn/virtual-machines/resource-group-introduction)
