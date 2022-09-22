@@ -1,0 +1,92 @@
+name: 云原生实时数仓 Starwift
+href: 
+items:
+  - name: 产品简介
+    items:
+      - name: 产品概述
+        href: Introduction/Product-Overview.md
+      - name: 产品优势
+        href: Introduction/Benefits.md
+      - name: 产品功能
+        href: Introduction/Features.md          
+      - name: 应用场景
+        href: Introduction/Application-Scenarios.md
+      - name: 核心概念
+        href: Introduction/Core-Concepts.md        
+      - name: 产品规格
+        href: Introduction/Specifications.md
+      - name: 限制说明
+        href: Introduction/Restrictions.md          
+  - name: 产品定价
+    items:
+      - name: 计费概述
+        href: Pricing/Billing-Overview.md
+      - name: 计费规则
+        href: Pricing/Billing-Rules.md
+      - name: 价格总览
+        href: Pricing/Price-Overview.md   
+  - name: 快速入门
+    items:
+      - name: 操作流程
+        href: Getting-Started/Quick-Start.md
+      - name: 创建实例
+        href: Getting-Started/Create-Instance1.md
+      - name: 创建账号
+        href: Getting-Started/Create-Account1.md
+      - name: 白名单设置
+        href: Getting-Started/Set-Whitelist1.md
+      - name: 连接实例
+        href: Getting-Started/Connect-Instance1.md    
+  - name: 操作指南
+    items:
+      - name: 实例管理
+        items:
+          - name: 创建实例
+            href: Operation-Guide/Instance/Create-Instance.md
+          - name: 查看实例
+            href: Operation-Guide/Instance/View-Instance.md
+          - name: 删除实例
+            href: Operation-Guide/Instance/Delete-Instance.md
+          - name: 外网访问
+            href: Operation-Guide/Instance/Internet-Access.md
+          - name: 变更配置
+            href: Operation-Guide/Instance/Modify-Instance-Spec.md
+          - name: 节点信息
+            href: Operation-Guide/Instance/Node-Info.md 
+      - name: 账号管理
+        items:
+          - name: 创建账号
+            href: Operation-Guide/Account/Create-Account.md
+          - name: 删除账号
+            href: Operation-Guide/Account/Delete-Account.md
+          - name: 设置权限
+            href: Operation-Guide/Account/Grant-Privilege.md
+          - name: 重置密码
+            href: Operation-Guide/Account/Reset-Password.md
+      - name: 安全管理
+        items:
+          - name: 白名单设置
+            href: Operation-Guide/Security/Set-Whitelist.md
+      - name: 连接数据库
+        items:
+          - name: 通过命令行连接
+            href: Operation-Guide/Connection/Client.md
+          - name: 通过 JDBC 连接
+            href: Operation-Guide/Connection/JDBC.md
+      - name: 监控报警
+        items:
+          - name: 设置报警规则
+            href: Operation-Guide/Monitor-Alarm/Set-Alarm-Rules.md
+          - name: 查看监控信息
+            href: Operation-Guide/Monitor-Alarm/View-Monitor-Information.md
+  - name: 数据迁移
+    items:
+      - name: 从文件导入
+        href: Data-Migration/Migration-From-File.md
+      - name: 从 ClickHouse 导入
+        href: Data-Migration/Migration-From-Clickhouse.md        
+  - name: 常见问题
+    items:
+      - name: FAQ
+        href: FAQ/FAQ.md     
+          
