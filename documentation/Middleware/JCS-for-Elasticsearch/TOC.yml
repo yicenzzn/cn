@@ -101,6 +101,14 @@
             href: Operation-Guide/Instance/Resource-group/Change-Resource-Groups.md
           - name: 资源组筛选
             href: Operation-Guide/Instance/Resource-group/Filter-Resource-Groups.md
+      - name: 集群变配
+        items:
+        - name: 升配集群
+          href: Operation-Guide/ChangeConfig/Cluster_Expansion.md
+        - name: 降配集群
+          href: Operation-Guide/ChangeConfig/Cluster_Shrink.md
+        - name: 缩容集群数据节点
+          href: Operation-Guide/ChangeConfig/Cluster_Nodes_Shrink.md
       - name: 集群配置
         items: 
         - name: 高级配置

@@ -3,6 +3,7 @@
 ## 2022年
 | 功能名称 | 功能描述 | 发布时间 | 相关文档|
 | :---------------| :--------------|:------------|:--------|
+| 集群降配 | 当您的业务存在高低峰期或其他变化，导致集群节点规格高于业务所需规格时，可以通过降配集群来降低节点等规格配置，以更好地为您节约成本。 | 2022-09 |[降配集群](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/Cluster_Shrink) |
 |冷热数据分离|提供了快速配置构建冷热集群的能力，用户可以根据业务需要指定冷热节点规格，快速建立一个冷热分离架构的 ES 集群。|2022-07|[冷热数据分离](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/Warm-Node)|
 |版本7.10|支持Elasticsearch 版本7.10。|2022-06|[创建集群](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/create-es)|
 |资源组管理|资源组是京东云资源分组管理的工具，支持对云资源进行逻辑分组。通过使用资源组，可实现多项目或多应用场景下的资源分组管理问题。|2022-03|[资源组管理](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/resource-group-introduction)|
