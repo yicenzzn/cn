@@ -12,3 +12,12 @@
 ```
 
 ![规格变更](../../../../image/Internet-Middleware/JCS-for-Kafka/kafka规格变更.jpg)
+***
+```
+流量配置变更须知
+1.	变更配置后京东云可能会重启您的实例，服务不会中断，可能存在短暂的请求失败，客户端的重试机制可以解决。
+2.	变更配置后可能会导致分区（Partition）消息乱序，请谨慎操作。
+```
+
+![规格变更](/documentation/Middleware/JCS-for-Kafka/image/change-kafka.jpg)
+***

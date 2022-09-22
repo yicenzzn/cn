@@ -1,5 +1,5 @@
 ## 连接实例
-消息队列Kafka版支持通过Kafka Manager、京东云云主机或客户端方式连接实例。</br>
+消息队列Kafka0.10.2、1.0.1、2.4版支持通过Kafka Manager连接实例、消息队列Kafka所有版本均支持京东云云主机或客户端方式连接实例。</br>
 
 ### 通过Kafka Manager连接实例
 1.	登录消息队列Kafka版控制台，创建消息队列Kafka版实例 。</br>
