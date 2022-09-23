@@ -13,7 +13,7 @@
 |步骤|操作|说明
 |-|-|-|
 |1|[新建实例](Create-Instance1.md)|新建 Starwift 实例|
-|2|[创建账号](../Operation-Guide/Account/Create-Account.md)|创建实例的数据库账号|
-|3|[设置白名单](../Operation-Guide/Security/Set-Whitelist.md)|设置实例的白名单以允许应用访问|
+|2|[创建账号](/Create-Account1.md)|创建实例的数据库账号|
+|3|[设置白名单](/Set-Whitelist1.md)|设置实例的白名单以允许应用访问|
 |4|[连接实例](Connect-Instance1.md)|通过客户端和代码连接实例|
 |5|[删除实例](../Operation-Guide/Instance/Delete-Instance.md)|删除实例|
