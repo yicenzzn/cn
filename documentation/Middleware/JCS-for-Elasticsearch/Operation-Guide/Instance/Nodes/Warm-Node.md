@@ -159,3 +159,13 @@ hot_warm_test_index   0     p      warmnode-1
 hot_warm_test_index   2     p      warmnode-2
 hot_warm_test_index   1     r      warmnode-2
 ```
+
+## 关闭冷数据节点
+### 前置条件
+
+### 设置全部索引为热索引
+
+### 检查没有分片分配在冷数据节点上
+
+### 关闭冷数据节点
+
