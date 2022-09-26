@@ -162,10 +162,32 @@ hot_warm_test_index   1     r      warmnode-2
 
 ## 关闭冷数据节点
 ### 前置条件
+1. 设置全部索引为热索引。
+2. 没有分片分配在冷节点上。
 
 ### 设置全部索引为热索引
+修改冷索引的索引配置，把冷索引修改为热索引。系统将会把修改的索引的分片迁移至热节点上。
+```
+PUT <#hot_data_index#>/_settings
+{
+        "index.routing.allocation.require.box_type": "hot"
+}
+```
 
 ### 检查没有分片分配在冷数据节点上
+查看分片分配，检查是否所有的分片都分配到热节点上了。
+检查方法为：检查所有分片的节点属性（node列），node值都是node-开头的（node-*），没有warmnode-开头的（warmnode-*）。
+```
+GET _cat/shards/hot_warm_test_index?v&h=index,shard,prirep,node&s=node
+
+index               shard prirep node
+hot_warm_test_index 2     p      node-0
+hot_warm_test_index 1     r      node-0
+hot_warm_test_index 2     r      node-1
+hot_warm_test_index 0     p      node-1
+hot_warm_test_index 1     p      node-2
+hot_warm_test_index 0     r      node-2
+```
 
 ### 关闭冷数据节点
 
