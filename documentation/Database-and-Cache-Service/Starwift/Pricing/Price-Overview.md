@@ -34,7 +34,6 @@
 |terrabase.s1.xlarge|4|16|672|1.4|
 |terrabase.s1.2xlarge|8|32|1392|2.9|
 |terrabase.s1.4xlarge|16|64|2784|5.8|
-|terrabase.s1.6xlarge|24|96|4176|8.7|
 |terrabase.s1.8xlarge|32|128|5568|11.6|
 
 #### 3. ZK 节点
@@ -43,7 +42,6 @@
 |terrabase.zk1.xlarge|4|16|300|912|1.9|
 |terrabase.zk1.2xlarge|8|32|300|1632|3.4|
 |terrabase.zk1.4xlarge|16|64|300|3024|6.3|
-|terrabase.zk1.8xlarge|32|128|300|5808|12.1|
 
 #### 4. 监控节点
 |规格代码|VCPU(核)|内存（GB）|支持的存储空间（GB）|包年包月（元/月）|按配置收费（元/小时）|
