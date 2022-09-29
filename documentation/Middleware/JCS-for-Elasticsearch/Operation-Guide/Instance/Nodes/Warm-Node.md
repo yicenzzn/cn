@@ -166,7 +166,7 @@ hot_warm_test_index   1     r      warmnode-2
 2. 没有分片分配在冷节点上。
 
 ### 设置全部索引为热索引
-修改冷索引的索引配置，把冷索引修改为热索引。系统将会把修改的索引的分片迁移至热节点上。
+修改全部冷索引的索引配置，把冷索引修改为热索引。系统将会把修改的索引的分片迁移至热节点上。
 ```
 PUT <#hot_data_index#>/_settings
 {
@@ -176,17 +176,18 @@ PUT <#hot_data_index#>/_settings
 
 ### 检查没有分片分配在冷数据节点上
 查看分片分配，检查是否所有的分片都分配到热节点上了。
-检查方法为：检查所有分片的节点属性（node列），node值都是node-开头的（node-*），没有warmnode-开头的（warmnode-*）。
+检查方法为：检查“shards”列，确认所有冷节点（warmnode-*）的节点上的分片数（shards）为0。
 ```
-GET _cat/shards/hot_warm_test_index?v&h=index,shard,prirep,node&s=node
+GET _cat/allocation?v&s=node
 
-index               shard prirep node
-hot_warm_test_index 2     p      node-0
-hot_warm_test_index 1     r      node-0
-hot_warm_test_index 2     r      node-1
-hot_warm_test_index 0     p      node-1
-hot_warm_test_index 1     p      node-2
-hot_warm_test_index 0     r      node-2
+shards disk.indices disk.used disk.avail disk.total disk.percent host         ip           node
+    56       48.8kb    34.3mb     29.9gb     29.9gb            0 10.123.32.22 10.123.32.22 node-0
+    56        4.9mb    39.3mb     29.9gb     29.9gb            0 10.123.32.23 10.123.32.23 node-1
+    56        4.9mb    39.3mb     29.9gb     29.9gb            0 10.123.32.24 10.123.32.24 node-2
+    56       48.8kb    33.9mb     29.9gb     29.9gb            0 10.123.32.25 10.123.32.25 node-3
+     0           0b    32.4mb     19.9gb     19.9gb            0 10.123.34.4  10.123.34.4  warmnode-0
+     0           0b    32.4mb     19.9gb     19.9gb            0 10.123.34.5  10.123.34.5  warmnode-1
+     0           0b    32.4mb     19.9gb     19.9gb            0 10.123.34.6  10.123.34.6  warmnode-2
 ```
 
 ### 关闭冷数据节点
