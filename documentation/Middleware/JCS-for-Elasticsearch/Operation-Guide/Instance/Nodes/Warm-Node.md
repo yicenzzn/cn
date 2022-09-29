@@ -205,8 +205,12 @@ shards disk.indices disk.used disk.avail disk.total disk.percent host         ip
 ### 关闭冷数据节点
 1. 访问 [云搜索Elasticsearch 控制台](https://es-console.jdcloud.com/clusters)，或者访问 [京东云控制台](https://console.jdcloud.com/) 选择【云服务】-【互联网中间件】-【云搜索Elasticsearch】进入实例列表页。</br>
 2. 在实例列表页，选择目标集群右侧的【操作-更多-变更配置】。</br>
-3. 在变更配置页，关闭**启用冷数据节点**。</br>
-4. 点击变更并确认，等待集群配置变更完成。</br>
+3. 在变更配置页，如果关闭冷数据节点的前提条件全部满足，启用冷数据节点开关将处于可关闭状态；否则，启用冷数据节点开关将置灰为不可关闭状态。
+
+![Warm_Node_create](../../../../../../image/Elasticsearch/Nodes/Warm_Node_create.png)
+
+4. 点击关闭**启用冷数据节点**开关。</br>
+5. 点击变更并确认，等待集群配置变更完成。</br>
 
 
 ![Warm_Node_close](../../../../../../image/Elasticsearch/Nodes/Warm_Node_close.png)
