@@ -190,5 +190,17 @@ shards disk.indices disk.used disk.avail disk.total disk.percent host         ip
      0           0b    32.4mb     19.9gb     19.9gb            0 10.123.34.6  10.123.34.6  warmnode-2
 ```
 
+如果冷节点上还有分片，查询结果类似如下，存在某个或多个冷节点（warmnode-*）的节点上的分片数（shards）不为0
+```
+shards disk.indices disk.used disk.avail disk.total disk.percent host         ip           node
+    54       48.4kb    34.1mb     29.9gb     29.9gb            0 10.123.32.22 10.123.32.22 node-0
+    54        4.9mb    39.3mb     29.9gb     29.9gb            0 10.123.32.23 10.123.32.23 node-1
+    54        4.9mb    39.3mb     29.9gb     29.9gb            0 10.123.32.24 10.123.32.24 node-2
+    54       48.4kb    33.8mb     29.9gb     29.9gb            0 10.123.32.25 10.123.32.25 node-3
+     2         416b    32.4mb     19.9gb     19.9gb            0 10.123.34.4  10.123.34.4  warmnode-0
+     3         624b    32.4mb     19.9gb     19.9gb            0 10.123.34.5  10.123.34.5  warmnode-1
+     3         624b    32.4mb     19.9gb     19.9gb            0 10.123.34.6  10.123.34.6  warmnode-2
+```
+
 ### 关闭冷数据节点
 
