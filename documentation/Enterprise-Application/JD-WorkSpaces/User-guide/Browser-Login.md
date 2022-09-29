@@ -4,19 +4,13 @@
 ### 前提条件
 1、具备chrome/firefox/safari 或具备类似内核的浏览器。<br>
 2、具备联网电脑或者能够在浏览器中打开网址的设备。<br>
-3、管理员已为该用户开通云电脑。<br>
+3、管理员已为您开通云电脑。<br>
 ### 操作步骤
 1、在浏览器中输入：https://cloudbook-login.jd.com/login<br>
 ![image](https://user-images.githubusercontent.com/103625856/192927509-b686b633-e115-4b3c-9983-fc8524d2d2d9.png)<br>
-2、输入工作区、云电脑账号、密码。
+2、管理员为您开通云电脑后，您会收到一条短信，根据短信信息，在云电脑登陆页输入工作区、云电脑账号、密码。<br>
+![image](https://user-images.githubusercontent.com/103625856/192928900-331e55af-1012-4183-b336-d731158400c7.png)<br>
+3、登陆成功后,进入云电脑列表页，该页面显示已开通的云电脑。可以在该页面进行修改密码、注销等操作。<br>
+   如果您只有一台云电脑，系统会自动进入云电脑桌面；如果您有多台云电脑，选择需要进入的云电脑，点击“打开”进入。<br>
+![image](https://user-images.githubusercontent.com/103625856/192932638-06dfd7cb-e59a-4b71-ac20-c0d613193088.png)<br>
 
-
-进入云电脑管理后台，点击左侧功能栏  “用户管理”，进入用户管理页面。<br>
-![image](https://user-images.githubusercontent.com/103625856/190052243-5fd44fae-4021-4b0d-b5e1-ecc3f0565e54.png)<br>
-2、在用户列表操作区，可对用户进行编辑、锁定/解锁、删除、新增云电脑、切换工作组、查看用户详情操作。<br>
-![image](https://user-images.githubusercontent.com/103625856/190052530-3b5dc5bb-7bab-4b19-a5d0-64b68e2eaa2b.png)<br>
-编辑资料：针对用户所属工作组等资料进行编辑<br>
-锁定/解锁账号：锁定用户后，用户将无法登录云电脑，解锁后可重新登录。<br>
-新增云电脑：可为用户新增云电脑实例<br>
-切换工作组：可快速切换用户工作组<br>
-删除用户：删除后，该用户已分配的云电脑也会被删除（包括云电脑内的数据）<br>
