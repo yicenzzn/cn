@@ -48,18 +48,19 @@ items:
     - name: topic
       items:
         - name: 查看分区状态
-          href: 
+          href: Operation-Guide/View-Partition.md
     - name: Consumer Group
       items:
         - name: 查看消费状态
-          href: 
+          href: Operation-Guide/View-ConsumerStatus.md
         - name: 重置消费位点
-          href: 
+          href: Operation-Guide/ResetOffsetbytime.md
     - name: 查询消息
-      href: 
-    - name: 查看分区状态
-      href: 
-
+      href: Operation-Guide/View-Message.md
+    - name: 运维诊断
+      href: Operation-Guide/IntelligenceOperation.md
+    - name: 高级配置
+      href: Operation-Guide/AdvancedConfiguration.md
     - name: 监控报警
       href: Operation-Guide/Monitoring.md
 - name: 常见问题
