@@ -7,6 +7,9 @@
 3、管理员已为该用户开通云电脑。<br>
 ### 操作步骤
 1、在浏览器中输入：https://cloudbook-login.jd.com/login<br>
+![image](https://user-images.githubusercontent.com/103625856/192927509-b686b633-e115-4b3c-9983-fc8524d2d2d9.png)<br>
+2、输入工作区、云电脑账号、密码。
+
 
 进入云电脑管理后台，点击左侧功能栏  “用户管理”，进入用户管理页面。<br>
 ![image](https://user-images.githubusercontent.com/103625856/190052243-5fd44fae-4021-4b0d-b5e1-ecc3f0565e54.png)<br>
