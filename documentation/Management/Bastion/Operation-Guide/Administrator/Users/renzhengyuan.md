@@ -16,7 +16,7 @@
 
 **AD/LDAP**：填写认证源名称、认证源类型、服务器地址、Base DN、部门过滤、用户过滤、管理员账号、管理员密码，选择用户名、手机号、Email，完成创建。
 
-![](/image/Bastion/rzy22.png)
+![](/image/Bastion/rzy222.png)
 
 ### OAuth2.0认证源创建示例
 
