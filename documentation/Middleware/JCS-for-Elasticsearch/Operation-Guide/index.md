@@ -33,7 +33,9 @@
 | 删除忽略索引 | 该项设置后索引不会被定期删除，多个间逗号(,)分隔。例"pop_jd_log_"模板需要长期保留，则填写pop_jd_log_20180618,pop_jd_log_20181111。|
 | 索引模板内容 | 对应显示所选择的索引模板的内容 |
 
-![sdsd](../../../../image/Elasticsearch/Index/Index-management-task-create-2.png)
+![Index-management-task-create-2](../../../../image/Elasticsearch/Index/Index-management-task-create-2.png)
+
+![Index-management-task-create-3](../../../../image/Elasticsearch/Index/Index-management-task-create-3.png)
 
 ### 编辑索引任务
 添加周期创建索引的任务后，在周期创建索引页面，可以通过单击【**操作-编辑**】对任务进行修改，编辑索引任务支持以下参数的修改支持的修改。参数说明可参考“创建索引任务”章节的说明</br>
