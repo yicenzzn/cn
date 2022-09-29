@@ -33,7 +33,7 @@
 | 删除忽略索引 | 该项设置后索引不会被定期删除，多个间逗号(,)分隔。例"pop_jd_log_"模板需要长期保留，则填写pop_jd_log_20180618,pop_jd_log_20181111。|
 | 索引模板内容 | 对应显示所选择的索引模板的内容 |
 
-![Index-management-task-create-2](../../../../image/Elasticsearch/Index/Index-management-task-create-2.png)
+![Index-management-task-create-4](../../../../image/Elasticsearch/Index/Index-management-task-create-4.png)
 
 ![Index-management-task-create-3](../../../../image/Elasticsearch/Index/Index-management-task-create-3.png)
 
