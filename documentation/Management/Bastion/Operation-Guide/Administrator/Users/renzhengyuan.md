@@ -14,9 +14,37 @@
 
 ![](/image/Bastion/rzy1.png)
 
+说明：
+
+|    字段    |   说明  | 
+| :--------: | :--------:|
+| 认证服务端点  | 用于请求并打开OAuth服务认证页面 |
+| 令牌服务端点  | 用于获取OAuth服务令牌 |
+| 用户信息端点  | 用于获取OAuth服务用户信息 |
+| 客户端/应用ID  | 用于请求时互信 |
+| 客户端密码  | 用于请求时互信 |
+| redirectUri  | 用于OAuth服务器回传结果 |
+| redirectUriRelay  | 用于ssh登录认证时，OAuth服务器回传结果 |
+
 **AD/LDAP**：填写认证源名称、认证源类型、服务器地址、Base DN、部门过滤、用户过滤、管理员账号、管理员密码，选择用户名、手机号、Email，完成创建。
 
 ![](/image/Bastion/rzy222.png)
+
+说明：
+
+- **服务器地址**:配置LDAP服务器地址，用于请求LDAP服务器；端口默认明文传输，勾选“开启SSL”则加密传输。
+
+- **Base DN**：LDAP目录树的最顶部就是根，也就是所谓的 "Base DN"，如 "dc=xksec,dc=com, ou=JDCLOUD "。见下图示意。
+
+  ![](/image/basedn.png) 
+
+- **部门过滤**：部门过滤属性，例如：(|(objectclass=group)(objectclass=groupofnames)(objectclass=groupofuniquenames)(objectclass=organizationalUnit))
+- **用户过滤**:  用户过滤属性，例如 ：(|(objectclass=user)(objectclass=person)(objectclass=inetOrgPerson)(objectclass=organizationalPerson))
+- **管理员账号**: LDAP服务器管理员账号
+- **管理员密码**: LDAP服务器管理员密码
+- **选择用户名**: 选择用户属性
+- **手机号**：选择手机号属性
+- **Email**：选择Email属性
 
 ### OAuth2.0认证源创建示例
 
