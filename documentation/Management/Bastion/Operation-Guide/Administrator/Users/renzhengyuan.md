@@ -38,8 +38,8 @@
 
 ![](/image/Bastion/basedn.png) 
 
-- **部门过滤**：部门过滤属性，例如：(|(objectclass=group)(objectclass=groupofnames)(objectclass=groupofuniquenames)(objectclass=organizationalUnit))
-- **用户过滤**:  用户过滤属性，例如 ：(|(objectclass=user)(objectclass=person)(objectclass=inetOrgPerson)(objectclass=organizationalPerson))
+- **部门过滤**：部门过滤属性，例如：(|(objectclass=group)(objectclass=groupofnames)(objectclass=organizationalUnit))
+- **用户过滤**:  用户过滤属性，例如 ：(|(objectclass=user)(objectclass=person)(objectclass=inetOrgPerson))
 - **管理员账号**: LDAP服务器管理员账号
 - **管理员密码**: LDAP服务器管理员密码
 - **选择用户名**: 选择用户属性
