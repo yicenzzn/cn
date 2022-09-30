@@ -36,7 +36,7 @@
 
 - **Base DN**：LDAP目录树的最顶部就是根，也就是所谓的 "Base DN"，如 "dc=xksec,dc=com, ou=JDCLOUD "。见下图示意。
 
-  ![](/image/basedn.png) 
+![](/image/Bastion/basedn.png) 
 
 - **部门过滤**：部门过滤属性，例如：(|(objectclass=group)(objectclass=groupofnames)(objectclass=groupofuniquenames)(objectclass=organizationalUnit))
 - **用户过滤**:  用户过滤属性，例如 ：(|(objectclass=user)(objectclass=person)(objectclass=inetOrgPerson)(objectclass=organizationalPerson))
@@ -45,6 +45,20 @@
 - **选择用户名**: 选择用户属性
 - **手机号**：选择手机号属性
 - **Email**：选择Email属性
+
+### AD/LDAP用户导入
+
+1.通过京东云堡垒机【用户】-【认证源】，完成AD/LDAP创建。选择已建好的认证源列选择“导入用户”，如下图：
+
+![](/image/Bastion/rzydryh.png) 
+
+2.选择AD/LDAP服务已创建的用户进行导入。（已导入的用户不展示）
+
+![](/image/Bastion/rzyxzyh.png) 
+
+3.导入成功，在【用户】-【用户管理】列表展示导入的用户信息。
+
+![](/image/Bastion/rzycgdryh.png) 
 
 ### OAuth2.0认证源创建示例
 
