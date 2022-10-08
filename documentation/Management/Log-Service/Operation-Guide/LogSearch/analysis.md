@@ -1,12 +1,22 @@
 # 统计分析  
 统计分析功能可以从大量日志中筛选出满足条件的日志，进行统计计数或对数字类型字段求和、求平均值等，同时提供表格、折线图、饼图3种展现形式，可以帮助用户快速查看分析结果。（注意：只有结构化结构化的日志才支持统计分析操作，针对自定义业务日志需要先进行日志预处理操作。）
+
+统计分析语法格式为：
+
+`查询语句|统计语句`
+
+查询语句支持全文检索与键值检索，表示从全部日志内容中筛选检索结果，关于查询语句可查看日志检索语法中内容。如果不需要进行筛选可以使用*。
+
+统计语句支持类SQL92的语法，表示从前边查询语句筛选后的结果集中进行统计分析。
+
+
 ## 应用场景
 **场景一：分析请求分布情况**
 
-以应用负载均衡7层访问日志中，将日志按照request_method分组，统计各个请求方法出现的次数。
+在应用负载均衡7层访问日志中，将日志按照request_method分组，统计各个请求方法出现的次数。
 
 ```sql
-select request_method,count(1) group by request_method
+* | select request_method,count(1) group by request_method
 ```
 
 展示结果如下，在选定的时间内，POST方法有50条日志，GET方法有9条日志。
@@ -16,13 +26,23 @@ select request_method,count(1) group by request_method
 | POST           | 50       |
 | GET            | 9        |
 
+**场景二：统计发送请求流量最大的IP**
 
-**场景二：获取耗时较长时间的SQL执行语句句** 
+在应用负载均衡7层访问日志中，筛选请求包长度>10的日志数据，将日志按照客户端IP分组，统计总发送流量最大的5个客户端IP。
+
+```sql
+request_length > 10 | select client_ip,sum(bytes_sent) group by client_ip order by sum(bytes_sent) desc limit 5
+```
+展示结果如下
+
+![](../../../../../image/LogService/analysis/search-analysis.png)
+
+**场景三：获取耗时较长时间的SQL执行语句句** 
 
 在mysql的慢日志中，按照clienthost字段分组，统计query_time 大于1s 发生的次数。
 
 ```sql
-select clienthost,count(1) where query_time > 1 group by clienthost
+query_time>1 | select clienthost,count(1) group by clienthost
 ```
 
 展示结果如下，在选定的时间内，192.168.0.29超过1秒的次数有16次，192.168.0.28超过1s的次数有4次。
@@ -32,12 +52,13 @@ select clienthost,count(1) where query_time > 1 group by clienthost
 | 192.168.0.29 | 16       |
 | 192.168.0.28 | 4        |
 
-**场景三：按照指定的时间粒度和时间格式，获取耗时较长的SQL执行次数的趋势**
+**场景四：按照指定的时间粒度和时间格式，获取耗时较长的SQL执行次数的趋势**
 
 在mysql的慢日志中，按照秒的粒度汇总统计query_time大于1s的发生次数，时间格式为“xxxx年-xx月-xx日 xx时:xx分:xx秒”。
 
+
 ```sql
-select date_format(date_trunc('second', time), 'YYYY-MM-dd HH:mm:ss'), count(1) where query_time > 1 group by date_format(date_trunc('second', time), 'YYY-MM-dd HH:mm:ss')
+query_time>1 | select date_format(date_trunc('second', time), 'YYYY-MM-dd HH:mm:ss'), count(1) group by date_format(date_trunc('second', time), 'YYY-MM-dd HH:mm:ss')
 ```
 
 展示结果如下，在选定的时间内，2021-12-25 10:01:23超过1秒的次数有5次，2021-12-25 10:01:24超过1秒的次数有7次。
@@ -47,7 +68,7 @@ select date_format(date_trunc('second', time), 'YYYY-MM-dd HH:mm:ss'), count(1) 
 | 2021-12-25 10:01:23 | 5        |
 | 2021-12-25 10:01:24 | 7        |
 
-## 统计分析语法
+## 统计语句
 
 聚合统计的查询语法支持基本的SQL语法，说明如下：
 
@@ -85,7 +106,7 @@ select date_format(date_trunc('second', time), 'YYYY-MM-dd HH:mm:ss'), count(1) 
    select feild,count(1) group by pin
    ```
 
-6. 不支持order by 字段，也就是说统计结果不会按照某个字段排序。
+6. 支持order by，允许统计结果按照指定字段进行排序。
 
 7. 支持limit, 最多只能返回100条统计结果。
 
