@@ -159,3 +159,60 @@ hot_warm_test_index   0     p      warmnode-1
 hot_warm_test_index   2     p      warmnode-2
 hot_warm_test_index   1     r      warmnode-2
 ```
+
+## 关闭冷数据节点
+### 前置条件
+1. 设置全部索引为热索引。
+2. 没有分片分配在冷节点上。
+
+### 设置全部索引为热索引
+修改全部冷索引的索引配置，把冷索引修改为热索引。系统将会把修改的索引的分片迁移至热节点上。
+```
+PUT <#hot_data_index#>/_settings
+{
+        "index.routing.allocation.require.box_type": "hot"
+}
+```
+
+### 检查没有分片分配在冷数据节点上
+查看分片分配，检查是否所有的分片都分配到热节点上了。
+检查方法为：检查“shards”列，确认所有冷节点（warmnode-*）的节点上的分片数（shards）为0。
+```
+GET _cat/allocation?v&s=node
+
+shards disk.indices disk.used disk.avail disk.total disk.percent host         ip           node
+    56       48.8kb    34.3mb     29.9gb     29.9gb            0 10.123.32.22 10.123.32.22 node-0
+    56        4.9mb    39.3mb     29.9gb     29.9gb            0 10.123.32.23 10.123.32.23 node-1
+    56        4.9mb    39.3mb     29.9gb     29.9gb            0 10.123.32.24 10.123.32.24 node-2
+    56       48.8kb    33.9mb     29.9gb     29.9gb            0 10.123.32.25 10.123.32.25 node-3
+     0           0b    32.4mb     19.9gb     19.9gb            0 10.123.34.4  10.123.34.4  warmnode-0
+     0           0b    32.4mb     19.9gb     19.9gb            0 10.123.34.5  10.123.34.5  warmnode-1
+     0           0b    32.4mb     19.9gb     19.9gb            0 10.123.34.6  10.123.34.6  warmnode-2
+```
+
+如果冷节点上还有分片，查询结果类似如下，存在某个或多个冷节点（warmnode-*）的节点上的分片数（shards）不为0
+```
+shards disk.indices disk.used disk.avail disk.total disk.percent host         ip           node
+    54       48.4kb    34.1mb     29.9gb     29.9gb            0 10.123.32.22 10.123.32.22 node-0
+    54        4.9mb    39.3mb     29.9gb     29.9gb            0 10.123.32.23 10.123.32.23 node-1
+    54        4.9mb    39.3mb     29.9gb     29.9gb            0 10.123.32.24 10.123.32.24 node-2
+    54       48.4kb    33.8mb     29.9gb     29.9gb            0 10.123.32.25 10.123.32.25 node-3
+     2         416b    32.4mb     19.9gb     19.9gb            0 10.123.34.4  10.123.34.4  warmnode-0
+     3         624b    32.4mb     19.9gb     19.9gb            0 10.123.34.5  10.123.34.5  warmnode-1
+     3         624b    32.4mb     19.9gb     19.9gb            0 10.123.34.6  10.123.34.6  warmnode-2
+```
+
+### 关闭冷数据节点
+1. 访问 [云搜索Elasticsearch 控制台](https://es-console.jdcloud.com/clusters)，或者访问 [京东云控制台](https://console.jdcloud.com/) 选择【云服务】-【互联网中间件】-【云搜索Elasticsearch】进入实例列表页。</br>
+2. 在实例列表页，选择目标集群右侧的【操作-更多-变更配置】。</br>
+3. 在变更配置页，如果关闭冷数据节点的前提条件全部满足，启用冷数据节点开关将处于可关闭状态；否则，启用冷数据节点开关将置灰为不可关闭状态。
+
+![Warm_Node_create](../../../../../../image/Elasticsearch/Nodes/Warm_Node_create.png)
+
+4. 点击关闭**启用冷数据节点**开关。</br>
+5. 点击变更并确认，等待集群配置变更完成。</br>
+
+
+![Warm_Node_close](../../../../../../image/Elasticsearch/Nodes/Warm_Node_close.png)
+</br></br>
+
