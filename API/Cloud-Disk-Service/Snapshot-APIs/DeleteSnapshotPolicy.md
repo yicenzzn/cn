@@ -32,3 +32,9 @@ DELETE <https://disk.jcloudcs.com/v1/regions/{regionId}/snapshotPolicy/{policyId
 
 | Code | Status | Message |
 |---|---|---|
+| 400 | INVALID_ARGUMENT | Parameter id missing |
+| 400 | INVALID_ARGUMENT | Invalid region 'xxx' |
+| 404 | NOT_FOUND | Policy 'xxx' not found |
+| 500 | INTERNAL | Internal server error |
+| 500 | UNKNOWN | Unknown server error |
+| 503 | SERVICE UNAVAILABLE | Service unavailable |
