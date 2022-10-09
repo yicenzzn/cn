@@ -34,7 +34,7 @@ WordPress是使用最广泛的博客和内容管理系统，支持丰富的插�
 
 在后台页面，可以配置您的网站、博客等具体信息。
 
-更多WordPress操作，请查看[WordPress 文档](https://wordpress.org/support)。
+更多WordPress操作，请查看[WordPress 文档](https://wordpress.org/support)，或提交京东云工单咨询问题。
 
 
 
