@@ -1,5 +1,5 @@
 # 连接实例
-Starwift 兼容 ClickHouse 协议，因此可以使用 ClickHouse 的客户端和驱动连接到实例中。
+Starwift 兼容 ClickHouse 协议，因此可以使用 ClickHouse 的客户端和驱动连接到 Starwift 实例中。
 
 ## 操作步骤
 ### 使用客户端连接
