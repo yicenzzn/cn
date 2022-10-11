@@ -12,5 +12,6 @@
 ![image](https://user-images.githubusercontent.com/103625856/192928900-331e55af-1012-4183-b336-d731158400c7.png)<br>
 3、登陆成功后,进入云电脑列表页，该页面显示已开通的云电脑。可以在该页面进行修改密码、注销等操作。<br>
    如果您只有一台云电脑，系统会自动进入云电脑桌面；如果您有多台云电脑，选择需要进入的云电脑，点击“打开”进入。<br>
- ![Uploading image.png…]()<br>
+ ![image](https://user-images.githubusercontent.com/103625856/195062050-7f4d8fa1-5d8b-41aa-a3e2-2604a6957318.png)<br>
+    
 
