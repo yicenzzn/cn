@@ -1,5 +1,5 @@
 # 连接实例
-Starwift 兼容 ClickHouse 协议，因此可以使用 ClickHouse 的客户端和驱动连接到实例中。
+Starwift 兼容 ClickHouse 协议，因此可以使用 ClickHouse 的客户端和驱动连接到 Starwift 实例中。
 
 ## 操作步骤
 ### 使用客户端连接
@@ -27,10 +27,10 @@ Starwift 兼容 ClickHouse 协议，因此可以使用 ClickHouse 的客户端�
 
 
 ### 使用JDBC 连接
-本文通过代码示例说明如何通过JDBC方式连接ClickHouse进行应用开发。
+本文通过代码示例说明如何通过 JDBC 方式连接 Starwift 进行应用开发。
 
 #### 具体步骤
-1. 使用Eclipse或其他IDE工具创建Maven项目并引入ClickHouse驱动依赖包。
+1. 使用Eclipse或其他IDE工具创建Maven项目并引入 ClickHouse 驱动依赖包。
 
 ```
 <dependency>

@@ -1,5 +1,5 @@
 # 连接实例
-Starwift 兼容 ClickHouse 协议，因此可以使用 ClickHouse 的客户端和驱动连接到实例中。
+Starwift 兼容 ClickHouse 协议，因此可以使用 ClickHouse 的客户端和驱动连接到 Starwift 实例中。
 
 ## 操作步骤
 ### 使用客户端连接
@@ -20,14 +20,14 @@ Starwift 兼容 ClickHouse 协议，因此可以使用 ClickHouse 的客户端�
 
 | 参数     | 说明                                                         |
 | -------- | :----------------------------------------------------------- |
-| host     | 外网地址或VPC地址。如果Starwift-client所在服务器与云数据库Starwift集群在同一VPC内，您可以使用VPC地址。否则，请使用外网地址。 |
+| host     | 外网地址或VPC地址。如果 Starwift-client 所在服务器与云数据库 Starwift 集群在同一VPC内，您可以使用VPC地址。否则，请使用外网地址。 |
 | port     | TCP端口号。                                                  |
 | user     | 您通过分析型云数据库Starwift控制台创建的数据库账号。       |
 | password | 数据库账号对应的密码。                                       |
 
 
 ### 使用JDBC 连接
-本文通过代码示例说明如何通过JDBC方式连接ClickHouse进行应用开发。
+本文通过代码示例说明如何通过JDBC方式连接 Starwift 进行应用开发。
 
 #### 具体步骤
 1. 使用Eclipse或其他IDE工具创建Maven项目并引入ClickHouse驱动依赖包。
