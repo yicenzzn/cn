@@ -2001,7 +2001,7 @@ Windows系统实例价格
       <td>s.d1.xlarge</td>
       <td>4</td>
       <td>32</td>
-      <td>--</td>
+      <td>2443.4</td>
       <td>2036.6</td>
       <td>--</td>
       <td>2*1675 GiB HDD</td>
@@ -2010,7 +2010,7 @@ Windows系统实例价格
       <td>s.d1.2xlarge</td>
       <td>8</td>
       <td>64</td>
-      <td>--</td>
+      <td>4886.8</td>
       <td>4073.21</td>
       <td>--</td>
       <td>4*1675 GiB HDD</td>
@@ -2019,7 +2019,7 @@ Windows系统实例价格
       <td>s.d1.4xlarge</td>
       <td>16</td>
       <td>128</td>
-      <td>--</td>
+      <td>9773.7</td>
       <td>8146.41</td>
       <td>--</td>
       <td>8*1675 GiB HDD</td>
@@ -2028,7 +2028,7 @@ Windows系统实例价格
       <td>s.d1.6xlarge</td>
       <td>24</td>
       <td>192</td>
-      <td>--</td>
+      <td>14660.5</td>
       <td>12219.62</td>
       <td>--</td>
       <td>12*1675 GiB HDD</td>
@@ -2037,7 +2037,7 @@ Windows系统实例价格
       <td>s.d1.8xlarge</td>
       <td>32</td>
       <td>256</td>
-      <td>--</td>
+      <td>19547.3</td>
       <td>16292.82</td>
       <td>--</td>
       <td>16*1675 GiB HDD</td>
@@ -2046,7 +2046,7 @@ Windows系统实例价格
       <td>s.d1.12xlarge</td>
       <td>48</td>
       <td>384</td>
-      <td>--</td>
+      <td>29321</td>
       <td>24439.24</td>
       <td>--</td>
       <td>24*1675 GiB HDD</td>
