@@ -389,8 +389,7 @@ Linux系统实例价格
       <td>15979.5</td>
       <td>14829.86</td>
       <td>--</td>
-   </tr>
-   
+   </tr> 
    <tr>
       <td rowspan="4">增强</td>
       <td>m.e2.7xlarge</td>
@@ -865,8 +864,53 @@ Linux系统实例价格
       <td>--</td>
    </tr>
    <tr>
-      <td rowspan="18">存储优化</td>
-      <td rowspan="6">IO</td>
+      <td rowspan="23">存储优化</td>
+      <td rowspan="11">IO</td>
+      <td>s.i3.large</td>
+      <td>2</td>
+      <td>8</td>
+      <td>--</td>
+      <td>477.95</td>
+      <td>--</td>
+      <td>2*50 GiB NVMe SSD</td>
+   </tr>
+   <tr>
+      <td>s.i3.xlarge</td>
+      <td>4</td>
+      <td>16</td>
+      <td>--</td>
+      <td>955.9</td>
+      <td>--</td>
+      <td>2*100 GiB NVMe SSD</td>
+   </tr>
+   <tr>
+      <td>s.i3.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>--</td>
+      <td>1911.8</td>
+      <td>--</td>
+      <td>2*200 GiB NVMe SSD</td>
+   </tr>
+   <tr>
+      <td>s.i3.4xlarge</td>
+      <td>16</td>
+      <td>64</td>
+      <td>--</td>
+      <td>3823.6</td>
+      <td>--</td>
+      <td>2*400 GiB NVMe SSD</td>
+   </tr>
+   <tr>
+      <td>s.i3.8xlarge</td>
+      <td>32</td>
+      <td>128</td>
+      <td>--</td>
+      <td>7647.2</td>
+      <td>--</td>
+      <td>2*800 GiB NVMe SSD</td>
+   </tr>
+   <tr>
       <td>s.i2.2xlarge</td>
       <td>8</td>
       <td>64</td>
@@ -979,7 +1023,7 @@ Linux系统实例价格
       <td>s.d1.xlarge</td>
       <td>4</td>
       <td>32</td>
-      <td>--</td>
+      <td>2443.4</td>
       <td>2036.6</td>
       <td>--</td>
       <td>2*1675 GiB HDD</td>
@@ -988,7 +1032,7 @@ Linux系统实例价格
       <td>s.d1.2xlarge</td>
       <td>8</td>
       <td>64</td>
-      <td>--</td>
+      <td>4886.8</td>
       <td>4073.21</td>
       <td>--</td>
       <td>4*1675 GiB HDD</td>
@@ -997,7 +1041,7 @@ Linux系统实例价格
       <td>s.d1.4xlarge</td>
       <td>16</td>
       <td>128</td>
-      <td>--</td>
+      <td>9773.7</td>
       <td>8146.41</td>
       <td>--</td>
       <td>8*1675 GiB HDD</td>
@@ -1006,7 +1050,7 @@ Linux系统实例价格
       <td>s.d1.6xlarge</td>
       <td>24</td>
       <td>192</td>
-      <td>--</td>
+      <td>14660.5</td>
       <td>12219.62</td>
       <td>--</td>
       <td>12*1675 GiB HDD</td>
@@ -1015,7 +1059,7 @@ Linux系统实例价格
       <td>s.d1.8xlarge</td>
       <td>32</td>
       <td>256</td>
-      <td>--</td>
+      <td>19547.3</td>
       <td>16292.82</td>
       <td>--</td>
       <td>16*1675 GiB HDD</td>
@@ -1024,7 +1068,7 @@ Linux系统实例价格
       <td>s.d1.12xlarge</td>
       <td>48</td>
       <td>384</td>
-      <td>--</td>
+      <td>29321</td>
       <td>24439.24</td>
       <td>--</td>
       <td>24*1675 GiB HDD</td>
@@ -1887,8 +1931,53 @@ Windows系统实例价格
       <td>--</td>
    </tr>
    <tr>
-      <td rowspan="18">存储优化</td>
-      <td rowspan="6">IO</td>
+      <td rowspan="23">存储优化</td>
+      <td rowspan="11">IO</td>
+      <td>s.i3.large</td>
+      <td>2</td>
+      <td>8</td>
+      <td>--</td>
+      <td>477.95</td>
+      <td>--</td>
+      <td>2*50 GiB NVMe SSD</td>
+   </tr>
+   <tr>
+      <td>s.i3.xlarge</td>
+      <td>4</td>
+      <td>16</td>
+      <td>--</td>
+      <td>955.9</td>
+      <td>--</td>
+      <td>2*100 GiB NVMe SSD</td>
+   </tr>
+   <tr>
+      <td>s.i3.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>--</td>
+      <td>1911.8</td>
+      <td>--</td>
+      <td>2*200 GiB NVMe SSD</td>
+   </tr>
+   <tr>
+      <td>s.i3.4xlarge</td>
+      <td>16</td>
+      <td>64</td>
+      <td>--</td>
+      <td>3823.6</td>
+      <td>--</td>
+      <td>2*400 GiB NVMe SSD</td>
+   </tr>
+   <tr>
+      <td>s.i3.8xlarge</td>
+      <td>32</td>
+      <td>128</td>
+      <td>--</td>
+      <td>7647.2</td>
+      <td>--</td>
+      <td>2*800 GiB NVMe SSD</td>
+   </tr>
+   <tr>
       <td>s.i2.2xlarge</td>
       <td>8</td>
       <td>64</td>
