@@ -1097,44 +1097,44 @@ Windows系统实例价格
       <td>g.n3.medium</td>
       <td>1</td>
       <td>4</td>
-      <td>136.8</td>
-      <td>150.37</td>
-      <td>131.87</td>
+      <td>316.3</td>
+      <td>338.36</td>
+      <td>288.05</td>
       <td>--</td>
    </tr>
    <tr>
       <td>g.n3.large</td>
       <td>2</td>
       <td>8</td>
-      <td>273.6</td>
-      <td>300.8</td>
-      <td>264.48</td>
+      <td>632.7</td>
+      <td>676.79</td>
+      <td>576.1</td>
       <td>--</td>
    </tr>
    <tr>
       <td>g.n3.xlarge</td>
       <td>4</td>
       <td>16</td>
-      <td>547.2</td>
-      <td>601.61</td>
-      <td>525.27</td>
+      <td>1257.6</td>
+      <td>1353.59</td>
+      <td>1148.52</td>
       <td>--</td>
    </tr>
     <tr>
       <td>g.n3.2xlarge</td>
       <td>8</td>
       <td>32</td>
-      <td>1094.4</td>
-      <td>1203.15</td>
-      <td>1053.49</td>
+      <td>2533.2</td>
+      <td>2707.1</td>
+      <td>2300.73</td>
       <td>--</td>
    </tr>
     <tr>
       <td>g.n3.3xlarge</td>
       <td>12</td>
       <td>48</td>
-      <td>2328.84</td>
-      <td>2596.38</td>
+      <td>--</td>
+      <td>--</td>
       <td>--</td>
       <td>--</td>
    </tr>   
@@ -1142,8 +1142,8 @@ Windows系统实例价格
       <td>g.n3.4xlarge</td>
       <td>16</td>
       <td>64</td>
-      <td>3150.12</td>
-      <td>3461.84</td>
+      <td>--</td>
+      <td>--</td>
       <td>--</td>
       <td>--</td>
    </tr>
@@ -1151,8 +1151,8 @@ Windows系统实例价格
       <td>g.n3.6xlarge</td>
       <td>24</td>
       <td>96</td>
-      <td>4657.68</td>
-      <td>5192.76</td>
+      <td>--</td>
+      <td>--</td>
       <td>--</td>
       <td>--</td>
    </tr>
@@ -1160,8 +1160,8 @@ Windows系统实例价格
       <td>g.n3.8xlarge</td>
       <td>32</td>
       <td>128</td>
-      <td>6210.24</td>
-      <td>6923.68</td>
+      <td>--</td>
+      <td>--</td>
       <td>--</td>
       <td>--</td>
    </tr>
@@ -1169,8 +1169,8 @@ Windows系统实例价格
       <td>g.n3.12xlarge</td>
       <td>48</td>
       <td>192</td>
-      <td>9315.36</td>
-      <td>10385.52</td>
+      <td>--</td>
+      <td>--</td>
       <td>--</td>
       <td>--</td>
    </tr>
@@ -1178,8 +1178,8 @@ Windows系统实例价格
       <td>g.n3.16xlarge</td>
       <td>64</td>
       <td>256</td>
-      <td>12420.48</td>
-      <td>13847.36</td>
+      <td>--</td>
+      <td>--</td>
       <td>--</td>
       <td>--</td>
    </tr>   
@@ -1187,45 +1187,45 @@ Windows系统实例价格
       <td>g.n2.medium</td>
       <td>1</td>
       <td>4</td>
-      <td>136.8</td>
-      <td>150.37</td>
-      <td>131.87</td>
+      <td>316.3</td>
+      <td>338.36</td>
+      <td>288.05</td>
       <td>--</td>
    </tr>    
     <tr>     
      <td>g.n2.large</td>
       <td>2</td>
       <td>8</td>
-      <td>273.6</td>
-      <td>300.8</td>
-      <td>264.48</td>
+      <td>632.7</td>
+      <td>676.79</td>
+      <td>576.1</td>
       <td>--</td>
    </tr>
    <tr>
       <td>g.n2.xlarge</td>
       <td>4</td>
       <td>16</td>
-      <td>547.2</td>
-      <td>601.61</td>
-      <td>525.27</td>
+      <td>1257.6</td>
+      <td>1353.59</td>
+      <td>1148.52</td>
       <td>--</td>
    </tr>
    <tr>
       <td>g.n2.2xlarge</td>
       <td>8</td>
       <td>32</td>
-      <td>1094.4</td>
-      <td>1203.15</td>
-      <td>1053.49</td>
+      <td>2533.2</td>
+      <td>2707.1</td>
+      <td>2300.73</td>
       <td>--</td>
    </tr>
    <tr>
       <td>g.n2.4xlarge</td>
       <td>16</td>
       <td>64</td>
-      <td>2188.8</td>
-      <td>2406.3</td>
-      <td>2107.71</td>
+      <td>5099.7</td>
+      <td>5414.2</td>
+      <td>4600.72</td>
       <td>--</td>
    </tr>
    <tr>
@@ -1234,72 +1234,72 @@ Windows系统实例价格
       <td>c.n3.medium</td>
       <td>1</td>
       <td>2</td>
-      <td>116.8</td>
-      <td>128.48</td>
-      <td>125.98</td>
+      <td>161.9</td>
+      <td>319.62</td>
+      <td>174.6</td>
       <td>--</td>
    </tr>
     <tr>
       <td>c.n3.large</td>
       <td>2</td>
       <td>4</td>
-      <td>233.7</td>
-      <td>256.95</td>
-      <td>223.96</td>
+      <td>323.9/td>
+      <td>639.17</td>
+      <td>535.58</td>
       <td>--</td>
    </tr>
     <tr>
       <td>c.n3.xlarge</td>
       <td>4</td>
       <td>8</td>
-      <td>467.4</td>
-      <td>513.84</td>
-      <td>447.18</td>
+      <td>862.6</td>
+      <td>1278.33</td>
+      <td>1070.43</td>
       <td>--</td>
   </tr>
    <tr>
       <td>c.n3.2xlarge</td>
       <td>8</td>
       <td>16</td>
-      <td>934.8</td>
-      <td>1027.67</td>
-      <td>894.36</td>
       <td>--</td>
+      <td>1740.8</td>
+      <td>2556.73</td>
+      <td>2141.6</td>
    </tr>
     <tr>
       <td>c.n3.3xlarge</td>
       <td>12</td>
       <td>24</td>
-      <td>1730.94</td>
-      <td>1885.44</td>
-      <td>1826</td>
+      <td>316.3</td>
+      <td>338.36</td>
+      <td>288.05</td>
       <td>--</td>
    </tr>
     <tr>
       <td>c.n3.4xlarge</td>
       <td>16</td>
       <td>32</td>
-      <td>2307.92</td>
-      <td>2513.92</td>
-      <td>2435.29</td>
+      <td>632.7</td>
+      <td>676.79</td>
+      <td>576.1</td>
       <td>--</td>
   </tr>
   <tr>
       <td>c.n3.6xlarge</td>
       <td>24</td>
       <td>48</td>
-      <td>3461.88</td>
-      <td>3770.88</td>
-      <td>3651.99</td>
+      <td>1257.6</td>
+      <td>1353.59</td>
+      <td>1148.52</td>
       <td>--</td>
    </tr>
    <tr>
       <td>c.n3.8xlarge</td>
       <td>32</td>
       <td>64</td>
-      <td>4615.84</td>
-      <td>5027.84</td>
-      <td>4870.57</td>
+      <td>2533.2</td>
+      <td>2707.1</td>
+      <td>2300.73</td>
       <td>--</td>
    </tr>
    <tr>
