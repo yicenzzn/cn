@@ -6,9 +6,7 @@
 
 |规格| 规格代码 | 包年包月实例计费（单位：元/月） | 按配置实例计费（单位：元/小时）|
 |:--|:---|:---|---|
-|2C4G |kafka.broker.n1.small |278 |0.6 |
 |2C8G |kafka.broker.n1.xsmall |360 |0.83 |
-|4C8G |kafka.broker.n1.medium |541 |1.13 |
 |4C16G |kafka.broker.n1.xmedium |720 |1.67 |
 |8C32G |kafka.broker.n1.large |1440 |3.33 |
 |16C64G |kafka.broker.n1.xlarge |2880 |6.67 |
