@@ -30,7 +30,45 @@
 
 8. 【采集实例】根据用户自身需求选择实例，或者对应的高可用组和标签。
 
-9. 如果用户的业务应用日志是多行日志，则需要设置首行正则匹配的规则；首行正则遵循 **POSIX Extended Regular Express** 正则表达式 ，示例如下：
+标签是在云主机实例上打的k-v标记，通过标签可以快速选择多个采集实例。
+
+a. 预设标签
+
+k8s集群已为集群内node打了集群ID的标签，可以直接使用。标签名称为 `kubernetes.jdcould.com/cluster_id`
+
+b. 自定义标签
+
+您可通过云主机管理，手动为实例创建标签，并在日志服务中选择使用，具体流程如下：
+
+- 进入云主机页面：https://cns-console.jdcloud.com/host/compute/list
+
+- 通过region，主机名称等筛选条件过滤需要采集日志的实例，参见下图标记1，2的位置。
+
+![](../../../../../image/LogService/operationguide/label1.png)
+
+- 选中实例，如上图标记3的位置。
+
+- 点击页面左下角的“更多”按钮，点击“编辑标签”，如下图所示。
+
+![](../../../../../image/LogService/operationguide/label2.png)
+
+- 在键和值中填写标签信息完成后，点击“确定”，即可添加对应的标签，如下图添加的logGroup=order-service
+
+![](../../../../../image/LogService/operationguide/label3.png)
+
+- 切换至共有云日志服务页面：https://logs-console.jdcloud.com/overview?dataCenter=cn-north-1
+
+- 选择日志主题，开始编辑日志主题采集配置，如下图步骤1，2所示。
+
+![](../../../../../image/LogService/operationguide/label4.png)
+
+
+- 编辑日志主题采集配置的采集实例，选择“标签”，在标签列表中选择对应的标签。
+
+![](../../../../../image/LogService/operationguide/label5.png)
+
+
+9.  如果用户的业务应用日志是多行日志，则需要设置首行正则匹配的规则；首行正则遵循 **POSIX Extended Regular Express** 正则表达式 ，示例如下：
    
    日志首行基本上以时间格式开头，如java异常堆栈日志数据
 
