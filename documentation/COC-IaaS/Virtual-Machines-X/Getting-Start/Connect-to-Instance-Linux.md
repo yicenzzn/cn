@@ -32,9 +32,8 @@ VNC登陆的场景至少包括以下几种：
 
 1. 在实例列表的操作列，点击**远程连接**即可通过 VNC 连接至Linux实例。
 
-<div align="center">
-<img src="https://img1.jcloudcs.com/cn/image/vmx/Getting-Start-Linux-Connect-console.png" width="700">
-</div>
+
+![sdsd](../../../../image/vmx/Getting-Start-Linux-Connect-console.png)  
 
 2. 点击VNC之后进入到登录页面
 * 默认用户名：root        
