@@ -59,7 +59,7 @@ items:
         href: Getting-Started/Policy-Management.md
       - name: 镜像管理
         href: Getting-Started/Private-Image.md  
-   - name: 终端用户指南
+  - name: 终端用户指南
     items:
       - name: 通过浏览器登陆云电脑
         href: User-guide/Browser-Login.md    
