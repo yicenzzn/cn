@@ -11,6 +11,6 @@ A：Token是一种安全保护签名，目的是为了阻止恶意攻击者盗�
 其中AppID用于标识您的应用，UserID 用于标识您的用户，而Token则是基于前两者计算出的安全签名，它由加密算法计算得出，只要攻击者不能伪造Token，就无法盗用您的云服务流量。
 
 
-**Q：视音频通信如何收费？**
+**Q：音视频通信如何收费？**
 
-A：视音频通讯收费项包括音视频通信时长、云端录制、旁路转推等计费项，详细计费说明请参见“[计费说明](https://docs.jdcloud.com/cn/real-time-communication/billing-rules)”。
+A：音视频通讯收费项包括音视频通信时长、云端录制、旁路转推等计费项，详细计费说明请参见“[计费说明](https://docs.jdcloud.com/cn/real-time-communication/billing-rules)”。
