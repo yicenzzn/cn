@@ -18,7 +18,7 @@ SSH最大空闲时间：超过最大空闲时间没有任何操作，将自动�
 
 点击开启零信任，则弹出指导页面，如下图。
 
-![](/image/Bastion/security1.png) 
+![](/image/Bastion/security10.png) 
 
 a.**注意事项：**
 
