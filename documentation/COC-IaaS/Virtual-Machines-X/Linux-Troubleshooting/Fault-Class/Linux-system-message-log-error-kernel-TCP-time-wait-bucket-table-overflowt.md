@@ -2,7 +2,7 @@
 
 ## 问题现象
 
-云服务器 ECS ping 外部 IP 丢包，ping 出现错误：
+伙伴云主机 ping 外部 IP 丢包，ping 出现错误：
 
 ```shell
 ping: sendmsg: Operation not permitted
