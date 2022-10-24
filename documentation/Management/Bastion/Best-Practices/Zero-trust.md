@@ -20,7 +20,7 @@
 
 点击开启零信任，则弹出指导页面，如下图。
 
-![](/image/Bastion/security1.png) 
+![](/image/Bastion/security10.png) 
 
 **a.注意事项：**
 
