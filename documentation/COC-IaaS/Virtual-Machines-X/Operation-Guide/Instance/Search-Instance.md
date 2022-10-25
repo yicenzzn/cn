@@ -25,8 +25,16 @@
 2. 选择地域。
 3. 您可通过键盘输入或下拉框选择搜索条件。
 
+<div align="center"><img src="https://user-images.githubusercontent.com/88134774/197775327-38003128-0f6f-4bd7-9ab9-583a34f7195d.png" width="600"></div>
+
 
 4. 输入搜索值，若支持多个搜索值，则以逗号分隔，回车生成搜索项后，可继续选择其他搜索条件并生成搜索项。完成输入后回车或点击搜索按钮则触发条件搜索。
 
+<div align="center"><img src="https://user-images.githubusercontent.com/88134774/197775716-367489a8-c7e3-4305-9e45-e9ba319e1d78.png" width="600"></div>
+
 
 5. 若需要删除搜索项，则可通过键盘方向键选中搜索项再使用删除键删除选中项，或点击删除按钮进行删除，删除后需要重新触发搜索。
+
+<div align="center"><img src="https://user-images.githubusercontent.com/88134774/197776039-fa28ebd7-be1a-49ad-852d-d4a7225342ab.png" width="600"></div>
+
+
