@@ -13,7 +13,7 @@
 
 
 ![运维诊断1](/documentation/Middleware/JCS-for-Kafka/image/intelligenceOperation-consumer1.jpg)
-![运维诊断2](/documentation/Middleware/JCS-for-Kafka/image/intelligenceoperation-consumer2.jpg)
+![运维诊断2](/documentation/Middleware/JCS-for-Kafka/image/intelligenceOperation-consumer2.jpg)
 
 |参数| 说明 | 
 |:--|:---|
@@ -26,7 +26,7 @@
 ***
 
 
-## 消费
+## 生产消费闭环
 1. 登录消息队列Kafka版控制台。
 2. 在概览页面的资源分布区域，选择地域。
 3. 在实例列表页面，单击目标实例名称。
