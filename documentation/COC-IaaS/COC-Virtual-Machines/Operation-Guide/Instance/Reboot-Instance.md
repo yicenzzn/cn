@@ -14,12 +14,15 @@
 重启实例操作会造成您的实例停止工作，导致业务中断，请谨慎执行。
 
 ## 操作步骤
-1. 访问[云主机控制台](https://cns-console.jdcloud.com/host/compute/list)，进入实例列表页面。
+1. 访问[合作云主机控制台](https://coccns-console.jdcloud.com/host/compute/list)，进入实例列表页面。
 2. 选择地域。
 3. 在实例列表中选择需要重启的实例，确认其状态为“运行中”。如果需要同时操作多台实例，可通过多选实现。
-4. 单台操作：点击**操作-更多-重启**按钮，或点击实例名称进入详情页后点击**操作-更多-重启**按钮；<br>![](https://img1.jcloudcs.com/cn/image/vm/rebootinstance-1.jpeg)
+4. 单台操作：点击**操作-更多-重启**按钮，或点击实例名称进入详情页后点击**操作-更多-重启**按钮；<br>
 <br>批量操作：点击列表下方**更多-重启**按钮
-![](https://img1.jcloudcs.com/cn/image/vm/rebootinstance-2.jpeg)
+
+![image](https://user-images.githubusercontent.com/88134774/198039288-a04b33f1-7631-4bf0-ae1b-d9bb0229b822.png)
+
+
 5. 在弹出的**重启实例**弹窗中，确认信息，点击**确定**提交重启。
 
 之后实例将进入**重启中**状态，实例将无法进行其他操作。当重启完成后，实例将进入**运行中**状态。
