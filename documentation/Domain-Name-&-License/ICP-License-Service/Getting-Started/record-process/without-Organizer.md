@@ -61,7 +61,7 @@
 
 - 提交信息后会出现“工信部短信核验”有关弹窗提示，点击“继续提交” 
 
-**温馨提示：未验证、超时验证均会导致备案失败,请务必在24小时内完成短信核验。查看[备案短信核验说明](https://docs.jdcloud.com/cn/icp-license-service/recording-sms-verification-instructions)**
+**温馨提示：未验证、超时验证均会导致备案失败,请务必在24小时内完成短信核验。相关详细说明请查看[备案短信核验说明](https://docs.jdcloud.com/cn/icp-license-service/recording-sms-verification-instructions)**
 
 ![img](../../../../../image/ICP-License-Service/20221026-pic/8-1-tips.png)
 
@@ -79,17 +79,19 @@
 
 - 提交管局审核
 
-  待您的备案信息通过京东云审核后将触发工信部的短信核验系统，请在24小时内完成短信核验，您的备案信息才能成功上报至地方通信管理局审核。
+   若您接到提交管局审核的通知，约5-10分钟后会收到工信部下发的核验短信，请在24小时内完成短信核验，您的备案信息才能成功上报至地方通信管理局审核。
 
-![img](../../../../../image/ICP-License-Service/New-beian/14.png)
+![img](../../../../../image/ICP-License-Service/20221026-pic/11-audit.png)
+
+- 查看管局审核结果
 
 - 若管局审核失败，系统提示页面如下,可在“备案管理”或“备案记录”按钮查看备案记录，点击“继续备案”可查看具体驳回原因,按照驳回原因点击“修改信息提交”
 
-![img](../../../../../image/ICP-License-Service/New-beian/15.png)
+![img](../../../../../image/ICP-License-Service/20221026-pic/12-RejectionbytheAuthority.png)
 
-- 若管局审核成功，您可在左侧“备案管理”查看您的备案号等相关信息。
+- 若管局审核成功，您可在后台查看到您的备案号等相关信息。
 
-![img](../../../../../image/ICP-License-Service/New-beian/16.png)
+![img](../../../../../image/ICP-License-Service/20221026-pic/13-complete.png)
 
 ---
 
