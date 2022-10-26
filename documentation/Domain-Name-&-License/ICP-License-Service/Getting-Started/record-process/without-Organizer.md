@@ -33,9 +33,9 @@
 
 - 填写网站信息及网站负责人信息
   
-**网站负责人需完成后续备案拍照、核验单签署等工作，请根据实际情况填写，若网站负责人与主体负责人为同一人，可勾选“同主体负责人”。**
+  **网站负责人需完成后续备案拍照、核验单签署等工作，请根据实际情况填写，若网站负责人与主体负责人为同一人，可勾选“同主体负责人”。**
 
-**如有多个网站提交申请，可单击“继续添加网站”按钮添加；若仅备案一个网站，点击下方“下一步”即可进入下一环节。**
+  **如有多个网站提交申请，可单击“继续添加网站”按钮添加；若仅备案一个网站，点击下方“下一步”即可进入下一环节。**
 
 ![img](../../../../../image/ICP-License-Service/20221026-pic/6-website.png)  
 
@@ -43,13 +43,13 @@
 
   按照系统提示及下方提示上传对应图片，上传完毕后点击“下一步”
 
-**温馨提示：所有图片请上传原件彩色扫描件，图片需清晰完整，无遮挡，无反光；有效期需大于3个月。**
+  **温馨提示：所有图片请上传原件彩色扫描件，图片需清晰完整，无遮挡，无反光；有效期需大于3个月。**
 
-**核验单：点击蓝色字体[《网站备案信息真实性核验单》](https://docs.jdcloud.com/cn/icp-license-service/check-list-download)下载，打印纸质文件，参考[核验单填写示例](https://docs.jdcloud.com/cn/icp-license-service/quanguo-check-list) 填写**
+  **核验单：点击蓝色字体[《网站备案信息真实性核验单》](https://docs.jdcloud.com/cn/icp-license-service/check-list-download)下载，打印纸质文件，参考[核验单填写示例](https://docs.jdcloud.com/cn/icp-license-service/quanguo-check-list) 填写**
 
-**域名证书:需要联系您的域名注册商获取。**
+  **域名证书：需要联系您的域名注册商获取。**
 
-**辅助材料：非必填项，如您有其他图片材料可在此补充上传**
+  **辅助材料：非必填项，如您有其他图片材料可在此补充上传**
 
 ![img](../../../../../image/ICP-License-Service/20221026-pic/7-pic.png)  
 
@@ -61,13 +61,11 @@
 
 - 提交信息后会出现“工信部短信核验”有关弹窗提示，点击“继续提交” 
 
-```
-注意：（未验证、超时验证均会导致备案失败，所以请务必填写真实有效的手机号码！）
-```
+**温馨提示：未验证、超时验证均会导致备案失败,请务必在24小时内完成短信核验。查看[备案短信核验说明](https://docs.jdcloud.com/cn/icp-license-service/recording-sms-verification-instructions)**
 
-![img](../../../../../image/ICP-License-Service/New-beian/10-message.png)
+![img](../../../../../image/ICP-License-Service/20221026-pic/8-1-tips.png)
 
-- 继续提交将把备案信息提交至京东云，等待审核即可。
+- 点击“继续提交”将把备案信息提交至京东云，等待审核即可。
 
 ![img](../../../../../image/ICP-License-Service/New-beian/11-Submit-for-initial-review.png)
 
