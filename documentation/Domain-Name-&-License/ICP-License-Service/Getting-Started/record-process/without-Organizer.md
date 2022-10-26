@@ -61,7 +61,7 @@
 
 - 提交信息后会出现“工信部短信核验”有关弹窗提示，点击“继续提交” 
 
-**温馨提示：未验证、超时验证均会导致备案失败,请务必在24小时内完成短信核验。相关详细说明请查看[备案短信核验说明](https://docs.jdcloud.com/cn/icp-license-service/recording-sms-verification-instructions)**
+  **温馨提示：未验证、超时验证均会导致备案失败,请务必在24小时内完成短信核验。相关详细说明请查看[备案短信核验说明](https://docs.jdcloud.com/cn/icp-license-service/recording-sms-verification-instructions)**
 
 ![img](../../../../../image/ICP-License-Service/20221026-pic/8-1-tips.png)
 
@@ -85,11 +85,11 @@
 
 - 查看管局审核结果
 
-- 若管局审核失败，系统提示页面如下,可在“备案管理”或“备案记录”按钮查看备案记录，点击“继续备案”可查看具体驳回原因,按照驳回原因点击“修改信息提交”
+  若管局审核失败，系统提示页面如下,可在“备案管理”或“备案记录”按钮查看备案记录，点击“继续备案”可查看具体驳回原因,按照驳回原因点击“修改信息提交”
 
 ![img](../../../../../image/ICP-License-Service/20221026-pic/12-RejectionbytheAuthority.png)
 
-- 若管局审核成功，您可在后台查看到您的备案号等相关信息。
+   若管局审核成功，您可在后台查看到您的备案号等相关信息。
 
 ![img](../../../../../image/ICP-License-Service/20221026-pic/13-complete.png)
 
