@@ -27,7 +27,7 @@
 ## 相关参考
 
 
-[伙伴云主机控制台](https://cnsx-console.jdcloud.com/compute/vm/list)；
+[合作云主机控制台](https://coccns-console.jdcloud.com/host/compute/list)；
 
 [续费管理](http://docs.jdcloud.com/cn/online-buying/renew-management)
 
