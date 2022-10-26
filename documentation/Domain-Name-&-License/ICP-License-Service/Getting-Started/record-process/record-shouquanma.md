@@ -20,7 +20,7 @@
 
  ![img](../../../../../image/ICP-License-Service/New-beian/ip-record-1.png)
  
-  - 每个IP可申请5个授权码，每个授权码自申请之日起有效期1年，点击弹窗中的“确定”即可申请完成。
+  - 每台主机可申请5个授权码，每个授权码自申请之日起有效期1年，点击弹窗中的“确定”即可申请完成。
 
  ![img](../../../../../image/ICP-License-Service/New-beian/ip-record-2-2.png)
 
