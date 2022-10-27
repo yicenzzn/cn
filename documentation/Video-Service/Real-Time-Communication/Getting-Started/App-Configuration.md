@@ -102,12 +102,12 @@ e)回调秘钥
 
 1）配置页面中，选择旁路转推选项卡，默认状态为未开启
 
-![image](https://user-images.githubusercontent.com/89631429/138047857-20ec6436-50bc-4861-9f2b-5fe16fca9acb.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E6%97%81%E8%B7%AF%E8%BD%AC%E6%8E%A8-1.pn)
 
 
 2）点击 功能开启按钮，进行配置
 
-![image](https://user-images.githubusercontent.com/89631429/138047913-4089f08e-4b18-42dc-bee6-50cdca1e7b91.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E6%97%81%E8%B7%AF%E8%BD%AC%E6%8E%A8-2.png)
 
 
 3）配置项目说明
@@ -123,17 +123,17 @@ b）推流地址
 ·域名管理：推流地址无缝打通京东云视频直播平台，可通过域名管理跳转到相关页面进行配置。
 
 ·下拉列表：在视频直播平台中配置完成的域名可通过下拉框进行选择，如新配置的域名未出现，可通过更新列表按钮进行更新。
-![image](https://user-images.githubusercontent.com/89631429/138051936-a7353e08-9742-47ff-95b4-13b79d5c4953.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E6%97%81%E8%B7%AF%E8%BD%AC%E6%8E%A8-3.png)
 
 
 
 3.配置变更及功能关闭
 
 1）更改配置:开通状态下，可通过点击更改配置按钮弹出配置窗口进行配置更新。
-![image](https://user-images.githubusercontent.com/89631429/138056224-c7175a60-0f28-481c-8016-880840a22353.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E6%97%81%E8%B7%AF%E8%BD%AC%E6%8E%A8-5.png)
 
 
 2）关闭功能：开通状态下，可通过点击功能关闭按钮关闭本功能。      
 功能关闭将导致业务流再无法推送，请谨慎操作。
-![image](https://user-images.githubusercontent.com/89631429/138056365-be40b9d1-8e88-4bbe-adb7-a6a1ea22cbe4.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E6%97%81%E8%B7%AF%E8%BD%AC%E6%8E%A8-6.png)
 
