@@ -102,7 +102,7 @@ e)回调秘钥
 
 1）配置页面中，选择旁路转推选项卡，默认状态为未开启
 
-![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E6%97%81%E8%B7%AF%E8%BD%AC%E6%8E%A8-1.pn)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E6%97%81%E8%B7%AF%E8%BD%AC%E6%8E%A8-1.png)
 
 
 2）点击 功能开启按钮，进行配置
