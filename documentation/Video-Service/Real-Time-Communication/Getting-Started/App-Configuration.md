@@ -29,12 +29,12 @@
 
 1）配置页面中，选择云端录制选项卡，默认状态为未开启
 
-![image](https://user-images.githubusercontent.com/89631429/138041301-555cc121-b1f1-4e31-bd56-98b913082cbd.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E4%BA%91%E7%AB%AF%E5%BD%95%E5%88%B6-1.png)
 
 
 2）点击 功能开启按钮，进行配置
 
-![image](https://user-images.githubusercontent.com/89631429/138041339-ddc2be30-0ccf-405d-825d-117c838ea820.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E4%BA%91%E7%AB%AF%E5%BD%95%E5%88%B6-2.png)
 
 
 3）配置项目说明
@@ -58,7 +58,7 @@ c)存储位置
 ·全局录制存储路径: jrtc/{appId}/{userRoomId}/record/1/{yyyyMMdd}/{userRoomId_userId}.m3u8  
 ·指定录制存储路径: jrtc/{appId}/{userRoomId}/record/2}/{yyyyMMdd}/{自定义}.m3u8
 
-![image](https://user-images.githubusercontent.com/89631429/138041448-6c7c5f08-f087-47b5-905f-5877a5112be1.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E4%BA%91%E7%AB%AF%E5%BD%95%E5%88%B6-3.png)
 
 d)回调地址
 
@@ -74,7 +74,7 @@ e)回调秘钥
 
 已开通状态如下所示，可通过点击更改配置按钮弹出配置窗口进行配置更新。
 
-![image](https://user-images.githubusercontent.com/89631429/138041496-8663ad92-cd29-41a7-b452-b9d5aa927555.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E4%BA%91%E7%AB%AF%E5%BD%95%E5%88%B6-4.png)
 
 
 2）关闭功能
@@ -82,7 +82,7 @@ e)回调秘钥
 已开通状态如下所示，可通过点击功能关闭按钮关闭本功能。  
 功能关闭将导致业务无法再进行录制，请谨慎操作。
 
-![image](https://user-images.githubusercontent.com/89631429/138041542-5719cf22-7dc0-47a3-91fb-ef3f64edfcf5.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E8%BF%9C%E7%AB%AF%E5%BD%95%E5%88%B6-5.png)
 
 ## 旁路转推
 
