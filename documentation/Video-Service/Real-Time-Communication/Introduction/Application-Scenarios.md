@@ -22,7 +22,7 @@
 
 师生实时互动，支持多人音视频连麦，助教管理课堂解答学员疑问； 品牌个性化定制，logo 水印，播放器 UI 等丰富自定义设置，支持视频动能，播放界面移动端 h5 定制； 授课内容安全防护，自主研发视频加密算法，支持防盗链，二次鉴权，播放器域名限制，防止原创视频课程被盗。
 
-![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%9C%BA%E6%99%AF3-%E5%9C%A8%E7%BA%BF%E5%8C%BB%E7%96%97.jpg)
+![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2.png)
 
 ### 在线医疗
 
