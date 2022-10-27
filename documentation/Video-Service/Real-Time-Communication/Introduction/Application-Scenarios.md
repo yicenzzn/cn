@@ -10,7 +10,7 @@
 
 设备维护及操作，专家远程协助（文字、语音/视频、标注、屏幕共享等），一人多能，提升专家资源复用率，同时节省差旅费用； AR 维护，360°第一视角，虚实结合，提升效率； 知识数字化，优秀经验转化为知识库； 供应链一体化，设备、人员、知识统一管理。
 
-![企业咚咚20201228141302.jpg](../../../../image/Real-Time-Communicat/企业咚咚20201228141302.jpg)
+![企业咚咚20201228141302.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E8%BF%9C%E7%A8%8B%E6%A3%80%E4%BF%AE.png)
 
 ### 在线金融
 
