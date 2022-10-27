@@ -16,7 +16,7 @@
 
 全链路安全端到端加密，全球最佳安全和隐私保护； 实时云端双录，保障业务合规性； 通话时延低于200ms，抗丢包率超过70%，抗网络抖动超过1000ms，弱网环境下依然保证通话流畅稳定。
 
-![在线教育.jpg](../../../../image/Real-Time-Communicat/在线教育.jpg)
+![在线教育.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%9C%A8%E7%BA%BF%E9%87%91%E8%9E%8D.png)
 
 ### 在线教育
 
