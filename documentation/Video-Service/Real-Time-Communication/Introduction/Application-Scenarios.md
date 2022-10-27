@@ -28,4 +28,4 @@
 
 集实时音视频、屏幕共享、文档共享、互动白板、实时消息、录制留存等功能的一站式智慧医疗解决方案， 满足医疗诊断、医疗社交、医疗教育的多元需求； 支持多人视频，多位医生和患者共同参与在线会诊，协同通畅； 支持在线医疗教学、医疗直播培训等场景。
 
-![互联网医疗.jpg](../../../../image/Real-Time-Communicat/互联网医疗.jpg)
+![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%9C%BA%E6%99%AF3-%E5%9C%A8%E7%BA%BF%E5%8C%BB%E7%96%97.jpg)
