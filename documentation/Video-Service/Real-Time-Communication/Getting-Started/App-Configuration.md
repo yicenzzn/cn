@@ -8,7 +8,7 @@
 
 进入应用配置页面，默认显示回调配置选项卡，点击”更改“即可进行回调配置，目前支持配置房间回调地址和媒体回调地址，JRTC后续将支持更多回调类型。
 
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-%E9%85%8D%E7%BD%AE-1.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E9%85%8D%E7%BD%AE%20%E6%96%B0-2.png)
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-%E9%85%8D%E7%BD%AE-2.png)
 
 ## 云端录制
