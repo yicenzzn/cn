@@ -2039,7 +2039,7 @@ Windows系统实例价格
       <td>2779.70</td>
       <td>2462.72</td>
       <td>--</td>
-      <td>2*1675 SAS HDD</td>
+      <td>2*1675 GiB SAS HDD</td>
    </tr> 
    <tr>
       <td>s.d2.2xlarge</td>
@@ -2048,7 +2048,7 @@ Windows系统实例价格
       <td>5271.10</td>
       <td>4925.25</td>
       <td>--</td>
-      <td>4*1675 SAS HDD</td>
+      <td>4*1675 GiB SAS HDD</td>
    </tr>    
    <tr>
       <td>s.d2.4xlarge</td>
@@ -2084,7 +2084,7 @@ Windows系统实例价格
       <td>30471.9</td>
       <td>29552.68</td>
       <td>--</td>
-      <td>24*1675 GiB NVMe SSD</td>
+      <td>24*1675 GiB SAS HDD</td>
    </tr> 
    <tr>
       <td>s.d1.xlarge</td>
@@ -2093,7 +2093,7 @@ Windows系统实例价格
       <td>2779.7</td>
       <td>2462.72</td>
       <td>--</td>
-      <td>2*1675 GiB HDD</td>
+      <td>2*1675 GiB SAS HDD</td>
    </tr> 
    <tr>
       <td>s.d1.2xlarge</td>
@@ -2102,7 +2102,7 @@ Windows系统实例价格
       <td>5271.10</td>
       <td>4925.45</td>
       <td>--</td>
-      <td>4*1675 GiB HDD</td>
+      <td>4*1675 GiB SAS HDD</td>
    </tr>
    <tr>
       <td>s.d1.4xlarge</td>
@@ -2111,7 +2111,7 @@ Windows系统实例价格
       <td>10157.30</td>
       <td>9850.89</td>
       <td>--</td>
-      <td>8*1675 GiB HDD</td>
+      <td>8*1675 GiB SAS HDD</td>
    </tr>  
    <tr>
       <td>s.d1.6xlarge</td>
@@ -2120,7 +2120,7 @@ Windows系统实例价格
       <td>15236</td>
       <td>14776.34</td>
       <td>--</td>
-      <td>12*1675 GiB HDD</td>
+      <td>12*1675 GiB SAS HDD</td>
    </tr>
    <tr>
       <td>s.d1.8xlarge</td>
@@ -2129,7 +2129,7 @@ Windows系统实例价格
       <td>20314.60</td>
       <td>19701.78</td>
       <td>--</td>
-      <td>16*1675 GiB HDD</td>
+      <td>16*1675 GiB SAS HDD</td>
    </tr> 
    <tr>
       <td>s.d1.12xlarge</td>
@@ -2138,7 +2138,7 @@ Windows系统实例价格
       <td>30471.90</td>
       <td>29552.68</td>
       <td>--</td>
-      <td>24*1675 GiB HDD</td>
+      <td>24*1675 GiB SAS HDD</td>
    </tr>
 </table>
 请注意：
