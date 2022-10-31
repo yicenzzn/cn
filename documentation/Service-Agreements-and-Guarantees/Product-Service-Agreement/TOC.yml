@@ -844,4 +844,7 @@ items:
     href: CloudOrder.md
   - name: 京东云云微店服务条款
     href: CloudMicroshop.md
-
+  - name: EDI经营许可证咨询代理服务条款
+    href: EDI-Terms-Of-Service.md
+  - name: ICP经营许可证咨询代理服务条款
+    href: ICP-Terms-Of-Service.md
