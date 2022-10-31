@@ -26,7 +26,7 @@
 
 1.进入音视频通信控制台，选择选项卡中的”ToKen校验器“。
 
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/RTC-token%E6%A0%A1%E9%AA%8C%E5%99%A8.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/token%E7%AE%A1%E7%90%86-3.png)
 
 1）单击下拉框选择您已创建的应用（appid）。
 
