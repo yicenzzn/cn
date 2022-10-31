@@ -6,7 +6,7 @@
 
 1.进入音视频通信控制台，选择左侧栏的”ToKen管理“。
 
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/RTC-token%E7%94%9F%E6%88%90%E5%99%A8.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/token%E7%AE%A1%E7%90%86-1.png)
 
 1）单击下拉框选择您已创建的应用（appid）。
 
