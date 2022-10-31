@@ -2,7 +2,7 @@
 
 ## 前提条件
 已停止所有Consumer客户端（消息队列Kafka版不支持在线重置消费位点）。
-注意 在停止Consumer客户端后，需要经过ConsumerConfig.SESSION_TIMEOUT_MS_CONFIG配置的时间（默认10000 ms），服务端才认为Consumer真正下线。
+注意在停止Consumer客户端后，需要经过ConsumerConfig.SESSION_TIMEOUT_MS_CONFIG配置的时间（默认10000 ms），服务端才认为Consumer真正下线。
 ## 背景信息
 消息队列Kafka版支持以下重置消费位点方式：
 
@@ -16,7 +16,7 @@
 3. 在实例列表页面，单击目标实例名称。
 4. 在导航栏，单击Consumer Group 管理。
 5. 在Consumer Group 管理页面，找到目标Group，在其右侧操作列，选择 > 重置消费位点。
-![consumergroup](/documentation/Middleware/JCS-for-Kafka/image/consumergroup.png)
+![consumergroup](/documentation/Middleware/JCS-for-Kafka/image/consumergroup.jpg)
 
 6. 在重置Group的消费位点面板，了解其前提条件，设置重置策略。
    1. 设置重置所有 Topic。
@@ -26,5 +26,5 @@
       - 单击从最新位点开始消费，将消费位点指定到最新的位置，单击确定。
       - 单击从指定时间点的位点开始消费，在时间点文本框，单击日历，从指定时间点的位点开启消费功能，单击确定。
       - 单击按分区消费位点进行重置，在目标分区所在行， 消费位点文本框输入开始消费位点值，单击确定。
-![重置消费位点](/documentation/Middleware/JCS-for-Kafka/image/重置消费位点.png)
+![重置消费位点](/documentation/Middleware/JCS-for-Kafka/image/重置消费位点.jpg)
 7. 在提示对话框，确认提示信息，单击确认。

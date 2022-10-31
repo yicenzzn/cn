@@ -6,9 +6,9 @@
 3. 在实例列表页面，单击目标实例名称。
 4. 在导航栏，单击Consumer group管理。
 5. 在Consumer group管理页面，找到目标Consumer group，在其操作列，选择消费状态 。
-![consumergroup](/documentation/Middleware/JCS-for-Kafka/image/consumergroup.png)
+![consumergroup](/documentation/Middleware/JCS-for-Kafka/image/consumergroup.jpg)
 6. 在消费详情列表，显示该Group订阅的所有Topic以及各个Topic的堆积量和最近消费者。
-![消费状态](/documentation/Middleware/JCS-for-Kafka/image/消费状态.png)
+![消费状态](/documentation/Middleware/JCS-for-Kafka/image/消费状态.jpg)
 
 
 |参数| 说明 | 
