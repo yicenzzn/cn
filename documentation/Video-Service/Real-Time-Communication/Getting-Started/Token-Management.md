@@ -20,7 +20,7 @@
 
 填写完成后，点击生成Token。
 
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/RTC-ToKen%E7%94%9F%E6%88%90%E7%BB%93%E6%9E%9C.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/token%E7%AE%A1%E7%90%86-2.png)
 
 ## Token校验器
 
