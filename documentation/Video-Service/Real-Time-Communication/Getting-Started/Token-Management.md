@@ -1,12 +1,12 @@
 # ToKen管理
 
-视音频通信控制台支持在线生成签名ToKen，开发者和京东云的服务通过签名ToKen验证建立信任关系，以避免加密密钥泄露导致的流量盗用。
+音视频通信控制台支持在线生成签名ToKen，开发者和京东云的服务通过签名ToKen验证建立信任关系，以避免加密密钥泄露导致的流量盗用。
 
 ## Token生成
 
-1.进入视音频通信控制台，选择左侧栏的”ToKen管理“。
+1.进入音视频通信控制台，选择左侧栏的”ToKen管理“。
 
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/RTC-token%E7%94%9F%E6%88%90%E5%99%A8.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/token%E7%AE%A1%E7%90%86-1.png)
 
 1）单击下拉框选择您已创建的应用（appid）。
 
@@ -20,13 +20,13 @@
 
 填写完成后，点击生成Token。
 
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/RTC-ToKen%E7%94%9F%E6%88%90%E7%BB%93%E6%9E%9C.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/token%E7%AE%A1%E7%90%86-2.png)
 
 ## Token校验器
 
-1.进入视音频通信控制台，选择选项卡中的”ToKen校验器“。
+1.进入音视频通信控制台，选择选项卡中的”ToKen校验器“。
 
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/RTC-token%E6%A0%A1%E9%AA%8C%E5%99%A8.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/token%E7%AE%A1%E7%90%86-3.png)
 
 1）单击下拉框选择您已创建的应用（appid）。
 

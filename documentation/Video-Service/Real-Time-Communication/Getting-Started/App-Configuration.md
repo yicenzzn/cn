@@ -1,15 +1,15 @@
 # 应用配置
 
-登录视音频通信控制台，单击左侧菜单栏选择“应用管理”，找到需要配置的应用，点击列表中的“配置”。
+登录音视频通信控制台，单击左侧菜单栏选择“应用管理”，找到需要配置的应用，点击列表中的“配置”。
 
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/RTC-%E5%BA%94%E7%94%A8%E9%85%8D%E7%BD%AE%E5%85%A5%E5%8F%A3.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-%E9%85%8D%E7%BD%AE-3.png)
 
 ## 回调配置
 
 进入应用配置页面，默认显示回调配置选项卡，点击”更改“即可进行回调配置，目前支持配置房间回调地址和媒体回调地址，JRTC后续将支持更多回调类型。
 
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/RTC%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-%E9%85%8D%E7%BD%AE.png)
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/RTC-%E5%9B%9E%E8%B0%83%E9%85%8D%E7%BD%AE.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E9%85%8D%E7%BD%AE%20%E6%96%B0-2.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-%E9%85%8D%E7%BD%AE-2.png)
 
 ## 云端录制
 
@@ -29,12 +29,12 @@
 
 1）配置页面中，选择云端录制选项卡，默认状态为未开启
 
-![image](https://user-images.githubusercontent.com/89631429/138041301-555cc121-b1f1-4e31-bd56-98b913082cbd.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E4%BA%91%E7%AB%AF%E5%BD%95%E5%88%B6-1.png)
 
 
 2）点击 功能开启按钮，进行配置
 
-![image](https://user-images.githubusercontent.com/89631429/138041339-ddc2be30-0ccf-405d-825d-117c838ea820.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E4%BA%91%E7%AB%AF%E5%BD%95%E5%88%B6-2.png)
 
 
 3）配置项目说明
@@ -58,7 +58,7 @@ c)存储位置
 ·全局录制存储路径: jrtc/{appId}/{userRoomId}/record/1/{yyyyMMdd}/{userRoomId_userId}.m3u8  
 ·指定录制存储路径: jrtc/{appId}/{userRoomId}/record/2}/{yyyyMMdd}/{自定义}.m3u8
 
-![image](https://user-images.githubusercontent.com/89631429/138041448-6c7c5f08-f087-47b5-905f-5877a5112be1.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E4%BA%91%E7%AB%AF%E5%BD%95%E5%88%B6-3.png)
 
 d)回调地址
 
@@ -74,7 +74,7 @@ e)回调秘钥
 
 已开通状态如下所示，可通过点击更改配置按钮弹出配置窗口进行配置更新。
 
-![image](https://user-images.githubusercontent.com/89631429/138041496-8663ad92-cd29-41a7-b452-b9d5aa927555.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E4%BA%91%E7%AB%AF%E5%BD%95%E5%88%B6-4.png)
 
 
 2）关闭功能
@@ -82,7 +82,7 @@ e)回调秘钥
 已开通状态如下所示，可通过点击功能关闭按钮关闭本功能。  
 功能关闭将导致业务无法再进行录制，请谨慎操作。
 
-![image](https://user-images.githubusercontent.com/89631429/138041542-5719cf22-7dc0-47a3-91fb-ef3f64edfcf5.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E8%BF%9C%E7%AB%AF%E5%BD%95%E5%88%B6-5.png)
 
 ## 旁路转推
 
@@ -102,12 +102,12 @@ e)回调秘钥
 
 1）配置页面中，选择旁路转推选项卡，默认状态为未开启
 
-![image](https://user-images.githubusercontent.com/89631429/138047857-20ec6436-50bc-4861-9f2b-5fe16fca9acb.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E6%97%81%E8%B7%AF%E8%BD%AC%E6%8E%A8-1.png)
 
 
 2）点击 功能开启按钮，进行配置
 
-![image](https://user-images.githubusercontent.com/89631429/138047913-4089f08e-4b18-42dc-bee6-50cdca1e7b91.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E6%97%81%E8%B7%AF%E8%BD%AC%E6%8E%A8-2.png)
 
 
 3）配置项目说明
@@ -123,17 +123,17 @@ b）推流地址
 ·域名管理：推流地址无缝打通京东云视频直播平台，可通过域名管理跳转到相关页面进行配置。
 
 ·下拉列表：在视频直播平台中配置完成的域名可通过下拉框进行选择，如新配置的域名未出现，可通过更新列表按钮进行更新。
-![image](https://user-images.githubusercontent.com/89631429/138051936-a7353e08-9742-47ff-95b4-13b79d5c4953.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E6%97%81%E8%B7%AF%E8%BD%AC%E6%8E%A8-3.png)
 
 
 
 3.配置变更及功能关闭
 
 1）更改配置:开通状态下，可通过点击更改配置按钮弹出配置窗口进行配置更新。
-![image](https://user-images.githubusercontent.com/89631429/138056224-c7175a60-0f28-481c-8016-880840a22353.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E6%97%81%E8%B7%AF%E8%BD%AC%E6%8E%A8-5.png)
 
 
 2）关闭功能：开通状态下，可通过点击功能关闭按钮关闭本功能。      
 功能关闭将导致业务流再无法推送，请谨慎操作。
-![image](https://user-images.githubusercontent.com/89631429/138056365-be40b9d1-8e88-4bbe-adb7-a6a1ea22cbe4.png)
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E6%97%81%E8%B7%AF%E8%BD%AC%E6%8E%A8-6.png)
 
