@@ -4,6 +4,7 @@
 | 功能名称 | 功能描述 | 发布时间 | 相关文档|
 | :---------------| :--------------|:------------|:--------
 |OpenEuler 21.09（x86）镜像发布|基于x86架构的OpenEuler 21.09 镜像在全部地域发布上线。|2022-09|[镜像类型](https://docs.jdcloud.com/cn/virtual-machines/image-type)
+|基于ARM架构飞腾服务器的云主机实例上线|推出的实例规格全面覆盖通用标准（g.n3r，CPU内存比1:4）、计算优化（c.n3r，CPU内存比1:2）和内存优化（m.n3r，CPU内存比1:8）等应用场景。|2022-06|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family#user-content-9)
 |云事件支持本地数据盘实例的故障通知|自带本地数据盘的实例规格（如存储优化型、部分GPU型）在本地盘发生故障时，系统会向云事件发送通知，可通过订阅云事件及时获知。|2022-06|[云主机事件通知](https://docs.jdcloud.com/cn/virtual-machines/event-overview)
 |A100 GPU直通型实例规格上线| 基于Nvidia Tesla A100（显存80 GiB）的直通型GPU实例规格在华东-上海地域上线，提供1/2/4/8卡主机规格。|2022-06|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family#user-content-6)
 |第三代共享型实例规格上线|基于Intel Xeon Platinum 8338C（Icelake）处理器的第三代共享型实例规格在华北-北京地域上线。|2022-05|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family#user-content-1)
@@ -17,6 +18,7 @@
 
 | 功能名称 | 功能描述 | 发布时间 | 相关文档|
 | :---------------| :--------------|:------------|:--------
+|基于AMD EPYC（霄龙）处理器的云主机实例上线|推出的实例规格全面涵盖通用标准（g.n2a，CPU内存比1:4）、计算优化（c.n2a，CPU内存比1:2）和内存优化（m.n2a，CPU内存比1:8）等应用场景。|2021-12|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family)
 |自动镜像策略上线|支持使用自动镜像策略为实例设置周期性的备份任务，免去定期手动制作私有镜像的运维工作。|2021-12|[自动镜像策略](https://docs.jdcloud.com/cn/virtual-machines/autoimagepolicy)
 |新版实例模板创建页灰度上线|新版本在流程引导、配置分类、页面资源搜索加载、信息展示等方面进行了整体优化，在视觉和交互方面同样做了全面提升。|2021-12|[创建实例模板](https://docs.jdcloud.com/cn/virtual-machines/create-instance-template)
 |修改实例模板功能上线|支持修改实例模板信息，包括地域、镜像、实例规格、磁盘信息、网络等。|2021-11|[修改实例模板](https://docs.jdcloud.com/cn/virtual-machines/modify-instance-template)
