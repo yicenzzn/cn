@@ -1,5 +1,6 @@
-# 安全组规则
-安全组规则可控制允许到达与安全组相关联的实例的入站流量以及允许离开实例的出站流量。
+# 合作安全组规则
+合作安全组（以下简称“安全组”）规则可控制允许到达与安全组相关联的实例的入站流量以及允许离开实例的出站流量。
+
 ## 安全组规则内容
 * 类型：常用应用类型，例如SSH、PING 或HTTP 等，也可选择自定义TCP或UDP。
 * 协议：根据应用类型选择，显示所属协议类型。
@@ -43,6 +44,6 @@
 
 ## 相关参考
 
-[连接Linux实例](http://docs.jdcloud.com/cn/virtual-machines/connect-to-linux-instance)
+[连接Linux实例](http://docs.jdcloud.com/cn/coc-virtual-machines/connect-to-linux-instance)
 
-[连接Windows实例](http://docs.jdcloud.com/cn/virtual-machines/connect-to-windows-instance)
+[连接Windows实例](http://docs.jdcloud.com/cn/coc-virtual-machines/connect-to-windows-instance)
