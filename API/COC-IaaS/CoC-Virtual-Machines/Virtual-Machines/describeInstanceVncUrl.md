@@ -3,13 +3,13 @@
 
 ## 描述
 
-获取云主机vnc地址。
+获取合作云主机vnc地址。
 
-详细操作说明请参考帮助文档：[连接实例](https://docs.jdcloud.com/cn/virtual-machines/connect-to-instance)
+详细操作说明请参考帮助文档：[连接实例](https://docs.jdcloud.com/cn/coc-virtual-machines/connect-to-instance)
 
 ## 接口说明
 - 实例仅 `running` 状态时才可获取到 `vnc` 地址。
-- 调用该接口可获取云主机 `vnc` 地址，用于远程连接管理云主机。
+- 调用该接口可获取合作云主机 `vnc` 地址，用于远程连接管理云主机。
 - `vnc` 地址的有效期为1个小时，调用接口获取vnc地址后如果1个小时内没有使用，`vnc` 地址将自动失效，再次使用需要重新获取。
 
 
@@ -22,7 +22,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/vnc
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True| |地域ID。|
-|**instanceId**|String|True| |云主机ID。|
+|**instanceId**|String|True| |合作云主机ID。|
 
 ## 请求参数
 无
@@ -52,12 +52,12 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/vnc
 
 ## 请求示例
 GET
-```
+
 ```
 /v1/regions/cn-north-1/instances/i-eumm****d6/vnc
 ```
 
-```
+
 
 ## 返回示例
 ```
