@@ -15,7 +15,7 @@
 
 ![下单付款](https://static-ftcms.jd.com/p/files/6364f01b9eabc0def83aa342.png)
 
-3、填写商标的基本信息，根据如下表格进行填写。
+3、填写商标的基本信息，根据如下说明进行填写。
 
 ![下单付款](https://static-ftcms.jd.com/p/files/6364f03220ee4c675e53d83a.png)
 
