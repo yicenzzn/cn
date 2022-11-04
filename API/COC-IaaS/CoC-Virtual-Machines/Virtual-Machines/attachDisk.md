@@ -3,14 +3,14 @@
 
 ## 描述
 
-为一台云主机挂载云硬盘。
+为一台合作云主机挂载合作云硬盘。
 
-详细操作说明请参考帮助文档：[挂载云硬盘](https://docs.jdcloud.com/cn/virtual-machines/attach-cloud-disk)
+详细操作说明请参考帮助文档：[挂载合作云硬盘](https://docs.jdcloud.com/cn/coc-virtual-machines/attach-cloud-disk)
 
 ## 接口说明
-- 云主机和云硬盘都没有正在进行中的的任务时才可以操作。
-- 云主机状态必须是 `running` 或 `stopped` 状态。操作系统盘时必须先停止实例。
-- 待挂载的云硬盘与云主机实例必须在同一个可用区下。
+- 合作云主机和合作云硬盘都没有正在进行中的的任务时才可以操作。
+- 合作云主机状态必须是 `running` 或 `stopped` 状态。操作系统盘时必须先停止实例。
+- 待挂载的合作云硬盘与合作云主机实例必须在同一个可用区下。
 
 
 ## 请求方式
@@ -22,12 +22,12 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:atta
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True| |地域ID。|
-|**instanceId**|String|True| |云主机ID。|
+|**instanceId**|String|True| |合作云主机ID。|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**diskId**|String|True| |云硬盘ID。|
+|**diskId**|String|True| |合作云硬盘ID。|
 |**deviceName**|String|False| |磁盘逻辑挂载点。系统盘：必须指定并且只能是vda。数据盘：取值范围：[vdb~vdbm]|
 
 
@@ -60,7 +60,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:atta
 
 ## 请求示例
 POST
-```
+
 ```
 /v1/regions/cn-north-1/instances/i-eumm****d6:attachDisk
 {
@@ -69,9 +69,9 @@ POST
 }
 ```
 
-```
 
 ## 返回示例
+
 ```
 {
     "requestId": "a0633f72670e59f8c6db36b1ee257011"
