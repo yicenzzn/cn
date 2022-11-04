@@ -3,9 +3,9 @@
 
 ## 描述
 
-查询一台云主机实例的详细信息。
+查询一台合作云主机实例的详细信息。
 
-详细操作说明请参考帮助文档：[查找实例](https://docs.jdcloud.com/cn/virtual-machines/search-instance)
+详细操作说明请参考帮助文档：[查找实例](https://docs.jdcloud.com/cn/coc-virtual-machines/search-instance)
 
 ## 接口说明
 - 该接口与查询云主机列表返回的信息一致。
@@ -21,7 +21,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True| |地域ID。|
-|**instanceId**|String|True| |云主机ID。|
+|**instanceId**|String|True| |合作云主机ID。|
 
 ## 请求参数
 无
@@ -41,7 +41,6 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |名称|类型|描述|
 |---|---|---|
 |**instanceId**|String|云主机ID。|
-|**partnerId**|String|合作伙伴主机ID|
 |**instanceName**|String|云主机名称。|
 |**instanceType**|String|实例规格。|
 |**vpcId**|String|主网卡所属VPC的ID。|
@@ -49,7 +48,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**privateIpAddress**|String|主网卡主内网IP地址。|
 |**elasticIpAddress**|String|主网卡主IP绑定弹性IP的地址。|
 |**elasticIpId**|String|主网卡主IP绑定弹性IP的ID。|
-|**status**|String|云主机状态，参考 [云主机状态](https://docs.jdcloud.com/virtual-machines/api/vm_status)。|
+|**status**|String|云主机状态，参考 [合作云主机状态](https://docs.jdcloud.com/coc-virtual-machines/api/vm_status)。|
 |**imageId**|String|云主机使用的镜像ID。|
 |**systemDisk**|[InstanceDiskAttachment](#instancediskattachment)|系统盘配置。|
 |**dataDisks**|[InstanceDiskAttachment[]](#instancediskattachment)|数据盘配置列表。|
@@ -96,12 +95,11 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 
 ## 请求示例
 GET
-```
+
 ```
 /v1/regions/cn-north-1/instances/i-eumm****d6
 ```
 
-```
 
 ## 返回示例
 ```
