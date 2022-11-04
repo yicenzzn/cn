@@ -3,15 +3,12 @@
 
 ## 描述
 
-修改一台云主机的属性。
+修改一台合作云主机的属性。
 
-详细操作说明请参考帮助文档：
-[修改实例名称](https://docs.jdcloud.com/cn/virtual-machines/modify-instance-name)
-[自定义数据](https://docs.jdcloud.com/cn/virtual-machines/userdata)
-[实例元数据](https://docs.jdcloud.com/cn/virtual-machines/instance-metadata)
+详细操作说明请参考帮助文档[修改实例名称](https://docs.jdcloud.com/cn/coc-virtual-machines/modify-instance-name)
 
 ## 接口说明
-- 支持修改实例的名称、描述、hostname、自定义数据、实例元数据。
+- 当前仅支持修改实例的名称。
 
 
 ## 请求方式
@@ -23,7 +20,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modi
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True| |地域ID。|
-|**instanceId**|String|True| |云主机ID。|
+|**instanceId**|String|True| |合作云主机ID。|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
@@ -49,7 +46,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modi
 
 ## 请求示例
 POST
-```
+
 ```
 /v1/regions/cn-north-1/instances/i-eumm****d6:modifyInstanceAttribute
 {
@@ -58,7 +55,6 @@ POST
 }
 ```
 
-```
 
 ## 返回示例
 ```
