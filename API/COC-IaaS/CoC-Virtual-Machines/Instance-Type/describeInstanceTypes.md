@@ -5,7 +5,7 @@
 
 查询实例规格列表。
 
-详细操作说明请参考帮助文档：[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family)
+详细操作说明请参考帮助文档：[实例规格类型](https://docs.jdcloud.com/cn/coc-virtual-machines/instance-type-family)
 
 ## 接口说明
 - 调用该接口可查询全量实例规格信息。
@@ -83,12 +83,11 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 
 ## 请求示例
 GET
-```
+
 ```
 /v1/regions/cn-north-1/instanceTypes?filters.1.name=instanceTypes&filters.1.values.1=g.n2.medium&filters.1.values.2=p.n1p4c.2xlarge
 ```
 
-```
 
 ## 返回示例
 ```
