@@ -3,14 +3,14 @@
 
 ## 描述
 
-查询一台或多台云主机实例的详细信息。
+查询一台或多台合作云主机实例的详细信息。
 
 详细操作说明请参考帮助文档：[查找实例](https://docs.jdcloud.com/cn/virtual-machines/search-instance)
 
 ## 接口说明
 - 使用 `filters` 过滤器进行条件筛选，每个 `filter` 之间的关系为逻辑与（AND）的关系。
-- 如果使用子帐号查询，只会查询到该子帐号有权限的云主机实例。关于资源权限请参考 [IAM概述](https://docs.jdcloud.com/cn/iam/product-overview)。
-- 单次查询最大可查询100条云主机实例数据。
+- 如果使用子帐号查询，只会查询到该子帐号有权限的合作云主机实例。关于资源权限请参考 [IAM概述](https://docs.jdcloud.com/cn/iam/product-overview)。
+- 单次查询最大可查询100条合作云主机实例数据。
 - 尽量一次调用接口查询多条数据，不建议使用该批量查询接口一次查询一条数据，如果使用不当导致查询过于密集，可能导致网关触发限流。
 - 由于该接口为 `GET` 方式请求，最终参数会转换为 `URL` 上的参数，但是 `HTTP` 协议下的 `GET` 请求参数长度是有大小限制的，使用者需要注意参数超长的问题。
 
@@ -62,7 +62,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**privateIpAddress**|String|主网卡主内网IP地址。|
 |**elasticIpAddress**|String|主网卡主IP绑定弹性IP的地址。|
 |**elasticIpId**|String|主网卡主IP绑定弹性IP的ID。|
-|**status**|String|云主机状态，参考 [云主机状态](https://docs.jdcloud.com/virtual-machines/api/vm_status)。|
+|**status**|String|云主机状态，参考 [合作云主机状态](https://docs.jdcloud.com/coc-virtual-machines/api/vm_status)。|
 |**imageId**|String|云主机使用的镜像ID。|
 |**systemDisk**|[InstanceDiskAttachment](#instancediskattachment)|系统盘配置。|
 |**dataDisks**|[InstanceDiskAttachment[]](#instancediskattachment)|数据盘配置列表。|
@@ -109,12 +109,11 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances
 
 ## 请求示例
 GET
-```
+
 ```
 /v1/regions/cn-north-1/instances?pageNumber=1&pageSize=10&filters.1.name=instanceId&filters.1.values.1=i-eumm****d6&filters.1.values.2=i-y5nh****9w
 ```
 
-```
 
 ## 返回示例
 ```
