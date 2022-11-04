@@ -1,6 +1,7 @@
 ### 步骤1：登录账户
 在京东云官网页面，右上角点击【登录】，选择账户登录/扫码登录
-![扫码登陆](https://static-ftcms.jd.com/p/files/6364df1d20ee4c675e53d833.jpg)
+![扫码登陆](https://static-ftcms.jd.com/p/files/6364e0889eabc0def83aa33c.png)
+![扫码登陆](https://static-ftcms.jd.com/p/files/6364e08d20ee4c675e53d834.png)
 
 
 ### 步骤2：选购产品 (以商标体检为示例）
