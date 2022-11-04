@@ -36,4 +36,4 @@
 
 3、监测链接
 
-https://www.jdcloud.com/cn/pages/shangbiaoguanjia
+商标监测：https://www.jdcloud.com/cn/pages/shangbiaoguanjia
