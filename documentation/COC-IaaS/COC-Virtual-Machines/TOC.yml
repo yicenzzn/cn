@@ -147,34 +147,16 @@ items:
             href: Operation-Guide/Storage/Roll-Back-Cloud-Disk.md
           - name: 分配设备名
             href: Operation-Guide/Storage/Assign-Device-Name.md
-          - name: 配置删除属性
-            href: Operation-Guide/Storage/Configurate-Delete-Attributes.md
-          - name: 云硬盘加密
-            href: Operation-Guide/Storage/Encryption-of-Cloud-Disk.md
           - name: 存储FAQ
             href: Operation-Guide/Storage/Storage-FAQ.md
       - name: 网络
         items:
           - name: 网络概述
             href: Operation-Guide/Network/Network-Overview.md
-          - name: 绑定弹性网卡
-            href: Operation-Guide/Network/Attach-ENI.md
-          - name: 解绑弹性网卡
-            href: Operation-Guide/Network/Detach-ENI.md
-          - name: 分配辅助内网IP
-            href: Operation-Guide/Network/Assign-Secondary-IPs.md
-          - name: 释放辅助内网IP
-            href: Operation-Guide/Network/Unassign-Secondary-IPs.md
           - name: 绑定弹性公网IP
             href: Operation-Guide/Network/Associate-Elastic-IP.md
           - name: 解绑弹性公网IP
             href: Operation-Guide/Network/Disassociate-Elastic-IP.md
-          - name: 配置网卡多队列
-            href: Operation-Guide/Network/Configurate-ENI-Multi-Queue.md
-          - name: 配置弹性网卡删除属性
-            href: Operation-Guide/Network/Configurate-ENI-Delete-Attributes.md
-          - name: 修改私有网络配置
-            href: Operation-Guide/Network/Modify-VPC-Attribute.md
           - name: 网络FAQ
             href: Operation-Guide/Network/Network-FAQ.md       
       - name: 密钥
@@ -189,29 +171,27 @@ items:
             href: Operation-Guide/Key-Pair/Unbind-Keypair.md      
           - name: 删除密钥
             href: Operation-Guide/Key-Pair/Delete-Keypair.md
-      - name: 安全组
+      - name: 合作安全组
         items:
-          - name: 安全组概述
+          - name: 合作安全组概述
             href: Operation-Guide/Security-Group/Security-Group-Overview.md
-          - name: 安全组规则
+          - name: 合作安全组规则
             href: Operation-Guide/Security-Group/Security-Group-Rules.md
-          - name: 安全组规则典型配置
+          - name: 合作安全组规则典型配置
             href: Operation-Guide/Security-Group/Typical-Configuration.md
           - name: 使用场景
             href: Operation-Guide/Security-Group/Security-Group-Scenarios.md
-          - name: 创建安全组
+          - name: 创建合作安全组
             href: Operation-Guide/Security-Group/Create-Security-Group.md
-          - name: 安全组绑定云主机
+          - name: 合作安全组绑定合作云主机
             href: Operation-Guide/Security-Group/Associate-Security-Group.md
-          - name: 安全组解绑云主机
+          - name: 合作安全组解绑合作云主机
             href: Operation-Guide/Security-Group/Disassociate-Security-Group.md
-          - name: 配置安全组入站规则
-            href: Operation-Guide/Security-Group/Configurate-Inbound-Rules.md
-          - name: 配置安全组出站规则
-            href: Operation-Guide/Security-Group/Configurate-Outbound-Rules.md
-          - name: 删除安全组
+          - name: 配置合作安全组出入站规则
+            href: Operation-Guide/Security-Group/Configurate-OUt-Or-Inbound-Rules.md
+          - name: 删除合作安全组
             href: Operation-Guide/Security-Group/Delete-Security-Group.md
-          - name: 安全组FAQ
+          - name: 合作安全组FAQ
             href: Operation-Guide/Security-Group/Security-Group-FAQ.md          
       - name: 监控
         items:
