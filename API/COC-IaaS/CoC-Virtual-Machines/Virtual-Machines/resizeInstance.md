@@ -2,12 +2,12 @@
 
 
 ## 描述
-变更云主机实例配置。
+变更合作云主机实例配置。
 
 ## 接口说明
-  - 云主机的状态必须为 `stopped` 状态。
+  - 合作云主机的状态必须为 `stopped` 状态。
   - 目前仅支持配置升级，不支持配置降级
-  - 云主机欠费或到期时，无法更改实例规格。
+  - 合作云主机欠费或到期时，无法更改实例规格。
 
 
 ## 请求方式
@@ -19,7 +19,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:resi
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True| |地域ID。|
-|**instanceId**|String|True| |云主机ID。|
+|**instanceId**|String|True| |合作云主机ID。|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
