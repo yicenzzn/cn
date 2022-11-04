@@ -3,13 +3,13 @@
 
 ## 描述
 
-重启云主机实例。
+重启合作云主机实例。
 
-详细操作说明请参考帮助文档：[重启实例](https://docs.jdcloud.com/cn/virtual-machines/reboot-instance)
+详细操作说明请参考帮助文档：[重启实例](https://docs.jdcloud.com/cn/coc-virtual-machines/reboot-instance)
 
 ## 接口说明
 - 实例状态必须为运行 `running` 状态，同时实例没有正在进行中的任务时才可以重启。
-- 如果云主机实例已欠费或已到期，则无法重启。
+- 如果实例已欠费或已到期，则无法重启。
 
 
 ## 请求方式
@@ -21,7 +21,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:rebo
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True| |地域ID。|
-|**instanceId**|String|True| |云主机ID。|
+|**instanceId**|String|True| |合作云主机ID。|
 
 ## 请求参数
 无
@@ -45,13 +45,12 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:rebo
 
 ## 请求示例
 POST
-```
+
 ```
 /v1/regions/cn-north-1/instances/i-eumm****d6:rebootInstance
 
 ```
 
-```
 
 ## 返回示例
 ```
