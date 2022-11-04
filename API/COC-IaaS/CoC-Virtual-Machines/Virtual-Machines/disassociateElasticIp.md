@@ -3,12 +3,12 @@
 
 ## 描述
 
-为云主机解绑弹性公网IP。
+为合作云主机解绑合作弹性公网IP。
 
-详细操作说明请参考帮助文档：[解绑弹性公网IP](https://docs.jdcloud.com/cn/virtual-machines/disassociate-elastic-ip)
+详细操作说明请参考帮助文档：[解绑合作弹性公网IP](https://docs.jdcloud.com/cn/coc-virtual-machines/disassociate-elastic-ip)
 
 ## 接口说明
-- 该接口只支持解绑实例的主网卡的主内网IP上的弹性公网IP。
+- 该接口只支持解绑实例的主网卡的主内网IP上的合作弹性公网IP。
 
 
 ## 请求方式
@@ -20,12 +20,12 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:disa
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True| |地域ID。|
-|**instanceId**|String|True| |云主机ID。|
+|**instanceId**|String|True| |合作云主机ID。|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**elasticIpId**|String|True| |弹性公网IP的ID。|
+|**elasticIpId**|String|True| |合作弹性公网IP的ID。|
 
 
 ## 返回参数
@@ -46,7 +46,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:disa
 
 ## 请求示例
 POST
-```
+
 ```
 /v1/regions/cn-north-1/instances/i-eumm****d6:disassociateElasticIp
 {
@@ -54,7 +54,6 @@ POST
 }
 ```
 
-```
 
 ## 返回示例
 ```
