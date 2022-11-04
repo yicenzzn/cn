@@ -2,7 +2,7 @@
 
 
 ## 描述
-为云主机制作私有镜像。
+为合作云主机制作私有镜像。
 
 
 ## 请求方式
@@ -13,8 +13,8 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:crea
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**regionId**|String|True| |地域ID。|
-|**instanceId**|String|True| |云主机ID。|
+|**regionId**|String|True| |地域ID|
+|**instanceId**|String|True| |合作云主机ID|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
