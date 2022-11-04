@@ -3,13 +3,13 @@
 
 ## 描述
 
-修改云主机密码。
+修改合作云主机密码。
 
-详细操作说明请参考帮助文档：[重置密码](https://docs.jdcloud.com/cn/virtual-machines/reset-password)
+详细操作说明请参考帮助文档：[重置密码](https://docs.jdcloud.com/cn/coc-virtual-machines/reset-password)
 
 ## 接口说明
 - 实例没有正在进行中的任务时才可操作。
-- 重置密码后，需要重启云主机后生效。
+- 重置密码后，需要重启实例后生效。
 
 
 ## 请求方式
@@ -21,12 +21,12 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modi
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True| |地域ID。|
-|**instanceId**|String|True| |云主机ID。|
+|**instanceId**|String|True| |合作云主机ID。|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**password**|String|True| |实例密码。<br>可用于SSH登录和VNC登录。<br>长度为8\~30个字符，必须同时包含大、小写英文字母、数字和特殊符号中的三类字符。特殊符号包括：`\(\)\`~!@#$%^&\*\_-+=\|{}\[ ]:";'<>,.?/，`。<br>更多密码输入要求请参见 [公共参数规范](https://docs.jdcloud.com/virtual-machines/api/general_parameters)。<br>|
+|**password**|String|True| |实例密码。<br>可用于SSH登录和VNC登录。<br>长度为8\~30个字符，必须同时包含大、小写英文字母、数字和特殊符号中的三类字符。特殊符号包括：\(\)\~!@#$%^&\*\_-+=\|{}\[ ]:";'<>,.?/，`。<br>更多密码输入要求请参见 [公共参数规范](https://docs.jdcloud.com/virtual-machines/api/general_parameters)。<br>|
 
 
 ## 返回参数
@@ -50,7 +50,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:modi
 
 ## 请求示例
 POST
-```
+
 ```
 /v1/regions/cn-north-1/instances/i-eumm****d6:modifyInstancePassword
 {
@@ -58,7 +58,6 @@ POST
 }
 ```
 
-```
 
 ## 返回示例
 ```
