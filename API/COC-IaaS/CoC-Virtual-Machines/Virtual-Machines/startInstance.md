@@ -3,13 +3,13 @@
 
 ## 描述
 
-启动云主机实例。
+启动合作云主机实例。
 
-详细操作说明请参考帮助文档：[启动实例](https://docs.jdcloud.com/cn/virtual-machines/start-instance)
+详细操作说明请参考帮助文档：[启动实例](https://docs.jdcloud.com/cn/coc-virtual-machines/start-instance)
 
 ## 接口说明
 - 实例状态必须为停止 `stopped` 状态，同时实例没有正在进行中的任务时才可以启动。
-- 如果云主机实例已欠费或已到期，则无法启动。
+- 如果合作云主机实例已欠费或已到期，则无法启动。
 - 如果实例系统盘是云硬盘，启动之前请确保系统盘处于正常挂载状态。
 
 
@@ -22,7 +22,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:star
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True| |地域ID。|
-|**instanceId**|String|True| |云主机ID。|
+|**instanceId**|String|True| |合作云主机ID。|
 
 ## 请求参数
 无
@@ -49,13 +49,12 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:star
 
 ## 请求示例
 POST
-```
+
 ```
 /v1/regions/cn-north-1/instances/i-eumm****d6:startInstance
 
 ```
 
-```
 
 ## 返回示例
 ```
