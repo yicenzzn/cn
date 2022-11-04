@@ -13,7 +13,7 @@
 
 
 ![运维诊断1](/documentation/Middleware/JCS-for-Kafka/image/intelligenceOperation-consumer1.jpg)
-![运维诊断2](/documentation/Middleware/JCS-for-Kafka/image/intelligenceoperation-consumer2.jpg)
+![运维诊断2](/documentation/Middleware/JCS-for-Kafka/image/intelligenceOperation-consumer2.jpg)
 
 |参数| 说明 | 
 |:--|:---|
