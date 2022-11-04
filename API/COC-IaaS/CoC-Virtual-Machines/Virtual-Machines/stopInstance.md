@@ -3,9 +3,9 @@
 
 ## 描述
 
-停止云主机实例。
+停止合作云主机实例。
 
-详细操作说明请参考帮助文档：[停止实例](https://docs.jdcloud.com/cn/virtual-machines/stop-instance)
+详细操作说明请参考帮助文档：[停止实例](https://docs.jdcloud.com/cn/coc-virtual-machines/stop-instance)
 
 ## 接口说明
 - 实例状态必须为运行 `running` 状态，同时实例没有正在进行中的任务时才可停止。
@@ -20,7 +20,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:stop
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**regionId**|String|True| |地域ID。|
-|**instanceId**|String|True| |云主机ID。|
+|**instanceId**|String|True| |合作云主机ID。|
 
 ## 请求参数
 无
@@ -48,7 +48,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:stop
 
 ## 请求示例
 POST
-```
+
 ```
 /v1/regions/cn-north-1/instances/i-eumm****d6:stopInstance
 {
@@ -56,7 +56,6 @@ POST
 }
 ```
 
-```
 
 ## 返回示例
 ```
