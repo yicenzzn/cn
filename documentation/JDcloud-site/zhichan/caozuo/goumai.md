@@ -16,14 +16,19 @@
 
 2、进入产品页，点击【立即购买】/【查看详情】--填入补录信息--点击【提交订单】
 ![选购产品](https://static-ftcms.jd.com/p/files/6364e1b320ee4c675e53d835.png)
+![选购产品](https://static-ftcms.jd.com/p/files/6364e20520ee4c675e53d836.png)
 
 
 ### 步骤3：下单付款
 
 确认订单信息及金额，点击【立即支付】，选择支付方式进行付款。
+![下单付款](https://static-ftcms.jd.com/p/files/6364e2db9eabc0def83aa33f.png)
+![下单付款](https://static-ftcms.jd.com/p/files/6364e2ed20ee4c675e53d837.png)
+
 
 ### 步骤4：查看服务订单
 
 在京东云官网页面，右上角点击【控制台】，常用服务下面搜索关键词“知产管家”，点击跳转查看服务订单。
-
-
+![查看服务](https://static-ftcms.jd.com/p/files/6364e4419eabc0def83aa340.png)
+![查看服务](https://static-ftcms.jd.com/p/files/6364e4439eabc0def83aa341.png)
+![查看服务](https://static-ftcms.jd.com/p/files/6364e44520ee4c675e53d838.png)
