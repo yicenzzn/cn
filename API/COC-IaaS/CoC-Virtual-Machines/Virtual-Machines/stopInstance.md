@@ -51,9 +51,7 @@ POST
 
 ```
 /v1/regions/cn-north-1/instances/i-eumm****d6:stopInstance
-{
-    "chargeOnStopped": ""
-}
+
 ```
 
 
