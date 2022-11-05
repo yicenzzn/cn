@@ -5,17 +5,14 @@
 以下为当前京东云在售的实例规格类型信息，不同地域可售卖实例类型及规格不完全相同，请以实例创建页面所显示为准。具体在售实例规格类型根据不同应用场景可以分为：
 
 #### x86规格
-* 通用型：[通用共享型](instance-type-family#user-content-1)、[通用标准型](instance-type-family#user-content-2)
-* 计算优化型：[计算优化共享型](instance-type-family#user-content-9)、[计算优化密集型](instance-type-family#user-content-11)、[计算优化标准型](instance-type-family#user-content-3)
+* 通用型：[通用标准型](instance-type-family#user-content-2)
+* 计算优化型：[计算优化标准型](instance-type-family#user-content-3)
 * 内存优化型：[内存优化标准型](instance-type-family#user-content-4)、[内存优化增强型](instance-type-family#user-content-17)
 * 突发性能型：[突发性能型](instance-type-family#user-content-12)
-* 高频计算型：[高频计算通用型](instance-type-family#user-content-5)
+* 高频计算型：[高频计算通用型](instance-type-family#user-content-5)、[高频计算计算型]
 * 存储优化型：[存储优化IO型](instance-type-family#user-content-7)、[存储优化大数据型](instance-type-family#user-content-8)
-* GPU型：[GPU标准型](instance-type-family#user-content-6)、[GPU虚拟化型](instance-type-family#user-content-10)
-* 裸金属：[标准型](instance-type-family#user-content-13)、[存储优化IO型](instance-type-family#user-content-14)、[安全增强内存优化型](instance-type-family#user-content-15)
-
 ## x86规格：
-## 通用型
+## 通用标准型
 通用型当前提供通用共享型及通用标准型，为您提供均衡的计算及内存资源，可满足大部分业务场景下的需求。其中通用标准型中每一个vCPU都对应一个处理器的超线程核，其vCPU与内存比为1:4。
 
 ### 通用共享型
@@ -32,11 +29,11 @@
         
 	* 第三代：2.6 GHz主频的Intel Xeon Platinum 8338C（Icelake）处理器  
 	* 第二代：2.4 GHz主频的Intel Xeon Gold 6148（Skylake）处理器
-	* 第一代：2.1 GHz主频的Intel Xeon E5-2683 v4（Broadwell）处理器
+	
 * 支持以下类型云硬盘：
-	* 通用型SSD云盘
+	* 第二代通用型SSD云盘
 	* 性能型SSD云盘
-	* 容量型HDD云盘
+	* 增强型SSD云盘
 * 适用场景：
 	* 访问量较小的个人网站初级阶段
 	* 微服务
@@ -48,11 +45,11 @@
 
 实例规格|vCPU（核）|内存（GiB）|网卡数|单网卡队列数
 :---|:---|:---|:---|:---
-|g.s3.micro|1|1|2|1
-|g.s3.small|1|2|2|1
-|g.s3.medium|1|4|2|1
-|g.s3.large|2|8|2|2
-|g.s3.xlarge|4|16|4|4
+|g.n3.medium|1|1|2|1
+|g.n3.large|1|2|2|1
+|g.n3.xlarge|1|4|2|1
+|g.n3.2xlarge|2|8|2|2
+|g.n3.3xlarge|4|16|4|4
 |g.s3.2xlarge|8|32|4|4
 
 第二代
