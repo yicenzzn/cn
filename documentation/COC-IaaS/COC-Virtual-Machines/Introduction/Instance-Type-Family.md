@@ -5,19 +5,17 @@
 以下为当前京东云在售的实例规格类型信息，不同地域可售卖实例类型及规格不完全相同，请以实例创建页面所显示为准。具体在售实例规格类型根据不同应用场景可以分为：
 
 #### x86规格
-* 通用型：[通用标准型](instance-type-family#user-content-2)
-* 计算优化型：[计算优化标准型](instance-type-family#user-content-3)
-* 内存优化型：[内存优化标准型](instance-type-family#user-content-4)、[内存优化增强型](instance-type-family#user-content-17)
-* 突发性能型：[突发性能型](instance-type-family#user-content-12)
-* 高频计算型：[高频计算通用型](instance-type-family#user-content-5)、[高频计算计算型]
-* 存储优化型：[存储优化IO型](instance-type-family#user-content-7)、[存储优化大数据型](instance-type-family#user-content-8)
+* 通用型：通用标准型
+* 计算优化型：计算优化标准型
+* 内存优化型：内存优化标准型、内存优化增强型
+* 突发性能型：突发性能型
+* 高频计算型：高频计算通用型、[高频计算计算型
+* 存储优化型：存储优化IO型、[存储优化大数据型
 ## x86规格：
 ## 通用型
 通用型当前提供通用共享型及通用标准型，为您提供均衡的计算及内存资源，可满足大部分业务场景下的需求。其中通用标准型中每一个vCPU都对应一个处理器的超线程核，其vCPU与内存比为1:4。
 
 ### 通用标准型
-
-<div id="user-content-2"></div>
 
 **规格类型特点:**
 
@@ -66,7 +64,6 @@
 |g.n2.2xlarge|8|32|4|4
 |g.n2.4xlarge|16|64|8|4
 
-<div id="user-content-13"></div>
 
 ### 计算优化标准型
 计算优化标准型可满足每一个vCPU都对应一个Intel Xeon处理器的超线程核，为您提供高性能的计算资源。
@@ -125,8 +122,6 @@
 ## 内存优化型
 内存优化型当前提供内存优化标准型和内存优化增强型，适用于存在大量内存操作、查找和计算的应用。每一个vCPU都对应一个Intel Xeon处理器的超线程核。
 
-<div id="user-content-4"></div>
-
 ### 内存优化标准型
 
 **规格类型特点：**
@@ -175,7 +170,6 @@
 |m.n2.8xlarge|32|256|8|4
 |m.n2.15xlarge|60|512|8|4
 
-<div id="user-content-17"></div>
 
 ### 内存优化增强型
 
@@ -249,8 +243,6 @@
 ## 高频计算型
 
 高频计算型当前提供高频计算通用型，为您提供高性能的计算资源。每一个vCPU都对应一个Intel Xeon处理器的超线程核。
-
-<div id="user-content-5"></div>
 
 ### 高频计算通用型
 
@@ -350,8 +342,6 @@
 
 存储优化型当前提供存储优化IO型及存储优化大数据型，为您提供高性能的本地存储资源。每一个vCPU都对应一个Intel Xeon处理器的超线程核。
 
-<div id="user-content-7"></div>
-
 ### 存储优化IO型
 
 **规格类型特点：**
@@ -395,8 +385,6 @@
 |s.i2.12xlarge|48|384|6 x 1600 NVMe SSD|8|4
 |s.i3.15xlarge|60|512|7 x 1600 NVMe SSD|8|4
 |s.i3.16xlarge|64|512|8 x 1600 NVMe SSD|8|4
-
-<div id="user-content-8"></div>
 
 ### 存储优化大数据型
 
