@@ -86,45 +86,19 @@ items:
           - name: 重启动到期实例
             href: Operation-Guide/Instance/Restart-Overdue-Instance.md
           - name: 突发性能型实例概述
-            href: Operation-Guide/Instance/Burst-Instance-Overview.md     
+            href: Operation-Guide/Instance/Burst-Instance-Overview.md
       - name: 镜像
         items:
           - name: 镜像概述
             href: Operation-Guide/Image/Image-Overview.md
           - name: 镜像类型
             href: Operation-Guide/Image/Image-Type.md
-          - name: 官方镜像系统组件
-            href: Operation-Guide/Image/Default-Agent-in-Public-Image.md            
-          - name: 官方镜像更新记录
-            href: Operation-Guide/Image/Public-Image-Update-Record.md 
           - name: 制作私有镜像
             href: Operation-Guide/Image/Create-Private-Image.md
-          - name: 镜像类型转换
-            href: Operation-Guide/Image/Convert-Image.md
-          - name: 复制镜像
-            href: Operation-Guide/Image/Copy-Image.md
-          - name: 导入镜像
-            items:
-              - name: 导入私有镜像
-                href: Operation-Guide/Image/Import-Private-Image.md
-              - name: 安装virtio驱动
-                href: Operation-Guide/Image/Install-Virtio-Driver.md
-              - name: 镜像自检工具
-                href: Operation-Guide/Image/Image-Check-Tool.md
-              - name: 转换镜像格式
-                href: Operation-Guide/Image/Convert-Image-File-Format.md
-              - name: ISO格式镜像转换
-                href: Operation-Guide/Image/Convert-Image-File-Format-From-ISO.md
-          - name: 导出镜像
-            href: Operation-Guide/Image/Export-Private-Image.md
-          - name: 共享私有镜像
-            href: Operation-Guide/Image/Share-Image.md
-          - name: 取消共享私有镜像
-            href: Operation-Guide/Image/Cancel-Share-Image.md
           - name: 删除私有镜像
             href: Operation-Guide/Image/Delete-Private-Image.md
           - name: 镜像FAQ
-            href: Operation-Guide/Image/Image-FAQ.md          
+            href: Operation-Guide/Image/Image-FAQ.md      
       - name: 存储
         items:
           - name: 存储概述
@@ -164,11 +138,7 @@ items:
           - name: 密钥概述
             href: Operation-Guide/Key-Pair/KeyPair-Overview.md
           - name: 创建密钥
-            href: Operation-Guide/Key-Pair/Create-Keypair.md
-          - name: 绑定密钥
-            href: Operation-Guide/Key-Pair/Bind-Keypair.md
-          - name: 解绑密钥
-            href: Operation-Guide/Key-Pair/Unbind-Keypair.md      
+            href: Operation-Guide/Key-Pair/Create-Keypair.md   
           - name: 删除密钥
             href: Operation-Guide/Key-Pair/Delete-Keypair.md
       - name: 合作安全组
