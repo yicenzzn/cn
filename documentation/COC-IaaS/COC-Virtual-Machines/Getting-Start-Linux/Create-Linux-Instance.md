@@ -78,21 +78,8 @@
 
 [实例规格](../Introduction/Instance-Type-Family.md)
 
-[设备名分配规则](../Operation-Guide/Storage/Assign-Device-Name.md)
-
-[云硬盘加密](../Operation-Guide/Storage/Encryption-of-Cloud-Disk.md)
-
-[云硬盘价格](http://docs.jdcloud.com/cn/cloud-disk-service/billing-rules)
-
 [私有网络](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)
 
 [子网](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)
 
 [创建安全组](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-configuration)
-
-[弹性公网IP价格](../../../Networking/Elastic-IP/Pricing/Price-Overview.md)
-
-[编辑标签](../Operation-Guide/Tag/Edit-Tag.md)
- 
-[SSH密钥](../Operation-Guide/Key-Pair/KeyPair-Overview.md)
-
