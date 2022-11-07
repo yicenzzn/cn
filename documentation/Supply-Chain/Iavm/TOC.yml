@@ -30,7 +30,7 @@ items:
       href: operation/Configure_domain.md 
     - name: 登录主机
       href: operation/login.md  
-    - name: 重装系统
+    - name: 重装系统 - 更换镜像
       href: operation/reinstall.md  
     - name: 备份数据
       href: operation/make.md  
