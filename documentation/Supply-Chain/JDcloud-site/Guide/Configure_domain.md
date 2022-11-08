@@ -15,8 +15,9 @@
 
 ![图片名称](https://img1.jcloudcs.com/image/docs/site-21.png)
 
-购买正式的建站服务1年及以上的版本提供授权码，如果您是试用版，请升级版本后获取授权码。
-![图片名称](https://img1.jcloudcs.com/image/docs/site-22.png)
+购买正式的建站服务1年及以上的版本提供授权码，一个站点可以申请一个授权码，如果您是试用版，请升级版本后获取授权码。
+访问域名的备案服务[申请授权码页面](https://record-console.jdcloud.com/authcode/apply)， 输入京美建站的站点id进行查询并进行申请。
+
 
 
 
