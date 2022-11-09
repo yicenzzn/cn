@@ -46,16 +46,16 @@ items:
 
 - name: 常见问题
   items:
-    - name: 商标顾问注册FAQ
-      href: FAQ/Trademark-Advisor.md
-    - name: 商标智能注册FAQ
-      href: FAQ/Trademark-Intelligence.md
-    - name: 商标甄选FAQ
-      href: FAQ/Trademark-Selection.md
-    - name: 风险监测服务类FAQ
-      href: FAQ/Risk-Monitoring.md
-    - name: 商标延展服务类FAQ
-      href: FAQ/Extended-Service.md  
+    - name: 商标顾问注册类问题
+      href: FAQ/Trademark-Advisor-FAQ.md
+    - name: 商标智能注册类问题
+      href: FAQ/Trademark-Intelligence-FAQ.md
+    - name: 商标甄选类问题
+      href: FAQ/Trademark-Selection-FAQ.md
+    - name: 风险监测服务类问题
+      href: FAQ/Risk-Monitoring-FAQ.md
+    - name: 商标延展服务类问题
+      href: FAQ/Extended-Service-FAQ.md  
 
      
      
