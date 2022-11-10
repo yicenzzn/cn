@@ -1,6 +1,6 @@
 # 为Java应用快速安装探针
 
-SGM提供一键接入方式为Java应用安装探针，安装成功后只需重启应用即可进入SGM开始监控。当应用重启时，探针会自动加载，该Java应用将自动接入SGM应用监控。
+SGM提供一键接入方式为Java应用安装探针，安装成功后只需重启应用即可开始监控。当应用重启时，探针会自动加载，该Java应用将自动接入SGM应用监控。
 
 ## 前提条件
 
@@ -13,7 +13,7 @@ SGM提供一键接入方式为Java应用安装探针，安装成功后只需重�
         - 建议使用1.8.X最新版本，最后一个免费版本为1.8.0_202。
     - JDK 11.0.0+
 
-- 申请ak、sk
+- 申请accessKeyId、secretAccessKey
 
 ## 操作步骤
 
@@ -21,53 +21,47 @@ SGM提供一键接入方式为Java应用安装探针，安装成功后只需重�
 1. 在{TOMCAT_HOME}/bin/setenv.sh文件中添加以下配置
 ```
 #!/bin/bash
+#应用名（必填）
 SGM_APP_NAME="${AppName}"
-SGM_PROBE_AK="${ak}"
-SGM_PROBE_SK="${sk}"
-SGM_PROBE_ZONE="${zone}"
-#存放sgm探针的本地目录,进程启动用户需要有写权限
+#accessKeyId（必填）
+SGM_PROBE_AK="${accessKeyId}"
+#secretAccessKey（必填）
+SGM_PROBE_SK="${secretAccessKey}"
+#存放sgm探针的本地目录,进程启动用户需要有写权限（选填）
 SGM_PROBE_BASEDIR="/export/servers/sgm-probe-java"
-#SGM服务地址
-SGM_SERVER_ADDRESS="${sgm_server_address}"
-#SGM探针包下载地址
-SGM_PROBE_DOWNLOAD="${sgm_probe_address}"
+#SGM探针包下载地址（不可修改）
+SGM_PROBE_DOWNLOAD="https://static-resources.s3.cn-north-1.jdcloud-oss.com/sgm/cloud"
 curl -s "$SGM_PROBE_DOWNLOAD/install.sh" -o /tmp/sgm_java.sh && source /tmp/sgm_java.sh
 export CATALINA_OPTS="$CATALINA_OPTS $SGM_OPTS"
 ```
 
 **说明**
 - 将`${AppName}`替换成您的应用名，应用名暂不支持中文。
-- 将`${ak}`替换成您的ak，`${sk}`换成您的sk。
-- 将`${zone}`替换成您应用所在的地域，华北:cn-north-1，华南:cn-south-1，华东:cn-east-2。
-- 将`${sgm_server_address}`替换成您应用所在地域的SGM服务地址，华北:http://sgm-cn-north-1.jdcloud.com，华南:http://sgm-cn-south-1.jdcloud.com，华东:http://sgm-cn-east-2.jdcloud.com。
-- 将`${sgm_probe_address}`替换成您应用所在地域的SGM针包下载地址，华北:https://static-resources.s3-internal.cn-north-1.jdcloud-oss.com/sgm/cloud，华南:https://static-resources-hn.s3.cn-south-1.jdcloud-oss.com/sgm/cloud，华东:https://static-resources-sh.s3.cn-east-2.jdcloud-oss.com/sgm/cloud。
+- 将`${accessKeyId}`替换成您的accessKeyId，`${secretAccessKey}`换成您的secretAccessKey。
 - 执行安装脚本后，该脚本会自动下载最新探针。
 
 2. 重启应用
 
 ### SpringBoot
-1. 请在启动脚本start.sh之前加入脚本
+1. 请在启动脚本start.sh最前面加入以下脚本
 ```
 #!/bin/bash
+#应用名（必填）
 SGM_APP_NAME="${AppName}"
-SGM_PROBE_AK="${ak}"
-SGM_PROBE_SK="${sk}"
-SGM_PROBE_ZONE="${zone}"
-#存放sgm探针的本地目录,进程启动用户需要有写权限
+#accessKeyId（必填）
+SGM_PROBE_AK="${accessKeyId}"
+#secretAccessKey（必填）
+SGM_PROBE_SK="${secretAccessKey}"
+#存放sgm探针的本地目录,进程启动用户需要有写权限（选填）
 SGM_PROBE_BASEDIR="/export/servers/sgm-probe-java"
-#SGM服务地址
-SGM_SERVER_ADDRESS="${sgm_server_address}"
-#SGM探针包下载地址
-SGM_PROBE_DOWNLOAD="${sgm_probe_address}"
+#SGM探针包下载地址（不可修改）
+SGM_PROBE_DOWNLOAD="https://static-resources.s3.cn-north-1.jdcloud-oss.com/sgm/cloud"
 curl -s "$SGM_PROBE_DOWNLOAD/install.sh" -o /tmp/sgm_java.sh && source /tmp/sgm_java.sh
 ```
 
 **说明**
 - 将`${AppName}`替换成您的应用名，应用名暂不支持中文。
-- 将`${ak}`替换成您的ak，`${sk}`换成您的sk。
-- 将`${zone}`替换成您应用所在的地域，华北:cn-north-1，华南:cn-south-1，华东:cn-east-2。
-- 将`${sgm_server_address}`替换成您应用所在地域的SGM服务地址，华北:http://sgm-cn-north-1.jdcloud.com，华南:http://sgm-cn-south-1.jdcloud.com，华东:http://sgm-cn-east-2.jdcloud.com。
-- 将`${sgm_probe_address}`替换成您应用所在地域的SGM针包下载地址，华北:https://static-resources.s3-internal.cn-north-1.jdcloud-oss.com/sgm/cloud，华南:https://static-resources-hn.s3.cn-south-1.jdcloud-oss.com/sgm/cloud，华东:https://static-resources-sh.s3.cn-east-2.jdcloud-oss.com/sgm/cloud。
+- 将`${accessKeyId}`替换成您的accessKeyId，`${secretAccessKey}`换成您的secretAccessKey。
 - 执行安装脚本后，该脚本会自动下载最新探针。
 
 2. 在应用启动命令中加入$SGM_OPTS, 例如: java $SGM_OPTS -jar /export/package/springboot-sample/lib/sample.jar
@@ -96,22 +90,18 @@ curl -s "$SGM_PROBE_DOWNLOAD/install.sh" -o /tmp/sgm_java.sh && source /tmp/sgm_
 
 ## 常见问题
 
-### 启动死锁
-如果应用使用的tomcat版本在8.0.0-8.0.31之间，请升级tomcat版本到8.0.32及以上 或者 降到tomcat 6，tomcat7，否则有几率会导致启动时死锁。
-默写带有自定义classloader的应用，可能会在自动发现监控阶段发生死锁，可以通过参数关闭自动发现功能
+### 接入后如何验证接入成功了？
+1. 首先，通过ps命令查看进程（ps -ef | grep 'sgm'），确认进程里有 -javaagent 关键字，如：-javaagent:/export/servers/sgm-probe-java/sgm-probe-5.4.0-ex/sgm-agent-5.4.0.jar
 
-### 启动脚本添加正确，但在sgm界面的应用列表看不到接入应用
-请确认启动日志中有类似"find app name"这样的日志，保证探针发现了应用名，如果有“can not find app name“这样的日志，代表没有探针没有发现应用名
+2. 其次，登陆SGM管理端页面，进入我的应用，可以看到刚才接入的应用，同时监控数大于0。
 
-### 无法监控dubbo类型的调用，其他类型的调用没问题
-不要引入了saf.jar，否则会造成dubbo框架不能加载Filter
+3. 最后在业务产生调用后，可以在应用监控->方法调用查询输入对应的应用名可以查到调用日志，则说明接入成功。
 
-### 不能自动发现监控，且调用链无法连接
-不要使用dom4j1.6.1以下的版本，不要依赖了pull-parser
-dom4j低版本有xml冲突，phoneix-hbase会强转线程池中runnable
+### 接入成功后为什么控制台上没有监控数据？
+1. 请确认您的应用是否发送调用请求，同时确认开发框架是否在SGM支持范围内。
 
-### 关于JDK8早期版本运行lambda异常crash问题
-升级JDK小版本到1.8.0_60以上
-
-### 关于使用了itext-asian的jar之后系统有时无法正常启动的问题
-请不要使用itext-asian的jar包
+2. 检查JDK版本。如果JDK版本在1.8.0_60以下，可能会出现无法安装Agent的情况，请您升级JDK版本，建议使用1.8.X最新版本，最后一个免费版本为1.8.0_202。 
+   
+3. SGM Agent日志会打印在控制台日志中（如console.log），请查看您的控制台日志是否有报错。
+   
+4. 如果SGM Agent日志中的报错无法自行解决，请将其保存为压缩文件，并联系客服。
