@@ -17,7 +17,7 @@
 
 4、购买链接
 
-[商标变更]：https://www.jdcloud.com/cn/pages/shangbiaoguanjia
+[商标变更](https://www.jdcloud.com/cn/pages/shangbiaoguanjia)
 
 ## 二、商标转让
 1、商标转让的介绍
