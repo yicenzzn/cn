@@ -15,7 +15,7 @@
 
 4、购买链接
 
-商标撤三申请：https://www.jdcloud.com/cn/pages/shangbiaoguanjia
+[京东云·商标管家](https://www.jdcloud.com/cn/pages/shangbiaoguanjia)
 
 ## 二、商标异议申请
 1、商标异议申请的介绍
