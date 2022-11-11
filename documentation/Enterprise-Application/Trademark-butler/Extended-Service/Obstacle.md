@@ -14,7 +14,7 @@
 
 - 化解注册障碍：通过撤三申请，解除被占用的商标资源化解自身注册障碍
 
-**4、商标撤三申请的购买链接**
+**购买链接**
 
  [京东云·商标管家](https://www.jdcloud.com/cn/pages/shangbiaoguanjia)
 
