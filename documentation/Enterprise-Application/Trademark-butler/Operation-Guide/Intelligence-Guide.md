@@ -30,9 +30,9 @@
 
  - 文字商标：是指商标由文字构成，或者在直观观察上可以看出是以文字为主体进行艺术设计而成商标。
 
-图例：
+  图例：
 
-![京东](https://static-ftcms.jd.com/p/files/6364f1749eabc0def83aa343.png)
+  ![京东](https://static-ftcms.jd.com/p/files/6364f1749eabc0def83aa343.png)
 
  - 图形商标：是指仅由图形构成的商标，在图形中不能有文字或者直观上可以辨识为文字的组成部分。
 
