@@ -35,7 +35,7 @@
 
 4、购买链接
 
-商标转让链接：https://www.jdcloud.com/cn/pages/shangbiaoguanjia
+[京东云·商标管家](https://www.jdcloud.com/cn/pages/shangbiaoguanjia)
 
 ## 三、商标续展
 1、商标续展的介绍
@@ -53,4 +53,4 @@
 
 4、购买链接
 
-商标续展链接：https://www.jdcloud.com/cn/pages/shangbiaoguanjia
+[京东云·商标管家](https://www.jdcloud.com/cn/pages/shangbiaoguanjia)
