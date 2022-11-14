@@ -26,17 +26,15 @@ HaaS 服务器提供以下规格类型：计算型、存储型、异构/GPU型�
 | :---------| :--------------|
 |规格 | 4U 机架式服务器|
 |处理器 | 2 颗第三代英特尔®至强®可扩展处理器，最多支持40核，最高频率3.6GHz，TDP 最高 270W |
-|内存 |32 个内存插槽，内存最大速度可达3200MT/s。支持 RDIMM 与 BPS / NVDIMM 内存. 内存保护支持 ECC,内存镜像,内存等级保护|
+|内存 |32 个内存插槽，支持 RDIMM、BPS 、NVDIMM 内存|
 |存储 |最大支持 46 个 3.5”SATA/SAS硬盘 + 2个 2.5”SATA/SAS/NVMeSSD|
 |存储  |最大支持 16 个 U.2 NVMe SSD|
 | I/O 扩展插槽 | 最大支持 13 个 PCle 4.0 槽位 |
-|网络 | 1 个 OCP3.0 模块 1Gb/s,10Gb/s,25Gb/s,40Gb/s,100Gb/s,200Gb/s ；支持标准 1Gb/10Gb/25Gb/40G/100Gb/200Gb 网卡|
+|网络 | 1 个 OCP3.0 网卡插槽|
 |接口 | 2 个后置 USB3.0 ，1 个前置USB3.0 + 1 个前置 USB2.0，1个前置VGA， 1个后置 VGA， 1 个 COM 口|
 |风扇 | 热插拔 N+1 冗余 8056 风扇|
 |电源 | 1 + 1 冗余白金电源,可支持高压直流及钛金级电源|
-|系统管理| 集成 1 个独立的 1000 Mbps 网络接口,专门用于 IPMI 的远程管理|
-|操作系统| Microsoft Windows Sever、Red Hat Enterprise Linux、SUSE Linux Enterprise Server、CentOS 等|
-|主机尺寸 |含挂耳: W(宽) 482 mm; H(高) 174.5 mm; D(深) 842.5 mm ；不含挂耳: W(宽) 447 mm; H(高) 174.5 mm; D(深) 837.3 mm|
+|主机尺寸 | 174.5 mm x 482 mm x 842.5 mm m|
 
 
 ## **J580G2 4U 异构/ GPU 型**
