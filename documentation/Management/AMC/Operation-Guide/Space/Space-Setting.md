@@ -10,16 +10,16 @@
     - 京东云
   - Access Key ID: 访问源平台需要的 Access Key
   - Access Key Secret: 访问源平台需要的 Access Key Secret
-  ![](../../../../../image/AMC/space-admin-1.png)
+  ![](../../../../../image/AMC/space-setting-1.png)
 
 3. 点击 “目标设置”后的修改图标，在弹窗中选择或输入以下信息
   - 目标平台，仅支持 “京东云”
-  ![](../../../../../image/AMC/space-admin-2.png)
+  ![](../../../../../image/AMC/space-setting-2.png)
 
 4. 可以根据业务需要，对空间设置标签。点击 ”业务标签“ 下的 ** 创建** 按钮，在弹窗中输入标签信息。
   - 点击 ** 添加标签** 可以新增一个标签
   - 点击 ** 删除** 可以删除一个标签
-  ![](../../../../../image/AMC/space-admin-3.png)
+  ![](../../../../../image/AMC/space-setting-3.png)
 
 > ** 备注**
 >  
