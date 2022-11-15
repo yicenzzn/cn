@@ -22,11 +22,11 @@ items:
       - name: 创建并设置空间
         href: Getting-Started/Create-Set-Space.md
       - name: 资源发现和导入
-        href: Getting-Started/Resources-Import.md        
+        href: Getting-Started/Resources-Probe-Import.md        
       - name: 创建应用并导入服务
         href: Getting-Started/Create-App-Import-Services.md
       - name: 工具集成
-        href: Getting-Started/Tool-Management.md
+        href: Getting-Started/Tool-Integration.md
   - name: 操作指南
     items:
       - name: 空间管理
