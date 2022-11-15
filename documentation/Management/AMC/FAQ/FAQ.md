@@ -28,3 +28,12 @@
   - Redis
 - Elasticsearch：可以通过 OSS 快照方式、Reindex 方式和 Logstash 方式，实现京东云 ES 间的数据迁移、自建/第三方 ES 迁移至京东云等场景。
 - OSS：提供在线迁移和离线迁移两种方式。
+
+#### OSS 迁移支持单个文件的最大大小是多少？
+支持的最大单文件大小为 19.5 TB。
+
+#### 文档上传支持单个文件的最大大小是多少？
+支持的最大单文件大小为 50 MB 。
+
+#### 文档上传支持哪些文件格式？
+支持 .pdf, .docx, .doc, .xlsx, .xls, .pptx, .ppt, .png, .svg, .vsdx, .vsd, .xmind
