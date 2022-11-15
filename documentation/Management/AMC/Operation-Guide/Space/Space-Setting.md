@@ -11,6 +11,10 @@
   - Access Key ID: 访问源平台需要的 Access Key
   - Access Key Secret: 访问源平台需要的 Access Key Secret
   
+  > **备注**
+  >  
+  > 迁移源平台和目标平台设置后，不能修改。  
+  
   ![](../../../../../image/AMC/space-setting-1.png)
 
 3. 点击 “目标设置”后的修改图标，在弹窗中选择或输入以下信息
@@ -24,6 +28,3 @@
   
   ![](../../../../../image/AMC/space-setting-3.png)
 
-> **备注**
->  
-> 迁移源平台和目标平台设置后，不能修改。
