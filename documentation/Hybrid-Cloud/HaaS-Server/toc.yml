@@ -28,8 +28,3 @@ items:
   items:
     - name: FAQ
       href: Operation-Guide/FAQ.md
-          
-- name: 历史发布
-  items:
-    - name: 文档历史发布
-      href: Related-Resources/Document-History.md
