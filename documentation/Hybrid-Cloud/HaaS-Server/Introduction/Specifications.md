@@ -17,7 +17,8 @@ HaaS 服务器提供以下规格类型：计算型、存储型、异构/GPU型�
 |电源      | 1+1 冗余电源，可选支持高低压直流的电源模块，及钛金级电源；通过 Busbar 获取机柜提供的 12VDC 供电||
 |尺寸      | 87 mm x 435 mm x 779.5 mm|
 
-
+更多详细规格，请参考产品手册：
+或者咨询销售人员。 [立即咨询] (https://jtk.jd.com/index.htm?entrance=154&source=web#/chat)
 
 ## **J460G2 4U 存储型**
 
@@ -36,6 +37,7 @@ HaaS 服务器提供以下规格类型：计算型、存储型、异构/GPU型�
 |电源 | 1 + 1 冗余白金电源,可支持高压直流及钛金级电源|
 |主机尺寸 | 174.5 mm x 482 mm x 842.5 mm m|
 
+更多详细规格，请咨询销售人员。 [立即咨询] (https://jtk.jd.com/index.htm?entrance=154&source=web#/chat)
 
 ## **J580G2 4U 异构/ GPU 型**
 | 型号      | 京东云 J580G2 |    
@@ -50,4 +52,4 @@ HaaS 服务器提供以下规格类型：计算型、存储型、异构/GPU型�
 |电源      | 2 + 2 冗余电源，可选支持高低压直流的电源模块 |
 |尺寸      | 174.8 mm x 447 mm x 950 mm|
 
-
+更多详细规格，请咨询销售人员。 [立即咨询] (https://jtk.jd.com/index.htm?entrance=154&source=web#/chat)
