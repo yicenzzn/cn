@@ -14,7 +14,7 @@ items:
       
 - name: 操作指南
   items:
-    - name: 操作手册
+    - name: 用户手册
       href: Operation-Guide/Operation-Guide.md
     - name: 京东云服务器J360 G2 用户手册-V1.0.pdf
       href: Operation-Guide/京东云服务器J360 G2 用户手册-V1.0.pdf
