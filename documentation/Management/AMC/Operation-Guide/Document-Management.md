@@ -13,6 +13,10 @@
   - 选择 
     - 上传文件：点击 **点击上传** ，上传本地磁盘中的文档。
     - 指定文档连接：输入文档的地址。
+  - 说明：
+    - 文件大小：不超过 50 MB
+    - 文件类型：支持 .pdf, .docx, .doc, .xlsx, .xls, .pptx, .ppt, .png, .svg, .vsdx, .vsd, .xmind 
+    
 3. 点击 **确定** ，完成文档上传。
   ![](../../../../image/AMC/resources-import.png)
 
