@@ -51,5 +51,4 @@ HaaS 服务器提供以下规格类型：计算型、存储型、异构/GPU型�
 |电源      | 2 + 2 冗余电源，可选支持高低压直流的电源模块 |
 |尺寸      | 174.8 mm x 447 mm x 950 mm|
 
-更多详细规格，请咨询销售人员。
-[立即咨询 ] (https://jtk.jd.com/index.htm?entrance=154&source=web#/chat)
+
