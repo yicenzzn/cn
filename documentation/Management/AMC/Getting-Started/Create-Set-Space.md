@@ -5,11 +5,11 @@
 ### 新建空间
 1. 进入 AMC 控制台，控制台会在当前页面显示已有的空间信息，点击 **新建空间**。
 
-  ![](../../../../../image/AMC/space-list.png)
+  ![](../../../../image/AMC/space-list.png)
 
 2. 在弹窗中输入 “空间名称 和 “空间描述”，然后点击 **确定** 。
 
-  ![](../../../../../image/AMC/create-space.png)
+  ![](../../../../image/AMC/create-space.png)
 
 
 ### 空间设置
@@ -26,15 +26,15 @@
   >  
   > 迁移源平台和目标平台设置后，不能修改。  
   
-  ![](../../../../../image/AMC/space-setting-1.png)
+  ![](../../../../image/AMC/space-setting-1.png)
 
 3. 点击 “目标设置”后的修改图标，在弹窗中选择或输入以下信息：
   - 目标平台，仅支持 “京东云”
   
-  ![](../../../../../image/AMC/space-setting-2.png)
+  ![](../../../../image/AMC/space-setting-2.png)
 
 4. 可以根据业务需要，对空间设置标签。点击 ”业务标签“ 下的 **创建** 按钮，在弹窗中输入标签信息。
   - 点击 **添加标签** 可以新增一个标签。
   - 点击 **删除** 可以删除一个标签。
   
-  ![](../../../../../image/AMC/space-setting-3.png)
+  ![](../../../../image/AMC/space-setting-3.png)
