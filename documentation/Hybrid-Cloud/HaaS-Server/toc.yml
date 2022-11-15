@@ -1,0 +1,35 @@
+name: HaaS 服务器
+href: 
+items:
+- name: 产品简介
+  items:
+    - name: HaaS 服务器概述
+      href: Introduction/Product-Overview.md
+    - name: 产品规格
+      href: Introduction/Specifications.md
+    - name: 产品优势
+      href: Introduction/Benefits.md
+    - name: 应用场景
+      href: Introduction/Application-Scenarios.md      
+      
+- name: 操作指南
+  items:
+    - name: 操作手册
+      href: Operation-Guide/Operation-Guide.md
+    - name: 
+      href: Operation-Guide/
+      
+- name: 产品定价
+  items:
+    - name: 产品定价
+      href: Operation-Guide/Pricing.md
+      
+- name: FAQ
+  items:
+    - name: FAQ
+      href: Operation-Guide/FAQ.md
+          
+- name: 历史发布
+  items:
+    - name: 文档历史发布
+      href: Related-Resources/Document-History.md
