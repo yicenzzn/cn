@@ -15,16 +15,16 @@ items:
 - name: 操作指南
   items:
     - name: 用户手册
-      href: Operation-Guide/Operation-Guide.md
+      href: Operation-Guide/User-guide.md
     - name: 京东云服务器J360 G2 用户手册-V1.0.pdf
       href: Operation-Guide/京东云服务器J360 G2 用户手册-V1.0.pdf
       
 - name: 产品定价
   items:
     - name: 计费概述
-      href: Operation-Guide/Pricing.md
+      href: Pricing/Billing-Overview.md
       
 - name: FAQ
   items:
     - name: FAQ
-      href: Operation-Guide/FAQ.md
+      href: FAQ/FAQ.md
