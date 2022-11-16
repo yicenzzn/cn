@@ -82,7 +82,7 @@ items:
     - name: 场景六：应用调用来源统计
       href: Best-Practices/Best-Practices6.md
     - name: 场景七：应用容量评估及性能优化指导
-      href: Best-Practices/Best-Practices7.md
+      href: Best-Practices/Best-practices7.md
     - name: 场景八：海量接口的告警配置方案
       href: Best-Practices/Best-Practices8.md
     - name: 场景九：应用性能对比
