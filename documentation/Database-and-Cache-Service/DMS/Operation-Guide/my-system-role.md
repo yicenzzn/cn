@@ -4,7 +4,7 @@
 
 ## 注意事项
 
-修改系统角色需要联系管理员修改。具体步骤请参照[用户管理](./Operation-Guide/user-management.md)
+修改系统角色需要联系管理员修改。具体步骤请参照[用户管理](./user-management.md)
 
 ### 查看我的系统角色
 
