@@ -1,6 +1,6 @@
 # 容量水位导出
 
-为了方便统计，可以导出应用在指定时间区间内的容量水位等数据。![](../../image/Operation-Guide/Capacity-Assess/Capacity-Water-line1.png)
+为了方便统计，可以导出应用在指定时间区间内的容量水位等数据。![](../../image/Operation-Guide/Capacity-Detail/Capacity-Water-line1.png)
 
 此导出功能为异步操作，系统后台执行导出操作后，会以邮件形式发送；应用过多时会以多封邮件或者多个附件的形式发送。
 
@@ -20,4 +20,4 @@ l 导出类型：
 
 导出内容以excel作为附件，包含应用名、水位、容量、TPH、TPS、AVG、主机数、实例数、主机核心数、负责人等信息，如下图所示：
 
-![](../../image/Operation-Guide/Capacity-Assess/Capacity-Water-line2.png)
+![](../../image/Operation-Guide/Capacity-Detail/Capacity-Water-line2.png)

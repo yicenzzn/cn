@@ -26,21 +26,21 @@ items:
 - name: 操作指南
   items:
     - name: 首页
-      href: Operation-Guide/Home.md
+      href: Operation-Guide/Home/Home.md
     - name: 我的应用
-      href: Operation-Guide/Applications.md
+      href: Operation-Guide/Applications/Applications.md
     - name: 应用监控
       items:
         - name: 方法调用查询
           href: Operation-Guide/App-Monitor/Log-Search.md
         - name: 性能监控图表
-          href: Operation-Guide/App-Monitor/Log-Chart.md
+          href: Operation-Guide/App-Monitor/Chart.md
         - name: 方法性能分布
           href: Operation-Guide/App-Monitor/Method-Performance.md
         - name: 主机性能分布
           href: Operation-Guide/App-Monitor/Host-Performance.md
         - name: 进程实例监控
-          href: Operation-Guide/App-Monitor/Instance-Performance.md
+          href: Operation-Guide/App-Monitor/Instance-Monitoring.md
         - name: 代码执行效率
           href: Operation-Guide/App-Monitor/Code-Tracing.md
         - name: 监控方法配置
@@ -54,7 +54,7 @@ items:
         - name: 调用拓扑
           href: Operation-Guide/App-Monitor/Calling-Topology.md        
     - name: 告警配置
-      href: Operation-Guide/Method-Alarm.md
+      href: Operation-Guide/Alarm/Method-Alarm.md
     - name: 智能评估
       items:
         - name: 容量计算明细
