@@ -63,6 +63,13 @@ items:
       href: Operation-Guide/AdvancedConfiguration.md
     - name: 监控报警
       href: Operation-Guide/Monitoring.md
+- name: 最佳实践
+  items:
+    - name: 迁移上云
+      href: Best-Practice/Migration-plan.md
+    - name: 性能测试
+      href: Best-Practice/Performance-Test.md
 - name: 常见问题
   href: FAQ/FAQ.md
+
 
