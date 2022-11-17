@@ -1,0 +1,37 @@
+name: 京东会议
+href:
+items:
+- name: 产品简介
+  items:
+    - name: 产品概述
+      href: Introduction/Product-Overview.md
+    - name: 核心概念
+      href: Introduction/Core-Concepts.md
+    - name: 产品优势
+      href: Introduction/Benefits.md
+    - name: 产品功能
+      href: Introduction/Features.md
+    - name: 应用场景 
+      href: Introduction/Application-Scenarios.md    
+- name: 入门指南
+  items:
+    - name: 入门指南概述
+      href: Getting-Started/Overview.md  
+- name: 操作指南
+  items:
+    - name: 开始会议
+      href: Operation-Guide/Start.md
+    - name: 加入会议
+      href: Operation-Guide/Join.md
+    - name: 邀请成员
+      href: Operation-Guide/Invite.md
+    - name: 会议与控制管理
+      href: Operation-Guide/Control.md
+    - name: 协作与互动
+      href: Operation-Guide/Cooperate.md
+- name: 常见问题
+  href: FAQ/FAQ.md
+- name: 相关资源
+  items:
+    - name: 文档历史记录
+      href: Related-Resources/Document-History.md
