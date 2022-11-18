@@ -235,16 +235,80 @@ b. 锁紧两颗自带螺钉固定 PCIe 模组。
 步骤 1. 安装转接卡。
 a.	将转接卡螺钉孔和葫芦孔与 PCIe 支架上的螺钉孔和立柱对齐，向左滑动。
 b.	拧紧两颗螺钉，将转接卡固定在 PCIe 支架上。
+![image](https://user-images.githubusercontent.com/117898035/202676618-39c59543-1694-48e4-8859-ea94b6eb98a5.png)
+步骤 2. 将线缆连接到转接卡上。
+步骤 3. 安装 PCIe 适配器：解锁 PCIe 支架上的螺丝，旋转打开 latch ,将 PCIe 适配器对齐转接卡上的插槽，然后轻轻地按压 PCIe 适配器的两端，直到适配器在插槽上牢固就位,最后旋回 latch，紧锁螺丝固定。
+![image](https://user-images.githubusercontent.com/117898035/202676656-474e611a-ebef-4399-92e9-8de9b56ba2c4.png)
+步骤 4. 安装 PCIe 模组。
+a.	将装有 PCIe 适配器的支架上的销钉和孔与机箱上的孔和销钉对齐，并向下放置。
+b.	锁紧一颗螺钉固定 PCIe 模组。
+![image](https://user-images.githubusercontent.com/117898035/202676699-de3cee41-696a-4969-865f-64bbb81dfc0f.png)
 
   - 安装后置 PCIe 模组	
+步骤
+步骤 1. 组装 PCIe 模组。
+a.	将转接卡螺钉孔和葫芦孔与 PCIe 支架上的螺钉孔和立柱对齐，向左滑动。
+b.	拧紧两颗螺钉，将转接卡固定在 PCIe 支架上后，将线缆连接到转接卡上。
+![image](https://user-images.githubusercontent.com/117898035/202676754-73cb29b4-ccb5-4f65-a235-ffbacc441ebd.png)
+c.	将 PCIe 适配器对齐转接卡上的插槽，然后轻轻地按压 PCIe 适配器的两端，直到适配器在插槽上牢固就位。
+![image](https://user-images.githubusercontent.com/117898035/202676787-2633f23d-60a0-4d66-ba86-1af3a312680b.png)
+步骤 2. 安装系统风扇。
+a.	将系统风扇插到 OCP 支架的风扇仓内。
+b.	按压铆钉固定风扇。
+![image](https://user-images.githubusercontent.com/117898035/202676869-7cae8e47-bab1-408f-bf11-2c583d2f1d8f.png)
+步骤 3. 将装有 PCIe 适配器的支架向下插入到 OCP 支架上，组成 PCIe 模组。
+![image](https://user-images.githubusercontent.com/117898035/202676899-f9abc1eb-694e-478b-8eab-3e0be9259da1.png)
+
+步骤 4. 安装后置 PCIe 模组。
+a.	把后置 PCIe 模组插入硬盘仓，并向机箱正面推动。
+b.	锁紧一颗螺钉固定后置 PCIe 模组。
+![image](https://user-images.githubusercontent.com/117898035/202676933-1019e76f-8c47-44ba-afe3-975854aec1b6.png)
+
 
 - #### 卸下导风罩	
+![image](https://user-images.githubusercontent.com/117898035/202676958-5826dee1-d975-43bc-b78c-646df991f07c.png)
+为充分散热，请不要在未安装主机上盖、导风罩、风扇的情况下运行服务器。如果服务器支持热插拔组件，请最大限度地减少打开主机上盖的时间。
+
+1.	关闭服务器电源。
+2.	将服务器从机架中取出。
+3.	卸下主机上盖。
+4.	卸下导风罩。
+![image](https://user-images.githubusercontent.com/117898035/202677039-e91d4c02-0ec4-4954-9848-c4e04b2fd06c.png)
+（可选）如果服务器配置后置 IO,则服务器安装了后置导风罩。向上提起后置导风罩取出即可。
+![image](https://user-images.githubusercontent.com/117898035/202677373-d24da1f0-8bfe-44f7-8135-4989a443dcf8.png)
+
 
 - #### 安装导风罩	
+![image](https://user-images.githubusercontent.com/117898035/202677397-2ecbad38-3a1c-482d-b1b4-65f8367dc375.png)
+为避免损坏服务器组件，请勿用力安装导风罩。
+确保所有DIMM闩锁都已锁定，以免损坏组件。
+1.	关闭服务器电源。
+2.	将服务器从机架中取出。
+3.	卸下主机上盖。
+4.	安装导风罩。
+5.	安装主机上盖。
+6.	将服务器安装到机架中。
+7.	接通服务器电源。
+![image](https://user-images.githubusercontent.com/117898035/202677457-7ef8c3c9-805d-4f8b-828c-9cdd9b80ff6c.png)
+
+（可选）后置IO配置时，需要安装后置导风罩。将导风罩两侧的卡槽与机箱对齐，向下放入服务器并按压导风罩，直至其牢固就位。
+![image](https://user-images.githubusercontent.com/117898035/202677483-47e64476-2700-4cc1-b952-25cba891e190.png)
 
 - #### 移除风扇模组	
+![image](https://user-images.githubusercontent.com/117898035/202677508-061171e3-dbfe-4f9e-9374-4cf871b7c164.png)
+操作时务必佩戴劳保手套，避免双手被设备上的尖锐部分划伤。
+1.	确定需要拆卸的风扇模块。
+2.	按压风扇模块一侧把手，将风扇模块水平拉出。
+![image](https://user-images.githubusercontent.com/117898035/202677547-ba9a0e5f-9609-48eb-9faf-c878d00a1dc0.png)
+
 
 - #### 安装风扇模组	
+![image](https://user-images.githubusercontent.com/117898035/202677571-a262ace6-8c0e-41cf-83b8-bc684c3f8a17.png)
+操作时务必佩戴劳保手套，避免双手被设备上的尖锐部分划伤。
 
-
+1.	确定风扇模块的安装槽位。
+2.	确定风扇的安装方向。
+3.	沿水平方向将风扇模块插入机箱中，直到机箱扣紧风扇模块为止。
+4.	重复2～3步骤安装其余的风扇模块。
+![image](https://user-images.githubusercontent.com/117898035/202677631-cd6154ac-8f1c-4bce-9e20-eb5cd7821c90.png)
 
