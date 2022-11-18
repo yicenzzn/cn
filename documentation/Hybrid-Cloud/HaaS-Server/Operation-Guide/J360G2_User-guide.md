@@ -292,24 +292,24 @@
       ![image](https://user-images.githubusercontent.com/117898035/202676933-1019e76f-8c47-44ba-afe3-975854aec1b6.png)
 
 #### 卸下导风罩
-
-    ![image](https://user-images.githubusercontent.com/117898035/202690907-6f19342b-4bb3-429f-8d9b-1472bb0b8052.png)
-
+      ![image](https://user-images.githubusercontent.com/117898035/202690907-6f19342b-4bb3-429f-8d9b-1472bb0b8052.png)
   为充分散热，请不要在未安装主机上盖、导风罩、风扇的情况下运行服务器。如果服务器支持热插拔组件，请最大限度地减少打开主机上盖的时间。
-
+  
    - 关闭服务器电源。
    - 将服务器从机架中取出。
    - 卸下主机上盖。
    - 卸下导风罩。
  
-   ![image](https://user-images.githubusercontent.com/117898035/202677039-e91d4c02-0ec4-4954-9848-c4e04b2fd06c.png)
+     ![image](https://user-images.githubusercontent.com/117898035/202677039-e91d4c02-0ec4-4954-9848-c4e04b2fd06c.png)
    
  （可选）如果服务器配置后置 IO,则服务器安装了后置导风罩。向上提起后置导风罩取出即可。
  
-  ![image](https://user-images.githubusercontent.com/117898035/202677373-d24da1f0-8bfe-44f7-8135-4989a443dcf8.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202677373-d24da1f0-8bfe-44f7-8135-4989a443dcf8.png)
 
 #### 安装导风罩	
-  ![image](https://user-images.githubusercontent.com/117898035/202677397-2ecbad38-3a1c-482d-b1b4-65f8367dc375.png)
+
+    ![image](https://user-images.githubusercontent.com/117898035/202677397-2ecbad38-3a1c-482d-b1b4-65f8367dc375.png)
+  
   为避免损坏服务器组件，请勿用力安装导风罩。确保所有DIMM闩锁都已锁定，以免损坏组件。
   
   - 关闭服务器电源。
@@ -320,15 +320,15 @@
   - 将服务器安装到机架中。
   - 接通服务器电源。
  
-  ![image](https://user-images.githubusercontent.com/117898035/202677457-7ef8c3c9-805d-4f8b-828c-9cdd9b80ff6c.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202677457-7ef8c3c9-805d-4f8b-828c-9cdd9b80ff6c.png)
 
   （可选）后置IO配置时，需要安装后置导风罩。将导风罩两侧的卡槽与机箱对齐，向下放入服务器并按压导风罩，直至其牢固就位。
   
-  ![image](https://user-images.githubusercontent.com/117898035/202677483-47e64476-2700-4cc1-b952-25cba891e190.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202677483-47e64476-2700-4cc1-b952-25cba891e190.png)
 
 #### 移除风扇模组
 
-  ![image](https://user-images.githubusercontent.com/117898035/202677508-061171e3-dbfe-4f9e-9374-4cf871b7c164.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202677508-061171e3-dbfe-4f9e-9374-4cf871b7c164.png)
   
   操作时务必佩戴劳保手套，避免双手被设备上的尖锐部分划伤。
   
@@ -338,7 +338,7 @@
     ![image](https://user-images.githubusercontent.com/117898035/202677547-ba9a0e5f-9609-48eb-9faf-c878d00a1dc0.png)
 
 #### 安装风扇模组	
-  ![image](https://user-images.githubusercontent.com/117898035/202677571-a262ace6-8c0e-41cf-83b8-bc684c3f8a17.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202677571-a262ace6-8c0e-41cf-83b8-bc684c3f8a17.png)
   
   操作时务必佩戴劳保手套，避免双手被设备上的尖锐部分划伤。
 
@@ -347,7 +347,7 @@
    - 沿水平方向将风扇模块插入机箱中，直到机箱扣紧风扇模块为止。
    - 重复2～3步骤安装其余的风扇模块。
   
-   ![image](https://user-images.githubusercontent.com/117898035/202677631-cd6154ac-8f1c-4bce-9e20-eb5cd7821c90.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202677631-cd6154ac-8f1c-4bce-9e20-eb5cd7821c90.png)
 
 ## **声明**
 
