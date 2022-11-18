@@ -8,7 +8,7 @@ items:
     - name: 产品规格
       href: Introduction/Specifications.md
     - name: J360G2
-      href: Introduction/J360G2.md.md  
+      href: Introduction/J360G2.md 
     - name: J460G2
       href: Introduction/J460G2.md  
     - name: J580G2
