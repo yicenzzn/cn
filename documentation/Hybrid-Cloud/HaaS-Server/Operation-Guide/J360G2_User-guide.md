@@ -122,7 +122,9 @@
     ![image](https://user-images.githubusercontent.com/117898035/202666307-78326a80-9b54-49ea-a71f-e751b9e7c4e7.png)
 
 #### 硬盘指示灯	
+
    ![image](https://user-images.githubusercontent.com/117898035/202689372-f4b16a2c-d208-4ce6-8f73-32af4d7efd0f.png)
+   
    ![image](https://user-images.githubusercontent.com/117898035/202689411-540657f6-eb95-4b40-97df-d8640dc2f921.png)
 
 ###  4、服务器操作	
@@ -154,6 +156,7 @@
  紧急关闭：所有应用程序和文件将关闭，不储存更改，文件系统可能损坏。
 
 #### 将服务器从机架中拉出	
+
 ![image](https://user-images.githubusercontent.com/117898035/202671817-1a125489-240e-49d0-985c-857bbd7afdf2.png)
 
  为减少人身伤害或设备损坏的危险，将组件从机架中拉出之前应保证机架足够稳固。
@@ -192,12 +195,12 @@
   - 使用螺丝刀拧紧机盖锁定器上的安全保护螺钉。
   ![image](https://user-images.githubusercontent.com/117898035/202672664-6501236f-bc7e-480a-8121-93cdd9a4641c.png)
 
-#### 卸下PCIe Riser卡笼	
+#### 卸下 PCIe Riser 卡笼	
   ![image](https://user-images.githubusercontent.com/117898035/202672689-7923c657-4f87-48bf-975b-4c91c8e98518.png)
 
   为了避免损坏服务器或扩展卡，在拆卸或安装PCIe Riser卡笼之前，应关闭服务器电源并拔出所有交流电源插头。
 
-  按以下信息卸下 PCIe Riser 卡笼。本过程以前置 PCIe Riser 卡笼为例，其他PCIe Riser 卡笼拆卸方法与此相似。
+  按以下信息卸下 PCIe Riser 卡笼。本过程以前置 PCIe Riser 卡笼为例，其他 PCIe Riser 卡笼拆卸方法与此相似。
   **步骤**
   - 步骤 1. 解锁前 IO 模块与机箱相连的螺丝，向机箱外抽出前IO 模块。
 
@@ -212,13 +215,13 @@
    ![image](https://user-images.githubusercontent.com/117898035/202672834-693d14b7-9f9e-4b10-861a-e75511e92aad.png)
 
 
-#### 安装PCIE Riser卡笼	
+#### 安装 PCIE Riser 卡笼	
 
 - **安装前置 PCIe 模组**
   
   **步骤**
     - 步骤 1. 组装PCIe模组。
-      a. 将转接卡螺钉孔和葫芦孔与 PCIe 支架上的螺钉孔和立柱对齐，向左滑动。
+      a.将转接卡螺钉孔和葫芦孔与 PCIe 支架上的螺钉孔和立柱对齐，向左滑动。
       b.拧紧两颗螺钉，将转接卡固定在 PCIe 支架上。
 
       ![image](https://user-images.githubusercontent.com/117898035/202672937-6f91aa7c-03de-48f8-add9-40b515cfd03a.png)
@@ -284,9 +287,10 @@
         
       ![image](https://user-images.githubusercontent.com/117898035/202676933-1019e76f-8c47-44ba-afe3-975854aec1b6.png)
 
-#### 卸下导风罩	
+#### 卸下导风罩
 
     ![image](https://user-images.githubusercontent.com/117898035/202676958-5826dee1-d975-43bc-b78c-646df991f07c.png)
+    
   为充分散热，请不要在未安装主机上盖、导风罩、风扇的情况下运行服务器。如果服务器支持热插拔组件，请最大限度地减少打开主机上盖的时间。
 
    - 关闭服务器电源。
@@ -303,6 +307,7 @@
 #### 安装导风罩	
 
   ![image](https://user-images.githubusercontent.com/117898035/202677397-2ecbad38-3a1c-482d-b1b4-65f8367dc375.png)
+  
   为避免损坏服务器组件，请勿用力安装导风罩。确保所有DIMM闩锁都已锁定，以免损坏组件。
   
   - 关闭服务器电源。
