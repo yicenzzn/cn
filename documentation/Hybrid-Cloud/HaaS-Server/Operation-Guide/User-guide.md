@@ -4,5 +4,5 @@ HaaS 服务器提供以下规格类型：计算型、存储型、异构/GPU型�
 
 ## **计算型**
 - J360G2  
-  [J360G2-User-guide.md](https://github.com/jdcloudcom/cn/blob/cn-haas-server/documentation/Hybrid-Cloud/HaaS-Server/Operation-Guide/J360G2-User-guide.md)
+  [J360G2 用户手册](J360G2-User-guide.md)
 
