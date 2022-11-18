@@ -42,12 +42,12 @@
         - 注意：弹性公网IP的保留信息仅统计主网卡上绑定的弹性公网IP在云主机删除后的剩余数量，辅助网卡剩余弹性IP数量不做统计。
   - 在“**删除明细**”步骤中，确认信息后点击**确定**提交删除。
 
-![sdsd](../../../../../image/Elastic-Compute/Virtual-Machine/wbh2.png)
+![sdsd](../../../../../image/Elastic-Compute/Virtual-Machine/wbh5.png)
 
 之后实例将进入**删除中**状态，请您耐心等待删除完成。
 - 批量操作：点击列表下方**更多-删除**按钮。
 - 批量操作不再分为**删除提示**和**删除明细**两步，点击**确定**即可提交删除。
-![sdsd](../../../../../image/Elastic-Compute/Virtual-Machine/wbh5.png)
+![sdsd](../../../../../image/Elastic-Compute/Virtual-Machine/wbh6.png)
 ## 相关参考
 
 [停止实例](Stop-Instance.md)
