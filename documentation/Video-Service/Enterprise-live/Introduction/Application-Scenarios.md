@@ -3,7 +3,7 @@
 企业直播（JD Corporate Live Streaming）是依托京东云在音视频编解码、信道传输、网络调度等核心技术，根据业务的不同直播场景需求，为企业提供一站式互动视频解决方案，及直播全场景服务；
 
 
-## 音视频互动直播  
+## 企业直播  
 
 
 
@@ -13,9 +13,9 @@
 
 ![企业咚咚20201228141302.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E8%BF%9C%E7%A8%8B%E6%A3%80%E4%BF%AE.png)
 
-### 在线金融
+### 企业培训
 
-全链路安全端到端加密，全球最佳安全和隐私保护； 实时云端双录，保障业务合规性； 通话时延低于200ms，抗丢包率超过70%，抗网络抖动超过1000ms，弱网环境下依然保证通话流畅稳定。
+针对不同企业培训使用场景，企业区分级别观看指定内容，避免有价值信息泄露，打造智能更适用企业培训场景的直播平台
 
 ![在线教育.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%9C%A8%E7%BA%BF%E9%87%91%E8%9E%8D.png)
 
