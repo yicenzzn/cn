@@ -84,10 +84,8 @@
 #### 前控板按键与指示灯	
 
     前控板按键与指示灯
-    
-    ![image](https://user-images.githubusercontent.com/117898035/202689015-7da8fe8e-f49d-4a7b-bfd2-2c14e9861fe1.png)
-    
-    ![image](https://user-images.githubusercontent.com/117898035/202689060-7d18f91e-906c-46dc-821c-9ccad1b5004c.png)
+![image](https://user-images.githubusercontent.com/117898035/202689015-7da8fe8e-f49d-4a7b-bfd2-2c14e9861fe1.png)
+![image](https://user-images.githubusercontent.com/117898035/202689060-7d18f91e-906c-46dc-821c-9ccad1b5004c.png)
 
 #### 后面板	
 - **标准电源服务器（前 I/O）**
@@ -297,10 +295,10 @@
 
   为充分散热，请不要在未安装主机上盖、导风罩、风扇的情况下运行服务器。如果服务器支持热插拔组件，请最大限度地减少打开主机上盖的时间。
   
-   - 关闭服务器电源。
-   - 将服务器从机架中取出。
-   - 卸下主机上盖。
-   - 卸下导风罩。
+  - 关闭服务器电源。
+  - 将服务器从机架中取出。
+  - 卸下主机上盖。
+  - 卸下导风罩。
  
 ![image](https://user-images.githubusercontent.com/117898035/202677039-e91d4c02-0ec4-4954-9848-c4e04b2fd06c.png)
    
@@ -334,8 +332,8 @@
   
   操作时务必佩戴劳保手套，避免双手被设备上的尖锐部分划伤。
   
-    -	确定需要拆卸的风扇模块。
-    -	按压风扇模块一侧把手，将风扇模块水平拉出。
+  - 确定需要拆卸的风扇模块。
+  - 按压风扇模块一侧把手，将风扇模块水平拉出。
     
 ![image](https://user-images.githubusercontent.com/117898035/202677547-ba9a0e5f-9609-48eb-9faf-c878d00a1dc0.png)
 
@@ -344,11 +342,10 @@
 ![image](https://user-images.githubusercontent.com/117898035/202677571-a262ace6-8c0e-41cf-83b8-bc684c3f8a17.png)
   
   操作时务必佩戴劳保手套，避免双手被设备上的尖锐部分划伤。
-
-   - 确定风扇模块的安装槽位。
-   - 确定风扇的安装方向。
-   - 沿水平方向将风扇模块插入机箱中，直到机箱扣紧风扇模块为止。
-   - 重复2～3步骤安装其余的风扇模块。
+  - 确定风扇模块的安装槽位。
+  - 确定风扇的安装方向。
+  - 沿水平方向将风扇模块插入机箱中，直到机箱扣紧风扇模块为止。
+  - 重复2～3步骤安装其余的风扇模块。
   
  ![image](https://user-images.githubusercontent.com/117898035/202677631-cd6154ac-8f1c-4bce-9e20-eb5cd7821c90.png)
 
