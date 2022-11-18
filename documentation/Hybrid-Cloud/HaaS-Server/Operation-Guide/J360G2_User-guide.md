@@ -1,4 +1,24 @@
 # **京东云服务器J360 G2 用户手册**
 
-## **前言** 
-[J360G2-User-guide-preface.md](https://github.com/jdcloudcom/cn/blob/cn-haas-server/documentation/Hybrid-Cloud/HaaS-Server/Operation-Guide/J360G2-User-guide-preface.md)
+**前言** 
+**摘要**
+本手册介绍本服务器的规格信息、硬件操作、服务条款、故障诊断等与维护工作密切相关的内容。
+
+**目标受众**
+
+本手册主要适用于以下人员：
+- 技术支持工程师
+- 产品维护工程师
+建议由具备服务器知识的专业工程师参考本手册进行服务器运维操作。
+
+**符号约定**
+
+在本文中可能出现下列标志，它们所代表的含义如下。
+
+![image](https://user-images.githubusercontent.com/117898035/202653027-28a1827f-bc45-4c24-a614-93eaf6db4609.png)
+
+**变更记录**
+|版本 |时间 |变更内容 |
+|:----|:----|:----|
+|V1.0| 2022-11-14|首版发布|
+ 
