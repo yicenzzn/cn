@@ -309,9 +309,7 @@
   ![image](https://user-images.githubusercontent.com/117898035/202677373-d24da1f0-8bfe-44f7-8135-4989a443dcf8.png)
 
 #### 安装导风罩	
-
   ![image](https://user-images.githubusercontent.com/117898035/202677397-2ecbad38-3a1c-482d-b1b4-65f8367dc375.png)
-  
   为避免损坏服务器组件，请勿用力安装导风罩。确保所有DIMM闩锁都已锁定，以免损坏组件。
   
   - 关闭服务器电源。
