@@ -25,7 +25,7 @@
 |V1.0| 2022-11-14|首版发布|
  
 ## **正文**
-### 整机柜介绍	
+### 1、整机柜介绍	
 - #### 简介	
     京东云整机柜是京东云首款全自主研发、低成本、高可靠42U机架式整机柜服务器，采用了标准的19英寸设计，完全融合标准服务器的尺寸，对数据中心环境适配要求更低，极大降低了用户使用门槛。京东 云结合用户的需求及痛点，采用自主创新弹性模块化架构设计，用户可以以搭积木的方式，实现按需定制，快速安装，轻松维护。
     
@@ -46,7 +46,7 @@
   ![image](https://user-images.githubusercontent.com/117898035/202660893-29081355-7230-449f-aa44-58cd01c86157.png)
   ![image](https://user-images.githubusercontent.com/117898035/202660960-520a2009-5d65-453c-a6f9-e4efd260f8ca.png) 
 
-### 服务器介绍	
+### 2、服务器介绍	
 - #### 简介
     第二代京东云服务器的设计理念源于京东自有大规模云数据中心的建设和运营经验，基于全新一代英特尔®至强®可扩展处理器设计的一款高端双路机架式服务器。J360 G2是继第一代服务器“微定制”之后，基于内部多样化海量业务需求，以及京东云各行业客户需求，自主研发与深度创新的新一代云服务器基础架构。通过系统架构设计创新、核心部件创新，实现了高效、灵活、高性价比的目标。
 - #### 服务器前视图及后视图	
@@ -60,10 +60,10 @@
 - #### 服务器俯视图	
    ![image](https://user-images.githubusercontent.com/117898035/202661698-306d4950-759d-43cc-aeee-be5dae235dc0.png)
 
-### 组件识别	
+### 3、组件识别	
 
 - #### 前面板	
-    -	9LFF硬盘机型（前IO）	
+    - 9LFF硬盘机型（前IO）	
    ![image](https://user-images.githubusercontent.com/117898035/202661853-f56bf797-0622-47e8-9714-d653ffe0d0d2.png)
    ![image](https://user-images.githubusercontent.com/117898035/202661895-a5981a79-f6a4-472d-a2c7-3d4b53800584.png) 
 
@@ -84,10 +84,9 @@
     ![image](https://user-images.githubusercontent.com/117898035/202663571-777fc3a9-c05c-4846-b0e5-6cf28f8e9c24.png)
 
 - #### 后面板	
-   	-  标准电源服务器（前IO）
-   	![image](https://user-images.githubusercontent.com/117898035/202663794-9b254709-c00f-4ea1-a6a5-717687b80f98.png)
+    - 标准电源服务器（前IO）
+    ![image](https://user-images.githubusercontent.com/117898035/202663794-9b254709-c00f-4ea1-a6a5-717687b80f98.png)
     ![image](https://user-images.githubusercontent.com/117898035/202663835-c8dd9f4a-1f85-415c-abaa-1d7e99bbdbe2.png)
-
 
     - 标准电源服务器（后IO）	
     ![image](https://user-images.githubusercontent.com/117898035/202663853-8787ce41-f5ee-44b9-bd13-89c52f1938fa.png)
@@ -97,58 +96,76 @@
     ![image](https://user-images.githubusercontent.com/117898035/202663919-15b5d60d-beaf-46e2-bd8d-67098593add7.png)
     ![image](https://user-images.githubusercontent.com/117898035/202663951-7cf93c0b-8461-4039-ba1d-9c5933f2732b.png)
 
-### 主板布局	
-- ####	前IO机型主板	
-  ![image](https://user-images.githubusercontent.com/117898035/202665358-dedd866a-a9a5-42e9-bb5f-9c1aee275985.png)
-  ![image](https://user-images.githubusercontent.com/117898035/202665493-4f63b5b0-2962-424e-85ce-6e1ee20e63ff.png)
+- #### 主板布局	
+    - 前 I/O 机型主板	
+    ![image](https://user-images.githubusercontent.com/117898035/202665358-dedd866a-a9a5-42e9-bb5f-9c1aee275985.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202665493-4f63b5b0-2962-424e-85ce-6e1ee20e63ff.png)
 
-- ####	后IO机型主板	
-  ![image](https://user-images.githubusercontent.com/117898035/202665852-7dfd1b27-1b15-474a-87ee-8fc9e7fe898d.png)
-  ![image](https://user-images.githubusercontent.com/117898035/202665969-64fa9bfb-7bad-4d1c-8f7a-856a6bde4e16.png)
+    - 后 I/O 机型主板	
+    ![image](https://user-images.githubusercontent.com/117898035/202665852-7dfd1b27-1b15-474a-87ee-8fc9e7fe898d.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202665969-64fa9bfb-7bad-4d1c-8f7a-856a6bde4e16.png)
 
-### 	硬盘编号	
-- ####	9LFF硬盘机型	
-  硬盘盘位顺序见下图（编号0—8）。
- ![image](https://user-images.githubusercontent.com/117898035/202666043-59fd47ee-5644-4e90-ab76-aec0b729fadb.png)
+- ####  硬盘编号	
+    - 9LFF 硬盘机型	
+    硬盘盘位顺序见下图（编号 0—8）。
+    ![image](https://user-images.githubusercontent.com/117898035/202666043-59fd47ee-5644-4e90-ab76-aec0b729fadb.png)
 
-- ####	12LFF硬盘机型
-  硬盘盘位顺序见下图（编号0—11）。
-	![image](https://user-images.githubusercontent.com/117898035/202666139-c2909cd9-7983-4a70-b5b1-d7128c93e628.png)
+    - 12LFF 硬盘机型
+    硬盘盘位顺序见下图（编号0—11）。
+    ![image](https://user-images.githubusercontent.com/117898035/202666139-c2909cd9-7983-4a70-b5b1-d7128c93e628.png)
 
-- ####	16SFF硬盘机型	
-  硬盘盘位顺序见下图（编号0—15）。
-  ![image](https://user-images.githubusercontent.com/117898035/202666307-78326a80-9b54-49ea-a71f-e751b9e7c4e7.png)
+    - 16SFF 硬盘机型	
+    硬盘盘位顺序见下图（编号0—15）。
+    ![image](https://user-images.githubusercontent.com/117898035/202666307-78326a80-9b54-49ea-a71f-e751b9e7c4e7.png)
 
-### 	硬盘指示灯	
+- #### 硬盘指示灯	
+    ![image](https://user-images.githubusercontent.com/117898035/202668309-fd0b11cc-43f7-47b0-9406-da2ca729610e.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202668344-f3f1542d-ad0d-4791-aac4-57a8a25887b4.png)
 
-## 服务器操作	
-### 启动服务器	
+###  4、服务器操作	
+- #### 启动服务器	
+    ![image](https://user-images.githubusercontent.com/117898035/202668725-390efa51-7a89-442d-be49-e58c0783484b.png) 
 
-### 关闭服务器	
+- #### 关闭服务器	
+    ![image](https://user-images.githubusercontent.com/117898035/202668786-0db9c2d6-3ced-4906-9a2f-c5cad1c4e53f.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202668817-5454ecda-c39b-48b2-961e-7f443e46ce83.png)
 
-### 将服务器从机架中拉出	
+- #### 将服务器从机架中拉出	
+![image](https://user-images.githubusercontent.com/117898035/202669094-3f78d0de-e21f-4194-804a-a40b55fd86a6.png)
+![image](https://user-images.githubusercontent.com/117898035/202669186-15820ce5-ee76-426a-a92f-58e7e046e7e7.png)
 
-### 取下主机上盖	
+- #### 取下主机上盖	
+![image](https://user-images.githubusercontent.com/117898035/202669288-165e6818-db22-43cd-8e76-9b65749412ea.png)
+![image](https://user-images.githubusercontent.com/117898035/202669331-afbd3f82-492a-43e2-84fa-98ab125affb6.png)
 
-### 安装主机上盖	
+- #### 安装主机上盖	
+![image](https://user-images.githubusercontent.com/117898035/202669413-5b2e5aff-751e-4ada-80c7-ce1b77972b7e.png)
 
-### 卸下PCIe Riser卡笼	
+- #### 卸下PCIe Riser卡笼	
+![image](https://user-images.githubusercontent.com/117898035/202669607-8a84cc98-749d-47ca-bee9-e7c86c5e8208.png)
+![image](https://user-images.githubusercontent.com/117898035/202669673-14c060be-d6fa-423d-a30d-6ffb88ab0402.png)
 
-### 安装PCIE Riser卡笼	
+- #### 安装PCIE Riser卡笼	
+![image](https://user-images.githubusercontent.com/117898035/202669886-374e9957-1570-4dd6-8655-b45f257ee765.png)
+![image](https://user-images.githubusercontent.com/117898035/202669989-6b75ff0d-c3ce-4972-bff0-d67f7d76560d.png)
 
 - ####	安装前置 PCIe 模组	
-- 
+![image](https://user-images.githubusercontent.com/117898035/202670157-cd7375fe-c6d0-47ac-a15a-ace4028ff863.png)
+![image](https://user-images.githubusercontent.com/117898035/202670229-895e681e-9185-4af5-b950-6afa2080ea62.png)
+
 - ####	安装内置 PCIe 模组
-- 
+![image](https://user-images.githubusercontent.com/117898035/202670324-f19fc292-3fa2-40c8-bab7-effdc79e3c3f.png)
+![image](https://user-images.githubusercontent.com/117898035/202670374-5f69848e-2c5b-439a-b8ff-ef32a53886fd.png)
+
 - ####	安装后置 PCIe 模组	
-- 
-### 卸下导风罩	
 
-### 安装导风罩	
+- #### 卸下导风罩	
 
-### 移除风扇模组	
+- #### 安装导风罩	
 
-### 安装风扇模组	
+- #### 移除风扇模组	
+
+- #### 安装风扇模组	
 
 
 
