@@ -1,23 +1,8 @@
 # **产品规格**
 HaaS 服务器提供以下规格类型：计算型、存储型、异构/GPU型。以下介绍典型机型规格，更多机型请咨询线下销售人员。
 
-## **J360G2 2U 计算型**
-| 型号      | 京东云 J360G2 |    
-| :---------| :--------------|
-| 形态      | 2U 机架式，可兼容京东云整机柜系统或标准 19“ 机柜|
-| 处理器    | 2 颗第三代英特尔 ®至强® 可扩展处理器（代号 IceLake-SP），TDP 最高 270W | 
-| 芯片组    | C621-A | 
-| 内存      |32 个内存插槽，支持 DDR4 RDIMM、LRDIMM、NVDIMM、Intel® Optane™ Persistent Memory | 
-| RAID     |  可配置带缓存的存储控制器，支持断电保护模块 |
-| 存储     | 前 I/O 时：最大支持16个前置2.5寸硬盘；最大支持9个前置3.5寸硬盘|
-| 存储     | 后 I/O 时： 最大支持12个前置3.5寸硬盘                          |
-|I/O       | 最大可支持 7 个 PCIe 4.0 插槽，以及 1 个 OCP 3.0 网卡专用插槽|
-|网络控制器 | 1 个 OCP 3.0 网卡插槽|  
-|管理      | 集成 1 个独立的 1Gb 速率 RJ45 网络接口|
-|电源      | 1+1 冗余电源，可选支持高低压直流的电源模块，及钛金级电源；通过 Busbar 获取机柜提供的 12VDC 供电||
-|尺寸      | 87 mm x 435 mm x 779.5 mm|
-
-[J360G2](https://github.com/jdcloudcom/cn/blob/cn-haas-server/documentation/Hybrid-Cloud/HaaS-Server/Introduction/J360G2.md)
+## **计算型**
+- [J360G2](https://github.com/jdcloudcom/cn/blob/cn-haas-server/documentation/Hybrid-Cloud/HaaS-Server/Introduction/J360G2.md)
 
 更多详细规格，请参考产品手册：
 [京东云服务器J360 G2 用户手册-V1.0.pdf](https://github.com/jdcloudcom/cn/blob/cn-haas-server/documentation/Hybrid-Cloud/HaaS-Server/Operation-Guide/%E4%BA%AC%E4%B8%9C%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8J360%20G2%20%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C-V1.0.pdf)
