@@ -55,22 +55,47 @@
 
   - #### 服务器左视图及右视图	
    ![image](https://user-images.githubusercontent.com/117898035/202661249-5b3ac3e1-0b47-47d1-91e4-580157087aff.png)
-   ![image](https://user-images.githubusercontent.com/117898035/202661408-4ed9da2b-eeb6-4395-9b04-dd840236ca7f.png)
-
-  - #### 服务器俯视图	
-  
-### 组件识别	
-  - 前面板	
-    -	9LFF硬盘机型（前IO）	
+   ![image](https://user-images.githubusercontent.com/117898035/202661623-833563da-6907-4c40-aa1d-3daf9b5102c9.png)
    
+  - #### 服务器俯视图	
+   ![image](https://user-images.githubusercontent.com/117898035/202661698-306d4950-759d-43cc-aeee-be5dae235dc0.png)
+
+### 组件识别	
+  - #### 前面板	
+    -	9LFF硬盘机型（前IO）	
+   ![image](https://user-images.githubusercontent.com/117898035/202661853-f56bf797-0622-47e8-9714-d653ffe0d0d2.png)
+   ![image](https://user-images.githubusercontent.com/117898035/202661895-a5981a79-f6a4-472d-a2c7-3d4b53800584.png) 
+
     - 16SFF硬盘机型（前IO）	
-    - 12LFF硬盘机型（后IO）	
+    ![image](https://user-images.githubusercontent.com/117898035/202662008-d18d9c49-f967-4798-a7df-08347c6638e5.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202662044-0d77a39f-ebbe-471f-a3c8-60fa75e24b71.png)
+
+    - 12LFF硬盘机型（后IO）
+    ![image](https://user-images.githubusercontent.com/117898035/202662066-03f65fb6-4b0f-4660-8167-ae3ada5b163e.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202663008-75d41579-37b8-4376-b9ff-5ff50b27be8f.png)  
+
     - 16SFF硬盘机型（后IO）	
-  - 前控板按键与指示灯	
-  - 后面板	
- 	- 标准电源服务器（前IO）	
+    ![image](https://user-images.githubusercontent.com/117898035/202662111-5b5e50eb-3dfa-454c-9200-c11c8a09f2ee.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202663114-e719759f-3434-4596-8011-47afeb367a20.png)
+
+  - #### 前控板按键与指示灯	
+    ![image](https://user-images.githubusercontent.com/117898035/202663478-4c5fadde-435a-4278-8511-ddc7d820ca08.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202663571-777fc3a9-c05c-4846-b0e5-6cf28f8e9c24.png)
+
+  - #### 后面板	
+   	-  标准电源服务器（前IO）
+   	![image](https://user-images.githubusercontent.com/117898035/202663794-9b254709-c00f-4ea1-a6a5-717687b80f98.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202663835-c8dd9f4a-1f85-415c-abaa-1d7e99bbdbe2.png)
+
+
     - 标准电源服务器（后IO）	
+    ![image](https://user-images.githubusercontent.com/117898035/202663853-8787ce41-f5ee-44b9-bd13-89c52f1938fa.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202663883-79dc4626-3e99-4da5-93e3-67398e22fda5.png)
+
     - 整机柜节点服务器（前IO）	
+    ![image](https://user-images.githubusercontent.com/117898035/202663919-15b5d60d-beaf-46e2-bd8d-67098593add7.png)
+    ![image](https://user-images.githubusercontent.com/117898035/202663951-7cf93c0b-8461-4039-ba1d-9c5933f2732b.png)
+
 3.4	主板布局	
 3.4.1	前IO机型主板	
 3.4.2	后IO机型主板	
