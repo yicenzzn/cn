@@ -98,10 +98,12 @@
 
 - #### 主板布局	
     - 前 I/O 机型主板	
+    
     ![image](https://user-images.githubusercontent.com/117898035/202665358-dedd866a-a9a5-42e9-bb5f-9c1aee275985.png)
     ![image](https://user-images.githubusercontent.com/117898035/202665493-4f63b5b0-2962-424e-85ce-6e1ee20e63ff.png)
 
     - 后 I/O 机型主板	
+    
     ![image](https://user-images.githubusercontent.com/117898035/202665852-7dfd1b27-1b15-474a-87ee-8fc9e7fe898d.png)
     ![image](https://user-images.githubusercontent.com/117898035/202665969-64fa9bfb-7bad-4d1c-8f7a-856a6bde4e16.png)
 
@@ -124,38 +126,30 @@
 
 ###  4、服务器操作	
 - #### 启动服务器	
-    ![image](https://user-images.githubusercontent.com/117898035/202668725-390efa51-7a89-442d-be49-e58c0783484b.png) 
+   
 
 - #### 关闭服务器	
-    ![image](https://user-images.githubusercontent.com/117898035/202668786-0db9c2d6-3ced-4906-9a2f-c5cad1c4e53f.png)
-    ![image](https://user-images.githubusercontent.com/117898035/202668817-5454ecda-c39b-48b2-961e-7f443e46ce83.png)
+   
 
 - #### 将服务器从机架中拉出	
-![image](https://user-images.githubusercontent.com/117898035/202669094-3f78d0de-e21f-4194-804a-a40b55fd86a6.png)
-![image](https://user-images.githubusercontent.com/117898035/202669186-15820ce5-ee76-426a-a92f-58e7e046e7e7.png)
+
 
 - #### 取下主机上盖	
-![image](https://user-images.githubusercontent.com/117898035/202669288-165e6818-db22-43cd-8e76-9b65749412ea.png)
-![image](https://user-images.githubusercontent.com/117898035/202669331-afbd3f82-492a-43e2-84fa-98ab125affb6.png)
 
 - #### 安装主机上盖	
-![image](https://user-images.githubusercontent.com/117898035/202669413-5b2e5aff-751e-4ada-80c7-ce1b77972b7e.png)
+
 
 - #### 卸下PCIe Riser卡笼	
-![image](https://user-images.githubusercontent.com/117898035/202669607-8a84cc98-749d-47ca-bee9-e7c86c5e8208.png)
-![image](https://user-images.githubusercontent.com/117898035/202669673-14c060be-d6fa-423d-a30d-6ffb88ab0402.png)
+
 
 - #### 安装PCIE Riser卡笼	
-![image](https://user-images.githubusercontent.com/117898035/202669886-374e9957-1570-4dd6-8655-b45f257ee765.png)
-![image](https://user-images.githubusercontent.com/117898035/202669989-6b75ff0d-c3ce-4972-bff0-d67f7d76560d.png)
+
 
 - ####	安装前置 PCIe 模组	
-![image](https://user-images.githubusercontent.com/117898035/202670157-cd7375fe-c6d0-47ac-a15a-ace4028ff863.png)
-![image](https://user-images.githubusercontent.com/117898035/202670229-895e681e-9185-4af5-b950-6afa2080ea62.png)
+
 
 - ####	安装内置 PCIe 模组
-![image](https://user-images.githubusercontent.com/117898035/202670324-f19fc292-3fa2-40c8-bab7-effdc79e3c3f.png)
-![image](https://user-images.githubusercontent.com/117898035/202670374-5f69848e-2c5b-439a-b8ff-ef32a53886fd.png)
+
 
 - ####	安装后置 PCIe 模组	
 
