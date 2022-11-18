@@ -82,8 +82,11 @@
     ![image](https://user-images.githubusercontent.com/117898035/202663114-e719759f-3434-4596-8011-47afeb367a20.png)
 
 #### 前控板按键与指示灯	
+
     前控板按键与指示灯
+    
     ![image](https://user-images.githubusercontent.com/117898035/202689015-7da8fe8e-f49d-4a7b-bfd2-2c14e9861fe1.png)
+    
     ![image](https://user-images.githubusercontent.com/117898035/202689060-7d18f91e-906c-46dc-821c-9ccad1b5004c.png)
 
 #### 后面板	
@@ -201,6 +204,7 @@
   为了避免损坏服务器或扩展卡，在拆卸或安装PCIe Riser卡笼之前，应关闭服务器电源并拔出所有交流电源插头。
 
   按以下信息卸下 PCIe Riser 卡笼。本过程以前置 PCIe Riser 卡笼为例，其他 PCIe Riser 卡笼拆卸方法与此相似。
+  
   **步骤**
   - 步骤 1. 解锁前 IO 模块与机箱相连的螺丝，向机箱外抽出前IO 模块。
 
@@ -289,8 +293,8 @@
 
 #### 卸下导风罩
 
-    ![image](https://user-images.githubusercontent.com/117898035/202676958-5826dee1-d975-43bc-b78c-646df991f07c.png)
-    
+    ![image](https://user-images.githubusercontent.com/117898035/202690907-6f19342b-4bb3-429f-8d9b-1472bb0b8052.png)
+
   为充分散热，请不要在未安装主机上盖、导风罩、风扇的情况下运行服务器。如果服务器支持热插拔组件，请最大限度地减少打开主机上盖的时间。
 
    - 关闭服务器电源。
