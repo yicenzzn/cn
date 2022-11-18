@@ -281,8 +281,10 @@
         items:
         - name: 设置白名单
           href: Operation-Guide/Security/Set-Whitelist.md
-        - name: 透明数据加密 TDE
+        - name: SQL Server设置透明数据加密 TDE
           href: Operation-Guide/Security/tde.md
+        - name:MySQL设置透明数据加密 TDE
+          href: Operation-Guide/Security/MySQL-TDE.md
         - name: MySQL 配置 SSL 证书 
           href: Operation-Guide/Security/Configure-SSL.md
         - name: PostgreSQL 配置 SSL 证书 
