@@ -1,12 +1,18 @@
-name: HaaS 服务器
+name: HaaS服务器
 href: 
 items:
 - name: 产品简介
   items:
-    - name: HaaS 服务器概述
+    - name: HaaS服务器概述
       href: Introduction/Product-Overview.md
     - name: 产品规格
       href: Introduction/Specifications.md
+    - name: J360G2-2U计算型
+      href: Introduction/J360G2.md.md  
+    - name: J460G2-4U存储型
+      href: Introduction/J460g2.md  
+    - name: J580G2-异构/GPU 型
+      href: Introduction/J580G2.md
     - name: 产品优势
       href: Introduction/Benefits.md
     - name: 应用场景
