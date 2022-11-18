@@ -82,9 +82,6 @@
     ![image](https://user-images.githubusercontent.com/117898035/202663114-e719759f-3434-4596-8011-47afeb367a20.png)
 
 #### 前控板按键与指示灯	
-
-前控板按键与指示灯
-
 ![image](https://user-images.githubusercontent.com/117898035/202689015-7da8fe8e-f49d-4a7b-bfd2-2c14e9861fe1.png)
 
 ![image](https://user-images.githubusercontent.com/117898035/202689060-7d18f91e-906c-46dc-821c-9ccad1b5004c.png)
