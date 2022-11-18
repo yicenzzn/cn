@@ -33,6 +33,8 @@
 
   - #### 机柜前视图及后视图	
   ![image](https://user-images.githubusercontent.com/117898035/202659523-c6eafb2d-56b7-41c4-8028-7738222ce62c.png)
+  ![image](https://user-images.githubusercontent.com/117898035/202660405-c4e9c100-d5a8-4245-8b16-a717791645cd.png)
+
 
 |编号|	模块名称|
 |:----|:----|
