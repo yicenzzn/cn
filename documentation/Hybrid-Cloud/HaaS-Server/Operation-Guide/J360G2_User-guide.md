@@ -35,32 +35,34 @@
   ![image](https://user-images.githubusercontent.com/117898035/202659523-c6eafb2d-56b7-41c4-8028-7738222ce62c.png)
   ![image](https://user-images.githubusercontent.com/117898035/202660405-c4e9c100-d5a8-4245-8b16-a717791645cd.png)
 
-
-|编号|	模块名称|
-|:----|:----|
-|1	|交换机区域（交换机及理线架）|
-|2	|数据交换机|
-|3	|9-18节点|
-|4|	电源模组（3U）|
-|5	|1-9节点|
-|6	|下挡风板|
-|7	|机柜铜排|
-|8	|防护罩|
-
   - #### 机柜左视图及右视图	
-  
+  ![image](https://user-images.githubusercontent.com/117898035/202660757-da0f9fc4-6948-4690-9e53-05291485e804.png)
+  ![image](https://user-images.githubusercontent.com/117898035/202660789-1f84feac-e126-4271-8c07-aaab5d8ff081.png)
+
   - #### 机柜俯视图	
+  ![image](https://user-images.githubusercontent.com/117898035/202660864-ef9ae17f-3178-4d18-a189-85a34ae6c14d.png)
+
   - #### 机柜下视图	
+  ![image](https://user-images.githubusercontent.com/117898035/202660893-29081355-7230-449f-aa44-58cd01c86157.png)
+  ![image](https://user-images.githubusercontent.com/117898035/202660960-520a2009-5d65-453c-a6f9-e4efd260f8ca.png) 
+
 ### 服务器介绍	
-  - 简介	
-  - 服务器前视图及后视图	
-  - 服务器左视图及右视图	
-  - 服务器俯视图	
+  - #### 简介
+    第二代京东云服务器的设计理念源于京东自有大规模云数据中心的建设和运营经验，基于全新一代英特尔®至强®可扩展处理器设计的一款高端双路机架式服务器。J360 G2是继第一代服务器“微定制”之后，基于内部多样化海量业务需求，以及京东云各行业客户需求，自主研发与深度创新的新一代云服务器基础架构。通过系统架构设计创新、核心部件创新，实现了高效、灵活、高性价比的目标。
+  - #### 服务器前视图及后视图	
+   ![image](https://user-images.githubusercontent.com/117898035/202661120-7257c2cb-bfb2-47be-9703-72b9de7b0f15.png) 
+   ![image](https://user-images.githubusercontent.com/117898035/202661177-7d118fee-546b-48d5-bad3-b97f7e5eafb1.png)
+
+  - #### 服务器左视图及右视图	
+   ![image](https://user-images.githubusercontent.com/117898035/202661249-5b3ac3e1-0b47-47d1-91e4-580157087aff.png)
+   ![image](https://user-images.githubusercontent.com/117898035/202661408-4ed9da2b-eeb6-4395-9b04-dd840236ca7f.png)
+
+  - #### 服务器俯视图	
+  
 ### 组件识别	
   - 前面板	
     -	9LFF硬盘机型（前IO）	
-
-
+   
     - 16SFF硬盘机型（前IO）	
     - 12LFF硬盘机型（后IO）	
     - 16SFF硬盘机型（后IO）	
