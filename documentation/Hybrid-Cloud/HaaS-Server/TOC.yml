@@ -22,7 +22,7 @@ items:
   items:
     - name: 用户手册
       href: Operation-Guide/User-guide.md
-    - name: 京东云服务器 J360G2 用户手册
+    - name: 京东云服务器J360G2用户手册
       href: Operation-Guide/J360G2_User-guide.md
       
 - name: 产品定价
