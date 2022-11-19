@@ -17,7 +17,6 @@
 
 在本文中可能出现下列标志，它们所代表的含义如下。
 
-![image](https://user-images.githubusercontent.com/117898035/202653027-28a1827f-bc45-4c24-a614-93eaf6db4609.png)
 
 **变更记录**
 |版本 |时间 |变更内容 |
@@ -35,15 +34,11 @@
   ![cabinet-front-view](https://github.com/jdcloudcom/cn/blob/cn-haas-server/image/haas-server/cabinet-front-view.jpg)
 
 #### 机柜左视图及右视图	
-  ![image](https://user-images.githubusercontent.com/117898035/202660757-da0f9fc4-6948-4690-9e53-05291485e804.png)
-  ![image](https://user-images.githubusercontent.com/117898035/202660789-1f84feac-e126-4271-8c07-aaab5d8ff081.png)
-
+ 
 #### 机柜俯视图	
-  ![image](https://user-images.githubusercontent.com/117898035/202660864-ef9ae17f-3178-4d18-a189-85a34ae6c14d.png)
-
+ 
 #### 机柜下视图	
-  ![image](https://user-images.githubusercontent.com/117898035/202660893-29081355-7230-449f-aa44-58cd01c86157.png)
-  ![image](https://user-images.githubusercontent.com/117898035/202660960-520a2009-5d65-453c-a6f9-e4efd260f8ca.png) 
+ 
 
 ### 2、服务器介绍
 #### 简介
@@ -51,16 +46,12 @@
 - 通过系统架构设计创新、核心部件创新，实现了高效、灵活、高性价比的目标。
     
 #### 服务器前视图及后视图	
-   ![image](https://user-images.githubusercontent.com/117898035/202661120-7257c2cb-bfb2-47be-9703-72b9de7b0f15.png) 
-   ![image](https://user-images.githubusercontent.com/117898035/202661177-7d118fee-546b-48d5-bad3-b97f7e5eafb1.png)
+    
 
 #### 服务器左视图及右视图	
-   ![image](https://user-images.githubusercontent.com/117898035/202661249-5b3ac3e1-0b47-47d1-91e4-580157087aff.png)
-   ![image](https://user-images.githubusercontent.com/117898035/202661623-833563da-6907-4c40-aa1d-3daf9b5102c9.png)
    
 #### 服务器俯视图	
-   ![image](https://user-images.githubusercontent.com/117898035/202661698-306d4950-759d-43cc-aeee-be5dae235dc0.png)
-
+    
 ### 3、组件识别	
 
 #### 前面板	
@@ -74,8 +65,7 @@
   
 
 - **16SFF 硬盘机型（后 I/O）**	
- ![16sff-front-view](../../../../image/haas-server/16sff-front-view.jpg）
-
+ 
 #### 前控板按键与指示灯	
 
 #### 后面板	
@@ -240,31 +230,30 @@
        a.将转接卡螺钉孔和葫芦孔与 PCIe 支架上的螺钉孔和立柱对齐，向左滑动。
        b.拧紧两颗螺钉，将转接卡固定在 PCIe 支架上后，将线缆连接到转接卡上。
       
-      ![image](https://user-images.githubusercontent.com/117898035/202676754-73cb29b4-ccb5-4f65-a235-ffbacc441ebd.png)
+      
       
       c.将 PCIe 适配器对齐转接卡上的插槽，然后轻轻地按压 PCIe 适配器的两端，直到适配器在插槽上牢固就位。
       
-      ![image](https://user-images.githubusercontent.com/117898035/202676787-2633f23d-60a0-4d66-ba86-1af3a312680b.png)
+    
       
       步骤 2. 安装系统风扇。
         a.将系统风扇插到 OCP 支架的风扇仓内。
         b.按压铆钉固定风扇。
 	
-        ![image](https://user-images.githubusercontent.com/117898035/202676869-7cae8e47-bab1-408f-bf11-2c583d2f1d8f.png)
+     
         
       步骤 3. 将装有 PCIe 适配器的支架向下插入到 OCP 支架上，组成 PCIe 模组。
       
-      ![image](https://user-images.githubusercontent.com/117898035/202676899-f9abc1eb-694e-478b-8eab-3e0be9259da1.png)
+    
 
       步骤 4. 安装后置 PCIe 模组。
         a.把后置 PCIe 模组插入硬盘仓，并向机箱正面推动。
         b.锁紧一颗螺钉固定后置 PCIe 模组。
         
-      ![image](https://user-images.githubusercontent.com/117898035/202676933-1019e76f-8c47-44ba-afe3-975854aec1b6.png)
+    
 
 #### 卸下导风罩
-
-![image](https://user-images.githubusercontent.com/117898035/202690907-6f19342b-4bb3-429f-8d9b-1472bb0b8052.png)
+ 
 
   为充分散热，请不要在未安装主机上盖、导风罩、风扇的情况下运行服务器。如果服务器支持热插拔组件，请最大限度地减少打开主机上盖的时间。
   
@@ -273,15 +262,14 @@
   - 卸下主机上盖。
   - 卸下导风罩。
  
-![image](https://user-images.githubusercontent.com/117898035/202677039-e91d4c02-0ec4-4954-9848-c4e04b2fd06c.png)
+ 
    
  （可选）如果服务器配置后置 IO,则服务器安装了后置导风罩。向上提起后置导风罩取出即可。
  
-![image](https://user-images.githubusercontent.com/117898035/202677373-d24da1f0-8bfe-44f7-8135-4989a443dcf8.png)
-
+ 
 #### 安装导风罩	
 
- ![image](https://user-images.githubusercontent.com/117898035/202677397-2ecbad38-3a1c-482d-b1b4-65f8367dc375.png)
+  
   
   为避免损坏服务器组件，请勿用力安装导风罩。确保所有DIMM闩锁都已锁定，以免损坏组件。
   
@@ -293,35 +281,33 @@
   - 将服务器安装到机架中。
   - 接通服务器电源。
  
-![image](https://user-images.githubusercontent.com/117898035/202677457-7ef8c3c9-805d-4f8b-828c-9cdd9b80ff6c.png)
+ 
 
   （可选）后置IO配置时，需要安装后置导风罩。将导风罩两侧的卡槽与机箱对齐，向下放入服务器并按压导风罩，直至其牢固就位。
   
- ![image](https://user-images.githubusercontent.com/117898035/202677483-47e64476-2700-4cc1-b952-25cba891e190.png)
+  
 
 #### 移除风扇模组
 
- ![image](https://user-images.githubusercontent.com/117898035/202677508-061171e3-dbfe-4f9e-9374-4cf871b7c164.png)
+  
   
   操作时务必佩戴劳保手套，避免双手被设备上的尖锐部分划伤。
   
   - 确定需要拆卸的风扇模块。
   - 按压风扇模块一侧把手，将风扇模块水平拉出。
     
-![image](https://user-images.githubusercontent.com/117898035/202677547-ba9a0e5f-9609-48eb-9faf-c878d00a1dc0.png)
+ 
 
 #### 安装风扇模组	
 
-![image](https://user-images.githubusercontent.com/117898035/202677571-a262ace6-8c0e-41cf-83b8-bc684c3f8a17.png)
-  
+ 
   操作时务必佩戴劳保手套，避免双手被设备上的尖锐部分划伤。
   - 确定风扇模块的安装槽位。
   - 确定风扇的安装方向。
   - 沿水平方向将风扇模块插入机箱中，直到机箱扣紧风扇模块为止。
   - 重复2～3步骤安装其余的风扇模块。
   
- ![image](https://user-images.githubusercontent.com/117898035/202677631-cd6154ac-8f1c-4bce-9e20-eb5cd7821c90.png)
-
+ 
 ## 声明
 
   感谢您选择京东云服务器产品。
