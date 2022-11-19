@@ -32,17 +32,19 @@
 - 以高密度、高效能、低功耗、低成本、易管理、灵活部署等特性，为数据中心提供了新一代开放技术管理方案。
 
 #### 1.2 机柜前视图及后视图	
-	![cabinet-front-view.jpg](../../../../image/haas-server/cabinet-front-view.jpg)
-	![fig-cabinet.jpg](../../../../image/haas-server/fig-cabinet.jpg)
+![cabinet-front-view.jpg](../../../../image/haas-server/cabinet-front-view.jpg)
+![fig-cabinet.jpg](../../../../image/haas-server/fig-cabinet.jpg)
+
 #### 1.3 机柜左视图及右视图	
-	![cabinet-left-view.jpg](../../../../image/haas-server/cabinet-left-view.jpg)
-	![fig-cabinet-side.jpg](../../../../image/haas-server/fig-cabinet-side.jpg)
+![cabinet-left-view.jpg](../../../../image/haas-server/cabinet-left-view.jpg)
+![fig-cabinet-side.jpg](../../../../image/haas-server/fig-cabinet-side.jpg)
+
 #### 1.4 机柜俯视图	
-	![cabinet-top-view.jpg](../../../../image/haas-server/cabinet-top-view.jpg)
+![cabinet-top-view.jpg](../../../../image/haas-server/cabinet-top-view.jpg)
 
 #### 1.5 机柜下视图	
-	![cabinet-bottom-view.jpg](../../../../image/haas-server/cabinet-bottom-view.jpg)
-	![fig-cabinet-bot.jpg](../../../../image/haas-server/fig-cabinet-bot.jpg)
+![cabinet-bottom-view.jpg](../../../../image/haas-server/cabinet-bottom-view.jpg)
+![fig-cabinet-bot.jpg](../../../../image/haas-server/fig-cabinet-bot.jpg)
 
 ### 2、服务器介绍
 #### 简介
