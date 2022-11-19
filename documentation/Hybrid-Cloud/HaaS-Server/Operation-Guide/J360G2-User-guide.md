@@ -33,7 +33,18 @@
 
 #### 1.2 机柜前视图及后视图	
 ![cabinet-front-view.jpg](../../../../image/haas-server/cabinet-front-view.jpg)
-![fig-cabinet.jpg](../../../../image/haas-server/fig-cabinet.jpg)
+
+| 编号 | 模块名称|
+| :----| :----|
+|1	|交换机区域（交换机及理线架）|
+|2	|数据交换机|
+|3	|9-18节点|
+|4	|电源模组（3U）|
+|5	|1-9节点|
+|6	|下挡风板|
+|7	|机柜铜排|
+|8	|防护罩|
+
 
 #### 1.3 机柜左视图及右视图	
 ![cabinet-left-view.jpg](../../../../image/haas-server/cabinet-left-view.jpg)
