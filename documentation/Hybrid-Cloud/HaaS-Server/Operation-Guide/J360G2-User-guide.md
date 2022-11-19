@@ -48,14 +48,22 @@
 
 #### 1.3 机柜左视图及右视图	
 ![cabinet-left-view.jpg](../../../../image/haas-server/cabinet-left-view.jpg)
-![fig-cabinet-side.jpg](../../../../image/haas-server/fig-cabinet-side.jpg)
+
+| 编号 | 模块名称|
+| :----| :----|
+|1	|机柜侧壁面板，可拆卸|
+|2	|侧板固定螺丝|
 
 #### 1.4 机柜俯视图	
 ![cabinet-top-view.jpg](../../../../image/haas-server/cabinet-top-view.jpg)
 
 #### 1.5 机柜下视图	
 ![cabinet-bottom-view.jpg](../../../../image/haas-server/cabinet-bottom-view.jpg)
-![fig-cabinet-bot.jpg](../../../../image/haas-server/fig-cabinet-bot.jpg)
+
+| 编号 | 模块名称|
+| :----| :----|
+|1	|水平支撑|
+|2	|机柜滚轮|
 
 ### 2. 服务器介绍
 #### 2.1 简介
