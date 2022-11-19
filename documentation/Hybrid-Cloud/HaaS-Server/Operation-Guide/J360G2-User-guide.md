@@ -26,6 +26,7 @@
 ## 正文
 
 [1. 整机柜介绍](J360G2_User-guide-cabinet.md)
+
 [2. 服务器介绍](J360G2_User-guide-server.md)
 
 ### 3. 组件识别	
