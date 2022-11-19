@@ -35,7 +35,7 @@
 ![cabinet-front-view.jpg](../../../../image/haas-server/cabinet-front-view.jpg)
 
 | 编号 | 模块名称|
-| :----|---:---|
+| :----| :----|
 |1	|交换机区域（交换机及理线架）|
 |2	|数据交换机|
 |3	|9-18节点|
