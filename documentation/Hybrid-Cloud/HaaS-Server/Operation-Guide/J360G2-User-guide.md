@@ -32,7 +32,7 @@
 - 以高密度、高效能、低功耗、低成本、易管理、灵活部署等特性，为数据中心提供了新一代开放技术管理方案。
 
 #### 机柜前视图及后视图	
-  ![cabinet-front-view](../../../../image/haas-server/cabinet-front-view.jpg）
+  ![cabinet-front-view](/image/haas-server/cabinet-front-view.jpg）
 
 #### 机柜左视图及右视图	
   ![image](https://user-images.githubusercontent.com/117898035/202660757-da0f9fc4-6948-4690-9e53-05291485e804.png)
