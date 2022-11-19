@@ -17,7 +17,13 @@
 
 在本文中可能出现下列标志，它们所代表的含义如下。
 
-![notice.jpg] (../../../../image/haas-server/notice.jpg)
+![notice.jpg](../../../../image/haas-server/notice.jpg)
+
+![notice](https://github.com/jdcloudcom/cn/blob/cn-haas-server/image/haas-server/notice.jpg)
+
+! [notice](https://github.com/jdcloudcom/cn/blob/cn-haas-server/image/haas-server/notice.jpg)
+![notice](../../../../../image/haas-server/notice.jpg)
+! [notice](../../../../../image/haas-server/notice.jpg)
 
 
 
