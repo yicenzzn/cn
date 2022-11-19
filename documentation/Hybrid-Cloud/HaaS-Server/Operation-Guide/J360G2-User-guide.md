@@ -21,7 +21,7 @@
 
 ![note](../../../../image/haas-server/note.jpg）
 
-![note](github.com/jdcloudcom/cn/tree/cn-haas-server/image/haas-server/note.jpg）
+![note](https://github.com/jdcloudcom/cn/tree/cn-haas-server/image/haas-server/note.jpg)
 
 
 
