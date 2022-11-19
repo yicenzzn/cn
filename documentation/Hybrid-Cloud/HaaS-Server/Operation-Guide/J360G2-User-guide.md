@@ -84,6 +84,18 @@
 - **9LFF 硬盘机型（前 I/O）**	
 
 ![9lff-front-view.jpg](../../../../image/haas-server/9lff-front-view.jpg)   
+
+| 编号	|	模块名称	|
+| ：----	| ：----	|
+|	1	|	RJ45网口	|
+|	2	|	VGA接口	|
+|	3	|	硬盘模组（9盘位）	|
+|	4	|	风扇模组	|
+|	5	|	电源开关按键	|
+|	6	|	系统故障指示灯	|
+|	7	|	UID按键	|
+|	8	|	USB3.0接口x2	|
+|	9	|	PAB模组	|
    
 - **16SFF 硬盘机型（前 I/O）**	
 ![16sff-front-view.jpg](../../../../image/haas-server/16sff-front-view.jpg)  
