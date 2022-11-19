@@ -9,7 +9,7 @@
    - 登录BMC CLI，发出IPMI命令，以启动系统。
 
 ------
-![note.jpg](../../../../image/haas-server/note.jpg)
+![warning-yellow.jpg](../../../../image/haas-server/warning-yellow.jpg)
 
    如果引导屏幕上持续显示“系统安全 - 系统受损”消息，则意味着未正确安装服务器外盖。请将其卸下并重新装回，然后重新启动服务器。
    
@@ -31,7 +31,7 @@
   - 紧急关闭：按住电源按钮超过 4 秒，进行关机。
   
 -----
-![note.jpg](../../../../image/haas-server/note.jpg)
+![warning-yellow.jpg](../../../../image/haas-server/warning-yellow.jpg)
 
  正常关闭：关闭之前，需要储存所有打开的文件和网络服务，关闭所有应用程序，停止或终止所有必要的系统流程，然后才可以进行关机操作。
  紧急关闭：所有应用程序和文件将关闭，不储存更改，文件系统可能损坏。
