@@ -7,6 +7,13 @@ items:
       href: Introduction/Product-Overview.md
     - name: 产品规格
       href: Introduction/Specifications.md
+      items:
+        - name: J360G2
+          href: Introduction/J360G2.md
+        - name: J460G2
+          href: Introduction/J460G2.md
+        - name: J580G2
+          href: Introduction/J580G2.md  
     - name: 产品优势
       href: Introduction/Benefits.md
     - name: 应用场景
@@ -18,7 +25,16 @@ items:
       href: Operation-Guide/User-guide.md
     - name: J360G2 用户手册
       href: Operation-Guide/J360G2-User-guide.md
-      
+      items:
+        - name: 1. 整机柜介绍
+          href: Operation-Guide/J360G2-User-guide-cabinet.md
+        - name: 2. 服务器介绍
+          href: Operation-Guide/J360G2-User-guide-server.md
+        - name: 3. 组件识别
+          href: Operation-Guide/J360G2-User-guide-modules.md
+        - name: 4. 服务器操作
+          href: Operation-Guide/J360G2-User-guide-operation.md          
+          
 - name: 产品定价
   items:
     - name: 计费概述
