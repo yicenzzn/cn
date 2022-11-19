@@ -77,25 +77,28 @@
 
 ![op-3.png](../../../../image/haas-server/op-3.png)
 
-### 4.6 卸下 PCIe Riser 卡笼	
+### 4.6 卸下 PCIe Riser 卡笼
+
+![warning-yellow.jpg](../../../../image/haas-server/warning-yellow.jpg)
  
   为了避免损坏服务器或扩展卡，在拆卸或安装PCIe Riser卡笼之前，应关闭服务器电源并拔出所有交流电源插头。
 
+------
+
   按以下信息卸下 PCIe Riser 卡笼。本过程以前置 PCIe Riser 卡笼为例，其他 PCIe Riser 卡笼拆卸方法与此相似。
   
-  **步骤**
-  - 步骤 1. 解锁前 IO 模块与机箱相连的螺丝，向机箱外抽出前IO 模块。
+**步骤**
+- 步骤 1. 解锁前 IO 模块与机箱相连的螺丝，向机箱外抽出前IO 模块。
 
-   
+![op-5.png](../../../../image/haas-server/op-5.png)   
     
-  - 步骤 2. 向上提前取出 PCIe 模块。捏住PCIe 适配器的两端然后取出 PCIe 适配器。
+- 步骤 2. 向上提前取出 PCIe 模块。捏住PCIe 适配器的两端然后取出 PCIe 适配器。
 
+![op-6.png](../../../../image/haas-server/op-6.png)
 
+- 步骤 3. 解锁固定转接卡的两颗螺丝，向右滑动转接卡然后取出转接卡，分离转接卡和 PCIe 卡支架。
 
-  - 步骤 3. 解锁固定转接卡的两颗螺丝，向右滑动转接卡然后取出转接卡，分离转接卡和 PCIe 卡支架。
-
-  
-
+  ![op-7.png](../../../../image/haas-server/op-7.png) 
 
 ### 4.7 安装 PCIE Riser 卡笼	
 
