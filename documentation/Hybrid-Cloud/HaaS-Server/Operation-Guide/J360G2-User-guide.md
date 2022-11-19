@@ -17,17 +17,12 @@
 
 在本文中可能出现下列标志，它们所代表的含义如下。
 
-![notice.jpg](../../../../image/haas-server/notice.jpg)
-
-
-
-
-
+![signal-table.png](../../../../image/haas-server/signal-table.png)
 
 **变更记录**
 |版本 |时间 |变更内容 |
 |:----|:----|:----|
-|V1.0| 2022-11-14|首版发布|
+|V1.0| 2022-3-3|首版发布|
  
 ## 正文
 
@@ -37,14 +32,17 @@
 - 以高密度、高效能、低功耗、低成本、易管理、灵活部署等特性，为数据中心提供了新一代开放技术管理方案。
 
 #### 机柜前视图及后视图	
-  ![cabinet-front-view](https://github.com/jdcloudcom/cn/blob/cn-haas-server/image/haas-server/cabinet-front-view.jpg)
-
+![cabinet-front-view.jpg](../../../../image/haas-server/cabinet-front-view.jpg)
+![fig-cabinet.jpg](../../../../image/haas-server/fig-cabinet.jpg)
 #### 机柜左视图及右视图	
- 
+![cabinet-left-view.jpg](../../../../image/haas-server/cabinet-left-view.jpg)
+![fig-cabinet-side.jpg](../../../../image/haas-server/fig-cabinet-side.jpg)
 #### 机柜俯视图	
- 
+![cabinet-top-view.jpg](../../../../image/haas-server/cabinet-top-view.jpg)
+
 #### 机柜下视图	
- 
+![cabinet-bottom-view.jpg](../../../../image/haas-server/cabinet-bottom-view.jpg)
+![fig-cabinet-bot.jpg](../../../../image/haas-server/fig-cabinet-bot.jpg)
 
 ### 2、服务器介绍
 #### 简介
