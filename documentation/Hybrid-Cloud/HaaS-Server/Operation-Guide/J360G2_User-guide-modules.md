@@ -40,9 +40,11 @@
 
 ## 3.4 主板布局	
 ### 3.41 前 I/O 机型主板
-   
+![mb-fio.jpg](../../../../image/haas-server/mb-fio.jpg)  
+
 ### 3.42 后 I/O 机型主板**    
-  
+![mb-rio.jpg](../../../../image/haas-server/mb-rio.jpg)  
+
 ## 3.5 硬盘编号	
 ### 3.51 9LFF 硬盘机型
 
