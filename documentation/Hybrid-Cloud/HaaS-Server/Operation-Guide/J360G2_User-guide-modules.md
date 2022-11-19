@@ -65,3 +65,5 @@
 ## 3.6 硬盘指示灯	
 
 ![fig-17.png](../../../../image/haas-server/fig-17.png)
+
+
