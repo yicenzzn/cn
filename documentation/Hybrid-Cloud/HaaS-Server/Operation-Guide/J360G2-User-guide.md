@@ -17,13 +17,11 @@
 
 在本文中可能出现下列标志，它们所代表的含义如下。
 
-![signal-table.png](../../../../image/haas-server/signal-table.png)
+![signal-table.png](../../../../image/haas-server/fig-1.png)
 
 **变更记录**
-|版本 |时间 |变更内容 |
-|:----|:----|:----|
-|V1.0| 2022-3-3|首版发布|
- 
+![fig-1.png](../../../../image/haas-server/signal-table.png)
+
 ## 正文
 
 ### 1. 整机柜介绍
