@@ -63,6 +63,7 @@
 ### 3. 组件识别	
 #### 3.1 前面板	
 - **9LFF 硬盘机型（前 I/O）**	
+
 ![9lff-front-view.jpg](../../../../image/haas-server/9lff-front-view.jpg)   
    
 - **16SFF 硬盘机型（前 I/O）**	
