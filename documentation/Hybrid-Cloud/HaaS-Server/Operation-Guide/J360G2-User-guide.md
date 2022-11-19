@@ -32,37 +32,18 @@
 
 #### 1.2 机柜前视图及后视图	
 ![cabinet-front-view.jpg](../../../../image/haas-server/cabinet-front-view.jpg)
-
-| 编号 | 模块名称|
-| :----| :----|
-| 1	| 交换机区域（交换机及理线架）|
-| 2	| 数据交换机|
-| 3	| 9-18节点|
-| 4	| 电源模组（3U）|
-| 5	| 1-9节点|
-| 6	| 下挡风板|
-| 7	| 机柜铜排|
-| 8	| 防护罩|
-
+![fig-2.png](../../../../image/haas-server/fig-2.png)
 
 #### 1.3 机柜左视图及右视图	
 ![cabinet-left-view.jpg](../../../../image/haas-server/cabinet-left-view.jpg)
-
-| 编号 | 模块名称|
-| :----| :----|
-|1	|机柜侧壁面板，可拆卸|
-|2	|侧板固定螺丝|
+![fig-3.png](../../../../image/haas-server/fig-3.png)
 
 #### 1.4 机柜俯视图	
 ![cabinet-top-view.jpg](../../../../image/haas-server/cabinet-top-view.jpg)
 
 #### 1.5 机柜下视图	
 ![cabinet-bottom-view.jpg](../../../../image/haas-server/cabinet-bottom-view.jpg)
-
-| 编号 | 模块名称|
-| :----| :----|
-|1	|水平支撑|
-|2	|机柜滚轮|
+![fig-4.png](../../../../image/haas-server/fig-4.png)
 
 ### 2. 服务器介绍
 #### 2.1 简介
