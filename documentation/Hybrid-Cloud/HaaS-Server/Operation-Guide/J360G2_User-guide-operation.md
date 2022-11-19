@@ -1,7 +1,7 @@
 # 4. 服务器操作	
 ### 4.1 启动服务器	
 -----
-![warning-red.jpg](../../../../image/haas-server/[warning-red.jpg)
+![danger-red.jpg](../../../../image/haas-server/danger-red.jpg)
 
    在连接到输入电源时，服务器进行短暂自检（电源状态 LED 快速闪烁）后，进入待机状态（电源状态 LED 每秒闪烁一次）。
 您可以通过以下任何一种方式开启服务器（电源 LED 点亮）：
