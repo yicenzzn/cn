@@ -52,29 +52,32 @@
 - 通过系统架构设计创新、核心部件创新，实现了高效、灵活、高性价比的目标。
     
 #### 2.2 服务器前视图及后视图	
-    
+![server-front-view.jpg](../../../../image/haas-server/server-front-view.jpg)    
 
 #### 2.3 服务器左视图及右视图	
-   
-#### 2.4 服务器俯视图	
-    
-### 3、组件识别	
+![server-left-view.jpg](../../../../image/haas-server/server-left-view.jpg)  
 
-#### 前面板	
+#### 2.4 服务器俯视图	
+![server-top-view.jpg](../../../../image/haas-server/server-top-view.jpg) 
+
+### 3. 组件识别	
+#### 3.1 前面板	
 - **9LFF 硬盘机型（前 I/O）**	
-   
+![9lff-front-view.jpg](../../../../image/haas-server/9lff-front-view.jpg)   
    
 - **16SFF 硬盘机型（前 I/O）**	
-  
+![16sff-front-view.jpg](../../../../image/haas-server/16sff-front-view.jpg)  
 
 - **12LFF 硬盘机型（后 I/O）**
-  
+![12lff-front-view.jpg](../../../../image/haas-server/12lff-front-view.jpg)  
 
 - **16SFF 硬盘机型（后 I/O）**	
- 
-#### 前控板按键与指示灯	
+![16sff-front-view.jpg](../../../../image/haas-server/16sff-front-view.jpg)  
 
-#### 后面板	
+#### 前控板按键与指示灯	
+![fpb-led.jpg](../../../../image/haas-server/fpb-led.jpg)
+
+#### 3.2 后面板	
 - **标准电源服务器（前 I/O）**
     
 
@@ -84,12 +87,12 @@
 - **整机柜节点服务器（前 I/O）**	
    
 
-#### 主板布局	
+#### 3.3 主板布局	
 - **前 I/O 机型主板**  
    
 - **后 I/O 机型主板**    
   
-####  硬盘编号	
+#### 3.4 硬盘编号	
 - **9LFF 硬盘机型**
     硬盘盘位顺序见下图（编号 0—8）。 
    
@@ -100,7 +103,7 @@
 - **16SFF 硬盘机型**	
     硬盘盘位顺序见下图（编号0—15）。
    
-#### 硬盘指示灯	
+#### 3.5 硬盘指示灯	
 
   
 ###  4、服务器操作	
