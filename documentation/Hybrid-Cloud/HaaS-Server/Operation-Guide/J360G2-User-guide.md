@@ -52,12 +52,15 @@
     
 #### 2.2 服务器前视图及后视图	
 ![server-front-view.jpg](../../../../image/haas-server/server-front-view.jpg)    
+![fig-5.png](../../../../image/haas-server/fig-5.png)
 
 #### 2.3 服务器左视图及右视图	
 ![server-left-view.jpg](../../../../image/haas-server/server-left-view.jpg)  
+![fig-6.png](../../../../image/haas-server/fig-6.png)
 
 #### 2.4 服务器俯视图	
 ![server-top-view.jpg](../../../../image/haas-server/server-top-view.jpg) 
+![fig-7.png](../../../../image/haas-server/fig-7.png)
 
 ### 3. 组件识别	
 #### 3.1 前面板	
