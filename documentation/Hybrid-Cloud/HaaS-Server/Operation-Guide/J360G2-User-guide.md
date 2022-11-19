@@ -60,37 +60,28 @@
 
 #### 2.4 服务器俯视图	
 ![server-top-view.jpg](../../../../image/haas-server/server-top-view.jpg) 
-![fig-7.png](../../../../image/haas-server/fig-7.png)
 
 ### 3. 组件识别	
 #### 3.1 前面板	
-- **9LFF 硬盘机型（前 I/O）**	
-
+- **9LFF 硬盘机型（前 I/O）**	 
 ![9lff-front-view.jpg](../../../../image/haas-server/9lff-front-view.jpg)   
-
-| 编号	|	模块名称	|
-| ：----	| ：----	|
-|	1	|	RJ45网口	|
-|	2	|	VGA接口	|
-|	3	|	硬盘模组（9盘位）	|
-|	4	|	风扇模组	|
-|	5	|	电源开关按键	|
-|	6	|	系统故障指示灯	|
-|	7	|	UID按键	|
-|	8	|	USB3.0接口x2	|
-|	9	|	PAB模组	|
+![fig-7.png](../../../../image/haas-server/fig-7.png)
    
 - **16SFF 硬盘机型（前 I/O）**	
 ![16sff-front-view.jpg](../../../../image/haas-server/16sff-front-view.jpg)  
+![fig-8.png](../../../../image/haas-server/fig-8.png)
 
 - **12LFF 硬盘机型（后 I/O）**
 ![12lff-front-view.jpg](../../../../image/haas-server/12lff-front-view.jpg)  
+![fig-9.png](../../../../image/haas-server/fig-9.png)
 
 - **16SFF 硬盘机型（后 I/O）**	
 ![16sff-front-view.jpg](../../../../image/haas-server/16sff-front-view.jpg)  
+![fig-10.png](../../../../image/haas-server/fig-10.png)
 
 #### 前控板按键与指示灯	
 ![fpb-led.jpg](../../../../image/haas-server/fpb-led.jpg)
+![fig-11.png](../../../../image/haas-server/fig-11.png)
 
 #### 3.2 后面板	
 - **标准电源服务器（前 I/O）**
