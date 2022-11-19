@@ -17,9 +17,8 @@
 
 在本文中可能出现下列标志，它们所代表的含义如下。
 
-![notice](../../../../../../image/haas-server/notice.jpg)
 ![notice](../../../../../image/haas-server/notice.jpg)
-![notice.jpg](../../../../../../image/haas-server/notice.jpg)
+
 
 
 **变更记录**
