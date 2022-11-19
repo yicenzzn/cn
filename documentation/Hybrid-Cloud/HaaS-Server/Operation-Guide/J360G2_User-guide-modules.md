@@ -23,14 +23,17 @@
 
 ### 3.3 后面板	
 - **标准电源服务器（前 I/O）**
+
 ![psu-fio.jpg](../../../../image/haas-server/psu-fio.jpg)   
 ![fig-12.png](../../../../image/haas-server/fig-12.png)
 
 - **标准电源服务器（后 I/O）**	
+
 ![psu-rio.jpg](../../../../image/haas-server/psu-rio.jpg) 
 ![fig-13.png](../../../../image/haas-server/fig-13.png)
 
 - **整机柜节点服务器（前 I/O）**	
+
 ![psu-rack.jpg](../../../../image/haas-server/psu-rack.jpg)  
 ![fig-14.png](../../../../image/haas-server/fig-14.png)
 
