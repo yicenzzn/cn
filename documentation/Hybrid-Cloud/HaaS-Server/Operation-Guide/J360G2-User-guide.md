@@ -16,9 +16,7 @@
 **符号约定**
 
 在本文中可能出现下列标志，它们所代表的含义如下。
-|图标|说明 |
-|:----|:----|
-|![note](../../../../image/haas-server/note.jpg)| xxx|
+![note](../../../../../image/haas-server/note.jpg）
 
 
 
