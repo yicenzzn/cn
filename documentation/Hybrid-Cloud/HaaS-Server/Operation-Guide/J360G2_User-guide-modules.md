@@ -54,11 +54,11 @@
 硬盘盘位顺序见下图（编号 0~8）。 
 ![9lff-num.jpg](../../../../image/haas-server/9lff-num.jpg)  
 
-### 3.52 12LFF 硬盘机型**
+### 3.52 12LFF 硬盘机型
 硬盘盘位顺序见下图（编号 0~11）。
 ![12lff-num.jpg](../../../../image/haas-server/12lff-num.jpg)    
 
-### 3.53 16SFF 硬盘机型**	
+### 3.53 16SFF 硬盘机型	
 硬盘盘位顺序见下图（编号 0~15）。
 ![16sff-num.jpg](../../../../image/haas-server/16sff-num.jpg)  
 
