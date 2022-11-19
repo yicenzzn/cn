@@ -7,7 +7,6 @@
    - 按下并释放服务器前控制板上的电源按钮，启动服务器。
    - 启动BMC网路界面：登录BMC网路界面，从电源控制操作列表框选择启动。
    - 登录BMC CLI，发出IPMI命令，以启动系统。
-
 ----
 ![warning-yellow.jpg](../../../../image/haas-server/warning-yellow.jpg)
 
