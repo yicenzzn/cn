@@ -24,6 +24,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/instance:open
 |名称|类型|描述|
 |---|---|---|
 |**error**|[Error](open#error)| |
+|**requestId**|[String](open#error)|请求id|
 
 ### <div id="error">Error</div>
 |名称|类型|描述|
@@ -32,6 +33,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/instance:open
 |**message**|String|错误消息。|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

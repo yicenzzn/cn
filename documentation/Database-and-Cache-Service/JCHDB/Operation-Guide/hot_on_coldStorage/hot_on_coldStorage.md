@@ -10,12 +10,12 @@
   * 手动方式将数据在冷热之间移动
 
 ## 注意事项
-* 分析型云数据库 ClickHouse仅20.8及以上版本支持冷热数据分层存储功能。对于不支持的低版本，可以先将集群版本升级至20.8及以上版本，再进行冷热数据分层存储。
+* 分析型云数据库 ClickHouse仅21.6及以上版本支持冷热数据分层存储功能。对于不支持的低版本，可以先将集群版本升级至21.6及以上版本，再进行冷热数据分层存储。
 
 
 * 如果要使用冷热数据分层存储功能，必须在建表时添加SETTINGS storage_policy = 'hot_cold' 语句指定存储策略。
 
-* 对于老数据的表可以使用 ALTER TABLE <tableName> MODIFY SETTINGS storage_policy = 'hot_cold' 语句变更存储策略。注：如果用户的老数据表结构如下
+* 对于老数据的表可以使用 ALTER TABLE <tableName> MODIFY SETTING storage_policy = 'hot_cold' 语句变更存储策略。注：如果用户的老数据表结构如下
 
   ```
   create table tableA on cluster default (id int ,d date,dt datetime) engine=ReplicatedMergeTree('/clickhouse/tables/{shard}/tableA','{replica}',d,id,8192)
@@ -37,7 +37,7 @@
 ## 操作步骤
 
 1. 登录 [分析型云数据库ClickHouse 管理控制台](https://jchdb-console.jdcloud.com)。创建集群时，在冷热分层配置中选择开启冷备存储。
-    集群策略默认数据达到90%后，会自动触发冷数据分层机制，移动老数据到到冷存储，直到数据量低于阈值。可按照实际需要配置冷热分层数据表，具体配置指令如下：ALTER TABLE <tableName>  MODIFY SETTINGS storage_policy = 'hot_cold'。
+    集群策略默认数据达到90%后，会自动触发冷数据分层机制，移动老数据到到冷存储，直到数据量低于阈值。可按照实际需要配置冷热分层数据表，具体配置指令如下：ALTER TABLE <tableName>  MODIFY SETTING storage_policy = 'hot_cold'。
     
 2. 若集群创建时未开启冷热分层服务，在集群创建成功后，可在集群列表选择操作 > 更多 > 开启冷热分层存储，或在实例详情 > 冷热数据分层>开启按钮，手动开启服务。
 
@@ -63,12 +63,12 @@
 
 2.设置 TTL 分层存储策略
 在默认存储策略的基础上，添加 TTL 语句，实现将间隔时间之前的所有数据自动转移到冷数据盘中。通过设置表级别 TTL 可以设置 Part 过期时间，对数据进行迁移，**表达式的计算结果必须为 Date 或 DateTime 数据类型**。 **需要依托某个 Datetime 或者 date 类型的字段，通过对这个时间字段的 INTERVAL 操作来表述 TTL 的过期时间。**对于 Part 移动特征， Part 的所有行必须满足移动表达式标准。
-您可以参考如下语法添加 TTL 语句。可以将 TTL 设置为 TO DISK 'cold_disk'或者 TO VOLUME 'cold',效果相同,其中的名字可以通过 system.disks 和 system.storage_policies 系统表进行查看。
+您可以参考如下语法添加 TTL 语句。可以将 TTL 设置为 TO DISK 's3'或者 TO VOLUME 's3',效果相同,其中的名字可以通过 system.disks 和 system.storage_policies 系统表进行查看。
 
 ```
 TTL 
  + INTERVAL 
- TO DISK 'cold_disk' 
+ TO DISK 's3' 
 ```
 
 参数说明
@@ -90,7 +90,7 @@ CREATE TABLE ttl_test_tbl
 ENGINE = MergeTree()
 PARTITION BY date
 ORDER BY f1
-TTL date + INTERVAL 90 DAY TO DISK 'cold_disk'
+TTL date + INTERVAL 90 DAY TO DISK 's3'
 SETTINGS storage_policy = 'hot_cold';
 ```
 * 更改 TTL 分层存储策略
@@ -104,7 +104,7 @@ SETTINGS storage_policy = 'hot_cold';
 ALTER TABLE 
  MODIFY TTL 
  + INTERVAL 
- TO DISK 'cold_disk'; 
+ TO DISK  's3'; 
 ```
 参数说明
 | 参数                | 说明                                                         |
@@ -126,9 +126,9 @@ ALTER TABLE table_name MOVE PART｜PARTITION  partition_expr TO VOLUME ' volume_
 ```
 ALTER TABLE 
 MOVE PARTITION <partition>
-     TO DISK 'cold_disk'; ALTER TABLE 
+     TO DISK 's3'; ALTER TABLE 
 MOVE PARTITION <partition>
-    TO VOLUME 'cold';
+    TO VOLUME  's3';
 ```
 * 移动冷数据盘数据到热数据盘。
 ```
@@ -136,7 +136,7 @@ ALTER TABLE
 ON CLUSTER default MOVE PARTITION  
 TO DISK 'default'; ALTER TABLE 
 ON CLUSTER default MOVE PARTITION 
-TO VOLUME 'hot';
+TO VOLUME 'default';
 ```
 4. 冷热数据盘上的数据
 * 查看热数据盘上的数据
@@ -145,7 +145,7 @@ select * from system.parts where database = '<db_name>' and table = '<tbl_name>'
 ```
 * 查看冷数据盘上的数据
 ```
-select * from system.parts where database = '<db_name>' and table = '<tbl_name>' and disk_name ='cold_disk' and active = 1;
+select * from system.parts where database = '<db_name>' and table = '<tbl_name>' and disk_name ='s3' and active = 1;
 ```
 5.查看磁盘空间
 开通冷热数据分层存储功能后，您可以执行如下语句查看磁盘空间。
@@ -154,17 +154,16 @@ select * from system.disks;
 ```
 返回结果如下：
 ```
-┌─name──┬─path─────────────────┬─free_space─────┬─total_space ────┬─used_space─┬─keep_free_space─┐
-│ cold_disk│ /clickhouse/data/data/disks/cold_disk/ │ 18446744073709551615 │ 18446744073709551615 │ 115312080698 │   0               │
-│ default  │ /clickhouse/data/data/                 │ 201663209472         │ 207083249664         │ 5420040192   │   0               │
+┌─name──┬─path─────────────────┬─free_space─────┬─total_space ────┬─keep_free_space─┐
+│ s3│ /clickhouse/data/data/disks/s3/ │ 18446744073709551615  │ 115312080698 │   0               │
+│ default  │ /clickhouse/data/data/                 │ 201663209472          │ 5420040192   │   0               │
 └─────┴────────────────────┴───────────┴───────────┴───────┴─────── ──┘
 ```
 参数说明
 | 参数                | 说明                                                         |
 | ------------------- | ------------------------------------------------------------ |
-|name       | 磁盘名称。取值范围如下。cold_disk：冷数据盘。default：热数据盘。|
+|name       | 磁盘名称。取值范围如下。s3：冷数据盘。default：热数据盘。 |
 |path       | 磁盘上的数据存储路径。 |
 | free_space     |当前磁盘剩余可用空间。冷数据盘可用空间不受限制。 |
 | total_space    |当前磁盘总空间。冷数据盘可用空间不受限制。 |
-| used_space  |当前磁盘已经被使用的空间。 |
 | keep_free_space |预留的空闲空间。 |

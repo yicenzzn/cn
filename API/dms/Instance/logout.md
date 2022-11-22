@@ -24,6 +24,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/instance:logout
 |名称|类型|描述|
 |---|---|---|
 |**error**|[Error](logout#error)| |
+|**requestId**|[String](logout#error)|请求id|
 
 ### <div id="error">Error</div>
 |名称|类型|描述|
@@ -32,6 +33,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/instance:logout
 |**message**|String|错误消息。|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

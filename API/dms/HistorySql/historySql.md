@@ -26,6 +26,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/historySql
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](historysql#result)| |
+|**requestId**|[String](historysql#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
@@ -44,6 +45,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/historySql
 |**database**|String|数据库名称。|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

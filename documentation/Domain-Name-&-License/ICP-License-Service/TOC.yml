@@ -1,4 +1,4 @@
-name: 帮助文档
+name: 备案服务
 items:
   - name: 备案入门
     items:
@@ -97,7 +97,7 @@ items:
           - name: 四川省
             href: Data-download/Addition-Filing/sichuanziliao.md
           - name: 宁夏省
-            href: Data-download/Addition-Filing/chongqingziliao.md
+            href: Data-download/Addition-Filing/ningxiaziliao.md
           - name: 福建省
             href: Data-download/Addition-Filing/fujianziliao.md
           - name: 甘肃省
@@ -120,6 +120,8 @@ items:
             href: Data-download/Addition-Filing/qinghaiziliao.md 
           - name: 安徽省
             href: Data-download/Addition-Filing/anhuiziliao.md
+          - name: 北京市
+            href: Data-download/Addition-Filing/beijingziliao.md
   - name: 常见问题
     items:
       - name: 备案基本问题

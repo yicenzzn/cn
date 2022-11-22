@@ -2,7 +2,7 @@
 
 
 ## 描述
-获取表元数据
+获取表元数据，支持Mysql，Stardb，Tidb，ClickHouse
 
 ## 请求方式
 POST
@@ -26,6 +26,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/consoleTableInfo
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](tableinfo#result)| |
+|**requestId**|[String](tableinfo#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
@@ -82,6 +83,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/consoleTableInfo
 |**tableCharset**|String|表字符编码。|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

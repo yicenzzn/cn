@@ -260,3 +260,20 @@
 </tbody>
 </table>
 
+## OpenEuler
+<table>
+	<thead>
+    <tr>
+        <th>更新时间及地域</th>
+      	<th>涉及镜像版本</th>
+      	<th>更新内容</th>
+        <th>相关参考</th>
+    </tr>
+  	</thead>
+    <tbody>     
+    <tr>
+        <td>2022-09-16 北京/广州/宿迁/上海</td>
+      	<td>OpenEuler 21.09（x86)</td>
+      	<td>* 发布上线</td>
+        <td> </td>
+    </tr> 

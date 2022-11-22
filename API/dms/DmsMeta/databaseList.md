@@ -2,7 +2,7 @@
 
 
 ## 描述
-获取数据库实例的库列表
+获取数据库实例的库列表，支持Mysql，Stardb，Tidb，ClickHouse
 
 ## 请求方式
 POST
@@ -24,6 +24,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/consoleDbList
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](databaselist#result)| |
+|**requestId**|[String](databaselist#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
@@ -31,6 +32,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/consoleDbList
 |**databaseNames**|String[]|库名称列表|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

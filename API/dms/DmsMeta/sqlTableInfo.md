@@ -2,7 +2,7 @@
 
 
 ## 描述
-获取sql中建表语句，表中列信息
+获取sql中建表语句，表中列信息，支持Mysql，Stardb，Tidb，ClickHouse
 
 ## 请求方式
 POST
@@ -26,6 +26,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/sqlTableInfo
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](sqltableinfo#result)| |
+|**requestId**|[String](sqltableinfo#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
@@ -82,6 +83,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/sqlTableInfo
 |**tableCharset**|String|表字符编码。|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

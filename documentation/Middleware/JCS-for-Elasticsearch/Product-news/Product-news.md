@@ -3,6 +3,10 @@
 ## 2022年
 | 功能名称 | 功能描述 | 发布时间 | 相关文档|
 | :---------------| :--------------|:------------|:--------|
+|周期创建索引|周期创建索引功能新增开启冷数据阶段，根据配置自动转换为冷索引。|2020-09|[周期创建索引](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/index)|
+| 支持关闭冷数据节点 | 支持在已开启专有主节点的情况下，关闭冷数据节点。 | 2022-09 |[冷热数据分离](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/Warm-Node) |
+| 集群降配 | 当您的业务存在高低峰期或其他变化，导致集群节点规格高于业务所需规格时，可以通过降配集群来降低节点等规格配置，以更好地为您节约成本。 | 2022-09 |[降配集群](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/Cluster_Shrink) |
+|冷热数据分离|提供了快速配置构建冷热集群的能力，用户可以根据业务需要指定冷热节点规格，快速建立一个冷热分离架构的 ES 集群。|2022-07|[冷热数据分离](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/Warm-Node)|
 |版本7.10|支持Elasticsearch 版本7.10。|2022-06|[创建集群](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/create-es)|
 |资源组管理|资源组是京东云资源分组管理的工具，支持对云资源进行逻辑分组。通过使用资源组，可实现多项目或多应用场景下的资源分组管理问题。|2022-03|[资源组管理](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/resource-group-introduction)|
 |同义词配置|支持将符合规则的同义词文件上传至京东云Elasticsearch集群中，该文件会作用于集群的同义词库，您可以使用更新后的词库搜索数据。|2022-02|[同义词配置](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/synonymdic)|
@@ -20,7 +24,7 @@
 | 功能名称 | 功能描述 | 发布时间 | 相关文档|
 | :---------------| :--------------|:------------|:--------|
 |高级配置|用户可通过集群管理页面修改elasticsearch.yml文件的某些配置，可用于用户进行集群调优。|2020-09|[高级配置](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/configure)|
-|周期创建索引|周期创建索引功可以帮助用户实现索引从创建到删除的全生命周期过程的管理。|2020-09|[周期创建索引](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/index)|
+|周期创建索引|周期创建索引功能可以帮助用户实现索引从创建到删除的全生命周期过程的管理。|2020-09|[周期创建索引](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/index)|
 |支持本地SSD盘|存储类型支持本地SSD盘。|2020-06|[创建集群](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/create-es)|
 |集群重启|支持实例级别重启和节点级别重启两种类型，以及重启和强制重启两种方式，可用于快速解决部分集群问题。|2020-05|[集群重启](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/reboot)|
 |数据节点数量缩容|在开启专有主节点的情况下，支持缩减数据节点数量。|2020-05|[变更配置](https://docs.jdcloud.com/cn/jcs-for-elasticsearch/change-es)|
