@@ -17,7 +17,7 @@
 
 针对不同企业培训使用场景，企业区分级别观看指定内容，避免有价值信息泄露，打造智能更适用企业培训场景的直播平台；
 
-![在线教育.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%9C%A8%E7%BA%BF%E9%87%91%E8%9E%8D.png)
+![在线教育.jpg](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E4%BC%81%E4%B8%9A%E5%9F%B9%E8%AE%AD.jpg)
 
 ### 在线教育
 
