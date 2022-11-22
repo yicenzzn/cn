@@ -35,4 +35,4 @@
 
 支持在线会诊、在线科室会、医生交流、网络研讨会、医学培训、营销运营、数据留存等医疗行业数字化直播解决方案。真实还原手术场景，支持回放，优秀医疗案例存档学习；
 
-![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%9C%BA%E6%99%AF3-%E5%9C%A8%E7%BA%BF%E5%8C%BB%E7%96%97.jpg)
+![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%9C%A8%E7%BA%BF%E5%8C%BB%E7%96%97.jpg)
