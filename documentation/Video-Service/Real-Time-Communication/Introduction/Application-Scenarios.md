@@ -11,7 +11,7 @@
 
 支持参与者多语言互动，打破时空及语言的限制。为各大企业、学术界构建一个超高体验的线上互动平台；
 
-![企业咚咚20201228141302.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E8%BF%9C%E7%A8%8B%E6%A3%80%E4%BF%AE.png)
+![企业咚咚20201228141302.jpg](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E7%BD%91%E7%BB%9C%E7%A0%94%E8%AE%A8%E4%BC%9A.jpg)
 
 ### 企业培训
 
