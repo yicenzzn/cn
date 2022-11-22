@@ -23,7 +23,7 @@
 
 支持讲师与学员音视频连麦答疑，直播内容加密，确保课程内容不泄露。数据量化学习效果，学习报告分析导出。支持课程回放，学员课后回看课程，巩固加强课堂知识；
 
-![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2.png)
+![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2.jpg)
 
 ### 在线金融
 
