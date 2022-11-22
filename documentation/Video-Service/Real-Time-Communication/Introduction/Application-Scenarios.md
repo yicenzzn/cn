@@ -9,24 +9,30 @@
 
 ### 网络研讨会
 
-支持参与者多语言互动，打破时空及语言的限制。为各大企业、学术界构建一个超高体验的线上互动平台
+支持参与者多语言互动，打破时空及语言的限制。为各大企业、学术界构建一个超高体验的线上互动平台；
 
 ![企业咚咚20201228141302.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E8%BF%9C%E7%A8%8B%E6%A3%80%E4%BF%AE.png)
 
-### 在线金融
+### 企业培训
 
-全链路安全端到端加密，全球最佳安全和隐私保护； 实时云端双录，保障业务合规性； 通话时延低于200ms，抗丢包率超过70%，抗网络抖动超过1000ms，弱网环境下依然保证通话流畅稳定。
+针对不同企业培训使用场景，企业区分级别观看指定内容，避免有价值信息泄露，打造智能更适用企业培训场景的直播平台；
 
 ![在线教育.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%9C%A8%E7%BA%BF%E9%87%91%E8%9E%8D.png)
 
 ### 在线教育
 
-师生实时互动，支持多人音视频连麦，助教管理课堂解答学员疑问； 品牌个性化定制，logo 水印，播放器 UI 等丰富自定义设置，支持视频动能，播放界面移动端 h5 定制； 授课内容安全防护，自主研发视频加密算法，支持防盗链，二次鉴权，播放器域名限制，防止原创视频课程被盗。
+支持讲师与学员音视频连麦答疑，直播内容加密，确保课程内容不泄露。数据量化学习效果，学习报告分析导出。支持课程回放，学员课后回看课程，巩固加强课堂知识；
 
 ![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%9C%A8%E7%BA%BF%E6%95%99%E8%82%B2.png)
 
+### 在线金融
+
+为金融不同领域提供安全无卡顿且流畅的金融直播间，满足金融财经理财培训、投资者教育、活动直播等个场景需求；
+
+![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%9C%BA%E6%99%AF3-%E5%9C%A8%E7%BA%BF%E5%8C%BB%E7%96%97.jpg)
+
 ### 在线医疗
 
-集实时音视频、屏幕共享、文档共享、互动白板、实时消息、录制留存等功能的一站式智慧医疗解决方案， 满足医疗诊断、医疗社交、医疗教育的多元需求； 支持多人视频，多位医生和患者共同参与在线会诊，协同通畅； 支持在线医疗教学、医疗直播培训等场景。
+支持在线会诊、在线科室会、医生交流、网络研讨会、医学培训、营销运营、数据留存等医疗行业数字化直播解决方案。真实还原手术场景，支持回放，优秀医疗案例存档学习；
 
 ![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%9C%BA%E6%99%AF3-%E5%9C%A8%E7%BA%BF%E5%8C%BB%E7%96%97.jpg)
