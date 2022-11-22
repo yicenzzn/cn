@@ -29,7 +29,7 @@
 
 为金融不同领域提供安全无卡顿且流畅的金融直播间，满足金融财经理财培训、投资者教育、活动直播等个场景需求；
 
-![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%9C%BA%E6%99%AF3-%E5%9C%A8%E7%BA%BF%E5%8C%BB%E7%96%97.jpg)
+![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%9C%A8%E7%BA%BF%E9%87%91%E8%9E%8D.jpg)
 
 ### 在线医疗
 
