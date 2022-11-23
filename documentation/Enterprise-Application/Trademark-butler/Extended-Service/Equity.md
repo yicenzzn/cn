@@ -2,7 +2,7 @@
 
 **1、产品介绍**
 
-  指变更注册商标的注册人，注册地址或者其他事项。
+  变更注册商标的注册人，注册地址或者其他事项。
 
 **2、适用对象**
 
@@ -22,7 +22,7 @@
 
 **4、购买链接**
 
-  [京东云·商标管家](https://www.jdcloud.com/cn/pages/shangbiaoguanjia)
+  [京东云·商标变更](https://qifu-console.jdcloud.com/sbbg/create)
 
 ## 二、商标转让
 
@@ -42,7 +42,7 @@
 
 **4、购买链接**
 
-  [京东云·商标管家](https://www.jdcloud.com/cn/pages/shangbiaoguanjia)
+  [京东云·商标转让](https://qifu-console.jdcloud.com/sbzr/create)
 
 ## 三、商标续展
 
@@ -62,4 +62,4 @@
 
 **4、购买链接**
 
-  [京东云·商标管家](https://www.jdcloud.com/cn/pages/shangbiaoguanjia)
+  [京东云·商标续展](https://qifu-console.jdcloud.com/sbxz/create)
