@@ -62,4 +62,4 @@
 
 
 
-<font color=yellow>我是黄色</font>
+<font color=#0000FF >蓝色</font>
