@@ -4,7 +4,7 @@
 
 |限制项|说明|
 |-|-|
-|带宽|华北-北京和华东-上海区域，上传下载分别限制10Gbit/s；华南-广州和华东-宿迁区域，上传下载分别限制5Gbit/s。如超过阈值，请求会被流控。如有更大带宽需求，请联系[售后支持](https://ticket.jdcloud.com/myorder/submit)。|
+|带宽|华北-北京和华东-上海区域，公网上传下载分别限制1Gbit/s，内网上传下载分别限制10Gbit/s；华南-广州和华东-宿迁区域，公网上传下载分别限制1Gbit/s，内网上传下载分别限制5Gbit/s。如超过阈值，请求会被流控。如有更大带宽需求，请联系[售后支持](https://ticket.jdcloud.com/myorder/submit)。|
 |每秒请求数QPS（Query Per Second）|每个空间写QPS为1500，读QPS为3000。如超过阈值，请求会被限速，返回503状态码。如有更高QPS需求，请联系[售后支持](https://ticket.jdcloud.com/myorder/submit)。|
 |存储空间|1.同一用户在每个地域可以创建的存储空间总数不能超过20个，如您需要提升限额，请联系[售后支持](https://ticket.jdcloud.com/myorder/submit)。<br>2.存储空间一旦创建成功，名称和所处地域不能修改。<br>3.存储空间名称全局唯一,全局指OSS支持的各个地域。<br>4.单个存储空间的容量不限制。<br>5.存储空间命名长度必须在3-63个字符之间，且名称仅能由小写字母、数字、中划线(-)组成，且仅能以小写字母或数字开头和结尾。<br>|
 |删除存储空间|删除存储空间需要 ：<br>1.先删除掉该存储空间下的全部文件资源（包含未完成的Part）和图片样式。<br>2.若开启增量数据同步，请先关闭增量数据同步规则。|
@@ -14,5 +14,5 @@
 |自有域名绑定|1.绑定的域名必须在工信部备案。<br>2.每个Bucket最多绑定20个域名,每个域名只能绑定到一个Bucket。<br>3.如您需要支持https,请参考[自定义域名支持HTTPS访问OSS服务](https://docs.jdcloud.com/cn/object-storage-service/custom-domain-name-guidance)。<br>|
 |生命周期管理|每个Bucket最多可配置1000条生命周期规则。|
 |Bucket policy|每个Bucket的policy配置最大支持16KB。|
-|图片处理|对于原图：<br>* 图片格式只能是：jpg、jpeg、jp2、png、bmp、gif、webp、tiff。<br>* 输入和输出图片单边大小不能大于9999像素，不能小于1像素。|
+|图片处理|对于原图：<br>* 图片格式只能是：jpg、jpeg、jp2、png、bmp、gif、webp、tiff。<br>* 输入和输出图片单边大小不能大于30,000 px，不能小于1 px，且总像素不能超过250,000,000 px。|
 |Access Key管理|1.用户在开通对象存储服务时不会自动创建Access Key。<br>2.需要到个人中心[Access Key管理](https://uc.jdcloud.com/account/accesskey)处手动创建。|

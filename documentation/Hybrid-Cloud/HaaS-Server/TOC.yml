@@ -1,0 +1,30 @@
+name: HaaS 服务器
+href: 
+items:
+- name: 产品简介
+  items:
+    - name: HaaS 服务器概述
+      href: Introduction/Product-Overview.md
+    - name: 产品规格
+      href: Introduction/Specifications.md
+    - name: 产品优势
+      href: Introduction/Benefits.md
+    - name: 应用场景
+      href: Introduction/Application-Scenarios.md      
+      
+- name: 操作指南
+  items:
+    - name: 用户手册
+      href: Operation-Guide/User-guide.md
+    - name: J360G2 用户手册
+      href: Operation-Guide/J360G2-User-guide.md        
+- name: 产品定价
+  items:
+    - name: 计费概述
+      href: Pricing/Billing-Overview.md
+      
+- name: FAQ
+  items:
+    - name: FAQ
+      href: FAQ/FAQ.md
+
