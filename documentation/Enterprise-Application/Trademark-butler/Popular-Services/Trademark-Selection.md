@@ -23,4 +23,4 @@
 
 **5、购买链接**
 
-  [京东云·商标管家](https://www.jdcloud.com/cn/pages/shangbiaoguanjia)
+  [京东云·商标甄选](https://qifu-console.jdcloud.com/sbjy/create)
