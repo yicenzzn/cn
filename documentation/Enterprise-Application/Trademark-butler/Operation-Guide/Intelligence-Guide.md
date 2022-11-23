@@ -6,14 +6,11 @@
 
  - 商标类型：通过商标的组成，可以将商标分为：文字商标、图形商标、文字图形组合商标。以申请商标“京东”为例。
 
-   -   文字商标：
-       ![文字商标](https://static-ftcms.jd.com/p/files/637dd388e1fec54ed5df7b30.png)
+   -   文字商标：![文字商标](https://static-ftcms.jd.com/p/files/637dd388e1fec54ed5df7b30.png)
  
-   -   图形商标：
-   -   ![图形商标](https://static-ftcms.jd.com/p/files/637dd399f5229c4edbfa6380.png)
+   -   图形商标：![图形商标](https://static-ftcms.jd.com/p/files/637dd399f5229c4edbfa6380.png)
 
-   -   文字图形组合商标：
-   ![文字图形组合商标](https://static-ftcms.jd.com/p/files/637dd3a5f5229c4edbfa6381.png)
+   -   文字图形组合商标：![文字图形组合商标](https://static-ftcms.jd.com/p/files/637dd3a5f5229c4edbfa6381.png)
 
 
 
