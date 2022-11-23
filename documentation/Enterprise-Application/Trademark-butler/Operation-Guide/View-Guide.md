@@ -2,7 +2,6 @@
 **1、进入京东云官网页面，右上角点击【控制台】。**
 
 ![控制台](https://static-ftcms.jd.com/p/files/637dd1ace1fec54ed5df7b2e.png)
-![扫码登陆](https://static-ftcms.jd.com/p/files/6364e0889eabc0def83aa33c.png)
 
 **2、在常用服务下，搜索关键词“知产管家”。**
 
