@@ -232,7 +232,7 @@
               href: Operation-Guide/Backup/Restore-Instance/MariaDB-Backup-Restore.md
             - name: SQL Server 备份恢复
               herf: Operation-Guide/Backup/Restore-Instance/SQLServer-Backup-Restore.md
-              name: PostgreSQL通过控制台下载备份进行恢复
+            - name: PostgreSQL通过控制台下载备份进行恢复
               herf: Operation-Guide/Backup/Restore-Instance/PG-Backup-download-Restore.md
           - name: 根据备份创建
             items:
@@ -283,7 +283,7 @@
           href: Operation-Guide/Security/Set-Whitelist.md
         - name: SQL Server设置透明数据加密 TDE
           href: Operation-Guide/Security/tde.md
-        - name:MySQL设置透明数据加密 TDE
+        - name: MySQL设置透明数据加密 TDE
           href: Operation-Guide/Security/MySQL-TDE.md
         - name: MySQL 配置 SSL 证书 
           href: Operation-Guide/Security/Configure-SSL.md
