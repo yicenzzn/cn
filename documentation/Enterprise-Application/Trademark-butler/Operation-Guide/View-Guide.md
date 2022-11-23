@@ -11,9 +11,9 @@
 
 ![服务订单](https://static-ftcms.jd.com/p/files/637dd1d1e1fec54ed5df7b2f.png)
 
-### 步骤二：查看单笔订单的履约进度
+### 步骤二：查询单笔订单的履约进度
 
-选择要查看的服务订单，点击【详情】即可查看相应履约进度。
+选择需要查看的服务订单，点击【详情】即可查询相应履约进度。
 
 ![查看详情](https://static-ftcms.jd.com/p/files/637dd1e2341946045aef9fcc.png)
 
