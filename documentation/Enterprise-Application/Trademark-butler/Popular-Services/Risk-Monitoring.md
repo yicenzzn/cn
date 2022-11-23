@@ -45,6 +45,6 @@
 
 适用于需要实时掌握品牌风险动态并针对性采取策略的用户。
 
-**3、监测链接**
+**3、商标监测链接**
 
-[京东云·商标管家](https://www.jdcloud.com/cn/pages/shangbiaoguanjia)
+[京东云·商标监测](https://qiye-console.jdcloud.com/page/trademarkmonitor/monitorlist)

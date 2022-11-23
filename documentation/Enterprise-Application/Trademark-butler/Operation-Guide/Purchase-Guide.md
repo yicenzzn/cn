@@ -33,12 +33,3 @@
 ![下单付款](https://static-ftcms.jd.com/p/files/6364e2ed20ee4c675e53d837.png)
 
 
-### 步骤四：查看服务订单
-
-**在京东云官网页面，右上角点击【控制台】，常用服务下面搜索关键词“知产管家”，点击跳转查看服务订单。**
-
-![查看服务](https://static-ftcms.jd.com/p/files/6364e4419eabc0def83aa340.png)
-
-![查看服务](https://static-ftcms.jd.com/p/files/6364e4439eabc0def83aa341.png)
-
-![查看服务](https://static-ftcms.jd.com/p/files/6364e44520ee4c675e53d838.png)

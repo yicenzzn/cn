@@ -37,10 +37,12 @@ items:
   
 - name: 操作指导
   items:
+    - name: 购买指南
+      href: Operation-Guide/Purchase-Guide.md   
+    - name: 履约进度查询指南
+      href: Operation-Guide/View-Guide.md
     - name: 商标智能注册指南
       href: Operation-Guide/Intelligence-Guide.md
-    - name: 购买指南
-      href: Operation-Guide/Purchase-Guide.md
 
 
 
