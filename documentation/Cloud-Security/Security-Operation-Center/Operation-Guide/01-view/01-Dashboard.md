@@ -8,7 +8,7 @@
 
 ### 托管用户数统计&Top10安全评分账号
 
-![](/Users/chentongle/Documents/GitHub/cn/image/CSoC/CSoC-01-1-1.png)
+![](../../../../../image/CSoC/CSoC-01-1-1.png)
 
 直观展现当前托管用户的账号数量以及高、中、低风险分布；直观展现当前安全评分最低的10个账号。
 
