@@ -14,4 +14,4 @@
 
 **4、购买链接**
 
- [京东云·商标管家](https://www.jdcloud.com/cn/pages/shangbiaoguanjia)
+ [京东云·商标智能注册](https://qiye-console.jdcloud.com/page/trademarkRegister)
