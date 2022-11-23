@@ -1,6 +1,6 @@
 # 操作指南
 
-您可以通过京东云控制台快速了解操作审计服务。通过控制台，您可以查看近90天内的操作记录。
+您可以通过京东云控制台快速了解操作审计服务。通过控制台，您可以查看近180天内的操作记录。
 
 ## 注册与登录
 如果您还没完成京东云账户的注册，请先[注册](https://user.jdcloud.com/register)，注册完成后您需要进行实名认证，具体操作可参考[实名认证指引](https://docs.jdcloud.com/cn/real-name-verification/real-name-verification)。
