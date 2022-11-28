@@ -1,7 +1,10 @@
 # 商标智能注册步骤概览
 
-
-进入商标管家频道页，点击购买→填写商标信息→填写申请人信息→确认订单并支付→[查询订单履约进度](https://docs.jdcloud.com/cn/trademark-butler/view-guide)
+1、进入商标管家频道页，购买产品(https://docs.jdcloud.com/cn/trademark-butler/purchase-guide)
+2、填写商标信息
+3、填写申请人信息
+4、确认订单并支付
+5、[查询订单的履约进度](https://docs.jdcloud.com/cn/trademark-butler/view-guide)
 
 
 
