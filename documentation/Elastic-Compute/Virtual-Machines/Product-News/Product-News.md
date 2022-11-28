@@ -3,6 +3,8 @@
 
 | 功能名称 | 功能描述 | 发布时间 | 相关文档|
 | :---------------| :--------------|:------------|:--------
+|删除云主机支持同步删除弹性公网IP|删除云主机时，可选择同步删除绑在云主机上符合删除条件的弹性公网IP。|2022-11|[删除实例](https://docs.jdcloud.com/cn/virtual-machines/delete-instance)
+|购买历史功能上线|用户通过自定义创建完成购买后，将生成用户最近的历史购买记录，后续可指定历史购买记录快速复购云主机。|2022-11|[创建实例](https://docs.jdcloud.com/cn/virtual-machines/create-instance)
 |OpenEuler 21.09（x86）镜像发布|基于x86架构的OpenEuler 21.09 镜像在全部地域发布上线。|2022-09|[镜像类型](https://docs.jdcloud.com/cn/virtual-machines/image-type)
 |基于ARM架构飞腾服务器的云主机实例上线|基于2.1 GHz的 PHYTIUM S2500 处理器，提供通用标准、计算优化、内存优化等各类实例规格，适用于信创相关互联网应用和企业级应用。|2022-06|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family#user-content-9)
 |云事件支持本地数据盘实例的故障通知|自带本地数据盘的实例规格（如存储优化型、部分GPU型）在本地盘发生故障时，系统会向云事件发送通知，可通过订阅云事件及时获知。|2022-06|[云主机事件通知](https://docs.jdcloud.com/cn/virtual-machines/event-overview)
