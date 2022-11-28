@@ -44,6 +44,10 @@ items:
             herf: Instance/open.md
           - name: queryInstance
             herf: Instance/queryInstance.md
+          - name: queryTypeInstance
+            herf: Instance/queryTypeInstance.md
+          - name: checkInstance
+            herf: Instance/checkInstance.md
 
       - name: 个人SQL操作
         items:
