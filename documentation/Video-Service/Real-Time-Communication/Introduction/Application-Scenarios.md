@@ -42,4 +42,4 @@
 网络研讨会：支持参与者多语言互动，打破时空及语言的限制。为各大企业、学术界构建一个超高体验的线上互动平台
 
 
-![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%9C%A8%E7%BA%BF%E5%8C%BB%E7%96%97.jpg)
+![互联网医疗.jpg](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E7%BD%91%E7%BB%9C%E7%A0%94%E8%AE%A8%E4%BC%9A.jpg)
