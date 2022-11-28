@@ -44,7 +44,7 @@
 
   [京东云·商标转让](https://qifu-console.jdcloud.com/sbzr/create)
 
-## 三、商标续展
+## 商标续展
 
 **1、产品介绍**
 
