@@ -1,4 +1,4 @@
-## 一、商标撤三申请
+## 商标撤三申请
 
 **1、产品介绍**
 
@@ -18,7 +18,7 @@
 
   [京东云·商标撤三申请](https://qifu-console.jdcloud.com/sbcssq/create)
 
-## 二、商标异议申请
+## 商标异议申请
 
 **1、产品介绍**
 
@@ -39,7 +39,7 @@
  [京东云·商标异议申请](https://qifu-console.jdcloud.com/sbyysq/create)
 
 
-## 三、商标无效宣告
+## 商标无效宣告
 
 **1、产品介绍**
 
@@ -59,7 +59,7 @@
  [京东云·商标无效宣告](https://qifu-console.jdcloud.com/sbwxxg/create)
 
 
-## 四、商标驳回复审
+## 商标驳回复审
 
 **1、产品介绍**
 
