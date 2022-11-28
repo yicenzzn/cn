@@ -8,7 +8,7 @@
 
 4、确认订单并支付：见步骤三
 
-5、查询订单的履约进度：操作步骤请参见[履约进度查询指南。](https://docs.jdcloud.com/cn/trademark-butler/view-guide)
+5、查询订单的履约进度：操作步骤请参见[履约进度查询指南](https://docs.jdcloud.com/cn/trademark-butler/view-guide)。
 
 
 
