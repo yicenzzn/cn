@@ -12,12 +12,11 @@ items:
       - name: 应用场景
         href: Introduction/Application-Scenarios.md
       - name: 用户角色介绍
-        items:     
- 	  - name: 系统角色
-            href: Operation-Guide/system-role.md
-          - name: 查看我的系统角色
-            href: Operation-Guide/my-system-role.md
-
+        items:    
+        - name: 系统角色 
+          href: Operation-Guide/system-role.md
+        - name: 查看我的系统角色
+          href: Operation-Guide/my-system-role.md
   - name: 操作指南
     items:
       - name: 登录数据库

@@ -1,4 +1,4 @@
-## 一、商标变更
+## 商标变更
 
 **1、产品介绍**
 
@@ -24,7 +24,7 @@
 
   [京东云·商标变更](https://qifu-console.jdcloud.com/sbbg/create)
 
-## 二、商标转让
+## 商标转让
 
 **1、产品介绍**
 
@@ -44,7 +44,7 @@
 
   [京东云·商标转让](https://qifu-console.jdcloud.com/sbzr/create)
 
-## 三、商标续展
+## 商标续展
 
 **1、产品介绍**
 

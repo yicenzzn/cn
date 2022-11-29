@@ -3,7 +3,7 @@
 “我的应用”可以查看用户权限范围内的已接入的应用详情，包括版本、监控数（节点数）、创建时间等重要信息。
 
 ![](../../image/Operation-Guide/Applications/Applications1.png)
- 
+
 **应用基本信息**
 
 - 应用：已接入的应用名称；
@@ -35,7 +35,7 @@
 “应用属性”可以配置应用发送日志的模式以及应用监控的内容等选项。
 
 ![](../../image/Operation-Guide/Applications/Applications2.png)
- 
+
 - 成功返回码：配置返回码值为多少表示失败(支持正则表达式)，如1111表示失败，此处填写1111，多个用“|”分隔，支持正则。
 
 - 返回码路径：配置方法返回码路径，即哪个字段表示成功，如果返回码是原始数据类型（int，string等）或者是系统定义的默认返回码字段中的一个。（responseCode, retCode, errorCode, resultCode, code, CODE），此处无需配置。配置方式如下：如果返回对象中的ret字段表示返回码，此处填写ret即可，如果返回对象是个复合对象，对象中ret也是个对象，ret中的code字段表示返回码，此处填写ret/code,以此类推。
@@ -71,7 +71,7 @@
 “底层监控”跳转到“应用监控”下的“底层监控配置”页面。
 
 ![](../../image/Operation-Guide/Applications/Applications3.png)
- 
+
 从接入列表这里进入的是针对某一个指定应用的底层监控，一般是cache、db等的调用，单独设置采样阈值和启用状态（这里单独设置的采样阈值不能小于全局默认的采样阈值），这样设置完之后，这类型的方法将会与其他普通方法监控区分开来，报警的阈值也会单独处理。“状态”列会有默认缺省状态，使用时根据实际要求修改即可。
 
 **应用概览**
@@ -81,11 +81,11 @@
 “应用概览”菜单将应用的整体概览集成在一个页面中，比如容量水位、健康度、TPS曲线等。
 
 ![](../../image/Operation-Guide/Applications/Applications4.png)
- 
+
 上图中，“调用查询”、“调用来源”、“图表监控”、“监控配置”和“实例监控”分别跳转到[方法调用查询](../App-Monitor/Log-Search.md)、[调用来源](../App-Monitor/Remote-Invoke.md)、[性能监控图表](../App-Monitor/Chart.md)、[监控方法配置](../App-Monitor/Monitoring-Configuration.md)、[进程实例监控](../App-Monitor/Instance-Monitoring.md)，详细可查看对应文档中的介绍，这里只对“监控大屏”进行详细介绍。
 
 ![](../../image/Operation-Guide/Applications/Applications5.png)
- 
+
 - 今日访问量：实时显示当日总调用量，每增加1亿次调用页面会展示烟花效果。
 
 - 调用关系拓扑：拓扑图分为三个区域，左上区域展示所有来源应用的名称、TPS、TP99,右上区域展示所有远端应用的名称、TPS、TP99，中下区域展示DB、Log、Redis等底层的TPS、AVG值。
@@ -105,15 +105,15 @@
 回到“应用概览”页。
 
 ![](../../image/Operation-Guide/Applications/Applications6.png)
- 
+
 上图中顶部各标签页上的数值除告警和健康状况外都是近一分钟的数值，告警默认显示近1小时的告警总数，健康度默认显示近两小时的健康状况。
 
 ![](../../image/Operation-Guide/Applications/Applications7.png)
- 
+
 应用健康度是根据应用的平均响应时间、异常率、容量、日志四个维度指标数据综合计算出来的，在上图中以雷达图的形式进行呈现，在这里可以看到每一项健康评估项的权重、对应总分、实际得分，如果某些评分项有扣分，可以在“扣分详情”栏中展示扣分的原因，鼠标悬浮时浮层展示完整信息，点击扣分项后边的查看按钮，可以快速跳转对对应问题的分析页面，定位健康受损的原因并予以处理，减少故障处理时间。
 
 ![](../../image/Operation-Guide/Applications/Applications8.png)
- 
+
 上图展示“我的应用”的方法列表，顶部提供多种要素的搜索功能，“操作”列支持跳转到“调用查询”和方法的“方法监控配置”。
 
 ![](../../image/Operation-Guide/Applications/Applications9.png)
@@ -122,4 +122,5 @@
 
 ![](../../image/Operation-Guide/Applications/Applications10.png)
 
-上图按“应用”“服务”“方法”分别显示告警配置，可直接在“操作”列修改、删除或者暂停/启动告警配置，如果想添加告警配置，点击右上角“+”即可。具体的告警配置规则可查看[添加告警配置](../Alarm/Add-Alarm.md)中的详细介绍。
+上图按“应用”“服务”“方法”分别显示告警配置，可直接在“操作”列修改、删除或者暂停/启动告警配置，如果想添加告警配置，点击右上角“+”即可。具体的告警配置规则可查看[添加告警配置](../Alarm/Method-Alarm.md)中的详细介绍。
+
