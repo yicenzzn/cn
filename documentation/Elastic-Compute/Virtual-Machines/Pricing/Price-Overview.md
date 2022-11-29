@@ -2370,7 +2370,7 @@
       <td>1*1/2 P40 </td>   
     </tr>  
    <tr>
-      <td rowspan="4">裸金属</td>
+      <td rowspan="6">裸金属</td>
       <td>通用</td>
       <td>g.n2.metal</td>
       <td>80</td>
@@ -2382,7 +2382,27 @@
       <td> </td>
    </tr>   
    <tr>
-      <td>安全增强内存优化</td>
+      <td  rowspan="3">内存优化标准</td>
+      <td>m.n4.metal</td>
+      <td>128</td>
+      <td>1024</td>
+      <td>21387.92</td>
+      <td>21387.92</td>
+      <td>44.56</td>
+      <td>44.56</td>
+      <td></td>   
+   </tr>    
+   <tr>
+      <td>m.n4f.metal</td>
+      <td>128</td>
+      <td>1024</td>
+      <td>21387.92</td>
+      <td>21387.92</td>
+      <td>44.56</td>
+      <td>44.56</td>
+      <td></td>   
+   </tr> 
+   <tr>
       <td>m.n4ft.metal</td>
       <td>128</td>
       <td>1024</td>
