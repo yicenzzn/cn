@@ -33,9 +33,7 @@ VNC登陆的场景至少包括以下几种：
 * 无法通过远程登录软件或密钥登录时，通过 VNC 登陆来登录实例。
 
 1. 在实例列表的操作列，点击**远程连接**即可通过 VNC 连接至Linux实例。
-
-<div align="center">
-<img src="https://img1.jcloudcs.com/cn/image/vm/Getting-Start-Linux-Connect-console.png" width="700">
+![sdsd](../../../../image/Elastic-Compute/Virtual-Machine/11291.png)
 </div>
 
 2. 点击VNC之后进入到登录页面
