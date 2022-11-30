@@ -9,3 +9,5 @@
 ![image](https://user-images.githubusercontent.com/103625856/204701586-5d5938a0-8e2e-4fa1-a7df-6c8cb30158ad.png)<br>
 2、选择“云电脑池管理”菜单，在列表中找到需要续费的云电脑池，点击“更多”，在下拉选项中选择“批量续费”，为云电脑池内所有云电脑进行续费；<br>
 ![image](https://user-images.githubusercontent.com/103625856/204701689-a3f4ec42-76cf-4276-b178-fe405712f2e0.png)<br>
+3、选择“云电脑池管理”菜单，在列表“操作”中点击“更多”，在下拉选项中选择“详情”，在详情页中选择“云电脑信息”，在“操作”中点击“续费”，为云电脑池内的云电脑分别续费；<br>
+![image](https://user-images.githubusercontent.com/103625856/204704435-361bf415-67fa-4c89-94bd-1e0a8f01e7c1.png)
