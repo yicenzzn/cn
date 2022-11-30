@@ -27,7 +27,7 @@
       <td>华东-宿迁</td>    
    </tr>
    <tr>
-      <td rowspan="59">通用</td>
+      <td rowspan="58">通用</td>
       <td rowspan="14">共享</td>
       <td>g.s3.micro</td>
       <td>1</td>
@@ -169,7 +169,7 @@
       <td></td>
    </tr>
    <tr>
-      <td rowspan="45">标准</td>
+      <td rowspan="44">标准</td>
       <td>g.n4.medium</td>
       <td>1</td>
       <td>4</td>
@@ -267,15 +267,6 @@
       <td>8037.12</td>
       <td>16.74</td>
       <td>16.74</td>
-      <td></td>
-   </tr>
-   <td>g.n4.18xlarge</td>
-      <td>72</td>
-      <td>288</td>
-      <td>9041.76</td>
-      <td>9041.76</td>
-      <td>18.84</td>
-      <td>18.84</td>
       <td></td>
    </tr>
    <tr>
@@ -619,7 +610,7 @@
       <td></td>
    </tr>
    <tr>
-      <td rowspan="61">计算优化</td>
+      <td rowspan="60">计算优化</td>
       <td rowspan="6">共享</td>
       <td>c.s3.large</td>
       <td>2</td>
@@ -783,7 +774,7 @@
       <td></td>
    </tr>
    <tr>
-      <td rowspan="45">标准</td>
+      <td rowspan="44">标准</td>
       <td>c.n4.large</td>
       <td>2</td>
       <td>4</td>
@@ -871,16 +862,6 @@
       <td>6262.26</td>
       <td>13.05</td>
       <td>13.05</td>
-      <td></td>
-   </tr>
-   <tr>
-      <td>c.n4.18xlarge</td>
-      <td>72</td>
-      <td>144</td>
-      <td>7045.04</td>
-      <td>7045.04</td>
-      <td>14.68</td>
-      <td>14.68</td>
       <td></td>
    </tr>
    <tr>
