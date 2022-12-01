@@ -3,7 +3,220 @@
 
 注：为保证您获取价格准确性，请登录后查看。
 
-1.原生容器实例和原生容器Pod所有地域均支持创建二代实例规格类型的资源。
+1.原生容器实例和原生容器Pod所有地域均支持创建二代和三代实例规格类型的资源。
+**第三代容器实例规格价格**：
+
+<table>
+   <tr>
+      <td rowspan="2" colspan="2">实例类型</td>
+      <td rowspan="2">实例规格</td>
+      <td colspan="2">配置</td>
+      <td rowspan="2">包月价格（元）</td>
+      <td rowspan="2">按配置计费（元/时）</td>
+   </tr>
+   <tr>
+   <td>vCPU</td>
+      <td>内存（GB）</td>      
+   </tr>
+   <tr>
+      <td rowspan="8">通用</td>
+      <td rowspan="8">标准</td>
+      <td>g.n3.medium</td>
+      <td>1</td>
+      <td>4</td>
+      <td>120</td>
+      <td>0.25</td>
+   </tr>
+   <tr>
+      <td>g.n3.large</td>
+      <td>2</td>
+      <td>8</td>
+      <td>240</td>
+      <td>0.5</td>
+   </tr>
+   <tr>
+      <td>g.n3.xlarge</td>
+      <td>4</td>
+      <td>16</td>
+      <td>480</td>
+      <td>1</td>
+   </tr>
+   <tr>
+      <td>g.n3.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>960</td>
+      <td>2</td>
+   </tr>
+   <tr>
+     <td>g.n3.4xlarge</td>
+      <td>16</td>
+      <td>64</td>
+      <td>1440</td>
+      <td>3</td>
+   </tr>
+   <tr>
+     <td>g.n3.6xlarge</td>
+      <td>24</td>
+      <td>96</td>
+      <td>2880</td>
+      <td>6</td>
+   </tr>
+   <tr>
+     <td>g.n3.8xlarge</td>
+      <td>32</td>
+      <td>128</td>
+      <td>3840</td>
+      <td>8</td>
+   </tr>
+   <tr> 
+      <td>g.n3.12xlarge</td>
+      <td>48</td>
+      <td>192</td>
+      <td>5760</td>
+      <td>12</td>
+   </tr>
+   <tr>
+      <td rowspan="7">计算优化</td>
+      <td rowspan="7">标准</td>
+      <td>c.n2.large</td>
+      <td>2</td>
+      <td>4</td>
+      <td>168</td>
+      <td>0.000164</td>
+   </tr>
+   <tr>
+     <td>c.n2.xlarge</td>
+      <td>4</td>
+      <td>8</td>
+      <td>364</td>
+      <td>0.000327</td>
+   </tr>
+   <tr>
+     <td>c.n2.2xlarge</td>
+      <td>8</td>
+      <td>16</td>
+      <td>716</td>
+      <td>0.000654</td>
+   </tr>
+   <tr>
+      <td>c.n2.4xlarge</td>
+      <td>16</td>
+      <td>32</td>
+      <td>1432</td>
+      <td>0.001311</td>
+   </tr>
+   <tr>
+     <td>c.n2.8xlarge</td>
+      <td>32</td>
+      <td>64</td>
+      <td>2864</td>
+      <td>0.002623</td>
+   </tr>
+   <tr>
+     <td>c.n2.16xlarge</td>
+      <td>64</td>
+      <td>128</td>
+      <td>5728</td>
+      <td>0.005249</td>
+   </tr>
+   <tr>
+     <td>c.n2.18xlarge</td>
+      <td>72</td>
+      <td>144</td>
+      <td>6444</td>
+      <td>0.005904</td>
+   </tr>
+   <tr> 
+      <td rowspan="7">内存优化</td>
+      <td rowspan="7">标准</td>
+      <td>m.n2.large</td>
+      <td>2</td>
+      <td>16</td>
+      <td>309.7</td>
+      <td>0.000298</td>
+   </tr>
+   <tr>
+     <td>m.n2.xlarge</td>
+      <td>4</td>
+      <td>32</td>
+      <td>619.4</td>
+      <td>0.000596</td>
+   </tr>
+   <tr>
+      <td>m.n2.2xlarge</td>
+      <td>8</td>
+      <td>64</td>
+      <td>1238.8</td>
+      <td>0.001196</td>
+   </tr>
+   <tr>
+      <td>m.n2.4xlarge</td>
+      <td>16</td>
+      <td>128</td>
+      <td>2477.6</td>
+      <td>0.002391</td>
+   </tr>
+   <tr>
+      <td>m.n2.8xlarge</td>
+      <td>32</td>
+      <td>256</td>
+      <td>4955.2</td>
+      <td>0.004779</td>
+   </tr>
+    <tr>
+      <td>m.n2.16xlarge</td>
+      <td>64</td>
+      <td>512</td>
+      <td>9910.4</td>
+      <td>0.009558</td>
+   </tr>
+    <tr>
+      <td>m.n2.18xlarge</td>
+      <td>72</td>
+      <td>576</td>
+      <td>11149.2</td>
+      <td>0.010753</td>
+   </tr>
+   <tr>
+      <td rowspan="5">高频计算</td>
+      <td rowspan="5">通用</td>
+      <td>h.g2.large</td>
+      <td>2</td>
+      <td>8</td>
+      <td>332</td>
+      <td>0.000303</td>
+   </tr>
+   <tr>
+     <td>h.g2.xlarge</td>
+      <td>4</td>
+      <td>16</td>
+      <td>664</td>
+      <td>0.000609</td>
+   </tr>
+   <tr>
+      <td>h.g2.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>1328</td>
+      <td>0.001217</td>
+   </tr>
+   <tr>
+     <td>h.g2.4xlarge</td>
+      <td>16</td>
+      <td>64</td>
+      <td>2656</td>
+      <td>0.002433</td>
+   </tr>
+   <tr>
+     <td>h.g2.8xlarge</td>
+      <td>32</td>
+      <td>128</td>
+      <td>5312</td>
+      <td>0.004866</td>
+   </tr>
+   <tr>
+</table>
 
 **第二代容器实例规格价格**：
 
