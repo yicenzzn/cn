@@ -2,7 +2,7 @@
 
 
 ## 描述
-生成数据
+生成数据，支持Mysql，Stardb
 
 ## 请求方式
 POST
@@ -27,6 +27,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/console:generalData
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](consolegeneraldata#result)| |
+|**requestId**|[String](consolegeneraldata#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
@@ -51,6 +52,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/console:generalData
 |**affectCount**|Integer|查询到sql条数或影响行数。|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

@@ -7,10 +7,16 @@ items:
         href: Introduction/Product-Overview.md
       - name: 产品优势
         href: Introduction/Benefits.md
-      - name: 产品功能
+      - name: 支持的数据库类型与功能
         href: Introduction/Features.md
       - name: 应用场景
         href: Introduction/Application-Scenarios.md
+      - name: 用户角色介绍
+        items:    
+        - name: 系统角色 
+          href: Operation-Guide/system-role.md
+        - name: 查看我的系统角色
+          href: Operation-Guide/my-system-role.md
   - name: 操作指南
     items:
       - name: 登录数据库
@@ -20,9 +26,9 @@ items:
       - name: 表管理
         items:
           - name: 表操作
-          - href: Operation-Guide/table-management.md	
+            href: Operation-Guide/table-management.md	
           - name: 分布式建表
-          - href: Operation-Guide/Distributed-table-creation.md
+            href: Operation-Guide/Distributed-table-creation.md
       - name: 数据导入导出
         items:
           - name: 数据导入
@@ -33,4 +39,22 @@ items:
         items:
           - name: 视图管理
             href: Operation-Guide/view-management.md
+          - name: 存储过程管理
+            href: Operation-Guide/procedure-management.md
+          - name: 函数管理
+            href: Operation-Guide/function-management.md
+          - name: 触发器管理
+            href: Operation-Guide/trigger-management.md
+          - name: 事件管理
+            href: Operation-Guide/event-management.md
+      - name: 基础管理
+        items:
+          - name: 用户管理
+            href: Operation-Guide/user-management.md
+          - name: 我的权限
+            href: Operation-Guide/my-authority.md
+  - name: 常见问题
+    items:
+      - name: 角色/权限
+        href: FAQ/role-authority.md
        

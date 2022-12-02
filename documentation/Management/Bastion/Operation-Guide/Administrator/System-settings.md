@@ -18,37 +18,41 @@ SSH最大空闲时间：超过最大空闲时间没有任何操作，将自动�
 
 点击开启零信任，则弹出指导页面，如下图。
 
-![](/image/Bastion/security1.png) 
+![](/image/Bastion/security10.png) 
 
 a.**注意事项：**
 
-京东云堡垒机的零信任模型暂时仅支持Chrome浏览器，通过安装浏览器扩展插件的方式进行终端绑定。您需要在开启前记录堡垒机实例中管理员的AccessKey及SecretKey，并配置到浏览器扩展插件中。
+京东云堡垒机的零信任模型支持Chrome浏览器、Windows、Mac版本，通过安装浏览器扩展插件的方式进行终端绑定。您需要在开启前记录堡垒机实例中管理员的AccessKey及SecretKey，并配置到浏览器扩展插件中。
 
 b.**插件安装：**
 
 - 步骤一: 点击下载零信任插件并解压到本地目录。
+- 步骤二: 
 
-- 步骤二: 在Chrome浏览器地址栏输入： chrome://extensions，点击按钮“加载已解压的扩展程序”，并选择刚刚解压的路径, 为了插件正常运行，不要删除此路径。
+     **Windows版**下载后直接安装，桌面会出现“京东云堡垒机”的扩展插件图标。
+             
+     **Mac版**下载后点击如下图，将“京东云堡垒机-零信任客户端.app”拖至“Applications"完成安装。
 
-![](/image/Bastion/security2.png) 
+     ![](/image/Bastion/security9.png) 
+     
+     **Chrome**在浏览器地址栏输入： chrome://extensions，点击按钮“加载已解压的扩展程序”，并选择刚刚解压的路径，为了插件正常运行，不要删除此路径；安装成功后，会出现“京东云堡垒机”的扩展插件图标。
 
-- 步骤三：安装成功后，会出现“京东云堡垒机”的扩展插件图标。
+     ![](/image/Bastion/security2.png) 
 
-![](/image/Bastion/security3.png) 
+     ![](/image/Bastion/security3.png) 
 
-- 步骤四：将需要运维的堡垒机地址，以及用户的AccessKey及SecretKey配置到扩展插件中，并设置为“启用”状态；后续登录堡垒机控制台则只能通过此处进入。
+- 步骤三：将需要运维的堡垒机地址，以及用户的AccessKey及SecretKey配置到扩展插件中，并设置为“启用”状态；后续登录堡垒机控制台则只能通过此处进入。
 
-![](/image/Bastion/security4.png) 
+     ![](/image/Bastion/security4.png) 
 
-配置信息： 
+         配置信息： 
+         - 堡垒机名称：堡垒机名称。
 
-堡垒机名称：堡垒机名称。
+         - 堡垒机地址：填写堡垒机实例域名
 
-堡垒机地址：填写堡垒机实例域名
+         - Accesskey ID：通过【用户管理】列表复制相关信息
 
-Accesskey ID：通过【用户管理】列表复制相关信息
-
-Access Key Secret：通过【用户管理】列表复制相关信息
+         - Access Key Secret：通过【用户管理】列表复制相关信息
 
 ## 存储管理
 

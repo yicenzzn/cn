@@ -27,6 +27,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/historyImportData
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](historyimportdata#result)| |
+|**requestId**|[String](historyimportdata#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
@@ -51,6 +52,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/historyImportData
 |**sqlType**|String|sql类型, CREATE("CREATE", 0), ALTER_DATA("ALTER_DATA", 1), ALTER_STRUCT("ALTER_STRUCT", 2), DROP("DROP", 4), CONSOLE("CONSOLE", 5), BATCH_CREATE("BATCH_CREATE", 6), IMPORT_DATA("IMPORT_DATA", 7), EXPORT_STRUCT_DATA("EXPORT_STRUCT_DATA", 8);|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

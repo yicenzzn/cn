@@ -20,9 +20,9 @@
         - name: MariaDB 产品规格
           href: Introduction/Specifications/MariaDB-Specifications.md
         - name: SQL Server 产品规格
-          href: Introduction/Specifications/SQL-Server-Specifications.md       
+          href: Introduction/Specifications/SQL-Server-Specifications.md
         - name: PostgreSQL 产品规格
-          href: Introduction/Specifications/PostgreSQL-Specifications.md       
+          href: Introduction/Specifications/PostgreSQL-Specifications.md
       - name: 限制说明
         items:
         - name: MySQL 限制说明
@@ -41,6 +41,8 @@
     items:
       - name: 计费概述
         href: Pricing/Billing-Overview.md
+      - name: 计费规则
+        href: Pricing/Billing-Rules.md
       - name: 价格总览
         items:
           - name: MySQL 价格
@@ -52,7 +54,7 @@
           - name: SQL Server 价格
             href: Pricing/Price-Overview/SQL-Server-Price.md
           - name: PostgreSQL 价格
-            href: Pricing/Price-Overview/PostgreSQL-Price.md            
+            href: Pricing/Price-Overview/PostgreSQL-Price.md
       - name: 购买流程
         href: Pricing/Purchase-Procedure.md
       - name: 变配
@@ -88,26 +90,26 @@
           - name: 开启外网访问
             href: Operation-Guide/Instance/Internet-Access.md
           - name: 调整实例配置
-            href: Operation-Guide/Instance/Modify-Instance-Spec.md            
+            href: Operation-Guide/Instance/Modify-Instance-Spec.md
           - name: 主备切换
             href: Operation-Guide/Instance/Failover-Instance.md
           - name: 版本升级
             href: Operation-Guide/Instance/Version-Upgrade.md
           - name: 域名切换
-            href: Operation-Guide/Instance/Exchanged-DNS.md          
+            href: Operation-Guide/Instance/Exchanged-DNS.md
           - name: 迁移可用区
-            href: Operation-Guide/Instance/Migrate-AZ.md 
+            href: Operation-Guide/Instance/Migrate-AZ.md
           - name: 配置目录服务
-            href: Operation-Guide/Instance/Modify-AD.md   
+            href: Operation-Guide/Instance/Modify-AD.md
           - name: 版本升级
-            href: Operation-Guide/Instance/Version-Upgrade.md         
+            href: Operation-Guide/Instance/Version-Upgrade.md
           - name: 重启实例
             items:
             - name: 重启 MySQL
               href: Operation-Guide/Instance/Reboot-Instance/MySQL-Restart-Instance.md
             - name: 重启 Percona
               href: Operation-Guide/Instance/Reboot-Instance/Percona-Restart-Instance.md
-            - name: 重启 MariaDB 
+            - name: 重启 MariaDB
               href: Operation-Guide/Instance/Reboot-Instance/MariaDB-Restart-Instance.md
             - name: 重启 SQL Server
               href: Operation-Guide/Instance/Reboot-Instance/SQLServer-Restart-Instance.md
@@ -117,7 +119,7 @@
   
       - name: 只读实例管理
         items:
-        - name: 创建只读简介
+        - name: 只读简介
           herf: Operation-Guide/Readonly-Instance-Management/Readonly-Instance.md
         - name: 创建只读实例
           herf: Operation-Guide/Readonly-Instance-Management/Create-Readonly-Instance.md
@@ -133,7 +135,7 @@
         - name: 只读代理外网访问
           herf: Operation-Guide/Readonly-Group/Internet-Access-RO.md
         - name: 修改只读代理
-          herf: Operation-Guide/Readonly-Group/Modify-ReadonlyGroup.md          
+          herf: Operation-Guide/Readonly-Group/Modify-ReadonlyGroup.md
 
       - name: 读写分离代理管理
         items:
@@ -230,7 +232,7 @@
               href: Operation-Guide/Backup/Restore-Instance/MariaDB-Backup-Restore.md
             - name: SQL Server 备份恢复
               herf: Operation-Guide/Backup/Restore-Instance/SQLServer-Backup-Restore.md
-              name: PostgreSQL通过控制台下载备份进行恢复
+            - name: PostgreSQL通过控制台下载备份进行恢复
               herf: Operation-Guide/Backup/Restore-Instance/PG-Backup-download-Restore.md
           - name: 根据备份创建
             items:
@@ -247,15 +249,15 @@
           - name: 根据时间点创建
             items:
             - name: SQL Server 根据时间点创建
-              herf: Operation-Guide/Backup/Create-To-Point-In-Time/SQLServer-Create-To-Point-In-Time.md                  
+              herf: Operation-Guide/Backup/Create-To-Point-In-Time/SQLServer-Create-To-Point-In-Time.md
             - name: MySQL 根据时间点创建
-              herf: Operation-Guide/Backup/Create-To-Point-In-Time/MySQL-Create-To-Point-In-Time.md                  
+              herf: Operation-Guide/Backup/Create-To-Point-In-Time/MySQL-Create-To-Point-In-Time.md
             - name: Percona 根据时间点创建
-              herf: Operation-Guide/Backup/Create-To-Point-In-Time/Percona-Create-To-Point-In-Time.md                  
+              herf: Operation-Guide/Backup/Create-To-Point-In-Time/Percona-Create-To-Point-In-Time.md
             - name: MariaDB 根据时间点创建
-              herf: Operation-Guide/Backup/Create-To-Point-In-Time/MariaDB-Create-To-Point-In-Time.md  
+              herf: Operation-Guide/Backup/Create-To-Point-In-Time/MariaDB-Create-To-Point-In-Time.md
             - name: PostgreSQL根据时间点创建
-              herf: Operation-Guide/Backup/Create-To-Point-In-Time/PostgreSQL-Create-To-Point-In-Time.md        
+              herf: Operation-Guide/Backup/Create-To-Point-In-Time/PostgreSQL-Create-To-Point-In-Time.md
           - name: 根据时间点恢复
             items:
             - name: MySQL 根据时间点恢复
@@ -279,20 +281,22 @@
         items:
         - name: 设置白名单
           href: Operation-Guide/Security/Set-Whitelist.md
-        - name: 透明数据加密 TDE
+        - name: SQL Server设置透明数据加密 TDE
           href: Operation-Guide/Security/tde.md
-        - name: MySQL 配置 SSL 证书 
+        - name: MySQL设置透明数据加密 TDE
+          href: Operation-Guide/Security/MySQL-TDE.md
+        - name: MySQL 配置 SSL 证书
           href: Operation-Guide/Security/Configure-SSL.md
-        - name: PostgreSQL 配置 SSL 证书 
-          href: Operation-Guide/Security/PostgreSQL-Configure-SSL.md  
-        - name: SQL Server 配置 SSL 证书 
-          href: Operation-Guide/Security/SQLServer-Configure-SSL.md         
+        - name: PostgreSQL 配置 SSL 证书
+          href: Operation-Guide/Security/PostgreSQL-Configure-SSL.md
+        - name: SQL Server 配置 SSL 证书
+          href: Operation-Guide/Security/SQLServer-Configure-SSL.md
           
       - name: SQL Server 单库上云
         items:
         - name: 单库上云简介
           href: Operation-Guide/Data-To-Cloud/Data-To-Cloud-Introduction.md
-        - name: 从上传文件导入  
+        - name: 从上传文件导入
           items:
           - name: 一 本地备份
             href: Operation-Guide/Data-To-Cloud/Backup-Local-Database.md
@@ -322,7 +326,7 @@
            href: Operation-Guide/Parameter-Group/Delete-Parameter-Group.md
          - name: 修改参数
            href: Operation-Guide/Parameter-Group/Modify-Parameter.md
-         - name: 修改历史 
+         - name: 修改历史
            href: Operation-Guide/Parameter-Group/Parameter-Group-History.md
           
       - name: 审计
@@ -342,11 +346,11 @@
           - name: 编辑审计
             href: Operation-Guide/Audit/SQL-Server-Audit/Edit-Audit.md
           - name: 关闭审计
-            href: Operation-Guide/Audit/SQL-Server-Audit/Disable-Audit.md  
+            href: Operation-Guide/Audit/SQL-Server-Audit/Disable-Audit.md
           - name: 下载审计结果
             href: Operation-Guide/Audit/SQL-Server-Audit/Dowload-Audit.md
           - name: 查看审计结果
-            href: Operation-Guide/Audit/SQL-Server-Audit/View-Audit-Result.md    
+            href: Operation-Guide/Audit/SQL-Server-Audit/View-Audit-Result.md
         - name: PostgreSQL 审计服务
           href: Operation-Guide/Audit/PostgreSQL-Audit-Service.md
  
@@ -357,7 +361,7 @@
         - name: SQL 性能统计
           href: Operation-Guide/Performance/SQL-Performance.md
         - name: 执行中的慢SQL
-          href: Operation-Guide/Performance/Active-Slow-SQL.md          
+          href: Operation-Guide/Performance/Active-Slow-SQL.md
         - name: 索引性能优化
           href: Operation-Guide/Performance/Index-Performance.md
 
@@ -370,12 +374,12 @@
         - name: 根据资源筛选
           herf: Operation-Guide/Tag/Search-Tag.md
         - name: 管理标签
-          herf: Operation-Guide/Tag/Manage-Tag.md       
+          herf: Operation-Guide/Tag/Manage-Tag.md
           
       - name: 监控报警
         items:
         - name: 查看监控信息
-          href: Operation-Guide/Monitor-Alarm/View-Monitor-Information.md          
+          href: Operation-Guide/Monitor-Alarm/View-Monitor-Information.md
         - name: 设置报警规则
           href: Operation-Guide/Monitor-Alarm/Set-Alarm-Rules.md
           
@@ -393,37 +397,51 @@
         items:
         - name: 日志管理
           items:
-          - name: MySQL 日志管理 
-            href: Operation-Guide/Log/Log-Management/MySQL-Log-Management.md   
-          - name: Percona 日志管理 
-            href: Operation-Guide/Log/Log-Management/Percona-Log-Management.md   
-          - name: MariaDB 日志管理 
-            href: Operation-Guide/Log/Log-Management/MariaDB-Log-Management.md   
-          - name: PostgreSQL 日志管理 
-            href: Operation-Guide/Log/Log-Management/PostgreSQL-Log-Management.md   
+          - name: MySQL 日志管理
+            href: Operation-Guide/Log/Log-Management/MySQL-Log-Management.md
+          - name: Percona 日志管理
+            href: Operation-Guide/Log/Log-Management/Percona-Log-Management.md
+          - name: MariaDB 日志管理
+            href: Operation-Guide/Log/Log-Management/MariaDB-Log-Management.md
+          - name: PostgreSQL 日志管理
+            href: Operation-Guide/Log/Log-Management/PostgreSQL-Log-Management.md
         - name: 日志下载
           items:
-          - name: MySQL 错误日志、慢日志下载 
-            href: Operation-Guide/Log/Log-Download/MySQL-Log-Download.md   
-          - name: Percona 错误日志、慢日志下载 
-            href: Operation-Guide/Log/Log-Download/Percona-Log-Download.md   
-          - name: MariaDB 错误日志、慢日志下载 
-            href: Operation-Guide/Log/Log-Download/MariaDB-Log-Download.md   
-          - name: PostgreSQL 日志下载 
-            href: Operation-Guide/Log/Log-Download/PostgreSQL-Log-Download.md   
-        - name: 慢日志 
-          href: Operation-Guide/Log/SlowLogs.md   
-        - name: 错误日志 
-          href: Operation-Guide/Log/ErrorLog.md  
+          - name: MySQL 错误日志、慢日志下载
+            href: Operation-Guide/Log/Log-Download/MySQL-Log-Download.md
+          - name: Percona 错误日志、慢日志下载
+            href: Operation-Guide/Log/Log-Download/Percona-Log-Download.md
+          - name: MariaDB 错误日志、慢日志下载
+            href: Operation-Guide/Log/Log-Download/MariaDB-Log-Download.md
+          - name: PostgreSQL 日志下载
+            href: Operation-Guide/Log/Log-Download/PostgreSQL-Log-Download.md
+        - name: 慢日志
+          href: Operation-Guide/Log/SlowLogs.md
+        - name: 错误日志
+          href: Operation-Guide/Log/ErrorLog.md
         
       - name:  PostgreSQL 插件 
         items:
         - name: PostgreSQL支持扩展
-          href: Operation-Guide/PostgreSQL-Extension/PostgreSQL-Extension.md         
-        - name: 使用s3_fdw插件将数据流转到OSS
+          href: Operation-Guide/PostgreSQL-Extension/PostgreSQL-Extension.md
+        - name: 读写外部数据文本文件（s3_fdw）
           href: Operation-Guide/PostgreSQL-Extension/S3_fdw.md
-        
-            
+        - name: 时序数据库（TimescaleDB）
+          href: Operation-Guide/PostgreSQL-Extension/timescaleDB.md
+        - name: 跨库操作（dblink、postgres_fdw）
+          href: Operation-Guide/PostgreSQL-Extension/dblink.md
+        - name: 字符串相似性判断（fuzzystrmatch）
+          href: Operation-Guide/PostgreSQL-Extension/fuzzystrmatch.md
+        - name: 定制执行计划（pg_hint_plan）
+          href: Operation-Guide/PostgreSQL-Extension/pg_hint_plan.md
+        - name: 清理表空间（pg_repack）
+          href: Operation-Guide/PostgreSQL-Extension/pg_repack.md
+        - name: 审计日志（pgAudit）
+          href: Operation-Guide/PostgreSQL-Extension/pgAudit.md
+        - name: UUID生成器（UUID-OSSP）
+          href: Operation-Guide/PostgreSQL-Extension/uuid.md
+
+
   - name: 最佳实践
     items:
     - name: 数据迁移
@@ -448,7 +466,7 @@
           href: Best-Practices/Data-Migration/Import-Data-Into-MariaDB-Instance/Local-to-MariaDB.md
         - name: 从云主机 MariaDB 导入
           href: Best-Practices/Data-Migration/Import-Data-Into-MariaDB-Instance/VM-to-MariaDB.md
-      - name: 导入 PostgreSQL 
+      - name: 导入 PostgreSQL
         items:
         - name: 从本地 PostgreSQL 导入
           href: Best-Practices/Data-Migration/Import-Data-Into-PostgreSQL-Instance/Local-to-PostgreSQL.md
@@ -460,14 +478,14 @@
         href: Best-Practices/Restore-Backup-To-Self-Built-Database/Restore-Backup-To-Self-Built-MySQL-Database.md
       - name: 将备份恢复到自建 Percona
         href: Best-Practices/Restore-Backup-To-Self-Built-Database/Restore-Backup-To-Self-Built-Percona-Database.md
-      - name: 将备份恢复到自建 MariaDB 
+      - name: 将备份恢复到自建 MariaDB
         href: Best-Practices/Restore-Backup-To-Self-Built-Database/Restore-Backup-To-Self-Built-MariaDB-Database.md
-      - name: 将备份恢复到自建 PostgreSQL 
+      - name: 将备份恢复到自建 PostgreSQL
         href: Best-Practices/Restore-Backup-To-Self-Built-Database/Restore-Backup-To-Self-Built-PostgreSQL-Database.md
     - name: 连接数据库实例
       items:
       - name: 连接实例
-        href: Best-Practices/Connect-Database-Instance/Connect-Instance.md  
+        href: Best-Practices/Connect-Database-Instance/Connect-Instance.md
       - name: 从客户端连接 SQL Server
         href: Best-Practices/Connect-Database-Instance/Client-Connect-SQLServer.md
       - name: 从云主机连接 SQL Server
@@ -476,39 +494,49 @@
         href: Best-Practices/Connect-Database-Instance/Connect-Instance-PostgreSQL.md
     - name: 升级数据库版本
       items:
-      - name: 升级数据库 MySQL 版本 
-        href: Best-Practices/Upgrade-Database-Version/Upgrade-MySQL.md 
-  - name: 教程 
+      - name: 升级数据库 MySQL 版本
+        href: Best-Practices/Upgrade-Database-Version/Upgrade-MySQL.md
+  - name: 教程
     items:
-    - name: 性能测试 
+    - name: 性能测试
       items:
-      - name: MySQL 性能测试 
+      - name: MySQL 性能测试
         items:
-        - name: 性能测试步骤 
+        - name: 性能测试步骤
           href: Tutorial/Performance-Test/MySQL-Performance-Test/MySQL-Performance-Test-Step.md
-        - name: 性能测试结果 
+        - name: 性能测试结果
           href: Tutorial/Performance-Test/MySQL-Performance-Test/MySQL-Performance-Test-Result.md
-      - name: PostgreSQL 性能测试 
+      - name: PostgreSQL 性能测试
         items:
-        - name: 性能测试步骤 
+        - name: 性能测试步骤
           href: Tutorial/Performance-Test/PostgreSQL-Performance-Test/Performance-Test-Step.md
-        - name: 性能测试结果 
+        - name: 性能测试结果
           href: Tutorial/Performance-Test/PostgreSQL-Performance-Test/Performance-Test-Result.md
   - name: 常见问题
     items:
-    - name: FAQ
-      href: FAQ/FAQ.md
-    - name: 存储引擎 
-      href: FAQ/Storage-Engine.md
-    - name: 存储空间
-      href: FAQ/Storage-Space.md
+    - name: 购买/付费
+      href: FAQ/Pay.md
+    - name: 连接访问/网络
+      href: FAQ/Connectivity-and-Network.md
+    - name: 备份
+      href: FAQ/Backups.md
+    - name: 只读实例
+      href: FAQ/Read-only-instance.md
+    - name: 性能/空间/内存
+      href: FAQ/Performance-Space-Memory.md
+    - name: 账号/权限
+      href: FAQ/Accoun-Authority.md
+    - name: 账数据库/表
+      href: FAQ/DB.md
+    - name: 参数
+      href: FAQ/Parameter.md
     - name: MFA支持
-      href: FAQ/MFA-Support.md      
+      href: FAQ/MFA-Support.md
   - name: 问题排查
     items:
     - name: 内存使用率
-      href: Troubleshooting/Memory-Use-Rate.md          
-    - name: 云数据库 MySQL 字符集编码问题 
+      href: Troubleshooting/Memory-Use-Rate.md
+    - name: 云数据库 MySQL 字符集编码问题
       href: Troubleshooting/Character-Encoding.md 
   - name: 相关资源
     items:

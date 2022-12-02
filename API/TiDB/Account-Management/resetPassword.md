@@ -2,7 +2,7 @@
 
 
 ## 描述
-创建数据库账号，用户可以使用客户端，应用程序等通过该账号和密码登录RDS数据库实例。
+重置 TiDB 实例的高权限账号的密码。
 
 ## 请求方式
 POST
@@ -14,7 +14,7 @@ https://tidb.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/accoun
 |---|---|---|---|---|
 |**regionId**|String|True| |地域代码|
 |**instanceId**|String|True| |实例ID|
-|**accountName**|String|True| |账号名，在同一个实例中账号名不能重复|
+|**accountName**|String|True| |账号名|
 
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|

@@ -6,7 +6,7 @@
 2、选择一级菜单“弹性计算”下的二级菜单“云电脑”。<br>
 ### 操作步骤
 1、进入云电脑管理后台，点击左侧功能栏 “用户管理”，进入用户管理页面。点击“创建用户”进入用户创建页面。<br>
-![image](https://user-images.githubusercontent.com/103625856/172799640-232f26d8-710c-40e4-bf4c-99bf048b429d.png)<br>
+![image](https://user-images.githubusercontent.com/103625856/190586211-49ffde7d-f6bf-4e1d-b004-2dec522912dc.png)<br>
 ![image](https://user-images.githubusercontent.com/103625856/172799826-6e81e6b5-5ba6-41ac-8653-3c06e14bba2b.png)<br>
 2、填写创建用户信息。<br>
 地域：当前支持选择“华北-北京”。<br>

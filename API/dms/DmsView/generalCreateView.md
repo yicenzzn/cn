@@ -1,14 +1,14 @@
-# generalAlterView
+# generalCreateView
 
 
 ## 描述
-生成修改视图sql语句
+生产创建视图SQL语句，支持Mysql
 
 ## 请求方式
 POST
 
 ## 请求地址
-https://dms.jdcloud-api.com/v1/regions/{regionId}/view:generalAlter
+https://dms.jdcloud-api.com/v1/regions/{regionId}/view:generalCreate
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
@@ -17,10 +17,9 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/view:generalAlter
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**dataSourceId**|Integer|True| |数据源id|
+|**dataSourceId**|Integer|True| |数据源id。|
 |**dbName**|String|True| |数据库名称。|
 |**viewName**|String|True| |视图名称。|
-|**originViewName**|String|True| |原始视图名称。|
 |**viewAlgorithm**|String|True| |视图算法，DEFAULT("DEFAULT", 1),UNDEFINED("UNDEFINED", 2), MERGE("MERGE", 3), TEMPTABLE("TEMPTABLE", 4);|
 |**definer**|String|False| |定义者。|
 |**viewSecurity**|String|True| |安全性，DEFAULT("DEFAULT", 1),DEFINER("DEFINER", 2), INVOKER("INVOKER", 3);|
@@ -31,13 +30,13 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/view:generalAlter
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](generalalterview#result)| |
-|**requestId**|[String](generalalterview#result)|请求id|
+|**result**|[Result](generalcreateview#result)| |
+|**requestId**|[String](generalcreateview#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**dmsSqls**|[DmsSql[]](generalalterview#dmssql)|生成sql。|
+|**dmsSqls**|[DmsSql[]](generalcreateview#dmssql)|生成sql。|
 ### <div id="dmssql">DmsSql</div>
 |名称|类型|描述|
 |---|---|---|

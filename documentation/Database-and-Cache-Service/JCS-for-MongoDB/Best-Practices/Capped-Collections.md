@@ -26,7 +26,7 @@ MongoDB固定集合(Capped collections)是固定大小的循环集合，遵循�
 
 ## 查询固定集合
 默认情况下，在固定集合上查询将以插入顺序显示结果。 但是，如果要以相反的顺序检索文档，请使用sort命令：
- 
+
     db.cappedCollection.find().sort( { $natural: -1 } )
 
 使用固定集合需要关注以下几点 ：

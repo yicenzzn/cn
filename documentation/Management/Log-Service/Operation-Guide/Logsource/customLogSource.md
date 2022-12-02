@@ -30,7 +30,45 @@
 
 8. 【采集实例】根据用户自身需求选择实例，或者对应的高可用组和标签。
 
-9. 如果用户的业务应用日志是多行日志，则需要设置首行正则匹配的规则；首行正则遵循 **POSIX Extended Regular Express** 正则表达式 ，示例如下：
+标签是在云主机实例上打的k-v标记，通过标签可以快速选择多个采集实例。
+
+a. 预设标签
+
+k8s集群已为集群内node打了集群ID的标签，可以直接使用。标签名称为 `kubernetes.jdcould.com/cluster_id`
+
+b. 自定义标签
+
+您可通过云主机管理，手动为实例创建标签，并在日志服务中选择使用，具体流程如下：
+
+- 进入云主机页面：https://cns-console.jdcloud.com/host/compute/list
+
+- 通过region，主机名称等筛选条件过滤需要采集日志的实例，参见下图标记1，2的位置。
+
+![](../../../../../image/LogService/operationguide/label1.png)
+
+- 选中实例，如上图标记3的位置。
+
+- 点击页面左下角的“更多”按钮，点击“编辑标签”，如下图所示。
+
+![](../../../../../image/LogService/operationguide/label2.png)
+
+- 在键和值中填写标签信息完成后，点击“确定”，即可添加对应的标签，如下图添加的logGroup=order-service
+
+![](../../../../../image/LogService/operationguide/label3.png)
+
+- 切换至共有云日志服务页面：https://logs-console.jdcloud.com/overview?dataCenter=cn-north-1
+
+- 选择日志主题，开始编辑日志主题采集配置，如下图步骤1，2所示。
+
+![](../../../../../image/LogService/operationguide/label4.png)
+
+
+- 编辑日志主题采集配置的采集实例，选择“标签”，在标签列表中选择对应的标签。
+
+![](../../../../../image/LogService/operationguide/label5.png)
+
+
+9.  如果用户的业务应用日志是多行日志，则需要设置首行正则匹配的规则；首行正则遵循 **POSIX Extended Regular Express** 正则表达式 ，示例如下：
    
    日志首行基本上以时间格式开头，如java异常堆栈日志数据
 
@@ -132,6 +170,89 @@
 可使用JDCloud Logback Appender将日志写入到京东云日志服务中，使用方法见[Github-JDCloud_logback_appender](https://github.com/JDCloudLogs/logback-appender)
 
 我们同时提供了高并发写日志的java类库，[配置方式](https://github.com/JDCloudLogs/log-producer)，[代码示例](https://github.com/JDCloudLogs/log-producer-sample)
+
+### 2.4 Binlog
+
+支持对云数据库MySQL的Binlog日志进行采集，其原理是日志服务探针将自己伪装为MySQL的一个Slave，接收主库同步的Binlog信息并进行存储、检索、展示。
+
+使用Binlog日志采集功能有一些限制条件，如下：
+
+- 不支持MySQL 8.0及以上版本。
+
+- MySQL必须开启Binlog，且Binlog必须为row模式。
+
+```
+# 查看是否开启Binlog
+mysql> show variables like "log_bin";
++---------------+-------+
+| Variable_name | Value |
++---------------+-------+
+| log_bin       | ON    |
++---------------+-------+
+1 row in set (0.02 sec)
+# 查看Binlog类型
+mysql> show variables like "binlog_format";
++---------------+-------+
+| Variable_name | Value |
++---------------+-------+
+| binlog_format | ROW   |
++---------------+-------+
+1 row in set (0.03 sec)
+```
+
+- ServerID唯一，即需要同步的MySQL的Slave ID唯一。
+
+- RDS限制
+
+   - 无法直接在RDS服务器上安装探针，您需要将探针安装在能连通RDS实例的服务器上。
+
+   - RDS备库不支持Binlog采集，您需要配置RDS主库进行采集。
+
+**Binlog日志采集配置**
+
+1. 登录日志服务控制台，点击【创建日志配置】，或进入指定日志集内，点击左侧导航栏中的【新建主题】。
+
+2. 完成日志集合日志主题设置。
+
+3. 点击【下一步】进入【日志源设置】页面。
+
+4. 日志来源选择【业务应用】。
+
+5. 日志源类型选择【Binlog】。
+
+6. 【采集状态】默认打开，用户也可以关闭。关闭后不采集日志。
+
+7. 【采集实例】需要从当前账号下的实例中选择一个，可通过地域进行筛选，这里选择的实例会自动安装探针，并将自己伪装成MySQL的一个Slave，接收主库同步的Binlog日志。需要注意的是，这里的实例需要与下方配置的数据库服务器地址在网络上可连通，否则无法成功采集数据。
+
+8. 【服务器地址】填写MySQL主机地址的域名或IP，该信息可在云数据库中查询到。
+
+9. 【端口号】填写MySQL服务的端口号，不填写时默认为3306。
+
+10. 【用户名】填写连接数据库的用户名，不配置时，默认为root。
+
+11. 【密码】填写连接数据库的密码，若没有设置密码，这里可为空。
+
+12. 【包含表名】填写需要采集Binlog的表名的正则表达式，该项为必填项，不能为空。这里需要匹配的格式是“数据库名.表名”，如果希望采集所有表，需要配置为`.*\..*`,如果需要完全匹配，需要在前面加上^，后面加上$。
+
+![](../../../../../image/LogService/operationguide/binlog_basic.png)
+
+**Binlog日志高级配置**
+
+1. 【ServerID】填写伪装为MySQL Slave的ID，不配置时，默认为125。
+
+2. 【排除表名】填写排除表名的正则表达式，这里需要排除的格式是“数据库名.表名”，系统不会采集被排除的表的Binlog日志。
+
+3. 【首次采集Binlog文件】填写首次采集Binlog文件的文件名，不配置时，默认从当前时间点开始采集。
+
+4. 【首次采集文件的偏移】填写首次采集Binlog文件内的偏移，不配置时，默认为0。
+
+5. 【采集类型】选择需要采集的Binlog日志的类型，默认采集insert、update、delete。
+
+6. 【text转换字符串】是否开启将text转换为字符串，默认不转换。这里的处理逻辑是，不开启转换时，text类型字段内容会被忽略；开启转换时，text类型字段内容会被转换为字符串，如果超过长度限制，会按照长度限制进行截断处理。
+
+7. 【编码方式】选择或填写字符编码方式，默认为utf8编码，如果系统提供的选中没有您需要的编码方式，也可以在选项中选择其他，之后在文本框中自定义填写。
+
+![](../../../../../image/LogService/operationguide/binlog_adv.png)
 
 ## 3. 注意事项
 
