@@ -820,6 +820,36 @@ items:
     href: NeuTest-SLA.md
   - name: 京东云-微电云产品服务协议
     href: Jdcloud-Emarketing.md
+  - name: 轻量云主机服务条款
+    href: Light-Virtual-Machine.md
+  - name: 云原生实时数仓Starwift服务条款
+    href: Cloud-Native-Data-Warehouse-Starwift.md 
+  - name: 京东云云销客服务条款
+    href: CloudCustomers.md
+  - name: 京东云云费控服务条款
+    href: CloudCostControl.md
+  - name: 京东云销售CRM服务条款
+    href: CloudCRM.md
+  - name: 京东云多端小程序服务条款
+    href: CloudMP.md
+  - name: 京东云WMS服务条款
+    href: CloudWMS.md
+  - name: 京东云云推广服务条款
+    href: CloudDT.md
+  - name: 京东云云互动服务条款
+    href: CloudInteraction.md
+  - name: 京东云云商机服务条款
+    href: CloudBO.md
+  - name: 京东云云订货服务条款
+    href: CloudOrder.md
+  - name: 京东云云微店服务条款
+    href: CloudMicroshop.md
+  - name: EDI经营许可证咨询代理服务条款
+    href: EDI-Terms-Of-Service.md
+  - name: ICP经营许可证咨询代理服务条款
+    href: ICP-Terms-Of-Service.md
+  - name: 企业安全云盘服务条款
+    href: Enterprise-Security-Cloud-Service-Clause.md
   - name: 伙伴云主机产品服务协议
     href: cloud-hosting-x-service-terms.md
   - name: 伙伴云主机服务等级协议（SLA）
