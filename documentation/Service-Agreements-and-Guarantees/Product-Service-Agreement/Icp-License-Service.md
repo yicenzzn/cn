@@ -1,4 +1,4 @@
-### <div align=center>  **人脸识别服务协议</div>
+### <div align=center>  人脸识别服务协议</div>
 
 
 
