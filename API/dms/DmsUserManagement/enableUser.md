@@ -14,9 +14,9 @@ https://dms.jdcloud-api.com/v1/management:enableUser
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**dmsUserEnableVOList**|[DmsUserEnableVO[]](#DmsUserEnableVO)|True| |启用/禁用的用户列表信息|
+|**dmsUserEnableVOList**|[DmsUserEnableVO[]](enableuser#dmsuserenablevo)|True| |启用/禁用的用户列表信息|
 
-### <div id="DmsUserEnableVO">DmsUserEnableVO</div>
+### <div id="dmsuserenablevo">DmsUserEnableVO</div>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**pin**|String|False| |用户pin。|
