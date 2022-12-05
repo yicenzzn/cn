@@ -1215,8 +1215,8 @@
       <td></td>
    </tr>
    <tr>
-      <td rowspan="43">内存优化</td>
-      <td rowspan="36">标准</td>
+      <td rowspan="42">内存优化</td>
+      <td rowspan="35">标准</td>
       <td>m.n4.large</td>
       <td>2</td>
       <td>16</td>
@@ -1447,16 +1447,6 @@
       <td></td>
    </tr>  
    <tr>
-      <td>m.n2.4xlarge</td>
-      <td>16</td>
-      <td>128</td>
-      <td>2477.6</td>
-      <td>1858.2</td>
-      <td>8.607</td>
-      <td>6.4</td>
-      <td></td>
-   </tr>
-    <tr>
       <td>m.n2a.large</td>
       <td>2</td>
       <td>16</td>
