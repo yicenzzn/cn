@@ -26,11 +26,11 @@ https://dms.jdcloud-api.com/v1/management:queryUserNotSync
 |**result**|[Result](#result)| |
 |**requestId**|[String](#result)|请求id|
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**total**|Integer|子账号总数量|
-|**subUserList**|[DmsSubUserVO[]](#dmssubuservo)|子用户列表信息|
+|**subUserList**|[DmsSubUserVO[]](#DmsSubUserVO)|子用户列表信息|
 ### <div id="DmsSubUserVO">DmsSubUserVO</div>
 |名称|类型|描述|
 |---|---|---|
