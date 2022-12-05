@@ -50,6 +50,41 @@
 
 6、直播观看模式：标准直播
 
+1.2分享链接
+1.2.1功能介绍按照不同角色获取直播间分享链接，进行直播。
+1.2.2使用教程第一步：进入功能界面【直播间管理-分享链接】
+
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+
+第二步：选择链接
+讲师：
+
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+
+观众：
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+
+助教：
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+
+1.3 直播间设置
+1.3.1功能介绍
+针对已创建的直播间进行基础设置修改操作。
+1.3.2使用教程
+第一步：进入功能界面【直播间管理-设置】
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+
+第二步：修改设置
+基本信息：针对创建直播间时的部分基础设置进行修改，参考上述步骤已有介绍。
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+
+
+
+
+
+
 
 
 
