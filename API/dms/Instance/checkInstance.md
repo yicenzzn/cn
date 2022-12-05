@@ -22,8 +22,8 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:check
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**error**|[Error](#error)| |
-|**requestId**|[String](#error)|请求id|
+|**error**|[Error](checkinstance#error)| |
+|**requestId**|[String](checkinstance#error)|请求id|
 
 ### <div id="error">Error</div>
 |名称|类型|描述|
