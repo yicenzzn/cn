@@ -21,7 +21,7 @@ https://dms.jdcloud-api.com/v1/management:getUserInfo
 |**result**|[Result](#result)| |
 |**requestId**|[String](#result)|请求id|
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**isMaster**|Boolean|是否是主账号|
