@@ -18,8 +18,8 @@ https://dms.jdcloud-api.com/v1/management:getUserInfo
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)| |
-|**requestId**|[String](#result)|请求id|
+|**result**|[Result](getuserinfo#result)| |
+|**requestId**|[String](getuserinfo#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|

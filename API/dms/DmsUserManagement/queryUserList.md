@@ -26,14 +26,14 @@ https://dms.jdcloud-api.com/v1/management:queryUserList
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)| |
-|**requestId**|[String](#result)|请求id|
+|**result**|[Result](queryuserlist#result)| |
+|**requestId**|[String](queryuserlist#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**count**|Integer|符合条件的用户的总数|
-|**dmsUserVOList**|[DmsUserVO[]](#dmsuservo)| |
+|**dmsUserVOList**|[DmsUserVO[]](queryuserlist#dmsuservo)| |
 ### <div id="dmsuservo">DmsUserVO</div>
 |名称|类型|描述|
 |---|---|---|

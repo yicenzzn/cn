@@ -17,9 +17,9 @@ https://dms.jdcloud-api.com/v1/management:authPrivilege
 |**pinList**|String[]|True| |用户pin列表信息|
 |**privilegeName**|String|True| |权限名称,枚举值：PrivilegeLogin(实例登录权限)|
 |**expireDate**|String|True| |授权过期时间(yyyy-MM-dd'T'HH:mm:ss.SSS'Z')|
-|**dmsPrivilegeInstanceParamList**|[DmsPrivilegeInstanceParam[]](#DmsPrivilegeInstanceParam)|True| |授权实例的信息，主要包括用户实例ID和实例名称|
+|**dmsPrivilegeInstanceParamList**|[DmsPrivilegeInstanceParam[]](authprivilege#dmsprivilegeinstanceparam)|True| |授权实例的信息，主要包括用户实例ID和实例名称|
 
-### <div id="DmsPrivilegeInstanceParam">DmsPrivilegeInstanceParam</div>
+### <div id="dmsprivilegeinstanceparam">DmsPrivilegeInstanceParam</div>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**instanceId**|String|True| |实例Id。|
