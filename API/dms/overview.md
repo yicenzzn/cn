@@ -37,7 +37,9 @@ v1
 |**open**|POST|打开实例|
 |**openTable**|POST|执行sql语句|
 |**queryInstance**|POST|查询用户实例|
+|**queryTypeInstance**|POST|查询用户数据类型实例|
 |**queryPersonalSqls**|POST|获取当前实例用户收藏sql|
+|**checkInstance**|GET|校验用户是否有实例权限|
 |**sqlTableInfo**|POST|获取sql中建表语句，表中列信息|
 |**tableInfo**|POST|获取表元数据|
 |**tableList**|POST|获取数据库中的表列表|
@@ -69,7 +71,19 @@ v1
 |**generalDropTrigger**|POST|生成删除触发器sql语句|
 |**triggerList**|POST|获取触发器列表|
 |**triggerInfo**|POST|获取触发器详情|
-
+|**dmsConsoleCheck**|GET|校验当前的用户是否允许访问DMS控制台并同步主账号|
+|**getUserInfo**|GET|获取用户信息|
+|**queryUserList**|POST|获取用户列表|
+|**queryUserNotSync**|POST|获取未同步子账号|
+|**syncSubUser**|POST|同步子账号|
+|**enableUser**|POST|启用/禁用用户|
+|**updateUserInfo**|POST|更新用户信息|
+|**deleteUser**|POST|删除用户|
+|**queryPrivilegeList**|POST|获取用户授权信息列表|
+|**queryPrivilegeSelfList**|POST|获取当前用户授权信息列表|
+|**authPrivilege**|POST|实例授权|
+|**releasePrivilege**|POST|释放实例授权|
+|**modifyPrivilegeExpireDate**|POST|修改权限到期时间|
 
 
 
