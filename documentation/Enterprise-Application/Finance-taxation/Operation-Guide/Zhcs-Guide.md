@@ -18,6 +18,7 @@
 ## 步骤二：日常使用
 
 1、申报税款
+
 ![申报税款](https://static-ftcms.jd.com/p/files/638db461e1fec54ed5df7b42.jpg)
 
 2、录入发票
