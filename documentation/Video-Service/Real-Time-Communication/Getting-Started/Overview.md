@@ -14,3 +14,17 @@
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
 
+第二部：编辑直播间基本信息
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+操作说明：
+1、直播间名称：需40个字符以内
+2、直播间模板： 模板将决定客户端与观看端页面的功能与布局，系统提供了2种模式共6套模板，不同模板包含不同的功能模块。
+2.1、大屏模式：
+适用于视频为主的直播，主要用于大会直播场景，系统提供了4套模板
+1）视频
+2）视频+聊天+问答
+3）视频+聊天
+4）视频+问答
+
+
+
