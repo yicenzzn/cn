@@ -18,7 +18,7 @@ items:
       - name: 购买流程
         href: Pricing/Purchase-Process.md 
   - name: 操作指南
-    href: Operation-Guide/System-Manage.md
+    href: Operation-Guide/Resource-Manage.md
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: 用户协议
