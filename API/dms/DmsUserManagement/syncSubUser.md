@@ -14,7 +14,7 @@ https://dms.jdcloud-api.com/v1/management:syncSubUser
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**dmsSyncSubUserVOList**|[DmsSyncSubUserVO[]](#dmssyncsubuservo)|True| |同步的子账号的列表信息|
+|**dmsSyncSubUserVOList**|[DmsSyncSubUserVO[]](#DmsSyncSubUserVO)|True| |同步的子账号的列表信息|
 
 ### <div id="DmsSyncSubUserVO">DmsSyncSubUserVO</div>
 |名称|类型|是否必需|默认值|描述|

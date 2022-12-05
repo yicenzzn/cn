@@ -29,12 +29,12 @@ https://dms.jdcloud-api.com/v1/management:queryUserList
 |**result**|[Result](#result)| |
 |**requestId**|[String](#result)|请求id|
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**count**|Integer|符合条件的用户的总数|
 |**dmsUserVOList**|[DmsUserVO[]](#dmsuservo)| |
-### <div id="DmsUserVO">DmsUserVO</div>
+### <div id="dmsuservo">DmsUserVO</div>
 |名称|类型|描述|
 |---|---|---|
 |**username**|String|用户名。|
@@ -51,7 +51,7 @@ https://dms.jdcloud-api.com/v1/management:queryUserList
 |**createDate**|String|用户的创建时间，格式为：yyyy-MM-dd'T'HH:mm:ss|
 |**modifiedDate**|String|用户的修改时间，格式为：yyyy-MM-dd'T'HH:mm:ss|
 |**roleVOList**|[DmsRoleVO[]](#dmsrolevo)|用户角色列表。|
-### <div id="DmsRoleVO">DmsRoleVO</div>
+### <div id="dmsrolevo">DmsRoleVO</div>
 |名称|类型|描述|
 |---|---|---|
 |**roleName**|String|角色名称。|

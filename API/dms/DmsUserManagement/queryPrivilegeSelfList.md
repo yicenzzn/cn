@@ -28,13 +28,13 @@ https://dms.jdcloud-api.com/v1/management:queryPrivilegeSelfList
 |**result**|[Result](#result)| |
 |**requestId**|[String](#result)|请求id|
 
-### <div id="Result">Result</div>
+### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**count**|Integer|符合条件的用户的总数|
 |**isAdmin**|Boolean|如果为真则表示这个账号默认就拥有所有的实例登录权限|
 |**dmsPrivilegeVOList**|[DmsPrivilegeVO[]](#dmsprivilegevo)| |
-### <div id="DmsPrivilegeVO">DmsPrivilegeVO</div>
+### <div id="dmsprivilegevo">DmsPrivilegeVO</div>
 |名称|类型|描述|
 |---|---|---|
 |**id**|Long|主键Id。|
