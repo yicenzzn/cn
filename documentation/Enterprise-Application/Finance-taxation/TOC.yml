@@ -12,30 +12,26 @@ items:
 
 
 
-
 - name: 热门服务
   href: Popular-Service.md
 
 
 
-
 - name: 延展服务
   href: Extended-Service.md
-
   
   
   
 - name: 操作指导
   items:
     - name: 购买指南
-      href: Operation-Guide/Purchase-Guide.md   
+      href: Operation-Guide/Purchase-Guide.md
     - name: 履约进度查询指南
       href: Operation-Guide/View-Guide.md
     - name: 云上注册产品使用指南
       href: Operation-Guide/yszc-Guide.md
-    - name: 智慧财税产品使用指南 
+    - name: 智慧财税产品使用指南
       href: Operation-Guide/zhcs-Guide.md
-
 
 
 
@@ -53,7 +49,6 @@ items:
       href: FAQ/cytc-FAQ.md
 
      
-   
    
 - name: 服务资质与协议
   href: Service-Agreement.md
