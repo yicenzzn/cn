@@ -25,18 +25,18 @@
 
 录入企业类型、所在地区、企业名称、注册资本等信息，上传注册地址证明文件。
 
-![基础信息](https://static-ftcms.jd.com/p/files/638ef482e1fec54ed5df7b46.jpg)
+![基础信息](https://static-ftcms.jd.com/p/files/638f0265f5229c4edbfa638d.jpg)
 
 ***注：添加单个企业名称，默认首选；添加多个企业名称，自主设置首选。注册时优先选用首选企业名称，当名称无法通过时，则选用备选企业名称。***
 
-![备注](https://static-ftcms.jd.com/p/files/638ef485f5229c4edbfa638b.png)
+![备注](https://static-ftcms.jd.com/p/files/638f0267f5229c4edbfa638e.png)
 
 **3、补充经营范围**
 
 - 复制其他公司的经营范围：搜索同行业公司的经营范围并复制使用。搜索时输入企业全称查询，复制后可进行删除或添加操作。
 - 关键词查询：输入关键词，搜索相关经营范围。
 
-![经营范围](https://static-ftcms.jd.com/p/files/638ef48776c2a10453e2509c.jpg)
+![经营范围](https://static-ftcms.jd.com/p/files/638f0269f5229c4edbfa638f.jpg)
 
 **4、填写经营地址**
 
@@ -44,17 +44,17 @@
 
 ***注：邮政编码根据所在地区自动生成，不支持修改。***
 
-![经营地址](https://static-ftcms.jd.com/p/files/638ef6d6e1fec54ed5df7b48.jpg)
+![经营地址](https://static-ftcms.jd.com/p/files/638f026d341946045aef9fe4.jpg)
 
 **5、提供人员信息**
 
 依次输入股东、法定代表人、监事、财务负责人、工商联络员信息。
 
-![人员信息](https://static-ftcms.jd.com/p/files/638ef49276c2a10453e2509d.jpg)
+![人员信息](https://static-ftcms.jd.com/p/files/638f026f76c2a10453e250a0.jpg)
 
 ## 步骤二：核查材料并提交
 
-核对并提交已录入的全部信息，等待材料审核。
+**核对并提交已录入的全部信息，等待材料审核。**
 
-![提交](https://static-ftcms.jd.com/p/files/638ef49876c2a10453e2509e.jpg)
+![提交](https://static-ftcms.jd.com/p/files/638f0273341946045aef9fe5.jpg)
 
