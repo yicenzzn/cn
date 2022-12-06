@@ -19,7 +19,7 @@
 
 ***注：目前仅支持已有地址信息的企业进行注册。***
 
-![选择地区](https://static-ftcms.jd.com/p/files/638ef4dde1fec54ed5df7b47.png)
+![选择地区](https://static-ftcms.jd.com/p/files/638f00ee341946045aef9fe0.png)
 
 **2、填写企业基础信息**
 
