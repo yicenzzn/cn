@@ -17,7 +17,6 @@
 4. 单台操作：点击**操作-删除**按钮
 <br>批量操作：点击列表下方**删除**按钮
 
-![image](https://user-images.githubusercontent.com/88134774/197795130-0218badc-9a8b-46d4-a39b-aacbf84cab7b.png)
 
 
 5. 在弹出的**删除**弹窗中，确认信息，点击**确定**提交删除。
