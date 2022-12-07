@@ -24,6 +24,16 @@
 
   - name: 快照相关接口
     items:
+      - name: ApplySnapshotPolicies
+        href: Snapshot-APIs/ApplySnapshotPolicies.md
+      - name: CreateSnapshotPolicy
+        href: Snapshot-APIs/CreateSnapshotPolicy.md
+      - name: DeleteSnapshotPolicy
+        href: Snapshot-APIs/DeleteSnapshotPolicy.md
+      - name: DescribeSnapshotPolicyDiskRelations
+        href: Snapshot-APIs/DescribeSnapshotPolicyDiskRelations.md
+      - name: UpdateSnapshotPolicy
+        href: Snapshot-APIs/UpdateSnapshotPolicy.md
       - name: createSnapshot
         href: Snapshot-APIs/createSnapshot.md
       - name: deleteSnapshot 
