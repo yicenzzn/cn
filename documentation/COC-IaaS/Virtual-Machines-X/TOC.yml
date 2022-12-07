@@ -165,8 +165,6 @@ items:
         href: Linux-Troubleshooting/Fault-Class/Linux-delete-file-prompt-Operation-not-permitted.md
       - name: Linux系统cpu，内存高负载排查
         href: Linux-Troubleshooting/Fault-Class/Linux-system-cpu-memory-high-load-troubleshooting.md
-      - name: Linux系统通过快照创建云硬盘问题
-        href: Linux-Troubleshooting/Fault-Class/Linux-system-creates-a-cloud-disk-problem-through-snapshots.md
       - name: Linux系统ping测试总时间异常
         href: Linux-Troubleshooting/Fault-Class/Linux-system-ping-test-total-time-is-abnormal.md
       - name: Linux系统提示-bash：ls：command not found
