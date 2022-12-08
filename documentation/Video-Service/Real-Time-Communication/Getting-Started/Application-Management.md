@@ -99,56 +99,22 @@ PC登录页背景图：建议图片尺寸为1920*700，有效内容范围在1100
 
 第三步：保存
 
+2.5、自定义未登录页
 
+2.5.1、使用教程
 
+可以自定义未登录页。
 
+2.5.2、使用教程
 
+第一步：进入功能页面【通用设置-自定义未登录页】
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
 
+第二步：修改设置
 
+1)启用该功能后，若用户未登录则跳转到自定义的跳转页面地址，使用该功能必须使用自动登录，仅对学员观看端生效
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 新建应用
-
-点击“新建应用”，根据实际业务需求填写应用名称和房间类型。
-
-房间类型说明：    
-小房间：订阅音频时需单流订阅，具体详见各端SDK接口说明。  
-大房间：订阅一次即可默认订阅所有音频流，具体详见各端SDK接口说明。
-
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-2.png)
-
-
-
-
-
-
-## 修改应用
-
-找到需要修改的应用，点击列表中的“修改”。
-
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-3.png)
-
-## 查看AppKey
-
-找到需要查看的应用，点击列表中的“AppKey查看”。
-
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-4.png)
+第三步：保存
 
 
 
