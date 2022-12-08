@@ -19,6 +19,21 @@
 开启后需上传对应背景图：
 PC登录页背景图：建议图片尺寸为1920*700，有效内容范围在1100*700以内；图片支持jpg、jpeg、png格式，文件大小不超过2M
 移动登录页背景图：建议尺寸为750*412；图片支持jpg、jpeg、png格式，文件大小不超过2M
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+
+2.2、观看端打赏设置
+
+2.2.1、功能介绍
+
+可以修改观看端打赏设置，包括现金打赏和道具打赏的相关设置。
+
+2.2.2、使用教程
+
+第一步：全局设置页面【全局设置—观看端打赏设置】
+
+默认开启状态
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+
 
 
 
