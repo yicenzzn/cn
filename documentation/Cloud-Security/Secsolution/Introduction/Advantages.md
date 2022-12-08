@@ -2,7 +2,7 @@
 #### 多终端支持
 
 支持在手机、电脑、平板上使用；
-支持在Windows、Mac、Linux、Android、IOS等系统上运行。
+支持在Windows、Mac、Linux、Android、iOS等系统上运行。
 
 #### 文件实时协同
 
