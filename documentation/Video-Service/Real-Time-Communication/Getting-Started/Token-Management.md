@@ -20,6 +20,8 @@
 创建双语直播间，添加直播。
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/token%E7%AE%A1%E7%90%86-1.png)
 
+分享链接
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/token%E7%AE%A1%E7%90%86-1.png)
 
 
 
