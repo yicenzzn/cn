@@ -64,7 +64,40 @@ PC登录页背景图：建议图片尺寸为1920*700，有效内容范围在1100
 
 3) 菜单设置：支持对客户端的互动功能进行自定义配置，关闭后客户端对应该功能隐藏。
 
+2.4、敏感词设置
 
+2.4.1、使用教程
+
+可以修改敏感词设置，支持添加敏感词列表，敏感词库上限高达5万条。
+
+2.4.2、使用教程
+
+第一步：全局设置页面【全局设置—敏感词设置】
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+
+第二步：修改设置
+
+1)全局设置中支持设置敏感词，支持手动单个添加及应用模板批量导入
+
+2)已添加的敏感词支持删除操作，也可一键清空敏感词列表
+
+3)支持按角色进行过滤，勾选后，该角色的聊天内容不进行敏感词过滤
+
+4)敏感词处理机制支持删除与隐藏两种：
+
+-设置删除，敏感词仅本人可见，聊天审核不展示敏感词消息
+
+-设置隐藏，敏感词本人及管理者可见，聊天审核页面敏感词为隐藏状态，并有敏感词标识
+
+-聊天导出中支持支持查看是否为敏感词以及聊天状态显示或隐藏
+
+敏感词列表：
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+
+敏感词检测：
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+
+第三步：保存
 
 
 
