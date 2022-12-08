@@ -4,7 +4,7 @@
 
 ## 直播间管理
 
-1.1创建直播间
+### 1.1创建直播间
 
 1.1.1功能介绍企业直播管理后台支持创建直播间，并且对直播间进行一系列相关设置。
 
@@ -50,7 +50,7 @@
 
 6、直播观看模式：标准直播
 
-1.2分享链接
+### 1.2分享链接
 1.2.1功能介绍按照不同角色获取直播间分享链接，进行直播。
 1.2.2使用教程第一步：进入功能界面【直播间管理-分享链接】
 
@@ -67,7 +67,7 @@
 助教：
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
 
-1.3 直播间设置
+### 1.3 直播间设置
 1.3.1功能介绍
 针对已创建的直播间进行基础设置修改操作。
 1.3.2使用教程
@@ -129,7 +129,7 @@
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
 第三步：保存
 
-1.4营销设置
+### 1.4营销设置
 
 1.4.1功能介绍
 
@@ -184,7 +184,7 @@
 创建成功后可进行查看/编辑/删除操作
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
 
-1.5观看端设置
+### 1.5观看端设置
 
 1.5.1功能介绍
 
@@ -228,7 +228,8 @@
 支持微信标签分享设置，上传图片及填写标题和描述后，将直播观看链接分享至微信好友或朋友圈时，微信标签将按照设置的内容进行显示。
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
 第三步：保存
-1.6讲师端设置
+
+### 1.6讲师端设置
 
 1.6.1功能介绍
 针对讲师端直播间的使用进行操作。
@@ -242,7 +243,7 @@
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
 第三步：保存
 
-1.7助教端设置
+### 1.7助教端设置
 
 1.7.1功能介绍
 
