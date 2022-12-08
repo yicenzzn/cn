@@ -34,6 +34,36 @@ PC登录页背景图：建议图片尺寸为1920*700，有效内容范围在1100
 默认开启状态
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
 
+第二步：修改设置
+
+现金打赏： 开启后直播间应用全局的现金打赏设置
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+
+道具打赏： 开启后直播间应用全局的道具打赏设置
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+第三步：保存
+
+2.3、客户端设置
+
+2.2.1、使用教程
+
+可以修改客户端设置，包括自定义菜单、问卷设置和菜单设置。
+
+2.2.2、使用教程
+
+第一步：全局设置页面【全局设置—客户端设置】
+
+自定义菜单、在线问卷导入默认关闭状态
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+
+第二步：修改设置
+
+1) 自定义菜单：启用该功能后，直播客户端可以通过自定义菜单的方式加载用户自定义的网页，方便结合自身业务进行交互操作。
+
+2) 问卷设置：在直播管理页面点击 “问卷设置”，启用该功能后，直播客户端可以通过接口请求的方式将用户问卷库中的问卷导入到客户端中使用，关于问卷设置的具体功能及使用方法，请参考：问卷接口开发指南。
+
+3) 菜单设置：支持对客户端的互动功能进行自定义配置，关闭后客户端对应该功能隐藏。
+
 
 
 
