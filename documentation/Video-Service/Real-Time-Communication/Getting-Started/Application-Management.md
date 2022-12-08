@@ -4,11 +4,11 @@
 
 ## 观看皮肤设置
 
-2.1.1、功能介绍
+### 2.1.1、功能介绍
 
 可以修改观看端页面设置
 
-2.1.2、使用教程
+### 2.1.2、使用教程
 
 第一步：全局设置页面【全局设置—观看页皮肤设置】
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
