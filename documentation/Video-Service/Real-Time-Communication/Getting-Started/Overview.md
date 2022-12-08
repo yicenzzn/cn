@@ -80,6 +80,18 @@
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
 
+高级设置：
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+
+1.并发人数上限：对该直播间设置同时在线人数上限。“0”表示不做限制。
+
+2.重复登录设置：
+允许后进入者登录：相同账号的讲师或观众重复登录后，会自动踢出先登录者；
+禁止后进入者登录：相同账号的讲师或观众无法重复登录。
+
+3.延时优化：开启可以降低直播延时，但容易造成播放卡顿，若对直播实时性要求不高，建议关闭。
+
+4.自定义最高码率：开启后，可自定义客户端推流最高码率上限。
 
 
 
