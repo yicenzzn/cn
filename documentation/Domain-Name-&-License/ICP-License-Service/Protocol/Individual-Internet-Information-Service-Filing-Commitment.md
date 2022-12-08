@@ -1,1 +1,1 @@
-[互联网信息服务备案承诺书（个人）](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/yonghuxieyi/%E4%BA%92%E8%81%94%E7%BD%91%E4%BF%A1%E6%81%AF%E6%9C%8D%E5%8A%A1%E5%A4%87%E6%A1%88%E6%89%BF%E8%AF%BA%E4%B9%A6%EF%BC%88%E4%B8%AA%E4%BA%BA%EF%BC%89.doc)
+[互联网信息服务备案承诺书（个人）](https://beianwendang.s3.cn-north-1.jdcloud-oss.com/yonghuxieyi/Individual-Internet-Information-Service-Filing-Commitment.doc)
