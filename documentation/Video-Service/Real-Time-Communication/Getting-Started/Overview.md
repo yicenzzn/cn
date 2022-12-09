@@ -78,8 +78,8 @@
 针对已创建的直播间进行基础设置修改操作。
 #### 1.3.2使用教程
 第一步：进入功能界面【直播间管理-设置】
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E7%9B%B4%E6%92%AD%E9%97%B4%E8%AE%BE%E7%BD%AE-1.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E7%9B%B4%E6%92%AD%E9%97%B4%E8%AE%BE%E7%BD%AE-2.png)
 
 第二步：修改设置
 基本信息：针对创建直播间时的部分基础设置进行修改，参考上述步骤已有介绍。
