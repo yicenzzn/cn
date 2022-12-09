@@ -102,14 +102,14 @@
 4.自定义最高码率：开启后，可自定义客户端推流最高码率上限。
 
 5.直播结束后跳转：开启后, 直播结束将跳转至如下选择
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E7%9B%B4%E6%92%AD%E7%BB%93%E6%9D%9F%E5%90%8E%E8%B7%B3%E8%BD%AC-1.png)
 
 6.直播间图标：开启后，直播观看页面将显示直播间图标
 
 7.显示观看次数：开启后，观看页面将展示直播观看次数，助教可进行观看次数设置
 
 8.昵称后缀：开启后，观众昵称均会以“昵称-用户ID后四位”的方式展示，如“李红-1234”
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E7%9B%B4%E6%92%AD%E7%BB%93%E6%9D%9F%E5%90%8E%E8%B7%B3%E8%BD%AC-2.png)
 
 9.修改头像：可修改讲师、助教、观众头像
 
