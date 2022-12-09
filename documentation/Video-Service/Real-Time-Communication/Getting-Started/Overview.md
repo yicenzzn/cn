@@ -14,10 +14,10 @@
 
 第一步：进入功能页面【直播间管理—创建直播间】
 
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%88%9B%E5%BB%BA%E7%9B%B4%E6%92%AD%E9%97%B4.png)
 
 第二部：编辑直播间基本信息
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E7%BC%96%E8%BE%91%E7%9B%B4%E6%92%AD%E9%97%B4-2.png)
 操作说明：
 
 1、直播间名称：需40个字符以内
