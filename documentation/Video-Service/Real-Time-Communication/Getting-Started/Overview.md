@@ -60,7 +60,7 @@
 
 #### 1.2.2使用教程第一步：进入功能界面【直播间管理-分享链接】
 
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%88%86%E4%BA%AB%E9%93%BE%E6%8E%A5.png)
 
 第二步：选择链接
 讲师：
