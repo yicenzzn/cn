@@ -87,7 +87,7 @@
 ![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E7%9B%B4%E6%92%AD%E8%AE%BE%E7%BD%AE%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF-3.png)
 
 高级设置：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E7%9B%B4%E6%92%AD%E8%AE%BE%E7%BD%AE%E9%AB%98%E7%BA%A7%E8%AE%BE%E7%BD%AE-1.png)
 
 1.并发人数上限：对该直播间设置同时在线人数上限。“0”表示不做限制。
 
