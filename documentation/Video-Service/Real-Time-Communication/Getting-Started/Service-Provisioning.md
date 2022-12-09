@@ -1,8 +1,7 @@
 # 开通服务
 
 1.右上角，控制台-注册/登录（支持京东账号登录）。  
-![image](https://user-images.githubusercontent.com/115534646/206642884-b33d8d39-f9fb-4618-a70f-52f72a237811.png)
-)
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-%E9%85%8D%E7%BD%AE-3.png)
 
 
 2.控制台-云服务-搜索“音视频通信”，点击进入。    
