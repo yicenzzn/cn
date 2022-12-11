@@ -93,7 +93,11 @@ items:
             href: Operation-Guide/Replication/Delete-Replication.md           
             
       - name: 安全管理
-        href: Operation-Guide/Security/Set-Whitelist.md            
+        items: 
+         - name: 设置白名单
+           href: Operation-Guide/Security/Set-Whitelist.md   
+         - name: TiDB配置SSL证书
+           href: Operation-Guide/Security/tidb-configure-ssl
   
       - name: 参数修改
         href: Operation-Guide/Parameter/Modify-Parameters.md  
