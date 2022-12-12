@@ -8,9 +8,8 @@
 
 业务应用日志支持投递至多种类型的目的地，默认采集至日志服务的日志主题中。也可将日志投递至控制台的云ES和云Kafka中，或自建ES和自建Kafka中。
 
-## 2. 操作步骤
 
-### 2.1 云主机
+## 2. 云主机操作步骤
 
 **业务应用采集配置**
 
@@ -107,7 +106,7 @@ b. 自定义标签
 
 ![](../../../../../image/LogService/operationguide/advancedconfig.png)
 
-### 2.2 k8s容器
+## 3. k8s容器操作步骤
 
 支持对k8s容器内服务或集群节点路径文件的日志发送至云日志系统中，日志采集Agent会在集群内以DaemonSet的形式运行，并根据用户设置的采集配置从日志源中采集日志数据。
 
@@ -165,13 +164,13 @@ b. 自定义标签
 
 ![](../../../../../image/LogService/operationguide/nodefile.png)
 
-### 2.3 Logback Appender
+## 4. Logback Appender操作步骤
 
 可使用JDCloud Logback Appender将日志写入到京东云日志服务中，使用方法见[Github-JDCloud_logback_appender](https://github.com/JDCloudLogs/logback-appender)
 
 我们同时提供了高并发写日志的java类库，[配置方式](https://github.com/JDCloudLogs/log-producer)，[代码示例](https://github.com/JDCloudLogs/log-producer-sample)
 
-### 2.4 Binlog
+## 5. Binlog操作步骤
 
 支持对云数据库MySQL的Binlog日志进行采集，其原理是日志服务探针将自己伪装为MySQL的一个Slave，接收主库同步的Binlog信息并进行存储、检索、展示。
 
@@ -254,7 +253,7 @@ mysql> show variables like "binlog_format";
 
 ![](../../../../../image/LogService/operationguide/binlog_adv.png)
 
-## 3. 注意事项
+## 6. 注意事项
 
 - 当前版本仅支持采集Linux云主机和k8s集群工作负载模式的日志。
 - 采集实例用户选择实例维度时，最多支持选择30台云主机，支持跨地域选择。
