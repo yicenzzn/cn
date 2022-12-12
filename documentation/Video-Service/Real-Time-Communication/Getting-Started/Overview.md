@@ -228,13 +228,13 @@
 ![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%A7%82%E7%9C%8B%E7%AB%AF%E8%AE%BE%E7%BD%AE-%E8%8F%9C%E5%8D%95%E8%AE%BE%E7%BD%AE2.png)
 
 广告设置：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%A7%82%E7%9C%8B%E7%AB%AF%E8%AE%BE%E7%BD%AE-%E5%B9%BF%E5%91%8A%E8%AE%BE%E7%BD%AE.png)
 添加广告：
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
 分享设置：
 
 支持微信标签分享设置，上传图片及填写标题和描述后，将直播观看链接分享至微信好友或朋友圈时，微信标签将按照设置的内容进行显示。
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%A7%82%E7%9C%8B%E7%AB%AF%E8%AE%BE%E7%BD%AE-%E5%88%86%E4%BA%AB%E8%AE%BE%E7%BD%AE.png)
 第三步：保存
 
 ### 1.6讲师端设置
