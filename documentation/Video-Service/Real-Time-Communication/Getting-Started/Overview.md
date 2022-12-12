@@ -201,21 +201,21 @@
 #### 1.5.2使用教程
 
 第一步：进入功能界面【直播间管理-设置】
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E7%9B%B4%E6%92%AD%E9%97%B4%E8%AE%BE%E7%BD%AE-1.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E7%9B%B4%E6%92%AD%E9%97%B4%E8%AE%BE%E7%BD%AE-2.png)
 
 第二步：修改设置
 
 页面功能设置：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%A7%82%E7%9C%8B%E7%AB%AF%E8%AE%BE%E7%BD%AE-%E9%A1%B5%E9%9D%A2%E5%8A%9F%E8%83%BD%E8%AE%BE%E7%BD%AE.png)
 页面皮肤设置：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%A7%82%E7%9C%8B%E7%AB%AF%E8%AE%BE%E7%BD%AE-%E9%A1%B5%E9%9D%A2%E7%9A%AE%E8%82%A4%E8%AE%BE%E7%BD%AE1.png)
 引用全局设置：所有直播间观看页皮肤默认引用全局设置，引用后该直播间将引用全局设置中的配置参数，不同的观看端模板对应不同的观看及登录页面设置
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%A7%82%E7%9C%8B%E7%AB%AF%E8%AE%BE%E7%BD%AE-%E9%A1%B5%E9%9D%A2%E7%9A%AE%E8%82%A4%E8%AE%BE%E7%BD%AE2.png)
 播放器设置：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%A7%82%E7%9C%8B%E7%AB%AF%E8%AE%BE%E7%BD%AE-%E6%92%AD%E6%94%BE%E5%99%A8%E8%AE%BE%E7%BD%AE.png)
 菜单设置：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%A7%82%E7%9C%8B%E7%AB%AF%E8%AE%BE%E7%BD%AE-%E8%8F%9C%E5%8D%95%E8%AE%BE%E7%BD%AE1.png)
 1)菜单管理控制观看端显示的菜单名称、位置、内容等，对PC及移动H5页面观看端生效
 
 2)部分菜单类型依据直播间模板及功能展示
@@ -225,7 +225,7 @@
 4)支持自定义添加图文菜单，可输入文字信息及添加图片，观看端进行展示
 
 5)自定义菜单最多支持添加4个，菜单名称限制4个字
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%A7%82%E7%9C%8B%E7%AB%AF%E8%AE%BE%E7%BD%AE-%E8%8F%9C%E5%8D%95%E8%AE%BE%E7%BD%AE2.png)
 
 广告设置：
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
