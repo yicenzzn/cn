@@ -92,10 +92,10 @@ PC登录页背景图：建议图片尺寸为1920*700，有效内容范围在1100
 -聊天导出中支持支持查看是否为敏感词以及聊天状态显示或隐藏
 
 敏感词列表：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE-%E6%95%8F%E6%84%9F%E8%AF%8D%E8%AE%BE%E7%BD%AE2.png)
 
 敏感词检测：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE-%E6%95%8F%E6%84%9F%E8%AF%8D%E8%AE%BE%E7%BD%AE3.png)
 
 第三步：保存
 
@@ -108,7 +108,7 @@ PC登录页背景图：建议图片尺寸为1920*700，有效内容范围在1100
 ### 2.5.2、使用教程
 
 第一步：进入功能页面【通用设置-自定义未登录页】
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE-%E8%87%AA%E5%AE%9A%E4%B9%89%E6%9C%AA%E7%99%BB%E5%BD%95%E9%A1%B5.png)
 
 第二步：修改设置
 
