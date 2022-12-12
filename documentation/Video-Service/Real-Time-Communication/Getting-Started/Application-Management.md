@@ -54,7 +54,7 @@ PC登录页背景图：建议图片尺寸为1920*700，有效内容范围在1100
 第一步：全局设置页面【全局设置—客户端设置】
 
 自定义菜单、在线问卷导入默认关闭状态
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE-%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%AE%BE%E7%BD%AE.png)
 
 第二步：修改设置
 
