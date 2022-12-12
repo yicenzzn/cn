@@ -73,7 +73,7 @@ PC登录页背景图：建议图片尺寸为1920*700，有效内容范围在1100
 ### 2.4.2、使用教程
 
 第一步：全局设置页面【全局设置—敏感词设置】
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE-%E6%95%8F%E6%84%9F%E8%AF%8D%E8%AE%BE%E7%BD%AE1.png)
 
 第二步：修改设置
 
