@@ -166,6 +166,7 @@
 2、选择头像、昵称是否显示
 
 3、直播间标题跟随直播间/不显示/自定义
+
 4、直播间简介跟随直播间/不显示/自定义
 ![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%90%A5%E9%94%80%E8%AE%BE%E7%BD%AE-%E5%BC%95%E6%B5%81%E6%8E%A8%E5%B9%BF3.png)
 5、直播时间显示/隐藏
@@ -175,21 +176,21 @@
 7、邀请榜显示/隐藏
 
 8、邀请排行榜
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%90%A5%E9%94%80%E8%AE%BE%E7%BD%AE-%E9%82%80%E8%AF%B7%E6%8E%92%E8%A1%8C%E6%A6%9C1.png)
 查看详情：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E9%82%80%E8%AF%B7%E6%8E%92%E8%A1%8C-%E9%82%80%E8%AF%B7%E6%8E%92%E8%A1%8C%E6%A6%9C2.png)
 互动留存：
 
 点赞：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%90%A5%E9%94%80%E8%AE%BE%E7%BD%AE-%E4%BA%92%E5%8A%A8%E7%95%99%E5%AD%98-%E7%82%B9%E8%B5%9E.png)
 打赏：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%90%A5%E9%94%80%E8%AE%BE%E7%BD%AE-%E4%BA%92%E5%8A%A8%E7%95%99%E5%AD%98-%E6%89%93%E8%B5%8F.png)
 投票：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%90%A5%E9%94%80%E8%AE%BE%E7%BD%AE-%E4%BA%92%E5%8A%A8%E7%95%99%E5%AD%98-%E6%8A%95%E7%A5%A81.png)
 创建投票，设置好后点击保存。
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%90%A5%E9%94%80%E8%AE%BE%E7%BD%AE-%E4%BA%92%E5%8A%A8%E7%95%99%E5%AD%98-%E6%8A%95%E7%A5%A82.png)
 创建成功后可进行查看/编辑/删除操作
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%90%A5%E9%94%80%E8%AE%BE%E7%BD%AE-%E4%BA%92%E5%8A%A8%E7%95%99%E5%AD%98-%E6%8A%95%E7%A5%A83.png)
 
 ### 1.5观看端设置
 
