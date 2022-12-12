@@ -130,11 +130,11 @@
 弹窗内容：支持添加昵称、声明或文本。（声明支持强制用户阅读功能）
 
 2.白名单验证支持批量导入
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%A7%82%E7%9C%8B%E6%9D%83%E9%99%90-%E7%99%BD%E5%90%8D%E5%8D%95.png)
 3.单密码验证
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%A7%82%E7%9C%8B%E6%9D%83%E9%99%90-%E5%8D%95%E5%AF%86%E7%A0%81%E9%AA%8C%E8%AF%81.png)
 4.接口验证
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%A7%82%E7%9C%8B%E6%9D%83%E9%99%90-%E6%8E%A5%E5%8F%A3%E9%AA%8C%E8%AF%81.png)
 第三步：保存
 
 ### 1.4营销设置
