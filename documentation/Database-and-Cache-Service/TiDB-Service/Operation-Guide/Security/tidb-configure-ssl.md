@@ -25,7 +25,7 @@
 
 ## 设置SSL CA证书
 
-开通SSL加密后，应用或者客户端连接TiDB的时候，需要配置SSL CA证书。下面以TiDB命令行和Navicat为例，介绍SSL CA证书安装方法。
+开通SSL加密后，应用或者客户端连接TiDB的时候，需要配置SSL CA证书。下面以命令行和Navicat为例，介绍SSL CA证书安装方法。
 
 ## MySQL命令行方式设置
 
@@ -49,7 +49,7 @@
   ......   
 ```
 
- 除此以外，对于 TiDB 自带客户端，还可以使用 `STATUS` 或 `\s` 语句查看连接情况：
+ 除此以外，对于 MySQL 自带客户端，还可以使用 `STATUS` 或 `\s` 语句查看连接情况：
 
 ```sql
   mysql>  \s    
