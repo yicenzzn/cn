@@ -534,7 +534,6 @@
       <td>9.04</td>
    </tr>
    <tr>
-</table>
       <td rowspan="5">高频计算</td>
       <td rowspan="5">通用</td>
       <td>h.g1.large</td>
