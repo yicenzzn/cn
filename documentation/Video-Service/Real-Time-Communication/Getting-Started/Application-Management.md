@@ -11,7 +11,7 @@
 ### 2.1.2、使用教程
 
 第一步：全局设置页面【全局设置—观看页皮肤设置】
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%8A%A9%E6%95%99%E7%AB%AF%E8%AE%BE%E7%BD%AE.png)
 
 第二步：
 1、选择皮肤风格：提供6款皮肤风格选择；
@@ -32,15 +32,15 @@ PC登录页背景图：建议图片尺寸为1920*700，有效内容范围在1100
 第一步：全局设置页面【全局设置—观看端打赏设置】
 
 默认开启状态
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE-%E8%A7%82%E7%9C%8B%E7%AB%AF%E6%89%93%E8%B5%8F%E8%AE%BE%E7%BD%AE1.png)
 
 第二步：修改设置
 
 现金打赏： 开启后直播间应用全局的现金打赏设置
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE-%E8%A7%82%E7%9C%8B%E7%AB%AF%E6%89%93%E8%B5%8F%E8%AE%BE%E7%BD%AE2.png)
 
 道具打赏： 开启后直播间应用全局的道具打赏设置
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE-%E8%A7%82%E7%9C%8B%E7%AB%AF%E6%89%93%E8%B5%8F%E8%AE%BE%E7%BD%AE3.png)
 第三步：保存
 
 ## 2.3、客户端设置
