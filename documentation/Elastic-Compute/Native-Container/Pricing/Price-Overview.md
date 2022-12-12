@@ -535,6 +535,44 @@
    </tr>
    <tr>
 </table>
+      <td rowspan="5">高频计算</td>
+      <td rowspan="5">通用</td>
+      <td>h.g1.large</td>
+      <td>2</td>
+      <td>8</td>
+      <td>343</td>
+      <td>1.75</td>
+   </tr>
+   <tr>
+     <td>h.g1.xlarge</td>
+      <td>4</td>
+      <td>16</td>
+      <td>686</td>
+      <td>3.5</td>
+   </tr>
+   <tr>
+      <td>h.g1.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>1372</td>
+      <td>7</td>
+   </tr>
+   <tr>
+      <td>h.g1.4xlarge</td>
+      <td>16</td>
+      <td>64</td>
+      <td>2744</td>
+      <td>14</td>
+   </tr>
+   <tr>
+      <td>h.g1.6xlarge</td>
+      <td>24</td>
+      <td>96</td>
+      <td>4116</td>
+      <td>21</td>
+   </tr>
+   <tr>
+</table>
 
 关于云硬盘：请参考[云硬盘购买须知][1]
 
