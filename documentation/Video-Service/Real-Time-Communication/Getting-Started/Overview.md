@@ -152,7 +152,7 @@
 第二步：修改设置
 
 引流推广：可设置邀请卡。
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%90%A5%E9%94%80%E8%AE%BE%E7%BD%AE-%E5%BC%95%E6%B5%81%E6%8E%A8%E5%B9%BF1.png)
 1.邀请卡开关：开启后可打造专属邀请卡
 
 2.邀请卡模板：可自行删除或添加
