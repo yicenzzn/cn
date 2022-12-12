@@ -116,12 +116,12 @@
 
 
 密码设置：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%AF%86%E7%A0%81%E8%AE%BE%E7%BD%AE.png)
 
 第三步：保存
 
 观看权限：
-![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%A7%82%E7%9C%8B%E6%9D%83%E9%99%90-%E5%85%8D%E5%AF%86%E9%AA%8C%E8%AF%81.png)
 
 1.选择观看条件：免密码验证
 
