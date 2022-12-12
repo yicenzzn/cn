@@ -50,7 +50,7 @@
 
 依次输入股东、法定代表人、监事、财务负责人、工商联络员信息。
 
-![人员信息](https://static-ftcms.jd.com/p/files/638f026f76c2a10453e250a0.jpg)
+![人员信息](https://static-ftcms.jd.com/p/files/63968eb4f5229c4edbfa6393.jpg)
 
 ## 步骤二：核查材料并提交
 
