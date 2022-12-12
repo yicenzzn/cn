@@ -112,6 +112,8 @@
 ![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E7%9B%B4%E6%92%AD%E7%BB%93%E6%9D%9F%E5%90%8E%E8%B7%B3%E8%BD%AC-2.png)
 
 9.修改头像：可修改讲师、助教、观众头像
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%A4%B4%E5%83%8F%E6%98%B5%E7%A7%B0%E8%AE%BE%E7%BD%AE.png)
+
 
 密码设置：
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97-%E6%A6%82%E8%A7%88.png)
