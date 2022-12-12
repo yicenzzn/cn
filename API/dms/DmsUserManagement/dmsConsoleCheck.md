@@ -19,7 +19,7 @@ https://dms.jdcloud-api.com/v1/console:check
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](dmsconsolecheck#result)| |
-|**requestId**|[String](#result)|请求id|
+|**requestId**|[String](dmsconsolecheck#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
