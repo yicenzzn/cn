@@ -97,7 +97,7 @@ items:
          - name: 设置白名单
            href: Operation-Guide/Security/Set-Whitelist.md   
          - name: TiDB配置SSL证书
-           href: Operation-Guide/Security/tidb-configure-ssl
+           href: Operation-Guide/Security/tidb-configure-ssl.md
   
       - name: 参数修改
         href: Operation-Guide/Parameter/Modify-Parameters.md  
