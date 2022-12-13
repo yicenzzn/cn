@@ -1,47 +1,45 @@
-# 营销互动
+# ToKen管理
 
-## 3.1 引流推广
+音视频通信控制台支持在线生成签名ToKen，开发者和京东云的服务通过签名ToKen验证建立信任关系，以避免加密密钥泄露导致的流量盗用。
 
-3.1.1功能介绍
+## Token生成
 
-包含邀请卡、多会场（敬请期待）、渠道推广（敬请期待）、双语专题
+1.进入音视频通信控制台，选择左侧栏的”ToKen管理“。
 
-3.1.2使用教程
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/token%E7%AE%A1%E7%90%86-1.png)
 
-1.邀请卡：进入功能页面【营销中心-邀请卡】
-![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%90%A5%E9%94%80%E4%BA%92%E5%8A%A81.png)
+1）单击下拉框选择您已创建的应用（appid）。
 
-可在直播间进行设置
-![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%90%A5%E9%94%80%E4%BA%92%E5%8A%A82.png)
+2）在应用管理菜单找到并填写对应应用的appKey。
 
-2、双语专题
-![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%90%A5%E9%94%80%E4%BA%92%E5%8A%A8-%E5%8F%8C%E8%AF%AD%E4%B8%93%E9%A2%98.png)
+3）填写userRoomId，支持正整数（20位以内）。
 
-创建双语直播间，添加直播。
-![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%90%A5%E9%94%80%E4%BA%92%E5%8A%A8-%E5%88%9B%E5%BB%BA%E5%8F%8C%E8%AF%AD%E7%9B%B4%E6%92%AD%E9%97%B4.png)
+4）填写userId，支持大小写字母、数字、下划线（_）、中划线（-）。
 
-分享链接
-![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E8%90%A5%E9%94%80%E4%BA%92%E5%8A%A8-%E5%8F%8C%E8%AF%AD%E7%9B%B4%E6%92%AD%E9%97%B4-%E5%88%86%E4%BA%AB%E9%93%BE%E6%8E%A5.png)
+5）选择有效期（timestamp），支持12小时、24小时、3天、7天。
 
+填写完成后，点击生成Token。
 
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/token%E7%AE%A1%E7%90%86-2.png)
 
+## Token校验器
 
+1.进入音视频通信控制台，选择选项卡中的”ToKen校验器“。
 
+![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/token%E7%AE%A1%E7%90%86-3.png)
 
+1）单击下拉框选择您已创建的应用（appid）。
 
+2）在应用管理菜单找到并填写对应应用的appKey。
 
+3）填写在Token生成器中生成的token
 
+4）填写userRoomId，支持正整数（20位以内）。
 
+5）填写userId，支持大小写字母、数字、下划线（_）、中划线（-）。
 
+6）填写随机码（nonce），在Token生成或API返回时可查。
 
+7）填写生成Token时选择的有效期（timestamp）。
 
-
-
-
-
-
-
-
-
-
-
+填写完成后，点击验证Token即可。
