@@ -11,22 +11,20 @@
 </tr>
 <tr>
     <td>推流方式</td>
-    <td>持集成京东云企业直播 IOS、Android、Web 的直播 SDK，以及常见的第三方推流软件，OBS、XSplit、FMLE 等进行推流。</td>
+    <td>支持集成京东云企业直播 IOS、Android、Web 的直播 SDK，以及常见的第三方推流软件，OBS、XSplit、FMLE 等进行推流。</td>
 </tr>
 <tr>
     <td>推流设备</td>
     <td>支持常见的基于 RTMP 推流协议的第三方编解码器或盒子等设备。</td>
 </tr>
- <tr>
+<tr>
     <td>播放协议</td>
     <td>支持 RTMP、FLV、HLS 及 RTS（udp）四种播流协议。</td>
 </tr>
- <tr>
+<tr>
     <td>播放方式</td>
-    <td>支持集成京东云企业直播 iOS、Android、Web等播流 SDK，以及支持常见的第三方如 VLC、FLV、RTMP、HLS 等播流软件。
-</td>
+    <td>支持集成京东云企业直播 iOS、Android、Web等播流 SDK，以及支持常见的第三方如 VLC、FLV、RTMP、HLS 等播流软件。</td>
 </tr>
-    
 <tr>
     <td>直播拉流</td>
     <td>支持flv、rtmp、m3u8、RTS（udp）直播拉流。</td>
@@ -37,28 +35,28 @@
 </tr>
 <tr>
     <td>播放鉴权</td>
-    <td>支持黑白名单或白名单机制、 Referer 防盗链、播放 URL 防盗链以及播放远程鉴权。</td>
+    <td>支持黑白名单或白名单机制、 Referer 防盗链、播放 URL 防盗链以及播放远程鉴权。
+</td>
 </tr>
-<tr>
     <td>直播方式</td>
-    <td>支持管理控制台进行图形化管理，或调用API管理。</td>
+    <td>支持管理控制台进行图形化管理，或调用API管理。
+</td>
 </tr>
-<tr>
     <td>概览</td>
     <td>可对直播资源包流量以及直播实时带宽、流量等数据进行查看。</td>
-</tr> 
+</tr>
 <tr>
     <td>域名管理</td>
     <td>可进行新增、修改、禁用、删除直播推流和播放域名。</td>
-</tr> 
+</tr>
 <tr>
     <td>直播流管理</td>
     <td>可查询在线、历史的直播流相关信息。</td>
-</tr> 
+</tr>
 <tr>
     <td>功能模块</td>
     <td>可做查询或修改直播录制、鉴黄、截图、转码、回调、水印等配置信息。</td>
-</tr> 
+</tr>
 <tr>
     <td>统计分析</td>
     <td>对流量按天为粒度统计查询，对直播服务带宽、流量、请求数、并发连接数、截图转码、录制等用量统计信息。</td>
@@ -90,6 +88,6 @@
 <tr>
     <td>美颜特效 SDK</td>
     <td>为直播视频提供美颜、特效等实时特效功能。</td>
-</tr> 
+</tr>     
 </table>
 
