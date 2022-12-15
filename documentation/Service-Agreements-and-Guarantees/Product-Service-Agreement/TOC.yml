@@ -828,6 +828,8 @@ items:
     href: Light-Virtual-Machine.md
   - name: 云原生实时数仓Starwift服务条款
     href: Cloud-Native-Data-Warehouse-Starwift.md 
+  - name: 云原生实时数仓Starwift等级协议（SLA）
+    href: Cloud-Native-Data-Warehouse-Starwift-SLA.md 
   - name: 京东云云销客服务条款
     href: CloudCustomers.md
   - name: 京东云云费控服务条款
