@@ -11,7 +11,8 @@
 * 扩容不会影响原有数据，但稳妥起见，建议您在扩容前对数据盘制作快照以做数据备份。
 
 ## 操作影响
-* 扩容仅对磁盘容量进行扩容，而不对文件系统进行扩容，扩容后请参考[扩容文件系统](http://docs.jdcloud.com/cloud-disk-service/cloud-disk-expansion-overview) 完成后续操作。
+* 系统盘：如云主机使用的是京东云提供的官方镜像，且镜像内默认安装的核心系统组件运行正常，扩容系统盘后重启根分区会自动进行文件系统扩容。
+* 数据盘：由于数据盘上的所有分区均为用户自行设置，因此云硬盘扩容后系统不会不对文件系统进行扩容，请请参考[扩容文件系统](http://docs.jdcloud.com/cloud-disk-service/cloud-disk-expansion-overview) 完成后续操作。
 
 
 
