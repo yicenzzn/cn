@@ -3,28 +3,33 @@ href:
 items:
 - name:  产品简介
   items:
-    - name: 1.1 产品概述
+    - name: 产品概述
       href: Introduction/Product-Overview.md
 
-    - name: 产品规格
+- name: 产品规格
    items:
     - name: D-Row MDC
-      href: Introduction/Benefits/Specifications D-Row MDC.md
+       href: Specifications/D-Row MDC.md
     - name: S-Row MDC
-      href: Introduction/Benefits/Specifications S-Row MDC.md
+       href: Specifications/S-Row MDC.md
     - name: S-Cabinet MDC
-      href: Introduction/Benefits/Specifications S-Cabinet MDC.md
+       href: Specifications/S-Cabinet-MDC.md
       
 - name: 产品优势
   items:
-    - name: 模块一体
-      href: Introduction-Benefits/Modular.md
-    - name: 预制化生产
-      href: Introduction-Benefits/Construction.md
-    - name: 绿色节能
-      href: Introduction-Benefits/Green.md
+    - name: 产品优势
 
- -name: 应用场景
+-name: 应用场景
   items:
-    - name: 4 应用场景
+    - name: 应用场景
       href: Introduction/Application-Scenarios/Big.md
+
+- name: 产品定价
+  items:
+    - name: 计费概述
+      href: Pricing/Billing-Overview.md
+
+- name: FAQ
+  items:
+    - name: FAQ
+      href: FAQ/FAQ.md
