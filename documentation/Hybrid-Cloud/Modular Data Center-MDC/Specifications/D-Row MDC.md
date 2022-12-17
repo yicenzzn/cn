@@ -4,4 +4,7 @@
 ##** 2.1 D-Row MDC **
 D-Row MDC适用机柜总功率35KW~150KW；最大单机柜功率可不大于12KW，为双排柜模组式安装形式，详见图1。
 
-![D-Row-MDC](https://user-images.githubusercontent.com/120007711/208233157-9b254185-d47e-4149-ac7c-0e4a683b160d.jpg)
+![D-Row-MDC](../../../../image/modular data center-mdc/D-Row-MDC.jpg)
+
+
+
