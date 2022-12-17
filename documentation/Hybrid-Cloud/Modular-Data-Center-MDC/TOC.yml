@@ -22,7 +22,7 @@ items:
 -name: 应用场景
   items:
     - name: 应用场景
-      href: Introduction/Application-Scenarios/Big.md
+      href: Introduction/Application-Scenarios/Scenarios.md
 
 - name: 产品定价
   items:
