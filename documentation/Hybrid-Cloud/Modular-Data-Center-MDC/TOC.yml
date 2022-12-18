@@ -20,7 +20,7 @@ items:
 - name: 操作指南
   items:
     - name: 产品手册
-      href: Operation-Guide/Notice.md
+      href: Operation-Guide/Guide-Notice.md
 
 - name: FAQ
   items:
