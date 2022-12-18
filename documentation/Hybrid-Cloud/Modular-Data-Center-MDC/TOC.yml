@@ -5,24 +5,12 @@ items:
   items:
     - name: 产品概述
       href: Introduction/Product-Overview.md
-
-- name: 产品规格
-   items:
-    - name: D-Row MDC
-       href: Specifications/D-Row MDC.md
-    - name: S-Row MDC
-       href: Specifications/S-Row MDC.md
-    - name: S-Cabinet MDC
-       href: Specifications/S-Cabinet-MDC.md
-      
-- name: 产品优势
-  items:
+    - name: 产品规格
+      href: Introduction/Specifications.md
     - name: 产品优势
-
--name: 应用场景
-  items:
+      href: Introduction/Benefits.md
     - name: 应用场景
-      href: Introduction/Application-Scenarios/Scenarios.md
+      href: Introduction/Application-Scenarios.md
 
 - name: 产品定价
   items:
