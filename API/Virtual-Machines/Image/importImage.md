@@ -25,9 +25,9 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images:import
 ## 请求参数
 |名称|类型|是否必选|示例值|描述|
 |---|---|---|---|---|
-|**architecture**|String|是|x86_64|镜像架构。可选值：`x86_64、i386`。|
+|**architecture**|String|是|x86_64|镜像架构。可选值：<br> `x86_64、arm64`。|
 |**osType**|String|是|linux|镜像的操作系统类型。可选值：`windows、linux`。|
-|**platform**|String|是|CentOS|镜像的操作系统平台名称。<br>可选值：`Ubuntu、CentOS、Windows Server、Other Linux、Other Windows`。<br>|
+|**platform**|String|是|CentOS|镜像的操作系统平台名称。<br>可选值：`Ubuntu、CentOS、Windows Server、OpenEuler、Rocky Linux、Other Linux、Other Windows`。<br>|
 |**diskFormat**|String|是|qcow2|磁盘格式，可选值：`qcow2、vhd、vmdk、raw`。|
 |**systemDiskSizeGB**|Integer|是|40|镜像系统盘的默认容量，单位GiB。取值范围：`[40,500]`，要求值是10的整数倍。须保证此容量不小于镜像文件系统实际空间大小。|
 |**imageUrl**|String|是|https://test.s3-internal.cn-north-1.jdcloud-oss.com/linux/system_img.raw|要导入镜像的对象存储内网下载地址。|
