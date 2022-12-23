@@ -58,12 +58,14 @@
     <td>240p及以下<br/>
     <td>480p及以下<br/>  
     <td>720p及以下<br/>  
-  <td>单价</td>
+  <td>1080p及以下</td>
 </tr>
 <tr>
-    <td>回放流量（中国大陆）</td>
-    <td>流量计费</td>
-    <td>0.8元/GB</td>
+    <td>1v1</td>
+    <td>2</td>
+    <td>4</td>
+    <td>8</td>
+    <td>16</td>
 </tr>
 <tr>
     <td>点播存储</td>
