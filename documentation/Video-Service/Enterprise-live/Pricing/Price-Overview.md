@@ -10,22 +10,22 @@
   <td>单价</td>
 </tr>
   <tr>
-    <td rowspan="3"> 带宽峰值<br/>
-    <td>0-500Mbps(含)</td>
-    <td>0.7</td>
+    <td rowspan="3"> 标准直播月并发<br/>
+    <td>1000及以下</td>
+    <td>25元/并发/月</td>
 </tr>
 <tr>
-    <td>500Mbps-5Gbps(含)</td>
-    <td>0.63</td>
+    <td>1000-5000(含)</td>
+    <td>20元/并发/月</td>
 </tr>
   <tr>
-    <td>>5Gbps</td>
-    <td>0.53</td>
+    <td>>5000以上</td>
+    <td>15</td>
 </tr>
 <tr>
-    <td>480P及以下</td>
-    <td>分辨率小于等于640 × 480</td>
-    <td>14</td>
+    <td>标准直播时长</td>
+    <td>720p及以下</td>
+    <td>0.02元/分钟</td>
 </tr>
 <tr>
     <td>720P及以下</td>
