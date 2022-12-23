@@ -681,7 +681,7 @@ GPU型当前提供GPU标准型和GPU虚拟化型。GPU虚拟化型规格目前�
 * 异构计算
 * GPU：
 	*  第三代：Nvidia Tesla A100（显存80 GiB）
-	*  第一代：Nvidia Tesla P40 或 Nvidia Tesla V100（显存16 GiB）
+	*  第一代：Nvidia Tesla P40（显存24 GiB） 或 Nvidia Tesla V100（显存16 GiB）
 * 处理器：
 	* 第三代：2.6 GHz主频的Intel Xeon Platinum 8338C（Icelake）处理器
 	* 第一代：2.1 GHz主频的Intel Xeon E5-2683 v4（Broadwell）处理器（P40）或 2.2 GHz主频的Intel Xeon E5-2650 v4（Broadwell）处理器（V100）
