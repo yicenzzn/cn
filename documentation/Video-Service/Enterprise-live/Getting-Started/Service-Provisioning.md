@@ -1,9 +1,10 @@
 # 开通服务
 
-1.右上角，控制台-注册/登录（支持京东账号登录）。  
-![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%BC%80%E9%80%9A%E6%9C%8D%E5%8A%A11.png)
+# 开通服务
 
+您可以通过以下任意一种方式开通视频直播服务：
 
-2.控制台-云服务-搜索“音视频通信”，点击进入。    
-![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%BC%80%E9%80%9A%E6%9C%8D%E5%8A%A12.png)
+-   拨打电话：4006151212，由客服为您开通企业直播服务。
+
+-   进入[企业直播工单系统](https://ticket.jdcloud.com/applyorder/form?cateId=1230&questionId=1235)，填报【使用权限申请】工单，客服会联系您处理服务开通事宜。
 
