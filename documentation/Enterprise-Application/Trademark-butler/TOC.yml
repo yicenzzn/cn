@@ -12,6 +12,7 @@ items:
 
 
 
+
 - name: 热门商标服务
   items:
     - name: 商标顾问注册
@@ -37,10 +38,12 @@ items:
   
 - name: 操作指导
   items:
+    - name: 购买指南
+      href: Operation-Guide/Purchase-Guide.md   
+    - name: 履约进度查询指南
+      href: Operation-Guide/View-Guide.md
     - name: 商标智能注册指南
       href: Operation-Guide/Intelligence-Guide.md
-    - name: 购买指南
-      href: Operation-Guide/Purchase-Guide.md
 
 
 
@@ -55,11 +58,11 @@ items:
     - name: 风险监测服务类问题
       href: FAQ/Risk-Monitoring-FAQ.md
     - name: 商标延展服务类问题
-      href: FAQ/Extended-Service-FAQ.md  
+      href: FAQ/Extended-Service-FAQ.md
 
      
      
-- name: 服务协议
+- name: 服务资质与协议
   href: Service-Agreement.md
   
   

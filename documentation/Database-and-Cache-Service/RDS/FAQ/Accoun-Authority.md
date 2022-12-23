@@ -2,7 +2,7 @@
 
 ## 为什么我无法kill其他用户session
 
-当前不开放super权限，因此若您在一些紧急场景下需要kill所有应用session的时候，请提交工单联系客服处理。
+当前京东云数据库RDS账号不支持kill其他用户session，因此若您在一些紧急场景下需要kill所有应用session的时候，请提交工单联系客服处理或使用DMS执行kill会话。
 
 ## 为什么我无法执行含define的存储过程、函数
 

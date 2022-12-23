@@ -4,6 +4,10 @@ items:
     href: Cloud-Hosting-Service-Terms.md
   - name: 云主机服务等级协议（SLA）
     href: Cloud-Host-Service-Level-Agreement-X-SLA.md
+  - name: 伙伴云主机产品服务协议
+    href: cloud-hosting-x-service-terms.md	
+  - name: 伙伴云主机服务等级协议（SLA）
+    href: Cloud-Host-X-Service-Level-Agreement-SLA.md
   - name: 原生容器服务条款
     href: Native-Container-Service-Clause.md
   - name: 原生容器等级协议（SLA）
@@ -824,6 +828,8 @@ items:
     href: Light-Virtual-Machine.md
   - name: 云原生实时数仓Starwift服务条款
     href: Cloud-Native-Data-Warehouse-Starwift.md 
+  - name: 云原生实时数仓Starwift等级协议（SLA）
+    href: Cloud-Native-Data-Warehouse-Starwift-SLA.md 
   - name: 京东云云销客服务条款
     href: CloudCustomers.md
   - name: 京东云云费控服务条款
@@ -848,3 +854,7 @@ items:
     href: EDI-Terms-Of-Service.md
   - name: ICP经营许可证咨询代理服务条款
     href: ICP-Terms-Of-Service.md
+  - name: 企业安全云盘服务条款
+    href: Enterprise-Security-Cloud-Service-Clause.md
+  - name: 备案服务服务协议
+    href: Icp-License-Service.md

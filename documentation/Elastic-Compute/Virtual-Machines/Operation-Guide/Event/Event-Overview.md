@@ -15,16 +15,16 @@
 	</thead>
 	<tbody>
     <tr>
-        <td rowspan="3">异常事件</td>
+        <td rowspan="6">异常事件</td>
         <td> 实例创建失败</td>
         <td> SystemFailure.Delete</td>
         <td> 实例创建请求成功后，由于系统原因导致的资源回滚删除。 </td>
         <td> 尝试重新创建，如仍无法成功请联系客服。</td>
     </tr>
     <tr>
-        <td> 系统异常实例迁移</td>
-        <td> SystemFailure.Migrate</td>
-        <td> 物理机故障导致实例不可用后进行的关机迁移。 </td>
+        <td> 系统异常实例重启</td>
+        <td> SystemFailure.Reboot</td>
+        <td> 物理机故障、qemu crash等导致实例重启。 </td>
         <td> 关注业务影响。</td>
     </tr>   
    <tr>
@@ -33,6 +33,24 @@
         <td> 物理机故障导致实例不可用，但实例规格不支持迁移（带本地数据盘的规格，如存储优化型，GPU型）。 </td>
         <td> 联系客服，确认本地数据可以清除后由后台操作迁移。</td>
     </tr>
+    <tr>
+        <td> 系统异常本地盘不可用</td>
+        <td> SystemException.LocalDiskFailure.Fault</td>
+        <td> 带本地数据盘实例的实例某块本地盘故障。 </td>
+        <td> 关注业务影响或重新部署实例。</td>
+    </tr>
+    <tr>
+        <td> 系统异常GPU卡不可用</td>
+        <td> SystemFailure.GPUFailure.Fault</td>
+        <td> GPU实例上某块GPU卡故障，但实例规格带本地数据盘不支持迁移。 </td>
+        <td> 关注业务影响或重新部署实例。</td>
+    </tr>	
+    <tr>
+        <td> 系统异常实例出高可用组</td>
+        <td> SystemFailure.RemovedFromAg</td>
+        <td> 实例宕机迁移，因资源库存不足导致实例无法按高可用组置放策略打散分布，导致实例移出高可用组。 </td>
+        <td> 关注业务影响。</td>
+    </tr>	
     <tr>
         <td rowspan="4">欠费/到期</td>
         <td> 实例停止（资源到期）</td>
@@ -59,12 +77,18 @@
         <td>  </td>
     </tr> 
     <tr>
-        <td> 状态变更</td>
+        <td rowspan="2"> 状态变更</td>
         <td> 实例状态变更</td>
         <td> StateChange </td>
-        <td> 用户操作或系统行为导致的实例状态变更（目前仅支持创建和删除两类操作导致的状态变更）。 </td>
+        <td> 用户操作或系统行为导致的实例状态变更。 </td>
         <td> 关注状态变更是否符合预期。 </td>
-    </tr>        
+    </tr>   
+    <tr>
+        <td> 制作私有镜像</td>
+        <td> CreateImage</td>
+        <td> 用户制作私有镜像时，镜像开始创建、创建成功或失败的状态变更。 </td>
+        <td>  </td>
+    </tr> 
 </table> 
  
 ## 事件格式
@@ -98,13 +122,17 @@
 
 云事件服务提供事件订阅功能，可指定事件和资源订阅并设置事件目的地，在短信和邮件等通知途径中，事件详情会以以下形式发送。
 * [实例创建失败](event-overview#user-content-1)
-* [系统异常实例迁移](event-overview#user-content-2)
+* [系统异常实例重启](event-overview#user-content-2)
 * [系统异常实例不可用](event-overview#user-content-3)
+* [系统异常本地盘不可用](event-overview#user-content-9)
+* [系统异常GPU卡不可用](event-overview#user-content-10)
+* [系统异常实例出高可用组](event-overview#user-content-11)
 * [实例停止（资源到期）](event-overview#user-content-4)
 * [实例删除（资源到期）](event-overview#user-content-5)
 * [实例停止（资源欠费）](event-overview#user-content-6)
 * [实例删除（资源欠费）](event-overview#user-content-7)
 * [实例状态变更](event-overview#user-content-8)
+* [创建私有镜像](event-overview#user-content-12)
 
 <div id="user-content-1"></div>
 
@@ -130,12 +158,12 @@
 
 <div id="user-content-2"></div>
 
-### 系统异常实例迁移
-* 事件代码：SystemFailure.Migrate
+### 系统异常实例重启
+* 事件代码：SystemFailure.Reboot
 * 事件通知说明：此事件会在开始迁移和迁移完成后发送两条通知，事件详情如下：
 ```JSON
 {
-	"eventAction": "SystemFailure.Migrate",
+	"eventAction": "SystemFailure.Reboot",
 	"eventState":"Executing",
 	"eventTime": "2021-02-25 06:44:06",
 	"instanceId": "i-bc4****9oh"
@@ -143,7 +171,7 @@
 ```
 ```JSON
 {
-	"eventAction": "SystemFailure.Migrate",
+	"eventAction": "SystemFailure.Reboot",
 	"eventState":"Executed",
 	"eventTime": "2021-02-25 06:44:26",
 	"instanceId": "i-bc4****9oh"
@@ -158,6 +186,46 @@
 ```JSON
 {
 	"eventAction": "SystemFailure.Fault",
+	"eventTime": "2021-02-25 09:51:27",
+	"instanceId": "i-qj7****e7m"
+}
+```
+
+<div id="user-content-9"></div>
+
+### 系统异常本地盘不可用
+* 事件代码：SystemException.LocalDiskFailure.Fault
+* 事件通知说明：此事件会在实例某块本地数据盘故障后，发送一条通知，事件详情如下：
+```JSON
+{
+	"eventAction": "SystemException.LocalDiskFailure.Fault",
+	"eventTime": "2021-02-25 09:51:27",
+	"instanceId": "i-qj7****e7m"
+}
+```
+
+<div id="user-content-10"></div>
+
+### 系统异常GPU卡不可用
+* 事件代码：SystemFailure.GPUFailure.Fault
+* 事件通知说明：此事件会在实例某块GPU卡故障后（实例带本地数据盘，无法迁移），发送一条通知，事件详情如下：
+```JSON
+{
+	"eventAction": "SystemFailure.GPUFailure.Fault",
+	"eventTime": "2021-02-25 09:51:27",
+	"instanceId": "i-qj7****e7m",
+	"gpuSerial": "gpu-serial:1:2:3"
+}
+```
+
+<div id="user-content-11"></div>
+
+### 系统异常实例出高可用组
+* 事件代码：	SystemFailure.RemovedFromAg
+* 事件通知说明：此事件会在实例宕机迁移，因资源库存不足导致实例无法按高可用组置放策略打散分布，导致实例移出高可用组时，发送一条通知，事件详情如下：
+```JSON
+{
+	"eventAction": "SystemFailure.RemovedFromAg",
 	"eventTime": "2021-02-25 09:51:27",
 	"instanceId": "i-qj7****e7m"
 }
@@ -312,6 +380,29 @@
 	"instanceCurrentState": "terminated",
 	"instanceId": "i-5kh****v3b",
 	"instanceLastState": "deleting"
+}
+```
+
+
+<div id="user-content-12"></div>
+
+### 创建私有镜像
+* 事件代码：CreateImage
+* 事件通知说明：此事件会在创建私有镜像开始和成功/失败时发送两条通知，事件详情如下：
+```JSON
+{
+	"eventAction":"CreateImage",
+	"eventState":"Executing",
+	"eventTime":"2021-02-25 20:13:35",
+	"instanceId":"i-ai0****net"
+}
+```
+```JSON
+{
+	"eventAction":"CreateImage",
+	"eventState":"Executed",
+	"eventTime":"2021-02-25 20:13:39",
+	"instanceId":"i-ai0****net"
 }
 ```
 
