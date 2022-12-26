@@ -8,7 +8,7 @@
    </tr>
    <tr>
       <td> Wndows </td>
-      <td> VNC 登录<br>WebTerminal 登录<br>Xshell/MobaXterm客户端工具登录  </td>
+      <td> VNC 登录<br>WebTerminal 登录<br>Xshell/MobaXterm等客户端工具登录  </td>
       <td rowspan="2"> VNC登录<br>WebTerminal 登录 </td>
    </tr>
    <tr>     
