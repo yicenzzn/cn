@@ -67,6 +67,8 @@ items:
           items:
             - name: describeParameters
               href: Parameters/describeParameters.md
+            - name: modifyParameters
+              href: Parameters/modifyParameters.md
 
         - name: 白名单
           items:
