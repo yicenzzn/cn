@@ -26,6 +26,7 @@
 * 密码：创建实例时，可选择由系统**自动生成**密码以短信及邮件方式发送，或**自定义**密码。也可以在实例创建后通过 [重置密码](../Operation-Guide/Instance/Reset-Password.md) 功能重新设置密码。
 * 密钥：创建实例时，如实例为Linux系统支持可为实例绑定SSH密钥，实例创建后可调整绑定的密钥对，须注意通过京东云控制台创建的SSH密钥对仅有一次下载私钥的机会，请妥善保管。
 
+
 ## 使用VNC登录Linux实例
 VNC登录是京东云为用户提供的一种通过 Web 浏览器远程连接实例的方式。在WebTerminal或其他客户端工具无法远程登录的情况下，可以通过 VNC 登陆连接到实例，观察实例状态，并且可通过实例用户进行基本的实例管理操作。
 VNC登陆的常见场景包括以下几种：
@@ -52,7 +53,7 @@ VNC登陆的常见场景包括以下几种：
 * 要正常使用VNC登录，建议使用高版本浏览器，如：Chrome及Firefox等浏览器。
 * VNC暂不支持文件上传下载。
 
-## 本地为Windows，通过客户端工具使用密码/密钥登录
+## 本地为Windows，通过客户端工具登录Linux实例
 您可选择多种远程登录软件登陆京东云Linux实例，如选择使用SSH密钥登录实例，需要在创建实例时选择开启密钥登录功能，并为其绑定一个密钥，请确保已下载所绑定密钥的私钥。有关密钥的创建操作，请参阅 [创建SSH密钥](../Operation-Guide/Key-Pair/Create-Keypair.md)。
 
 同时请您查看实例关联 [安全组](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features) 及所在子网的 [网络ACL](http://docs.jdcloud.com/cn/virtual-private-cloud/network-acl-features) 配置，确保实例22端口已开放。
@@ -100,7 +101,7 @@ VNC登陆的常见场景包括以下几种：
 		<img src="https://img1.jcloudcs.com/cn/image/vm/Getting-Start-Linux-Connect-linux-xshell5.png" width="700">
 		</div>
 
-## 本地为Linux/Mac OS，通过SSH指令使用密码/密钥登录Linux实例
+## 本地为Linux/Mac OS，通过SSH指令登录Linux实例
 ### 密码登录
 Linux用户请直接运行以下命令，Mac OS用户请打开系统自带的终端（Terminal）后运行以下命令，随后输入该实例root用户的密码，输入正确即可连接实例。
 
