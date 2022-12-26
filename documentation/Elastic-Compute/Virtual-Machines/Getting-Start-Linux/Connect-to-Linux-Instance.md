@@ -52,10 +52,10 @@ VNC登陆的常见场景包括以下几种：
 * 要正常使用VNC登录，建议使用高版本浏览器，如：Chrome及Firefox等浏览器。
 * VNC暂不支持文件上传下载。
 
-## 本地为Windows，通过远程登录软件使用密码/密钥登录
-您可选择多种远程登录软件登陆京东云Linux实例，如选择使用SSH密钥登录实例，需要在创建实例时选择开启密钥登录功能，并为其绑定一个密钥，请确保已下载所绑定密钥的私钥。有关密钥的创建操作，请参阅[创建SSH密钥](../Operation-Guide/Key-Pair/Create-Keypair.md)。
+## 本地为Windows，通过客户端工具使用密码/密钥登录
+您可选择多种远程登录软件登陆京东云Linux实例，如选择使用SSH密钥登录实例，需要在创建实例时选择开启密钥登录功能，并为其绑定一个密钥，请确保已下载所绑定密钥的私钥。有关密钥的创建操作，请参阅 [创建SSH密钥](../Operation-Guide/Key-Pair/Create-Keypair.md)。
 
-同时请您查看实例关联[安全组](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features)及所在子网的[网络ACL](http://docs.jdcloud.com/cn/virtual-private-cloud/network-acl-features)配置，确保实例22端口已开放。
+同时请您查看实例关联 [安全组](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features) 及所在子网的 [网络ACL](http://docs.jdcloud.com/cn/virtual-private-cloud/network-acl-features) 配置，确保实例22端口已开放。
 
 本例以 CentOS 7.1 64位系统，Xshell远程登录软件为示范，可按照如下步骤完成登录。
 
@@ -68,7 +68,7 @@ VNC登陆的常见场景包括以下几种：
 	* 名称：自定义设置
 	* 协议：SSH
 	* 主机：实例所绑定的公网IP，可在实例列表查询
-	* 端口号：22!
+	* 端口号：22
 	[](https://img1.jcloudcs.com/cn/image/vm/Getting-Start-Linux-Connect-linux-xshell.png)
 
 3. 选择用户身份认证
@@ -100,14 +100,15 @@ VNC登陆的常见场景包括以下几种：
 		<img src="https://img1.jcloudcs.com/cn/image/vm/Getting-Start-Linux-Connect-linux-xshell5.png" width="700">
 		</div>
 
-## 本地为Linux/Mac OS，使用密码登录Linux实例
+## 本地为Linux/Mac OS，通过SSH指令使用密码/密钥登录Linux实例
+### 密码登录
 Linux用户请直接运行以下命令，Mac OS用户请打开系统自带的终端（Terminal）后运行以下命令，随后输入该实例root用户的密码，输入正确即可连接实例。
 
 ```Shell
 ssh root@<实例的公网IP地址>
 ```
 
-## 本地为Linux/Mac OS，使用密钥登录Linux实例
+### 密钥登录
 Linux用户请直接运行以下命令，Mac OS用户请打开系统自带的终端（Terminal）后运行以下命令，以对私钥文件赋予本人可读的权限：
 
 ```Shell
