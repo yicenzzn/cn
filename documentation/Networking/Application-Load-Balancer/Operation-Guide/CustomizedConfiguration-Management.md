@@ -1,10 +1,10 @@
 # 个性化配置管理
 
-[原理介绍](CustomizedConfiguration-management#principle-introduction)
+[原理介绍](CustomizedConfiguration-Management#principle-introduction)
 
-[添加个性化配置](CustomizedConfiguration-management#add-CostomizedConfiguration)
+[添加个性化配置](CustomizedConfiguration-Management#add-CostomizedConfiguration)
 
-[管理个性化配置](CustomizedConfiguration-management#manage-CostomizedConfiguration)
+[管理个性化配置](CustomizedConfiguration-Management#manage-CostomizedConfiguration)
 
 ## 原理介绍
 <div id="principle-introduction"></div>
