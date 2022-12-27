@@ -10,10 +10,18 @@ items:
           herf: ISV/ISV-Enter/Enter-condition.md
         - name: 入驻流程
           herf: ISV/ISV-Enter/Enter-Flow.md
-        - name: 入驻协议
+        - name: 服务商合作协议
           herf: ISV/ISV-Enter/Enter-Agreement.md
         - name: 管理规范
           herf: ISV/ISV-Enter/Management-Practices.md
+        - name: 保证金规则及缴纳方式
+          herf: ISV/ISV-Enter/Deposit-Rules.md
+        - name: 虚假宣传规则
+          herf: ISV/ISV-Enter/False-Publicity-Rules.md
+        - name: 店铺资质管理规范
+          herf: ISV/ISV-Enter/Qualification-Management.md
+        - name: 服务费规则
+          herf: ISV/ISV-Enter/Service-Charge.md
         - name: 市场活动合作规范
           herf: ISV/ISV-Enter/Norms-Of-Cooperation.md
       - name: 管理后台
@@ -44,6 +52,14 @@ items:
     items:
       - name: 订购协议
         herf: Service-Related/Subscription-Agreement.md
+      - name: 用户协议
+        herf: Service-Related/User-Agreement.md
+      - name: 自营商品用户协议
+        herf: Service-Related/Own-Goods-User-Agreement.md
+      - name: 知识产权侵权举报
+        herf: Service-Related/Intellectual-Property-Report.md
+      - name: 评价管理规则
+        herf: Service-Related/Evaluation-Management.md
       - name: 发票申请
         herf: Service-Related/Invoice.md
       - name: 镜像帮助文档
