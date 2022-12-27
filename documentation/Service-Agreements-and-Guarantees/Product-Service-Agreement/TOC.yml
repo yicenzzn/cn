@@ -858,3 +858,7 @@ items:
     href: Enterprise-Security-Cloud-Service-Clause.md
   - name: 备案服务服务协议
     href: Icp-License-Service.md
+  - name: 云防火墙服务协议
+    href: Cloudfw-Service-Terms.md
+  - name: 云防火墙服务等级协议
+    href: Cloudfw-SLA.md
