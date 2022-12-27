@@ -52,6 +52,14 @@ items:
     items:
       - name: 订购协议
         herf: Service-Related/Subscription-Agreement.md
+      - name: 用户协议
+        herf: Service-Related/User-Agreement.md
+      - name: 自营商品用户协议
+        herf: Service-Related/Own-Goods-User-Agreement.md
+      - name: 知识产权侵权举报
+        herf: Service-Related/Intellectual-Property-Report.md
+      - name: 评价管理规则
+        herf: Service-Related/Evaluation-Management.md
       - name: 发票申请
         herf: Service-Related/Invoice.md
       - name: 镜像帮助文档
