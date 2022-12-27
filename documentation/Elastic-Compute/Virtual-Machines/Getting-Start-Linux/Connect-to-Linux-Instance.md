@@ -54,7 +54,7 @@ WebTerminal是京东云提供的基于SSH/RDP协议的Web远程终端工具，�
 * 会话名称：默认为root@<实例ID>，可自行修改为方便识别的会话名称。
 
 <div align="center">
-<img src="https://img1.jcloudcs.com/cn/image/vm/webterminal1.jpg" width="600">
+<img src="https://img1.jcloudcs.com/cn/image/vm/webterminal1.jpg" width="450">
 </div>
 
 3. 登录成功后，可按需使用以下功能：
