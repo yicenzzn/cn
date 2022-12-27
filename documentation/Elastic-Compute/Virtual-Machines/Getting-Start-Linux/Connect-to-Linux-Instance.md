@@ -42,7 +42,7 @@ WebTerminal是京东云提供的基于SSH/RDP协议的Web远程终端工具，�
 
 
 1. 在实例列表的操作列，点击 **远程连接** ，在登录方式选择中选择 **WebTerminal登录**。
-![sdsd](../../../../image/Elastic-Compute/Virtual-Machine/11291.png)
+![](../../../../image/Elastic-Compute/Virtual-Machine/11291.png)
 </div>
 
 2. 在登录弹窗中，根据实际情况完成选择或填写
@@ -53,7 +53,9 @@ WebTerminal是京东云提供的基于SSH/RDP协议的Web远程终端工具，�
 * 认证方式：可选密码或密钥，选择密钥登录时需要导入本地私钥，系统仅使用私有进行登录不会保存私钥。
 * 会话名称：默认为root@<实例ID>，可自行修改为方便识别的会话名称。
 
-[](https://img1.jcloudcs.com/cn/image/vm/webterminal1.jpg)
+<div align="center">
+<img src="https://img1.jcloudcs.com/cn/image/vm/webterminal1.jpg" width="450">
+</div>
 
 3. 登录成功后，可按需使用以下功能：
 * 快速查看系统内文件目录。
@@ -61,7 +63,9 @@ WebTerminal是京东云提供的基于SSH/RDP协议的Web远程终端工具，�
 * 查看实例详细信息。
 * 进行复制、关闭等会话管理。
 
-[](https://img1.jcloudcs.com/cn/image/vm/webterminal2.png)
+<div align="center">
+<img src="https://img1.jcloudcs.com/cn/image/vm/webterminal2.png" width="700">
+</div>
 
 >请注意：
 >* WebTerminal暂不支持windows操作系统的实例和裸金属实例。
@@ -77,7 +81,7 @@ VNC登陆的常见场景包括以下几种：
 * 无法通过远程登录软件或密钥登录时，通过 VNC 登陆实例，排查SSH服务异常等异常。
 
 1. 在实例列表的操作列，点击 **远程连接** ，在登录方式选择中选择 **VNC登录**。
-![sdsd](../../../../image/Elastic-Compute/Virtual-Machine/11291.png)
+![](../../../../image/Elastic-Compute/Virtual-Machine/11291.png)
 </div>
 
 2. 点击VNC之后进入到登录页面
