@@ -260,7 +260,7 @@
 #### 1.7.2使用教程
 
 第一步：进入功能界面【直播间管理-设置】
-![](![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%8A%A9%E6%95%99%E7%AB%AF%E8%AE%BE%E7%BD%AE.png)
+![](https://github.com/jdcloudcom/cn/blob/cn_enterprise_live/image/Enterprise-live/%E5%8A%A9%E6%95%99%E7%AB%AF%E8%AE%BE%E7%BD%AE.png)
 
 
 
