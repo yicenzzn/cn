@@ -40,7 +40,7 @@
       - 该配置项为默认配置项，不可删除，默认为关闭；
       - 将开关打开，则该个性化配置会创建一个密钥；将打开的开关关闭，则该个性化配置会删除之前创建的密钥。
     
-    **注意**：新添加的个性化配置绑定负载均衡后才会生效，具体请见[管理个性化配置](CustomizedConfiguration-management#manage-CostomizedConfiguration)。
+    **注意**：新添加的个性化配置绑定负载均衡后才会生效，具体请见[管理个性化配置](CustomizedConfiguration-Management#manage-CostomizedConfiguration)。
     
 
 ## 管理个性化配置
