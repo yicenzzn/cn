@@ -65,6 +65,8 @@
         href: Operation-Guide/UrlMap-Management.md
       - name: 证书管理
         href: Operation-Guide/Certificates-Management.md
+      - name: 个性化配置管理
+        href: Operation-Guide/CustomizedConfiguration-Management.md
       - name: 配置访问日志
         href: Operation-Guide/Access-Log.md
       - name: 监控服务
