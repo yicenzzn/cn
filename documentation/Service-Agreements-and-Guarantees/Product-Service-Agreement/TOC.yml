@@ -860,5 +860,5 @@ items:
     href: Icp-License-Service.md
   - name: 云防火墙服务协议
     href: Cloudfw-Service-Terms.md
-  - name: 云防火墙服务等级协议
+  - name: 云防火墙服务等级协议（SLA）
     href: Cloudfw-SLA.md
