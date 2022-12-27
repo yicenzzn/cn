@@ -394,9 +394,9 @@
       <td>2</td>
       <td>8</td>
       <td>192</td>
-      <td>--</td>
+      <td>192</td>
       <td>0.40</td>
-      <td>--</td>
+      <td>0.40</td>
       <td></td>
    </tr>
    <tr>
@@ -404,9 +404,9 @@
       <td>4</td>
       <td>16</td>
       <td>384</td>
-      <td>--</td>
+      <td>384</td>
       <td>0.80</td>
-      <td>--</td>
+      <td>0.80</td>
       <td></td>
    </tr>
    <tr>
@@ -414,9 +414,9 @@
       <td>8</td>
       <td>32</td>
       <td>768</td>
-      <td>--</td>
+      <td>768</td>
       <td>1.60</td>
-      <td>--</td>
+      <td>1.60</td>
       <td></td>
    </tr>
    <tr>
@@ -424,9 +424,9 @@
       <td>16</td>
       <td>64</td>
       <td>1536</td>
-      <td>--</td>
+      <td>1536</td>
       <td>3.20</td>
-      <td>--</td>
+      <td>3.20</td>
       <td></td>
    </tr>
    <tr>
@@ -434,9 +434,9 @@
       <td>32</td>
       <td>128</td>
       <td>3072</td>
-      <td>--</td>
+      <td>3072</td>
       <td>6.40</td>
-      <td>--</td>
+      <td>6.40</td>
       <td></td>
    </tr>
    <tr>
@@ -444,9 +444,9 @@
       <td>64</td>
       <td>256</td>
       <td>6144</td>
-      <td>--</td>
+      <td>6144</td>
       <td>12.80</td>
-      <td>--</td>
+      <td>12.80</td>
       <td></td>
    </tr>
    <tr>
@@ -454,9 +454,9 @@
       <td>2</td>
       <td>8</td>
       <td>220</td>
-      <td>--</td>
+      <td>220</td>
       <td>0.46</td>
-      <td>--</td>
+      <td>0.46</td>
       <td></td>
    </tr>
    <tr>
@@ -464,9 +464,9 @@
       <td>4</td>
       <td>16</td>
       <td>440</td>
-      <td>--</td>
+      <td>440</td>
       <td>0.92</td>
-      <td>--</td>
+      <td>0.92</td>
       <td></td>
    </tr>
    <tr>
@@ -474,9 +474,9 @@
       <td>8</td>
       <td>32</td>
       <td>880</td>
-      <td>--</td>
+      <td>880</td>
       <td>1.83</td>
-      <td>--</td>
+      <td>1.83</td>
       <td></td>
    </tr>
    <tr>
@@ -484,9 +484,9 @@
       <td>16</td>
       <td>64</td>
       <td>1760</td>
-      <td>--</td>
+      <td>1760</td>
       <td>3.67</td>
-      <td>--</td>
+      <td>3.67</td>
       <td></td>
    </tr>
    <tr>
@@ -494,9 +494,9 @@
       <td>32</td>
       <td>128</td>
       <td>3520</td>
-      <td>--</td>
+      <td>3520</td>
       <td>7.33</td>
-      <td>--</td>
+      <td>7.33</td>
       <td></td>
    </tr>
    <tr>
@@ -504,9 +504,9 @@
       <td>64</td>
       <td>256</td>
       <td>7040</td>
-      <td>--</td>
+      <td>7040</td>
       <td>14.67</td>
-      <td>--</td>
+      <td>14.67</td>
       <td></td>
    </tr>
    <tr>
