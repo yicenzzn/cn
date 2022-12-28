@@ -1,15 +1,15 @@
 ## VPN连接到亚马逊AWS
-本教程将为您介绍如何通过京东智联云IPsec VPN，建立京东智联云VPC到亚马逊AWS VPC的内网安全访问。
+本教程将为您介绍如何通过京东云IPsec VPN，建立京东云VPC到亚马逊AWS VPC的内网安全访问。
 
 ### 业务场景
 客户基于业务可用性的角度考虑，将业务部署到多个公有云厂商提供的服务中，多个云厂商的业务之间需要互相访问或实现故障切换/灾备。<br />
 ![](../../../../image/Networking/VPN/Best-Practices/connection-with-amazon.png)
 
 ### 前置条件
-京东智联云VPC内的网段与Amazon AWS VPC内的网段不能重叠。
+京东云VPC内的网段与Amazon AWS VPC内的网段不能重叠。
 
 ### 详细步骤
-###### 步骤1.在京东智联云创建边界网关
+###### 步骤1.在京东云创建边界网关
 
 a)登录[边界网关控制台](https://cns-console.jdcloud.com/host/borderGateway/list)；  <br />
 b)选择使用VPN的地域，点击创建边界网关；<br />
@@ -17,23 +17,23 @@ c)边界网关支持运行BGP路由协议，当前边界网关的BGP ASN固定�
 
 更多内容，详见[边界网关管理](../Operation-Guide/Border-Gateway-Management/Border-Gateway-Configuration.md).
 
-###### 步骤2.在京东智联云创建VPC接口
+###### 步骤2.在京东云创建VPC接口
 a)登录[VPC接口控制台](https://cns-console.jdcloud.com/host/vpcAttachment/list)；  <br />
 b)选择使用VPN的地域，点击创建VPC接口；<br />
 c)选择步骤1中创建的边界网关，选择要通过该边界网关路由流量的VPC，选择要传播到该边界网关中的VPC网段，创建VPC接口后，被选择的网段将自动添加到该边界网关的传播路由表中，下一跳指向此步骤创建的VPC接口；<br />
 
 更多内容，详见[VPC接口管理](../Operation-Guide/Border-Gateway-Management/VPC-Attachment-Configuration.md)。
 
-###### 步骤3.在京东智联云创建客户网关
+###### 步骤3.在京东云创建客户网关
 a)登录[客户网关控制台](https://cns-console.jdcloud.com/host/customerGateway/list)；  <br />
 b)选择使用VPN的地域，点击创建客户网关；<br />
 c)客户网关是客户端VPN设备在云端的逻辑表示，客户将基于边界网关和客户网关创建VPN连接。客户网关本身仅代表客户端设备的相关信息(``只涉及公网地址和BGP ASN，无具体地理位置的概念``)，理论上并没有地域的属性，但由于云内资源几乎都有地域的属性，故也为客户网关分配了地域属性。相同配置的客户网关可以在不同地域重复创建，仅在创建资源的地域内可用，地域之间互不影响。<br />
 d)若客户端设备支持BGP路由协议，推荐使用BGP路由，此处请指定客户端的BGP ASN；<br />
-e)客户端配置四个公网地址，并任意指定四个公网可路由的地址，待Amazon AWS的VPN Connection分配了公网地址后，需要对京东智联云的客户网关公网地址进行更新；<br />
+e)客户端配置四个公网地址，并任意指定四个公网可路由的地址，待Amazon AWS的VPN Connection分配了公网地址后，需要对京东云的客户网关公网地址进行更新；<br />
 
 更多内容，详见[客户网关管理](../Operation-Guide/Customer-Gateway-Management/Customer-Gateway-Configuration.md)。
 
-###### 步骤4.在京东智联云创建VPN连接
+###### 步骤4.在京东云创建VPN连接
 a)登录[VPN连接控制台](https://cns-console.jdcloud.com/host/vpnConnection/list)；  <br />
 b)选择使用VPN的地域，点击创建VPN连接；<br />
 c)选择用于创建VPN连接的边界网关；<br />
