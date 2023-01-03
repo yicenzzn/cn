@@ -3,10 +3,19 @@
 WordPress是使用最广泛的博客和内容管理系统，支持丰富的插件和模板，功能强大，易于扩充功能。您可以使用它快速搭建独立的博客、论坛等网站，也可以做CMS使用。
 
 
+## 创建轻量云主机
+
+访问轻量云主机[创建实例页](https://lavm-console.jdcloud.com/lavm/create)
+
+选择WordPress镜像，以及套餐版本、时长进行下单支付
+
+![图片名称](https://img1.jcloudcs.com/image/docs/8.png)
+
+
 ## 查看应用详情
 
 
-在控制台选择轻量云主机，点击操作中的【查看】按钮
+支付完成后可以在控制台看到已购的轻量云主机，点击操作中的【查看】按钮
 
 
 ![图片名称](https://img1.jcloudcs.com/image/docs/1.png)
@@ -48,6 +57,10 @@ WordPress是使用最广泛的博客和内容管理系统，支持丰富的插�
 
 
 更多WordPress操作，请查看[WordPress 文档](https://wordpress.org/support)，或提交京东云工单咨询问题。
+
+
+
+## 搭建个人博客
 
 
 
