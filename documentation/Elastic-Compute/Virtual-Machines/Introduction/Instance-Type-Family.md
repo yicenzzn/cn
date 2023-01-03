@@ -583,7 +583,6 @@ g.n1.8xlarge|32|128|8|4 |	 |
 * 提供低时延高IO的本地存储
 * 处理器：
 	* 第三代：第三代：2.6 GHz主频的Intel Xeon Platinum 8338C（Icelake）处理器 或 2.6 GHz主频的Intel Xeon Gold 6267（Cascade Lake）处理器
-	* 第二代：2.4 GHz主频的Intel Xeon Gold 6148（Skylake）处理器
 	* 第一代：2.1 GHz主频的Intel Xeon E5-2683 v4（Broadwell）处理器
 * 支持本地数据盘（临时存储），并支持以下类型云硬盘。请注意 **本地数据盘为临时存储盘，有丢失数据的风险（比如发生迁移或宿主机宕机等情况），不适用于应用层没有数据冗余架构的使用场景， 建议您使用云硬盘存储重要数据。** 
 	* 通用型SSD云盘
