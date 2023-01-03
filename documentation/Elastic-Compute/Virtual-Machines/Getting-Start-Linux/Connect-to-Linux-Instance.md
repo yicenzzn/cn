@@ -68,9 +68,9 @@ WebTerminal是京东云提供的基于SSH/RDP协议的Web远程终端工具，�
 </div>
 
 >请注意：
->* WebTerminal暂不支持windows操作系统的实例和裸金属实例。
->* 要正常使用VNC登录，建议使用高版本浏览器，如：Chrome及Firefox等浏览器。
->* VNC暂不支持文件上传下载。
+>* WebTerminal暂不支持windows操作系统的实例。
+>* 边缘可用区实例不支持通过内网IP登录，须绑定弹性公网IP后通过公网登录
+
 
 ## 使用 VNC 登录Linux实例
 VNC是京东云提供的基于RFB协议的Web远程终端工具。在WebTerminal或其他客户端工具无法远程登录的情况下，可以通过 VNC 登陆连接到实例，观察实例状态，并且可通过实例用户进行基本的实例管理操作。
