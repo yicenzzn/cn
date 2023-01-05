@@ -1,6 +1,6 @@
 # 网络规划
 
-### 简介
+## 简介
 
 在您在京东云上部署您的业务之前，您需要根据您的业务进行网络规划。网络规划是一项复杂的设计，在此本文仅介绍一些基础的云上私有网络规划原则。
 
@@ -8,9 +8,10 @@
 - [规划您的子网数量](Networking-Planning#Subnet-Planning)
 - [规划您的私有网络和子网网段](Networking-Planning#CIDR-Planning)
 
-### 规划您的私有网络数量
+## 规划您的私有网络数量
 <div id="VPC-Planning"></div>
-#### 如何规划私有网络数量
+
+### 如何规划私有网络数量
 
 您可以根据您的业务来对您所需的私有网络数量进行初步判断
 
@@ -18,7 +19,7 @@
 
   如果您仅在单个地域部署您的业务，且业务的各服务之间不需要通过私有网络来进行严格隔离，则推荐您使用一个私有网络，仅通过子网来进行隔离。
 
-![Single-VPC](D:\2022 H1任务\VPC重构\网络规划图片\网络规划图片\Single-VPC.PNG)
+![Single-VPC](/image/Networking/Virtual-Private-Cloud/Getting-Started/Network-Planning/Single-VPC.PNG)
 
 - 多个私有网络
 
@@ -28,26 +29,24 @@
 
     私有网络是地域级别的资源，无法进行跨地域部署。因此在您有多个地域部署您的不同业务需求时，必须使用多个私有网络。
 
-![Multi-VPC-in-Different-Regions](D:\2022 H1任务\VPC重构\网络规划图片\网络规划图片\Multi-VPC-in-Different-Regions.PNG)
+![Multi-VPC-in-Different-Regions](/image/Networking/Virtual-Private-Cloud/Getting-Started/Network-Planning/Multi-VPC-in-Different-Regions.PNG)
 
   - 多业务严格隔离
   
     如果您的业务部署在一个地域，但是不同系统之间需要进行严格隔离，例如，生产环境和测试环境，那么也推荐您使用多个私有网络。私有网络之间天然隔离，您无需为此进行更多操作。
     
 
-![Multi-VPC-for-Different-Businesses](D:\2022 H1任务\VPC重构\网络规划图片\网络规划图片\Multi-VPC-for-Different-Businesses.PNG)
+![Multi-VPC-for-Different-Businesses](/image/Networking/Virtual-Private-Cloud/Getting-Started/Network-Planning/Multi-VPC-for-Different-Businesses.PNG)
 
 
-### 规划您的子网数量
-
+## 规划您的子网数量
 <div id="Subnet-Planning"></div>
 您可能需要进一步将您业务所在的私有网络划分为不同子网，此时可以根据以下两点来初步判断子网数量
 
 - 如果您的同一业务有着多个不同服务单元，且彼此之间只需简单区分而非严格隔离，此时可以将这些单元部署在同一私有网络不同的子网。例如，您的前端系统和后端系统可以部署在生产环境私有网络下的不同子网内。
 - 如果您的不同业务有着不同的公网访问需求，则可以将不同业务部署在不同的子网中。例如，您的部分业务需要通过同一 NAT 网关访问公网，则您需要将 NAT 网关与部署业务的云主机等资源分布在两个不同的子网中。
 
-### 规划您的私有网络和子网网段
-
+## 规划您的私有网络和子网网段
 <div id="CIDR-Planning"></div>
 在创建私有网络和子网的时候，您可以根据业务规模来划分私有网络和子网网段。在此，您需要按照无类域间路由块（CIDR block）的格式来为您的私有网络和子网划分网段。在划分网段之前，您应当了解，目前您在京东云上为私有网络和子网划分的网段在其创建成功后不可修改。
 
