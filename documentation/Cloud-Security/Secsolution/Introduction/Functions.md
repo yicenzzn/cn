@@ -872,14 +872,10 @@
   <td class=xl7216099 style='border-top:none;border-left:none'>　</td>
   <td class=xl7216099 style='border-top:none;border-left:none'>√</td>
  </tr>
- <tr height=35 style='mso-height-source:userset;height:26.15pt'>
-  <td height=35 class=xl6716099 style='height:26.15pt;border-top:none;
-  border-left:none'>如流账号认证</td>
-  <td class=xl6716099 style='border-top:none;border-left:none'>支持如流组织架构同步与认证登陆</td>
-  <td class=xl6816099 style='border-top:none;border-left:none'>　</td>
-  <td class=xl7216099 style='border-top:none;border-left:none'>　</td>
-  <td class=xl7216099 style='border-top:none;border-left:none'>√</td>
- </tr>
+  
+<tr>
+</tr>
+  
  <tr height=35 style='mso-height-source:userset;height:26.15pt'>
   <td height=35 class=xl6716099 style='height:26.15pt;border-top:none;
   border-left:none'>钉钉账号认证</td>
