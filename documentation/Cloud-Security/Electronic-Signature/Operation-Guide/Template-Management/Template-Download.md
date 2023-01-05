@@ -6,7 +6,7 @@
 
 在合同模板管理页面中，点击“下载”按钮。
 
-![合同模板下载.png](/image/Electronic-Signature/合同模板下载.png)
+![合同模板下载.png](/image/Electronic-Signature/合同模板下载new.png)
 
 ### OpenAPI下载合同模板
 
