@@ -24,6 +24,17 @@ items:
       href: Price/Renew.md
     - name: 退订规则
       href: Price/Refund.md   
+      
+- name: 产品手册
+  items:
+    - name: 用户操作手册
+      href: Guideline/User.md
+    - name: 管理后台操作手册
+      href: Guideline/Admin.md
+    - name: 登录插件配置手册
+      href: Guideline/Plugin.md
+    - name: 云资源推荐及购买流程说明
+      href: Guideline/Source.md   
    
 - name: 常见问题
   herf: FAQ/FAQ.md  
