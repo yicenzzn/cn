@@ -22,10 +22,10 @@ https://clickhouse.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:
 
 
 ## 返回参数
-|名称|类型|描述|
-|---|---|---|
-|**result**|[Result](#result)| |
-|**requestId**|String| |
+|名称| 类型      |描述|
+|---|---------|---|
+|**result**| Result  | |
+|**requestId**| String  | |
 
 ### <div id="Result">Result</div>
 |名称|类型|描述|
