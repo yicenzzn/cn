@@ -45,6 +45,8 @@ v1
 |**editUniversalSSLSettings**|PATCH|修补域的通用SSL设置|
 |**listCertificatePacks**|GET|对于给定域，列出所有激活的证书包|
 |**listSSLConfigurations**|GET|列出、搜索和筛选所有自定义SSL证书。|
+|**createSSLConfiguration**|POST|上载域的新SSL证书|
+|**editSSLConfiguration**|PATCH|上传SSL证书的新私钥和/或PEM/CRT。<br>注意，更新sni_custom证书的配置将导致返回新的资源id，并删除之前的资源id。<br>|
 |**orderAdvancedCertificateManagerCertificatePack**|POST|对于一个特定域，订购一个高级证书包|
 |**universalSSLSettingsDetails**|GET|获取域的通用SSL证书设置|
 |**editFirewallPackage**|PATCH|更改异常检测类型WAF规则包的灵敏度和操作|
