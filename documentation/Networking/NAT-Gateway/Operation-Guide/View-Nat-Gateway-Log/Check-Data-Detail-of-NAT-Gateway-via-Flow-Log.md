@@ -28,7 +28,7 @@
 
 此时利用折线图，可以更直观地看到该时间段内每个时间点下各源 IP 的出方向流量。
 
-![Egress-Data-of-Every-src_ip](D:\2022 H2任务\NAT网关TopN监控\Egress-Data-of-Every-src_ip.png)
+![Egress-Data-of-Every-src_ip](/image/Networking/Nat-Gateway/Egress-Data-of-Every-src_ip.png)
 
 若想统计新建连接数、活跃连接数、入方向流量、出方向包数、入方向包数，则将egress_bytes修改为对应的参数即可。
 
@@ -42,7 +42,7 @@
 *|SELECT SUM(`egress_bytes`),`src_ip` WHERE natgw_id='您的NAT网关ID'GROUP BY `src_ip`ORDER BY SUM(`egress_bytes`) DESC limit 5
 ```
 
-![Top-N-src_ip-Order-by-Sum-of-Egress-Data](D:\2022 H2任务\NAT网关TopN监控\Top-N-src_ip-Order-by-Sum-of-Egress-Data.png)
+![Top-N-src_ip-Order-by-Sum-of-Egress-Data](/image/Networking/Nat-Gateway/Top-N-src_ip-Order-by-Sum-of-Egress-Data.png)
 
 若想分析更多出方向流量总和最大的源 IP 数据，仅需要将5修改为您希望分析的源 IP 个数即可。该数字的上限请参考[日志检索与分析](https://docs.jdcloud.com/log-service/analysis)。
 
