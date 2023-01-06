@@ -92,18 +92,18 @@ fio -ioengine=libaio -numjobs=1 -bs=4k -direct=1 -rw=randread -time_based=1 -fil
 
 时延随机读返回结果如图所示
 ![ lat read ](../../../../image/Elastic-Compute/CloudDisk/lat-read.png)
-吞吐性能测试：顺序写
+吞吐性能测试：随机写
 
 ```
-fio -ioengine=libaio -numjobs=1 -bs=1M -direct=1 -rw=write -size=10G -filename=/dev/vdb -name=test -iodepth=64 -runtime=120 --group_reporting 
+fio -ioengine=libaio -numjobs=1 -bs=1M -direct=1 -rw=randwrite -size=10G -filename=/dev/vdb -name=test -iodepth=64 -runtime=120 --group_reporting 
 ```
 
 吞吐写测试返回结果如图所示
 ![ bandwidth-write ](../../../../image/Elastic-Compute/CloudDisk/bandwidth-write.png)
-吞吐性能测试：顺序读
+吞吐性能测试：随机读
 
 ```
-fio -ioengine=libaio -numjobs=1 -bs=1M -direct=1 -rw=read -size=10G -filename=/dev/vdb -name=test -iodepth=64 -runtime=120 --group_reporting 
+fio -ioengine=libaio -numjobs=1 -bs=1M -direct=1 -rw=randread -size=10G -filename=/dev/vdb -name=test -iodepth=64 -runtime=120 --group_reporting 
 ```
 
 吞吐读测试返回结果如图所示
