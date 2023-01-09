@@ -8,11 +8,11 @@
 
 1、打开Windows服务器管理器，进入磁盘管理页面：
 
-[![img](https://github.com/jdcloudcom/cn/raw/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/expand_multipart_001.jpg)](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/expand_multipart_001.jpg)
+![](https://github.com/jdcloudcom/cn/raw/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/expand_multipart_001.jpg)
 
 2、在需要进行扩容的分区上点击右键，然后选择扩展卷，按照向导进行扩容即可。
 
-[![img](https://github.com/jdcloudcom/cn/raw/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/expand_multipart_002.jpg)](https://github.com/jdcloudcom/cn/blob/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/expand_multipart_002.jpg)
+![](https://github.com/jdcloudcom/cn/raw/edit/image/Elastic-Compute/CloudDisk/cloud-disk/expand-filesystem/expand_multipart_002.jpg)
 
 ## 扩容Linux系统多分区的云硬盘
 
