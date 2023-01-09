@@ -93,7 +93,7 @@
             href: Operation-Guide/Instance/Modify-Instance-Spec.md
           - name: 主备切换
             href: Operation-Guide/Instance/Failover-Instance.md
-          - name: 版本升级
+          - name: 小版本升级
             href: Operation-Guide/Instance/Version-Upgrade.md
           - name: 域名切换
             href: Operation-Guide/Instance/Exchanged-DNS.md
@@ -101,8 +101,8 @@
             href: Operation-Guide/Instance/Migrate-AZ.md
           - name: 配置目录服务
             href: Operation-Guide/Instance/Modify-AD.md
-          - name: 版本升级
-            href: Operation-Guide/Instance/Version-Upgrade.md
+          - name: 修改可维护时间
+            href: Operation-Guide/Instance/Modify-Maintenance-Time.md
           - name: 重启实例
             items:
             - name: 重启 MySQL
