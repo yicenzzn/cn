@@ -98,7 +98,7 @@
       - name: MySQL同步到MySQL
         href: Data-Sync-New/Mysql-Sync-to-Mysql.md
       - name: PostgreSQL同步到 PostgreSQL
-        href: Data-Sync-New/Mysql-Sync-to-Mysql.md
+        href: PostgreSQL-Sync-to-PostgreSQL .md
   - name: 操作指南
     items:
       - name: 自建MySQL迁移至云数据库MySQL
