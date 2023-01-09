@@ -6,7 +6,7 @@
 
 在合同模板管理页面中，点击“删除”按钮。
 
-![合同模板删除.png](/image/Electronic-Signature/合同模板删除.png)
+![合同模板删除.png](/image/Electronic-Signature/合同模板删除new.png)
 
 ### OpenAPI删除合同模板
 
