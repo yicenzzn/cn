@@ -20,7 +20,7 @@
 
 #### 查看特定时间段内各源 IP 的出方向流量
 
-选择起始时间和终止时间，通过输入以下语句将该时间段内的数据按 time 和 src_ip 分组，统计该时间段内每个时间点下每个源 IP 的总出方向流量。
+在时间选择区域选择您希望查看的起始时间和终止时间，通过输入以下语句将该时间段内的数据按 time 和 src_ip 分组，统计该时间段内每个时间点下每个源 IP 的总出方向流量。
 
 ```
 *|SELECT `time`,SUM(`egress_bytes`),`src_ip` WHERE natgw_id='您的NAT网关ID'GROUP BY `time`,`src_ip`
@@ -36,7 +36,7 @@
 
 #### 查看特定时间段内出方向流量总和最大的源 IP
 
-选择起始时间和终止时间，如特定的三分钟，通过输入以下语句来统计该三分钟内出方向流量总和最大的前5个源IP。
+在时间选择区域选择您希望查看的起始时间和终止时间，如特定的三分钟，通过输入以下语句来统计该三分钟内出方向流量总和最大的前5个源IP。
 
 ```
 *|SELECT SUM(`egress_bytes`),`src_ip` WHERE natgw_id='您的NAT网关ID'GROUP BY `src_ip`ORDER BY SUM(`egress_bytes`) DESC limit 5
