@@ -5,5 +5,5 @@
 ### 字段说明
 日志字段 | 字段描述 | 字段类型
 -- | -- | --
-capturetime | 时间 | time
-content | 日志内容 | string
+time | 时间 | time
+log_content | 日志内容 | string
