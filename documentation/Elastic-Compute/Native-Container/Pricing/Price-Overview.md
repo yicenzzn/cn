@@ -1,9 +1,232 @@
-
 # 价格总览
 
-注：为保证您获取价格准确性，请登录后查看。
+### 1.原生容器实例和原生容器Pod所有地域均支持创建二代和三代实例规格类型的资源。
 
-1.原生容器实例和原生容器Pod所有地域均支持创建二代实例规格类型的资源。
+**第三代容器实例规格价格**：
+
+<table>
+   <tr>
+      <td rowspan="2" colspan="2">实例类型</td>
+      <td rowspan="2">实例规格</td>
+      <td colspan="2">配置</td>
+      <td rowspan="2">包月价格（元）</td>
+      <td rowspan="2">按配置计费（元/时）</td>
+   </tr>
+   <tr>
+   <td>vCPU</td>
+      <td>内存（GB）</td>      
+   </tr>
+   <tr>
+      <td rowspan="11">通用</td>
+      <td rowspan="11">标准</td>
+      <td>g.n3.medium</td>
+      <td>1</td>
+      <td>4</td>
+      <td>120</td>
+      <td>0.25</td>
+   </tr>
+   <tr>
+      <td>g.n3.large</td>
+      <td>2</td>
+      <td>8</td>
+      <td>240</td>
+      <td>0.5</td>
+   </tr>
+   <tr>
+      <td>g.n3.xlarge</td>
+      <td>4</td>
+      <td>16</td>
+      <td>480</td>
+      <td>1</td>
+   </tr>
+   <tr>
+      <td>g.n3.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>960</td>
+      <td>2</td>
+   </tr>
+   <tr>
+      <td>g.n3.3xlarge</td>
+      <td>12</td>
+      <td>48</td>
+      <td>1440</td>
+      <td>3</td>
+   </tr>
+   <tr>
+      <td>g.n3.4xlarge</td>
+      <td>16</td>
+      <td>64</td>
+      <td>1920</td>
+      <td>4</td>
+   </tr>
+   <tr>
+      <td>g.n3.6xlarge</td>
+      <td>24</td>
+      <td>96</td>
+      <td>2880</td>
+      <td>6</td>
+   </tr>
+   <tr>
+      <td>g.n3.8xlarge</td>
+      <td>32</td>
+      <td>128</td>
+      <td>3840</td>
+      <td>8</td>
+   </tr>
+   <tr>
+      <td>g.n3.12xlarge</td>
+      <td>48</td>
+      <td>192</td>
+      <td>5760</td>
+      <td>12</td>
+   </tr>
+   <tr>
+      <td>g.n3.16xlarge</td>
+      <td>64</td>
+      <td>256</td>
+      <td>7680</td>
+      <td>16</td>
+   </tr>
+   <tr>
+      <td>g.n3.18xlarge</td>
+      <td>72</td>
+      <td>288</td>
+      <td>8640</td>
+      <td>18</td>
+   </tr>
+   <tr>
+      <td rowspan="10">计算优化</td>
+      <td rowspan="10">标准</td>
+      <td>c.n3.large</td>
+      <td>2</td>
+      <td>4</td>
+      <td>187</td>
+      <td>0.39</td>
+   </tr>
+   <tr>
+      <td>c.n3.xlarge</td>
+      <td>4</td>
+      <td>8</td>
+      <td>374</td>
+      <td>0.78</td>
+   </tr>
+   <tr>
+      <td>c.n3.2xlarge</td>
+      <td>8</td>
+      <td>16</td>
+      <td>748</td>
+      <td>1.56</td>
+   </tr>
+   <tr>
+      <td>c.n3.3xlarge</td>
+      <td>12</td>
+      <td>24</td>
+      <td>1122</td>
+      <td>2.34</td>
+   </tr>
+   <tr>
+      <td>c.n3.4xlarge</td>
+      <td>16</td>
+      <td>32</td>
+      <td>1496</td>
+      <td>3.12</td>
+   </tr>
+   <tr>
+      <td>c.n3.6xlarge</td>
+      <td>24</td>
+      <td>48</td>
+      <td>2244</td>
+      <td>4.68</td>
+   </tr>
+   <tr>
+      <td>c.n3.8xlarge</td>
+      <td>32</td>
+      <td>64</td>
+      <td>2992</td>
+      <td>6.23</td>
+   </tr>
+   <tr>
+      <td>c.n3.12xlarge</td>
+      <td>48</td>
+      <td>96</td>
+      <td>4488</td>
+      <td>9.36</td>
+   </tr>
+   <tr>
+      <td>c.n3.16xlarge</td>
+      <td>64</td>
+      <td>128</td>
+      <td>5984</td>
+      <td>12.46</td>
+   </tr>
+   <tr>
+      <td>c.n3.22xlarge</td>
+      <td>88</td>
+      <td>176</td>
+      <td>8228</td>
+      <td>17.14</td>
+   </tr>
+   <tr>
+      <td rowspan="8">内存优化</td>
+      <td rowspan="8">标准</td>
+      <td>m.n3.large</td>
+      <td>2</td>
+      <td>16</td>
+      <td>318</td>
+      <td>0.66</td>
+   </tr>
+   <tr>
+      <td>m.n3.xlarge</td>
+      <td>4</td>
+      <td>32</td>
+      <td>636</td>
+      <td>1.33</td>
+   </tr>
+   <tr>
+      <td>m.n3.2xlarge</td>
+      <td>8</td>
+      <td>64</td>
+      <td>1272</td>
+      <td>2.65</td>
+   </tr>
+   <tr>
+      <td>m.n3.3xlarge</td>
+      <td>12</td>
+      <td>96</td>
+      <td>1908</td>
+      <td>3.98</td>
+   </tr>
+   <tr>
+      <td>m.n3.4xlarge</td>
+      <td>16</td>
+      <td>128</td>
+      <td>2544</td>
+      <td>5.3</td>
+   </tr>
+   <tr>
+      <td>m.n3.6xlarge</td>
+      <td>24</td>
+      <td>192</td>
+      <td>3816</td>
+      <td>7.95</td>
+   </tr>
+   <tr>
+      <td>m.n3.8xlarge</td>
+      <td>32</td>
+      <td>256</td>
+      <td>5088</td>
+      <td>10.6</td>
+   </tr>
+   <tr>
+      <td>m.n3.16xlarge</td>
+      <td>64</td>
+      <td>512</td>
+      <td>10176</td>
+      <td>21.2</td>
+   </tr>   
+   <tr>
+</table>
 
 **第二代容器实例规格价格**：
 
@@ -13,7 +236,7 @@
       <td rowspan="2">实例规格</td>
       <td colspan="2">配置</td>
       <td rowspan="2">包月价格（元）</td>
-      <td rowspan="2">按配置计费（元/秒）</td>
+      <td rowspan="2">按配置计费（元/时）</td>
    </tr>
    <tr>
    <td>vCPU</td>
@@ -26,158 +249,107 @@
       <td>1</td>
       <td>4</td>
       <td>136.5</td>
-      <td>0.000131</td>
+      <td>0.47</td>
    </tr>
    <tr>
       <td>g.n2.large</td>
       <td>2</td>
       <td>8</td>
       <td>242.25</td>
-      <td>0.000235</td>
+      <td>0.845</td>
    </tr>
    <tr>
       <td>g.n2.xlarge</td>
       <td>4</td>
       <td>16</td>
       <td>484.5</td>
-      <td>0.000467</td>
+      <td>1.682</td>
    </tr>
    <tr>
       <td>g.n2.2xlarge</td>
       <td>8</td>
       <td>32</td>
       <td>969</td>
-      <td>0.000934</td>
+      <td>3.363</td>
    </tr>
    <tr>
      <td>g.n2.4xlarge</td>
       <td>16</td>
       <td>64</td>
       <td>1938</td>
-      <td>0.001868</td>
+      <td>6.726</td>
    </tr>
    <tr>
      <td>g.n2.8xlarge</td>
       <td>32</td>
       <td>128</td>
       <td>3876</td>
-      <td>0.003739</td>
+      <td>13.462</td>
    </tr>
    <tr>
      <td>g.n2.16xlarge</td>
       <td>64</td>
       <td>256</td>
       <td>7752</td>
-      <td>0.007476</td>
+      <td>26.913</td>
    </tr>
    <tr> 
       <td>g.n2.18xlarge</td>
       <td>72</td>
       <td>288</td>
       <td>8721</td>
-      <td>0.008410</td>
+      <td>30.277</td>
    </tr>
    <tr>
-      <td rowspan="7">计算优化</td>
-      <td rowspan="7">标准</td>
-      <td>c.n2.large</td>
-      <td>2</td>
-      <td>4</td>
-      <td>168</td>
-      <td>0.000164</td>
-   </tr>
-   <tr>
-     <td>c.n2.xlarge</td>
-      <td>4</td>
-      <td>8</td>
-      <td>364</td>
-      <td>0.000327</td>
-   </tr>
-   <tr>
-     <td>c.n2.2xlarge</td>
-      <td>8</td>
-      <td>16</td>
-      <td>716</td>
-      <td>0.000654</td>
-   </tr>
-   <tr>
-      <td>c.n2.4xlarge</td>
-      <td>16</td>
-      <td>32</td>
-      <td>1432</td>
-      <td>0.001311</td>
-   </tr>
-   <tr>
-     <td>c.n2.8xlarge</td>
-      <td>32</td>
-      <td>64</td>
-      <td>2864</td>
-      <td>0.002623</td>
-   </tr>
-   <tr>
-     <td>c.n2.16xlarge</td>
-      <td>64</td>
-      <td>128</td>
-      <td>5728</td>
-      <td>0.005249</td>
-   </tr>
-   <tr>
-     <td>c.n2.18xlarge</td>
-      <td>72</td>
-      <td>144</td>
-      <td>6444</td>
-      <td>0.005904</td>
-   </tr>
-   <tr> 
       <td rowspan="7">内存优化</td>
       <td rowspan="7">标准</td>
       <td>m.n2.large</td>
       <td>2</td>
       <td>16</td>
       <td>309.7</td>
-      <td>0.000298</td>
+      <td>1.073</td>
    </tr>
    <tr>
      <td>m.n2.xlarge</td>
       <td>4</td>
       <td>32</td>
       <td>619.4</td>
-      <td>0.000596</td>
+      <td>2.147</td>
    </tr>
    <tr>
       <td>m.n2.2xlarge</td>
       <td>8</td>
       <td>64</td>
       <td>1238.8</td>
-      <td>0.001196</td>
+      <td>4.304</td>
    </tr>
    <tr>
       <td>m.n2.4xlarge</td>
       <td>16</td>
       <td>128</td>
       <td>2477.6</td>
-      <td>0.002391</td>
+      <td>8.607</td>
    </tr>
-   <tr>
+      <tr>
       <td>m.n2.8xlarge</td>
       <td>32</td>
       <td>256</td>
       <td>4955.2</td>
-      <td>0.004779</td>
+      <td>17.205</td>
    </tr>
-    <tr>
+      <tr>
       <td>m.n2.16xlarge</td>
       <td>64</td>
       <td>512</td>
       <td>9910.4</td>
-      <td>0.009558</td>
-   </tr>
-    <tr>
+      <td>34.409</td>
+   </tr> 
+   <tr>
       <td>m.n2.18xlarge</td>
       <td>72</td>
       <td>576</td>
       <td>11149.2</td>
-      <td>0.010753</td>
+      <td>38.71</td>
    </tr>
    <tr>
       <td rowspan="5">高频计算</td>
@@ -186,48 +358,50 @@
       <td>2</td>
       <td>8</td>
       <td>332</td>
-      <td>0.000303</td>
+      <td>1.092</td>
    </tr>
    <tr>
      <td>h.g2.xlarge</td>
       <td>4</td>
       <td>16</td>
       <td>664</td>
-      <td>0.000609</td>
+      <td>2.194</td>
    </tr>
    <tr>
       <td>h.g2.2xlarge</td>
       <td>8</td>
       <td>32</td>
       <td>1328</td>
-      <td>0.001217</td>
+      <td>4.38</td>
    </tr>
    <tr>
      <td>h.g2.4xlarge</td>
       <td>16</td>
       <td>64</td>
       <td>2656</td>
-      <td>0.002433</td>
+      <td>8.759</td>
    </tr>
    <tr>
      <td>h.g2.8xlarge</td>
       <td>32</td>
       <td>128</td>
       <td>5312</td>
-      <td>0.004866</td>
+      <td>17.518</td>
    </tr>
    <tr>
 </table>
 
-2.目前原生容器实例在华北-北京支持一代实例规格类型。
-第一代容器实例规格价格：
+### 2.目前原生容器实例在华北-北京支持一代实例规格类型。
+
+**第一代容器实例规格价格**
+
 <table>
    <tr>
       <td rowspan="2" colspan="2">实例类型</td>
       <td rowspan="2">实例规格</td>
       <td colspan="2">配置</td>
       <td rowspan="2">包月价格（元）</td>
-      <td rowspan="2">按配置计费（元/秒）</td>
+      <td rowspan="2">按配置计费（元/时）</td>
    </tr>
    <tr>
    <td>vCPU</td>
@@ -240,14 +414,14 @@
       <td>1</td>
       <td>1</td>
       <td>56</td>
-      <td>0.000041</td>
+      <td>0.15</td>
    </tr>
    <tr>
       <td>g.s1.small</td>
       <td>1</td>
       <td>2</td>
       <td>80</td>
-      <td>0.000061</td>
+      <td>0.22</td>
    </tr>
    <tr>
       <td rowspan="6">标准</td>
@@ -255,42 +429,42 @@
       <td>1</td>
       <td>4</td>
       <td>141</td>
-      <td>0.000091</td>
+      <td>0.33</td>
    </tr>
    <tr>
       <td>g.n1.large</td>
       <td>2</td>
       <td>8</td>
       <td>294</td>
-      <td>0.000186</td>
+      <td>0.67</td>
    </tr>
    <tr> 
       <td>g.n1.xlarge</td>
       <td>4</td>
       <td>16</td>
       <td>588</td>
-      <td>0.000375</td>
+      <td>1.35</td>
    </tr>
    <tr>  
       <td>g.n1.2xlarge</td>
       <td>8</td>
       <td>32</td>
       <td>1176</td>
-      <td>0.000750</td>
+      <td>2.7</td>
    </tr>
    <tr>
      <td>g.n1.4xlarge</td>
       <td>16</td>
       <td>64</td>
       <td>2352</td>
-      <td>0.001502</td>
+      <td>5.41</td>
    </tr>
    <tr> 
       <td>g.n1.8xlarge</td>
       <td>32</td>
       <td>128</td>
       <td>4704</td>
-      <td>0.003005</td>
+      <td>10.82</td>
    </tr>
    <tr>
       <td rowspan="5">计算优化</td>
@@ -299,35 +473,35 @@
       <td>2</td>
       <td>4</td>
       <td>188</td>
-      <td>0.000125</td>
+      <td>0.45</td>
    </tr>
    <tr>
      <td>c.n1.xlarge</td>
       <td>4</td>
       <td>8</td>
       <td>388</td>
-      <td>0.000250</td>
+      <td>0.9</td>
    </tr>
    <tr>
       <td>c.n1.2xlarge</td>
       <td>8</td>
       <td>16</td>
       <td>776</td>
-      <td>0.000500</td>
+      <td>1.8</td>
    </tr>
    <tr>
       <td>c.n1.4xlarge</td>
       <td>16</td>
       <td>32</td>
       <td>1552</td>
-      <td>0.001000</td>
+      <td>3.6</td>
    </tr>
    <tr>
      <td>c.n1.8xlarge</td>
       <td>32</td>
       <td>64</td>
       <td>3104</td>
-      <td>0.002000</td>
+      <td>7.2</td>
    </tr>
    <tr>
       <td rowspan="4">内存优化</td>
@@ -336,36 +510,72 @@
       <td>2</td>
       <td>16</td>
       <td>498</td>
-      <td>0.000313</td>
+      <td>1.13</td>
    </tr>
    <tr>
      <td>m.n1.xlarge</td>
       <td>4</td>
       <td>32</td>
       <td>996</td>
-      <td>0.000627</td>
+      <td>2.26</td>
    </tr>
    <tr>
       <td>m.n1.2xlarge</td>
       <td>8</td>
       <td>64</td>
       <td>1992</td>
-      <td>0.001255</td>
+      <td>4.52</td>
    </tr>
    <tr>
       <td>m.n1.4xlarge</td>
       <td>16</td>
       <td>128</td>
       <td>3984</td>
-      <td>0.002511</td>
+      <td>9.04</td>
+   </tr>
+   <tr>
+      <td rowspan="5">高频计算</td>
+      <td rowspan="5">通用</td>
+      <td>h.g1.large</td>
+      <td>2</td>
+      <td>8</td>
+      <td>343</td>
+      <td>1.75</td>
+   </tr>
+   <tr>
+     <td>h.g1.xlarge</td>
+      <td>4</td>
+      <td>16</td>
+      <td>686</td>
+      <td>3.5</td>
+   </tr>
+   <tr>
+      <td>h.g1.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>1372</td>
+      <td>7</td>
+   </tr>
+   <tr>
+      <td>h.g1.4xlarge</td>
+      <td>16</td>
+      <td>64</td>
+      <td>2744</td>
+      <td>14</td>
+   </tr>
+   <tr>
+      <td>h.g1.6xlarge</td>
+      <td>24</td>
+      <td>96</td>
+      <td>4116</td>
+      <td>21</td>
    </tr>
    <tr>
 </table>
-  
+
 关于云硬盘：请参考[云硬盘购买须知][1]
 
 关于弹性公网IP：请参考[弹性公网IP购买须知][2]
 
-
-  [1]: https://docs.jdcloud.com/cn/cloud-disk-service/price-overview
-  [2]: https://docs.jdcloud.com/cn/elastic-ip/price-overview
+[1]: https://docs.jdcloud.com/cn/cloud-disk-service/price-overview
+[2]: https://docs.jdcloud.com/cn/elastic-ip/price-overview

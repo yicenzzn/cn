@@ -1,8 +1,31 @@
 # 产品动态
+## 2022年
+
+| 功能名称 | 功能描述 | 发布时间 | 相关文档|
+| :---------------| :--------------|:------------|:--------
+|CentOS 7.9 镜像发布|	全地域支持CentOS 7.9 镜像，丰富操作系统类型。|2022-11|[镜像类型](https://docs.jdcloud.com/cn/virtual-machines/image-type)
+|删除云主机支持同步删除弹性公网IP|删除云主机时，可选择同步删除绑在云主机上符合删除条件的弹性公网IP。|2022-11|[删除实例](https://docs.jdcloud.com/cn/virtual-machines/delete-instance)
+|购买历史功能上线|用户通过自定义创建完成购买后，将生成用户最近的历史购买记录，后续可指定历史购买记录快速复购云主机。|2022-11|[创建实例](https://docs.jdcloud.com/cn/virtual-machines/create-instance)
+|OpenEuler 21.09（x86）镜像发布|基于x86架构的OpenEuler 21.09 镜像在全部地域发布上线。|2022-09|[镜像类型](https://docs.jdcloud.com/cn/virtual-machines/image-type)
+|基于ARM架构飞腾服务器的云主机实例上线|基于2.1 GHz的 PHYTIUM S2500 处理器，提供通用标准、计算优化、内存优化等各类实例规格，适用于信创相关互联网应用和企业级应用。|2022-06|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family#user-content-9)
+|云事件支持本地数据盘实例的故障通知|自带本地数据盘的实例规格（如存储优化型、部分GPU型）在本地盘发生故障时，系统会向云事件发送通知，可通过订阅云事件及时获知。|2022-06|[云主机事件通知](https://docs.jdcloud.com/cn/virtual-machines/event-overview)
+|A100 GPU直通型实例规格上线| 基于Nvidia Tesla A100（显存80 GiB）的直通型GPU实例规格在华东-上海地域上线，提供1/2/4/8卡主机规格。|2022-06|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family#user-content-6)
+|第三代共享型实例规格上线|基于Intel Xeon Platinum 8338C（Icelake）处理器的第三代共享型实例规格在华北-北京地域上线。|2022-05|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family#user-content-1)
+|内存优化增强型规格上线|基于Intel® 第二代傲腾持久内存（BPS），提供高内存配比的实例规格。|2022-03|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family#user-content-7)
+|存量云主机支持加入高可用组|通过调整高可用组功能，可以将一台未加入高可用组的云主机添加到高可用组，或者将一台已加入一个高可用组的云主机更换到另一个高可用组。|2022-03|[调整高可用组](https://docs.jdcloud.com/cn/virtual-machines/modify-instance-ag)
+|云主机支持资源组管理|云主机创建时支持指定资源组，创建后支持实例资源组调整，同时支持以资源组视角查看和管理实例。|2022-03|[资源组概述](https://docs.jdcloud.com/cn/virtual-machines/resource-group-introduction)
+|扩展指标功能上线|可通过官方提供的配置文件样本，配置支持的扩展指标，上报至云监控自定义监控。|2022-01|[自动镜像策略](https://docs.jdcloud.com/cn/virtual-machines/monitoring-overview)
+|云主机在线迁移服务上线|在不停机的情况下，将物理服务器或虚拟服务器上的系统、服务程序等从京东云外的环境同步至京东云云主机实例。|2022-01|[在线迁移服务](https://docs.jdcloud.com/cn/virtual-machines/online-migration-overview)
+
 ## 2021年
 
 | 功能名称 | 功能描述 | 发布时间 | 相关文档|
 | :---------------| :--------------|:------------|:--------
+|基于AMD EPYC（霄龙）处理器的云主机实例上线|基于2.6 GHz的AMD EPYC ROME 处理器，提供通用标准、计算优化、内存优化等各类实例规格。|2021-12|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family)
+|自动镜像策略上线|支持使用自动镜像策略为实例设置周期性的备份任务，免去定期手动制作私有镜像的运维工作。|2021-12|[自动镜像策略](https://docs.jdcloud.com/cn/virtual-machines/autoimagepolicy)
+|新版实例模板创建页灰度上线|新版本在流程引导、配置分类、页面资源搜索加载、信息展示等方面进行了整体优化，在视觉和交互方面同样做了全面提升。|2021-12|[创建实例模板](https://docs.jdcloud.com/cn/virtual-machines/create-instance-template)
+|修改实例模板功能上线|支持修改实例模板信息，包括地域、镜像、实例规格、磁盘信息、网络等。|2021-11|[修改实例模板](https://docs.jdcloud.com/cn/virtual-machines/modify-instance-template)
+|新版创建页灰度上线|新版本在流程引导、配置分类、页面资源搜索加载、信息展示等方面进行了整体优化，在视觉和交互方面同样做了全面提升。|2021-08|[新版创建页](https://cns-console.jdcloud.com/compute/vm/create)
 |突发性能型规格上线 |突发性能型实例是一种通过积分机制提供并约束CPU使用的实例规格，适用于平时CPU使用率较低，偶发使用率突增的入门级或轻量级计算场景。|2021-08|[突发性能型实例](https://docs.jdcloud.com/cn/virtual-machines/burst-instance-overview)
 |私有镜像导出控制台入口上线|私有镜像导出功能提供控制台操作入口，方便用户操作，功能目前为灰度，如需使用请工单提交申请。|2021-07|[私有镜像导出](https://docs.jdcloud.com/virtual-machines/export-private-image)
 |Windows Server 2019 数据中心版 64位 中文版 镜像发布|全地域支持	Windows Server 2019 数据中心版 64位 中文版 镜像，丰富操作系统类型。|2021-07|[镜像类型](https://docs.jdcloud.com/cn/virtual-machines/image-type)
