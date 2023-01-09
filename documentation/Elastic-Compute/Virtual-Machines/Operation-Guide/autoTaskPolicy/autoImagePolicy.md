@@ -93,14 +93,9 @@
 
 2. 在列表中选择需要绑定策略的实例，确认其系统盘为云硬盘。如果需要同时操作多台云主机，可通过多选实现。
 
-3. 单台操作：点击**操作-更多-自动镜像**，或点击云主机名称进入详情页后点击**操作-更多-自动镜像**，为云主机选择关联策略。
+3. 操作：点击**操作-更多-自动镜像**，或点击云主机名称进入详情页后点击**操作-更多-自动镜像**，为云主机选择关联策略。
 <div align="center">
 <img src="https://raw.githubusercontent.com/jdcloudcom/cn/wangbaohan0110/image/Elastic-Compute/Virtual-Machine/010908.png" width="900">
-</div>
-
-<br>批量操作：点击列表下方**更多-自动镜像**
-<div align="center">
-<img src="https://raw.githubusercontent.com/jdcloudcom/cn/wangbaohan0110/image/Elastic-Compute/Virtual-Machine/010909.png" width="700">
 </div>
 
 ### 解除资源关联
@@ -110,7 +105,7 @@
 
 1. 点击策略名称进入详情页后看到目前与与当前资源关联的实例。
 <div align="center">
-<img src="https://raw.githubusercontent.com/jdcloudcom/cn/wangbaohan0110/image/Elastic-Compute/Virtual-Machine/0109010.png" width="700">
+<img src="https://github.com/jdcloudcom/cn/blob/wangbaohan0110/image/Elastic-Compute/Virtual-Machine/010910.png" width="700">
 </div>
 
 2.单台解除关联：点击资源列表右侧**操作-解除关联**。批量操作：勾选多台云主机，点击列表下方**解除关联**。若您的策略目前正在制作镜像，当前解除关联操作不会影响该次镜像制作结果。
@@ -120,7 +115,7 @@
 1. 访问[云主机控制台](https://cns-console.jdcloud.com/host/compute/list)，进入实例列表页面。
 2. 点击**操作-更多-自动镜像**，或点击云主机名称进入详情页后点击**操作-更多-自动镜像**，将关联策略设置为**不关联**。若您的策略目前正在制作镜像，当前解除关联操作不会影响该次镜像制作结果。
 <div align="center">
-<img src="https://raw.githubusercontent.com/jdcloudcom/cn/wangbaohan0110/image/Elastic-Compute/Virtual-Machine/0109011.png" width="700">
+<img src="https://github.com/jdcloudcom/cn/blob/wangbaohan0110/image/Elastic-Compute/Virtual-Machine/010911.png" width="700">
 </div>
 
 ### 禁用策略状态
@@ -128,7 +123,7 @@
 
 在[自动任务策略控制台][1]点击**操作-更多-禁用策略**，或点击策略名称进入详情页后点击**操作-更多-禁用策略**。禁用状态的策略不会触发自动制作镜像任务。
 <div align="center">
-<img src="https://raw.githubusercontent.com/jdcloudcom/cn/wangbaohan0110/image/Elastic-Compute/Virtual-Machine/0109012.png" width="700">
+<img src="https://github.com/jdcloudcom/cn/blob/wangbaohan0110/image/Elastic-Compute/Virtual-Machine/010912.png" width="500">
 </div>
 
 ### 启用策略状态
@@ -136,7 +131,7 @@
 
 在[自动任务策略控制台][1]点击**操作-更多-启用策略**，或点击策略名称进入详情页后点击**操作-更多-启用策略**。启用状态的策略会根据策略中的规则定时触发自动制作镜像任务。
 <div align="center">
-<img src="https://raw.githubusercontent.com/jdcloudcom/cn/wangbaohan0110/image/Elastic-Compute/Virtual-Machine/0109013.png" width="700">
+<img src="https://github.com/jdcloudcom/cn/blob/wangbaohan0110/image/Elastic-Compute/Virtual-Machine/010913.png" width="500">
 </div>
 
 ### 策略跨区复制
@@ -144,7 +139,7 @@
 
 在[自动任务策略控制台][1]点击**操作-更多-策略跨区复制**，或点击策略名称进入详情页后点击**操作-更多-策略跨区复制**，可快速将当前策略复制至其他地域下。策略副本默认与源策略同名，同时将自动添加描述信息以标识策略来源
 <div align="center">
-<img src="https://raw.githubusercontent.com/jdcloudcom/cn/wangbaohan0110/image/Elastic-Compute/Virtual-Machine/0109014.png" width="700">
+<img src="https://github.com/jdcloudcom/cn/blob/wangbaohan0110/image/Elastic-Compute/Virtual-Machine/010914.png" width="700">
 </div>
 
 ### 删除策略
