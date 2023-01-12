@@ -302,7 +302,7 @@
         <td>处于time_wait状态下的TCP连接数量</td>
         <td>实例</td>
    </tr>
-	</body>
+	</tbody>
 </table>
 
 ## 扩展指标配置说明
