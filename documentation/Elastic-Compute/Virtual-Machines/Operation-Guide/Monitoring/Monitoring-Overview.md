@@ -302,7 +302,7 @@
         <td>处于time_wait状态下的TCP连接数量</td>
         <td>实例</td>
    </tr>
-	</body>
+	</tbody>
 </table>
 
 ## 扩展指标配置说明
@@ -391,7 +391,7 @@
 	<th>说明</th>
     </tr>
 	</thead>
-	<body>
+	<tbody>
     <tr>
 	<td>%</td>
 	<td>百分比</td>
@@ -428,7 +428,7 @@
 	<td>℃</td>
 	<td>摄氏度</td>
     </tr>
-	</body>
+	</tbody>
 </table>
 
 
