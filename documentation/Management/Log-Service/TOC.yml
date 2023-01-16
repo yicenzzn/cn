@@ -22,6 +22,7 @@ items:
         - name: 应用安全网关日志
           href: Introduction/ResourceLog/WAFLog.md
         - name: 函数服务日志
+          status: 0
           href: Introduction/ResourceLog/FunctionLog.md
         - name: 云搜索Elasticsearch日志
           href: Introduction/ResourceLog/esLog.md
@@ -38,6 +39,7 @@ items:
         - name: PostgreSQL日志
           href: Introduction/ResourceLog/PGLog.md
         - name: JDW数据仓库日志
+          status: 0
           href: Introduction/ResourceLog/JDWLog.md
         - name: 自动镜像执行日志
           href: Introduction/ResourceLog/AutoImageLog.md
@@ -89,6 +91,8 @@ items:
       items:
         - name: 日志监控配置
           href: Operation-Guide/LogMonitor/MonitorConfig.md
+    - name: 日志消费
+      href: Operation-Guide/LogConsume/LogConsume.md
 - name: 最佳实践
   items:
     - name: 日志采集——应用安全网关日志采集

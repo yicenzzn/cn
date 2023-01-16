@@ -6,4 +6,6 @@
 请注意：实例删除后，数据无法恢复，请您谨慎操作。 
 ```
 
-![删除](../../../../image/Internet-Middleware/JCS-for-Kafka/删除实例.png)
+
+![删除](/documentation/Middleware/JCS-for-Kafka/image/delete-kafka.jpg)
+***

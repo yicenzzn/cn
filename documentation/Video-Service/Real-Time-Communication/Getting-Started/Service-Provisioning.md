@@ -1,4 +1,11 @@
 # 开通服务
 
-由于目前属于公测期间，暂不开启自助服务，您可以通过以下方式联系客服，由专业的研发人员协助您开通服务，支持您完成业务对接。
--   拨打电话：4006151212，联系客服由专业人员为您提供服务。
+1.右上角，控制台-注册/登录（支持京东账号登录）。  
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BC%80%E9%80%9A%E6%9C%8D%E5%8A%A1-1.png)
+
+2.控制台-云服务-搜索“音视频通信”，点击进入。    
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BC%80%E9%80%9A%E6%9C%8D%E5%8A%A1-2.png)
+
+3.勾选同意协议，开通服务。   
+![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BC%80%E9%80%9A%E6%9C%8D%E5%8A%A1-3.png)
+ 

@@ -27,6 +27,8 @@ items:
     items:
       - name: 脚本构造
         href: Operation-Guide/Script-Structure.md
+      - name: 参数化数据源
+        href: Operation-Guide/Parameter-List.md
       - name: 运行脚本
         href: Operation-Guide/Script-Running.md
       - name: 结果分析
