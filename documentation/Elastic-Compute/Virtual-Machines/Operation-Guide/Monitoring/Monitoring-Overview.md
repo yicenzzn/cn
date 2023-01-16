@@ -391,7 +391,7 @@
 	<th>说明</th>
     </tr>
 	</thead>
-	<body>
+	<tbody>
     <tr>
 	<td>%</td>
 	<td>百分比</td>
@@ -428,7 +428,7 @@
 	<td>℃</td>
 	<td>摄氏度</td>
     </tr>
-	</body>
+	</tbody>
 </table>
 
 
