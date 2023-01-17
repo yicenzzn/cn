@@ -10,7 +10,7 @@
 
 1.	进入[实名认证](https://realname.jdcloud.com/account/verify)页面，在“个人认证”选项卡里点击“实名手机认证”。 
 
-![face1](../../../../image/User/newnewrealname/phone1.png)
+
 
 2.	如果系统检测到您的账号已经在京东商城/京东金融完成了个人实名认证，会自动弹出如下弹窗，您可以点击“立即授权”授权京东云获取您在京东商城/京东金融的实名信息。
 
