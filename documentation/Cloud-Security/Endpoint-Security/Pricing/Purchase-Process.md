@@ -4,7 +4,7 @@
 
 ![](../../../../image/Endpoint-Security/Purchase-Process11.png)
 
-选择需要版本（企业版/旗舰版）、购买时长、主机授权个数；点击【立刻购买】。
+选择版本（企业版/旗舰版）、购买时长、主机授权个数；点击【立刻购买】。
 
 ![](../../../../image/Endpoint-Security/Purchase-Process22.png)
 
