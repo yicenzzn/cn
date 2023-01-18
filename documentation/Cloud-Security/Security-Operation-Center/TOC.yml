@@ -49,10 +49,16 @@
         items:
           - name: 自动化攻击溯源
             href: Operation-Guide/05-SurveyResponse/01-Tracing.md
+          - name: 自动化编排响应
+            href: Operation-Guide/05-SurveyResponse/04-soar.md
           - name: 全量日志分析
             href: Operation-Guide/05-SurveyResponse/02-Fulllog.md
           - name: 用户行为分析
             href: Operation-Guide/05-SurveyResponse/03-Ueba.md
+      - name: 安全工单
+        items:
+          - name: 安全工单
+            href: Operation-Guide/08-SecurityWorkerOrder/01-WorkerOrder.md
       - name: 安全托管
         items:
           - name: 托管角色
