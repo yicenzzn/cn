@@ -8,10 +8,10 @@
 
 #### 成员管理
 
-![image-20220413165535735](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413165535735.png)
+![image-20220413165535735](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413165535735.png)
 
 新增成员：输入成员名称，选择角色即可添加
-![image-20220413165549159](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413165549159.png)
+![image-20220413165549159](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413165549159.png)
 
 #### 角色与权限说明
 
@@ -44,7 +44,7 @@
 
 部署状态说明：如果执行时因为脚本问题引发异常，则整个部署任务都会失败
 
-![image-20220413181716736](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413181716736.png)
+![image-20220413181716736](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413181716736.png)
 
 ​                               
 
@@ -52,11 +52,11 @@
 
 点击ID进入到任务详情，可以查看到本次部署的情况和日志
 
-![image-20220413182027422](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413182027422.png)
+![image-20220413182027422](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413182027422.png)
 
 #### 任务创建
 
-![image-20220413182358028](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413182358028.png)
+![image-20220413182358028](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413182358028.png)
 
 1. 任务创建时需要设置：
 
@@ -76,7 +76,7 @@
 
 实例列表可以根据IP和分组进行筛选，实例操作可以进行批量重新部署、重启、启动、停止，单实力支持删除
 
-![image-20220413195841121](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413195841121.png)
+![image-20220413195841121](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413195841121.png)
 
 ### 分组管理
 
@@ -84,7 +84,7 @@
 
 分组列表支持按名称搜索，每个分组配置可以查看详情、查看运行状态、管理主机、删除
 
-![image-20220413201854670](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413201854670.png)
+![image-20220413201854670](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413201854670.png)
 
 ##### 查看详情
 
@@ -92,35 +92,35 @@
 
 ###### 基本信息
 
-![image-20220413202130127](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413202130127.png)
+![image-20220413202130127](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413202130127.png)
 
 ###### 分组配置
 
 分组配置中如果对某个文件修改，支持查看修改的历史版本，并进行比对
 
-![image-20220413202257732](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413202257732.png)
+![image-20220413202257732](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413202257732.png)
 
 分组配置发生变化时，可查看对比变更
 
-![image-20220413175227604](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413175227604-9855072.png)
+![image-20220413175227604](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413175227604-9855072.png)
 
 ###### 分组机器
 
 以分组为粒度部署时，分组关联主机可以通过当前页面管理
 
-![image-20220413202310973](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413202310973.png)
+![image-20220413202310973](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413202310973.png)
 
-![image-20220413210520639](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413210520639.png)
+![image-20220413210520639](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413210520639.png)
 
 ##### 查看运行状态
 
 运行状态中可以看到当前分组下部署的实例信息、部署信息、部署历史
 
-![image-20220413202459985](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413202459985.png)
+![image-20220413202459985](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413202459985.png)
 
-![image-20220413202548387](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413202548387.png)
+![image-20220413202548387](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413202548387.png)
 
-![image-20220413202556975](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413202556975.png)
+![image-20220413202556975](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413202556975.png)
 
 ##### 添加主机
 
@@ -130,7 +130,7 @@
 
 删除是一个敏感操作，需要输入分组名称做校验
 
-![image-20220413202348587](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413202348587.png)
+![image-20220413202348587](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413202348587.png)
 
 #### 创建分组
 
@@ -138,15 +138,15 @@
 
 部署路径可以在高级配置中进行配置，表示包会部署在部署路径下
 
-![image-20220413170529702](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413170529702.png)
+![image-20220413170529702](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413170529702.png)
 
 点击“保存 & 下一步”后会跳到分组配置，在这里可以设置当前分组的文件和环境变量，配置文件默认会继承应用管理中的配置文件。分组部署时会将配置文件分发到分组包含的全部机器中，同时注入机器的环境变量
 
-![image-20220413201804283](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413201804283.png)
+![image-20220413201804283](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413201804283.png)
 
 ### 应用高级配置
 
 在高级配置中，可以设置应用的部署路径
 
-![image-20220413201927966](http://devops-minio.jdcloud.com/doc-image/All-Image/app-package.assets/image-20220413201927966.png)
+![image-20220413201927966](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/app-package.assets/image-20220413201927966.png)
 

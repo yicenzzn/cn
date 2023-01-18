@@ -19,7 +19,7 @@
   >* 显示仓库的名称，描述和语言类型;
   >* 如果点击查看更多，可以显示所有您参与或负责的仓库。
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/personal.assets/personal_common_repo.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/personal.assets/personal_common_repo.png)
 
 #### 贡献日历
 
@@ -34,7 +34,7 @@
   >* 参与的评审，并给出评审意见（通过/拒绝）的计入，只有comments的不计入。
 
 左上角显示近一年贡献总数据；鼠标悬停，显示当天日期和当天贡献数据；点击左下角 **“查看如何计算贡献值”**, 了解贡献值计算详情。
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/personal.assets/personal_contribution_calendar.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/personal.assets/personal_contribution_calendar.png)
 
 #### 贡献活动
 
@@ -44,7 +44,7 @@
   >* 点击"查看更多活动记录“，显示更早一个月数据。
   >* 如果点击贡献日历上某天，则详细显示当天贡献数据。
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/personal.assets/personal_calendar_activity.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/personal.assets/personal_calendar_activity.png)
 
 ## 个人仓库列表
 
@@ -56,7 +56,7 @@
 | ------------------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------------ |
 | <ul><li>全部(默认)</li><li> 私有</li><li> 公开</li><li> 默认</li><li> 派生</li><li> 个人</li></ul> | <ul><li>负责的(默认)</li><li>参与的</li></ul> | <ul><li>按更新时间降序(默认)</li><li>按更新时间升序</li><li>按名称字母序升序</li><li>按名称字母序降序</li></ul> |
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/personal.assets/personal_repo.jpg)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/personal.assets/personal_repo.jpg)
 
 ## 个人群组列表
 
@@ -68,7 +68,7 @@
 | ------------------------------------------------------------ | --------------------------------------------- | ------------------------------------------------------------ |
 | <ul><li>全部(默认)</li><li> 私有</li><li> 公开</li><li> 默认</li><li> 派生</li><li> 个人</li></ul> | <ul><li>负责的(默认)</li><li>参与的</li></ul> | <ul><li>按更新时间降序(默认)</li><li>按更新时间升序</li><li>按名称字母序升序</li><li>按名称字母序降序</li></ul> |
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/personal.assets/personal_team.jpg)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/personal.assets/personal_team.jpg)
 
 ## 个人设置
 
@@ -152,7 +152,7 @@ $ ssh-keygen -t rsa -b 4096 -C "工作邮箱，比如：zhansan@xxx.com"
 2. 在个人设置界面，点击左侧**SSH Keys**页签，进入**SSH Keys**页面，管理你的SSH密钥。
 
  如果您还未添加SSH密钥，可以点击**新建SSH Key**按钮，填写密钥标题和key值，添加SSH密钥。如下图：
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/personal.assets/ssh_new.jpg)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/personal.assets/ssh_new.jpg)
 
 #### 验证SSH的连通性
 
@@ -197,11 +197,11 @@ $ ssh -vT {coding服务域名}
 
 如果您还未添加API Token密钥，可以点击**生成API Token**按钮，填写标题，生成新的API Token。如下图：
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/personal.assets/api_token_new.jpg)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/personal.assets/api_token_new.jpg)
 
 ### 个人 Http Password
 
  在个人设置界面，点击左侧 **Http Password** 页签，管理你的仓库密码，用来下载和提交代码。
 
->![image-20220304143903112](http://devops-minio.jdcloud.com/doc-image/All-Image/personal.assets/image-20220304143903112.png)
+>![image-20220304143903112](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/personal.assets/image-20220304143903112.png)
 
