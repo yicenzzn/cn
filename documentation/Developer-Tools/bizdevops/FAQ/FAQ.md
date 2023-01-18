@@ -133,7 +133,7 @@ git config --global http.sslverify "false"
 
 1、进入仓库合并请求页，点击搜索框右侧的新建合并请求按钮。
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190305-152115@2x.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/FAQ.assets/WX20190305-152115@2x.png)
 
 2、即可进入新建合并请求页，选择要合并的源分支和目标分支，当源分支与目标分支无差异时，无法创建合并请求。
 
@@ -142,47 +142,47 @@ git config --global http.sslverify "false"
 	代码合并一般都是从源分支合并到目标分支哦。
 ```
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190305-152214@2x.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/FAQ.assets/WX20190305-152214@2x.png)
 
 3、当源分支与目标分支有差异时，即可创建合并请求。同时展示两个分支之间的提交差异和文件差异列表。
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190305-152232@2x.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/FAQ.assets/WX20190305-152232@2x.png)
 
 4、点击创建合并请求按钮，填写评审标题及内容，即创建成功
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190305-152249@2x.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/FAQ.assets/WX20190305-152249@2x.png)
 
 **Q：如何修改代码访问级别？**
 
 进入某一仓库，点击设置按钮，点击左侧通用设置菜单，即可修改访问级别
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190307-154333@2x.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/FAQ.assets/WX20190307-154333@2x.png)
 
 **Q：如何自定义评审组人员？**
 
 进入某一仓库，点击设置-评审规则-评审组成员-进行设置。
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190307-154650@2x.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/FAQ.assets/WX20190307-154650@2x.png)
 
 **Q：如何设置保护分支及可push人员？**
 
 1、进入仓库，点击设置按钮，点击左侧的安全策略菜单，即进入安全策略设置页面。
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190307-104649@2x.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/FAQ.assets/WX20190307-104649@2x.png)
 
 2、增加保护分支，在分支名输入框和可push人员输入框分别输入分支名和可push人员，点击添加按钮，即可添加保护分支。
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190307-104700@2x.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/FAQ.assets/WX20190307-104700@2x.png)
 
 **Q：如何自定义评审策略？**
 
 a. 进入仓库，点击设置按钮，点击左侧的评审规则菜单，即进入评审规则设置页面。
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190306-114003@2x-20220217112339864.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/FAQ.assets/WX20190306-114003@2x-20220217112339864.png)
 
 2、点击自定义评审策略按钮，填写相关信息，即可自定义评审策略。
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190306-114735@2x.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/FAQ.assets/WX20190306-114735@2x.png)
 
 **Q：如何清理磁盘空间？**
 

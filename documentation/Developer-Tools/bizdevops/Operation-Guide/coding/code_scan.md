@@ -10,14 +10,14 @@
 
   * 配置保存完成后，自动开启首次静态代码扫描
 
-    ![](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_create.png)
+    ![](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_create.png)
 
 ### 代码扫描高级配置
 
 >仓库Master及以上权限成员可以进行代码扫描高级配置
 
 代码扫描开启后，点击 “仓库-代码质量-设置”，支持更多高级配置：
-    ![](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_config.png)
+    ![](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_config.png)
 
 #### 通用配置
 
@@ -47,7 +47,7 @@
 * 以行为单位，每一行匹配一个排除模式
 * 支持正则表达式的匹配规则
 
-![](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_exclude.png)
+![](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_exclude.png)
 
 #### 自定义扫描参数
 
@@ -56,7 +56,7 @@
 * 自定义参数的开启/关闭
 * 自定义参数的阈值
 
-![](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_parameter.png)
+![](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_parameter.png)
 
 #### 定时扫描开启&关闭
 
@@ -65,7 +65,7 @@
 * 开启后，会自动触发每日定时扫描
 * 每日定时扫描时间：默认为当前开启时间
 
-![](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_timer.png)
+![](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_timer.png)
 
 
 
@@ -80,9 +80,9 @@
 增量扫描结果会返回至代码评审页面，协助代码评审。
 
 * 合并请求的“对话”页面可以查看总体扫描情况
-  ![](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_mr_diag.png)
+  ![](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_mr_diag.png)
 * 合并请求的”代码检查“页面可以查看详细扫描结果
-  ![](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_mr_detail.png)
+  ![](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_mr_detail.png)
 
 如果增量代码扫描失败，两个渠道“查看日志”或“重启扫描”
 
@@ -90,7 +90,7 @@
 
 * “代码检查”页面可 重启扫描
 * “对话”页面可 重启扫描
-  ![](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_restart_check.png)
+  ![](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_restart_check.png)
 
 
 
@@ -100,7 +100,7 @@
 
 点击 “代码质量”，进入代码扫描主页面
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_static.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_static.png)
 
 #### 总览
 
@@ -112,7 +112,7 @@
 * Issues严重等级分布
 * issues类别统计
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_static_overview-20220210145940885.png)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_static_overview-20220210145940885.png)
 
 #### issues
 
@@ -121,7 +121,7 @@
 * issue类别
 * 严重级别
 * 扫描引擎
-  ![](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_static_issues.png)
+  ![](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_static_issues.png)
 
 #### 文件
 
@@ -136,14 +136,14 @@
 
 * 文件名：必须输入完整的文件名；比如 download.rb
 * 路径：以‘/’为分界，输入完整路径段查询；比如：maven-central
-  ![](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_static_file.png)
+  ![](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_static_file.png)
 
 点击指定文件，查看该文件issues详情，支持根据条件筛选issue：
 
 * 扫描引擎
 * issue严重级别
 * issue类别
-  ![img](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_static_issues-4475894.png)
+  ![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_static_issues-4475894.png)
 
 扫描记录
 
@@ -151,7 +151,7 @@
 * 显示当前仓库所有的静态扫描记录
   * 扫描成功：显示扫描时间
   * 扫描失败：查看扫描日志
-    ![](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_static_history.png)
+    ![](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_static_history.png)
 
 #### 趋势
 
@@ -160,7 +160,7 @@
 * 技术债(率)趋势
 * 代码行数趋势
   如果当天有多次扫描，只显示最后一次扫描结果
-    ![](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/scan_static_trends.png)
+    ![](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/scan_static_trends.png)
 
 #### 术语
 
@@ -254,6 +254,6 @@
 
 **安全漏洞展示** 在"代码质量 - 依赖分析 - 安全漏洞“页面，根据依赖包展示漏洞信息：
 
-- 可根据不同条件排序，根据不同manifest文件筛选 ![img](http://devops-minio.jdcloud.com/doc-image/All-Image/code_scan.assets/security_1.png)
+- 可根据不同条件排序，根据不同manifest文件筛选 ![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/code_scan.assets/security_1.png)
 
 
