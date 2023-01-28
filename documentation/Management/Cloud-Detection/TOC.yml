@@ -6,6 +6,8 @@ items:
       href: Introduction/Product-Overview.md
     - name: 核心概念
       href: Introduction/Core-Concepts.md
+    - name: 指标定义
+      href: Introduction/Metric-Definition.md
     - name: 产品优势
       href: Introduction/Benefits.md
     - name: 限制说明
@@ -16,22 +18,32 @@ items:
   items:
     - name: 计费概述
       href: Pricing/Billing-Overview.md
+    - name: 计费规则
+      href: Pricing/Billing-Rules.md
+    - name: 购买流程
+      href: Pricing/Purchase-Process.md
 - name: 入门指南
   items:
-    - name: 使用站点监控
-      href: Getting-Started/Site-Monitoring.md
+    - name: 使用定时拨测
+      href: Getting-Started/Automatic-Sniffer.md
+    - name: 使用即时拨测
+      href: Getting-Started/Instant-Sniffer.md
     - name: 使用可用性监控
       href: Getting-Started/Availability-Monitoring.md
 - name: 操作指南
   items:
-    - name: 站点监控
+    - name: 定时拨测
       items:
         - name: 任务管理
-          href: Operation-Guide/Site-Monitoring/SiteTask-Management.md
-        - name: 查看监控图表
-          href: Operation-Guide/Site-Monitoring/ViewSiteMonitoring.md
-        - name: 报警管理
-          href: Operation-Guide/Site-Monitoring/AlarmRules-site.md
+          href: Operation-Guide/AutomaticSniffer/TaskManagement.md
+        - name: 任务组管理
+          href: Operation-Guide/AutomaticSniffer/TaskgroupManagement.md
+        - name: 任务概览
+          href: Operation-Guide/AutomaticSniffer/TaskSummary.md
+        - name: 告警管理
+          href: Operation-Guide/AutomaticSniffer/AlarmManagement.md
+    - name: 即时拨测
+      href: Operation-Guide/InstantSniffer/InstantSniffer.md
     - name: 可用性监控
       items:
         - name: 安装监控插件
@@ -44,18 +56,16 @@ items:
           href: Operation-Guide/AvailabilityMonitoring/ViewDetections.md
         - name: 报警管理
           href: Operation-Guide/AvailabilityMonitoring/AlarmRules-usa.md
-    - name: 报警管理
-      items:
-        - name: 全部报警规则
-          href: Operation-Guide/AlarmManagement/AlarmRules.md
-        - name: 全部报警历史
-          href: Operation-Guide/AlarmManagement/Alarms.md
 - name: 最佳实践
   items:
     - name: 监控站点质量
       href: Best-Practices/WebsiteMonitoring.md
     - name: 监控云数据库RDS
       href: Best-Practices/RDSMonitoring.md
+- name: 用户协议
+  items:
+    - name: 服务条款
+      href: User-Agreement/Product-Terms-Of-Service.md
 - name: 教程
   items:
   status: 0

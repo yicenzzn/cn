@@ -27,7 +27,7 @@ https://starshield.jdcloud-api.com/v1/zones/{zone_identifier}/firewall$$rules
 |**paused**|Boolean|False| |此防火墙规则当前是否已暂停。|
 |**ref**|String|False| |短引用标记，用于快速选择相关规则。|
 |**action_parameters**|[Action_parameters](createFirewallRules#action_parameters)|False| | |
-|**action**|String|False| |应用于匹配请求的行动。注意，行动 "log "只适用于企业客户。|
+|**action**|String|False| |对匹配到的请求采取的措施。有效值：js_challenge/block/challenge/allow/bypass<br>js_challenge表示Js挑战<br>block表示阻止<br>challenge表示验证码<br>allow表示允许<br>bypass表示绕过<br>|
 |**filter**|[Filter](createFirewallRules#filter)|False| | |
 |**id**|String|False| |防火墙规则标识符|
 |**description**|String|False| |对规则的描述，以帮助识别它。|
@@ -75,7 +75,7 @@ https://starshield.jdcloud-api.com/v1/zones/{zone_identifier}/firewall$$rules
 |**paused**|Boolean|此防火墙规则当前是否已暂停。|
 |**ref**|String|短引用标记，用于快速选择相关规则。|
 |**action_parameters**|[Action_parameters](createFirewallRules#action_parameters1)| |
-|**action**|String|应用于匹配请求的行动。注意，行动 "log "只适用于企业客户。|
+|**action**|String|对匹配到的请求采取的措施。有效值：js_challenge/block/challenge/allow/bypass<br>js_challenge表示Js挑战<br>block表示阻止<br>challenge表示验证码<br>allow表示允许<br>bypass表示绕过<br>|
 |**filter**|[Filter](createFirewallRules#filter1)| |
 |**id**|String|防火墙规则标识符|
 |**description**|String|对规则的描述，以帮助识别它。|

@@ -16,7 +16,7 @@
 ### Linux系统基本要求<br>
 | 镜像属性                  | 要求                | 
 | :------------------- |  :------------------- |
-|操作系统|* 支持CentOS、Ubuntu、Debian、SUSE Linux Enterprise、OpenSUSE<br> * 支持64位  |
+|操作系统|* 支持CentOS、Ubuntu、OpenEuler、Rocky Linux、Debian、SUSE Linux Enterprise、OpenSUSE<br> * 支持64位  |
 |镜像格式|* 支持RAW、VHD、QCOW2、VMDK|
 |镜像大小|* 实际大小（disk size）和虚拟大小（virtual size）均不超过500G|
 |文件系统|* xfs、ext3、ext4|
@@ -88,9 +88,9 @@ jdc vm import-image --architecture x86_64 --os-type linux --platform "Other Linu
 
 | 参数                  | 类型      |是否必填     | 说明 |
 | :------------------- |  :------------------- | :------------------- |:------------------- |
-| architecture   |  string    |是  |操作系统架构，支持 “x86_64” 和 “i386”
+| architecture   |  string    |是  |操作系统架构，支持 “x86_64” 和 “arm64”
 | osType   | string    |是   |镜像操作系统分类，请根据实际情况填写“linux”或“windows”
-| platform   | string    |是   |镜像操作系统发行版本，如版本为“CentOS”、“Ubuntu”、“Windows Server”中的一种请如实填写，否则请根据osType，对应填写“Other Linux”或“Other Windows”
+| platform   | string    |是   |镜像操作系统发行版本，如版本为“CentOS”、“Ubuntu”、“Windows Server”、“OpenEuler”、“Rocky Linux”中的一种请如实填写，否则请根据osType，对应填写“Other Linux”或“Other Windows”
 | osVersion   |  string    |否  |具体的操作系统发行版本号，如7.4（CentOS）、18.04（Ubuntu），仅用于标识以作区分，可根据需要填写
 | diskFormat	 | string    |是   | 镜像文件格式，支持“vhd”、“vmdk”、“qcow2”、“raw”，请如实填写，否则校验阶段会报错影响导入
 | systemDiskSizeGB   |  int   |是  |  指定使用镜像创建系统盘的容量，范围[40,500]，请确保该参数不小于镜像的virtual size，否则校验阶段会报错影响导入
@@ -101,17 +101,9 @@ jdc vm import-image --architecture x86_64 --os-type linux --platform "Other Linu
 | clientToken |  string    |否  |用于保证请求的幂等性。由客户端生成，长度不能超过64个字符
 
 ## 查看及测试镜像
-成功提交导入镜像请求后，即可在控制台私有镜像列表页/详情页中通过“状态”属性中的百分比了解具体进度；也可通过镜像[任务管理控制台](https://cns-console.jdcloud.com/compute/imageTask/list)或openAPI调用 [镜像导入任务查询](https://docs.jdcloud.com/cn/virtual-machines/api/imagetasks?content=API) 接口来获知更详细的任务进展。
+成功提交导入镜像请求后，即可在控制台私有镜像列表页/详情页中通过“状态”属性中的百分比了解具体进度；也可通过镜像[任务管理控制台](https://cns-console.jdcloud.com/compute/imageTask/list)来获知更详细的任务进展和关联资源信息。
 
-* OpenAPI文档见：[查询镜像任务](https://docs.jdcloud.com/cn/virtual-machines/api/imagetasks?content=API)<br>
-* CLI安装和配置见：[CLI安装](https://docs.jdcloud.com/cn/cli/installation)   [CLI配置](https://docs.jdcloud.com/cn/cli/config) <br>
-  * CLI指令示意：
-
-```
-jdc vm image-tasks --region-id cn-north-1 --task-action ImportImage --input-json '{"taskIds":[xxx]}'
-```
-
-> 镜像导入完成后，请使用镜像创建云主机测试是否可以成功创建，以及基本功能是否正常，如有异常可核对是否符合镜像制作基本要求 ，若仍无法解决请提交工单或联系客服获得技术支持。
+![image](https://user-images.githubusercontent.com/88134774/164971965-f61f757f-51b1-4d69-9410-5e3925b70282.png)
 
 
 ## 相关参考

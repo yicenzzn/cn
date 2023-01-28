@@ -24,7 +24,7 @@ https://starshield.jdcloud-api.com/v1/zones/{zone_identifier}/settings$$ssl
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**value**|String|False| |该设置的有效值|
+|**value**|String|False| |该设置的有效值，off/flexible/full/strict|
 
 
 ## 返回参数

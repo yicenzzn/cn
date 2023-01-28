@@ -14,7 +14,6 @@ stream  | 输出设备 | string
 severity  | 日志级别 | string 
 time  | 日志时间, 此字段作为后端存储的时间字段 | string 
 file  | 采集日志的模块名称，例如etcd kube-controller | string 
-originalMsg  | 日志原文 | string 
 appName  | 应用标识 | string 
 container_image  | 容器镜像 | string 
 container_name  | 容器名称 | string 
@@ -22,4 +21,4 @@ host  | 主机名 | string
 namespace_name  | 命名空间名称 | string 
 pod_id  | pod id| string 
 pod_name  | pod名称 | string 
-
+originalMsg  | 日志原文 | string 

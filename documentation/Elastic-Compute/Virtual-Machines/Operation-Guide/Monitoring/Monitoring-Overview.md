@@ -302,13 +302,13 @@
         <td>处于time_wait状态下的TCP连接数量</td>
         <td>实例</td>
    </tr>
-	</body>
+	</tbody>
 </table>
 
-<div id="user-content-1"></div>
-
 ## 扩展指标配置说明
+
 您可以按照下方步骤进行扩展指标的采集配置：
+
   * 确认JCS-Agent组件版本不低于'3.0.1086'，如低于此版本请参考下方【监控插件安装说明】部分安装或更新插件。
 ```
     ps -ef|grep MonitorPlugin
@@ -321,7 +321,8 @@
     * "namespace"：为上报至云监控自定义监控的命名空间，可自定义。
     > namespace长度不可超过255字节，只允许英文、数字、下划线_、点., [0-9][a-z] [A-Z] [. _ ]）。
     * "metrics"：为上报至云监控的扩展指标，目前支持的扩展指标类别包扩："cpu", "disk-io", "netstat" 。
-```
+    
+```json
 {
 	"agent": {
 		"namespace": "vm_extend_metric"
@@ -353,7 +354,8 @@
 	}
 }
 ```
-  * 重启监控插件（查找进程id，kill后插件将在5分钟内自动拉起），随后即以上述配置开始采集和上报扩展指标（插件升级期间基础指标可能存在短暂缺失）。
+ 
+ * 重启监控插件（查找进程id，kill后插件将在5分钟内自动拉起），随后即以上述配置开始采集和上报扩展指标（插件升级期间基础指标可能存在短暂缺失）。
 ```
       ps -ef | grep -i MonitorPlugin  //查看监控进程id
       kill [pid]  //指定进程id kill   
@@ -389,7 +391,7 @@
 	<th>说明</th>
     </tr>
 	</thead>
-	<body>
+	<tbody>
     <tr>
 	<td>%</td>
 	<td>百分比</td>
@@ -426,7 +428,7 @@
 	<td>℃</td>
 	<td>摄氏度</td>
     </tr>
-	</body>
+	</tbody>
 </table>
 
 

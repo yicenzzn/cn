@@ -30,7 +30,7 @@
 |  notify-keyspace-events |  定义了服务器将发送哪些类型的通知   |	 		  | [K , E , g , $ , l , s , h , z , x , e , A]字母的组合 |  
 | min-slaves-to-write | 当主节点有效的从节点个数小于这个值时拒绝写入   |  0   | 	0/1  | 
 | min-slaves-max-lag |有效从节点的延时必须小于这个值，单位秒  | 10  | 1-3600  | 
-| @slave-appendonly |  开启从持久化  | no  | yes/no | 
+| @slave-appendonly |  开启从持久化  | yes  | yes/no | 
 | appendfsync | aof文件调用fsync强制落盘的策略    | everysec  | no/everysec/always  | 
 | lua-time-limit |  lua脚本的最长执行时间（毫秒）, 当超过这个时间时,可通过执行script kill杀死正在执行的Lua脚本，设置为0表示没有时间限制  | 5000 | 1000-60000  | 
 | slowlog-max-len | 最多记录最近多少条慢日志。慢日志记录会消耗内存   | 1024 | 128-10000  | 
@@ -39,7 +39,7 @@
 | client-output-buffer pubsub | 订阅客户端输出缓冲区大小  | 134217728 33554432 60  | \d+\s+\d+\s+\d+   | 
 | @no-auth-ignore |  实例没有密码时，即使客户端发送了密码，也返回OK | no  | yes/no  | 
 | @cluster-compat-enable | 主从版是否兼容cluster语法，集群版没有效果  | yes  |yes/no  | 
-| timeout |当客户端连接闲置时间达到该指定值时，将关闭连接，单位为秒（s），为0表示不开启 | 300  | 0~100000  | 
+| timeout |当客户端连接闲置时间达到该指定值时，将关闭连接，单位为秒（s），为0表示不开启。在实际运行中，为了提高性能，Redis不一定会精确地按照timeout的值规定的时间来断开符合条件的空闲连接，会有0~20秒的延迟。 | 300  | 0~100000  | 
 
 ####     notify-keyspace-events参数说明
 | 字符  |  参数说明  | 
