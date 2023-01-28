@@ -23,6 +23,7 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 |**pageSize**|Integer|False| |分页大小；默认为20；取值范围[10, 100]|
 |**filters**|[Filter](describepods#filter)|False| |podId - pod ID，精确匹配，支持多个<br>privateIpAddress - 主网卡IP地址，模糊匹配，支持单个<br>az - 可用区，精确匹配，支持多个<br>vpcId - 私有网络ID，精确匹配，支持多个<br>phase - pod 状态，精确匹配，支持多个<br>name - 实例名称，模糊匹配，支持单个<br>subnetId - 镜像ID，精确匹配，支持多个<br>|
 |**tags**|[TagFilter](describepods#tagfilter)|False| |Tag筛选条件|
+|**resourceGroupIds**|String[]|False| |资源组ID|
 
 ### <div id="tagfilter">TagFilter</div>
 |名称|类型|是否必需|默认值|描述|
@@ -69,9 +70,11 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 |**podStatus**|[PodStatus](describepods#podstatus)|pod状态信息|
 |**elasticIp**|[ElasticIp](describepods#elasticip)|主网卡主IP关联的弹性IP规格|
 |**primaryNetworkInterface**|[NetworkInterfaceAttachment](describepods#networkinterfaceattachment)|主网卡配置信息|
-|**tags**|[Tag](describepods#tag)| |
+|**tags**|[Tag](describepods#tag)|Tag信息|
 |**charge**|[Charge](describepods#charge)|计费配置；如不指定，默认计费类型是后付费-按使用时常付费|
 |**createTime**|String|Pod创建时间|
+|**resourceGroupId**|String|资源组ID|
+
 ### <div id="charge">Charge</div>
 |名称|类型|描述|
 |---|---|---|
