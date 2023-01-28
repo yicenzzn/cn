@@ -30,6 +30,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |---|---|---|---|---|
 |**pageNumber**|Integer|否|1|页码；默认为1。|
 |**pageSize**|Integer|否|20|分页大小；<br>默认为20；取值范围[10, 100]。|
+|**tags**|[TagFilter[]](describeInstances#tagFilter)|否||Tag筛选条件| 
+|**resourceGroupIds**|String[]|否||资源组ID|
 |**filters**|[Filter[]](describeInstances#filter)|否| |<b>filters 中支持使用以下关键字进行过滤</b><br>`instanceId`: 云主机ID，精确匹配，支持多个<br>`privateIpAddress`: 云主机挂载的网卡内网主IP地址，模糊匹配，支持多个<br>`az`: 可用区，精确匹配，支持多个<br>`vpcId`: 私有网络ID，精确匹配，支持多个<br>`status`: 云主机状态，精确匹配，支持多个，参考 [云主机状态](https://docs.jdcloud.com/virtual-machines/api/vm_status)<br>`name`: 云主机名称，模糊匹配，支持单个<br>`imageId`: 镜像ID，精确匹配，支持多个<br>`networkInterfaceId`: 弹性网卡ID，精确匹配，支持多个<br>`subnetId`: 子网ID，精确匹配，支持多个<br>`agId`: 使用可用组id，支持单个<br>`faultDomain`: 错误域，支持多个<br>`dedicatedHostId`: 专有宿主机ID，精确匹配，支持多个<br>`dedicatedPoolId`: 专有宿主机池ID，精确匹配，支持多个<br>`instanceType`: 实例规格，精确匹配，支持多个，可通过查询 [DescribeInstanceTypes](https://docs.jdcloud.com/virtual-machines/api/describeinstancetypes) 接口获得实例规格<br>`elasticIpAddress`: 公网IP地址，精确匹配，支持单个。该条件会将公网IP转换成 `networkInterfaceId` 进行查询，所以与 `networkInterfaceId` 为或者的关系。<br>|
 
 ### <div id="Filter">Filter</div>
@@ -38,6 +40,12 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**name**|String|是| |过滤条件的名称|
 |**operator**|String|否| |过滤条件的操作符，默认eq|
 |**values**|String[]|是| |过滤条件的值|
+
+### <div id="tagFilter">TagFilter</div>
+|名称|类型|是否必选|示例值|描述|
+|---|---|---|---|---|
+|**key**|String|是| |Tag键|
+|**values**|String[]|否| |Tag值|
 
 ## 返回参数
 |名称|类型|示例值|描述|
@@ -79,6 +87,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**tags**|[Tag[]](describeInstances#user-content-5)| |Tag信息。|
 |**chargeOnStopped**|String|keepCharging|停机不计费模式。可能值：<br>`keepCharging`：关机后继续计费。<br>`stopCharging`：关机后停止计费。<br>|
 |**policies**|[Policy[]](describeInstances#user-content-6)| |任务策略，关联了自动任务策略时可获取相应信息。|
+|**resourceGroupId**|String|rg-default|资源组ID。|
 
 ### <div id="user-content-6">Policy</div>
 |名称|类型|示例值|描述|
@@ -89,8 +98,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 ### <div id="user-content-5">Tag</div>
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|**key**|String|环境|标签key。长度不能超过127字符，不能以 `jrn:` 或 `jdc-` 开头，仅支持中文、大/小写英文、数字及如下符号：`\_.,:\/=+-@`。|
-|**value**|String|测试|标签value。长度不能超过255字符，仅支持中文、大/小写英文、数字及如下符号：`\_.,:\/=+-@`。|
+|**key**|String|环境|Tag键。|
+|**value**|String|测试|Tag值。|
 
 ### <div id="user-content-7">Ag</div>
 |名称|类型|示例值|描述|
@@ -195,6 +204,7 @@ GET
                     "chargeStatus": "normal"
                 }, 
                 "chargeOnStopped": "keepCharging", 
+                "resourceGroupId": "rg-default",
                 "description": "", 
                 "hostName": "test1", 
                 "imageId": "img-m5s0****29", 
@@ -252,6 +262,7 @@ GET
                     "chargeStatus": "normal"
                 }, 
                 "chargeOnStopped": "keepCharging", 
+                "resourceGroupId": "rg-default",
                 "dataDisks": [
                     {
                         "autoDelete": true, 
