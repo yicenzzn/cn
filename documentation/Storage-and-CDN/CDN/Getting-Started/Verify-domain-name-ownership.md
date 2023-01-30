@@ -40,3 +40,46 @@
 
 5.	确保可通过 http://example.com/verification.html 访问至该文件后，即可单击验证按钮进行验证。如果文件内的记录值与我们提供的记录值是一致的，即可验证通过；如果验证失败，请确保上述文件链接可访问，并且您上传的文件为正确文件，可通过访问文件的链接与所下载的文件进行比对是否一致。
 
+# **方法三：API验证**
+
+当采用 API 创建加速域名时，要先通过 API 进行域名归属权校验，再通过 createdomin、batchCreat、batchCreatLivedomin 进行域名创建。
+
+1.	DNS解析验证：
+
+（1）	调用CreatVerifyContent获取记录值。
+
+（2）	前往您的域名解析服务商，添加TXT记录。具体操作，请参考添加TXT记录。
+
+（3）	调用VerifyDominOwner验证单个域名的归属权。
+
+（4）	VerifyType需设为dnsCheck。
+
+（5）	调用接口添加加速域名。
+
+2.	文件验证：
+
+（1）	调用CreatVerifyContent获取记录值，并准备验证文件。
+
+（2）	手动将验证文件上传到您域名源站服务器（例如您的 CVM、COS、阿里 ECS、阿里 OSS 等）的根目录。
+
+（3）	调用VerifyDominOwner验证单个域名的归属权。
+
+（4）	VerifyType需设为fileCheck。
+
+（5）	调用接口添加加速域名。
+
+   `注意`
+   
+   选择中国境外或全球加速服务需特别注意：
+   
+   在完成上述归属权校验后，可点击下一步，并需要二次添加TXT记录，校验生效通过后方可成功激活，域名境外激活状态会在域名详情页展示。
+   
+   1）TXT记录值在客户控制台/运营后台-域名管理-资源信息-基本信息中可查（仅中国境外/全球加速域名有，若无值则境外加速域名未创建添加成功）。
+   
+   2）激活中国境外或全球加速域名，必须要加“verify”这个前缀，例如域名是 www.jd.com，则激活的域名是 “verify.www.jd.com”。
+   
+      ![境外加速域名激活1](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/境外加速域名激活1.png)
+      
+      ![境外加速域名激活2](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/境外加速域名激活2.png)
+      
+     
