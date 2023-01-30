@@ -66,7 +66,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**tags**|[Tag[]](describeInstance#user-content-5)| |Tag信息。|
 |**chargeOnStopped**|String|keepCharging|停机不计费模式。可能值：<br>`keepCharging`：关机后继续计费。<br>`stopCharging`：关机后停止计费。<br>|
 |**policies**|[Policy[]](describeInstance#user-content-6)| |自动任务策略，关联了自动任务策略时可获取相应信息。|
-
+|**resourceGroupId**|String|rg-default|资源组ID。|
 
 ### <div id="user-content-6">Policy</div>
 |名称|类型|示例值|描述|
@@ -183,6 +183,7 @@ GET
                 "chargeStatus": "normal"
             }, 
             "chargeOnStopped": "keepCharging", 
+            "resourceGroupId": "rg-default",
             "description": "", 
             "elasticIpAddress": "116.111.11.1", 
             "elasticIpId": "fip-z1z1****ja", 

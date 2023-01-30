@@ -57,11 +57,13 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers/{contai
 |**primaryNetworkInterface**|[InstanceNetworkInterfaceAttachment](describecontainer#instancenetworkinterfaceattachment)|主网卡配置信息|
 |**secondaryNetworkInterfaces**|[InstanceNetworkInterfaceAttachment[]](describecontainer#instancenetworkinterfaceattachment)|辅助网卡配置信息|
 |**logConfiguration**|[LogConfiguration](describecontainer#logconfiguration)|容器日志配置信息|
-|**tags**|[Tag[]](describecontainer#tag)| |
+|**tags**|[Tag[]](describecontainer#tag)|Tag信息|
 |**charge**|[Charge](describecontainer#charge)|计费配置信息|
 |**launchTime**|String|创建时间|
 |**reason**|String|容器终止原因|
 |**description**|String|容器描述|
+|**resourceGroupId**|String|资源组ID|
+
 ### <div id="charge">Charge</div>
 |名称|类型|描述|
 |---|---|---|

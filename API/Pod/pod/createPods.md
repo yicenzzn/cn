@@ -90,6 +90,8 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods
 |**elasticIp**|[ElasticIpSpec](createpods#elasticipspec)|False| |主网卡主IP关联的弹性IP规格。|
 |**primaryNetworkInterface**|[NetworkInterfaceAttachmentSpec](createpods#networkinterfaceattachmentspec)|True| |主网卡配置信息。|
 |**userTags**|[Tag](createpods#tag)|False| |用户普通标签集合。|
+|**resourceGroupId**|String|False||资源组ID。|
+
 ### <div id="tag">Tag</div>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|

@@ -26,6 +26,8 @@ https://dh.jdcloud-api.com/v1/regions/{regionId}/dedicatedHosts
 |---|---|---|---|---|
 |**pageNumber**|Integer|否 |1|页码；默认为1|
 |**pageSize**|Integer|否|  |分页大小；默认为20；取值范围[10, 100]|
+|**tags**|[TagFilter[]](#tagFilter)|否||Tag筛选条件| 
+|**resourceGroupIds**|String[]|否|  |资源组ID|
 |**filters**|[Filter[]](describeDedicatedHosts#user-content-filter)|否| |filters 中支持使用以下关键字进行过滤<br> `dedicatedHostId` : 专有宿主机ID，精确匹配，支持多个<br> `az`: 可用区，精确匹配，支持多个<br>`status`: 专有宿主机状态，精确匹配，支持多个，<a href="http://docs.jdcloud.com/dedicated-hosts/api/dh_status">参考专有宿主机状态</a><br> `name`: 专有宿主机名称，模糊匹配，支持单个<br> `dedicatedPoolId`: 专有宿主机池ID，精确匹配，支持多个<br> `dedicatedHostType`: 专有宿主机机型，精确匹配，支持多个<br>|
 
 ### <div id="user-content-filter">Filter</div>
@@ -34,6 +36,12 @@ https://dh.jdcloud-api.com/v1/regions/{regionId}/dedicatedHosts
 |**name**|String|是 |name |过滤条件的名称|
 |**operator**|String|否|eq |过滤条件的操作符，默认eq|
 |**values**|String[]|是 |name-test |过滤条件的值|
+
+### <div id="tagFilter">TagFilter</div>
+|名称|类型|是否必需|示例值|描述|
+|---|---|---|---|---|
+|**key**|String|是| |Tag键|
+|**values**|String[]|否| |Tag值|
 
 ## 返回参数
 |名称|类型|描述|
@@ -62,6 +70,15 @@ https://dh.jdcloud-api.com/v1/regions/{regionId}/dedicatedHosts
 |**instanceIds**|String[]|专有宿主机上的云主机ID|
 |**charge**|[Charge](describeDedicatedHosts#user-content-Charge)|计费信息|
 |**createTime**|String|创建时间|
+|**tags**|[Tag[]](#return-tag)|Tag信息|
+|**resourceGroupId**|String|资源组ID|
+
+### <div id="return-tag">Tag</div>
+|名称|类型|示例值|描述|
+|---|---|---|---|
+|**key**|String|环境|Tag键|
+|**value**|String|测试|Tag值|
+
 ### <div id="user-content-Charge">Charge</div>
 |名称|类型|描述|
 |---|---|---|
@@ -153,6 +170,17 @@ GET
                     "chargeStatus": "normal",
                     "chargeStartTime": "2021-09-07T09:22:27Z"
                 },
+                "tags": [
+                    {
+                        "key": "123",
+                        "value": "456"
+                    },
+                    {
+                        "key": "abc",
+                        "value": "def"
+                    }
+                ],
+                "resourceGroupId": "rg-default",
                 "createTime": "2021-09-07 17:22:27"
             }
         ],

@@ -58,6 +58,8 @@ https://pod.jdcloud-api.com/v1/regions/{regionId}/pods/{podId}
 |**tags**|[Tag[]](describepod#tag)| |
 |**charge**|[Charge](describepod#charge)|计费配置；如不指定，默认计费类型是后付费-按使用时常付费|
 |**createTime**|String|Pod创建时间|
+|**resourceGroupId**|String|资源组ID|
+
 ### <div id="Charge">Charge</div>
 |名称|类型|描述|
 |---|---|---|

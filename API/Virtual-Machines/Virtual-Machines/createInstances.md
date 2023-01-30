@@ -73,9 +73,9 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**autoImagePolicyId**|String|否|pol-xgsc****7e|自动任务策略ID。<br>|
 |**passwordAuth**|String|否||是否允许SSH密码登录。<br>`yes`：允许SSH密码登录。<br>`no`：禁止SSH密码登录。<br>仅在指定密钥时此参数有效，指定此参数后密码即使输入也将被忽略，同时会在系统内禁用SSH密码登录。<br>|
 |**imageInherit**|String| 否||是否使用镜像中的登录凭证，不再指定密码或密钥。<br>`yes`：使用镜像登录凭证。<br>`no`（默认值）：不使用镜像登录凭证。<br>仅使用私有或共享镜像时此参数有效。若指定`imageInherit=yes`则指定的密码或密钥将无效。|
+|**resourceGroupId**|String| 否||资源组ID。|
 
 ### <div id="user-content-3">Tag</div>
-
 |名称|类型|是否必选|示例值|描述|
 |---|---|---|---|---|
 |**key**|String|否|环境|标签key。长度不能超过127字符，不能以 `jrn:` 或 `jdc-` 开头，仅支持中文、大/小写英文、数字及如下符号：`\_.,:\/=+-@`。|
