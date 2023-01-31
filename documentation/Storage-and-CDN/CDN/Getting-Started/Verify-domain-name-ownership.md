@@ -78,8 +78,8 @@
    
    2）激活中国境外或全球加速域名，必须要加“verify”这个前缀，例如域名是 www.jd.com，则激活的域名是 “verify.www.jd.com”。
    
-      ![境外加速域名激活1](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/境外加速域名激活1.png)
+   ![境外加速域名激活1](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/境外加速域名激活1.png)
       
-      ![境外加速域名激活2](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/境外加速域名激活2.png)
+   ![境外加速域名激活2](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/境外加速域名激活2.png)
       
      
