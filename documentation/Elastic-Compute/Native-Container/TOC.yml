@@ -11,6 +11,8 @@
         href: Introduction/Benefits.md
       - name: 产品功能
         href: Introduction/Features.md
+      - name: 实例规格类型
+        href: Introduction/Instance-Type-Family.md
       - name: 地域及可用区
         href: Introduction/Regions-and-AvailabilityZones.md
       - name: 限制说明

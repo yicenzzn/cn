@@ -31,12 +31,13 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images
 |---|---|---|---|---|
 |**imageSource**|String|否|public|镜像来源，如果没有指定 `ids` 参数，此参数必传。可选值：<br>`public`：官方镜像。<br>`thirdparty`：镜像市场镜像。<br>`private`：用户自己的私有镜像。<br>`shared`：其他用户共享的镜像。|
 |**offline**|Boolean|否| |查询已经下线的镜像时使用。<br>只有查询 `imageSource=public` 或 `imageSource=thirdparty` 时，此参数才有意义，其它情况下此参数无效。<br>指定 `ids` 查询时，此参数无效。可选值：<br>`true` ：已下线；<br>`false`：未下线。|
-|**platform**|String|否|CentOS|根据镜像的操作系统发行版查询。<br>可选值：`Ubuntu、CentOS、Windows Server`。<br>|
+|**platform**|String|否|CentOS|根据镜像的操作系统发行版查询。可选值：<br> `Ubuntu、CentOS、Windows Server、OpenEuler、Rocky Linux`。<br>|
 |**ids**|String[]|否|\[&quot;img-m5s0\*\*\*\*29&quot;,&quot;img-m5s0****30&quot;]|指定镜像ID查询，如果指定了此参数，其它参数可以不传。<br>|
 |**imageName**|String|否| image|根据镜像名称模糊查询。|
 |**rootDeviceType**|String|否|cloudDisk|根据镜像支持的系统盘类型查询。可选值：<br>`localDisk` ：本地系统盘镜像；<br>`cloudDisk`： 云盘系统盘镜像。|
 |**launchPermission**|String|否|ownerOnly|根据镜像的使用权限查询，仅当 `imageSource` 为 `private` 时有效。可选值：<br>`specifiedUsers`：存在共享关系镜像。<br>`ownerOnly`：不存在共享关系的镜像。<br>|
 |**status**|String|否|ready|根据镜像状态查询。参考 [镜像状态](https://docs.jdcloud.com/virtual-machines/api/image_status)|
+|**architecture**|String|否|x86_64|镜像架构类型。可选值： <br>`x86_64、arm64`。<br>|
 |**pageNumber**|Integer|否|1|页码；默认为1。|
 |**pageSize**|Integer|否|20|分页大小；<br>默认为20；取值范围：[10, 100]。|
 
@@ -58,9 +59,9 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/images
 |---|---|---|---|
 |**imageId**|String|img-m5s0****29|镜像ID。|
 |**name**|String|image-test |镜像名称。|
-|**platform**|String|CentOS|镜像的操作系统平台名称。<br>可能值：`Ubuntu、CentOS、Windows Server、Other Linux、Other Windows`。<br>|
+|**platform**|String|CentOS|镜像的操作系统平台名称。可能值：<br>`Ubuntu、CentOS、Windows Server、OpenEuler、Rocky Linux、Other Linux、Other Windows`。<br>|
 |**osVersion**|String|8.2|镜像的操作系统版本。|
-|**architecture**|String|x86_64|镜像架构。可能值：`x86_64、i386`。|
+|**architecture**|String|x86_64|镜像架构类型。可能值：<br>`x86_64、arm64`。|
 |**systemDiskSizeGB**|Integer|40|镜像系统盘大小。|
 |**imageSource**|String|public|镜像来源，可能值：<br>`public`：官方镜像。<br>`thirdparty`：镜像市场镜像。<br>`private`：用户自己的私有镜像。<br>`shared`：其他用户共享的镜像。|
 |**osType**|String|linux|镜像的操作系统类型。可能值：`windows、linux`。|

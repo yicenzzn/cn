@@ -40,6 +40,9 @@ https://starshield.jdcloud-api.com/v1/regions/{regionId}/instance/{orderNumber}/
 |**trafficExpansion**|Integer|流量包数量|
 |**flowUsedCnt**|Number|已使用流量（单位：Byte）|
 |**flowRemain**|Double|剩余流量(单位：Gb)|
+|**totalFlowStr**|String|套餐总流量|
+|**usedFlowStr**|String|套餐已使用流量|
+|**remainingFlowStr**|String|套餐剩余流量|
 |**packMode**|String|套餐模式(BASE->基础套餐 FLOW->流量套餐)|
 |**memo**|String|备注|
 |**createTime**|String|购买时间, UTC时间格式，例如2017-11-10T23:00:00Z|

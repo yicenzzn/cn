@@ -81,3 +81,4 @@
    ![境外加速域名激活1](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/境外加速域名激活1.png)
 
    ![境外加速域名激活2](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/境外加速域名激活2.png)
+

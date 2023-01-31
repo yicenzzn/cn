@@ -4,9 +4,9 @@
 
 ### 控制台删除合同
 
-在合同管理页面中，点击“删除”按钮。
+在合同存管页面中，点击“删除”按钮。
 
-![删除合同.png](/image/Electronic-Signature/删除合同.png)
+![删除合同.png](/image/Electronic-Signature/删除合同new.png)
 
 ### OpenAPI删除合同
 

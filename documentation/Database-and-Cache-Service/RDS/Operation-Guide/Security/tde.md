@@ -1,4 +1,4 @@
-# 透明数据库加密 TDE 支持
+# SQL Server 设置透明数据库加密 TDE
 
 ## TDE 简介
 

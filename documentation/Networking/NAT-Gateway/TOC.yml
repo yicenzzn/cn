@@ -58,7 +58,11 @@ items:
       - name: 查看NAT网关计费信息
         items:
           - name: 查看NAT网关计费信息
-            href: Operation-Guide/View-Nat-Gateway-Billing/View-Nat-Gateway-Billing.md   
+            href: Operation-Guide/View-Nat-Gateway-Billing/View-Nat-Gateway-Billing.md  
+      - name: 查看NAT网关日志信息
+        items:
+          - name: 使用流日志查看NAT网关流量明细
+            href: Operation-Guide/View-Nat-Gateway-Log/Check-Data-Detail-of-NAT-Gateway-via-Flow-Log.md
   - name: 最佳实践
     items:
           - name: NAT实例向NAT网关迁移
