@@ -5,7 +5,36 @@
 网站框架构建完成后，需要为网站绑定一个域名，此域名为客户访问网站的入口，当用户需要访问网站时，在浏览器输入网站域名就可以直接进行访问。
 
 
-## 1：站点绑定域名
+## 1: 对域名进行解析
+
+通过域名访问某个站点的服务器，必须通过IP地址来实现，域名解析就是将域名重新转换为IP地址的过程。
+
+访问[云解析DNS控制台](https://dns-console.jdcloud.com/list)，先添加域名。在域名列表选择刚添加的域名，点击操作中的解析。
+
+![图片名称](https://img1.jcloudcs.com/image/docs/site0324-2.png)
+
+
+点击添加解析。
+
+![图片名称](https://img1.jcloudcs.com/image/docs/site0324-3.png)
+
+在添加解析页面，进行解析记录配置。
+
+- 记录类型：选择CNAME解析
+- 记录值： 在建站服务中进行获取
+- 其它项：可选择默认参数
+
+![图片名称](https://img1.jcloudcs.com/image/docs/site0324-4.png)
+
+
+查看站点的CNAME解析地址。
+
+
+![图片名称](https://img1.jcloudcs.com/image/docs/site1203-11.png)
+
+
+
+## 2：站点绑定域名
 
 
 在京美建站控制台，选择购买的站点，单击“后台管理”进入站点编辑页面
@@ -35,33 +64,6 @@
 
 
 
-
-## 2: 对域名进行解析
-
-通过域名访问某个站点的服务器，必须通过IP地址来实现，域名解析就是将域名重新转换为IP地址的过程。
-
-访问[云解析DNS控制台](https://dns-console.jdcloud.com/list)，先添加域名。在域名列表选择刚添加的域名，点击操作中的解析。
-
-![图片名称](https://img1.jcloudcs.com/image/docs/site0324-2.png)
-
-
-点击添加解析。
-
-![图片名称](https://img1.jcloudcs.com/image/docs/site0324-3.png)
-
-在添加解析页面，进行解析记录配置。
-
-- 记录类型：选择CNAME解析
-- 记录值： 在建站服务中进行获取
-- 其它项：可选择默认参数
-
-![图片名称](https://img1.jcloudcs.com/image/docs/site0324-4.png)
-
-
-查看站点的CNAME解析地址。
-
-
-![图片名称](https://img1.jcloudcs.com/image/docs/site1203-11.png)
 
 
 
