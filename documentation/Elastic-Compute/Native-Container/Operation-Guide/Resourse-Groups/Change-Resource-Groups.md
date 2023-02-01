@@ -5,7 +5,7 @@
 ## 操作步骤
 
 
-- 访问[专有宿主机控制台](https://cns-console.jdcloud.com/host/dedicatedHost/list)，即进入专有宿主机列表页面。或访问[京东云控制台](https://console.jdcloud.com)点击顶部导航栏 **弹性计算-专有宿主机** 进入专有宿主机列表页。
+- 访问[容器实例控制台]( https://cns-console.jdcloud.com/host/container/list)或是[Pod控制台]( https://cns-console.jdcloud.com/host/pod/list)。或访问[京东云控制台](https://console.jdcloud.com)点击顶部导航栏 **弹性计算-原生容器-容器实例/Pod** 进入资源列表页。
 
 - 点击资源列表页【操作-更多-变更资源组】或进入资源详情页点击右上角的【操作-变更资源组】,即可变更单一资源所在的资源组。
 
