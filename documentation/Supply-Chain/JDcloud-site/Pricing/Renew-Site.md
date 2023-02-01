@@ -4,10 +4,11 @@
 
 ### 操作步骤
 - 登录[京美建站控制台](https://jdcloud-site-console.jdcloud.com/site)，在待续费站点所在行，选择“续费”，
-<img width="1424" alt="image" src="../../../../image/JDCloud-Site/renewsite1.png">
 
+![image](../../../../image/JDCloud-Site/renewsite1.png)
+ 
 - 在“续费”界面，选择续费时长，单击“去支付”，
 
-<img width="1434" alt="image" src="../../../../image/JDCloud-Site/renewsite2.png">
+![image](../../../../image/JDCloud-Site/renewsite2.png)
 
 - 确认订单并支付，完成续费。
