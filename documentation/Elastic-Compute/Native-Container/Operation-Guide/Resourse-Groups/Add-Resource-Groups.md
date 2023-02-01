@@ -11,4 +11,4 @@
 
 - 在创建页面的 “基本信息” 中选择期望加入的资源组，如需新建请点击右侧的链接前往资源组页面进行创建。
 
-![](../../../../../image/dh/dh-rg-create.png)
+![](../../../../../image/Native-Container/nc.pod-rg-create.png)
