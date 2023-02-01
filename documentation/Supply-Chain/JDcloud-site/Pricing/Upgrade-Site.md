@@ -6,7 +6,7 @@
 
 ### 操作步骤
 -	登录[京美建站控制台](https://jdcloud-site-console.jdcloud.com/site)，在待升级站点所在行，选择“更多 > 升级”；
-<img width="1419" alt="image" src="https://user-images.githubusercontent.com/121211608/212828454-7af17273-c37f-4008-bffd-68452eafe3a4.png">
+<img width="1419" alt="image" src="../../../../image/JDCloud-Site/updatesite.png">
 
 -	在“升级京美建站”界面，选择升级规格，单击“立即购买”；
 -	确认订单并支付，完成升级。
