@@ -11,10 +11,10 @@
 1.申请备案授权码
 使用京美建站的站点名称，在备案服务[申请授权码](https://record-console.jdcloud.com/authcode/apply).
 
-<img width="1408" alt="image" src="https://user-images.githubusercontent.com/121211608/213139042-92989860-d723-4518-bbde-d105e54b4c8c.png">
+![image](../../../../image/JDCloud-Site/ICP1.png)
 
 2.进行备案操作，操作指引见 [备案操作说明](https://docs.jdcloud.com/cn/icp-license-service/introduction)
-![image](https://user-images.githubusercontent.com/121211608/213140553-d05d0fb3-24df-4633-9b44-98002e3733a8.png)
+![image](../../../../image/JDCloud-Site/ICP2.png)
 
 
 
