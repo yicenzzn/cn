@@ -13,7 +13,7 @@ SGM提供一键接入方式为Java应用安装探针，安装成功后只需重�
         - 建议使用1.8.X最新版本，最后一个免费版本为1.8.0_202。
     - JDK 11.0.0+
 
-- 申请accessKeyId、secretAccessKey
+- [申请accessKeyId、secretAccessKey](https://uc.jdcloud.com/account/accesskey)
 
 ## 操作步骤
 
@@ -70,7 +70,7 @@ curl -s "$SGM_PROBE_DOWNLOAD/install.sh" -o /tmp/sgm_java.sh && source /tmp/sgm_
 
 ## 结果验证
 
-约一分钟后，若您的应用出现在我的应用中，则说明接入成功。
+约一分钟后，若您的应用出现在菜单[我的应用]中，则说明接入成功。
 
 ## 卸载探针
 
