@@ -49,11 +49,11 @@ items:
 - name: 视频教程
   items:
     - name: 网站编辑快速入门
-      href: video/Video-Guide.md
+      href: Video/video-guide.md
     - name: 利用模板快速建站
-      href: video/Video-Template.md
+      href: Video/video-template.md
     - name: 网站编辑操作
-      href: video/Video-Config.md
+      href: Video/video-config.md
       
 - name: 常见问题
   items:
@@ -63,4 +63,4 @@ items:
 - name: 服务协议
   items:
     - name: 产品协议
-      href: https://docs.jdcloud.com/cn/product-service-agreement/jdcloud-site
+      href: docs.jdcloud.com/cn/product-service-agreement/jdcloud-site
