@@ -59,8 +59,3 @@ items:
   items:
     - name: FAQ
       href: question/FAQ.md
-      
-- name: 服务协议
-  items:
-    - name: 产品协议
-      href: docs.jdcloud.com/cn/product-service-agreement/jdcloud-site
