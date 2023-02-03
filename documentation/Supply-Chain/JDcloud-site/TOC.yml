@@ -18,7 +18,7 @@ items:
     - name: 产品规格
       href: Introduction/Product-Specification.md
     - name: 限制说明
-      href: Introduction/Restrictions.md
+      href: Introduction/Notice.md
 
 - name: 产品定价
   items:
