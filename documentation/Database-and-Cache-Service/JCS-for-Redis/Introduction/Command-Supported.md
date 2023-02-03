@@ -188,7 +188,7 @@
 ##  Pub/Sub（发布/订阅）
 | 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  | 5.0标准版  |   5.0 Cluster 集群版  | 
 |:-- |:--:|:--:|:--:|:--:| :--:| :--:|  
-|  PSUBSCRIBE   |   x   | x  |  ✓  | ✓   | ✓   | 
+|  PSUBSCRIBE   |   x   | x  |  ✓  | ✓   | ✓   | ✓   | 
 |  PUBLISH      |   x   | x  |  ✓  | ✓   | ✓   | ✓   | 
 |  PUBSUB       |   x   | x  |  ✓  | ✓   | ✓   | ✓   | 
 |  PUNSUBSCRIBE |   x   | x  |  ✓  | ✓   | ✓   | ✓   | 
@@ -201,7 +201,7 @@
 |:-- |:--:|:--:|:--:|:--:| :--:| :--:| 
 |  DISCARD   |   ✓   | x  |  ✓  | ✓   | ✓   | ✓   | 
 |  EXEC      |   ✓   | x  |  ✓  | ✓   | ✓   | ✓   |
-|  MULTI     |   ✓   | x  |  ✓  | ✓   | ✓   | 受限   |
+|  MULTI     |   ✓   | x  |  ✓  | ✓   | ✓   | 受限 |
 |  UNWATCH   |   ✓   | x  |  ✓  | ✓   | ✓   | ✓   |
 |  WATCH     |   ✓   | x  |  ✓  | ✓   | ✓   | 受限   |
 
@@ -226,7 +226,6 @@
 |  TIME      |   x   |  x  |  ✓  | ✓   |  ✓   |  ✓   | 
 |  INFO      |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
 |  KEYS      |   ✓   | ✓  |  ✓  | ✓   | x   |  ✓   | 
-|  CLIENT LIST      |   ✓   | ✓  |  ✓ | ✓   | x   |  ✓   | 
 |  CLIENT KILL      |   x   | x  |  x  | x   | x   |✓    |
 |  CLIENT GETNAME   |   x   | x  |  ✓  | ✓   | x   |  ✓   | 
 |  CLIENT SETNAME   |   x   | x  |  ✓  | ✓   | x   |  ✓  | 
