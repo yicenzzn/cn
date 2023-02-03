@@ -115,10 +115,10 @@
         items:
           - name: 标签概述
             href: Operation-Guide/Tag/Tag-Overview.md
-          - name: 编辑标签
-            href: Operation-Guide/Tag/Edit-Tag.md
           - name: 根据标签筛选
             href: Operation-Guide/Tag/Filter-by-Tag.md
+          - name: 编辑标签
+            href: Operation-Guide/Tag/Edit-Tag.md
           - name: 标签FAQ
             href: Operation-Guide/Tag/Tag-FAQ.md 
       - name: 资源组
