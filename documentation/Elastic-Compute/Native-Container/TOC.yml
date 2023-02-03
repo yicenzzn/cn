@@ -109,6 +109,8 @@
             href: Operation-Guide/Monitoring-Alarm/Retrieve-Data.md
           - name: 获取Pod监控数据
             href: Operation-Guide/Monitoring-Alarm/Retrieve-PodData.md
+      - name: 访问控制
+        href: Operation-Guide/IAM.md
       - name: 标签
         items:
           - name: 标签概述
@@ -129,8 +131,6 @@
             href: Operation-Guide/Resourse-Groups/Add-Resource-Groups.md
           - name: 变更资源组
             href: Operation-Guide/Resourse-Groups/Change-Resource-Groups.md
-      - name: 访问控制
-        href: Operation-Guide/IAM.md
   - name: 最佳实践
     items:
     - name: 制作带SSH的镜像
