@@ -10,7 +10,7 @@
 
 如果是试用版建站服务，不提供备案授权码， 购买一年的建站服务，京美建站提供域名的备案授权码。
 
- [获取授权码](https://docs.jdcloud.com/cn/jdcloud-site/configure_domain)
+ [获取授权码](https://docs.jdcloud.com/cn/jdcloud-site/icp)
 
 
 ## 如何查看送的建站模板
@@ -18,7 +18,7 @@
 
 购买一年的建站服务，会送一款付费的模板，有“精美”角标展示的是送的模板。
 
- [查看模板](https://docs.jdcloud.com/cn/jdcloud-site/open_website)
+ [查看模板](https://docs.jdcloud.com/cn/jdcloud-site/open-website)
 
 
 
