@@ -40,34 +40,6 @@
 
 5.	确保可通过 http://example.com/verification.html 访问至该文件后，即可单击验证按钮进行验证。如果文件内的记录值与我们提供的记录值是一致的，即可验证通过；如果验证失败，请确保上述文件链接可访问，并且您上传的文件为正确文件，可通过访问文件的链接与所下载的文件进行比对是否一致。
 
-# **方法三：API验证**
-
-当采用 API 创建加速域名时，要先通过 API 进行域名归属权校验，再通过 createdomin、batchCreat、batchCreatLivedomin 进行域名创建。
-
-1.	DNS解析验证：
-
-（1）	调用CreatVerifyContent获取记录值。
-
-（2）	前往您的域名解析服务商，添加TXT记录。具体操作，请参考添加TXT记录。
-
-（3）	调用VerifyDominOwner验证单个域名的归属权。
-
-（4）	VerifyType需设为dnsCheck。
-
-（5）	调用接口添加加速域名。
-
-2.	文件验证：
-
-（1）	调用CreatVerifyContent获取记录值，并准备验证文件。
-
-（2）	手动将验证文件上传到您域名源站服务器（例如您的 CVM、COS、阿里 ECS、阿里 OSS 等）的根目录。
-
-（3）	调用VerifyDominOwner验证单个域名的归属权。
-
-（4）	VerifyType需设为fileCheck。
-
-（5）	调用接口添加加速域名。
-
    `注意`
 
    选择中国境外或全球加速服务需特别注意：
