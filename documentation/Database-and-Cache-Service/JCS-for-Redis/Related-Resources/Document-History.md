@@ -13,7 +13,7 @@
 
 | 动态名称 | 动态描述  | 发布时间	  | 相关文档   |
 |   :---  |  :---   |  :---  |:---  |
-|   更新Redis5.0 命令支持文档   |  更新Redis5.0 命令支持文档    |  2022-09  |  [命令支持](../Introduction/Command-Supported.md)     |
+|   更新Redis5.0 命令支持文档   |  更新Redis5.0 集群版命令支持文档    |  2022-09  |  [命令支持](../Introduction/Command-Supported.md)     |
 |   增加Redis5.0支持WebCli   |  支持通过WebCli直接查看实例节点数据   |  2022-08  |  [WebCli](../Operation-Guide/Instance-Management/WebCli.md)     |
 |   增加Redis5.0支持查看节点列表  |  新增Redis5.0支持节点列表   |  2022-08   | [实例节点列表](../Operation-Guide/Instance-Management/NodeList.md)   |
 |   增加Redis5.0支持大key热key查询  |  Redis5.0支持大key热key查询功能和下载数据详情功能   |   2022-08   |  [大Key热Key分析](../Operation-Guide/Cache-Analysis/Key-Analysis.md)   |
