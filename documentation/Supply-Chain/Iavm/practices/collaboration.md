@@ -4,7 +4,11 @@
 协同办公组件助您提高工作效率，该镜像支持5个常用办公软件，分别是禅道项目管理工具、ONLYOFFICE文档工具、Nextcloud在线文件管理系统、MediaWiki 知识库、Superset数据可视化工具，一键全量安装和部署，便捷高效。
 
 
-- Nextcloud 是是一款用于自建企业云存储（私有网盘）的开源软件。支持 PC、IOS 和 Android 三个同步客户端，用户可以很方便地与服务器上存储的文件、日程安排、通讯录、书签等重要数据保持同步。
+- 禅道Zentao 是优秀的研发项目管理工具，禅道细分需求、任务、缺陷和用例，完整覆盖了研发项目管理的核心流程
+- MediaWiki 是“维基百科”网站开源的 Wiki 程序，适合用于构建百科、知识库、在线文档、个人笔记等应用
+- Nextcloud 是一款用于自建企业云存储（私有网盘）的开源软件。支持 PC、IOS 和 Android 三个同步客户端，用户可以很方便地与服务器上存储的文件、日程安排、通讯录、书签等重要数据保持同步
+- ONLYOFFICE Docs 是一个文档中间件，为文档管理软件提供Office格式的文档的在线预览与编辑，支持主流格式：docx、xlsx、pptx、odt、ods、odp、doc、xls、ppt、pdf、txt、rtf、html、epub、csv
+- Superset 是一个开源的数据探查与可视化平台（曾用名 Panoramix、Caravel ），该工具在可视化、易用性和交互性上非常有特色，用户可以轻松对数据进行可视化分析
 
 
 ## 创建轻量云主机
@@ -28,6 +32,49 @@
 切换到应用管理页面查看应用的详细信息，获取WordPress初始化地址
 
 ![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+
+
+
+## 禅道
+
+使用浏览器访问禅道（Zentao）地址，根据系统提示选择语言，点击“开始安装”
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+
+接受License许可，安装进入环境检测页面，点击下一步
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+
+
+系统初始化已经设置好数据库参数，点击下一步
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+
+
+保存配置文件
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+
+设置后台账号信息，请设置好并牢记账户和密码，然后“保存”
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+
+根据您设置的用户和密码登录后台
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+
+登录后台进行配置和使用
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+
+
+
+## MediaWiki
+
+
+
+
+
+
+
+
+## Superset 
+
+
+
 
 
 ## Nextcloud
@@ -56,7 +103,6 @@
 
 
 
-## ONLYOFFICE
 
 
 
