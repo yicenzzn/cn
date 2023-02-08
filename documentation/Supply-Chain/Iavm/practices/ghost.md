@@ -3,20 +3,33 @@
 Ghost 是一款设计简约、主题精致的个人博客系统，Ghost支持多用户创建和编辑，支持Markdown格式撰写文章，编辑的内容可即时预览。
 
 
+## 创建轻量云主机
+
+访问轻量云主机[创建实例页](https://lavm-console.jdcloud.com/lavm/create)
+
+选择Ghost镜像，以及套餐版本、时长进行下单支付
+
+![图片名称](https://img1.jcloudcs.com/image/docs/8.png)
+
+
 ## 查看应用详情
 
 
-在控制台选择轻量云主机，点击操作中的【查看】按钮，切换到应用管理页面查看应用的详细信息，获取Ghost登录地址。
+支付完成后可以在控制台看到已购的轻量云主机，点击操作中的【查看】按钮
 
 
-![图片名称](https://img1.jcloudcs.com/image/docs/10.png)
+![图片名称](https://img1.jcloudcs.com/image/docs/1.png)
 
+
+切换到应用管理页面查看应用的详细信息，获取Ghost管理员和用户访问地址
+
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 
 
 ## 初始化配置
 
-使用浏览器访问管理员地址（在应用详情页获取地址），设置管理员账户和密码
+使用浏览器访问管理员地址，设置管理员账户和密码
 
 
 ![图片名称](https://img1.jcloudcs.com/image/docs/10.png)
