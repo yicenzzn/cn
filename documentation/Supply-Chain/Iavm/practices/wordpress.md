@@ -7,7 +7,7 @@ WordPress是使用最广泛的博客和内容管理系统，支持丰富的插�
 
 访问轻量云主机[创建实例页](https://lavm-console.jdcloud.com/lavm/create)
 
-选择WordPress镜像，以及套餐版本、时长进行下单支付
+选择WordPress镜像，以及套餐版本、时长等内容，进行下单创建轻量云主机实例
 
 ![图片名称](https://img1.jcloudcs.com/image/docs/8.png)
 
