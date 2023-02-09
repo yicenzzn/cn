@@ -7,7 +7,7 @@ PrestaShop 是操作简单，使用方便的电子商务平台，支持 600多�
 
 访问轻量云主机[创建实例页](https://lavm-console.jdcloud.com/lavm/create)
 
-选择PrestaShop镜像，以及套餐版本、时长进行下单支付
+选择PrestaShop镜像，以及套餐版本、时长等内容，进行下单创建轻量云主机实例
 
 ![图片名称](https://img1.jcloudcs.com/image/docs/8.png)
 
