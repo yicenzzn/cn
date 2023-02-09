@@ -2,7 +2,7 @@
 Windows服务器端口转发配置，可以使用Windows自带的portproxy功能实现，操作方法如下：
 
 ```
-netsh interface protproxy add v4tov4 listenaddress=* listenport=12345 connectaddress=116.196.123.136 connectport=22
+netsh interface portproxy add v4tov4 listenaddress=* listenport=12345 connectaddress=116.196.123.136 connectport=22
 ```
 
 ![](../../../../../image/Elastic-Compute/Virtual-Machine/Windows/Windows%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%85%8D%E7%BD%AE%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91%E7%9A%84%E6%96%B9%E6%B3%9501.png)
