@@ -38,26 +38,33 @@
 ## 禅道
 
 使用浏览器访问禅道（Zentao）地址，根据系统提示选择语言，点击“开始安装”
+
 ![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 接受License许可，安装进入环境检测页面，点击下一步
+
 ![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 
 系统初始化已经设置好数据库参数，点击下一步
+
 ![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 
 保存配置文件
+
 ![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 设置后台账号信息，请设置好并牢记账户和密码，然后“保存”
+
 ![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 根据您设置的用户和密码登录后台
+
 ![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 登录后台进行配置和使用
+
 ![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 
@@ -66,13 +73,16 @@
 
 
 使用浏览器访问MediaWiki地址
+
 ![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 点击【login in】,输入用户名和密码
+
 ![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 
 获取用户名和密码：在控制台直接点击【登录】或使用远程连接工具登录轻量云主机，输入命令cat /credentials/password.txt，获取用户名和密码
+
 ![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 
@@ -81,15 +91,6 @@
 ![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 
-
-## Superset 
-
-
-使用浏览器访问Superset地址
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
-
-在控制台直接点击【登录】或使用远程连接工具登录轻量云主机，输入命令cat /credentials/password.txt，获取用户名和密码
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 
 
@@ -119,6 +120,17 @@
 
 ![图片名称](https://img1.jcloudcs.com/image/docs/5.png)
 
+
+## Superset 
+
+
+使用浏览器访问Superset地址
+
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+
+在控制台直接点击【登录】或使用远程连接工具登录轻量云主机，输入命令cat /credentials/password.txt，获取用户名和密码
+
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
 
 
