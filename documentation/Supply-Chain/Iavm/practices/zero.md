@@ -33,7 +33,8 @@
 
 
 
-## 初始化配置
+
+## 环境配置
 
 使用浏览器访问初始化地址
 
@@ -46,6 +47,25 @@
 
 
 初始化完成后，选择新安装开始安装数据 
+
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+
+
+注册和登录明道云，申请密钥
+
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+
+
+生成密钥
+
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+
+创建管理员账户和密码，请务必牢记
+
+![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+
+
+后续访问初始化时配置的地址（例如：http://服务器公网IP:8880），输入账户和密码进行登录，访问零代码开发平台
 
 ![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
 
