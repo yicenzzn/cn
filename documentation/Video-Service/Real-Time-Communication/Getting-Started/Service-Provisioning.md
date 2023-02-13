@@ -23,9 +23,11 @@
     <artifactId>openjrtc</artifactId>
     <version>1.1.8</version>
 </dependency>
+![image](https://user-images.githubusercontent.com/115534646/218387436-621c54cb-6c9a-48a4-a613-7d23ab55ce2a.png)
 
 7.接口概览
 https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
+![image](https://user-images.githubusercontent.com/115534646/218387490-6d9a30f9-df75-4981-a91b-7c197b00e48a.png)
 
 8.调用方式
 公有云用户调用方式 
@@ -52,6 +54,11 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
     // roomType 1-小房间 2-大房间  不设置默认去app的roomType类型
     roomRequest.setRoomType(2);
     RegisterUserRoomResponse roomResp = client.registerUserRoom(roomRequest);
-![image](https://user-images.githubusercontent.com/115534646/218384490-40da0808-a0ff-4b65-8be8-d5b9721605c2.png)
+ }
+![image](https://user-images.githubusercontent.com/115534646/218387574-b7093731-b13a-47e4-b45d-e3e73a4270b2.png)
+
+
+
+
 
 
