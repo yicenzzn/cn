@@ -11,6 +11,7 @@
 
 | 功能名称 | 功能描述 | 发布时间 | 相关文档|
 | :---------------| :--------------|:------------|:--------
+|自动镜像策略支持设置保留时间|用户在创建或修改自动镜像策略时，支持设置自动镜像的保留时间。|2022-12|[自动镜像策略](https://docs.jdcloud.com/cn/virtual-machines/autoimagepolicy)
 |CentOS 7.9 镜像发布|	全地域支持CentOS 7.9 镜像，丰富操作系统类型。|2022-11|[镜像类型](https://docs.jdcloud.com/cn/virtual-machines/image-type)
 |删除云主机支持同步删除弹性公网IP|删除云主机时，可选择同步删除绑在云主机上符合删除条件的弹性公网IP。|2022-11|[删除实例](https://docs.jdcloud.com/cn/virtual-machines/delete-instance)
 |购买历史功能上线|用户通过自定义创建完成购买后，将生成用户最近的历史购买记录，后续可指定历史购买记录快速复购云主机。|2022-11|[创建实例](https://docs.jdcloud.com/cn/virtual-machines/create-instance)
