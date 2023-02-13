@@ -9,7 +9,7 @@
 3.jrtc服务尚未开通的账号会直接跳转服务开通页面![Uploading image.png…] 
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BC%80%E9%80%9A%E6%9C%8D%E5%8A%A1-3.png)
  
-4.开通jrtc服务后，进入应用管理页面，维护应用，获取appId 和appKey![Uploading image.png…]
+4.开通jrtc服务后，进入应用管理页面，维护应用，获取appId 和appKey!
 
 5.维护和获取访问京东云API的密钥Access Key ID和Access Key Secret![image]
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E7%A7%98%E9%92%A5%20APP%20Key.png)
