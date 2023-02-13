@@ -30,13 +30,21 @@
 https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
 
 8.调用方式
+
 公有云用户调用方式 
+
  public void jrtcDemo() {
+ 
     OpenjrtcClient client = OpenjrtcClient
+    
             .builder()
+            
             .credentialsProvider(new StaticCredentialsProvider("Access Key ID", "Access Key Secret"))
+            
             .httpRequestConfig(new HttpRequestConfig.Builder().protocol(Protocol.HTTP).build())
+            
             .build();
+            
 ![image](https://user-images.githubusercontent.com/115534646/218390622-8dba7600-4883-412a-838e-7413ff8ec11a.png)
 
  
