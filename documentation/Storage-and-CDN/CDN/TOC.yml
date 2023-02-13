@@ -245,13 +245,15 @@ items:
             items:
                - name: 查询加速域名详情
                  href: JCloud-Openapi-For-CDN/getDomainDetail.md
+               - name: 查询加速域名配置信息
+                 href: JCloud-Openapi-For-CDN/queryDomainConfig.md                
                - name: 查询加速域名接口
                  href: JCloud-Openapi-For-CDN/getDomainList.md
                - name: 通过标签查询加速域名接口
                  href: JCloud-Openapi-For-CDN/getDomainListByFilter.md
                - name: 查询直播域名详情v1
                  href: JCloud-Openapi-For-CDN/queryDomainConfig.md
-               - name: 查询域名配置信息
+               - name: 查询直播域名配置信息
                  href: JCloud-Openapi-For-CDN/queryLiveDomainDetail.md
                - name: 查询域名组详情
                  href: JCloud-Openapi-For-CDN/queryDomainGroupDetail.md
