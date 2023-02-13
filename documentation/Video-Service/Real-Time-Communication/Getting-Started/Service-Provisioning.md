@@ -23,6 +23,8 @@
     <artifactId>openjrtc</artifactId>
     <version>1.1.8</version>
 </dependency>
+![image](https://user-images.githubusercontent.com/115534646/218390406-464a6e0c-15a9-4358-b29d-fd03f90d05de.png)
+
 
 7.接口概览
 https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
