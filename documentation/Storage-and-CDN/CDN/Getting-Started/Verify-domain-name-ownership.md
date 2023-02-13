@@ -14,7 +14,7 @@
 
    使用 DNS 解析验证的方式，需要您前往该域名的解析服务商，在主域名下添加一个主机记录值为 _cdnautover 的 TXT 记录。
 
-   `注意`
+# **`注意`**
 
    无论您需要新增的域名为 c.b.a.example.com、\*.example.com 或 test.example.com，多级域名下主机记录值仍应添加在主域名下，例如：添加的域名是 c.b.a.example.com，需要新增一条解析记录为 _cdnautover.example.com即可。
 
@@ -40,17 +40,24 @@
 
 5.	确保可通过 http://example.com/verification.html 访问至该文件后，即可单击验证按钮进行验证。如果文件内的记录值与我们提供的记录值是一致的，即可验证通过；如果验证失败，请确保上述文件链接可访问，并且您上传的文件为正确文件，可通过访问文件的链接与所下载的文件进行比对是否一致。
 
-   `注意`
+# **`注意`**
 
-   选择中国境外或全球加速服务需特别注意：
+选择中国境外或全球加速服务需特别注意：
 
-   在完成上述归属权校验后，可点击下一步，并需要添加境外 TXT 记录，校验生效通过后方可成功激活，域名境外激活状态会在域名详情页展示。
-
-   1）境外TXT记录值在客户控制台/运营后台-域名管理-资源信息-基本信息中可查（仅中国境外/全球加速域名有，若无值则境外加速域名未创建添加成功。同时在将境内加速修改为境外或全球加速时也需要添加境外 TXT 记录。
-
-   2）激活中国境外或全球加速域名，必须要加 “verify” 这个前缀，例如域名是 www.jd.com， 则进行 DNS 解析时的主机记录为 “verify.www.jd.com”。
+1. 在完成上述归属权校验后，可点击下一步操作。
    
-  ![境外加速域名归属验证1](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/境外加速域名归属验证1.png)
+![境外加速域名归属验证1](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/境外加速域名归属验证1.png)
   
-  ![境外加速域名归属验证2](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/境外加速域名归属验证2.png) 
+2. 点击下一步操作后，控制台会弹窗提示添加TXT域名归属验证：
   
+![TXT域名归属验证](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/TXT域名归属验证.png)
+
+3. 域名创建完成后，境外域名TXT未验证激活前，控制台域名“状态”展示为“配置中”（域名状态会实时刷新）。
+
+![域名状态](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/域名状态.png)
+
+4. 境外TXT记录值在客户控制台/运营后台-域名管理-资源信息-基本信息中可查（仅中国境外/全球加速域名有，若无值则境外加速域名未创建添加成功）。同时在将境内加速修改为境外或全球加速时也需要添加境外 TXT 记录。校验生效通过后方可成功激活，域名境外激活状态会在域名详情页展示。
+
+![域名境外激活状态](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/域名境外激活状态.png)
+
+5. 激活中国境外或全球加速域名，必须要加 “verify” 这个前缀，例如域名是 www.jd.com， 则进行 DNS 解析时的主机记录为 “verify.www.jd.com”。
