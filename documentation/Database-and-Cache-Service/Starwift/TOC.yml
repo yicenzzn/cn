@@ -73,6 +73,8 @@ items:
             href: Operation-Guide/Connection/Client.md
           - name: 通过 JDBC 连接
             href: Operation-Guide/Connection/JDBC.md
+          - name: Rust 连接
+            href: Operation-Guide/Connection/Rust.md
       - name: 监控报警
         items:
           - name: 设置报警规则
