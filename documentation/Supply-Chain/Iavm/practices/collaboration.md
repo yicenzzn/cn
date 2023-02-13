@@ -17,7 +17,7 @@
 
 选择协同办公镜像，以及套餐版本、时长等内容，进行下单创建轻量云主机实例
 
-![图片名称](https://img1.jcloudcs.com/image/docs/8.png)
+![图片名称]([https://img1.jcloudcs.com/image/docs/8.png](https://jdcloud-portal.s3.cn-north-1.jdcloud-oss.com/cn/image/iavm/%E5%9B%BE%E7%89%876/10.png))
 
 
 ## 查看应用详情
@@ -26,12 +26,12 @@
 支付完成后可以在控制台看到已购的轻量云主机，点击操作中的【查看】按钮
 
 
-![图片名称](https://img1.jcloudcs.com/image/docs/1.png)
+![图片名称](https://jdcloud-portal.s3.cn-north-1.jdcloud-oss.com/cn/image/iavm/%E5%9B%BE%E7%89%876/1.png)
 
 
-切换到应用管理页面查看应用的详细信息，获取WordPress初始化地址
+切换到应用管理页面查看应用的详细信息，获取访问地址
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://jdcloud-portal.s3.cn-north-1.jdcloud-oss.com/cn/image/iavm/%E5%9B%BE%E7%89%876/2.png)
 
 
 
