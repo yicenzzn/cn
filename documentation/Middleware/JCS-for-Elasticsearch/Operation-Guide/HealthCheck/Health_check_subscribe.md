@@ -5,7 +5,7 @@
 ## 操作步骤
 1. 在ES控制台台的目标实例详情页，单击 ES集群-智能运维的 **立即订阅** 按钮跳转到事件服务，或登录事件服务控制台点击[新建事件订阅规则](https://events-console.jdcloud.com/event/create?type=create)。
 
-   ![image-20230213104202042](../../../image/Elasticearch/image-20230213104202042.png)
+   ![image-20230213104202042](../../../../image/Elasticearch/image-20230213104202042.png)
 
 2. 在新建事件订阅规则页面，完善信息。
 
@@ -18,5 +18,5 @@
    - 事件目的地：
      - 可选择邮件通知、短信通知或者发送到事件消费kafka供订阅使用。
 
-   ![image-20230213105553337](../../../image/Elasticearch/image-20230213105553337.png)
+   ![image-20230213105553337](../../../../image/Elasticearch/image-20230213105553337.png)
 
