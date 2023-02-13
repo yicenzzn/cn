@@ -26,7 +26,7 @@ JRTC 通过应用的形式来管理不同的业务或项目，您可以在音视
 
 ## 查看AppKey
 
-开通jrtc服务后，进入应用管理页面，维护应用，获取appId 和appKey!
+找到需要查看的应用，点击列表中的“AppKey查看”
 
 
 ![](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-4.png)
