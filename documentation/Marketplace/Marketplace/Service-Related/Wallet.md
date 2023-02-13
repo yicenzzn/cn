@@ -4,13 +4,13 @@
 请于2023年3月1日之前完成开通，如未按时开通，线上无法交易。
 
 
-### 一、整理操作流程
+### 一、操作流程
 
 ![image](../../../../image/Marketplace/walletimage1.png)
 
 
 ### 二、新注册服务商操作流程
-1、注册京东账号后，点击服务商入驻：[https://market.jdcloud.com/partner](https://market.jdcloud.com/partner)   
+1、注册京东账号，点击服务商入驻：[https://market.jdcloud.com/partner](https://market.jdcloud.com/partner)   
 
 ![image](../../../../image/Marketplace/walletimage2.png)
 
@@ -25,3 +25,41 @@
 **已实名用户**，按照页面要求填写信息。  
 ![image](../../../../image/Marketplace/walletimage5.png)
 
+2、**结算信息填写**，支持查询开户行信息功能，点击提交审核。   
+![image](../../../../image/Marketplace/walletimage6.png)
+
+3、点击提交后，1~3个工作日完成审核。  
+![image](../../../../image/Marketplace/walletimage7.png)  
+
+4、商户号审核通过后，点击去签约，进入服务商入驻审核。  
+![image](../../../../image/Marketplace/walletimage8.png)
+
+5、云市场入驻信息审核通过后，在信息管理-基础信息-结算信息中看到商户号。  
+![image](../../../../image/Marketplace/walletimage9.png)
+
+### 三、已入驻第三方服务商操作流程
+1、已入驻的三方服务商，登陆服务商管理后台后，服务商管理后台登录链接[https://msp.jdcloud.com/](https://msp.jdcloud.com/）,会有弹窗提示去完成开通钱包。
+![image](../../../../image/Marketplace/walletimage10.png)
+
+当弹窗被关闭可以通过信息管理-基础信息或结算信息页面找到开通钱包入口。  
+![image](../../../../image/Marketplace/walletimage11.png)
+
+2、填写开通钱包信息。  
+![image](../../../../image/Marketplace/walletimage12.png)
+
+3、结算信息填写，支持查询开户行信息功能，点击提交审核。  
+![image](../../../../image/Marketplace/walletimage13.png)
+
+4、点击提交后，1~3个工作日完成审核。  
+![image](../../../../image/Marketplace/walletimage14.png)
+
+5、审核通过后，在信息管理-基础信息-结算信息中看到商户号。  
+
+### 四、查询余额钱包开通后，查询余额可以通过京东云账号登录http://biz.jd.com/index.html 查询余额。
+
+
+
+
+如果您在操作上遇到任何问题可以发邮件：yunshichang@.com。会有专人为您解答。
+
+  
