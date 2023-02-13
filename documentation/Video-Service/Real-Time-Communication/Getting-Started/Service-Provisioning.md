@@ -6,7 +6,7 @@
 2.控制台-云服务-搜索“音视频通信”，点击进入。    
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BC%80%E9%80%9A%E6%9C%8D%E5%8A%A1-2.png)
 
-3.jrtc服务尚未开通的账号会直接跳转服务开通页面![Uploading image.png…] 
+3.jrtc服务尚未开通的账号会直接跳转服务开通页面!
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BC%80%E9%80%9A%E6%9C%8D%E5%8A%A1-3.png)
  
 4.开通jrtc服务后，进入应用管理页面，维护应用，获取appId 和appKey!
