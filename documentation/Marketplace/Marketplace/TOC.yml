@@ -24,6 +24,8 @@ items:
           herf: ISV/ISV-Enter/Service-Charge.md
         - name: 市场活动合作规范
           herf: ISV/ISV-Enter/Norms-Of-Cooperation.md
+        - name: 服务商钱包账户开通
+          herf: Service-Related/Wallet.md       
       - name: 管理后台
         items:
         - name: 修改服务价格
