@@ -11,7 +11,7 @@
  
 4.开通jrtc服务后，进入应用管理页面，维护应用，获取appId 和appKey!
 
-5.维护和获取访问京东云API的密钥Access Key ID和Access Key Secret![image]
+5.维护和获取访问京东云API的密钥Access Key ID和Access Key Secret!
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E7%A7%98%E9%92%A5%20APP%20Key.png)
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/Key.png)
 
