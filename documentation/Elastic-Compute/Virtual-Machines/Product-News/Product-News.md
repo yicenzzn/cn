@@ -6,7 +6,8 @@
 | :---------------| :--------------|:------------|:--------
 |实例模板支持设置实例标签|	可在模板中预先配置实例标签，基于模板创建实例或基于模板关联的高可用组创建实例时，如不额外指定将自动为实例设置模板中预设标签。|2023-01|[实例模板概述](https://docs.jdcloud.com/cn/virtual-machines/instance-template-overview)
 |云主机远程登录服务WebTerminal上线|	WebTerminal是基于SSH/RDP协议的Web远程连接工具，安全组开放SSH/RDP对应端口后，可直接在Web上一键远程登录云主机实例。|2023-01|[登录实例](https://docs.jdcloud.com/cn/virtual-machines/connect-to-instance)
-
+|专有宿主机/原生容器/POD支持资源组管理|资源创建时支持指定资源组，创建后支持调整资源组，同时支持以资源组视角查看和管理资源。|2023-01|[资源组概述](https://docs.jdcloud.com/cn/virtual-machines/resource-group-introduction)
+|专有宿主机支持标签管理|专有宿主机创建后可为其绑定具有全局属性的标签，可根据标签对资源进行搜索、筛选。|2023-01|[标签概述](https://docs.jdcloud.com/cn/virtual-machines/tag-overview)
 ## 2022年
 
 | 功能名称 | 功能描述 | 发布时间 | 相关文档|
