@@ -37,6 +37,8 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
             .credentialsProvider(new StaticCredentialsProvider("Access Key ID", "Access Key Secret"))
             .httpRequestConfig(new HttpRequestConfig.Builder().protocol(Protocol.HTTP).build())
             .build();
+![image](https://user-images.githubusercontent.com/115534646/218390622-8dba7600-4883-412a-838e-7413ff8ec11a.png)
+
  
     //注册用户
     RegisterUserRequest request = new RegisterUserRequest();
