@@ -12,7 +12,16 @@
 ### 二、新注册服务商操作流程
 1、注册京东账号后，点击服务商入驻：[https://market.jdcloud.com/partner](https://market.jdcloud.com/partner)   
 
-  
+![image](../../../../image/Marketplace/walletimage2.png)
+
 
 **未实名账号**，选择入驻伙伴类型，选择云市场平台第三方服务商。
+
+![image](../../../../image/Marketplace/walletimage3.png)
+
+未实名用户，点击填写实名认证信息。  
+![image](../../../../image/Marketplace/walletimage4.png)
+
+**已实名用户**，按照页面要求填写信息。  
+![image](../../../../image/Marketplace/walletimage5.png)
 
