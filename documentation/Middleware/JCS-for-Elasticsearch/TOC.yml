@@ -161,6 +161,8 @@
           href: Operation-Guide/HealthCheck/Health_check_report.md
         - name: 关闭智能运维服务
           href: Operation-Guide/HealthCheck/Health_check_off.md
+        - name: 订阅健康诊断报告
+          href: Operation-Guide/HealthCheck/Health_check_subscribe.md
       - name: 访问控制
         items:
         - name: IAM访问控制
