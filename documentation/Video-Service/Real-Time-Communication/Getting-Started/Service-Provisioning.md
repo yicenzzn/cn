@@ -16,7 +16,7 @@
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E7%A7%98%E9%92%A5%20APP%20Key.png)
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/Key.png)
 
-5、引入依赖调用openapi
+6、引入依赖调用openapi
 <!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/openjrtc -->
 <dependency>
     <groupId>com.jdcloud.sdk</groupId>
@@ -24,10 +24,10 @@
     <version>1.1.8</version>
 </dependency>
 
-5、接口概览
+7、接口概览
 https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
 
-6、调用方式
+8、调用方式
 
 公有云用户调用方式 
  
