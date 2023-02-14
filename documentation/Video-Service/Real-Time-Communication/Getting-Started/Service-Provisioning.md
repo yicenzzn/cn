@@ -28,12 +28,19 @@
 https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
 
 6、调用方式
+
 公有云用户调用方式 
+ 
  public void jrtcDemo() {
+    
     OpenjrtcClient client = OpenjrtcClient
+            
             .builder()
+            
             .credentialsProvider(new StaticCredentialsProvider("Access Key ID", "Access Key Secret"))
+            
             .httpRequestConfig(new HttpRequestConfig.Builder().protocol(Protocol.HTTP).build())
+            
             .build();
  
  
