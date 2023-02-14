@@ -21,3 +21,7 @@
 进入[费用管理控制台-资金账户](https://uc.jdcloud.com/cost/capital/capital-overview)，点击【提现】按钮，填写并确认提现金额后，提交提现申请。
 
 ![tixian](../../../../image/Charge/tixian.png)
+
+提现后，可以查看[提现记录](https://capital.jdcloud.com/cost/capital/withdrawal-history)。
+
+![tixianjilu](../../../../image/Charge/tixianjilu.png)
