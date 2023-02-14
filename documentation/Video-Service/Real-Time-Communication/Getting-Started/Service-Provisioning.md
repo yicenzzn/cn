@@ -24,7 +24,7 @@
     <version>1.1.8</version>
 </dependency>
 
- 7、接口概览
+7、接口概览
 https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
 
 8、调用方式
@@ -35,16 +35,16 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
             .credentialsProvider(new StaticCredentialsProvider("Access Key ID", "Access Key Secret"))
             .httpRequestConfig(new HttpRequestConfig.Builder().protocol(Protocol.HTTP).build())
             .build();
- 
-    //注册用户
+
+//注册用户
     RegisterUserRequest request = new RegisterUserRequest();
     request.setAppId("控制台创建");
     request.setTemporary(false);
     request.setUserId("自定义");
     request.setUserName("自定义");
     RegisterUserResponse userResp = client.registerUser(request);
- 
-    //注册房间
+
+//注册房间
     RegisterUserRoomRequest roomRequest = new RegisterUserRoomRequest();
     roomRequest.setAppId("控制台创建");
     roomRequest.setUserRoomId("自定义");
@@ -52,8 +52,7 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
     // roomType 1-小房间 2-大房间  不设置默认去app的roomType类型
     roomRequest.setRoomType(2);
     RegisterUserRoomResponse roomResp = client.registerUserRoom(roomRequest);
- }
-![image](https://user-images.githubusercontent.com/115534646/218663478-602c6085-60a4-4efe-873d-9c804c4b4360.png)
+
 
 
 
