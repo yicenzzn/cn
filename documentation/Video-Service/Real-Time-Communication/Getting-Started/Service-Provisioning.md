@@ -18,6 +18,8 @@
 
 6、引入依赖调用openapi
 <!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/openjrtc -->
+<dependency>![image](https://user-images.githubusercontent.com/115534646/218665987-c70e588a-151d-4df9-807b-b3fab523f891.png)
+
 
 7、接口概览
 
