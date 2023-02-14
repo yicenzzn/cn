@@ -1,12 +1,21 @@
 # 余额预警
 
-您可以登录[控制台](https://console.jdcloud.com/)-进入费用管理-[资金账户](https://uc.jdcloud.com/cost/capital/capital-overview)页面进行设置。
-当您现金余额少于设置值时，您将收到短信/邮件提醒。
+余额预警功能指当您的账户现金余额或代金券余额小于一定的可用金额阈值时，通过短信/邮件的方式发送余额预警消息。
 
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E9%A2%84%E8%AD%A61.png)
+## 功能说明
 
-系统默认为您开启预警提醒，预警阈值默认为200元，您可以自行修改。
+1. 余额预警类型：现金余额、代金券余额
 
-余额预警默认提示人为您的账号联系人，如需修改，可点击“管理联系人”在【消息设置】页面进行余额预警联系人修改
+2. 系统默认设置现金余额小于200元、代金券余额小于200元时，发送余额预警短信至京东云账号安全手机
 
-![file-list](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/%E9%A2%84%E8%AD%A62.jpg)
+3. 您可以自定义可用金额阈值和接受余额预警消息的联系人信息
+
+## 操作说明
+
+进入[费用管理控制台-资金账户](https://capital.jdcloud.com/cost/capital/capital-overview)，可以开启、关闭现金余额预警和代金券余额预警。
+
+![yujing](../../../../image/Coupon-Manage/yujing.png)
+
+点击余额预警的【修改】按钮，可以修改预警金额预置和接受预警消息的联系人信息。
+
+![yujing1](../../../../image/Coupon-Manage/yujing1.png)
