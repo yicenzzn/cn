@@ -18,16 +18,23 @@
 
 6、引入依赖调用openapi
 <!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/openjrtc -->
+
 <dependency>
+ 
     <groupId>com.jdcloud.sdk</groupId>
+ 
     <artifactId>openjrtc</artifactId>
+ 
     <version>1.1.8</version>
+ 
 </dependency>
 
 7、接口概览
+
 https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
 
 8、调用方式
+
 公有云用户调用方式 
  public void jrtcDemo() {
     OpenjrtcClient client = OpenjrtcClient
@@ -52,35 +59,6 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
     // roomType 1-小房间 2-大房间  不设置默认去app的roomType类型
     roomRequest.setRoomType(2);
     RegisterUserRoomResponse roomResp = client.registerUserRoom(roomRequest);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
