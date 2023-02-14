@@ -16,23 +16,16 @@
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E7%A7%98%E9%92%A5%20APP%20Key.png)
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/Key.png)
 
-6、引入依赖调用openapi
-
+5、引入依赖调用openapi
 <!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/openjrtc -->
 <dependency>
     <groupId>com.jdcloud.sdk</groupId>
     <artifactId>openjrtc</artifactId>
     <version>1.1.8</version>
 </dependency>
-
-
-
-7、接口概览
-
+ 5、接口概览
 https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
-
-8、调用方式
-
+6、调用方式
 公有云用户调用方式 
  public void jrtcDemo() {
     OpenjrtcClient client = OpenjrtcClient
@@ -40,16 +33,16 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
             .credentialsProvider(new StaticCredentialsProvider("Access Key ID", "Access Key Secret"))
             .httpRequestConfig(new HttpRequestConfig.Builder().protocol(Protocol.HTTP).build())
             .build();
-
-//注册用户
+ 
+    //注册用户
     RegisterUserRequest request = new RegisterUserRequest();
     request.setAppId("控制台创建");
     request.setTemporary(false);
     request.setUserId("自定义");
     request.setUserName("自定义");
     RegisterUserResponse userResp = client.registerUser(request);
-
-//注册房间
+ 
+    //注册房间
     RegisterUserRoomRequest roomRequest = new RegisterUserRoomRequest();
     roomRequest.setAppId("控制台创建");
     roomRequest.setUserRoomId("自定义");
@@ -57,10 +50,5 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
     // roomType 1-小房间 2-大房间  不设置默认去app的roomType类型
     roomRequest.setRoomType(2);
     RegisterUserRoomResponse roomResp = client.registerUserRoom(roomRequest);
-
-
-
-
-
-
+ }
 
