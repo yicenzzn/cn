@@ -1,4 +1,5 @@
-# 如何设置余额预警
+# 余额预警
+
 您可以登录[控制台](https://console.jdcloud.com/)-进入费用管理-[资金账户](https://uc.jdcloud.com/cost/capital/capital-overview)页面进行设置。
 当您现金余额少于设置值时，您将收到短信/邮件提醒。
 
