@@ -14,8 +14,8 @@
 
 进入[费用管理控制台-资金账户](https://capital.jdcloud.com/cost/capital/capital-overview)，可以开启、关闭现金余额预警和代金券余额预警。
 
-![yj](../../../../image/Charge/yujing.png)
+![yj](../../../image/Charge/yujing.png)
 
 点击余额预警的【修改】按钮，可以修改预警金额预置和接受预警消息的联系人信息。
 
-![yj1](../../../../image/Charge/yujing1.png)
+![yj1](../../../image/Charge/yujing1.png)
