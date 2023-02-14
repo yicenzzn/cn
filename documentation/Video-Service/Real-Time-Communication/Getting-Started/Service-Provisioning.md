@@ -16,7 +16,9 @@
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E7%A7%98%E9%92%A5%20APP%20Key.png)
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/Key.png)
 
+
 6、引入依赖调用openapi
+
 
 <!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/openjrtc -->
 
@@ -29,6 +31,7 @@
     <version>1.1.8</version>
  
 </dependency>
+
 
 ![image](https://user-images.githubusercontent.com/115534646/218670941-cbf96f3b-8511-43f3-90f0-bd1e5bf1053e.png)
 
