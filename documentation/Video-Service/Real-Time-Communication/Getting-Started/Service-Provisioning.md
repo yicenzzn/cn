@@ -16,45 +16,25 @@
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E7%A7%98%E9%92%A5%20APP%20Key.png)
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/Key.png)
 
-6.引入依赖调用openapi
-
+6、引入依赖调用openapi
 <!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/openjrtc -->
-
 <dependency>
- 
     <groupId>com.jdcloud.sdk</groupId>
- 
     <artifactId>openjrtc</artifactId>
- 
     <version>1.1.8</version>
- 
 </dependency>
 
-![image](https://user-images.githubusercontent.com/115534646/218390406-464a6e0c-15a9-4358-b29d-fd03f90d05de.png)
-
-
-7.接口概览
+ 7、接口概览
 https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
 
-8.调用方式
-
-
+8、调用方式
 公有云用户调用方式 
-
  public void jrtcDemo() {
- 
     OpenjrtcClient client = OpenjrtcClient
-    
             .builder()
-            
             .credentialsProvider(new StaticCredentialsProvider("Access Key ID", "Access Key Secret"))
-            
             .httpRequestConfig(new HttpRequestConfig.Builder().protocol(Protocol.HTTP).build())
-            
             .build();
-            
-![image](https://user-images.githubusercontent.com/115534646/218390622-8dba7600-4883-412a-838e-7413ff8ec11a.png)
-
  
     //注册用户
     RegisterUserRequest request = new RegisterUserRequest();
@@ -73,4 +53,39 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
     roomRequest.setRoomType(2);
     RegisterUserRoomResponse roomResp = client.registerUserRoom(roomRequest);
  }
+![image](https://user-images.githubusercontent.com/115534646/218663478-602c6085-60a4-4efe-873d-9c804c4b4360.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
