@@ -40,3 +40,7 @@
 
 ![chongzhi](../../../../image/Charge/chongzhi.png)
 
+充值后，可以查看[充值记录](https://capital.jdcloud.com/cost/capital/recharge-history)
+
+![chongzhijilu](../../../../image/Charge/chongzhijilu.png)
+
