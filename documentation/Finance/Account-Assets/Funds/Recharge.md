@@ -38,5 +38,5 @@
 
 进入[费用管理控制台-资金账户](https://uc.jdcloud.com/cost/capital/capital-overview)，点击【充值】按钮，选择充值方式，根据页面提示进行充值。
 
-![chongzhi](../../../../image/Charge/chongzhi1.png)
+![chongzhi](../../../../image/Charge/chongzhi.png)
 
