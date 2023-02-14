@@ -22,6 +22,7 @@
 
 <!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/openjrtc -->
 
+
 <dependency>
  
     <groupId>com.jdcloud.sdk</groupId>
@@ -33,7 +34,6 @@
 </dependency>
 
 
-![image](https://user-images.githubusercontent.com/115534646/218670941-cbf96f3b-8511-43f3-90f0-bd1e5bf1053e.png)
 
 
 
