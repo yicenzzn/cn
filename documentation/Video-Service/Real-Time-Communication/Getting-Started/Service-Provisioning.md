@@ -23,8 +23,10 @@
     <artifactId>openjrtc</artifactId>
     <version>1.1.8</version>
 </dependency>
- 5、接口概览
+
+5、接口概览
 https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
+
 6、调用方式
 公有云用户调用方式 
  public void jrtcDemo() {
@@ -33,6 +35,8 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
             .credentialsProvider(new StaticCredentialsProvider("Access Key ID", "Access Key Secret"))
             .httpRequestConfig(new HttpRequestConfig.Builder().protocol(Protocol.HTTP).build())
             .build();
+ 
+ 
  
     //注册用户
     RegisterUserRequest request = new RegisterUserRequest();
