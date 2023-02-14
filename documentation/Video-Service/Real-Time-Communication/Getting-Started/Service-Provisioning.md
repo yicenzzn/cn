@@ -21,17 +21,15 @@
 
 
 <!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/openjrtc -->
-
-
 <dependency>
- 
+
     <groupId>com.jdcloud.sdk</groupId>
  
     <artifactId>openjrtc</artifactId>
  
     <version>1.1.8</version>
- </dependency>!
-
+ 
+</dependency>
 
 
 
