@@ -19,16 +19,6 @@
 6、引入依赖调用openapi
 <!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/openjrtc -->
 
-<dependency>
- 
-    <groupId>com.jdcloud.sdk</groupId>
- 
-    <artifactId>openjrtc</artifactId>
- 
-    <version>1.1.8</version>
- 
-</dependency>
-
 7、接口概览
 
 https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
