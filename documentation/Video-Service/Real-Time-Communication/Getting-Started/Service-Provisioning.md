@@ -20,16 +20,16 @@
 6、引入依赖调用openapi
 
 
-<!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/openjrtc -->
-<dependency>
+<!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/openjrtc --> 
+<dependency> 
 
-    <groupId>com.jdcloud.sdk</groupId>
+    <groupId>com.jdcloud.sdk</groupId> 
  
-    <artifactId>openjrtc</artifactId>
+    <artifactId>openjrtc</artifactId> 
  
-    <version>1.1.8</version>
+    <version>1.1.8</version> 
  
-</dependency>
+</dependency> 
 
 
 
