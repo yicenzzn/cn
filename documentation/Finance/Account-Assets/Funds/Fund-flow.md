@@ -11,5 +11,5 @@
 ## 操作说明
 
 进入[费用管理控制台-资金账户](https://uc.jdcloud.com/cost/capital/capital-overview)，可以查看收支明细，并点击 “充值记录” 和 “提现记录” 查看相关详情。
-![](https://github.com/jdcloudcom/cn/blob/edit/image/Charge/szmx1.png)
+![szmx](../jdcloudcom/cn/blob/edit/image/Charge/szmx1.png)
 
