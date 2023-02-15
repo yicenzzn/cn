@@ -2,7 +2,7 @@
 
 1. 企业必须使用三证合一的新证件备案
 
-2. 主体负责人为法人
+2. 主体负责人必须为法人
 
 3. 网站负责人非法人时，需提供[网站负责人授权书](https://badownload.s3.cn-north-1.jdcloud-oss.com/buchongziliao/anhui/anhuishouquanshu.doc)
 
