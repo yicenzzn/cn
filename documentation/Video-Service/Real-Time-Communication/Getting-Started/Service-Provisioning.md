@@ -41,7 +41,8 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
 8、调用方式
 
 公有云用户调用方式 
- 
+
+ ```csharp
  public void jrtcDemo() {
     
     OpenjrtcClient client = OpenjrtcClient
@@ -53,7 +54,7 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
             .httpRequestConfig(new HttpRequestConfig.Builder().protocol(Protocol.HTTP).build())
             
             .build();
- 
+ ```
  
  
     //注册用户
