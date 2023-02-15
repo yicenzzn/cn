@@ -103,6 +103,8 @@
             href: Operation-Guide/Instance/Modify-AD.md
           - name: 修改可维护时间
             href: Operation-Guide/Instance/Modify-Maintenance-Time.md
+          - name: 灾备实例
+            href: Operation-Guide/Backup/Disaster-Recovery-Example.md
           - name: 重启实例
             items:
             - name: 重启 MySQL
@@ -114,8 +116,7 @@
             - name: 重启 SQL Server
               href: Operation-Guide/Instance/Reboot-Instance/SQLServer-Restart-Instance.md
             - name: 重启 PostgreSQL
-              href: Operation-Guide/Instance/Reboot-Instance/PostgreSQL-Restart-Instance.md
-          
+              href: Operation-Guide/Instance/Reboot-Instance/PostgreSQL-Restart-Instance.md     
   
       - name: 只读实例管理
         items:
@@ -262,8 +263,6 @@
             items:
             - name: MySQL 根据时间点恢复
               herf: Operation-Guide/Backup/Recover-To-Point-In-Time/MySQL-Recover-To-Point-In-Time.md
-          - name: 灾备实例
-            href: Operation-Guide/Backup/Disaster-Recovery-Example.md
           - name: 删除备份
             href: Operation-Guide/Backup/Delete-Backup.md
           - name: 逻辑备份PostgreSQL数据
