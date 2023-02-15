@@ -56,7 +56,7 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
             .build();
  ```
  
- 
+ ```csharp
     //注册用户
     RegisterUserRequest request = new RegisterUserRequest();
     request.setAppId("控制台创建");
@@ -74,4 +74,4 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
     roomRequest.setRoomType(2);
     RegisterUserRoomResponse roomResp = client.registerUserRoom(roomRequest);
  }
-
+```
