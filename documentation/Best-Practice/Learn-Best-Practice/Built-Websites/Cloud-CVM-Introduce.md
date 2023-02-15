@@ -13,6 +13,67 @@
 
 ### 2、京东云地域及可用区分布
 
+
+<table border=1 >
+ <col width=128pt>
+ <col width=134pt>
+ <col width=158pt>
+ <col width=65pt>
+ <tr>
+   <td colspan=2><b>地域名称及编码</b></td>
+  <td><b>可用区名称及编码</b></td>
+  <td><b>所在城市</b></td>
+ </tr>
+ <tr >
+  <td rowspan=10>中国大陆地域</td>
+  <td rowspan=3>
+  华北-北京 cn-north-1</td>
+  <td >可用区A cn-north-1a</td>
+  <td >北京</td>
+ </tr>
+ <tr>
+  <td>可用区B cn-north-1b</td>
+  <td>北京</td>
+ </tr>
+ <tr >
+  <td>可用区C cn-north-1c</td>
+  <td>北京</td>
+ </tr>
+ <tr>
+  <td>华东-宿迁 cn-east-1</td>
+  <td>可用区A cn-east-1a</td>
+  <td>宿迁</td>
+ </tr>
+ <tr>
+  <td rowspan=3>华东-上海 cn-east-2</td>
+  <td>可用区A cn-east-2a</td>
+  <td>上海</td>
+ </tr>
+ <tr>
+  <td>可用区B cn-east-2b</td>
+  <td>上海</td>
+ </tr>
+ <tr>
+  <td>可用区C cn-east-2c</td>
+  <td>上海</td>
+ </tr>
+ <tr>
+  <td rowspan=3>华南-广州  cn-south-1</td>
+  <td>可用区A cn-south-1a</td>
+  <td>广州</td>
+ </tr>
+ <tr>
+  <td>可用区B cn-south-1b</td>
+  <td>广州</td>
+ </tr>
+ <tr>
+  <td>可用区C cn-south-1c</td>
+  <td>广州</td>
+ </tr>
+  
+</table>
+ 
+
 ### 3、实例规格类型
 
 &emsp;&emsp;实例是京东云为您业务提供计算服务的最小单位，不同实例通过其规格类型及具体规格来标识相应的计算、内存、存储及网络能力。同时，您创建实例时指定的实例类型决定了实例的硬件配置，您可基于需要部署运行的应用类型及规模选择适当的实例规格类型及具体规格。  
