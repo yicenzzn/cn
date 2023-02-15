@@ -75,3 +75,5 @@ https://docs.jdcloud.com/cn/real-time-communication/api/overview?content=API
     RegisterUserRoomResponse roomResp = client.registerUserRoom(roomRequest);
  }
 ```
+
+
