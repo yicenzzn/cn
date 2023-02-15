@@ -19,7 +19,7 @@
 
 6、引入依赖调用openapi
 
-
+```csharp
 <!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/openjrtc -->
 
 <dependency> 
@@ -31,7 +31,7 @@
     <version>1.1.8</version> 
  
 </dependency> 
-
+```
 
 
 7、接口概览
