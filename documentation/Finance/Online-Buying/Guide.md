@@ -4,7 +4,7 @@
 
 ## 弹性计算
 
-[计费概述](https://docs.jdcloud.com/cn/virtual-machines/billing-overview)    [购买流程](https://docs.jdcloud.com/cn/virtual-machines/purchase-process)    [续费流程](https://docs.jdcloud.com/cn/virtual-machines/renew-process)
+[计费概述](https://docs.jdcloud.com/cn/virtual-machines/billing-overview)  |  [购买流程](https://docs.jdcloud.com/cn/virtual-machines/purchase-process)  |  [续费流程](https://docs.jdcloud.com/cn/virtual-machines/renew-process)
 
 ### 云主机
 
