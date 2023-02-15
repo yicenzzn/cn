@@ -1,10 +1,10 @@
 ## 四川单位备案规则
 
-1. 必须已最新的单位三证合一后证件备案
+1. 必须使用最新的单位三证合一后证件备案
 
 2. 主体负责人需为法人，若主体负责人不是法人，需提供[主体负责人授权书](https://badownload.s3.cn-north-1.jdcloud-oss.com/buchongziliao/sichuan/shouquanshu.doc)
 
-3. 所有负责人不得未满18周岁
+3. 所有负责人必须满18周岁
 
 4. 备案前准备资料：
 
