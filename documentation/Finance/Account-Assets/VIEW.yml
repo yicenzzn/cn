@@ -15,24 +15,24 @@ items:
         - name: 资金账户
           items:
             - name: 充值
-              href: Funds/Recharge.md
+              href: https://docs.jdcloud.com/cn/account-assets/recharge
             - name: 线下汇款单管理
-              href: Funds/Recharge.md
+              href: https://docs.jdcloud.com/cn/account-assets/remittance
             - name: 提现
-              href: Funds/Withdrawal.md
+              href: https://docs.jdcloud.com/cn/account-assets/withdrawal
             - name: 收支明细
-              href: Funds/Fund-flow.md
+              href: https://docs.jdcloud.com/cn/account-assets/fund-flow
         - name: 卡券管理
           items:
             - name: 代金券
-              href: Coupons/Coupon.md
+              href: https://docs.jdcloud.com/cn/account-assets/coupon
             - name: 提货券
-              href: Coupons/Voucher.md
+              href: https://docs.jdcloud.com/cn/account-assets/voucher
 - name: 常见问题
   items:
     - name: 提现常见问题
-      href: FAQs/Withdrawal-questions.md
+      href: https://docs.jdcloud.com/cn/account-assets/withdrawal-questions
     - name: 代金券常见问题
-      href: FAQs/Coupon-questions.md
+      href: https://docs.jdcloud.com/cn/account-assets/coupon-questions
     - name: 提货券常见问题
-      href: FAQs/Voucher-questions.md
+      href: https://docs.jdcloud.com/cn/account-assets/voucher-questions
