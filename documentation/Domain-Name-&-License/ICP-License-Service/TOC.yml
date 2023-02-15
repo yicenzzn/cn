@@ -2,12 +2,8 @@ name: 备案服务
 items:
   - name: 备案入门
     items:
-      - name: 新手引导
-        href: Getting-Started/Introduction.md
-      - name: 第一次来京东云备案看这里
-        href: Getting-Started/record-process/without-Organizer.md
-      - name: 京东云有过备案记录看这里
-        href: Getting-Started/record-process/Existence-record.md
+      - name: 京东云备案电子核验流程操作指引
+        href: Getting-Started/record-process/Elec-record.md
       - name: 备案授权码说明
         href: Getting-Started/record-process/record-shouquanma.md
   - name: 管局规则
