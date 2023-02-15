@@ -1,18 +1,18 @@
 # 接入流程
 
-1.右上角，控制台-注册/登录（支持京东账号登录）。  
+1.右上角，控制台-注册/登录（支持京东账号登录）；  
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BC%80%E9%80%9A%E6%9C%8D%E5%8A%A1-1.png)
 
-2.控制台-云服务-搜索“音视频通信”，点击进入。    
+2.控制台-云服务-搜索“音视频通信”，点击进入；    
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BC%80%E9%80%9A%E6%9C%8D%E5%8A%A1-2.png)
 
-3.jrtc服务尚未开通的账号会直接跳转服务开通页面!
+3.jrtc服务尚未开通的账号会直接跳转服务开通页面；
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BC%80%E9%80%9A%E6%9C%8D%E5%8A%A1-3.png)
  
-4.开通jrtc服务后，进入应用管理页面，维护应用，获取appId 和appKey!
+4.开通jrtc服务后，进入应用管理页面，维护应用，获取appId 和appKey；
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E5%BA%94%E7%94%A8%E7%AE%A1%E7%90%86-1.png)
 
-5.维护和获取访问京东云API的密钥Access Key ID和Access Key Secret!
+5.维护和获取访问京东云API的密钥Access Key ID和Access Key Secret；
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/%E7%A7%98%E9%92%A5%20APP%20Key.png)
 ![image](https://github.com/jdcloudcom/cn/blob/cn-Real-Time-Communication/image/Real-Time-Communicat/Key.png)
 
