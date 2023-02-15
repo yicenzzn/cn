@@ -4,9 +4,9 @@
 
 2. 主体负责人不是法人时，网站负责人必须与主体负责人为同一人
 
-3. 所有上报的手机号码必须为江苏本地号段
+3. 网站负责人非法人时，需提供[网站负责人授权书](https://badownload.s3.cn-north-1.jdcloud-oss.com/buchongziliao/jiangsu/jiangsushouquanshu.doc)
 
-4. 网站负责人非法人时，需提供[网站负责人授权书](https://badownload.s3.cn-north-1.jdcloud-oss.com/buchongziliao/jiangsu/jiangsushouquanshu.doc)
+4. 所有上报的手机号码必须为江苏本地号段
 
 4. 已备案主体变更时，需提供工商部门出具的变更证明
 
