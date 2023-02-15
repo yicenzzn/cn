@@ -4,13 +4,17 @@
 
 ## 弹性计算
 
-[计费概述](https://docs.jdcloud.com/cn/virtual-machines/billing-overview)  |  [购买流程](https://docs.jdcloud.com/cn/virtual-machines/purchase-process)  |  [续费流程](https://docs.jdcloud.com/cn/virtual-machines/renew-process)
-
 ### 云主机
+
+[计费概述](https://docs.jdcloud.com/cn/virtual-machines/billing-overview)  |  [购买指导](https://docs.jdcloud.com/cn/virtual-machines/purchase-process)  |  [续费指导](https://docs.jdcloud.com/cn/virtual-machines/renew-process)
+
+### 云硬盘
+
+[云硬盘计费概述](https://docs.jdcloud.com/cn/cloud-disk-service/disk-billing-rules)  |  [云硬盘快照计费概述](https://docs.jdcloud.com/cn/cloud-disk-service/snapshot-billing-rules)  |  [购买指导](https://docs.jdcloud.com/cn/cloud-disk-service/buy-on-website)
 
 ### 轻量云主机
 
-### 云硬盘
+[计费概述](https://docs.jdcloud.com/cn/iavm/price)  |  [购买指导](https://docs.jdcloud.com/cn/iavm/open)
 
 ### 原生容器
 
@@ -32,5 +36,4 @@
 
 ### 崩溃监控
 
----
 ## 网络
