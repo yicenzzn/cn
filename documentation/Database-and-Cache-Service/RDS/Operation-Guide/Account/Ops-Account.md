@@ -5,7 +5,8 @@
 ## 使用限制
 * 一个实例仅支持一个运维账号
 * 目前运维账号有效期必须大于当前系统时间，最长支持一年
-* 运维账号适用于MySQL、Percona、mariaDB
+* 运维账号适用于MySQL、Percona、MariaDB
+* 运维账号是提供给京东云技术支持人员使用临时账号，而非用户账号。仅在需要京东云技术支持人员在协助排除数据库问题时才会有开启需求。
 
 ## 开启运维账号
 1. 登录 [云数据库 RDS 控制台](https://rds-console.jdcloud.com/rds/database)。
