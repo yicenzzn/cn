@@ -1,6 +1,6 @@
-  name: 最佳实践
-  href: 
-  items:
+name: 最佳实践
+href: 
+items:
   - name: 搭建网站
     items:
       - name: 手动搭建WIPM环境
@@ -15,7 +15,8 @@
         href: Built-Websites/Domain-Name-Reg-And-Realname-Auth.md
       - name: 使用云解析服务添加域名解析
         href: Built-Websites/JDCloud-DNS-Add-Domain-Analysis.md
-   - name: 企业上云
+        
+  - name: 企业上云
     items:
       - name: 云主机产品介绍
         href: Cloud/Cloud-CVM-Introduce.md
