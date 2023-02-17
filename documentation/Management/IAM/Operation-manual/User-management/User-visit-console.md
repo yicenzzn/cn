@@ -20,7 +20,7 @@
 
 出现此情况，需要子用户使用[京东云 APP](https://console.jdcloud.com/download) 完成虚拟 MFA 设备绑定。绑定的方式，请参考页面提示完成。
 
-![image-20210716134333907](../../../../../image/IAM/SubUserManagement/image-20210716134333907.png)
+![image-20210716134333907](../../../../../image/IAM/SubUserManagement/image-202302171522.png)
 
 （3）启用了 MFA 并完成了虚拟 MFA 设备绑定的情况：需要进行 MFA 验证
 
@@ -57,7 +57,7 @@ b. 您可以选择扫码验证，或者输入安全码验证：
 
 在此页面，可以查看子用户及所属主账号的基本信息，以及子用户当前的授权情况。子用户所获得的直接授权，和子用户所属群组的授权均可以查看，但不能直接修改。子用户的权限是其直接授权和所属群组授权的合集。
 
-![image-20210720230138544](../../../../../image/IAM/SubUserManagement/image-20210720230138544.png)
+![image-20210720230138544](../../../../../image/IAM/SubUserManagement/image-202302171540.png)
 
 ### 安全设置
 
@@ -67,7 +67,7 @@ b. 您可以选择扫码验证，或者输入安全码验证：
 
 相关操作请参考：[设置子用户的安全凭证](../../../../../documentation/Management/IAM/Operation-manual/User-management/setting-up-credential-policies.md)
 
-![image-20210720230421535](../../../../../image/IAM/SubUserManagement/image-20210720230421535.png)
+![image-20210720230421535](../../../../../image/IAM/SubUserManagement/image-202302171541.png)
 
 ### AccessKey管理
 
@@ -75,7 +75,7 @@ b. 您可以选择扫码验证，或者输入安全码验证：
 
 相关操作请参考：[子用户编程访问OpenAPI](../../../../../documentation/Management/IAM/Operation-manual/User-management/User-visit-openapi.md)
 
-![image-20210720230841402](../../../../../image/IAM/SubUserManagement/image-20210720230841402.png)
+![image-20210720230841402](../../../../../image/IAM/SubUserManagement/image-202302171542.png)
 
 ## 访问资源
 
@@ -89,11 +89,11 @@ You are not authorized to perform (**具体未授权的OpenAPI名称**) on resou
 
 无授权导致的错误提示示例1：
 
-![image-20210720231238118](../../../../../image/IAM/SubUserManagement/image-20210720231238118.png)
+![image-20210720231238118](../../../../../image/IAM/SubUserManagement/image-202302171543.png)
 
 无授权导致的错误提示示例2：
 
-![image-20210720231652978](../../../../../image/IAM/SubUserManagement/image-20210720231652978.png)
+![image-20210720231652978](../../../../../image/IAM/SubUserManagement/image-202302171544.png)
 
 ### 操作保护
 
