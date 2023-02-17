@@ -8,19 +8,19 @@ IAM 角色只有被授权策略后，才拥有策略所定义的权限。未授�
 
 您可以在创建角色之后，直接为角色授权策略，如下图，点击立即授权，在授权策略弹窗中选择策略并点击确定即可。
 
-![](../../../../../image/IAM/RoleNew/attach1.png)
+![](../../../../../image/IAM/RoleNew/attach01.png)
 
 
 您也可以在角色列表中，点击授权，为现有角色授权策略。
 
-![](../../../../../image/IAM/RoleNew/attach2.png)
+![](../../../../../image/IAM/RoleNew/attach02.png)
 
 角色详情页，也提供了为现有角色授权策略的入口。
 
-![](../../../../../image/IAM/RoleNew/attach3.png)
+![](../../../../../image/IAM/RoleNew/attach03.png)
 
 ## 为角色解除授权策略
 
 角色详情页，策略选项卡的操作列，允许为角色解除授权策略。解除授权后，角色不再具有原策略所定义的权限。
 
-![](../../../../../image/IAM/RoleNew/attach5.png)
+![](../../../../../image/IAM/RoleNew/attach04.png)
