@@ -65,14 +65,20 @@ SAML元数据是一个XML格式的文档，以<md:EntityDescriptor xmlns:md="urn
 ![](../../../../../image/IAM/RoleNew/attach1.png)
 
 - AudienceRestriction和Audience
+
 要设置为：jdcloud.com（图中应去掉www.）
 
 ![](../../../../../image/IAM/RoleNew/attach1.png)
 
 - SAML Role Attribute
+
 【注意：Attribute 属性区分大小写。必须将其一字不差地设置Attribute Name和Value】
 必须包含以下两个Attribute
 
+| 属性     | 属性值格式                                                         |
+| -------- | ------------------------------------------------------------ |
+| https://jdcloud.com/SAML/Attributes/Role             | oleJrn,IdPJrn若需要传递多个角色jrn，则使用";"分隔，当使用控制台登录时，将会在界面上列出所有角色供用户选择 |
+| https://jdcloud.com/SAML/Attributes/RoleSessionName  | 该属性值将被用来作为登录用户信息的一部分显示在控制台上和操作审计日志中。如果您有多个用户使用同一个角色，请确保使用可以唯一标识用户的RoleSessionName值，以区分不同的用户，如员工ID、email地址等。其AttributeValue元素取值要求：长度不少于2个字符且不超过32个字符，只能是英文字母、数字和以下特殊字符：-_.@=  |
 
 以下是一个示例：
 ![](../../../../../image/IAM/RoleNew/attach1.png)
