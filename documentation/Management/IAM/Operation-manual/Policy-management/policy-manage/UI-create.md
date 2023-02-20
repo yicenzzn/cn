@@ -12,17 +12,17 @@
 在策略列表页点击“创建策略”。
 > 为便利用户使用，京东云预置了多个系统策略，绝大多数为各个产品线的管理员策略或只读策略。系统策略会显示在您的策略列表里，可以通过为子账号/角色直接附加系统策略来使用。
 
-![](../../../../../../image/IAM/PolicyNew/policylist.png)
+![](../../../../../../image/IAM/PolicyNew/policylist1.png)
 
 选择可视化策略生成器。
 
-![](../../../../../../image/IAM/PolicyNew/UIcreate.png)
+![](../../../../../../image/IAM/PolicyNew/UIcreate11.png)
 
 自定义策略名称与描述。
 
 > 策略名称与描述需符合字符长度与格式规则。
 
-![](../../../../../../image/IAM/PolicyNew/UIcreate1.png)
+![](../../../../../../image/IAM/PolicyNew/UIcreate22.png)
 
 ## 2. 添加授权信息
 
@@ -30,7 +30,7 @@
 
 在资源类型列表里指定京东云服务，列表支持模糊搜索；例如，输入“云”后列表里匹配出所有中文名称里带“云”字的产品线，从中选择“云主机”。
 
-![](../../../../../../image/IAM/PolicyNew/UIcreate2.png)
+![](../../../../../../image/IAM/PolicyNew/UIcreate222.png)
 
 ### 指定效力类型（允许或拒绝）
 
@@ -46,19 +46,19 @@
 如需将操作权限控制到资源级别，如仅允许某子用户访问指定的几台云主机时，需要在策略里指定资源。如不需要指定资源，点击“选择全部”即可。
 点击添加资源，在添加资源弹窗里指定资源所属地域、主账号accountId、资源唯一标识（实例id）；存在多级资源的，需指定各级资源的唯一标识。
 
-![](../../../../../../image/IAM/PolicyNew/UIcreate3.png)
+![](../../../../../../image/IAM/PolicyNew/UIcreate33.png)
 
-![](../../../../../../image/IAM/PolicyNew/UIcreate4.png)
+![](../../../../../../image/IAM/PolicyNew/UIcreate44.png)
 
 ### 指定生效条件
 
 京东云支持设置策略的生效条件 Condition，目前的 Condition 元素支持指定资源标签作为判断条件。
 
-![](../../../../../../image/IAM/PolicyNew/UIcreate5.png)
+![](../../../../../../image/IAM/PolicyNew/UIcreate55.png)
 
 点击添加条件，在添加条件弹窗里指定资源标签键值对。IAM Condition 支持使用用户自定义的标签以及京东云系统标签（创建人标签）。您也可以在条件值里使用变量来概括策略，不必为每个 IAM 用户分别创建策略副本。
 
-![](../../../../../../image/IAM/PolicyNew/variable.png)
+![](../../../../../../image/IAM/PolicyNew/UIcreate66.png)
 
 您可以重复以上步骤，添加多个服务的多个授权内容。
 
@@ -74,6 +74,6 @@
 
 以下是当授权 vm:createInstances 后系统提示关联授权的示例：
 
-![](../../../../../../image/IAM/PolicyManagement/image-20210721203833797.png)
+![](../../../../../../image/IAM/PolicyNew/UIcreate77.png)
 
 ![](../../../../../../image/IAM/PolicyManagement/image-20210721204118282.png)
