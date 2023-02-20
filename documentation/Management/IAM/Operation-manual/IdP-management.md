@@ -19,14 +19,14 @@
 
 假设企业员工需要将数据从他们的本地计算机复制到京东云对象存储中。您可以构建一个可在员工的计算机上运行的应用程序。在后端，该应用程序可在对象存储桶中读写对象。
 上述示例中，应用程序以员工身份访问京东云对象存储的过程如下：
-①	用户在企业客户端里向企业的身份提供商请求身份认证（请求登录）
-②	身份提供商根据企业的用户身份库对用户进行身份认证
-③	身份提供商根据用户身份信息创建一个SAML断言，并将该断言返回客户端
-④	客户端调用京东云的sts:AssumeRoleWithSAML服务代入角色，获取该角色的临时访问秘钥
-⑤	STS服务返回临时安全访问秘钥
-⑥	客户端使用临时访问秘钥调用对象存储桶操作
+- ①	用户在企业客户端里向企业的身份提供商请求身份认证（请求登录）
+- ②	身份提供商根据企业的用户身份库对用户进行身份认证
+- ③	身份提供商根据用户身份信息创建一个SAML断言，并将该断言返回客户端
+- ④	客户端调用京东云的sts:AssumeRoleWithSAML服务代入角色，获取该角色的临时访问秘钥
+- ⑤	STS服务返回临时安全访问秘钥
+- ⑥	客户端使用临时访问秘钥调用对象存储桶操作
 
-![](../../../../../image/IAM/RoleNew/attach1.png)
+![](../../../../image/IAM/IdP-management/idpprovider1.jpg)
 
 ## 操作指引
 
@@ -39,17 +39,17 @@
 
 1、点击创建身份提供商
 
-![](../../../../../image/IAM/RoleNew/attach1.png)
+![](../../../../image/IAM/IdP-management/idpprovider2.jpg)
 
 2、补全身份提供商信息，请向您的身份提供商获取SAML元数据并上传。
 SAML元数据是一个XML格式的文档，以<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="…" entityID="您的IdP标识">开头。
 京东云目前支持HTTP-POST的SingleSignOnService Binding方式。
 
-![](../../../../../image/IAM/RoleNew/attach1.png)
+![](../../../../image/IAM/IdP-management/idpprovider3.jpg)
 
 3、创建完成后，在身份提供商的详情页中，可以查看和复制该身份提供商的登录地址。从该地址访问时，京东云会跳转到您指定的身份提供商页面进行登录。
 
-![](../../../../../image/IAM/RoleNew/attach1.png)
+![](../../../../image/IAM/IdP-management/idpprovider4.jpg)
 
 ### 创建联合身份角色
 
@@ -62,13 +62,13 @@ SAML元数据是一个XML格式的文档，以<md:EntityDescriptor xmlns:md="urn
 
 为了向京东云颁发用户信息断言，您的身份提供商可能要求您提供以下信任信息：
 - Subject和NameID
-![](../../../../../image/IAM/RoleNew/attach1.png)
+![](../../../../image/IAM/IdP-management/idpprovider5.jpg)
 
 - AudienceRestriction和Audience
 
 要设置为：jdcloud.com（图中应去掉www.）
 
-![](../../../../../image/IAM/RoleNew/attach1.png)
+![](../../../../image/IAM/IdP-management/idpprovider6.jpg)
 
 - SAML Role Attribute
 
@@ -81,8 +81,8 @@ SAML元数据是一个XML格式的文档，以<md:EntityDescriptor xmlns:md="urn
 | https://jdcloud.com/SAML/Attributes/RoleSessionName  | 该属性值将被用来作为登录用户信息的一部分显示在控制台上和操作审计日志中。如果您有多个用户使用同一个角色，请确保使用可以唯一标识用户的RoleSessionName值，以区分不同的用户，如员工ID、email地址等。其AttributeValue元素取值要求：长度不少于2个字符且不超过32个字符，只能是英文字母、数字和以下特殊字符：-_.@=  |
 
 以下是一个示例：
-![](../../../../../image/IAM/RoleNew/attach1.png)
+![](../../../../image/IAM/IdP-management/idpprovider7.jpg)
 
 ### 从身份提供商单点登录（SSO）控制台
 
-![](../../../../../image/IAM/RoleNew/attach1.png)
+![](../../../../image/IAM/IdP-management/idpprovider8.jpg)
