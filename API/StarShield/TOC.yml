@@ -217,6 +217,8 @@ items:
             href: Instance-APIs/describePackage.md
           - name: describePackages
             href: Instance-APIs/describePackages.md
+          - name: ips
+            href: Instance-APIs/ips.md
       - name: SSL管理接口
         items:
           - name: listCertificatePacks
@@ -241,6 +243,8 @@ items:
         items:
           - name: listRuleGroups
             href: WAF-APIs/listRuleGroups.md
+          - name: editRuleGroup
+            href: WAF-APIs/editRuleGroup.md
           - name: ruleGroupDetails
             href: WAF-APIs/ruleGroupDetails.md
           - name: firewallPackageDetails
@@ -251,6 +255,10 @@ items:
             href: WAF-APIs/editFirewallPackage.md
           - name: listRules
             href: WAF-APIs/listRules.md
+          - name: editRule
+            href: WAF-APIs/editRule.md
+          - name: ruleDetails
+            href: WAF-APIs/ruleDetails.md
       - name: 防火墙规则管理接口
         items:
           - name: createFirewallRules
@@ -287,3 +295,121 @@ items:
             href: CustomPage-APIs/listAvailableCustomPages.md
           - name: updateCustomPageURL
             href: CustomPage-APIs/updateCustomPageURL.md
+      - name: 数据概览管理接口
+        items:
+          - name: instanceBandwidthAvg
+            href: Reporting-APIs/instanceBandwidthAvg.md
+          - name: instanceBandwidthMax
+            href: Reporting-APIs/instanceBandwidthMax.md
+          - name: instanceBandwidthP95
+            href: Reporting-APIs/instanceBandwidthP95.md
+          - name: instanceBandwidthDateHistogram
+            href: Reporting-APIs/instanceBandwidthDateHistogram.md
+          - name: instanceBandwidthMultiDateHistogram
+            href: Reporting-APIs/instanceBandwidthMultiDateHistogram.md
+          - name: bandwidthDateHistogramTopK
+            href: Reporting-APIs/bandwidthDateHistogramTopK.md
+          - name: bandwidthTopK
+            href: Reporting-APIs/bandwidthTopK.md
+          - name: instanceBandwidthList
+            href: Reporting-APIs/instanceBandwidthList.md
+          - name: instanceTrafficSum
+            href: Reporting-APIs/instanceTrafficSum.md
+          - name: instanceTrafficDateHistogram
+            href: Reporting-APIs/instanceTrafficDateHistogram.md
+          - name: instanceTrafficMultiDateHistogram
+            href: Reporting-APIs/instanceTrafficMultiDateHistogram.md
+          - name: trafficDateHistogramTopK
+            href: Reporting-APIs/trafficDateHistogramTopK.md
+          - name: trafficTopK
+            href: Reporting-APIs/trafficTopK.md
+          - name: instanceRequestSum
+            href: Reporting-APIs/instanceRequestSum.md
+          - name: instanceRequestDateHistogram
+            href: Reporting-APIs/instanceRequestDateHistogram.md
+          - name: instanceRequestMultiDateHistogram
+            href: Reporting-APIs/instanceRequestMultiDateHistogram.md
+          - name: requestDateHistogramTopK
+            href: Reporting-APIs/requestDateHistogramTopK.md
+          - name: requestTopK
+            href: Reporting-APIs/requestTopK.md
+          - name: zoneBandwidthAvg
+            href: Reporting-APIs/zoneBandwidthAvg.md
+          - name: zoneBandwidthMax
+            href: Reporting-APIs/zoneBandwidthMax.md
+          - name: zoneBandwidthP95
+            href: Reporting-APIs/zoneBandwidthP95.md
+          - name: zoneBandwidthDateHistogram
+            href: Reporting-APIs/zoneBandwidthDateHistogram.md
+          - name: zoneBandwidthMultiDateHistogram
+            href: Reporting-APIs/zoneBandwidthMultiDateHistogram.md
+          - name: zoneTrafficSum
+            href: Reporting-APIs/zoneTrafficSum.md
+          - name: zoneTrafficDateHistogram
+            href: Reporting-APIs/zoneTrafficDateHistogram.md
+          - name: zoneTrafficMultiDateHistogram
+            href: Reporting-APIs/zoneTrafficMultiDateHistogram.md
+          - name: zoneRequestSum
+            href: Reporting-APIs/zoneRequestSum.md
+          - name: zoneRequestDateHistogram
+            href: Reporting-APIs/zoneRequestDateHistogram.md
+          - name: zoneRequestMultiDateHistogram
+            href: Reporting-APIs/zoneRequestMultiDateHistogram.md
+      - name: 日志分析管理接口
+        items:
+          - name: dashboard
+            href: LogAnalytics-APIs/dashboard.md
+          - name: topK
+            href: LogAnalytics-APIs/topK.md
+          - name: bandwidthTopK
+            href: LogAnalytics-APIs/bandwidthTopK.md
+          - name: dateHistogram
+            href: LogAnalytics-APIs/dateHistogram.md
+          - name: dateHistogramBandwidth
+            href: LogAnalytics-APIs/dateHistogramBandwidth.md
+          - name: bandwidthTrend
+            href: LogAnalytics-APIs/bandwidthTrend.md
+          - name: cacheTopK
+            href: LogAnalytics-APIs/cacheTopK.md
+          - name: cacheBandwidthTopK
+            href: LogAnalytics-APIs/cacheBandwidthTopK.md
+          - name: cacheDateHistogram
+            href: LogAnalytics-APIs/cacheDateHistogram.md
+          - name: cacheDateHistogramBandwidth
+            href: LogAnalytics-APIs/cacheDateHistogramBandwidth.md
+          - name: firewallTopK
+            href: LogAnalytics-APIs/firewallTopK.md
+          - name: firewallDateHistogram
+            href: LogAnalytics-APIs/firewallDateHistogram.md
+          - name: qpsZone
+            href: LogAnalytics-APIs/qpsZone.md
+          - name: xps
+            href: LogAnalytics-APIs/xps.md
+          - name: qpsInstance
+            href: LogAnalytics-APIs/qpsInstance.md
+          - name: bpsZone
+            href: LogAnalytics-APIs/bpsZone.md
+          - name: bpsInstance
+            href: LogAnalytics-APIs/bpsInstance.md
+          - name: firewallActivityLog
+            href: LogAnalytics-APIs/firewallActivityLog.md
+          - name: accessLog
+            href: LogAnalytics-APIs/accessLog.md
+          - name: groupBy
+            href: LogAnalytics-APIs/groupBy.md
+      - name: 日志服务管理接口
+        items:
+          - name: listLogpushJobs
+            href: LogPush-APIs/listLogpushJobs.md
+          - name: createLogpushJob
+            href: LogPush-APIs/createLogpushJob.md
+          - name: fields
+            href: LogPush-APIs/fields.md
+          - name: fieldsDefault
+            href: LogPush-APIs/fieldsDefault.md
+          - name: updateLogpushJob
+            href: LogPush-APIs/updateLogpushJob.md
+          - name: deleteLogpushJob
+            href: LogPush-APIs/deleteLogpushJob.md
+          - name: checkDestinationExists
+            href: LogPush-APIs/checkDestinationExists.md
