@@ -20,7 +20,7 @@
 
 主账号登录京东云控制台，进入访问控制 > 用户管理，点击“创建子用户”。在子用户创建页面定义子用户信息和访问限制等；子账号创建成功后，可以在弹窗内下载子用户的密码和 AKSK 信息。
 
-![创建子用户页面](../../../../image/IAM/SubUserManagement/createsubuser.png)
+![创建子用户页面](../../../../image/IAM/SubUserManagement/createsubuser1.png)
 
 
 ## 编辑子用户
@@ -36,13 +36,13 @@
 
 访问子用户列表，点击“授权”，可快捷地为子用户授予相应的策略；也可以在子用户详情页的已授权策略模块为子用户授权策略。最多可同时为一个子用户直接附加十条策略。
 
-![子用户列表策略授权弹窗页面](../../../../image/IAM/SubUserManagement/grantsubuser.png)
+![子用户列表策略授权弹窗页面](../../../../image/IAM/SubUserManagement/grantsubuser11.png)
 
 ## 为子用户解除授权
 
 点击子用户名称，进入子用户详情；在已授权策略列表可点击“解除授权”来为子用户解除策略。
 
-![子用户详情解绑策略页面](../../../../image/IAM/SubUserManagement/deletepolicy.png)
+![子用户详情解绑策略页面](../../../../image/IAM/SubUserManagement/deletepolicy11.png)
 
 ## 子用户安全凭证设置
 
@@ -54,5 +54,5 @@
 - 为子用户开启操作保护，当子用户的虚拟MFA启用后，主账号可以为子用户开启操作保护。这样子用户在操作主账号授予的敏感操作时将需要进行虚拟MFA验证
 - 为子用户管理 AKSK
 
- ![子用户安全凭证页面](../../../../image/IAM/SubUserManagement/security.png)
+ ![子用户安全凭证页面](../../../../image/IAM/SubUserManagement/security1.png)
 
