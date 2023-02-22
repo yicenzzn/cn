@@ -16,7 +16,19 @@
 
 ![InstallTools](../../../../image/Cloud-File-Service/mount.png)
 
-
+**注意**  
+鉴于CentOS 8操作系统版本已结束生命周期（EOL），且CentOS社区已于2021年12月31日起停止CentOS 8版本维护，京东云将不再对CentOS 8镜像进行维护和更新。  
+停止维护影响说明：  
+①您使用CentOS 8镜像创建的云主机和基于该镜像所创建的私有镜像，后续仍可正常使用，但无法获得包括问题修复和功能更新在内的任何软件维护和支持。  
+②原有CentOS 8 yum源将不能访问，为保证您存量云主机的使用，建议使用centos-vault作为停止支持的CentOS的yum源。切换方法如下：  
+下载 http://mirrors.jdcloudcs.com/repo/CentOS-8-vault.repo 文件放到云主机系统 /etc/yum.repos.d 目录下，并删除原文件CentOS-8.repo。具体操作命令如下：  
+```
+cd /etc/yum.repos.d
+wget http://mirrors.jdcloudcs.com/repo/CentOS-8-vault.repo
+mv CentOS-8.repo /root
+yum clean all
+```
+以上操作成功后即可继续使用yum安装软件。
 
 3.创建目录，如创建名为nfs的目录：
 
