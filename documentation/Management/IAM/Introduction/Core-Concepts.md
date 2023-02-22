@@ -39,5 +39,5 @@
 | 权限（Effect）    | 权限指用户对资源进行访问或操作的许可，权限分为：允许（Allow）或拒绝（Deny）。<br /> 当策略中既有允许（Allow）的授权，又有拒绝（Deny）的授权时，遵循Deny优先的原则，操作会被拒绝。 |
 | 操作（Action）    | 为实现京东云控制台和SDK访问的统一，我们将控制台上的每一个操作都具体细化到Open API级别，操作可以分为两大类：<br/>*  不能指定资源的操作：如IAM子用户列表（iam:descirbeSubusers），群组列表(iam:describeGroups)，子用户创建(iam:createSubuser)等接口，这些接口在定义上就不允许指定资源进行操作，当您在IAM中创建自定义策略的时候，这些接口不支持对指定资源进行操作。一般列表接口，创建接口，报表接口都不支持对指定资源进行操作授权。<br/>*  可以指定资源的操作：如IAM子用户详情（iam:describeSubuser），IAM子用户编辑（iam:modifySubuser）等接口，这些接口在定义上支持对指定资源进行操作，当您在IAM中创建自定义策略时，这些接口允许对指定资源进行授权和操作。一般详情，编辑，删除，解绑，绑定等接口都支持对指定资源进行操作授权。 |
 | 资源（Resource）  | JDCloud资源名称（JDCloud Resource Name，JRN）是用来唯一标识一个JDCloud资源的，我们可以用JRN在JDCLOUD的全局环境中来明确指定一个资源。 |
-| 条件（Condition） | 指定策略生效的条件                                           |
+| 条件（Condition） | 指定策略生效的条件。Condition元素是可选的,包括条件运算符、条件键和条件值组成。可构建表达式并使用条件运算符将策略中的条件键和值与请求上下文中的键和值进行匹配。全局条件键 Global Condition Keys，同一个policy statement里，全局条件键对全局服务都生效；服务级别条件键 Service-specific Condition Keys，同一个policy statement里，服务级别条件键只对指定服务生效。  |
 
