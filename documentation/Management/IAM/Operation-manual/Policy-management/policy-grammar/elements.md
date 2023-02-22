@@ -44,10 +44,18 @@
 > "resource":"jrn:rds:\*:859150329790:\*"
 
 ### Condition
-选填项，描述策略生效的约束条件。条件包括条件运算符、条件键和条件值组成。京东云目前支持指定资源标签作为策略生效条件。
-如指定带有 department = finance 标签的资源，其 condition 为：
+选填项，描述策略生效的约束条件。条件包括条件运算符、条件键和条件值组成。
+京东云支持指定资源标签作为策略生效条件。如指定带有 department = finance 标签的资源， 例condition为：
 
 > "Condition": {"StringEquals": {"JDCloud:ResourceTag/department":\["finance"\]}}
+
+京东云支持IP 地址条件运算符作为策略生效条件。 IpAddress条件运算符与JDCloud:SourceIp键来指定必须从 IP 范围 203.0.113.0 至 203.0.113.255 发出请求。
+
+>"Condition": {"IpAddress": {"JDCloud:SourceIp": "203.0.113.0/24"}}
+
+京东云支持日期条件运算符作为策略生效条件。可构建基于键与日期/时间值的对比来限制访问Condition元素，例condition 为：
+
+>"Condition": {"DateGreaterThan": {"JDCloud:CurrentTime": "2021-01-01 18:00:01"}}
 
 ### Principal
 选填项，指定允许或拒绝访问资源的委托人。基于身份的策略（系统策略和自定义策略）中不可使用 principal 元素，但在角色的信任策略中，可使用 principal 元素来指定角色的信任实体。示例：
