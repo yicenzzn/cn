@@ -87,4 +87,5 @@ items:
         items:
           - name: assumeRole
             href: Security-Token-Service/assumeRole.md
-    
+          - name: assumeRoleWithSAML
+            href: Security-Token-Service/assumeRoleWithSAML.md

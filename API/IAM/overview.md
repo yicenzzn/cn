@@ -15,6 +15,7 @@ v1
 |**addPermissionsToSubUser**|POST|为子用户绑定策略|
 |**addSubUserToGroup**|POST|添加子用户到用户组中|
 |**assumeRole**|POST|扮演用户角色，获取临时凭证|
+|**assumeRoleWithSAML**|POST|根据SAML断言获取角色临时凭证|
 |**attachGroupPolicy**|POST|为用户组绑定策略|
 |**attachRolePolicy**|POST|为角色绑定策略|
 |**attachSubUserPolicy**|POST|为子用户绑定策略|
