@@ -17,9 +17,9 @@ https://sts.jdcloud-api.com/v1/sessionToken:assumeRole
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**assumeRoleInfo**|[AssumeRoleInfo](#assumeroleinfo)|True| | |
+|**assumeRoleInfo**|AssumeRoleInfo|True| | |
 
-### <div id="assumeroleinfo">AssumeRoleInfo</div>
+### AssumeRoleInfo
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**roleJrn**|String|True| |角色资源标识(jrn)|
@@ -31,15 +31,15 @@ https://sts.jdcloud-api.com/v1/sessionToken:assumeRole
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)| |
+|**result**|Result| |
 |**requestId**|String| |
 
-### <div id="Result">Result</div>
+### Result
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Credentials](#credentials)| |
+|**result**|Credentials| |
 
-### <div id="credentials">Credentials</div>
+### Credentials
 |名称|类型|描述|
 |---|---|---|
 |**accessKey**|String|临时accessKey|
@@ -52,4 +52,3 @@ https://sts.jdcloud-api.com/v1/sessionToken:assumeRole
 |返回码|描述|
 |---|---|
 |**200**|OK|
-|**404**|NOT_FOUND|
