@@ -42,8 +42,14 @@
 
 ### 7. 在哪里可以查看和确认退款到账？
 
-订单退款状态查询：控制台 > 费用管理 > [订单管理](https://order-console.jdcloud.com/cost/order-list) > 查询退订资源ID对应的订单状态，订单中全部资源退订后订单状态应为 “全部退款”，订单中部分资源退订后订单状态应为 “部分退款”。
+(1) 订单退款状态查询：控制台 > 费用管理 > [订单管理](https://order-console.jdcloud.com/cost/order-list)
 
-账户余额退款确认：控制台 > 费用管理 > 资金管理 > [资金账户](https://capital.jdcloud.com/cost/capital/capital-overview)，可通过账户充值（收入）信息确认退款到账。
+查询退订资源ID对应的订单状态，订单中全部资源退订后订单状态应为 “全部退款”，订单中部分资源退订后订单状态应为 “部分退款”。
 
-代金券退款确认：控制台 > 费用管理 > [代金券管理](https://coupon-console.jdcloud.com/cost/coupon)，查看原支付代金券的明细，交易类型为“退款”。
+(2) 账户余额退款确认：控制台 > 费用管理 > 资金管理 > [资金账户](https://capital.jdcloud.com/cost/capital/capital-overview)
+
+可通过账户充值（收入）信息确认退款到账。
+
+(3) 代金券退款确认：控制台 > 费用管理 > [代金券管理](https://coupon-console.jdcloud.com/cost/coupon)
+
+查看原支付代金券的明细，交易类型为“退款”。
