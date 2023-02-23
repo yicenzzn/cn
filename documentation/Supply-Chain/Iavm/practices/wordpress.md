@@ -18,11 +18,11 @@ WordPress是使用最广泛的博客和内容管理系统，支持丰富的插�
 支付完成后可以在控制台看到已购的轻量云主机，点击操作中的【查看】按钮
 
 
-![图片名称](https://jdcloud-portal.s3.cn-north-1.jdcloud-oss.com/cn/image/iavm/%E5%9B%BE%E7%89%876/1.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/1.png)
 
 切换到应用管理页面查看应用的详细信息，获取WordPress初始化地址
 
-![图片名称](https://jdcloud-portal.s3.cn-north-1.jdcloud-oss.com/cn/image/iavm/%E5%9B%BE%E7%89%876/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/2.png)
 
 
 ## 初始化配置
@@ -30,27 +30,27 @@ WordPress是使用最广泛的博客和内容管理系统，支持丰富的插�
 使用浏览器访问初始化地址（在应用详情页获取地址），选择语言
 
 
-![图片名称](https://jdcloud-portal.s3.cn-north-1.jdcloud-oss.com/cn/image/iavm/%E5%9B%BE%E7%89%876/3.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/3.png)
 
 
 设置管理员账户和密码，点击【安装WordPress】
 
 
-![图片名称](https://jdcloud-portal.s3.cn-north-1.jdcloud-oss.com/cn/image/iavm/%E5%9B%BE%E7%89%876/4.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/4.png)
 
 
 安装完成。点击【登录】访问WordPress 后台
 
 
-![图片名称](https://jdcloud-portal.s3.cn-north-1.jdcloud-oss.com/cn/image/iavm/%E5%9B%BE%E7%89%876/5.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/5.png)
 
 在管理员登录页面，输入刚才设置的账户和密码进行登录
 
-![图片名称](https://jdcloud-portal.s3.cn-north-1.jdcloud-oss.com/cn/image/iavm/%E5%9B%BE%E7%89%876/6.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/6.png)
 
 登录后，您可以进行WordPress内容的后台编辑
 
-![图片名称](https://jdcloud-portal.s3.cn-north-1.jdcloud-oss.com/cn/image/iavm/%E5%9B%BE%E7%89%876/7.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/7.png)
 
 更多WordPress操作，请查看[WordPress 文档](https://wordpress.org/support)，或提交京东云工单咨询问题。
 
