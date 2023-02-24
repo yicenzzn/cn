@@ -65,5 +65,9 @@
  
  ![img](../../../../../image/ICP-License-Service/20230215-pic/10-submiit.png)
  
+ - 管局审核通过后您可以在备案管理页面查看备案号等信息、同一主体备案号下后续的网站增加、变更、注销等操作均可在此页面发起。
+ 
+  ![img](../../../../../image/ICP-License-Service/20230215-pic/1-principle-no.png)
+ 
  
  
