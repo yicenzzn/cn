@@ -51,6 +51,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**elasticIpId**|String|fip-z1z1****ja|主网卡主IP绑定弹性IP的ID。|
 |**elasticIpAddress**|String| |主网卡主IP绑定弹性IP的地址。|
 |**status**|String|running|云主机状态，参考 [云主机状态](https://docs.jdcloud.com/virtual-machines/api/vm_status)。|
+|**spotStatus**|String|occupying|抢占式实例状态，<br>`occupying`：使用中 <br>`recycling`：待回收 <br>`terminated`：已释放|
 |**description**|String| |云主机描述。|
 |**imageId**|String|img-m5s0****29|云主机使用的镜像ID。|
 |**systemDisk**|[InstanceDiskAttachment](describeInstance#user-content-2)| |系统盘配置。|
