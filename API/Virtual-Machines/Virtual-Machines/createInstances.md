@@ -99,7 +99,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 
 |名称|类型|是否必选|示例值|描述|
 |---|---|---|---|---|
-|**chargeMode**|String|否|prepaid_by_duration |计费模式。<br>可选值：<br>`postpaid_by_duration`（默认值）：按配置（后付费）<br>`prepaid_by_duration`：包年包月（预付费）<br>`postpaid_by_usage`：按用量（后付费）<br>仅弹性公网IP支持`postpaid_by_usage`，具体计费说明请参考[实例计费类型说明](https://docs.jdcloud.com/cn/virtual-machines/billing-overview)。|
+|**chargeMode**|String|否|prepaid_by_duration |计费模式。<br>可选值：<br>`postpaid_by_duration`（默认值）：按配置（后付费）<br>`prepaid_by_duration`：包年包月（预付费） <br>`postpaid_by_spot`：抢占式实例（后付费）<br>`postpaid_by_usage`：按用量（后付费）<br>仅弹性公网IP支持`postpaid_by_usage`，具体计费说明请参考[实例计费类型说明](https://docs.jdcloud.com/cn/virtual-machines/billing-overview)。|
 |**chargeUnit**|String|否| month|包年包月付费单位或按配置计费模式定时转换为包年包月付费单位。<br>仅`chargeMode=prepaid_by_duration`或`chargeMode=postpaid_by_duration`&`autoChangeChargeMode=true`时此参数有效。<br>可选值：<br>`month`（默认值）：月<br>`year`：年|
 |**chargeDuration**|Integer|否|1 |包年包月付费单位或计费模式转换（按配置定时转包年包月）付费时长。<br>仅`chargeMode=prepaid_by_duration`或`chargeMode=postpaid_by_duration` & `autoChangeChargeMode=true`时此参数有效。<br>取值范围：<br>`chargeUnit=month`时：`[1,9]`<br>`chargeUnit=year`时：`[1,3]`|
 |**autoRenew**|Boolean|否|true |自动续费。<br>可选值：<br>`true`：开通自动续费<br>`false`（默认值）：不开通自动续费|
