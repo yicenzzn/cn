@@ -13,7 +13,7 @@
 
 ![image](../../../../image/JDCloud-Site/ICP1.png)
 
-2.进行备案操作，操作指引见 [备案操作说明](https://docs.jdcloud.com/cn/icp-license-service/introduction)
+2.进行备案操作，操作指引见 [备案操作说明](https://docs.jdcloud.com/cn/icp-license-service/elec-record)
 ![image](../../../../image/JDCloud-Site/ICP2.png)
 
 
