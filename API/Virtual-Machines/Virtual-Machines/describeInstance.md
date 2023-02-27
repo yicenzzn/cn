@@ -89,7 +89,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 ### <div id="user-content-4">Charge</div>
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|**chargeMode**|String| postpaid_by_duration|计费模式。<br>可能值：<br>`postpaid_by_duration`：按配置（后付费）<br>`prepaid_by_duration`：包年包月（预付费）<br>`postpaid_by_usage`：按用量（后付费）<br>仅弹性公网IP计费模式可能出现`postpaid_by_usage`|
+|**chargeMode**|String| postpaid_by_duration|计费模式。<br>可能值：<br>`postpaid_by_duration`：按配置（后付费）<br>`prepaid_by_duration`：包年包月（预付费）<br>`postpaid_by_spot`：抢占式实例（后付费）<br>`postpaid_by_usage`：按用量（后付费）<br>仅弹性公网IP计费模式可能出现`postpaid_by_usage`|
 |**chargeStatus**|String|normal |费用支付状态。可能值：<br>`normal`：正常<br>`overdue`：已到期<br>`arrear`：已欠费|
 |**chargeStartTime**|String|2020-11-11 12:22:56 |计费开始时间。遵循ISO8601标准，使用UTC时间，格式为：YYYY-MM-DDTHH:mm:ssZ。|
 |**chargeExpiredTime**|String| |到期时间。预付费资源的到期时间，遵循ISO8601标准，使用UTC时间，格式为：YYYY-MM-DDTHH:mm:ssZ，后付费资源此字段内容为空。|
