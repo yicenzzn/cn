@@ -3,7 +3,7 @@ items:
   - name: 备案入门
     items:
       - name: 备案简介
-        href: Introduction.md
+        href: Getting-Started/Introduction.md
       - name: 京东云备案电子核验流程操作指引
         href: Getting-Started/record-process/Elec-record.md
       - name: 备案授权码说明
