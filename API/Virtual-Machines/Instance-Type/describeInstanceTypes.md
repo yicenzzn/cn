@@ -8,10 +8,9 @@
 详细操作说明请参考帮助文档：[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family)
 
 ## 接口说明
-- 调用该接口可查询全量实例规格信息。
-- 可查询实例规格的CPU、内存大小、可绑定的弹性网卡数量、可挂载的云硬盘数量，是否售卖等信息。
-- GPU 或 本地存储型的规格可查询 GPU型号、GPU卡数量、本地盘数量。
-- 尽量使用过滤器查询关心的实例规格，并适当缓存这些信息。否则全量查询可能响应较慢。
+- 调用该接口可查询全量实例规格信息。包括规格的CPU、内存、可绑定的弹性网卡数量、可挂载的云硬盘数量，以及在不同可用区下的售卖情况。
+- GPU类型规格 或 存储优化型规格可查询 GPU卡型号及数量，本地盘容量、类型及数量。
+- 建议尽量使用过滤器查询关心的实例规格，并适当缓存这些信息，否则全量查询可能响应较慢。
 
 
 ## 请求方式
@@ -28,7 +27,8 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |名称|类型|是否必选|示例值|描述|
 |---|---|---|---|---|
 |**serviceName**|String|否|vm|产品线类型，可选值：<br>`vm`（默认值）：云主机<br>`nc`：原生容器|
-|**filters**|[Filter[]](describeInstanceTypes#user-content-filter)|否| |<b>filters 中支持使用以下关键字进行过滤</b><br>`instanceTypes`: 实例规格，精确匹配，支持多个<br>`az`: 可用区，精确匹配，支持多个<br>|
+|**chargeMode**|String|否|prepaid_by_duration|计费类型，可选值：<br>`prepaid_by_duration`（默认值）：包年包月<br>`postpaid_by_duration`：按配置<br>`postpaid_by_spot`：抢占式
+|**filters**|[Filter[]](describeInstanceTypes#user-content-filter)|否| |<b>filters 中支持使用以下关键字进行过滤</b><br>`instanceTypes`: 实例规格，精确匹配，支持多个<br>`az`: 可用区，精确匹配，支持多个<br>`architecture`：CPU架构，精确匹配，支持单个，可选值：`x86_64`或`arm64`|
 
 ### <div id="user-content-filter">Filter</div>
 |名称|类型|是否必选|示例值|描述|
@@ -57,7 +57,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |**generation**|Integer|2|实例规格代数。|
 |**instanceType**|String|g.n2.xlarge|实例规格。|
 |**cpu**|Integer|4|vcpu个数。|
-|**memoryMB**|Integer|8192|内存大小，单位GiB。|
+|**memoryMB**|Integer|8192|内存大小，单位MiB。|
 |**nicLimit**|Integer|4|支持绑定的弹性网卡数量，包括主网卡。|
 |**cloudDiskCountLimit**|Integer|8|支持挂载的云硬盘数量，包括云盘系统盘。|
 |**desc**|String| |实例规格描述。|
@@ -100,6 +100,7 @@ GET
     "result": {
         "instanceTypes": [
             {
+                "architecture": "x86_64", 
                 "cloudDiskCountLimit": 8, 
                 "cpu": 1, 
                 "desc": "", 
@@ -124,6 +125,7 @@ GET
                 ]
             }, 
             {
+                "architecture": "x86_64",
                 "cloudDiskCountLimit": 8, 
                 "cpu": 8, 
                 "desc": "", 
