@@ -17,6 +17,7 @@ https://starshield.jdcloud-api.com/v1/zones/{zone_identifier}/analytics$$firewal
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
+|**x-jdcloud-account-id**|String|True| |请求头：实例id|
 |**zoneName**|String|False| | |
 |**since**|String|False| | |
 |**until**|String|False| | |
@@ -37,10 +38,6 @@ https://starshield.jdcloud-api.com/v1/zones/{zone_identifier}/analytics$$firewal
 |**requestId**|String| |
 
 ### <div id="result">Result</div>
-|名称|类型|描述|
-|---|---|---|
-|**topkAnalytics**|[TopkAnalytics](firewallTopK#topkanalytics)| |
-### <div id="topkanalytics">TopkAnalytics</div>
 |名称|类型|描述|
 |---|---|---|
 |**countries**|[Item[]](firewallTopK#item)| |

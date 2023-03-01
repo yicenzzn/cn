@@ -31,10 +31,6 @@ https://starshield.jdcloud-api.com/v1/instances/{instanceId}/instanceTrafficSum
 ### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[CdnSingleMetric](instanceTrafficSum#cdnsinglemetric)| |
-### <div id="cdnsinglemetric">CdnSingleMetric</div>
-|名称|类型|描述|
-|---|---|---|
 |**value**|Number|单指标的值<br>如果是带宽，值的单位是bps（bit per second）<br>如果是流量，值的单位是Byte<br>如果是请求量，值的单位是次数<br>|
 
 ## 返回码

@@ -17,6 +17,7 @@ https://starshield.jdcloud-api.com/v1/zones/{zone_identifier}/zoneBandwidthMulti
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
+|**x-jdcloud-account-id**|String|True| |请求头：实例id|
 |**queryModes**|String[]|True| |all - 所有<br>normal - 业务<br>mitigation - 缓解<br>cache - 缓存<br>origin - 回源<br>all/normal/mitigation/cache/origin的任意组合<br>|
 |**zoneName**|String|True| |域名|
 |**since**|String|True| |开始时间|

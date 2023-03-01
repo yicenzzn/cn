@@ -17,6 +17,7 @@ https://starshield.jdcloud-api.com/v1/instances/{instanceId}/qps
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
+|**x-jdcloud-account-id**|String|True| |请求头：实例id|
 |**queryMode**|String|False| | |
 |**since**|String|False| | |
 |**until**|String|False| | |

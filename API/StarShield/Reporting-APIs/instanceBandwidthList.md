@@ -34,7 +34,7 @@ https://starshield.jdcloud-api.com/v1/instances/{instanceId}/instanceBandwidthLi
 |名称|类型|描述|
 |---|---|---|
 |**total**|Number| |
-|**dataList**|[CdnZoneBandwidth[]](instanceBandwidthList#cdnzonebandwidth)| |
+|**cdnZoneBandwidths**|[CdnZoneBandwidth[]](instanceBandwidthList#cdnzonebandwidth)| |
 ### <div id="cdnzonebandwidth">CdnZoneBandwidth</div>
 |名称|类型|描述|
 |---|---|---|
