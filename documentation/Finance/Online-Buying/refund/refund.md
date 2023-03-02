@@ -46,7 +46,7 @@
 支持五天无理由退订的产品，在包年包月新购5天内，可申请无理由全额退款。
 
 常见的支持五天无理由退订的云产品如下
-![退订1](https://github.com/jdcloudcom/cn/blob/edit/documentation/Finance/Online-Buying/refund/%E5%9B%BE2.png)
+![退订1](https://github.com/jdcloudcom/cn/blob/edit/documentation/Finance/Online-Buying/refund/%E5%9B%BE1.png)
 
 
 **退订规则说明**
@@ -75,7 +75,7 @@
 
 常见的支持非全额退订的云产品如下
 
-![退订2](https://github.com/jdcloudcom/cn/blob/edit/documentation/Finance/Online-Buying/refund/%E9%80%80%E8%AE%A22.png)
+![退订2](https://github.com/jdcloudcom/cn/blob/edit/documentation/Finance/Online-Buying/refund/%E5%9B%BE2.png)
 
 
 **退订规则说明**
