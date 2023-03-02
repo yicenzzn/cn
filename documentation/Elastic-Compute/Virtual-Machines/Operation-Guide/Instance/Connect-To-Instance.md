@@ -21,6 +21,7 @@
 | 复制粘贴文本 | 支持，右键操作  | 仅支持粘贴，通过命令窗口|  视不同工具支持情况，多数工具支持
 | 硬件控制和修改权限| 不支持|支持|不支持
 
+* 提示：使用WebTerminal远程访问实例时，系统会在云主机子网内创建一个DNLB（免费）用于中转请求，并且会在会话结束后30分钟内自动删除，在删除之前可能影响云主机更换子网，如遇此情况，可提交工单，联系技术支持手动协助清理；
 * 对于Linux实例，详细操作步骤请参见[连接Linux实例](http://docs.jdcloud.com/cn/virtual-machines/connect-to-linux-instance)；
 * 对于Windows实例，详细操作步骤请参见[连接Windows实例](http://docs.jdcloud.com/cn/virtual-machines/connect-to-windows-instance)。
 
