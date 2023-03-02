@@ -31,10 +31,6 @@ https://starshield.jdcloud-api.com/v1/instances/{instanceId}/instanceBandwidthMa
 ### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**data**|[CdnBandwidthMax](instanceBandwidthMax#cdnbandwidthmax)| |
-### <div id="cdnbandwidthmax">CdnBandwidthMax</div>
-|名称|类型|描述|
-|---|---|---|
 |**value**|Double|带宽峰值，单位bps（bit per second）|
 |**timestamp**|Number|带宽峰值的发生时间。值为时间戳对应的long值。|
 

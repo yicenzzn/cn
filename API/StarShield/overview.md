@@ -27,6 +27,7 @@ v1
 |**updateIndividualFilter**|PUT|更新一个现有的筛选器。|
 |**updateIndividualFirewallRule**|PUT|更新一个单独的现有防火墙规则。|
 |**checkInstancesName**|GET|检查实例名称|
+|**closeFirewallBot**|DELETE|关闭BOT|
 |**createFlowPack**|POST|购买流量包|
 |**createInstance**|POST|创建套餐实例|
 |**describeInstanceByOrderNo**|GET|根据订单号查询套餐实例详情|

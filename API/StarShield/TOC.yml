@@ -7,6 +7,28 @@ items:
     href: changeLog.md
   - name: 接口信息
     items:
+      - name: 套餐实例管理接口
+        items:
+          - name: checkInstancesName
+            href: Instance-APIs/checkInstancesName.md
+          - name: createFlowPack
+            href: Instance-APIs/createFlowPack.md
+          - name: createInstance
+            href: Instance-APIs/createInstance.md
+          - name: describeInstanceByOrderNo
+            href: Instance-APIs/describeInstanceByOrderNo.md
+          - name: describeInstances
+            href: Instance-APIs/describeInstances.md
+          - name: modifyInstance
+            href: Instance-APIs/modifyInstance.md
+          - name: selectDetailList
+            href: Instance-APIs/selectDetailList.md
+          - name: describePackage
+            href: Instance-APIs/describePackage.md
+          - name: describePackages
+            href: Instance-APIs/describePackages.md
+          - name: ips
+            href: Instance-APIs/ips.md
       - name: 域管理接口
         items:
           - name: createZone
@@ -197,28 +219,6 @@ items:
             href: ZoneSetting-APIs/getWebSocketsSetting.md
           - name: getZoneEnableTLS1_3Setting
             href: ZoneSetting-APIs/getZoneEnableTLS1_3Setting.md
-      - name: 套餐实例管理接口
-        items:
-          - name: checkInstancesName
-            href: Instance-APIs/checkInstancesName.md
-          - name: createFlowPack
-            href: Instance-APIs/createFlowPack.md
-          - name: createInstance
-            href: Instance-APIs/createInstance.md
-          - name: describeInstanceByOrderNo
-            href: Instance-APIs/describeInstanceByOrderNo.md
-          - name: describeInstances
-            href: Instance-APIs/describeInstances.md
-          - name: modifyInstance
-            href: Instance-APIs/modifyInstance.md
-          - name: selectDetailList
-            href: Instance-APIs/selectDetailList.md
-          - name: describePackage
-            href: Instance-APIs/describePackage.md
-          - name: describePackages
-            href: Instance-APIs/describePackages.md
-          - name: ips
-            href: Instance-APIs/ips.md
       - name: SSL管理接口
         items:
           - name: listCertificatePacks
@@ -275,6 +275,8 @@ items:
             href: FirewallRule-APIs/updateIndividualFilter.md
           - name: openFirewallBot
             href: FirewallRule-APIs/openFirewallBot.md
+          - name: closeFirewallBot
+            href: FirewallRule-APIs/closeFirewallBot.md
           - name: describeBotStatus
             href: FirewallRule-APIs/describeBotStatus.md
       - name: 页面规则管理接口
