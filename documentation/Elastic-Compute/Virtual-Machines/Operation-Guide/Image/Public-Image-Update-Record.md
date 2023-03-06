@@ -15,7 +15,13 @@
         <th>相关参考</th>
     </tr>
   	</thead>
-    <tbody>        
+    <tbody>
+    <tr>
+        <td>2023-03-01 北京/广州/宿迁/上海</td>
+      	<td>CentOS 8.2</td>
+      	<td>* yum源更新为京东云本地源<br> * 支持SSH密钥优化功能<br> * 更新Ifirt至最新版本</td>
+        <td> </td>
+    </tr> 
     <tr>
         <td>2021-01-28 北京/广州/宿迁/上海</td>
       	<td>CentOS 8.2</td>

@@ -99,3 +99,9 @@
 ## 镜像收费 
 ### 镜像如何收费？
 目前官方镜像和镜像市场镜像均为免费使用，即使用镜像创建实例时无需支付镜像相关费用。但由于私有镜像本质是对云硬盘备份数据（快照）的引用，而云硬盘快照目前已经商业化，因此保有私有镜像会产生一定的快照保存费用，具体收费标准详见[云硬盘快照计费规则](https://docs.jdcloud.com/cloud-disk-service/snapshot-billing-rules)。
+
+## 基础运维指南
+### CentOS8 yum源
+鉴于CentOS 8操作系统版本已结束生命周期（EOL），且CentOS社区已于2021年12月31日起停止CentOS 8版本维护，京东云将不再对CentOS 8镜像进行维护和更新。停止维护影响说明：<br>
+①您使用CentOS 8镜像创建的云主机和基于该镜像所创建的私有镜像，后续仍可正常使用，但无法获得包括问题修复和功能更新在内的任何软件维护和支持。<br>
+②原有CentOS 8 yum源将不能访问，为保证您存量云主机的使用，京东云已将centos-vault停止支持的CentOS yum源下载到京东云本地，您获取yum源时将默认从http://mirrors.jdcloudcs.com/repo/CentOS-8-vault.repo 下载。
