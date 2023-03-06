@@ -56,6 +56,7 @@ https://starshield.jdcloud-api.com/v1/zones/{identifier}/purge_cache__purgeFiles
 |**id**|String|域标识符标签|
 |**name_servers**|String[]|星盾分配的域名服务器。这仅适用于使用星盾DNS的域|
 |**original_registrar**|String|切换到星盾时的域注册商|
+|**cname_suffix**|String|CNAME后缀|
 ### <div id="owner">Owner</div>
 |名称|类型|描述|
 |---|---|---|

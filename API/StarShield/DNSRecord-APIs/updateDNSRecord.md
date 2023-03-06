@@ -67,7 +67,8 @@ https://starshield.jdcloud-api.com/v1/zones/{zone_identifier}/dns_records/{ident
 |**created_on**|String|创建记录时间|
 |**proxiable**|Boolean|记录是否由星盾代理|
 |**content**|String|有效的IPv4地址|
-|**ty_pe**|String|记录类型|
+|**type**|String|记录类型|
+|**ty_pe**|String|记录类型(值同type)|
 |**id**|String|DNS记录标识符标签|
 |**proxied**|Boolean|是否利用星盾的性能和安全优势|
 |**zone_name**|String|记录的域名|

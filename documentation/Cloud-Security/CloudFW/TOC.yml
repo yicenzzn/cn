@@ -13,6 +13,10 @@
         href: Operation-Guide/00-Creatfw.md
       - name: 云防火墙实例管理
         href: Operation-Guide/01-FWInstance.md
+      - name: 云防火墙入门指南
+        href: Operation-Guide/02-FWWebconfig.md
+      - name: 云防火墙命令行配置
+        href: Operation-Guide/03-FWCli.md
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: 计费模型

@@ -61,3 +61,9 @@
 ![域名境外激活状态](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/域名境外激活状态.png)
 
 5. 激活中国境外或全球加速域名，必须要加 “verify” 这个前缀，例如域名是 www.jd.com， 则进行 DNS 解析时的主机记录为 “verify.www.jd.com”。
+
+![添加解析](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/添加解析.png)
+
+6．域名激活成功后，域名状态展示为“运行”。
+
+![激活成功](https://github.com/jdcloudcom/cn/blob/cdn_20220222_api/image/CDN/激活成功.png)

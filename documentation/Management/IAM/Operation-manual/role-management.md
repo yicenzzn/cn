@@ -42,44 +42,44 @@
  
   - 信任关系：指您允许（信任）哪些主账号来扮演该角色，并执行该角色所拥有的权限，例如您是账号A，您创建用户角色RoleA允许账号B来扮演角色访问您的资源。
 
-![角色类型选择页面](../../../../image/IAM/RoleManagement/角色类型选择页面.jpg)
+![角色类型选择页面](../../../../image/IAM/RoleManagement/角色类型选择页面1.jpg)
 
-![创建用户角色页面](../../../../image/IAM/RoleManagement/创建用户角色页面.png)
+![创建用户角色页面](../../../../image/IAM/RoleManagement/创建用户角色页面1.png)
 
 
 ### 编辑角色
 
 访问角色列表，点击【编辑】按钮，可快捷的编辑角色的描述信息。
 
-![角色列表编辑按钮弹窗](../../../../image/IAM/RoleManagement/角色编辑.jpg)
+![角色列表编辑按钮弹窗](../../../../image/IAM/RoleManagement/角色编辑1.jpg)
 
 
 ### 删除角色
 
 访问角色列表，点击【删除】按钮，删除角色的信息及其策略的关联关系。
 
-![角色列表删除按钮弹窗页面](../../../../image/IAM/RoleManagement/角色删除.jpg)
+![角色列表删除按钮弹窗页面](../../../../image/IAM/RoleManagement/角色删除1.jpg)
 
 
 ### 给角色添加和移除信任关系
 
 点击角色名称，进入相应的角色详情页面 - 信任关系页签，点击【编辑信任关系】按钮，可快捷的为角色添加和移除信任关系。
 
-![编辑信任关系](../../../../image/IAM/RoleManagement/编辑信任关系.jpg)
+![编辑信任关系](../../../../image/IAM/RoleManagement/编辑信任关系1.jpg)
 
 
 ### 给角色授予策略
 
 访问角色列表，点击【授权】按钮，可快捷的授予角色相应的策略。
 
-![角色列表授予策略](../../../../image/IAM/RoleManagement/角色授予策略.jpg)
+![角色列表授予策略](../../../../image/IAM/RoleManagement/角色授予策略1.jpg)
 
 
 ### 给角色解绑策略
 
 点击角色名称，进入相应的角色详情页面 - 策略页签，选定对应策略后，点击【解除】即可为角色解绑策略。
 
-![角色详情解绑策略](../../../../image/IAM/RoleManagement/角色移除策略.jpg)
+![角色详情解绑策略](../../../../image/IAM/RoleManagement/角色移除策略1.jpg)
 
 ## 子用户切换角色身份
 
@@ -98,8 +98,8 @@
  
 登录后，进入子用户控制台，点击右上角菜单中的 “切换角色”，进行角色身份的登录，例如输入账号A的accountID和RoleA的角色名称，登录后，SubUserB将以RoleA的身份和权限对主账号A的资源进行访问和管理。
 
-![切换角色](../../../../image/IAM/RoleManagement/切换角色.jpg)
+![切换角色](../../../../image/IAM/RoleManagement/切换角色1.jpg)
 
-![角色登录页](../../../../image/IAM/RoleManagement/角色登录页.jpg)
+![角色登录页](../../../../image/IAM/RoleManagement/角色登录1.jpg)
 
-![角色概览页](../../../../image/IAM/RoleManagement/角色概览页.jpg)
+![角色概览页](../../../../image/IAM/RoleManagement/角色概览1.jpg)

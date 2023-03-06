@@ -23,12 +23,13 @@
 	
 1. 查询记录信息。
 	
-    Mongo Profile 记录存储在amdin库中，集合名为system.profile ，只要查询这个Collection的记录就可以获取到Profile信息。
+    Mongo Profile 记录存储在admin库中，集合名为system.profile ，只要查询这个Collection的记录就可以获取到Profile信息。
 
-    > use admin   #在admin库执行   
+    > use admin   #在admin库执行
+    >
     > db.system.profile.find()
-   
-   
+
+
 ## Profile记录说明
 
 参数 | 说明

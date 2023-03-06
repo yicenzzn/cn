@@ -15,7 +15,7 @@
 	</thead>
 	<tbody>
     <tr>
-        <td rowspan="6">异常事件</td>
+        <td rowspan="7">异常事件</td>
         <td> 实例创建失败</td>
         <td> SystemFailure.Delete</td>
         <td> 实例创建请求成功后，由于系统原因导致的资源回滚删除。 </td>
@@ -50,7 +50,20 @@
         <td> SystemFailure.RemovedFromAg</td>
         <td> 实例宕机迁移，因资源库存不足导致实例无法按高可用组置放策略打散分布，导致实例移出高可用组。 </td>
         <td> 关注业务影响。</td>
-    </tr>	
+    </tr>
+    <tr>
+        <td> 系统异常导致重新部署</td>
+        <td> SystemFailure.ReDeploy</td>
+        <td> 底层物理机出现软硬件故障时，您可通过调用redeplyInstance接口重新部署本地数据盘实例，触发请求后将立即发送该事件。 </td>
+        <td> 建议您提前完成准备工作，包括修改/etc/fstab配置文件、备份数据等。</td>
+    </tr>
+    <tr>
+        <td rowspan="1">维护事件</td>
+        <td>系统维护隔离坏本地盘</td>
+        <td>SystemMaintenance.IsolateLocalDisk</td>
+        <td> 本地数据盘实例有本地盘故障时，用户重启实例后系统自动做故障本地盘的隔离，并立即发送该事件。 </td>
+        <td> 建议您提前完成准备工作，包括修改/etc/fstab配置文件、备份数据等。</td>
+    </tr>
     <tr>
         <td rowspan="4">欠费/到期</td>
         <td> 实例停止（资源到期）</td>
@@ -127,6 +140,8 @@
 * [系统异常本地盘不可用](event-overview#user-content-9)
 * [系统异常GPU卡不可用](event-overview#user-content-10)
 * [系统异常实例出高可用组](event-overview#user-content-11)
+* [系统异常重新部署实例](event-overview#user-content-13)
+* [系统维护隔离坏本地盘](event-overview#user-content-14)
 * [实例停止（资源到期）](event-overview#user-content-4)
 * [实例删除（资源到期）](event-overview#user-content-5)
 * [实例停止（资源欠费）](event-overview#user-content-6)
@@ -230,6 +245,33 @@
 	"instanceId": "i-qj7****e7m"
 }
 ```
+
+<div id="user-content-13"></div>
+
+### 系统异常导致重新部署
+* 事件代码：	SystemFailure.ReDeploy
+* 事件通知说明：此事件会在用户主动触发故障本地数据盘实例重新部署时，发送一条通知，事件详情如下：
+```JSON
+{
+	"eventAction": "SystemFailure.ReDeploy",
+	"eventTime": "2023-03-01 09:51:27",
+	"instanceId": "i-qj7****e7m"
+}
+```
+
+<div id="user-content-14"></div>
+
+### 系统维护隔离坏本地盘
+* 事件代码：	SystemMaintenance.IsolateLocalDisk
+* 事件通知说明：此事件会在用户重启有故障的本地数据盘实例时， 发送一条通知，事件详情如下：
+```JSON
+{
+	"eventAction": "SystemMaintenance.IsolateLocalDisk",
+	"eventTime": "2023-03-01 09:51:27",
+	"instanceId": "i-qj7****e7m"
+}
+```
+
 
 <div id="user-content-4"></div>
 

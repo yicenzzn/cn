@@ -4,10 +4,6 @@ items:
     href: Cloud-Hosting-Service-Terms.md
   - name: 云主机服务等级协议（SLA）
     href: Cloud-Host-Service-Level-Agreement-X-SLA.md
-  - name: 伙伴云主机产品服务协议
-    href: cloud-hosting-x-service-terms.md	
-  - name: 伙伴云主机服务等级协议（SLA）
-    href: Cloud-Host-X-Service-Level-Agreement-SLA.md
   - name: 原生容器服务条款
     href: Native-Container-Service-Clause.md
   - name: 原生容器等级协议（SLA）
@@ -864,3 +860,7 @@ items:
     href: Cloudfw-SLA.md
   - name: 应用迁移中心服务条款
     href: AMC-Trial-Terms-Of-Service.md
+  - name: 伙伴云主机产品服务协议
+    href: cloud-hosting-x-service-terms.md
+  - name: 伙伴云主机服务等级协议（SLA）
+    href: Cloud-Host-X-Service-Level-Agreement-SLA.md
