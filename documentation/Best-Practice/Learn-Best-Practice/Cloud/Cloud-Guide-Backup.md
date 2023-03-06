@@ -55,7 +55,7 @@ https://blog.csdn.net/gushendezhufu/article/details/126247714
 
 **2、云硬盘快照**
 云硬盘快照用于对云硬盘上的数据进行备份，以便恢复云硬盘上的数据或者批量复制云硬盘。云硬盘快照上的数据记录了开始制作云硬盘的时刻云硬盘上的所有数据。
-cn/image/Elastic-Compute/CloudDisk/cloud-disk/increment.png
+![image](https://jdcloud-portal.oss.cn-north-1.jcloudcs.com/cn/image/Elastic-Compute/CloudDisk/cloud-disk/increment.png)
 
 **注：制作云硬盘快照时，首次快照将备份全量数据，后续每次备份均为增量备份。**
 
