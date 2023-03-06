@@ -41,10 +41,10 @@ Broker：消息处理中心，负责消息存储、确认、重试等；包含�
 Consumer：消息消费者，负责从Broker中获取消息，并进行相应处理；
 
 **[消息队列的抽象过程]**
-![image](../../../../image/Best-Practice/cloud/message-queue-model.png)
+![image](../../../../image/Best-Practice/Cloud/message-queue-model.png)
 
-**【处理过程描述】**
-![image](../../../../image/Best-Practice/cloud/message-queue-process.png)
+**[处理过程描述]**
+![image](../../../../image/Best-Practice/Cloud/message-queue-process.png)
 
 **应用场景：**
 
