@@ -14,6 +14,7 @@
 
 
 
+
 - 建议在扩容云硬盘之前创建云硬盘快照，备份数据，降低扩容时误操作的风险。
 
 
@@ -33,27 +34,29 @@
 ##  操作指南
 
 
-1、打开[京东云控制台](https://console.jdcloud.com/)，选择【弹性计算】-【云硬盘】；
+1、打开[京东云控制台](https://console.jdcloud.com/)，选择【弹性计算】-【云硬盘】；或选择【弹性计算】-【云主机】；
 
-2、在云硬盘列表页面找到需要进行容量升级的云硬盘，在您需要扩容的云硬盘右侧点击【更多】-扩容；
+2、在云硬盘列表页面或云主机详情页找到需要进行容量升级的云硬盘，在您需要扩容的云硬盘右侧点击【更多】-扩容；
 <br>
 
 ![扩容按钮](../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/cloud-disk-014.png)
 
 <br>
 
+![扩容按钮](../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/cloud-disk-014-1.png)
+<br>
 3、选择或直接输入升级后的容量数值，点击【确定】完成支付后即可进入控制台查看扩容后的云硬盘容量；
 
 <br>
 
-![扩容](../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/cloud-disk-015.png)
+![扩容](../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/cloud-disk-015-1.png)
 
 <br>
 
 4、如您对性能型SSD规格的云硬盘进行扩容，请注意调整云硬盘的iops性能，以和您所需的性能相匹配。避免容量提升，iops配置过低的情况，影响您的使用。
 <br>
 
-![扩容-io1](../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/cloud-disk-015-io1.png)
+![扩容](../../../../../image/Elastic-Compute/CloudDisk/cloud-disk/cloud-disk-015-3.png)
 
 <br>
 
