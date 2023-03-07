@@ -9,7 +9,7 @@ PrestaShop 是国外优秀的电子商务内容管理系统，操作简单，使
 
 选择PrestaShop镜像，以及套餐版本、时长等内容，进行下单创建轻量云主机实例
 
-![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/10.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/prestashop1.png)
 
 
 
@@ -66,6 +66,5 @@ PrestaShop 是国外优秀的电子商务内容管理系统，操作简单，使
 
 使用浏览器访问PrestaShop前台展示地址（在应用详情页获取地址）
 
-![图片名称](https://img1.jcloudcs.com/image/docs/10.png)
-
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/prestashop2.png)
 
