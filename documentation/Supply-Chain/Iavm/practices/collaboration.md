@@ -17,7 +17,7 @@
 
 选择协同办公镜像，以及套餐版本、时长等内容，进行下单创建轻量云主机实例
 
-![图片名称]([https://img1.jcloudcs.com/image/docs/8.png](https://jdcloud-portal.s3.cn-north-1.jdcloud-oss.com/cn/image/iavm/%E5%9B%BE%E7%89%876/10.png))
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/xietong1.png)
 
 
 ## 查看应用详情
@@ -26,12 +26,18 @@
 支付完成后可以在控制台看到已购的轻量云主机，点击操作中的【查看】按钮
 
 
-![图片名称](https://jdcloud-portal.s3.cn-north-1.jdcloud-oss.com/cn/image/iavm/%E5%9B%BE%E7%89%876/1.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/xietong2.png)
 
 
-切换到应用管理页面查看应用的详细信息，获取访问地址
+切换到防火墙页面，开通9001-9005端口
 
-![图片名称](https://jdcloud-portal.s3.cn-north-1.jdcloud-oss.com/cn/image/iavm/%E5%9B%BE%E7%89%876/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/xietong3.png)
+
+
+
+切换到应用管理页面查看应用的详细信息，获取各个应用访问地址
+
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/office1.png)
 
 
 
@@ -39,33 +45,39 @@
 
 使用浏览器访问禅道（Zentao）地址，根据系统提示选择语言，点击“开始安装”
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/zentao1.png)
+
 
 接受License许可，安装进入环境检测页面，点击下一步
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/zentao2.png)
 
 
 系统初始化已经设置好数据库参数，点击下一步
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/zentao3.png)
 
 
 保存配置文件
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/zentao4.png)
+
+选择经典模式
+
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/zentao5.png)
 
 设置后台账号信息，请设置好并牢记账户和密码，然后“保存”
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/zentao8.png)
+
 
 根据您设置的用户和密码登录后台
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/zentao6.png)
 
 登录后台进行配置和使用
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/zentao7.png)
 
 
 
@@ -74,21 +86,21 @@
 
 使用浏览器访问MediaWiki地址
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/mediawiki1.png)
 
 点击【login in】,输入用户名和密码
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/mediawiki2.png)
 
 
 获取用户名和密码：在控制台直接点击【登录】或使用远程连接工具登录轻量云主机，输入命令cat /credentials/password.txt，获取用户名和密码
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/mediawiki3.png)
 
 
 进入MediaWiki后台，进行编辑使用
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/mediawiki4.png)
 
 
 
@@ -102,23 +114,23 @@
 使用浏览器访问Nextcloud地址，设置管理员账户和密码，点击安装
 
 
-![图片名称](https://img1.jcloudcs.com/image/docs/3.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/nextcloud1.png)
 
 
 可以安装推荐的应用，或者取消推荐应用安装
 
 
-![图片名称](https://img1.jcloudcs.com/image/docs/4.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/nextcloud2.png)
 
 
 关闭弹窗，查看后台内容
 
-![图片名称](https://img1.jcloudcs.com/image/docs/5.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/nextcloud3.png)
 
 
 切换到文件页面，可以上传、下载您的文件
 
-![图片名称](https://img1.jcloudcs.com/image/docs/5.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/nextcloud4.png)
 
 
 ## Superset 
@@ -126,15 +138,16 @@
 
 使用浏览器访问Superset地址
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/superset3.png)
 
 在控制台直接点击【登录】或使用远程连接工具登录轻量云主机，输入命令cat /credentials/password.txt，获取用户名和密码
 
-![图片名称](https://img1.jcloudcs.com/image/docs/2.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/superset1.png)
 
 
+登录到Superset
 
-
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/superset2.png)
 
 
 
