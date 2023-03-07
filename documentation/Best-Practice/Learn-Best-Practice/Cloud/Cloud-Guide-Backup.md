@@ -31,7 +31,7 @@ A(数据级备份)-->B(系统级备份)-->C(数据库备份)-->D(数据同城容
 
 详细指导请参考：https://rclone.org/install/
 
-2、使用windows server 2008自带的windows server backup工具，它可以帮助你备份整个Windows Server、选定的卷、系统状态、特定文件或文件夹，或创建裸机备份以进行裸机恢复。除此之外，你还可以还原系统状态、卷、文件或文件夹以及某些软件。
+2、使用windows操作系统自带的windows server backup工具，它可以帮助你备份整个Windows Server、选定的卷、系统状态、特定文件或文件夹，或创建裸机备份以进行裸机恢复。除此之外，你还可以还原系统状态、卷、文件或文件夹以及某些软件。
 
 https://www.abackup.com/easybackup-tutorials/windows-server-file-backup-631.html
 
