@@ -43,19 +43,19 @@
 
 ​		配置安全域的名称，将新接口即防护端点添加到三层成员列表中，其余配置实际使用时根据自身需要配置。
 
-<img src="../../../../image/CFW/CFW-1-13.png"  />
+![](../../../../image/CFW/CFW-1-13.png)
 
 ​		配置策略，允许安全域「trustip」报文通过：「策略」->「安全策略」->「新建」->「新建策略」
 
-<img src="../../../../image/CFW/CFW-1-14.png"  />
+![](../../../../image/CFW/CFW-1-14.png)
 
 
 
 ​		配置“名称”和“动作”，“确定”创建新策略
 
-<img src="../../../../image/CFW/CFW-1-15.png"  />
+![](../../../../image/CFW/CFW-1-15.png)
 
-<img src="../../../../image/CFW/CFW-1-16.png"  />
+![](../../../../image/CFW/CFW-1-16.png)
 
 
 
@@ -63,13 +63,13 @@
 
 ​		通过访问京东云[弹性网卡控制台](https://cns-console.jdcloud.com/host/eni/list)，找到待防护VPC互联子网下的弹性网卡，查看分配的内网ip。
 
-<img src="../../../../image/CFW/CFW-1-17.png"  />
+![](../../../../image/CFW/CFW-1-17.png)
 
-<img src="../../../../image/CFW/CFW-1-18.png"  />
+![](../../../../image/CFW/CFW-1-18.png)
 
 ​		返回云防火墙web管理页面，在「网络」->「接口」->「接口」将查到的内网IP正确填写到云防火墙的接口上，点击「确定」后完成配置。
 
-<img src="../../../../image/CFW/CFW-1-19.png"  />
+![](../../../../image/CFW/CFW-1-19.png)
 
 #### 配置3：配置策略路由
 
@@ -79,11 +79,11 @@
 
 ​		在云防火墙管理页面「对象」->「ACL」->「IPv4」->「新建」->选择「高级ACL」->「配置名称/ID」，点击「确定」来创建一个新ACL对象。
 
-<img src="../../../../image/CFW/CFW-1-20.png"  />
+![](../../../../image/CFW/CFW-1-20.png)
 
 ​		在弹出页面选择「**匹配源IP地址/通配符掩码**」->输入**匹配源IP(填待防护子网网段)**，点击「确定」，在ACL对象3000下创建一个新的acl规则，匹配源ip在10.0.0.0/24网段的分组报文。
 
-<img src="../../../../image/CFW/CFW-1-21.png"  />
+![](../../../../image/CFW/CFW-1-21.png)
 
 ​		新弹出的页面点击「取消」，即可完成ACL对象部分配置。
 
@@ -91,11 +91,11 @@
 
 ​		**策略路由关联接口**，通过「网络」->「路由」->「策略路由」->「IPv4策略路由」，点击「新建」进行配置「策略名称」选择应用于「接口名」点击「新建」策略节点
 
-<img src="../../../../image/CFW/CFW-1-22.png"  />
+![](../../../../image/CFW/CFW-1-22.png)
 
 ​		在新建策略节点页面，配置「NodeID」->选择「匹配IPv4 ACL」->在下拉列表中选择上面新建的ACL对象“3000”->“新建”报文转发的下一跳地址
 
-<img src="../../../../image/CFW/CFW-1-23.png"  />
+![](../../../../image/CFW/CFW-1-23.png)
 
 ​		在报文转发的下一跳地址页面配置VRF为「公网」，设置IP地址为「**新增接口的网关地址**」(这里使用的是ge2/0 ip：10.0.254.3 gw：10.0.254.1)，直连下一跳选择「否」点击「确定」完成策略路由配置。
 
@@ -105,23 +105,23 @@
 >
 > 例如：子网的CIDR为10.1.0.0/24，其中10.1.0.0为网络地址，10.1.0.255为广播地址，10.1.0.1为网关地址。
 
-<img src="../../../../image/CFW/CFW-1-24.png"  />
+![](../../../../image/CFW/CFW-1-24.png)
 
-<img src="../../../../image/CFW/CFW-1-25.png"  />
+![](../../../../image/CFW/CFW-1-25.png)
 
 #### 配置4：配置静态路由
 
 ​		配置静态路由（反向路由）将公网返回的流量重新发送给待防护VPC子网。在「网络」->「路由」->「静态路由」，点击「新建」创建静态路由。
 
-<img src="../../../../image/CFW/CFW-1-26.png"  />
+![](../../../../image/CFW/CFW-1-26.png)
 
 ​		配置路由「目的ip地址」和「掩码长度」用于表示**待防护子网**，下一跳所属配置为「公网」，下一跳IP地址配置为「**防护端点所在子网的网关地址**」，这个防护端点所在子网地址是10.0.254.3，因此网关地址为10.0.254.1，最后点击「确定」完成静态路由配置。
 
-<img src="../../../../image/CFW/CFW-1-27.png"  />
+![](../../../../image/CFW/CFW-1-27.png)
 
 ​		点击保存配置，完成防护端点配置。
 
-<img src="../../../../image/CFW/CFW-1-28.png"  />
+![](../../../../image/CFW/CFW-1-28.png)
 
 ### 配置互联子网路由
 
@@ -131,33 +131,33 @@
 
 例：被保护云主机“svc-02”，所在子网“vpc-1-subn-2”
 
-<img src="../../../../image/CFW/CFW-1-29.png" style="zoom:100%;" />
+![](../../../../image/CFW/CFW-1-29.png)
 
 ​		通过[云主机控制台](https://cns-console.jdcloud.com/host/compute/list)进入子网控制台，查看子网使用的路由规则
 
-<img src="../../../../image/CFW/CFW-1-30.png"  />
+![](../../../../image/CFW/CFW-1-30.png)
 
 （2）通过[云防火墙控制台](https://cloudfw-console.jdcloud.com/list)，查看防护端点所在互联子网
 
 例：防火墙实例绑定
 
-<img src="../../../../image/CFW/CFW-1-31.png"  />
+![](../../../../image/CFW/CFW-1-31.png)
 
 （3）通过[子网控制台](https://cns-console.jdcloud.com/host/subnet/list)，找到该互联子网关联路由表
 
 例：防火墙实例绑定的互联子网为“vpc-1-subn-7”，找到其关联路由表
 
-<img src="../../../../image/CFW/CFW-1-32.png"  />
+![](../../../../image/CFW/CFW-1-32.png)
 
 （4）确保该路由表表项与待防护子网表项一致，**即可完成此部分配置**
 
 例：被保护云主机“svc-02”，所在子网“vpc-1-subn-2”关联路由表表项为：
 
-<img src="../../../../image/CFW/CFW-1-34.png"  />
+![](../../../../image/CFW/CFW-1-34.png)
 
 互联子网“vpc-1-subn-7”关联路由表项为：
 
-<img src="../../../../image/CFW/CFW-1-35.png"  />
+![](../../../../image/CFW/CFW-1-35.png)
 
 保证这两张路由表表项一致即可，建议互联子网直接使用和待防护子网相同的路由。
 
@@ -167,23 +167,22 @@
 
 ​		将待防护VPC子网流量引导进云防火墙，进入京东云[路由表控制台](https://cns-console.jdcloud.com/host/routeTable/list)，新建路由表，选择待防护VPC。
 
-<img src="../../../../image/CFW/CFW-1-36.png"  />
+![](../../../../image/CFW/CFW-1-36.png)
 
 ​		配置路由策略，目的0.0.0.0/0，下一跳类型「弹性网卡」，下一跳指定弹性网卡名称，弹性网卡名称通过访问私有网络[弹性网卡控制台](https://cns-console.jdcloud.com/host/eni/list)，根据防护端点对应的VPC、所属子网和内网IP，找到网卡ID/名称。
 
-<img src="../../../../image/CFW/CFW-1-37.png"  />
+![](../../../../image/CFW/CFW-1-37.png)
 
 ​		访问[子网控制台](https://cns-console.jdcloud.com/host/subnet/list)，找到待防护子网，选择更换路由表，将路由表更换为新建路由表。
 
-<img src="../../../../image/CFW/CFW-1-38.png"  />
+![](../../../../image/CFW/CFW-1-38.png)
 
 #### 公网路由
 
 ​		将访问待防护VPC的公网流量路由转发引流至云防火墙，进入[路由表控制台](https://cns-console.jdcloud.com/host/routeTable/list)，创建「路由」私有网络选择「待防护VPC」，绑定对象类型选择「公网网关」，配置公网路由名称，确定创建待防护VPC公网入方向路由。
 
-<img src="../../../../image/CFW/CFW-1-39.png"  />
+![](../../../../image/CFW/CFW-1-39.png)
 
 ​		路由策略配置，目的端IP是待防护子网IP段，下一跳类型选择「弹性网卡」，下一跳选择弹性网卡名称/ID。
 
-<img src="../../../../image/CFW/CFW-1-40.png"  />
-
+![](../../../../image/CFW/CFW-1-40.png)
