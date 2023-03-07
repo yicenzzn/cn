@@ -27,7 +27,9 @@ A(数据级备份)-->B(系统级备份)-->C(数据库备份)-->D(数据同城容
 
 **1.1 windows操作系统（windows server 2008及以上）**
 
-1、使用开源的Rclone工具，将对象存储oss挂载为windows下的一个虚拟磁盘。
+1、使用开源的Rclone和WinFsp工具，将对象存储oss挂载为windows下的一个虚拟磁盘。
+
+详细指导请参考：https://rclone.org/install/
 
 2、使用windows server 2008自带的windows server backup工具，它可以帮助你备份整个Windows Server、选定的卷、系统状态、特定文件或文件夹，或创建裸机备份以进行裸机恢复。除此之外，你还可以还原系统状态、卷、文件或文件夹以及某些软件。
 
