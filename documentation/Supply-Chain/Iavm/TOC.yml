@@ -18,6 +18,20 @@ items:
   items:
     - name: 计费说明
       href: price/price.md    
+      
+- name: 最佳实践
+  items:
+    - name: 使用WordPress搭建网站
+      href: practices/wordpress.md   
+    - name: 1分钟搭建博客系统
+      href: practices/ghost.md 
+    - name: 搭建跨境电商平台
+      href: practices/prestashop.md
+    - name: 搭建协同办公环境
+      href: practices/collaboration.md 
+    - name: 零代码搭建CRM、ERP系统
+      href: practices/zero.md  
+
 
 
 - name: 操作指南
