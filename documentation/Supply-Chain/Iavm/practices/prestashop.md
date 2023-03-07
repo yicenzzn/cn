@@ -49,7 +49,7 @@ PrestaShop 是国外优秀的电子商务内容管理系统，操作简单，使
 
 
 
-## 管理员登录 
+## 管理员登录
 
 后续管理员登录PrestaShop后台，您需要登录轻量云主机获取登录地址
 
@@ -67,4 +67,33 @@ PrestaShop 是国外优秀的电子商务内容管理系统，操作简单，使
 使用浏览器访问PrestaShop前台展示地址（在应用详情页获取地址）
 
 ![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/prestashop2.png)
+
+
+## 设置成中文
+
+登录PrestaShop管理员后台，选择International -> Localization， 选择China进行导入
+
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/prestashop3.png)
+
+
+如果提示This functionality has been disabled， 请远程登录轻量云主机
+
+输入命令 cd /var/lib/docker/volumes/prestashop_prestashop/_data/config
+
+修改defines.inc.php 文件，修改 PS_MODE_DEMO 为false， 并在管理员后台重新选择China进行导入
+
+
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/prestashop4.png)
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/prestashop5.png)
+
+
+点击右上角Your profile， 修改language 为中文
+
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/prestashop6.png)
+
+
+查看管理员后台显示中文
+
+
+![图片名称](https://img1.jcloudcs.com/cn/image/iavm/%E5%9B%BE%E7%89%876/prestashop7.png)
 
