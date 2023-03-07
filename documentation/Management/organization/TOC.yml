@@ -1,2 +1,17 @@
-cce
-de
+name: 组织账号管理
+href:
+items:
+
+  - name: 组织管理
+    items:
+      - name:查看成员列表及成员基础信息
+        href:organization/view-the-member-list-and-basic-member-information.md
+      - name: 移除组织成员
+        href: organization/Remove-organization-members.md
+      - name: 添加组织成员
+        href:organization/add-organization-members.md
+      - name: 取消成员邀请
+        href: organization/Cancel-the-member-invitation.md
+      - name: 成员接收邀请及退出组织
+        href:organization/Members-receive-invitations-and-leave-the-organization.md
+
