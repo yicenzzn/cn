@@ -16,7 +16,7 @@ items:
       - name: 使用云解析服务添加域名解析
         href: Built-Websites/JDCloud-DNS-Add-Domain-Analysis.md
         
-  - name: 企业上云
+  - name: 中小企业上云
     items:
       - name: 云主机产品介绍
         href: Cloud/Cloud-CVM-Introduce.md
@@ -24,4 +24,9 @@ items:
         href: Cloud/Cloud-Function-Description.md
       - name: 成本评估
         href: Cloud/Cloud-Cost-Evaluation.md
-     
+      - name: 数据备份/容灾
+        href: Cloud/Cloud-Guide-Backup.md
+      - name: 企业安全云盘
+        href: Cloud/Cloud-Guide-Secsolution.md
+      - name: 企业建站/小程序的高性能架构
+        href: Cloud/Cloud-Guide-HighPerf.md     
