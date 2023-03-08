@@ -125,6 +125,10 @@ items:
                 href:  Operation-Guide/Instance/Bare-Metal/Bare-Metal-Overview.md
               - name: 创建裸金属实例
                 href:  Operation-Guide/Instance/Bare-Metal/Create-BM-Instance.md
+          - name: 抢占式实例
+            items: 
+              - name: 抢占式实例概述
+                href:  Operation-Guide/Instance/Spot-Instance/Spot-Instance-Overview.md
           - name: 实例元数据
             items:     
               - name: 实例元数据

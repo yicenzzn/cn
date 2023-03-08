@@ -31,6 +31,7 @@
 | network/[serial-no]/security-group-ids| 实例网卡[serial-no]所绑定的安全组 | ["sg-wx0ivnxxxx","sg-jh8ebvxxxx"]
 | attributes/customdata/userdata/launch-script | 用户自定义启动脚本，base64后结果 |"IyEvYmluL2Jhc2gKZWNobyAnaGVsbG8n"
 | attributes/customdata/custom-metadata/[key]| 用户自定义元数据[key]对应的value值|
+| spot/termination-time | 抢占式实例预计回收时间（UTC格式） |"2022-12-12T18:02:00Z"
 
 
 ## 查看元数据
