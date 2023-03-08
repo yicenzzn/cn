@@ -15,7 +15,7 @@
 5. 退订申请发起后无法终止，请谨慎操作。
 6. **所有产品退订申请，一个自然年内可退款总金额上限为 100,000.00 元。**
 
-如果您在退订过程中遇到问题，可通过 [提交订单工单](https://ticket.jdcloud.com/applyorder/form?cateId=1096&questionId=1097) 或拨打400-098-8505转2处理。
+如果您在退订过程中遇到问题，可通过 [提交工单](https://ticket.jdcloud.com/applyorder/form?cateId=1096&questionId=1097)（订单类工单）获取人工支持。
 
 ## 五天无理由全额退款
 
