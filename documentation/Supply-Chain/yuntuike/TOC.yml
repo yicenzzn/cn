@@ -2,7 +2,13 @@ name: 京东云云推客
 href: 
 items:
 - name: 操作指南
-  href: operation/explain.md
+  items:
+  - name: 加入推客
+    href: operation/explain.md
+  - name: 推广任务
+    href: operation/explain.md
+  - name: 查看佣金
+    href: operation/explain.md
 
 
 - name: 详细规则
