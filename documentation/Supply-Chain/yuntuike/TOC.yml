@@ -4,23 +4,15 @@ items:
 - name: 操作指南
   items:
   - name: 加入推客
-    href: operation/explain.md
+    href: operation/settle-in.md
   - name: 推广任务
-    href: operation/explain.md
+    href: operation/popularize.md
   - name: 查看佣金
-    href: operation/explain.md
-
-
+    href: operation/check-accounts.md
 - name: 详细规则
-  href: Commission-rules/rules.md    
-  
-
-      
+  href: Commission-rules/rules.md         
 - name: 产品清单
-  href: product-list/list.md
-
-     
-      
+  href: product-list/list.md     
 - name: 常见问题
   href: FAQ/QA.md
 
