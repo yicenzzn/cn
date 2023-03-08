@@ -29,11 +29,11 @@ A(数据级备份)-->B(系统级备份)-->C(数据库备份)-->D(数据同城容
 
 1、使用开源的Rclone和WinFsp工具，将对象存储oss挂载为windows下的一个虚拟磁盘。
 
-详细指导请参考：https://rclone.org/install/
+https://rclone.org/install/
 
 2、使用windows操作系统自带的windows server backup工具，它可以帮助你备份整个Windows Server、选定的卷、系统状态、特定文件或文件夹，或创建裸机备份以进行裸机恢复。除此之外，你还可以还原系统状态、卷、文件或文件夹以及某些软件。
 
-https://www.abackup.com/easybackup-tutorials/windows-server-file-backup-631.html
+https://blog.csdn.net/ziyeqingshang/article/details/49662963
 
 缺点：新的备份，会覆盖前一个备份。
 
@@ -43,7 +43,7 @@ https://www.abackup.com/easybackup-tutorials/windows-server-file-backup-631.html
 
 https://docs.jdcloud.com/cn/object-storage-service/s3fs
 
-2、使用dump和restore工具，实现卷的备份
+2、使用dump和restore工具，实现数据/文件的备份和恢复。
 
 https://blog.csdn.net/gushendezhufu/article/details/126247714
 
@@ -63,9 +63,6 @@ https://blog.csdn.net/gushendezhufu/article/details/126247714
 
 **注：制作云硬盘快照时，首次快照将备份全量数据，后续每次备份均为增量备份。**
 ![image](../../../../image/Elastic-Compute/CloudDisk/cloud-disk/increment.png) 
-
-
-
 
 ### 三、数据库备份
 1、针对客户自建数据库系统的场景，使用数据库备份DBS产品，提供物理备份和逻辑备份两种模式。可以实时备份数据到云端或异地机房，为数据库提供持续性、低成本的数据保护，帮助企业快速构建数据库备份中心，满足业务和监管备份合规性要求。
