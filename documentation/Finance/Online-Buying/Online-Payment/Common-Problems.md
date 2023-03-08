@@ -11,14 +11,14 @@
 ## 确认订单后付款页面打不开怎么办？
 付款页面打不开一般常见的原因是由于网络或浏览器的关系，请您检查网络是否异常，网络可用可按以下方法检查：
 
-*关闭您的防火墙(包括加装的防火墙和 Windows 自带防火墙)试下。Windows 自带防火墙关闭的方法如下：开始>所有程序>控制面板当中的 Windows 防火墙，设置为关闭。加装防火墙一般退出防火墙程序即可。
+（1）关闭您的防火墙(包括加装的防火墙和 Windows 自带防火墙)试下。Windows 自带防火墙关闭的方法如下：开始>所有程序>控制面板当中的 Windows 防火墙，设置为关闭。加装防火墙一般退出防火墙程序即可。
 
-*在IE浏览器当中的，工具>Internet选项>高级，安全当中将ssl2.0和ssl3.0设置为打勾。
+（2）在IE浏览器当中的，工具>Internet选项>高级，安全当中将ssl2.0和ssl3.0设置为打勾。
 
-*请把 https://www.jdcloud.com加入可信站点。在工具－Internet选项－安全－受信任的站点中加入受信任的站点https://www.jdcloud.com 。同时请检查受限制站点是否有https://www.jdcloud.com 若是请删除。
+（3）请把 https://www.jdcloud.com 加入可信站点。在工具－Internet选项－安全－受信任的站点中加入受信任的站点 https://www.jdcloud.com 。同时请检查受限制站点是否有https://www.jdcloud.com 若是请删除。
 
 
 ## 同一笔订单重新支付了怎么办？
 如果您由于误操作，针对同一笔订单进行了重复支付，京东云会自动将您的支付金额退还至您的余额账户；
 
-您可以登录[控制台](https://console.jdcloud.com/)-进入费用管理-[资金账户](https://uc.jdcloud.com/cost/capital/capital-overview)页面查看充值记录及核对资金账户信息。
+您可以登录费用管理控制台-[资金账户](https://uc.jdcloud.com/cost/capital/capital-overview)页面查看充值记录及核对资金账户信息。
