@@ -22,4 +22,4 @@
 ## 同一笔订单重新支付了怎么办？
 如果您由于误操作，针对同一笔订单进行了重复支付，京东云会自动将您的支付金额退还至您的余额账户；
 
-您可以登录费用管理控制台-[资金账户](https://uc.jdcloud.com/cost/capital/capital-overview)页面查看充值记录及核对资金账户信息。
+您可以登录费用管理控制台 - [资金账户](https://uc.jdcloud.com/cost/capital/capital-overview) 页面查看充值记录及核对资金账户信息。
