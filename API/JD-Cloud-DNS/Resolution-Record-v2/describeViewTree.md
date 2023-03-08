@@ -22,7 +22,7 @@ https://domainservice.jdcloud-api.com/v2/regions/{regionId}/domain/{domainId}/vi
 |---|---|---|---|---|
 |**loadMode**|Integer|False| |展示方式，暂时不使用|
 |**packId**|Integer|True| |套餐ID，0->免费版 1->企业版 2->企业高级版|
-|**viewId**|Integer|True| |view ID，默认为-1|
+|**viewId**|Integer|True| |view ID，默认为0|
 
 
 ## 返回参数
