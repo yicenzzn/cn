@@ -16,7 +16,7 @@
 
 2、在 IE 浏览器当中的，工具 > Internet 选项 > 高级，安全当中将 ssl2.0 和 ssl3.0 设置为打勾。
 
-3、请把 https://www.jdcloud.com 加入可信站点。加入方法：在工具－Internet 选项－安全－受信任的站点中加入受信任的站点 https://www.jdcloud.com 。同时请检查受限制站点是否有https://www.jdcloud.com 若是请删除。
+3、请把 https://www.jdcloud.com 加入可信站点。加入方法：在工具－Internet 选项－安全－受信任的站点中加入受信任的站点 https://www.jdcloud.com 。同时请检查受限制站点是否有 https://www.jdcloud.com 若是请删除。
 
 
 ## 同一笔订单重新支付了怎么办？
