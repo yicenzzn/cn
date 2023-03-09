@@ -357,5 +357,5 @@ IOS版本京东云APP涉及嵌入第三方SDK的情形如下：
 
 6. **注销本京东云账户并不代表本京东云账户注销前的账户行为和相关责任得到豁免或减轻。**
 
-[京东云隐私政策-PDF下载](https://github.com/jdcloudcom/cn/blob/jccsgithub-patch-18/image/Service-Agreements-and-Guarantees/Platform-Agreement/JDcloud-Privacy-Policy-2023PDF.pdf)
+   [京东云隐私政策-PDF下载](https://github.com/jdcloudcom/cn/blob/Jccsgithub-ycy-20230309/image/Service-Agreements-and-Guarantees/Platform-Agreement/JDcloud-Privacy-Policy-2023.pdf)
 
