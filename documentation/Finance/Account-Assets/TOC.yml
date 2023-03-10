@@ -11,6 +11,8 @@
         href: Funds/Remittance.md
       - name: 提现
         href: Funds/Withdrawal.md
+      - name: 授权子用户管理资金账户
+        href: Funds/manage-iam.md
   - name: 卡券管理
     items:
       - name: 代金券
