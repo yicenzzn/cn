@@ -1,0 +1,80 @@
+name: 前端应用监控 SGM-WEB
+href: 
+items:
+- name: 产品简介
+  items:
+    - name: 产品概述
+      href: Introduction/Product-Overview.md
+    - name: 核心概念
+      href: Introduction/Core-Concepts.md
+    - name: 产品优势
+      href: Introduction/Benefits.md
+    - name: 产品功能
+      href: Introduction/Features.md
+    - name: 应用场景 
+      href: Introduction/Application-Scenarios.md
+- name: 产品定价
+  items:
+    - name: 计费概述
+      href: Pricing/Billing-Overview.md
+- name: 入门指南
+  items:
+    - name: H5应用接入
+      href: Getting-Started/sgm-h5-start.md
+    - name: 小程序接入
+      href: Getting-Started/sgm-mini-start.md
+- name: 操作指南
+  items:
+    - name: 应用概览
+      href: Operation-Guide/Overview/Overview.md
+    - name: 应用主页
+      href: Operation-Guide/Home/Home.md
+    - name: 页面技术指标监控
+      href: Operation-Guide/Web-Metric/Web-Metric.md
+    - name: 用户性能指标监控
+      href: Operation-Guide/User-Metric/User-Metric.md
+    - name: API监控
+      href: Operation-Guide/API-Monitor/API-Monitor.md
+    - name: JS错误监控
+      href: Operation-Guide/JS-Error/JS-Error.md
+    - name: 资源监控
+      href: Operation-Guide/Resource-Monitor/Resource-Monitor.md
+    - name: 自定义监控
+      href: Operation-Guide/Resource-Monitor/Custom-Monitor.md
+    - name: 告警管理
+      href: Operation-Guide/Alarm/Alarm.md
+    - name: 周报订阅
+      href: Operation-Guide/Resource-Monitor/Weekly-Report.md
+    - name: 用户轨迹
+      href: Operation-Guide/User-Trace/User-Trace.md
+    - name: 数据对比
+      href: Operation-Guide/Resource-Monitor/Data-Compare.md
+    - name: 行为分析
+      href: Operation-Guide/Resource-Monitor/Behavior-Analyse.md
+- name: 最佳实践
+  items:
+    - name: 场景一：查看页面加载比较慢的原因
+      href: Best-Practices/Best-Practices1.md
+    - name: 场景二：查看页面url完全加载耗时及调用量排行
+      href: Best-Practices/Best-Practices2.md
+    - name: 场景三：查看页面所有ipv4或者ipv6的指标情况
+      href: Best-Practices/Best-Practices3.md
+    - name: 场景四：查看某网络接口在不同域名的指标情况
+      href: Best-Practices/Best-Practices4.md
+    - name: 场景五：查看js错误在不同浏览器的分布情况
+      href: Best-Practices/Best-Practices5.md
+    - name: 场景六：分析js错误详细堆栈，进行错误定位
+      href: Best-Practices/Best-Practices6.md
+- name: 常见问题
+  href: FAQ/FAQ.md
+- name: 开发指南
+  items:
+    - name: H5开发指南
+      href: Development-Guide/h5.md
+    - name: 小程序开发指南
+      href: Development-Guide/mp.md
+- name: 用户协议
+  items:
+    - name: 服务条款
+      href: User-Agreement/Product-Terms-Of-Service.md        
+
