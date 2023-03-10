@@ -21,3 +21,5 @@
 	]
 }
 ```
+
+关于在访问控制 IAM 服务中对子用户进行授权的操作，请参考：[管理 IAM 子用户]https://docs.jdcloud.com/cn/iam/manage-user()
