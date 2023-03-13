@@ -1,4 +1,4 @@
-name: 京东云星盾安全加速
+name: 京东云星盾安全加速 SCDN
 href:
 items:
   - name: 产品简介
@@ -45,4 +45,6 @@ items:
     items:
       - name: FAQ
         href: FAQ/FAQ.md
+      - name: 错误状态码
+        href: FAQ/Error-Code.md
           
