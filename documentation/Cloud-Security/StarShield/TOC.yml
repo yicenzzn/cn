@@ -31,7 +31,7 @@ items:
         href: Getting-Started/Getting-Started.md
   - name: 操作指南
     items:
-      - name: DNS
+      - name: 域名管理
         href: Operation-Guide/DNS.md
       - name: 缓存
         href: Operation-Guide/Cache.md
