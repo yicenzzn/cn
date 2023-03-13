@@ -9,16 +9,16 @@
    </tr>
    <tr>
       <td> Wndows </td>
-      <td> VNC 登录<br>远程桌面连接  </td>
+      <td> VNC 登录<br>WebTerminal 登录<br>远程桌面连接  </td>
       <td rowspan="3"> VNC登录 </td>
    </tr>
    <tr>     
       <td> Linux </td>
-      <td>VNC 登录<br>rdesktop登录   </td>
+      <td>VNC 登录<br>WebTerminal 登录<br>rdesktop登录   </td>
    </tr>
    <tr>  
       <td> Mac OS    </td>
-      <td> VNC 登录<br>Remote Desktop登录 </td>
+      <td> VNC 登录<br>WebTerminal 登录<br>Remote Desktop登录 </td>
    </tr>
 </table>
 
@@ -29,6 +29,46 @@
 * 密码：京东云实例可以通过两种方式获取密码
   *  在创建实例时，选择**暂不设置**，则系统将以短信及邮件方式发送默认密码，您可以在登录实例时，使用默认密码进行验证。
   *  选择**立即设置**，则在密码设置文本框中输入自定义密码，如果忘记密码，可以通过[重置密码](../Operation-Guide/Instance/Reset-Password.md)功能重新设置密码，此功能只有“运行”状态实例可用。
+
+## 使用 WebTerminal 登录Windows实例
+WebTerminal是京东云提供的基于SSH/RDP协议的Web远程终端工具，安全组开放SSH/RDP对应端口后，可直接在Web上远程登录云主机实例。支持命令复制粘贴、多用户登录、多会话、可视化查看系统文件资源等功能。
+
+由于WebTerminal服务会使用内部地址对客户端发起的SSH请求进行转发，因此需要预先确认实例绑定的安全组和网络ACL（如有）在入方向允许的规则中包含服务使用的地址网段。不同连接方式和不同地域下所需添加的网段如下：（如入方向源IP未限定具体IP地址或网段，则无需再额外配置）
+* 内网连接：不区分地域，地址为 **100.64.0.0/10**
+* 公网连接：
+  * 华北-北京：**114.67.239.0/24**
+  * 华南-广州：**114.67.202.0/24**
+  * 华东-上海：**114.67.126.0/24**
+  * 华东-宿迁：**116.198.205.0/24**
+
+
+1. 在实例列表的操作列，点击 **远程连接** ，在登录方式选择中选择 **WebTerminal登录**。
+2. 
+<div align="center">
+<img src="https://img1.jcloudcs.com/cn/image/vm/webterminal.png" width="700">
+</div>
+
+2. 在登录弹窗中，根据实际情况完成选择或填写
+* 实例：可切换当前地域下的实例，仅显示请求时状态为 **运行中** 的实例。
+* 连接方式：绑定弹性公网IP情况下可选通过公网或内外连接，如未绑定弹性公网IP将默认使用内外连接。
+* 端口：填写RDP端口。默认3389，如自行修改了RDP端口请酌情填写。
+* 用户名：默认为administrator，如在实例内创建了其他用户可按登录需求填写。
+* 认证方式：仅支持密码。
+* 会话名称：默认为administrator@<实例ID>，可自行修改为方便识别的会话名称。
+
+<div align="center">
+<img src="https://img1.jcloudcs.com/cn/image/vm/webterminal-windows.jpg" width="450">
+</div>
+
+3. 登录成功后，可在Web端管理实例。由于RDP协议不支持多会话，因此Windows实例的会话不支持复制，同时，由于可直接通过文件夹查看系统内文件，左侧边栏的“系统文件目录”功能在Windows会话窗口下不支持。
+
+
+<div align="center">
+<img src="https://img1.jcloudcs.com/cn/image/vm/webterminal-windows1.png" width="700">
+</div>
+
+>请注意：
+>* 边缘可用区实例不支持通过内网IP登录，须绑定弹性公网IP后通过公网登录
 
 ## 使用VNC登录实例
 VNC登录是京东云为用户提供的一种通过 Web 浏览器远程连接实例的方式。在没有安装远程登陆客户端或者客户端远程登陆无法使用的情况下，用户可以通过 VNC 登陆连接到实例，观察实例状态，并且可通过实例用户进行基本的实例管理操作。
