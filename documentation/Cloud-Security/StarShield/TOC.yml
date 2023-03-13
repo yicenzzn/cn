@@ -43,7 +43,7 @@ items:
         href: Operation-Guide/Page-rule.md
   - name: FAQ
     items:
-      - name: FAQ
+      - name: 常见问题
         href: FAQ/FAQ.md
       - name: 错误状态码
         href: FAQ/Error-Code.md
