@@ -4,20 +4,20 @@
 
 ### 系统列表
 
-![deploy](http://devops-minio.jdcloud.com/doc-image/All-Image/system.assets/jindowin1.png)
+![deploy](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/system.assets/jindowin1.png)
 
 ### 创建系统
 
 在系统列表，点击右上角的新建系统按钮，进入新建系统界面
 
-![deploy](http://devops-minio.jdcloud.com/doc-image/All-Image/system.assets/jindowin2.png)
+![deploy](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/system.assets/jindowin2.png)
 
 ### 应用列表
 
- ![deploy](http://devops-minio.jdcloud.com/doc-image/All-Image/system.assets/jindowin3.png)
+ ![deploy](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/system.assets/jindowin3.png)
 
 ### 系统基本信息
 
-![deploy](http://devops-minio.jdcloud.com/doc-image/All-Image/system.assets/jindowin4.png)
+![deploy](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/system.assets/jindowin4.png)
 
 ## 

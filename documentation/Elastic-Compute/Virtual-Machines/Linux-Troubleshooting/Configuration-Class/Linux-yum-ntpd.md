@@ -89,20 +89,10 @@ wq保存文件退出。
 
 ①您使用CentOS 8镜像创建的云主机和基于该镜像所创建的私有镜像，后续仍可正常使用，但无法获得包括问题修复和功能更新在内的任何软件维护和支持。
 
-②原有CentOS 8 yum源将不能访问，为保证您存量云主机的使用，建议使用centos-vault作为停止支持的CentOS的yum源。切换方法如下：
+②原有CentOS 8 yum源将不能访问，为保证您存量云主机的使用，京东云已将centos-vault停止支持的CentOS yum源下载到京东云本地，您获取yum源时将默认从http://mirrors.jdcloudcs.com/repo/CentOS-vault-8.2.repo 下载。
 
-在虚机中下载 http://mirrors.jdcloudcs.com/repo/CentOS-8-vault.repo 文件，替换原CentOS-8.repo文件，具体操作命令如下：
 
-```bash
-cd /etc/yum.repos.d
-wget http://mirrors.jdcloudcs.com/repo/CentOS-8-vault.repo
-mv CentOS-8.repo /root
-yum clean all
-```
-
-以上操作成功后即可继续使用yum安装软件。
-
-**4.Ubantu系统：**
+**4.Ubuntu系统：**
 
 执行`vi /etc/apt/sources.list`
 ，将原有内容替换为如下内容：

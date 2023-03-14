@@ -25,3 +25,7 @@ v1
 | **uploadStamp**          | POST     | 上传印章                                                     |
 | **uploadTemplate**       | POST     | 上传合同模板                                                 |
 | **verifyContract**       | POST     | 验签已签章合同                                               |
+| **getEvidence**       | GET    | 单证据链取证                                               |
+| **getMultiEvidence**       | GET    | 多证据链取证                                               |
+| **saveEvidence**       | POST    | 单证据链存证                                               |
+| **saveMultiEvidence**       | POST    | 多证据链存证                                               |

@@ -583,7 +583,6 @@ g.n1.8xlarge|32|128|8|4 |	 |
 * 提供低时延高IO的本地存储
 * 处理器：
 	* 第三代：第三代：2.6 GHz主频的Intel Xeon Platinum 8338C（Icelake）处理器 或 2.6 GHz主频的Intel Xeon Gold 6267（Cascade Lake）处理器
-	* 第二代：2.4 GHz主频的Intel Xeon Gold 6148（Skylake）处理器
 	* 第一代：2.1 GHz主频的Intel Xeon E5-2683 v4（Broadwell）处理器
 * 支持本地数据盘（临时存储），并支持以下类型云硬盘。请注意 **本地数据盘为临时存储盘，有丢失数据的风险（比如发生迁移或宿主机宕机等情况），不适用于应用层没有数据冗余架构的使用场景， 建议您使用云硬盘存储重要数据。** 
 	* 通用型SSD云盘
@@ -681,7 +680,7 @@ GPU型当前提供GPU标准型和GPU虚拟化型。GPU虚拟化型规格目前�
 * 异构计算
 * GPU：
 	*  第三代：Nvidia Tesla A100（显存80 GiB）
-	*  第一代：Nvidia Tesla P40 或 Nvidia Tesla V100（显存16 GiB）
+	*  第一代：Nvidia Tesla P40（显存24 GiB） 或 Nvidia Tesla V100（显存16 GiB）
 * 处理器：
 	* 第三代：2.6 GHz主频的Intel Xeon Platinum 8338C（Icelake）处理器
 	* 第一代：2.1 GHz主频的Intel Xeon E5-2683 v4（Broadwell）处理器（P40）或 2.2 GHz主频的Intel Xeon E5-2650 v4（Broadwell）处理器（V100）
@@ -854,18 +853,33 @@ GPU型当前提供GPU标准型和GPU虚拟化型。GPU虚拟化型规格目前�
 
 * vCPU与内存比为1:4
 * 处理器：
+	* 3.0 GHz主频的 Ampere Altra Max 处理器
 	* 2.1 GHz主频的 PHYTIUM S2500 处理器
 * 支持以下类型云硬盘：
 	* 通用型SSD云盘
 	* 性能型SSD云盘
 	* 容量型HDD云盘
 * 镜像使用限制：
-	* 仅支持云盘系统盘镜像，目前官方镜像仅支持 OpenEuler 21.09（须工单申请）
+	* 仅支持云盘系统盘镜像，目前官方镜像仅支持 OpenEuler 21.09
 * 适用场景：
 	* 信创相关互联网应用
 	* 各种类型和规模的企业级应用
 
 **实例规格**
+
+第三代（Ampere规格）
+
+实例规格|vCPU（核）|内存（GiB）|网卡数|单网卡队列数
+:---|:---|:---|:---|:---
+|g.n3ra.large|2|8|2|2
+|g.n3ra.xlarge|4|16|4|4
+|g.n3ra.2xlarge|8|32|4|4
+|g.n3ra.4xlarge|16|64|8|4
+|g.n3ra.8xlarge|32|128|8|4
+|g.n3ra.16xlarge|64|256|8|4
+
+
+第三代（PHYTIUM规格）
 
 实例规格|vCPU（核）|内存（GiB）|网卡数|单网卡队列数
 :---|:---|:---|:---|:---
@@ -884,18 +898,32 @@ GPU型当前提供GPU标准型和GPU虚拟化型。GPU虚拟化型规格目前�
 
 * vCPU与内存比为1:2
 * 处理器：
+	* 3.0 GHz主频的 Ampere Altra Max 处理器
 	* 2.1 GHz主频的 PHYTIUM S2500 处理器
 * 支持以下类型云硬盘：
 	* 通用型SSD云盘
 	* 性能型SSD云盘
 	* 容量型HDD云盘
 * 镜像使用限制：
-	* 仅支持云盘系统盘镜像，目前官方镜像仅支持 OpenEuler 21.09（须工单申请）
+	* 仅支持云盘系统盘镜像，目前官方镜像仅支持 OpenEuler 21.09
 * 适用场景：
 	* 信创相关互联网应用
 	* 各种类型和规模的企业级应用
 
 **实例规格**
+
+第三代（Ampere规格）
+
+实例规格|vCPU（核）|内存（GiB）|网卡数|单网卡队列数
+:---|:---|:---|:---|:---
+|c.n3ra.large|2|4|2|2
+|c.n3ra.xlarge|4|8|4|4
+|c.n3ra.2xlarge|8|16|4|4
+|c.n3ra.4xlarge|16|32|8|4
+|c.n3ra.8xlarge|32|64|8|4
+|c.n3ra.16xlarge|64|128|8|4
+
+第三代（PHYTIUM规格）
 
 实例规格|vCPU（核）|内存（GiB）|网卡数|单网卡队列数
 :---|:---|:---|:---|:---
@@ -915,18 +943,33 @@ GPU型当前提供GPU标准型和GPU虚拟化型。GPU虚拟化型规格目前�
 
 * vCPU与内存比为1:8
 * 处理器：
+	* 3.0 GHz主频的 Ampere Altra Max 处理器
 	* 2.1 GHz主频的 PHYTIUM S2500 处理器
 * 支持以下类型云硬盘：
 	* 通用型SSD云盘
 	* 性能型SSD云盘
 	* 容量型HDD云盘
 * 镜像使用限制：
-	* 仅支持云盘系统盘镜像，目前官方镜像仅支持 OpenEuler 21.09（须工单申请）
+	* 仅支持云盘系统盘镜像，目前官方镜像仅支持 OpenEuler 21.09
 * 适用场景：
 	* 信创相关互联网应用
 	* 各种类型和规模的企业级应用
 
 **实例规格**
+
+第三代（Ampere规格）
+
+实例规格|vCPU（核）|内存（GiB）|网卡数|单网卡队列数
+:---|:---|:---|:---|:---
+|m.n3ra.large|2|16|2|2
+|m.n3ra.xlarge|4|32|4|4
+|m.n3ra.2xlarge|8|64|4|4
+|m.n3ra.4xlarge|16|128|8|4
+|m.n3ra.8xlarge|32|256|8|4
+|m.n3ra.16xlarge|64|512|8|4
+
+
+第三代（PHYTIUM规格）
 
 实例规格|vCPU（核）|内存（GiB）|网卡数|单网卡队列数
 :---|:---|:---|:---|:---

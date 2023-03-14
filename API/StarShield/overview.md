@@ -27,6 +27,7 @@ v1
 |**updateIndividualFilter**|PUT|更新一个现有的筛选器。|
 |**updateIndividualFirewallRule**|PUT|更新一个单独的现有防火墙规则。|
 |**checkInstancesName**|GET|检查实例名称|
+|**closeFirewallBot**|DELETE|关闭BOT|
 |**createFlowPack**|POST|购买流量包|
 |**createInstance**|POST|创建套餐实例|
 |**describeInstanceByOrderNo**|GET|根据订单号查询套餐实例详情|
@@ -35,6 +36,7 @@ v1
 |**describePackages**|GET|套餐包列表查询|
 |**modifyInstance**|PUT|升级套餐实例|
 |**selectDetailList**|GET|套餐实例续费回调查询|
+|**ips**|GET|星盾节点信息|
 |**createPageRule**|POST|创建页面规则|
 |**deletePageRule**|DELETE|删除页面规则|
 |**listAvailablePageRuleSetting**|GET||
@@ -45,6 +47,8 @@ v1
 |**editUniversalSSLSettings**|PATCH|修补域的通用SSL设置|
 |**listCertificatePacks**|GET|对于给定域，列出所有激活的证书包|
 |**listSSLConfigurations**|GET|列出、搜索和筛选所有自定义SSL证书。|
+|**createSSLConfiguration**|POST|上载域的新SSL证书|
+|**editSSLConfiguration**|PATCH|上传SSL证书的新私钥和/或PEM/CRT。<br>注意，更新sni_custom证书的配置将导致返回新的资源id，并删除之前的资源id。<br>|
 |**orderAdvancedCertificateManagerCertificatePack**|POST|对于一个特定域，订购一个高级证书包|
 |**universalSSLSettingsDetails**|GET|获取域的通用SSL证书设置|
 |**editFirewallPackage**|PATCH|更改异常检测类型WAF规则包的灵敏度和操作|
@@ -52,7 +56,10 @@ v1
 |**listFirewallPackages**|GET|检索域的防火墙包|
 |**listRuleGroups**|GET|搜索、列出和排序包中包含的规则组|
 |**listRules**|GET|包内的搜索、排序和筛选规则|
+|**editRuleGroup**|PATCH|更新规则组的状态|
+|**editRule**|PATCH|更新规则在域上触发时将执行的操作|
 |**ruleGroupDetails**|GET|获取单个规则组|
+|**ruleDetails**|GET|页面规则详情|
 |**createZone**|POST|创建域|
 |**deleteZone**|DELETE|删除存在的域名|
 |**listZones**|GET|列出、搜索、排序和筛选您的域|
@@ -141,3 +148,59 @@ v1
 |**getWebPSetting**|GET|当请求图像的客户端支持WebP图像编解码器时。当WebP比原始图像格式具有性能优势时，星盾将提供WebP版本的图像。|
 |**getWebSocketsSetting**|GET|WebSockets是客户端和源服务器之间持续的开放连接。在WebSockets连接中，客户端和源服务器可以来回传递数据，而不需要重新建立会话。<br>这使得在WebSockets连接中的数据交换非常快。WebSockets经常被用于实时应用，如即时聊天和游戏。|
 |**getZoneEnableTLS1_3Setting**|GET|为该域启用加密TLS 1.3功能。|
+|**instanceBandwidthAvg**|POST|平均峰值带宽。查询范围最近6个月、查询最大跨度1个月。|
+|**instanceBandwidthMax**|POST|带宽峰值。查询范围最近6个月、查询最大跨度1个月。|
+|**instanceBandwidthP95**|POST|95峰值带宽。查询范围最近6个月、查询最大跨度1个月。|
+|**instanceBandwidthDateHistogram**|POST|带宽图。查询范围最近6个月、查询最大跨度1个月。|
+|**instanceBandwidthMultiDateHistogram**|POST|多指标的带宽图。查询范围最近6个月、查询最大跨度1个月。|
+|**bandwidthDateHistogramTopK**|POST|TopK域名的带宽图。查询范围最近6个月、查询最大跨度1个月。|
+|**bandwidthTopK**|POST|按域名的TopK峰值带宽。查询范围最近6个月、查询最大跨度1个月。|
+|**instanceBandwidthList**|POST|域名带宽列表，按带宽降序排列。查询范围最近6个月、查询最大跨度1个月。|
+|**instanceTrafficSum**|POST|总流量。查询范围最近6个月、查询最大跨度1个月。|
+|**instanceTrafficDateHistogram**|POST|流量图。查询范围最近6个月、查询最大跨度1个月。|
+|**instanceTrafficMultiDateHistogram**|POST|多指标的流量图。查询范围最近6个月、查询最大跨度1个月。|
+|**trafficDateHistogramTopK**|POST|TopK域名的流量图。查询范围最近6个月、查询最大跨度1个月。|
+|**trafficTopK**|POST|按域名的TopK总流量。查询范围最近6个月、查询最大跨度1个月。|
+|**instanceRequestSum**|POST|总请求量。查询范围最近6个月、查询最大跨度1个月。|
+|**instanceRequestDateHistogram**|POST|请求量图。查询范围最近6个月、查询最大跨度1个月。|
+|**instanceRequestMultiDateHistogram**|POST|多指标的请求量图。查询范围最近6个月、查询最大跨度1个月。|
+|**requestDateHistogramTopK**|POST|TopK域名的请求量图。查询范围最近6个月、查询最大跨度1个月。|
+|**requestTopK**|POST|按域名的TopK总请求量。查询范围最近6个月、查询最大跨度1个月。|
+|**zoneBandwidthAvg**|POST|平均峰值带宽。查询范围最近6个月、查询最大跨度1个月。|
+|**zoneBandwidthMax**|POST|带宽峰值。查询范围最近6个月、查询最大跨度1个月。|
+|**zoneBandwidthP95**|POST|95峰值带宽。查询范围最近6个月、查询最大跨度1个月。|
+|**zoneBandwidthDateHistogram**|POST|带宽图。查询范围最近6个月、查询最大跨度1个月。|
+|**zoneBandwidthMultiDateHistogram**|POST|多指标的带宽图。查询范围最近6个月、查询最大跨度1个月。|
+|**zoneTrafficSum**|POST|总流量。查询范围最近6个月、查询最大跨度1个月。|
+|**zoneTrafficDateHistogram**|POST|流量图。查询范围最近6个月、查询最大跨度1个月。|
+|**zoneTrafficMultiDateHistogram**|POST|多指标的流量图。查询范围最近6个月、查询最大跨度1个月。|
+|**zoneRequestSum**|POST|总请求量。查询范围最近6个月、查询最大跨度1个月。|
+|**zoneRequestDateHistogram**|POST|请求量图。查询范围最近6个月、查询最大跨度1个月。|
+|**zoneRequestMultiDateHistogram**|POST|多指标的请求量图。查询范围最近6个月、查询最大跨度1个月。|
+|**dashboard**|GET|The dashboard view|
+|**topK**|POST|按请求次数统计。获取国家/地区的请求分布情况；获取路径、主机、设备类型的TopK.|
+|**bandwidthTopK**|POST|按响应带宽统计。获取国家/地区的请求分布情况；获取路径、主机、设备类型的TopK.|
+|**dateHistogram**|POST|按请求次数统计，返回日期直方图.|
+|**dateHistogramBandwidth**|POST|按响应带宽统计，返回日期直方图.|
+|**bandwidthTrend**|POST|按请求或响应带宽统计，返回日期直方图.|
+|**cacheTopK**|POST|按请求次数统计。获取内容类型、路径、主机、设备类型、国家/地区、状态代码的TopK.|
+|**cacheBandwidthTopK**|POST|按响应带宽统计。获取内容类型、路径、主机、设备类型、国家/地区、状态代码的TopK.|
+|**cacheDateHistogram**|POST|按请求次数统计，返回日期直方图.|
+|**cacheDateHistogramBandwidth**|POST|按响应带宽统计，返回日期直方图。|
+|**firewallTopK**|POST|按防火墙事件数量统计。获取IP地址、用户代理、路径、主机、国家/地区、HTTP方法的TopK。|
+|**firewallDateHistogram**|POST|按防火墙事件数量统计，返回日期直方图.|
+|**qpsZone**|POST|qps on Zone|
+|**xps**|POST|域的每秒指标，request/bandwidth/waf/l7ddos/firewallRules|
+|**qpsInstance**|POST|qps|
+|**bpsZone**|POST|bps on Zone|
+|**bpsInstance**|POST|bps|
+|**firewallActivityLog**|POST|活动日志.|
+|**accessLog**|POST|访问日志.|
+|**groupBy**|GET|分组统计。|
+|**listLogpushJobs**|GET|列出域的日志推送作业|
+|**createLogpushJob**|POST|为域创建新的日志推送作业|
+|**fields**|GET|数据集可用的所有字段的列表。|
+|**fieldsDefault**|GET|数据集可用的所有默认字段列表。|
+|**updateLogpushJob**|PUT|更新日志推送作业|
+|**deleteLogpushJob**|DELETE|删除日志推送作业|
+|**checkDestinationExists**|POST|检查是否存在作业，处理该目标。|

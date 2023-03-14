@@ -14,7 +14,7 @@
    ```SQL
    # SSL 证书为上一步下载的证书文件所在路径
 
-   psql -host [域名] -port [端口] -user [用户名] -dbname [数据库] -password [密码] -sslrootcert [SSL 证书路径]-sslmode=verify-ca
+   psql "host= [域名]   port= [端口]  user= [用户名]  dbname= [数据库]  sslrootcert= [SSL 证书路径]  sslmode=verify-ca"
    ```
 
 当成功连接上云数据库 PostgreSQL 之后，就表示加密的连接已经成功建立

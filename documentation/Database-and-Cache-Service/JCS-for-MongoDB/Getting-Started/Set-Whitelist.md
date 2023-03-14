@@ -2,7 +2,7 @@
 
 云数据库MongoDB支持设置白名单功能，您可以通过白名单精确控制访问源。
 
-MongoDB实例创建完成后，默认会将当前实例所在VPC的CIDR加入到白名单，即对当前VPC内的IP无限制。此外，如果当前实例所在VOC支持IPv6，则默认仅添加IPv6 CIDR。
+MongoDB实例创建完成后，默认会将当前实例所在VPC的CIDR加入到白名单，即对当前VPC内的IP无限制。此外，如果当前实例所在VPC支持IPv6，则默认仅添加IPv6 CIDR。
 
 
 

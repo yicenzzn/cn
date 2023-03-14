@@ -27,7 +27,7 @@
       <td>华东-宿迁</td>    
    </tr>
    <tr>
-      <td rowspan="58">通用</td>
+      <td rowspan="70">通用</td>
       <td rowspan="14">共享</td>
       <td>g.s3.micro</td>
       <td>1</td>
@@ -169,7 +169,7 @@
       <td></td>
    </tr>
    <tr>
-      <td rowspan="44">标准</td>
+      <td rowspan="56">标准</td>
       <td>g.n4.medium</td>
       <td>1</td>
       <td>4</td>
@@ -387,6 +387,126 @@
       <td>6480</td>
       <td>18</td>
       <td>13.5</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3ra.large</td>
+      <td>2</td>
+      <td>8</td>
+      <td>192</td>
+      <td>192</td>
+      <td>0.40</td>
+      <td>0.40</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3ra.xlarge</td>
+      <td>4</td>
+      <td>16</td>
+      <td>384</td>
+      <td>384</td>
+      <td>0.80</td>
+      <td>0.80</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3ra.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>768</td>
+      <td>768</td>
+      <td>1.60</td>
+      <td>1.60</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3ra.4xlarge</td>
+      <td>16</td>
+      <td>64</td>
+      <td>1536</td>
+      <td>1536</td>
+      <td>3.20</td>
+      <td>3.20</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3ra.8xlarge</td>
+      <td>32</td>
+      <td>128</td>
+      <td>3072</td>
+      <td>3072</td>
+      <td>6.40</td>
+      <td>6.40</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3ra.16xlarge</td>
+      <td>64</td>
+      <td>256</td>
+      <td>6144</td>
+      <td>6144</td>
+      <td>12.80</td>
+      <td>12.80</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3r.large</td>
+      <td>2</td>
+      <td>8</td>
+      <td>220</td>
+      <td>220</td>
+      <td>0.46</td>
+      <td>0.46</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3r.xlarge</td>
+      <td>4</td>
+      <td>16</td>
+      <td>440</td>
+      <td>440</td>
+      <td>0.92</td>
+      <td>0.92</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3r.2xlarge</td>
+      <td>8</td>
+      <td>32</td>
+      <td>880</td>
+      <td>880</td>
+      <td>1.83</td>
+      <td>1.83</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3r.4xlarge</td>
+      <td>16</td>
+      <td>64</td>
+      <td>1760</td>
+      <td>1760</td>
+      <td>3.67</td>
+      <td>3.67</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3r.8xlarge</td>
+      <td>32</td>
+      <td>128</td>
+      <td>3520</td>
+      <td>3520</td>
+      <td>7.33</td>
+      <td>7.33</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>g.n3r.16xlarge</td>
+      <td>64</td>
+      <td>256</td>
+      <td>7040</td>
+      <td>7040</td>
+      <td>14.67</td>
+      <td>14.67</td>
       <td></td>
    </tr>
    <tr>
@@ -608,9 +728,9 @@
       <td>10.82</td>
       <td>8.12</td>
       <td></td>
-   </tr>
+   </tr> 
    <tr>
-      <td rowspan="60">计算优化</td>
+      <td rowspan="72">计算优化</td>
       <td rowspan="6">共享</td>
       <td>c.s3.large</td>
       <td>2</td>
@@ -774,7 +894,7 @@
       <td></td>
    </tr>
    <tr>
-      <td rowspan="44">标准</td>
+      <td rowspan="56">标准</td>
       <td>c.n4.large</td>
       <td>2</td>
       <td>4</td>
@@ -972,6 +1092,126 @@
       <td>6171</td>
       <td>17.14</td>
       <td>12.86</td>
+      <td></td>
+   </tr>
+   </tr>
+      <td>c.n3ra.large</td>
+      <td>2</td>
+      <td>4</td>
+      <td>149</td>
+      <td>149</td>
+      <td>0.31</td>
+      <td>0.31</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3ra.xlarge</td>
+      <td>4</td>
+      <td>8</td>
+      <td>298</td>
+      <td>298</td>
+      <td>0.62</td>
+      <td>0.62</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3ra.2xlarge</td>
+      <td>8</td>
+      <td>16</td>
+      <td>596</td>
+      <td>596</td>
+      <td>1.24</td>
+      <td>1.24</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3ra.4xlarge</td>
+      <td>16</td>
+      <td>32</td>
+      <td>1192</td>
+      <td>1192</td>
+      <td>2.48</td>
+      <td>2.48</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3ra.8xlarge</td>
+      <td>32</td>
+      <td>64</td>
+      <td>2384</td>
+      <td>2384</td>
+      <td>4.97</td>
+      <td>4.97</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3ra.16xlarge</td>
+      <td>64</td>
+      <td>128</td>
+      <td>4768</td>
+      <td>4768</td>
+      <td>9.93</td>
+      <td>9.93</td>
+      <td></td>
+   </tr>
+   </tr>
+      <td>c.n3r.large</td>
+      <td>2</td>
+      <td>4</td>
+      <td>172</td>
+      <td>172</td>
+      <td>0.36</td>
+      <td>0.36</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3r.xlarge</td>
+      <td>4</td>
+      <td>8</td>
+      <td>344</td>
+      <td>344</td>
+      <td>0.72</td>
+      <td>0.72</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3r.2xlarge</td>
+      <td>8</td>
+      <td>16</td>
+      <td>688</td>
+      <td>688</td>
+      <td>1.43</td>
+      <td>1.43</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3r.4xlarge</td>
+      <td>16</td>
+      <td>32</td>
+      <td>1376</td>
+      <td>1376</td>
+      <td>2.87</td>
+      <td>2.87</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3r.8xlarge</td>
+      <td>32</td>
+      <td>64</td>
+      <td>2752</td>
+      <td>2752</td>
+      <td>5.73</td>
+      <td>5.73</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>c.n3r.16xlarge</td>
+      <td>64</td>
+      <td>128</td>
+      <td>5504</td>
+      <td>5504</td>
+      <td>11.47</td>
+      <td>11.47</td>
       <td></td>
    </tr>
    <tr>
@@ -1215,8 +1455,8 @@
       <td></td>
    </tr>
    <tr>
-      <td rowspan="42">内存优化</td>
-      <td rowspan="35">标准</td>
+      <td rowspan="54">内存优化</td>
+      <td rowspan="47">标准</td>
       <td>m.n4.large</td>
       <td>2</td>
       <td>16</td>
@@ -1296,7 +1536,7 @@
       <td>33.42</td>
       <td></td>
    </tr>
-   </tr>
+   <tr>
       <td>m.n3.large</td>
       <td>2</td>
       <td>16</td>
@@ -1375,7 +1615,127 @@
       <td>21.2</td>
       <td>15.9</td>
       <td></td>
-   </tr>   
+   </tr> 
+   <tr>
+      <td>m.n3ra.large</td>
+      <td>2</td>
+      <td>16</td>
+      <td>254</td>
+      <td>254</td>
+      <td>0.53</td>
+      <td>0.53</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3ra.xlarge</td>
+      <td>4</td>
+      <td>32</td>
+      <td>508</td>
+      <td>508</td>
+      <td>1.06</td>
+      <td>1.06</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3ra.2xlarge</td>
+      <td>8</td>
+      <td>64</td>
+      <td>1016</td>
+      <td>1016</td>
+      <td>2.12</td>
+      <td>2.12</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3ra.4xlarge</td>
+      <td>16</td>
+      <td>128</td>
+      <td>2032</td>
+      <td>2032</td>
+      <td>4.23</td>
+      <td>4.23</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3ra.8xlarge</td>
+      <td>32</td>
+      <td>256</td>
+      <td>4064</td>
+      <td>4064</td>
+      <td>8.47</td>
+      <td>8.47</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3ra.16xlarge</td>
+      <td>64</td>
+      <td>512</td>
+      <td>8128</td>
+      <td>8128</td>
+      <td>16.93</td>
+      <td>16.93</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3r.large</td>
+      <td>2</td>
+      <td>16</td>
+      <td>292</td>
+      <td>292</td>
+      <td>0.61</td>
+      <td>0.61</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3r.xlarge</td>
+      <td>4</td>
+      <td>32</td>
+      <td>584</td>
+      <td>584</td>
+      <td>1.22</td>
+      <td>1.22</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3r.2xlarge</td>
+      <td>8</td>
+      <td>64</td>
+      <td>1168</td>
+      <td>1168</td>
+      <td>2.43</td>
+      <td>2.43</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3r.4xlarge</td>
+      <td>16</td>
+      <td>128</td>
+      <td>2336</td>
+      <td>2336</td>
+      <td>4.87</td>
+      <td>4.87</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3r.8xlarge</td>
+      <td>32</td>
+      <td>256</td>
+      <td>4672</td>
+      <td>4672</td>
+      <td>9.73</td>
+      <td>9.73</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>m.n3r.16xlarge</td>
+      <td>64</td>
+      <td>512</td>
+      <td>9344</td>
+      <td>9344</td>
+      <td>19.47</td>
+      <td>19.47</td>
+      <td></td>
+   </tr>
    <tr>
       <td>m.n2.large</td>
       <td>2</td>
@@ -2417,4 +2777,6 @@
 [云硬盘价格总览](http://docs.jdcloud.com/cn/cloud-disk-service/price-overview)
 
 [弹性公网IP价格总览](../../../Networking/Elastic-IP/Pricing/Price-Overview.md)
+
+
 

@@ -10,7 +10,7 @@
 
 如果是试用版建站服务，不提供备案授权码， 购买一年的建站服务，京美建站提供域名的备案授权码。
 
- [获取授权码](https://docs.jdcloud.com/cn/jdcloud-site/configure_domain)
+ [获取授权码](https://docs.jdcloud.com/cn/jdcloud-site/icp)
 
 
 ## 如何查看送的建站模板
@@ -18,7 +18,7 @@
 
 购买一年的建站服务，会送一款付费的模板，有“精美”角标展示的是送的模板。
 
- [查看模板](https://docs.jdcloud.com/cn/jdcloud-site/open_website)
+ [查看模板](https://docs.jdcloud.com/cn/jdcloud-site/open-website)
 
 
 
@@ -28,7 +28,7 @@
 
 定制建站支持资深网站设计专家量身定制，尊享一站式1V1服务，定位设计+网站推广+后期运营，高效营销，安全可靠。
 
-可热线咨询： 400-623-0183
+可热线咨询： 400-098-8505转1
 
 
 ## 京美建站服务是否可以转移到云服务器上

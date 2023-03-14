@@ -100,6 +100,8 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 |**description**|String|False| |容器描述|
 |**charge**|[ChargeSpec](createcontainers#chargespec)|False| |计费配置；如不指定，默认计费类型是后付费-按使用时常付费|
 |**userTags**|[Tag[]](createcontainers#tag)|False| |用户普通标签集合|
+|**resourceGroupId**|String|False||资源组ID|
+
 ### <div id="tag">Tag</div>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|

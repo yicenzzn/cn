@@ -1,0 +1,64 @@
+name: 应用迁移中心 AMC
+href: 
+items:
+  - name: 产品简介
+    items:
+      - name: 产品概述
+        href: Introduction/Product-Overview.md
+      - name: 产品功能
+        href: Introduction/Features.md          
+      - name: 应用场景
+        href: Introduction/Application-Scenarios.md
+      - name: 核心概念
+        href: Introduction/Core-Concepts.md        
+      - name: 限制说明
+        href: Introduction/Restrictions.md          
+  - name: 产品定价
+    items:
+      - name: 计费概述
+        href: Pricing/Billing-Overview.md
+  - name: 快速入门
+    items:
+      - name: 创建并设置空间
+        href: Getting-Started/Create-Set-Space.md
+      - name: 资源发现和导入
+        href: Getting-Started/Resources-Probe-Import.md        
+      - name: 创建应用并导入服务
+        href: Getting-Started/Create-App-Import-Services.md
+      - name: 工具集成
+        href: Getting-Started/Tool-Integration.md
+  - name: 操作指南
+    items:
+      - name: 空间管理
+        items:
+          - name: 创建空间
+            href: Operation-Guide/Space/Space-Management.md
+          - name: 空间概览
+            href: Operation-Guide/Space/Space-Overview.md
+          - name: 空间设置
+            href: Operation-Guide/Space/Space-Setting.md
+      - name: 应用管理
+        items:
+          - name: 创建应用
+            href: Operation-Guide/Application/Application-Management.md
+          - name: 导入服务
+            href: Operation-Guide/Application/Services-Import.md
+      - name: 资源发现与导入
+        href: Operation-Guide/Resources-Import.md              
+      - name: 迁移计划管理
+        href: Operation-Guide/Plan-Management.md
+      - name: 迁移策略管理
+        href: Operation-Guide/Strategy-Management.md
+      - name: 工具管理
+        href: Operation-Guide/Tool-Management.md
+      - name: 文档管理
+        href: Operation-Guide/Document-Management.md
+      - name: 任务管理
+        items:
+          - name: OSS 迁移任务
+            href: Operation-Guide/Task/OSS-Migration.md        
+  - name: 常见问题
+    items:
+      - name: FAQ
+        href: FAQ/FAQ.md
+        

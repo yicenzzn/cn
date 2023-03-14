@@ -16,7 +16,7 @@
 ### Linux系统基本要求<br>
 | 镜像属性                  | 要求                | 
 | :------------------- |  :------------------- |
-|操作系统|* 支持CentOS、Ubuntu、Debian、SUSE Linux Enterprise、OpenSUSE<br> * 支持64位  |
+|操作系统|* 支持CentOS、Ubuntu、OpenEuler、Rocky Linux、Debian、SUSE Linux Enterprise、OpenSUSE<br> * 支持64位  |
 |镜像格式|* 支持RAW、VHD、QCOW2、VMDK|
 |镜像大小|* 实际大小（disk size）和虚拟大小（virtual size）均不超过500G|
 |文件系统|* xfs、ext3、ext4|
@@ -88,9 +88,9 @@ jdc vm import-image --architecture x86_64 --os-type linux --platform "Other Linu
 
 | 参数                  | 类型      |是否必填     | 说明 |
 | :------------------- |  :------------------- | :------------------- |:------------------- |
-| architecture   |  string    |是  |操作系统架构，支持 “x86_64” 和 “i386”
+| architecture   |  string    |是  |操作系统架构，支持 “x86_64” 和 “arm64”
 | osType   | string    |是   |镜像操作系统分类，请根据实际情况填写“linux”或“windows”
-| platform   | string    |是   |镜像操作系统发行版本，如版本为“CentOS”、“Ubuntu”、“Windows Server”中的一种请如实填写，否则请根据osType，对应填写“Other Linux”或“Other Windows”
+| platform   | string    |是   |镜像操作系统发行版本，如版本为“CentOS”、“Ubuntu”、“Windows Server”、“OpenEuler”、“Rocky Linux”中的一种请如实填写，否则请根据osType，对应填写“Other Linux”或“Other Windows”
 | osVersion   |  string    |否  |具体的操作系统发行版本号，如7.4（CentOS）、18.04（Ubuntu），仅用于标识以作区分，可根据需要填写
 | diskFormat	 | string    |是   | 镜像文件格式，支持“vhd”、“vmdk”、“qcow2”、“raw”，请如实填写，否则校验阶段会报错影响导入
 | systemDiskSizeGB   |  int   |是  |  指定使用镜像创建系统盘的容量，范围[40,500]，请确保该参数不小于镜像的virtual size，否则校验阶段会报错影响导入

@@ -6,7 +6,7 @@
 
 在印章管理页面中，点击“下载”按钮。
 
-![印章下载.png](/image/Electronic-Signature/印章下载.png)
+![印章下载.png](/image/Electronic-Signature/印章下载new.png)
 
 ### OpenAPI下载印章
 

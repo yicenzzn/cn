@@ -15,7 +15,7 @@
 
 在应用负载均衡7层访问日志中，将日志按照request_method分组，统计各个请求方法出现的次数。
 
-```sql
+```
 * | select request_method,count(1) group by request_method
 ```
 
@@ -30,7 +30,7 @@
 
 在应用负载均衡7层访问日志中，筛选请求包长度>10的日志数据，将日志按照客户端IP分组，统计总发送流量最大的5个客户端IP。
 
-```sql
+```
 request_length > 10 | select client_ip,sum(bytes_sent) group by client_ip order by sum(bytes_sent) desc limit 5
 ```
 展示结果如下
@@ -41,7 +41,7 @@ request_length > 10 | select client_ip,sum(bytes_sent) group by client_ip order 
 
 在mysql的慢日志中，按照clienthost字段分组，统计query_time 大于1s 发生的次数。
 
-```sql
+```
 query_time>1 | select clienthost,count(1) group by clienthost
 ```
 
@@ -57,8 +57,8 @@ query_time>1 | select clienthost,count(1) group by clienthost
 在mysql的慢日志中，按照秒的粒度汇总统计query_time大于1s的发生次数，时间格式为“xxxx年-xx月-xx日 xx时:xx分:xx秒”。
 
 
-```sql
-query_time>1 | select date_format(date_trunc('second', time), 'YYYY-MM-dd HH:mm:ss'), count(1) group by date_format(date_trunc('second', time), 'YYY-MM-dd HH:mm:ss')
+```
+query_time>1 | select date_format(date_trunc('second', time), 'YYYY-MM-dd HH:mm:ss') as ts, count(1) group by ts
 ```
 
 展示结果如下，在选定的时间内，2021-12-25 10:01:23超过1秒的次数有5次，2021-12-25 10:01:24超过1秒的次数有7次。
@@ -74,35 +74,35 @@ query_time>1 | select date_format(date_trunc('second', time), 'YYYY-MM-dd HH:mm:
 
 1. 只支持 select 语句，不支持update,insert,delete 等语句。select 语句包含{selectExpr}，{whereExpr}，{fileds}三个部分，语句整体结构如下，不需指定 from 字段，服务会默认添加日志主题所属的日志类型。
 
-   ```sql
+   ```
    select {selectExpr} where {whereExpr} goup by {fileds} 
    ```
 
 2. 在 {selectExpr} 中至少需要包含 max,min,avg,sum,count 中的一种或多种聚合函数。例如：
 
-   ```sql
-   select count(1),max(score) group by username                    //正确
+   ```
+   select count(1),max(score) group by username    //正确
    
-   select city group by city										//错误，未包含聚合函数
+   select city group by city    //错误，未包含聚合函数
    ```
 
 3. 在 {whereExpr} 中只支持 and 和 between 关键字，不支持or,is,not 等其他关键字。
 
-   ```sql
-   select count(1) where city= 'bj' and age = 18					//正确
+   ```
+   select count(1) where city= 'bj' and age = 18    //正确
    
-   select count(1) where city= 'bj' or age = 18					//错误，不支持or关键字	 
+   select count(1) where city= 'bj' or age = 18    //错误，不支持or关键字	 
    ```
 
 4. 支持 >,>=,<,<=,=,!=,in 等比较运算符。字符值两端需要加单引号，且只有数值类型支持>,>=,<,<= 运算符。
 
-   ```sql
+   ```
    select count(1),max(score) where age > 5 and city = 'bj' group by username
    ```
 
 5. 支持分组 group by，但是在{selectExpr} 中出现的非聚合字段需要在group by 后。例如下面语法是错误的，因为 feild 字段没有出现在group by 后。
 
-   ```sql
+   ```
    select feild,count(1) group by pin
    ```
 
@@ -114,13 +114,23 @@ query_time>1 | select date_format(date_trunc('second', time), 'YYYY-MM-dd HH:mm:
 
 9. 支持date_trunc()指定时间粒度，支持的时间粒度包括second, minute, hour, day。
 
-   ```sql
+   ```
    select count(1), date_trunc('hour', time) group by date_trunc('hour', time)
    ```
 
 10. 需要补充说明的是，在自动生成的语句中每个字段都会用反引号`` ,这是防止查询语句中的某些字段是SQL的关键字。用户在手动数据字段时候，需注意适当加上反引号。
 
-12. 各个数据类型支持的操作符说明如下：
+例如，database是SQL的保留关键字，如果要以database作为字段在统计分析中使用，需要加上反引号\`\`，如下面的例子。
+```
+select `database`, count(1) group by `database`    //正确
+
+select database, count(1) group by database    //错误，保留关键字未加反引号
+```
+常见的数据库保留关键字如database，table，insert，update，delete等。
+
+
+
+11. 各个数据类型支持的操作符说明如下：
 
     | 数据类型   | 支持的操作符                     |
     | ---------- | -------------------------------- |

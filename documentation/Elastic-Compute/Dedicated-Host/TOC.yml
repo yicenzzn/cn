@@ -45,3 +45,23 @@
       href: Operation-Guide/Delete-DP.md
     - name: 删除专有资源池或专有宿主机上的云主机
       href: Operation-Guide/Delete-Instance-in-DH-or-DP.md
+    - name: 标签
+      items:
+      - name: 编辑标签
+        href: Operation-Guide/Tag/Edit-Tag.md
+      - name: 根据标签筛选
+        href: Operation-Guide/Tag/Filter-by-Tag.md
+      - name: 标签FAQ
+        href: Operation-Guide/Tag/Tag-FAQ.md 
+      - name: 标签概述
+        href: Operation-Guide/Tag/Tag-Overview.md
+    - name: 资源组
+      items:
+        - name: 加入资源组
+          href: Operation-Guide/Resourse-Groups/Add-Resource-Groups.md
+        - name: 变更资源组
+          href: Operation-Guide/Resourse-Groups/Change-Resource-Groups.md
+        - name: 资源组筛选
+          href: Operation-Guide/Resourse-Groups/Filter-Resource-Groups.md
+        - name: 资源组概述
+          href: Operation-Guide/Resourse-Groups/Resource-Group-Introduction.md

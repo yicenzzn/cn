@@ -1,4 +1,4 @@
-  name: 应用安全网关
+  name: Web应用安全网关
   href: 
   items:
   - name: 产品简介
@@ -11,7 +11,7 @@
         href: Introduction/Features.md
       - name: 限制说明
         href: Introduction/Restrictions.md
-        name: 产品规格
+      - name: 产品规格
         href: Introduction/Specifications.md  
   - name: 产品定价
     items:
@@ -79,7 +79,8 @@
         href: FAQ/Web-Security-Protection.md
       
   - name: SDK参考
-    href:
+    status: 0
+    items:   
   - name: 用户协议
     status: 0
     items:      

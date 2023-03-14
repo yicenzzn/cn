@@ -1,8 +1,8 @@
 # Redis命令支持
 
-京东云缓存Redis基于开源版本的，命令的具体详细语法，请参见：[http://redis.io/commands](http://redis.io/commands)
+京东云缓存Redis基于开源版本的，命令的具体详细语法(可参考：[http://redis.io/commands](http://redis.io/commands)  )。以下为云缓存Redis命令支持情况，供参考。
 
-## 支持的命令操作
+## 标识说明
 
 操作命令表中的标识说明如下 ：
 
@@ -15,33 +15,33 @@
 
 
 
-#### Keys（键）
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:| 
-|  DEL      |  ✓   | ✓  |  ✓  | ✓   |  受限   | 
-|  DUMP     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  EXISTS   |  ✓   | ✓  |  ✓  | ✓   |  受限   | 
-|  EXPIRE   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  EXPIREAT |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  MOVE     |   ✓   | ✓  |  ✓  | ✓   | x   | 
-|  PERSIST  |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  PEXPIRE  |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  PEXPIREAT|   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  PTTL     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  RANDOMKEY  |   ✓   |  x  |  ✓  | ✓   | ✓   | 
-|  RENAME   |   ✓   | x  |  ✓  | 受限   | 受限   | 
-|  RENAMENX |   ✓   | x  |  ✓  |  受限   | 受限   | 
-|  RESTORE  |   ✓   | ✓  |  ✓   | ✓    | ✓   | 
-|  SORT     |   ✓   | ✓  |  ✓  | 受限   | 受限   | 
-|  TTL      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  TYPE     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  SCAN     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  OBJECT   |   x   | x  |  ✓  | ✓    | ✓   | 
-|  UNLINK   |   -   | -  |  ✓  | ✓    | 受限   | 
-|  KEYS     |   ✓   | ✓ |  ✓  | ✓   | ✓   | 
-|  WAIT     |   x   | x  |  x  | x    |  ✓   | 
-|  TOUCH    |   -   | -  |  ✓  | ✓   | 受限   | 
-|  MIGRATE  |   x   | x  |  x   | x    | 受限   | 
+## Keys（键）
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |   4.0 Proxy 集群版  |   5.0标准版  | 5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:|  :--:| 
+|  DEL      |  ✓   | ✓  |  ✓  | ✓   |  ✓   | 受限   | 
+|  DUMP     |   ✓  | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  EXISTS   |  ✓   | ✓  |  ✓  | ✓   |  ✓   | 受限   | 
+|  EXPIRE   |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  EXPIREAT |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  MOVE     |   ✓   | ✓  |  ✓  | ✓   | ✓   |  x   | 
+|  PERSIST  |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  PEXPIRE  |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  PEXPIREAT|   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  PTTL     |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  RANDOMKEY  |   ✓   |  x  |  ✓  | ✓   | ✓   | ✓   | 
+|  RENAME   |   ✓   | x  |  ✓  | 受限   | ✓   | 受限   | 
+|  RENAMENX |   ✓   | x  |  ✓  |  受限  | ✓   | 受限   | 
+|  RESTORE  |   ✓   | ✓  |  ✓   | ✓    | ✓   | ✓   | 
+|  SORT     |   ✓   | ✓  |  ✓  | 受限   |✓   |  受限   | 
+|  TTL      |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  TYPE     |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  SCAN     |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  OBJECT   |   x   | x  |  ✓  | ✓    | x  | ✓   | 
+|  UNLINK   |   -   | -  |  ✓  | ✓    |✓   | 受限   | 
+|  KEYS     |   ✓   | ✓ |  ✓  | ✓   | ✓   | ✓   | 
+|  WAIT     |   x   | x  |  x  | x    | ✓   |  ✓   | 
+|  TOUCH    |   -   | -  |  ✓  | ✓   | ✓   | 受限   | 
+|  MIGRATE  |   x   | x  |  x  | x    | x   | 受限   | 
 
 **说明：**
 
@@ -56,199 +56,197 @@
 
 
 
-#### String（字符串）
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:| 
-|  APPEND    |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  BITCOUNT  |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  BITOP     |   ✓   | x  |  ✓  | ✓   | 受限   | 
-|  BITPOS    |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  DECR      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  DECRBY    |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  GET       |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  GETBIT    |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  GETRANGE  |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  GETSET    |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  INCR      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  INCRBY    |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  INCRBYFLOAT   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  MGET      |   ✓   | ✓  |  ✓  | ✓   | 受限  | 
-|  MSET      |   ✓   | ✓  |  ✓  | ✓   | 受限  | 
-|  MSETNX   |   x   |  x  |  受限  | 受限   | 受限   | 
-|  PSETEX   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  SET      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  SETBIT   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  SETEX    |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  SETNX    |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  SETRANGE |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  STRLEN   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  BITFIELD |   -   |  -  |  ✓  | ✓   | ✓   | 
+## String（字符串）
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |   5.0标准版  |  5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:|  :--:| 
+|  APPEND    |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  BITCOUNT  |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  BITOP     |   ✓   | x  |  ✓  | ✓   | ✓   |  受限   | 
+|  BITPOS    |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  DECR      |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  DECRBY    |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  GET       |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  GETBIT    |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  GETRANGE  |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  GETSET    |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  INCR      |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  INCRBY    |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  INCRBYFLOAT   |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  MGET      |   ✓   | ✓  |  ✓  | ✓   | ✓   |  受限  | 
+|  MSET      |   ✓   | ✓  |  ✓  | ✓   | ✓   |  受限  | 
+|  MSETNX   |   x   |  x  |  受限  | 受限   | ✓   |  受限   | 
+|  PSETEX   |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  SET      |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  SETBIT   |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   |  
+|  SETEX    |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  SETNX    |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  SETRANGE |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  STRLEN   |   ✓   | ✓  |  ✓  | ✓   | ✓   |  ✓   | 
+|  BITFIELD |   -   |  -  |  ✓  | ✓   | ✓   |  ✓   | 
 
 
-####  Hash（哈希表） 
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:| 
-|  HDEL      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  HEXISTS   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  HGET      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  HGETALL   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  HINCRBY   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  HINCRBYFLOAT   |   ✓   | ✓  |  ✓  |  ✓   | ✓   | 
-|  HKEYS     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  HLEN      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  HMGET     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  HMSET     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  HSET      |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  HSETNX    |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  HVALS     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  HSCAN     |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  HSTRLEN   |   -   | -  |  ✓  | ✓   |   ✓   | 
+##  Hash（哈希表） 
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |    5.0标准版  | 5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:|  :--:| 
+|  HDEL      |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  HEXISTS   |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  HGET      |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  HGETALL   |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  HINCRBY   |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  HINCRBYFLOAT   |   ✓   | ✓  |  ✓  |  ✓   | ✓   | ✓   | 
+|  HKEYS     |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  HLEN      |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  HMGET     |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  HMSET     |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  HSET      |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  HSETNX    |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  HVALS     |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  HSCAN     |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   | 
+|  HSTRLEN   |   -   | -  |  ✓  | ✓   |   ✓  | ✓   | 
 
 
-####  List（列表）
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:| 
-|  BLPOP   |   -   | -  |  ✓  | 受限   |  受限   | 
-|  BRPOP   |   -   | -  |  ✓  | 受限   |  受限   | 
-|  BRPOPLPUSH |  -   |  -  |  ✓  | 受限   |  受限   | 
-|  LINDEX   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  LINSERT  |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  LLEN     |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  LPOP     |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  LPUSH    |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  LPUSHX   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  LRANGE   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  LREM     |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  LSET     |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  LTRIM    |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  RPOP     |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  RPOPLPUSH |   ✓  |  x  |  ✓  | 受限   |  受限   | 
-|  RPUSH    |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  RPUSHX   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
+##  List（列表）
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |   5.0标准版  |  5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:| :--:| 
+|  BLPOP   |   -   | -  |  ✓  | 受限   |  ✓   |   受限   | 
+|  BRPOP   |   -   | -  |  ✓  | 受限   |  ✓   |   受限   | 
+|  BRPOPLPUSH |  - |  - |  ✓  | 受限   |  ✓   |   受限   | 
+|  LINDEX   |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   |  
+|  LINSERT  |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   |  
+|  LLEN     |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  LPOP     |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  LPUSH    |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   |  
+|  LPUSHX   |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   |  
+|  LRANGE   |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   |  
+|  LREM     |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   |  
+|  LSET     |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   |  
+|  LTRIM    |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   |  
+|  RPOP     |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   |  
+|  RPOPLPUSH |   ✓  |  x  |  ✓  | 受限|  ✓   |  受限 | 
+|  RPUSH    |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   |  
+|  RPUSHX   |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   |  
 
 
-####  Set（集合）
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:| 
-|  SADD    |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
-|  SCARD   |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
-|  SDIFF        |   ✓   |  x  |  ✓  | 受限    |  受限    | 
-|  SDIFFSTORE   |   ✓   |  x  |  ✓  | 受限    |  受限    | 
-|  SINTER       |   ✓   |  x  |  ✓  | 受限    |  受限    | 
-|  SINTERSTORE  |   ✓   |  x  |  ✓  | 受限    |  受限    | 
-|  SISMEMBER      |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
-|  SMEMBERS   |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
-|  SMOVE      |   ✓   |  x  |  ✓  | 受限    |  受限    | 
-|  SPOP       |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
-|  SRANDMEMBER    |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
-|  SREM       |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
-|  SUNION     |   ✓   |  x  |  ✓  | 受限    |  受限    | 
-|  SUNIONSTORE   |   ✓   |  x  |  ✓  | 受限    |  受限    | 
-|  SSCAN      |   ✓   | ✓  |  ✓  | ✓   |   ✓   | 
+##  Set（集合）
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |   5.0标准版  |   5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:|  :--:| 
+|  SADD    |   ✓   | ✓  |  ✓  | ✓   |   ✓   | ✓   | 
+|  SCARD   |   ✓   | ✓  |  ✓  | ✓   |   ✓   | ✓   | 
+|  SDIFF        |   ✓   |  x  |  ✓  | 受限    | ✓   |  受限    | 
+|  SDIFFSTORE   |   ✓   |  x  |  ✓  | 受限    | ✓   |  受限    | 
+|  SINTER       |   ✓   |  x  |  ✓  | 受限    | ✓   |  受限    | 
+|  SINTERSTORE  |   ✓   |  x  |  ✓  | 受限    | ✓   |  受限    | 
+|  SISMEMBER  |   ✓   | ✓  |  ✓  | ✓   | ✓   |   ✓   | 
+|  SMEMBERS   |   ✓   | ✓  |  ✓  | ✓   | ✓   |   ✓   | 
+|  SMOVE      |   ✓   |  x  |  ✓  | 受限    | ✓   |  受限    | 
+|  SPOP       |   ✓   | ✓  |  ✓  | ✓   | ✓   |   ✓   | 
+|  SRANDMEMBER    |   ✓   | ✓  |  ✓  | ✓   | ✓   |   ✓   | 
+|  SREM       |   ✓   | ✓  |  ✓  | ✓   | ✓   |   ✓   | 
+|  SUNION     |   ✓   |  x  |  ✓  | 受限 | ✓   |  受限 | 
+|  SUNIONSTORE|   ✓   |  x  |  ✓  | 受限 | ✓   |  受限 | 
+|  SSCAN      |   ✓   | ✓   |  ✓  | ✓   | ✓   |   ✓  | 
 
 
-####  Sorted Set（有序集合）
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:| 
-|  ZADD     |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZCARD    |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZCOUNT   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZINCRBY  |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZRANGE   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZRANGEBYSCORE   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZRANK    |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZREM     |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZREMRANGEBYRANK  |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZREMRANGEBYSCORE |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZREVRANGE        |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZREVRANGEBYLEX   |   -   | -  |  ✓  | ✓   |   ✓   | 
-|  ZREVRANGEBYSCORE |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZREVRANK      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZSCORE        |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZUNIONSTORE   |   ✓   | x  |  ✓  | 受限    | 受限    | 
-|  ZINTERSTORE   |   ✓   | x  |  ✓  | 受限    | 受限    | 
-|  ZSCAN         |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZRANGEBYLEX      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZLEXCOUNT        |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZREMRANGEBYLEX   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  ZPOPMAX   |   -   | -  |  -  | -   |  ✓   | 
-|  ZPOPMIN   |   -   | -  |  -  | -   |  ✓   | 
-|  BZPOPMIN  |   -   | -  |  -  | -   |  受限  | 
-|  BZPOPMAX  |   -   | -  |  -  | -   |  受限  | 
+##  Sorted Set（有序集合）
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  | 5.0标准版  |  5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:| :--:|  
+|  ZADD     |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZCARD    |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZCOUNT   |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZINCRBY  |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZRANGE   |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   |
+|  ZRANGEBYSCORE   |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   |
+|  ZRANK    |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZREM     |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZREMRANGEBYRANK  |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZREMRANGEBYSCORE |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZREVRANGE        |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZREVRANGEBYLEX   |   -   | -  |  ✓  | ✓   |   ✓  |  ✓   | 
+|  ZREVRANGEBYSCORE |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZREVRANK      |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZSCORE        |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZUNIONSTORE   |   ✓   | x  |  ✓  | 受限    |  ✓   | 受限    | 
+|  ZINTERSTORE   |   ✓   | x  |  ✓  | 受限    |  ✓   | 受限    |
+|  ZSCAN         |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZRANGEBYLEX      |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZLEXCOUNT        |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZREMRANGEBYLEX   |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  ZPOPMAX   |   -   | -  |  -  | -   |  ✓ | ✓   | 
+|  ZPOPMIN   |   -   | -  |  -  | -   |  ✓ | ✓   | 
+|  BZPOPMIN  |   -   | -  |  -  | -   | x  |  受限  | 
+|  BZPOPMAX  |   -   | -  |  -  | -   | x  |  受限  | 
 
 
-####  hyperloglog 
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:| 
-| PFADD    | ✓ | x  | ✓ |  ✓  | ✓  | 
-| PFCOUNT  | ✓ | x  | ✓ |  ✓  | 受限  | 
-| PFMERGE  | ✓ | x  | ✓ |  ✓  | 受限  | 
+##  hyperloglog 
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  | 5.0标准版  |  5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:| :--:| 
+| PFADD    | ✓ | x  | ✓ |  ✓  | ✓  |  ✓  | 
+| PFCOUNT  | ✓ | x  | ✓ |  ✓  | ✓  |  受限  | 
+| PFMERGE  | ✓ | x  | ✓ |  ✓  | ✓  |  受限  | 
 
 
-####  Pub/Sub（发布/订阅）
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:| 
-|  PSUBSCRIBE   |   x   | x  |  ✓  | ✓   | ✓   | 
-|  PUBLISH      |   x   | x  |  ✓  | ✓   | ✓   | 
-|  PUBSUB       |   x   | x  |  ✓  | ✓   | ✓   | 
-|  PUNSUBSCRIBE |   x   | x  |  ✓  | ✓   | ✓   | 
-|  SUBSCRIBE    |   x   | x  |  ✓  | ✓   | ✓   | 
-|  UNSUBSCRIBE  |   x   | x  |  ✓  | ✓   | ✓   | 
+##  Pub/Sub（发布/订阅）
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  | 5.0标准版  |   5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:| :--:|  
+|  PSUBSCRIBE   |   x   | x  |  ✓  | ✓   | ✓   | ✓   | 
+|  PUBLISH      |   x   | x  |  ✓  | ✓   | ✓   | ✓   | 
+|  PUBSUB       |   x   | x  |  ✓  | ✓   | ✓   | ✓   | 
+|  PUNSUBSCRIBE |   x   | x  |  ✓  | ✓   | ✓   | ✓   | 
+|  SUBSCRIBE    |   x   | x  |  ✓  | ✓   | ✓   | ✓   | 
+|  UNSUBSCRIBE  |   x   | x  |  ✓  | ✓   | ✓   | ✓   | 
 
 
-#### Transaction（事务）
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:| 
-|  DISCARD   |   ✓   | x  |  ✓  | ✓   | ✓   | 
-|  EXEC      |   ✓   | x  |  ✓  | ✓   | ✓   |
-|  MULTI     |   ✓   | x  |  ✓  | ✓   | 受限   |
-|  UNWATCH   |   ✓   | x  |  ✓  | ✓   | ✓   |
-|  WATCH     |   ✓   | x  |  ✓  | ✓   | 受限   |
+## Transaction（事务）
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  | 5.0标准版  |  5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:| :--:| 
+|  DISCARD   |   ✓   | x  |  ✓  | ✓   | ✓   | ✓   | 
+|  EXEC      |   ✓   | x  |  ✓  | ✓   | ✓   | ✓   |
+|  MULTI     |   ✓   | x  |  ✓  | ✓   | ✓   | 受限 |
+|  UNWATCH   |   ✓   | x  |  ✓  | ✓   | ✓   | ✓   |
+|  WATCH     |   ✓   | x  |  ✓  | ✓   | ✓   | 受限   |
 
 
-#### Connection（连接）
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:| 
-|  AUTH   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  ECHO   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  PING   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  QUIT   |   ✓   | ✓  |  ✓  | ✓   | ✓   | 
-|  SELECT |   ✓   | ✓  |  ✓  | ✓   | x   | 
-|  SWAPDB |   x   | x   |  x  | x   |  x   | 
+## Connection（连接）
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |5.0标准版  |   5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:| :--:| 
+|  AUTH   |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   |  
+|  ECHO   |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   |  
+|  PING   |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   |  
+|  QUIT   |   ✓   | ✓  |  ✓  | ✓   | ✓   | ✓   |  
+|  SELECT |   ✓   | ✓  |  ✓  | ✓   | x   | x   | 
+|  SWAPDB |   x   | x   |  x  | x   | x   |   x   | 
 
 
-#### Server（服务器）
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:| 
-|  FLUSHALL  |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  FLUSHDB   |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  DBSIZE    |   x   |  x  |  ✓  | ✓   |  ✓   | 
-|  TIME      |   x   |  x  |  ✓  | ✓   |  ✓   | 
-|  INFO      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  KEYS      |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  CLIENT LIST      |   ✓   | ✓  |  ✓ | ✓   |  ✓   | 
-|  CLIENT KILL      |   x   | x  |  x  | x   | ✓    |
-|  CLIENT GETNAME   |   x   | x  |  ✓  | ✓   |  ✓   | 
-|  CLIENT SETNAME   |   x   | x  |  ✓  | ✓   |  ✓   | 
-|  CONFIG GET       |   x   | x  |  ✓  | ✓   |  ✓   | 
-|  MEMORY           |   -  | - |  ✓  | ✓   |  ✓   | 
-|  LATENCY          |   x   |  x  |  ✓  | ✓   |  x   | 
-|  COMMAND        |   ✓   | ✓  |  ✓  | ✓   |  ✓   | 
-|  CONFIG REWRITE |   ✓   | ✓  |  x  | x    |  x    | 
-| CONFIG RESETSTAT  | ✓   | ✓  |  ✓  | ✓   |  x   | 
-|    ROLE    |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
-|  LASTSAVE  |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
-|  SHUTDOWN  |   x   | x   |  x  | x    | x     |
-|  COMMAND   |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
-|  MONITOR   |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
-|  SLOWLOG  get/len   |   ✓  | ✓   |  ✓   | ✓   |  ✓   | 
-|  CLUSTER KEYSLOT|  x   |  x  |  x   | x   | ✓    | 
-|  CLUSTER NODES  |  x   |  x  |  x   | ✓  |  ✓    | 
-|  CLUSTER GETKEYSINSLOT   |  x    |  x     | x    | x   | x     | 
-|  CLUSTER SLOTS  |  x     |  x    |  x     |  ✓  |  ✓   | 
-|  CLUSTER INFO   |   x    |  x    |  x     |  x   | ✓   | 
-|  MODULE         |   x    |  x    |  x     |  x   | x   | 
-|  LOLWUT         |   -    |  -    |  -     |  -   | ✓   | 
+## Server（服务器）
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  | 5.0标准版  |   5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:| :--:|  
+|  FLUSHALL  |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  FLUSHDB   |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  DBSIZE    |   x   |  x  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  TIME      |   x   |  x  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  INFO      |   ✓   | ✓  |  ✓  | ✓   |  ✓   |  ✓   | 
+|  KEYS      |   ✓   | ✓  |  ✓  | ✓   | x   |  ✓   | 
+|  CLIENT KILL      |   x   | x  |  x  | x   | x   |✓    |
+|  CLIENT GETNAME   |   x   | x  |  ✓  | ✓   | x   |  ✓   | 
+|  CLIENT SETNAME   |   x   | x  |  ✓  | ✓   | x   |  ✓  | 
+|  CONFIG GET       |   x   | x  |  ✓  | ✓   | ✓   |  ✓   | 
+|  MEMORY           |   -   | -  |  ✓  | ✓   | x   |  ✓   | 
+|  LATENCY          |   x   |  x |  ✓  | ✓   | x   |  x   | 
+|  CONFIG REWRITE   |   ✓  | ✓ |  x  | x    |  x  | x   | 
+| CONFIG RESETSTAT  |  ✓   | ✓ |  ✓  | ✓   | x   |  x   | 
+|    ROLE    |   ✓  | ✓   |  ✓   | ✓   | x   |  ✓   | 
+|  LASTSAVE  |   ✓  | ✓   |  ✓   | ✓   | x   |  ✓   | 
+|  SHUTDOWN  |   x   | x   |  x   | x   | x   | x    |
+|  COMMAND   |   ✓  | ✓   |  ✓   | ✓   |  ✓(返回空)   |  ✓   |  
+|  MONITOR   |   ✓  | ✓   |  ✓   | ✓   | x  |  ✓   | 
+|  SLOWLOG  get/len   |   ✓  | ✓   |  ✓   | ✓   |  ✓   |  ✓   | 
+|  CLUSTER KEYSLOT|  x   |  x  |  x   | x   | x  | ✓    | 
+|  CLUSTER NODES  |  x   |  x  |  x   | ✓  | x  |  ✓    | 
+|  CLUSTER GETKEYSINSLOT   |  x    |  x     | x    | x   | x  | x     | 
+|  CLUSTER SLOTS  |  x     |  x    |  x     |  ✓   | x  |  ✓   | 
+|  CLUSTER INFO   |   x    |  x    |  x     |  x   | x  | ✓   | 
+|  MODULE         |   x    |  x    |  x     |  x   | x   | x   | 
+|  LOLWUT         |   -    |  -    |  -     |  -   | x  | ✓   | 
 
 
 
@@ -274,48 +272,48 @@
 
 
 
-#### Scripting（脚本）
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:| 
-|  EVAL      |   ✓   | ✓  |  ✓  | 受限   | 受限   | 
-|  EVALSHA   |   ✓   | x  |  ✓  | 受限   | 受限   | 
-|  SCRIPT EXISTS   |   ✓   | x  |  ✓  | 受限   | 受限   | 
-|  SCRIPT FLUSH    |   ✓   | x  |  ✓  | 受限   | 受限   | 
-|  SCRIPT KILL     |   ✓   | x  |  ✓  | 受限   | 受限   | 
-|  SCRIPT LOAD     |   ✓   | x  |  ✓  | ✓   | ✓   | 
-|  SCRIPT DEBUG    |   ✓   | x  |  ✓  | ✓   | ✓   | 
+## Scripting（脚本）
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0标准版  | 5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:| :--:| 
+|  EVAL      |   ✓   | ✓  |  ✓  | 受限   |  ✓  |  受限   | 
+|  EVALSHA   |   ✓   | x  |  ✓  | 受限   |  ✓  |  受限   | 
+|  SCRIPT EXISTS   |   ✓   | x  |  ✓  | 受限   | x  |  受限   | 
+|  SCRIPT FLUSH    |   ✓   | x  |  ✓  | 受限   | x  |  受限   | 
+|  SCRIPT KILL     |   ✓   | x  |  ✓  | 受限   | x  |  受限   | 
+|  SCRIPT LOAD     |   ✓   | x  |  ✓  | ✓     |  ✓ |  ✓   | 
+|  SCRIPT DEBUG    |   ✓   | x  |  ✓  | ✓     | x   |  ✓   | 
 
 
-#### Geo（地理位置）
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:|  
-|  GEOADD   |   x   |  x  |  ✓  | ✓   | ✓   | 
-|  GEOHASH  |   x   |  x  |  ✓  | ✓   | ✓   | 
-|  GEOPOS   |   x   |  x  |  ✓  | ✓   | ✓   | 
-|  GEODIST  |   x   |  x  |  ✓  | ✓   | ✓   | 
-| GEORADIUS |   x   |  x  |  ✓  | ✓   | ✓   | 
-|  GEORADIUSBYMEMBER   |   x   |  x  |  ✓  | ✓   | ✓   | 
+## Geo（地理位置）
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  | 5.0标准版  |  5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:|  :--:| 
+|  GEOADD   |   x   |  x  |  ✓  | ✓   | ✓   | ✓   |  
+|  GEOHASH  |   x   |  x  |  ✓  | ✓   | ✓   | ✓   |  
+|  GEOPOS   |   x   |  x  |  ✓  | ✓   | ✓   | ✓   |  
+|  GEODIST  |   x   |  x  |  ✓  | ✓   | ✓   | ✓   |  
+| GEORADIUS |   x   |  x  |  ✓  | ✓   | ✓   | ✓   |  
+|  GEORADIUSBYMEMBER   |   x   |  x  |  ✓  | ✓   | ✓   |  ✓   | 
 
-#### Stream
-| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  |  5.0 Cluster 集群版  | 
-|:-- |:--:|:--:|:--:|:--:| :--:|  
-|  XINFO    |   x    |  x    |  x     |  x   | ✓   | 
-|  XADD     |   x    |  x    |  x     |  x   | ✓   | 
-|  XTRIM    |   x    |  x    |  x     |  x   | ✓   | 
-|  XDEL     |   x    |  x    |  x     |  x   | ✓   | 
-|  XRANGE   |   x    |  x    |  x     |  x   | ✓   | 
-|XREVRANGE  |   x    |  x    |  x     |  x   | ✓   | 
-|  XLEN     |   x    |  x    |  x     |  x   | ✓   | 
-|  XREAD    |   x    |  x    |  x     |  x   | ✓   | 
-|  XGROUP   |   x    |  x    |  x     |  x   | ✓   | 
-|  XREADGROUP    |   x    |  x    |  x     |  x   | ✓   | 
-|  XACK     |   x    |  x    |  x     |  x   | ✓   | 
-|  XCLAIM   |   x    |  x    |  x     |  x   | ✓   | 
-|  XPENDING |   x    |  x    |  x     |  x   | ✓   | 
+## Stream
+| 命令 | 2.8标准版  |  2.8集群版  |  4.0标准版  |  4.0 Proxy 集群版  | 5.0标准版  |  5.0 Cluster 集群版  | 
+|:-- |:--:|:--:|:--:|:--:| :--:|  :--:| 
+|  XINFO    |   x    |  x    |  x     |  x   | ✓   |  x   | 
+|  XADD     |   x    |  x    |  x     |  x   | ✓   |  x   | 
+|  XTRIM    |   x    |  x    |  x     |  x   | ✓   |  x   | 
+|  XDEL     |   x    |  x    |  x     |  x   | ✓   |  x   | 
+|  XRANGE   |   x    |  x    |  x     |  x   | ✓   |  x   | 
+|XREVRANGE  |   x    |  x    |  x     |  x   | ✓   |  x   | 
+|  XLEN     |   x    |  x    |  x     |  x   | ✓   |  x   | 
+|  XREAD    |   x    |  x    |  x     |  x   | ✓   |  x   | 
+|  XGROUP   |   x    |  x    |  x     |  x   | ✓   |  x   | 
+|  XREADGROUP    |   x    |  x    |  x     |  x   | ✓   |  x   | 
+|  XACK     |   x    |  x    |  x     |  x   | ✓   |  x   | 
+|  XCLAIM   |   x    |  x    |  x     |  x   | ✓   |  x   | 
+|  XPENDING |   x    |  x    |  x     |  x   | ✓   |  x   | 
 
 
 
-###  其它说明 
+##  其它说明 
 
 * 如需在集群实例中执行受限制的命令，需要使用hash tag确保命令所要操作的key都要分布在一个hash slot中。
 

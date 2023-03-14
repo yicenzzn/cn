@@ -19,6 +19,10 @@ items:
   items:
     - name: 计费概述
       href: Pricing/Billing-Overview.md
+    - name: 计费规则
+      href: Pricing/Billing-Rules.md
+    - name: 购买流程
+      href: Pricing/Purchase-Process.md
 - name: 入门指南
   items:
     - name: 入门指导
@@ -53,20 +57,40 @@ items:
           href: Operation-Guide/App-Monitor/Remote-Invoke.md
         - name: 调用拓扑
           href: Operation-Guide/App-Monitor/Calling-Topology.md        
+    - name: 业务监控
+      items:
+        - name: 业务监控
+          href: Operation-Guide/Business-Monitor/Business-Monitor.md
+        - name: 分类监控
+          href: Operation-Guide/Business-Monitor/Classify-Monitor.md
+        - name: 比值监控
+          href: Operation-Guide/Business-Monitor/Ratio-Monitor.md
+        - name: 流程监控
+          href: Operation-Guide/Business-Monitor/Flow-Monitor.md
+        - name: 数据报表
+          href: Operation-Guide/Business-Monitor/Data-Forms.md
     - name: 告警配置
-      href: Operation-Guide/Alarm/Method-Alarm.md
+      items:
+        - name: 方法告警配置
+          href: Operation-Guide/Alarm/Method-Alarm.md
+        - name: 默认告警配置
+          href: Operation-Guide/Alarm/Global-Alarm.md
     - name: 智能评估
       items:
         - name: 容量计算明细
           href: Operation-Guide/Capacity-Assess/Capacity-Detail.md
-        - name: 容量水位导出
-          href: Operation-Guide/Capacity-Assess/Capacity-Water-line.md
     - name: 收藏列表
       items:
         - name: 我的收藏
           href: Operation-Guide/Collection-List/Private-Collection.md
         - name: 公共收藏
           href: Operation-Guide/Collection-List/Public-Collection.md
+    - name: 存储资源
+      items:
+        - name: 资源用量统计
+          href: Operation-Guide/Storage/Storage-Statistics.md
+        - name: 资源配置变更
+          href: Operation-Guide/Storage/Storage-Alter.md
 - name: 最佳实践
   items:
     - name: 场景一：应用性能异常精准定位
@@ -93,4 +117,3 @@ items:
   items:
     - name: 服务条款
       href: User-Agreement/Product-Terms-Of-Service.md        
-

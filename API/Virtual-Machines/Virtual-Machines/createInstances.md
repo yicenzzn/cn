@@ -24,6 +24,7 @@
 - 单次请求最多支持创建 `100` 台实例。
 - 本接口为异步接口，请求下发成功后会返回RequestId和实例ID，此时实例处于 `Pending`（创建中）状态。如创建成功则实例自动变为 `Running`（运行中）状态；如创建失败则短暂处于 `Error`（错误）状态，随后将自动删除（创建失败的实例不会收费且会自动释放占用的配额）。实例状态可以通过 [describeInstanceStatus](https://docs.jdcloud.com/virtual-machines/api/describeinstancestatus?content=API) 接口查询。
 - 批量创建多台实例时系统将尽可能完成目标创建数量，但受底层资源、配额等因素影响，可能存在部分成功部分失败的情况，还请关注最终完成数量，如有失败情况请尝试重新申请或联系客服。
+- 按配置云主机创建设置定时转包月后，关联的按配置计费云盘和弹性公网IP将一同转包月，但打包创建的按流量计费弹性IP不支持转包月。
 
 
 ## 请求方式
@@ -72,9 +73,9 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**autoImagePolicyId**|String|否|pol-xgsc****7e|自动任务策略ID。<br>|
 |**passwordAuth**|String|否||是否允许SSH密码登录。<br>`yes`：允许SSH密码登录。<br>`no`：禁止SSH密码登录。<br>仅在指定密钥时此参数有效，指定此参数后密码即使输入也将被忽略，同时会在系统内禁用SSH密码登录。<br>|
 |**imageInherit**|String| 否||是否使用镜像中的登录凭证，不再指定密码或密钥。<br>`yes`：使用镜像登录凭证。<br>`no`（默认值）：不使用镜像登录凭证。<br>仅使用私有或共享镜像时此参数有效。若指定`imageInherit=yes`则指定的密码或密钥将无效。|
+|**resourceGroupId**|String| 否||资源组ID。|
 
 ### <div id="user-content-3">Tag</div>
-
 |名称|类型|是否必选|示例值|描述|
 |---|---|---|---|---|
 |**key**|String|否|环境|标签key。长度不能超过127字符，不能以 `jrn:` 或 `jdc-` 开头，仅支持中文、大/小写英文、数字及如下符号：`\_.,:\/=+-@`。|
@@ -98,10 +99,12 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances
 
 |名称|类型|是否必选|示例值|描述|
 |---|---|---|---|---|
-|**chargeMode**|String|否|prepaid_by_duration |计费模式。<br>可选值：<br>`postpaid_by_duration`（默认值）：按配置（后付费）<br>`prepaid_by_duration`：包年包月（预付费）<br>`postpaid_by_usage`：按用量（后付费）<br>仅弹性公网IP支持`postpaid_by_usage`，具体计费说明请参考[实例计费类型说明](https://docs.jdcloud.com/cn/virtual-machines/billing-overview)。|
-|**chargeUnit**|String|否| month|包年包月（预付费）付费单位。仅`chargeMode=prepaid_by_duration`时此参数有效。<br>可选值：<br>`month`（默认值）：月<br>`year`：年|
-|**chargeDuration**|Integer|否|1 |包年包月（预付费）付费单位。仅`chargeMode=prepaid_by_duration`时此参数有效。<br>取值范围：<br>`chargeUnit=month`时：`[1,9]`<br>`chargeUnit=year`时：`[1,3]`|
+|**chargeMode**|String|否|prepaid_by_duration |计费模式。<br>可选值：<br>`postpaid_by_duration`（默认值）：按配置（后付费）<br>`prepaid_by_duration`：包年包月（预付费） <br>`postpaid_by_spot`：抢占式实例（后付费）<br>`postpaid_by_usage`：按用量（后付费）<br>仅弹性公网IP支持`postpaid_by_usage`，具体计费说明请参考[实例计费类型说明](https://docs.jdcloud.com/cn/virtual-machines/billing-overview)。|
+|**chargeUnit**|String|否| month|包年包月付费单位或按配置计费模式定时转换为包年包月付费单位。<br>仅`chargeMode=prepaid_by_duration`或`chargeMode=postpaid_by_duration`&`autoChangeChargeMode=true`时此参数有效。<br>可选值：<br>`month`（默认值）：月<br>`year`：年|
+|**chargeDuration**|Integer|否|1 |包年包月付费单位或计费模式转换（按配置定时转包年包月）付费时长。<br>仅`chargeMode=prepaid_by_duration`或`chargeMode=postpaid_by_duration` & `autoChangeChargeMode=true`时此参数有效。<br>取值范围：<br>`chargeUnit=month`时：`[1,9]`<br>`chargeUnit=year`时：`[1,3]`|
 |**autoRenew**|Boolean|否|true |自动续费。<br>可选值：<br>`true`：开通自动续费<br>`false`（默认值）：不开通自动续费|
+|**autoChangeChargeMode**|Boolean|否|False | 计费模式定时转换。<br>支持在指定日期从按配置计费转换为包年包月计费，且只有按配置计费支持开启。<br>可选值：<br>`true`：开通定时转换<br>`false`（默认值）：不开通定时转换|
+|**autoChangeChargeModeDate**|String|否|2022-12-15|计费模式定时转换日期。<br>格式"yyyy-MM-dd" ，例"2022-12-18"。<br>指定日期的0点开始执行转换 ，autoChangeChargeMode为true时必填。|
 |**buyScenario**|String|否| |统一活动凭证。此参数暂未启用，无须指定且指定无效。|
 
 ### <div id="user-content-7">InstanceDiskAttachmentSpec</div>

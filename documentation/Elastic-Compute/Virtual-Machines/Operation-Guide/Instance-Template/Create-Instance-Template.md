@@ -8,6 +8,7 @@
 2. 选择地域后点击 **创建**，进入实例模板创建页面。
 3. 设置实例模板名称、描述。
 4. 其他配置项可参考 [Linux入门指南-确定配置项](https://docs.jdcloud.com/virtual-machines/select-configuration-linux) 或 [Windows入门指南-确定配置项](https://docs.jdcloud.com/virtual-machines/select-configuration-windows) 进行选择和填写。
+5. 实例模板提供了“实例标签”配置项，通过此配置可以预设实例标签。基于实例模板创建实例时如未另行指定，将为实例关联此处设置的标签。
 
 >注意：
 >* 实例模板服务免费，页面价格显示的是基于此实例模板创建实例的预估费用，实际资源费用请以创建实例时的价格显示为准；

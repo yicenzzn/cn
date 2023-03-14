@@ -23,6 +23,7 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 |**pageSize**|Integer|False| |分页大小；默认为20；取值范围[10, 100]|
 |**filters**|[Filter[]](describecontainers#filter)|False| |containerId - 实例ID，精确匹配，支持多个<br>privateIpAddress - 主网卡IP地址，模糊匹配，支持单个<br>az - 可用区，精确匹配，支持多个<br>vpcId - 私有网络ID，精确匹配，支持多个<br>status - 容器状态，精确匹配，支持多个<br>name - 容器名称，模糊匹配，支持单个<br>subnetId - 子网ID，精确匹配，支持多个<br>|
 |**tags**|[TagFilter[]](describecontainers#tagfilter)|False| |Tag筛选条件|
+|**resourceGroupIds**|String[]|False| |资源组ID|
 
 ### <div id="tagfilter">TagFilter</div>
 |名称|类型|是否必需|默认值|描述|
@@ -74,11 +75,13 @@ https://nativecontainer.jdcloud-api.com/v1/regions/{regionId}/containers
 |**primaryNetworkInterface**|[InstanceNetworkInterfaceAttachment](describecontainers#instancenetworkinterfaceattachment)|主网卡配置信息|
 |**secondaryNetworkInterfaces**|[InstanceNetworkInterfaceAttachment[]](describecontainers#instancenetworkinterfaceattachment)|辅助网卡配置信息|
 |**logConfiguration**|[LogConfiguration](describecontainers#logconfiguration)|容器日志配置信息|
-|**tags**|[Tag[]](describecontainers#tag)| |
+|**tags**|[Tag[]](describecontainers#tag)|Tag信息|
 |**charge**|[Charge](describecontainers#charge)|计费配置信息|
 |**launchTime**|String|创建时间|
 |**reason**|String|容器终止原因|
 |**description**|String|容器描述|
+|**resourceGroupId**|String|资源组ID|
+
 ### <div id="charge">Charge</div>
 |名称|类型|描述|
 |---|---|---|
