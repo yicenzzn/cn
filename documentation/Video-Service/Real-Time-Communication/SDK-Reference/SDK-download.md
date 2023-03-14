@@ -17,7 +17,7 @@
 <tr>
 <td>H5</td>
 <td><a href="https://jrtcpictures.s3.cn-north-1.jdcloud-oss.com/jrtc-h5.zip">DownLoad</span></a></td>
-<td colspan="1"><span>音视频通信H5 SDK文件及Demo</span></td></tr></tbody></table>
+<td colspan="1"><span>音视频通信H5 SDK文件及Demo</span></td></tr>
 <tr>
 <td>PC</td>
 <td><a href="https://zhanghao274.s3.cn-north-1.jdcloud-oss.com/jrtc/JRTC%20PC%E7%AB%AFSDK-3.2.6.zip"><span>DownLoad</span></a></td>
