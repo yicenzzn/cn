@@ -34,7 +34,8 @@ https://starshield.jdcloud-api.com/v1/zones/{zone_identifier}/ssl$$certificate_p
 |名称|类型|描述|
 |---|---|---|
 |**id**|String|证书包的唯一标识符|
-|**ty_pe**|String|证书包的类型|
+|**type**|String|证书包的类型，有效值universal/sni_custom/advanced<br>universal    通用<br>sni_custom   自定义<br>advanced     专用<br>|
+|**ty_pe**|String|证书包的类型，有效值universal/sni_custom/advanced<br>universal    通用<br>sni_custom   自定义<br>advanced     专用<br>(值同type)<br>|
 |**hosts**|String[]|证书包的有效主机名的逗号分隔列表。必须包含域的顶级域名，不能包含超过50个主机，并且不能为空。|
 |**certificates**|[Certificate[]](listCertificatePacks#certificate)| |
 |**primary_certificate**|String|包中主证书的标识符|
