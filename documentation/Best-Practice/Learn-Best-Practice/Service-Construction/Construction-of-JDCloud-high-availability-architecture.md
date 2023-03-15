@@ -27,7 +27,7 @@
 
 ### 2.1 环境架构
 
-![图片](../../../../image/Best-Practice/Service-Construction/640.jpeg)
+![high-availability-architecture](../../../../image/Best-Practice/Service-Construction/high-availability-architecture.jpeg)
 
 ### 2.2 环境介绍
 
@@ -108,7 +108,7 @@ docker run -d --name=wordpress --restart=unless-stopped -p 443:443
 
 WP目录为777 权限
 
-![图片](../../../../image/Best-Practice/Service-Construction/640-1677584869153-3.jpeg)
+![permission01](../../../../image/Best-Practice/Service-Construction/permission01.jpeg)
 
 到这里基础主机环境准备完成。
 
@@ -148,7 +148,7 @@ docker run -d --name=wordpress --restart=unless-stopped -p 443:443 -p 80:80 -v /
 
 到此，基本的应用就安装完成了。
 
-![image-20230228194928397](../../../../image/Best-Practice/Service-Construction/image-20230228194928397.png)
+![tables01](../../../../image/Best-Practice/Service-Construction/tables01.png)
 
 配置redis动态缓存加速：
 
@@ -158,15 +158,15 @@ redis的角色，在这个案例里边，在wordpress里 redis 作为一个动�
 
 下载后通过wordpress的管理页面-plugin --addnew 直接上传，然后依据插件操作手册安装配置即可。
 
-![图片](../../../../image/Best-Practice/Service-Construction/640-1677584987647-6.jpeg)
+![plugins01](../../../../image/Best-Practice/Service-Construction/plugins01.jpeg)
 
 安装redis-cache以后，会在/wp/wp-content/plugins 目录下生成一个 redis-cache目录。需要同时在/wp/wp- content 下生成一个 object-cache.php文件，正常来讲，需要调整一个参数host改成redis的域名即可。如果配置了密码，就需要调整这个以及redis-cache目录下的配置文件把密码配置进去，这个因为是 演示环境，redis设置 了免密，生产环境一定要设置密码。
 
-![image-20230228195027819](../../../../image/Best-Practice/Service-Construction/image-20230228195027819.png)
+![object-cache](../../../../image/Best-Practice/Service-Construction/object-cache.png)
 
 安装配置完成后，在管理界面的setting里会有redis的配置选项，这个和版本有关系，有些版本可能会让在这里做参数配置。直接改文件参数效果是一样的。
 
-![图片](../../../../image/Best-Practice/Service-Construction/640-1677585046678-9.jpeg)
+![plugins02](../../../../image/Best-Practice/Service-Construction/plugins02.jpeg)
 
 mysql及redis管理及相关登录方式介绍：
 
@@ -240,11 +240,11 @@ add_shortcode("show_hostname", "get_hostname");
 
 然后，在wordpress的site里加入短代码实现：
 
-![图片](../../../../image/Best-Practice/Service-Construction/640-1677585177394-12.jpeg)
+![shortcode01](../../../../image/Best-Practice/Service-Construction/shortcode01.jpeg)
 
 保存后，看到页面可以显示相关的IP及hostname信息了。
 
-![image-20230228195451732](../../../../image/Best-Practice/Service-Construction/image-20230228195451732.png)
+![testpage01](../../../../image/Best-Practice/Service-Construction/testpage01.png)
 
 到这里，wordpress的应用环境配置完成。
 
@@ -258,27 +258,27 @@ add_shortcode("show_hostname", "get_hostname");
 
 **实例模板：**
 
-![image-20230228195546923](../../../../image/Best-Practice/Service-Construction/image-20230228195546923.png)
+![template01](../../../../image/Best-Practice/Service-Construction/template01.png)
 
-![image-20230228195639284](../../../../image/Best-Practice/Service-Construction/image-20230228195639284.png)
+![template02](../../../../image/Best-Practice/Service-Construction/template02.png)
 
 **高可用组：**
 
 高可用组使用制作好了wordpress的应用主机的镜像。做到高可用组自动弹性伸缩出新主机--新主机自动 拉起wordpress应用--新主机自动挂载到LB接收业务流量的模式。
 
-![image-20230228195714850](../../../../image/Best-Practice/Service-Construction/image-20230228195714850.png)
+![ag01](../../../../image/Best-Practice/Service-Construction/ag01.png)
 
-![img](../../../../image/Best-Practice/Service-Construction/640-1677585451906-19.jpeg)
+![ag02](../../../../image/Best-Practice/Service-Construction/ag02.jpeg)
 
-![image-20230228195809283](../../../../image/Best-Practice/Service-Construction/image-20230228195809283.png)
+![vmlist](../../../../image/Best-Practice/Service-Construction/vmlist.png)
 
 **LB配置：**
 
 LB监听器选择后端服务为高可用组，并配置健康检查。
 
-![图片](../../../../image/Best-Practice/Service-Construction/640-1677585514679-22.jpeg)
+![alb-listen01](../../../../image/Best-Practice/Service-Construction/alb-listen01.jpeg)
 
-![image-20230228195913051](../../../../image/Best-Practice/Service-Construction/image-20230228195913051.png)
+![alb-backend01](../../../../image/Best-Practice/Service-Construction/alb-backend01.png)
 
 高可用组挂载到LB后端以后，应用环境已经搭建完成。
 
@@ -286,13 +286,13 @@ LB监听器选择后端服务为高可用组，并配置健康检查。
 
 LB访问截图(2张，分别访问到了两个主机)
 
-![image-20230228195937300](../../../../image/Best-Practice/Service-Construction/image-20230228195937300.png)
+![testpage03](../../../../image/Best-Practice/Service-Construction/testpage03.png)
 
-![image-20230228200003209](../../../../image/Best-Practice/Service-Construction/image-20230228200003209.png)
+![testpage04](../../../../image/Best-Practice/Service-Construction/testpage04.png)
 
 单台主机访问截图（直接访问单台主机IP，刷新后不会轮询主机）：
 
-![image-20230228200022190](../../../../image/Best-Practice/Service-Construction/image-20230228200022190.png)
+![testpage05](../../../../image/Best-Practice/Service-Construction/testpage05.png)
 
 演示环境就绪。
 
@@ -368,13 +368,13 @@ stress --CPU 2
 # 并作为高可用组的一台主机自动挂载到LB的后端，可在LB及主机界面看到自动扩容的主机。
 ```
 
-![image-20230228200141615](../../../../image/Best-Practice/Service-Construction/image-20230228200141615.png)
+![ag-list01](../../../../image/Best-Practice/Service-Construction/ag-list01.png)
 
 在控制台将一台高可用组内主机关机，然后可见LB后端服务健康检查发现挂载的高可用组一台服务器异常，高可用组如配置最小的主机数量，则高可用组也自动扩出一台主机，继续提供服务。在此期间，流量会转发给后端正常主机，健康检查异常的主机不再接收流量，业务访问持续正常。
 
-![image-20230228200246749](../../../../image/Best-Practice/Service-Construction/image-20230228200246749.png)
+![image-20230228200246749](../../../../image/Best-Practice/Service-Construction/vmlist01.png)
 
-![image-20230228200319766](../../../../image/Best-Practice/Service-Construction/image-20230228200319766.png)
+![alb-backend02](../../../../image/Best-Practice/Service-Construction/alb-backend02.png)
 
 PAAS服务的高可用：
 
@@ -382,8 +382,8 @@ PAAS服务的高可用：
 
 底层进行RDS主备切换（kill掉RDS主库），业务访问同样不会中断，提供截图可以看到主从切换过程。
 
-![image-20230228200451677](../../../../image/Best-Practice/Service-Construction/image-20230228200451677.png)
+![MS-Switch01](../../../../image/Best-Practice/Service-Construction/MS-Switch01.png)
 
-![image-20230228200615500](../../../../image/Best-Practice/Service-Construction/image-20230228200615500.png)
+![MS-Switch02](../../../../image/Best-Practice/Service-Construction/MS-Switch02.png)
 
 本文实际部署环境为京东为客户搭建的私有云环境（JDSTACK），公有云与私有云为相同技术栈，搭建及验证过程相似。限于篇幅，redis验证部分及主机可访问性脚本结果未截图，感兴趣的读者可自行在云上通过本文指引过程搭建验证。
