@@ -30,3 +30,7 @@ items:
         href: Cloud/Cloud-Guide-Secsolution.md
       - name: 企业建站/小程序的高性能架构
         href: Cloud/Cloud-Guide-HighPerf.md     
+  - name: 服务搭建
+    items:
+      - name: 京东云高可用业务架构建设
+        href: Service-Construction/Construction-of-JDCloud-high-availability-architecture.md
