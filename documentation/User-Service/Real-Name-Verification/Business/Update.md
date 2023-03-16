@@ -17,7 +17,7 @@
 
 如果您已完成企业实名认证，且近一个月内没有进行过实名更新，则您可以发起实名更新。在实名认证页面点击 “立即更新”：
 
-![](../../../../image/User/newrealname/14%E8%AE%A4%E8%AF%81%E9%80%9A%E8%BF%87.png)
+![](../../../../image/User/newnewrealname/update1.png)
 
 注：如果您的账号在一个月内有过企业实名认证成功或者更新实名成功的记录，则实名通过后的一个月内无法进行变更，请于限制操作日期之后重试。
 
@@ -25,8 +25,8 @@
 
 **2. 确认知晓并同意变更须知**
 
-![](../../../../image/User/newrealname/15%E6%9B%B4%E6%96%B0%E9%A1%BB%E7%9F%A5.png)
- 
+![](../../../../image/User/newnewrealname/update3.png)
+
 **3. 按照页面操作完成更新流程**
 
 填写企业信息、完成对公打款确认实名更新。详见：[对公账户打款认证](../../../../documentation/User-Service/Real-Name-Verification/Business/Remit.md)
