@@ -17,6 +17,7 @@ https://starshield.jdcloud-api.com/v1/zones/{zone_identifier}/custom_certificate
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
+|**x-jdcloud-account-id**|String|True| |请求头：实例id|
 |**certificate**|String|False| |域的SSL证书或证书以及中间证书|
 |**private_key**|String|False| |域的私钥|
 |**bundle_method**|String|False|ubiquitous|合法值ubiquitous/optimal/force，默认值ubiquitous。<br>ubiquitous：SSL泛捆绑在各处有着最高的概率被验证，甚至能被使用过时的或不寻常的信任存储的客户端验证。<br>optimal：最佳捆绑使用最短的认证链和最新的中间证书。<br>force：强制捆绑会验证证书链，但不以其他方式修改证书链。<br>|

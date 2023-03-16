@@ -57,6 +57,8 @@ https://starshield.jdcloud-api.com/v1/zones/{zone_identifier}/analytics$$firewal
 |**firewallSource**|String| |
 |**userAgent**|String| |
 |**ruleId**|String| |
+|**group**|String| |
+|**ruleMessage**|String| |
 
 ## 返回码
 |返回码|描述|
