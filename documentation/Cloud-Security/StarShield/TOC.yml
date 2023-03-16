@@ -37,7 +37,7 @@ items:
         href: Operation-Guide/Cache.md
       - name: 应用防火墙
         href: Operation-Guide/Firewall.md
-      - name: SSL证书
+      - name: SSL证书与加密模式
         href: Operation-Guide/SSL.md
       - name: 页面规则
         href: Operation-Guide/Page-rule.md
