@@ -58,6 +58,8 @@ items:
             href: Operation-Guide/Instance/Update-Instance.md
           - name: 变更副本数
             href: Operation-Guide/Instance/Update-Copies.md
+          - name: 变更分片数
+            href: Operation-Guide/Instance/Update-Replica.md
           - name: 实例版本升级
             href: Operation-Guide/Instance/Update-Version.md 
             
