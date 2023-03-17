@@ -2102,7 +2102,7 @@
       <td></td>
    </tr>
    <tr>
-      <td rowspan="10">高频计算</td>
+      <td rowspan="15">高频</td>
       <td rowspan="10">通用</td>
       <td>h.g2.large</td>
       <td>2</td>
@@ -2201,6 +2201,57 @@
       <td>3087</td>
       <td>21</td>
       <td>15.72</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td rowspan="5">计算</td>
+      <td>h.c2.large</td>
+      <td>2</td>
+      <td>4</td>
+      <td>251</td>
+      <td>--</td>
+      <td>0.87</td>
+      <td>--</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>h.c2.xlarge</td>
+      <td>4</td>
+      <td>8</td>
+      <td>502</td>
+      <td>--</td>
+      <td>1.74</td>
+      <td>--</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>h.c2.2xlarge</td>
+      <td>8</td>
+      <td>16</td>
+      <td>1004</td>
+      <td>--</td>
+      <td>3.49</td>
+      <td>--</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>h.c2.3xlarge</td>
+      <td>16</td>
+      <td>32</td>
+      <td>2008</td>
+      <td>--</td>
+      <td>6.97</td>
+      <td>--</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>h.c2.4xlarge</td>
+      <td>32</td>
+      <td>64</td>
+      <td>4016</td>
+      <td>--</td>
+      <td>13.94</td>
+      <td>--</td>
       <td></td>
    </tr>
    <tr>
