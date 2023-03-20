@@ -21,7 +21,7 @@
 ### URL粒度页面规则
 支持灵活的页面规则Page Rule设置，用户可自定义缓存设置遵循源站缓存策略、自定义页面重定向、自定义安全设置等功能。
 
-###  CC、DDoS攻击防御
+###  CC攻击防御
 SCDN 采用分布式攻击防御方式，能有效防御 CC攻击即应用层HTTP DDoS攻击对于应用的安全威胁。并支持防御包括SYN Flood、ACK Flood、ICMP Flood、UDP Flood、TCP Flood、QUIC Flood等攻击。
 
 ###  请求流量带宽弹性计费
