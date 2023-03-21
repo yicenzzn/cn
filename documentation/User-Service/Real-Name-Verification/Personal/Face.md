@@ -10,17 +10,17 @@
 
 1. 进入[实名认证](https://realname.jdcloud.com/account/verify)页面，在“个人认证”选项卡里点击“立即认证”。
 
-![face1](../../../../image/User/newnewrealname/face1.png)
+![face1new](../../../../image/User/newnewrealname/face1new.png)
 
 2. 如果系统检测到您的账号已经在京东商城/京东金融完成了个人实名认证，会自动弹出如下弹窗，您可以点击“立即授权”授权京东云获取您在京东商城/京东金融的实名信息。
 
-![face2](../../../../image/User/newnewrealname/face2.png)
+![face2new](../../../../image/User/newnewrealname/face2new.png)
 
 如果您的账号未在京东商城/京东金融完成个人实名认证或者您选择“暂不授权，手动认证”，则进入选择个人实名认证方式的页面，您可以选择“实名手机认证”或“扫脸认证”。
 
 3. 选择“扫脸认证”后，点击下一步，需要在如下页面填写您的姓名和身份证号。
 
-![face3](../../../../image/User/newnewrealname/face3.png)
+![face3new](../../../../image/User/newnewrealname/face3new.png)
 
 4. 姓名和身份证号验证无误，页面会展示如下二维码。
 
