@@ -18,13 +18,13 @@
 
 进入[实名认证](https://realname.jdcloud.com/account/verify)页面，选择企业认证-对公账户打款认证。
 
-![remit1](../../../../image/User/newnewrealname/remit1.png)
+![remit1new](../../../../image/User/newnewrealname/remit1new.png)
 
 **2. 填写企业名称和企业银行对公账户信息**
 
 请输入您营业执照上的单位名称、您企业银行对公账户的卡号，列表选择您对公账户的开户银行、开户支行省市和支行名称。
 
-![remit2](../../../../image/User/newnewrealname/remit2.png)
+![remit2new](../../../../image/User/newnewrealname/remit2new.png)
 
 注：如果您的开户银行或开户支行不在页面可选列表中，请联系京东云客服 400-615-1212 为您处理。
 

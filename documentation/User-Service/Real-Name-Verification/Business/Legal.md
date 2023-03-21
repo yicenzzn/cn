@@ -17,13 +17,13 @@
 
 进入[实名认证](https://realname.jdcloud.com/account/verify)页面，选择企业认证-法人扫脸认证。
 
-![cface1](../../../../image/User/newnewrealname/cface1.png)
+![cface1new](../../../../image/User/newnewrealname/cface1new.png)
 
 **2. 填写企业名称和法人信息**
 
 请输入您营业执照上的主体名称、法人姓名、法人身份证号。
 
-![cface2](../../../../image/User/newnewrealname/cface2.png)
+![cface2new](../../../../image/User/newnewrealname/cface2new.png)
 
 **3. 进行扫脸认证**
 

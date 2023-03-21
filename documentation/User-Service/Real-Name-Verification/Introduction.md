@@ -16,6 +16,5 @@
 
 [企业实名认证](../../../documentation/User-Service/Real-Name-Verification/Business/Remit.md)
 
-[个体工商户认证](../../../documentation/User-Service/Real-Name-Verification/Business/Legal.md)
-
 其他组织类型，请前往 【[京东金融商户中心](https://jras.jd.com/realName/index.htm?source=QYZ)】完成认证后，在京东云授权同步认证。
+

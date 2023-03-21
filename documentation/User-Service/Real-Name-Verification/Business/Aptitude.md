@@ -17,7 +17,7 @@
 
 进入[实名认证](https://realname.jdcloud.com/account/verify)页面，选择企业认证-工商资质认证
 
-![commerce1](../../../../image/User/newnewrealname/commerce1.png)
+![commerce1new](../../../../image/User/newnewrealname/commerce1new.png)
 
 **2. 填写证件信息**
 
