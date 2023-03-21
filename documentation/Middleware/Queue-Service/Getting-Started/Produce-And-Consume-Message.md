@@ -21,19 +21,11 @@
 
    标准队列-发送消息：
 
-   ![标准发送消息](../../../../image/Internet-Middleware/Queue-Service/入门指南-03.png)
-
-   FIFO队列-发送消息：
-
-   ![FIFO发送消息](../../../../image/Internet-Middleware/Queue-Service/入门指南-04.png)
+   ![标准发送消息](../image/发送消息.jpg)
 
    ### 说明：
 
-   1. 消息延迟时间的设置将覆盖延迟队列上的延迟投递的值。
-
-   2. 消息组ID是标记消息属于某个消息组的标识, 队列服务会以FIFO方式处理同一消息组中的消息（但是不同消息组中的消息可能无序)。    消息重复数据删除ID是用于删除重复已发送消息的令牌，用于避免消息的重复接受做到精确的一次性接收。
-
-      
+   - 消息延迟时间的设置将覆盖延迟队列上的延迟投递的值。
 
 3. 消息发送成功，会返回消息发送成功通知和消息的Message ID及相关属性。
 
@@ -43,11 +35,11 @@
 
    设置接收参数：
 
-   ![接收参数](../../../../image/Internet-Middleware/Queue-Service/入门指南-05.png)
+   ![接收参数](../image/接收消息.jpg)
 
    接收消息结果：
 
-   ![接收结果](../../../../image/Internet-Middleware/Queue-Service/入门指南-06.png)
+   ![接收结果](../image/接收消息详情.jpg)
 
    ### 说明：
 
@@ -64,9 +56,9 @@
 
 SDK推荐您使用AWS SQS SDK, 京东云队列服务支持了SQS SDK的接口。在使用SDK的时候，您需要配置4个参数：Accesskey、Secretkey、Endpoint和Region。其中AK&SK您在之前[AccessKey管理页面](https://uc.jdcloud.com/account/accesskey)已经创建，Endpoint和Region您可以点击控制台“接入点地址”获取, Endopint为一个HTTP/S的地址，Region为所选地域的英文代号，如下图所示。
 
-![接入点地址](../../../../image/Internet-Middleware/Queue-Service/入门指南-07.png)
+![接入点地址](../image/列表接入点地址.jpg)
 
-![地址信息](../../../../image/Internet-Middleware/Queue-Service/入门指南--接入点.png)
+![地址信息](../image/接入点详情.jpg)
 
 
 
