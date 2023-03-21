@@ -5,27 +5,28 @@ items:
   - name: 产品简介
     items:
       - name:产品概述
-        href:organization/product-overview.md
+        href:organization/Product-Overview.md
 
   - name: 组织管理
     items:
       - name:查看成员列表及成员基础信息
-        href:organization/view-the-member-list-and-basic-member-information.md
+        href:organization/View-Member-List-Information.md
       - name: 移除组织成员
-        href: organization/Remove-organization-members.md
+        href: organization/Remove-Organization-Members.md
       - name: 添加组织成员
-        href:organization/add-organization-members.md
+        href:organization/Add-Organization-Members.md
       - name: 取消成员邀请
-        href: organization/Cancel-the-member-invitation.md
+        href: organization/Add-Organization-Members.md
       - name: 成员接收邀请及退出组织
-        href:organization/Members-receive-invitations-and-leave-the-organization.md
+        href:organization/Members-Receive-Invitations-Leave-Organization.md
 
   - name: 认证主体管理
     items:
       - name:认证主体管理
-        href:organization/authentication-entity-management.md
+        href:organization/Authentication-Entity-Management.md
 
   - name: 财务管理
     items:
       - name:查看成员账号消费信息
-        href:organization/view-the-consumption-information-of-the-member-account.md
+        href:organization/Consumption-Information.md
+
