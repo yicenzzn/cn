@@ -43,7 +43,7 @@
     - name: 使用快照创建
       href: Getting-Started-Cloud-Disk/COC-Create-Disk-by-Snapshot.md
     - name: 挂载云硬盘
-      href: Getting-Started-Cloud-Disk/COC-Attach-Cloud-Disk
+      href: Getting-Started-Cloud-Disk/COC-Attach-Cloud-Disk.md
 
 
     - name: 云硬盘扩容
