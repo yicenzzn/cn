@@ -49,7 +49,7 @@
     - name: 云硬盘扩容
       items:
         - name: 云硬盘扩容概述
-          href: Expand-Filesystem/COC-Cloud-Disk-Expansion-Overview
+          href: Expand-Filesystem/COC-Cloud-Disk-Expansion-Overview.md
         - name: 控制台扩容操作
           href: Getting-Started-Cloud-Disk/COC-Disk-Expand.md
         - name: 扩容文件系统（有分区）
