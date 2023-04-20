@@ -87,7 +87,7 @@ items:
             href: Operation-Guide/Instance/Restart-Overdue-Instance.md
           - name: 突发性能型实例概述
             href: Operation-Guide/Instance/Burst-Instance-Overview.md
-      - name: 镜像
+      - name: 合作镜像
         items:
           - name: 镜像概述
             href: Operation-Guide/Image/Image-Overview.md
@@ -123,7 +123,7 @@ items:
             href: Operation-Guide/Storage/Assign-Device-Name.md
           - name: 存储FAQ
             href: Operation-Guide/Storage/Storage-FAQ.md
-      - name: 网络
+      - name: 合作网络
         items:
           - name: 网络概述
             href: Operation-Guide/Network/Network-Overview.md
@@ -133,7 +133,7 @@ items:
             href: Operation-Guide/Network/Disassociate-Elastic-IP.md
           - name: 网络FAQ
             href: Operation-Guide/Network/Network-FAQ.md       
-      - name: 密钥
+      - name: 合作密钥
         items:
           - name: 密钥概述
             href: Operation-Guide/Key-Pair/KeyPair-Overview.md
