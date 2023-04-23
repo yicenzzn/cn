@@ -129,14 +129,6 @@ rdesktop -u administrator -p <实例登录密码> <实例公网IP地址>
 4. 首次连接后，再次连接时可以直接找到并选中希望连接的实例图标，点击窗口设置图标里的**Connect**完成登录信息输入后进行连接。
 
 
-## 相关参考 
-
-[重置密码](../Operation-Guide/Instance/Reset-Password.md)
-
-[安全组](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features)
-
-[网络ACL](http://docs.jdcloud.com/cn/virtual-private-cloud/network-acl-features)
-
 
   [1]: ./images/Getting-Start-Linux-Connect-console.png "Getting-Start-Linux-Connect-console.png"
   [2]: ./images/Getting-Start-Linux-Connect-Windows-VNC.png "Getting-Start-Linux-Connect-Windows-VNC.png"
