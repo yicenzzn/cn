@@ -5,7 +5,7 @@
 > 请注意：价格总览中价格为统一官方标价，不包括用户折扣优惠，为了保证价格准确性，建议您登录后使用云主机价格计算器或登录控制台云主机创建页面查看配置价格。
 
 
-京东云主机实例价格主要包括：实例价格（vCPU及内存）/云硬盘价格/弹性公网IP价格。其中云硬盘价格请参见[云硬盘价格总览](https://docs.jdcloud.com/cn/cloud-disk-service/price-overview)，弹性公网IP价格请参见[弹性公网IP价格总览](../../../Networking/Elastic-IP/Pricing/Price-Overview.md)。
+京东云合作云主机实例价格主要包括：实例价格（vCPU及内存）/合作云硬盘价格/弹性公网IP价格。其中云硬盘价格请参见[合作云硬盘价格总览](../../COC-Disk/Pricing/Price-Overview.md)，合作弹性公网IP价格请参见[合作弹性公网IP价格总览](../../../Networking/Elastic-IP/Pricing/Price-Overview.md)。
 
 ## 实例价格：
 Linux系统实例价格
@@ -2150,7 +2150,7 @@ Windows系统实例价格
 ## 相关参考
 [云主机价格计算器](https://www.jdcloud.com/calculator/calHost)
 
-[云硬盘价格总览](http://docs.jdcloud.com/cn/cloud-disk-service/price-overview)
+[合作云硬盘价格总览](../../COC-Disk/Pricing/Price-Overview.md)
 
 [弹性公网IP价格总览](../../../Networking/Elastic-IP/Pricing/Price-Overview.md)
 
