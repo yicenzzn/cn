@@ -120,15 +120,6 @@ chmod 400 <下载到本地的与实例绑定的私钥绝对路径>
 ssh -i "<下载到本地的与实例绑定的私钥绝对路径>" root@<实例公网IP地址>
 ```
 
-## 相关参考
-
-[重置密码](../Operation-Guide/Instance/Reset-Password.md)
-
-[创建SSH密钥](../Operation-Guide/Key-Pair/Create-Keypair.md)
-
-[安全组](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-features)
-
-[网络ACL](http://docs.jdcloud.com/cn/virtual-private-cloud/network-acl-features)
 
 
   [1]: ./images/Getting-Start-Linux-Connect-console.png "Getting-Start-Linux-Connect-console.png"
