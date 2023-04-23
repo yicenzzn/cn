@@ -74,12 +74,12 @@
 
 [计费规则](../Pricing/Billing-Rules.md)
 
-[镜像概述](../Operation-Guide/Image/Image-Overview.md)
+[合作镜像概述](../Operation-Guide/Image/Image-Overview.md)
 
-[实例规格](../Introduction/Instance-Type-Family.md)
+[合作云主机实例规格](../Introduction/Instance-Type-Family.md)
 
-[私有网络](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)
+[合作私有网络](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)
 
-[子网](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)
+[合作子网](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)
 
-[创建安全组](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-configuration)
+[创建合作安全组](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-configuration)
