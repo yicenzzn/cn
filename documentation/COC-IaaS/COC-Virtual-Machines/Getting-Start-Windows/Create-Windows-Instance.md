@@ -69,19 +69,13 @@
 
 ## 相关参考
 
+## 相关参考
+
 [地域与可用区](../Introduction/Regions-and-AvailabilityZones.md)
 
 [计费规则](../Pricing/Billing-Rules.md)
 
-[镜像概述](../Operation-Guide/Image/Image-Overview.md)
+[合作镜像概述](../Operation-Guide/Image/Image-Overview.md)
 
 [实例规格](../Introduction/Instance-Type-Family.md)
-
-[私有网络](http://docs.jdcloud.com/cn/virtual-private-cloud/product-overview)
-
-[子网](http://docs.jdcloud.com/cn/virtual-private-cloud/subnet-features)
-
-[创建安全组](http://docs.jdcloud.com/cn/virtual-private-cloud/security-group-configuration)
- 
-[SSH密钥](../Operation-Guide/Key-Pair/KeyPair-Overview.md)
 
