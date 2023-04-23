@@ -12,13 +12,15 @@
 ## 镜像费用
 
 * 镜像使用<br>
-目前官方镜像和镜像市场镜像均为免费使用，即使用镜像创建实例时无需支付镜像相关费用。
+目前官方镜像为免费使用，即使用镜像创建实例时无需支付镜像相关费用。
 * 镜像存储<br>
-由于私有镜像本质是对云硬盘备份数据（快照）的引用，而云硬盘快照目前已经商业化，因此保有私有镜像会产生一定的快照保存费用，具体收费标准请以[合作云硬盘快照收费](https://docs.jdcloud.com/cloud-disk-service/price-overview)为准。
+由于私有镜像本质是对云硬盘备份数据（快照）的引用，而云硬盘快照目前已经商业化，因此保有私有镜像会产生一定的快照保存费用，具体收费标准请以[合作云硬盘快照收费](../../../COC-Disk/Pricing/Price-Overview.md)为准。
 
 
 ## 相关参考
 
-[制作私有镜像](https://docs.jdcloud.com/virtual-machines/create-private-image)
+[制作合作私有镜像](../Image/Create-Private-Image.md)
 
-[云硬盘快照收费](https://docs.jdcloud.com/cloud-disk-service/price-overview)
+[合作云硬盘快照收费](../../../COC-Disk/Pricing/Price-Overview.md)
+
+[合作镜像概述](../Image/Image-Overview.md)
