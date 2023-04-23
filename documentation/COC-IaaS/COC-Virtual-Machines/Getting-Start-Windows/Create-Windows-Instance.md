@@ -69,8 +69,6 @@
 
 ## 相关参考
 
-## 相关参考
-
 [地域与可用区](../Introduction/Regions-and-AvailabilityZones.md)
 
 [计费规则](../Pricing/Billing-Rules.md)
