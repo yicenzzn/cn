@@ -17,7 +17,6 @@
 * [重置系统](Rebuild-Instance.md)
 * [修改实例名称](Modify-Instance-Name.md)
 * [重运行到期/欠费实例](http://docs.jdcloud.com/cn/virtual-machines/restart-overdue-or-arrear-instance)
-* [导出实例信息](Export-Instance.md)
 * [停机不计费](uncharged_for_stopped_vm.md)
 * [按配置计费实例转包年包月计费](Switch-from-Postpaid-to-Prepaid.md)
 * [查找实例](Search-Instance.md)
