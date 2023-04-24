@@ -57,4 +57,4 @@
 
 - [使用限制](../../Introduction/Restrictions.md)
 - [创建云主机](https://docs.jdcloud.com/cn/coc-virtual-machines/create-instance)
-- [创建公网IP](../../Operaton-Guide/Create-Elastic-IP.md)
+- [创建公网IP](../../Operation-Guide/Create-Elastic-IP.md)
