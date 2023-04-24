@@ -17,7 +17,7 @@
 ## 相关参考
 
 - [产品概述](../Introduction/Product-Overview.md)
-- [创建公网IP](../Operation-Guide/Elastic-IP-Management/Create-Elastic-IP.md)
+- [创建公网IP](../Operation-Guide/Create-Elastic-IP.md)
 - [价格总览](Price-Overview.md)
 - [计费规则](Billing-Rules.md)
 - [常见问题](../FAQ/FAQ.md)
