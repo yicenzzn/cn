@@ -2,8 +2,8 @@
 
 京东云支持合作弹性公网IP独立续费，本文将介绍如何续费合作弹性公网IP。
 
-- [从公网IP产品侧续费](renew-elastic-ip#user-content-1)
-- [从续费管理页面续费](renew-elastic-ip#user-content-2)
+- [从公网IP产品侧续费](Renew-Elastic-Ip#user-content-1)
+- [从续费管理页面续费](Renew-Elastic-Ip#user-content-2)
 
 ### 操作场景
 
