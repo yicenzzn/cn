@@ -38,7 +38,7 @@ https://coc.disk.jdcloud-api.com/v1/regions/{regionId}/disks
 |**diskSizeGB**|Integer|True| |云硬盘大小，单位为 GiB，ssd 类型取值范围[20,1000]GB，步长为10G，premium-hdd 类型取值范围[20,3000]GB，步长为10G, ssd.gp2, ssd.io1, ssd.io2 类型取值均是范围[20,16000]GB，步长为10G|
 |**iops**|Integer|False|30|云硬盘IOPS的大小，当且仅当云盘类型是ssd.io1型的云盘有效，步长是10.默认值为容量30，最大值为容量50|
 |**snapshotId**|String|False| |用于创建云硬盘的快照ID，默认为空|
-|**charge**|[ChargeSpec](#chargespec)|False| |计费配置；如不指定，默认计费类型是后付费-按使用时常付费|
+|**charge**|[ChargeSpec](createDisks#ChargeSpec)|False| |计费配置；如不指定，默认计费类型是后付费-按使用时常付费|
 ### <div id="ChargeSpec">ChargeSpec</div>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
@@ -51,7 +51,7 @@ https://coc.disk.jdcloud-api.com/v1/regions/{regionId}/disks
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)|结果集|
+|**result**|[Result](createDisks#Result)|结果集|
 |**requestId**|String|请求ID|
 
 ### <div id="Result">Result</div>
