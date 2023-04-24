@@ -48,6 +48,6 @@
 ## 相关参考
 
 - [价格总览](../Pricing/Price-Overview.md)
-- [使用限制](../Pricing/Restrictions.md)
+- [使用限制](../Introduction/Restrictions.md)
 - [绑定资源](../Operation-Guide/Associate-Elastic-IP.md)
 - [常见问题](../FAQ/FAQ.md)
