@@ -4,7 +4,7 @@
 ### 公网服务
   - 为绑定的云资源提供公网访问和被公网访问的能力
 ### 灵活绑定/解绑
-  - 可根据业务需要实时与云主机、负载均衡等云资源绑定或解绑，相关操作请参考[绑定弹性公网IP](../Operation-Guide/Associate-Elastic-IP.md)或[解绑弹性公网IP](../Operation-Guide/Elastic-IP-Management/Disassociate-Elastic-IP.md)
+  - 可根据业务需要实时与云主机、负载均衡等云资源绑定或解绑，相关操作请参考[绑定弹性公网IP](../Operation-Guide/Associate-Elastic-IP.md)或[解绑弹性公网IP](../Operation-Guide/Disassociate-Elastic-IP.md)
   - 支持云资源实时更换公网IP，在多活容灾场景下，能快速屏蔽故障，例：当云主机出现故障时，可将其绑定的公网IP解绑，然后与备用机绑定，快速恢复业务运转
   
 ### 资源管理
