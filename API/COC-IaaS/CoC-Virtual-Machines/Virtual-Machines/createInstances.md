@@ -31,7 +31,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**instanceSpec**|[InstanceSpec](#instancespec)|True| |实例配置。<br>|
+|**instanceSpec**|[InstanceSpec](createInstances#InstanceSpec)|True| |实例配置。<br>|
 |**maxCount**|Integer|False|1|创建实例的数量，不能超过用户配额。<br>取值范围：[1,100]；默认值：1。<br>如果在弹性网卡中指定了内网IP地址，那么单次创建 `maxCount` 只能是 1。<br>|
 |**clientToken**|String|False| |用于保证请求的幂等性。由客户端生成，并确保不同请求中该参数唯一，长度不能超过64个字符。<br>|
 
@@ -45,11 +45,11 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances
 |**password**|String|False| |实例密码。可用于SSH登录和VNC登录。长度8至26字符，至少包含以下三项：1.数字：0~9；2.小写字母：a~z；3.大写字母：A~Z，或特殊字符：(!@$%^-_=+[{}]:,./?)。不可包含连续数字，例如123、987；不可包含连续或键位连续字母，如abc、CBA、qaz、qwer；不可包含用户名"Administrator" 和“root”及逆序字符，不可包含用户名"Administrator" 中超过两个连续字符的部分，更多密码输入要求请参见 [公共参数规范](https://docs.jdcloud.com/virtual-machines/api/general_parameters)。<br>|
 |**keyName**|String|False| |密钥对名称。仅Linux系统下该参数生效，当前仅支持输入单个密钥，password和keyName只能二选一。passwordAuth不为yes的情况下，密钥对名称不能为空。<br>|
 |**passwordAuth**|String|False| |是否允许SSH密码登录，默认为yes；yes：允许SSH密码登录。no：禁止SSH密码登录，这时必须要传keyName。该参数值为yes时，可以不传password，这时自动生成随机密码，并以短信和邮件通知。<br>|
-|**elasticIpSpec**|[ElasticIpSpec](#elasticipspec)|False| |弹性公网IP配置<br>|
-|**primaryNetworkInterface**|[NetworkInterfaceSpec](#networkinterfacespec)|True| |主网卡配置。<br>|
-|**systemDisk**|[InstanceDiskAttachmentSpec](#instancediskattachmentspec)|True| |系统盘配置。<br>|
-|**dataDisks**|[InstanceDiskAttachmentSpec[]](#instancediskattachmentspec)|False| |数据盘配置。单实例最多可挂载云硬盘（系统盘+数据盘）的数量受实例规格的限制。<br>|
-|**charge**|[ChargeSpec](#chargespec)|False| |计费配置。<br>云主机不支持按用量方式计费，如果计费配置为空，则按照包年包月计费方式处理。<br>打包创建数据盘的情况下，数据盘的计费方式只能与云主机保持一致。<br>打包创建弹性公网IP的情况下，若公网IP的计费方式没有指定为按用量计费，那么公网IP计费方式只能与云主机保持一致。<br>|
+|**elasticIpSpec**|[ElasticIpSpec](createInstances#ElasticIpSpec)|False| |弹性公网IP配置<br>|
+|**primaryNetworkInterface**|[NetworkInterfaceSpec](createInstances#NetworkInterfaceSpec)|True| |主网卡配置。<br>|
+|**systemDisk**|[InstanceDiskAttachmentSpec](createInstances#InstanceDiskAttachmentSpec)|True| |系统盘配置。<br>|
+|**dataDisks**|[InstanceDiskAttachmentSpec[]](createInstances#InstanceDiskAttachmentSpec)|False| |数据盘配置。单实例最多可挂载云硬盘（系统盘+数据盘）的数量受实例规格的限制。<br>|
+|**charge**|[ChargeSpec](createInstances#ChargeSpec)|False| |计费配置。<br>云主机不支持按用量方式计费，如果计费配置为空，则按照包年包月计费方式处理。<br>打包创建数据盘的情况下，数据盘的计费方式只能与云主机保持一致。<br>打包创建弹性公网IP的情况下，若公网IP的计费方式没有指定为按用量计费，那么公网IP计费方式只能与云主机保持一致。<br>|
 ### <div id="ChargeSpec">ChargeSpec</div>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
@@ -87,7 +87,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)|响应结果。|
+|**result**|[Result](createInstances#Result)|响应结果。|
 |**requestId**|String|请求ID。|
 
 ### <div id="Result">Result</div>
