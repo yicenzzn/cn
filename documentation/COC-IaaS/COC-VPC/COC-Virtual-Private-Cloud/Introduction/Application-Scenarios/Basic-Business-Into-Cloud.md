@@ -15,6 +15,5 @@
 - [网络ACL](../Features/Network-ACL-Features.md)
 - [安全组概述](../Features/Security-Group-Features.md)
 - [路由表概述](../Features/Route-Table-Features.md)
-- [VPC对等连接](../Features/VPC-Peering-Features.md)
 - [使用限制](../Restrictions.md)
 - [常见问题](../../FAQ/FAQ.md)
