@@ -132,7 +132,7 @@
 - [配置子网](../Operation-Guide/Subnet-Configuration.md)
 - [创建云主机实例](https://docs.jdcloud.com/cn/virtual-machines/create-instance)
 - [弹性公网IP](https://docs.jdcloud.com/cn/elastic-ip/product-overview)
-- [云主机使用公网IP](../../Elastic-IP/Getting-Started/Elastic-IP-with-VM/Associate-Elastic-IP-to-VM.md)
+- [云主机使用公网IP](../../COC-Elastic-IP/Getting-Started/Elastic-IP-with-VM/Associate-Elastic-IP-to-VM.md)
 - [配置安全组](../Operation-Guide/Security-Group-Configuration.md)
 - [配置路由表](../Operation-Guide/Route-Table-Configuration.md)
 
