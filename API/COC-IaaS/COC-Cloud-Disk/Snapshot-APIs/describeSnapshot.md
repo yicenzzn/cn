@@ -22,13 +22,13 @@ https://coc.disk.jdcloud-api.com/v1/regions/{regionId}/snapshots/{snapshotId}
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)|查询的快照信息详情|
+|**result**|[Result](describeSnapshot#Result)|查询的快照信息详情|
 |**requestId**|String|请求ID|
 
 ### <div id="Result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**snapshot**|[Snapshot](#snapshot)| |
+|**snapshot**|[Snapshot](describeSnapshot#Snapshot)| |
 ### <div id="Snapshot">Snapshot</div>
 |名称|类型|描述|
 |---|---|---|
