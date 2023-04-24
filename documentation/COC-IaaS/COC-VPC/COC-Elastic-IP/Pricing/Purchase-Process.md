@@ -20,4 +20,4 @@
 
 - [价格总览](Price-Overview.md)
 - [计费规则](Billing-Rules.md)
-- [创建弹性公网IP](../Operation-Guide/Elastic-IP-Management/Create-Elastic-IP.md)
+- [创建弹性公网IP](../Operation-Guide/Create-Elastic-IP.md)
