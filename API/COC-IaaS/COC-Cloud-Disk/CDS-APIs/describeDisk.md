@@ -22,13 +22,13 @@ https://coc.disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)|查询的云硬盘信息详情|
+|**result**|[Result](describeDisk#Result)|查询的云硬盘信息详情|
 |**requestId**|String|请求ID|
 
 ### <div id="Result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**disk**|[Disk](#disk)| |
+|**disk**|[Disk](describeDisk#Disk)| |
 ### <div id="Disk">Disk</div>
 |名称|类型|描述|
 |---|---|---|
