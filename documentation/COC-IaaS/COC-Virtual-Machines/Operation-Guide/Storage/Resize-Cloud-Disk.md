@@ -19,8 +19,4 @@
 
 详细操作步骤请参考[云硬盘扩容](http://docs.jdcloud.com/cn/cloud-disk-service/disk-expand).
 
-## 相关参考
 
-[扩容文件系统](http://docs.jdcloud.com/cn/cloud-disk-service/cloud-disk-expansion-overview)
-
-[云硬盘扩容](http://docs.jdcloud.com/cn/cloud-disk-service/disk-expand)
