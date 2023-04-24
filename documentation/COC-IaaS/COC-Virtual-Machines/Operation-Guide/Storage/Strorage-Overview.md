@@ -45,8 +45,6 @@
 
 京东云提供存储介质不同提供五类云硬盘，分别是通用型SSD云盘、性能型SSD云盘、容量型HDD云盘。目前可使用云硬盘作为实例的数据盘，其生命周期与实例实例独立，可随实例一起购买也可在实例创建完成后单独购买再挂载至实例，也支持从当前实例上卸载下来并挂载至其他实例上。
 
-此外可以支持创建可多点挂载的云硬盘。详细介绍请参见[多点挂载云硬盘](Strorage-Overview#user-content-1)。
-
 可以对云硬盘创建快照来保留数据的备份副本，并随时从快照创建新的云硬盘，并将其连接到另一台实例。有关云硬盘的更多信息，请参考[云硬盘产品文档](http://docs.jdcloud.com/cn/cloud-disk-service/product-overview)。
 
 ## 根据使用场景分类
@@ -84,7 +82,7 @@
 
 ## 多点挂载云硬盘
 
-多点挂载云硬盘是一种支持多台实例并发读写访问的数据块级存储设备，具备多并发、高性能、高可靠等特性，支持政企、金融等行业常用的Oracle RAC等高可用架构场景。单块共享块存储最多可以同时挂载到16台实例。详见[多点挂载云硬盘使用方法](https://docs.jdcloud.com/cloud-disk-service/multiattachdisk)
+多点挂载云硬盘是一种支持多台实例并发读写访问的数据块级存储设备，具备多并发、高性能、高可靠等特性，支持政企、金融等行业常用的Oracle RAC等高可用架构场景。单块共享块存储最多可以同时挂载到16台实例。
 
 多点挂载云硬盘只能作数据盘用，暂不支持随实例一起创建，需要单独创建并在创建时指定多点挂载属性，请参见[创建云硬盘](http://docs.jdcloud.com/cn/virtual-machines/create-cloud-disk)。不支持设置随实例删除属性，删除其挂载的实例时，多点挂载云硬盘将保留。
 
@@ -92,18 +90,3 @@
 
 >提示：云硬盘多点挂载功能目前仅在华东-上海地域提供
 
-
-## 相关参考
-[云硬盘产品文档](http://docs.jdcloud.com/cn/cloud-disk-service/product-overview)
-
-[创建云硬盘](http://docs.jdcloud.com/cn/virtual-machines/create-cloud-disk)
-
-[挂载云硬盘](Attach-Cloud-Disk.md)
-
-[多点挂载云硬盘使用方法](https://docs.jdcloud.com/cloud-disk-service/multiattachdisk)
-
-[设备名分配规则](https://docs.jdcloud.com/virtual-machines/assign-device-name)
-
-[云硬盘价格](https://docs.jdcloud.com/cloud-disk-service/price-overview)
-
-  [1]: https://ticket.jdcloud.com/myorder/submit
