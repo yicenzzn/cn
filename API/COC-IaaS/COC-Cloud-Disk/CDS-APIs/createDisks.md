@@ -24,7 +24,7 @@ https://coc.disk.jdcloud-api.com/v1/regions/{regionId}/disks
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**diskSpec**|[DiskSpec](#diskspec)|True| |创建云硬盘规格|
+|**diskSpec**|[DiskSpec](createDisks#DiskSpec)|True| |创建云硬盘规格|
 |**maxCount**|Integer|True| |购买实例数量；取值范围：[1,100]|
 |**clientToken**|String|True| |幂等性校验参数|
 
