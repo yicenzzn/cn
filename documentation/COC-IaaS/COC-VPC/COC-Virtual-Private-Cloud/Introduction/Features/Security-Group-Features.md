@@ -70,7 +70,6 @@
 - [配置安全组](../../Operation-Guide/Security-Group-Configuration.md)
 - [创建云主机](https://docs.jdcloud.com/cn/virtual-machines/create-instance)
 - [配置VPC](../../Operation-Guide/VPC-Configuration.md)
-- [配置VPC对等连接](../../Operation-Guide/VPC-Peering-Configuration.md)
 - [网络ACL](Network-ACL-Features.md)
 - [常见问题](../../FAQ/FAQ.md)
 
