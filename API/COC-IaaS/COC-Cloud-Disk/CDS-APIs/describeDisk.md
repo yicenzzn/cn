@@ -46,7 +46,7 @@ https://coc.disk.jdcloud-api.com/v1/regions/{regionId}/disks/{diskId}
 |**canRenew**|Boolean|是否可以续费|
 |**associateId**|String|关联的主机ID(标识随主机创建的云盘)|
 |**createTime**|String|创建云硬盘时间|
-|**charge**|[Charge](#charge)|云硬盘计费配置信息|
+|**charge**|[Charge](describeDisk#Charge)|云硬盘计费配置信息|
 ### <div id="Charge">Charge</div>
 |名称|类型|描述|
 |---|---|---|
