@@ -119,8 +119,6 @@ items:
             href: Operation-Guide/Storage/Create-Snapshot.md
           - name: 恢复云硬盘
             href: Operation-Guide/Storage/Roll-Back-Cloud-Disk.md
-          - name: 分配设备名
-            href: Operation-Guide/Storage/Assign-Device-Name.md
           - name: 存储FAQ
             href: Operation-Guide/Storage/Storage-FAQ.md
       - name: 合作网络
