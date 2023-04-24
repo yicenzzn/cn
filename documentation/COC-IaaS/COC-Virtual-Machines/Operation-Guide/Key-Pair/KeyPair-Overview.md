@@ -31,9 +31,6 @@ SSH密钥登录是指使用密钥技术对登录信息进行加密解密，为�
 
 [创建密钥](Create-Keypair.md)
 
-[绑定密钥](Bind-Keypair.md)
-
-[解绑密钥](Unbind-Keypair.md)
 
 
   [1]: ./images/Operation-Guide-keypair-overview1.png "Operation-Guide-keypair-overview1.png"
