@@ -21,13 +21,13 @@ https://coc.disk.jdcloud-api.com/v1/regions/{regionId}/snapshots:capacity
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)|结果|
+|**result**|[Result](describeSnapshotsCapacity#Result)|结果|
 |**requestId**|String|请求ID|
 
 ### <div id="Result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**capacities**|[SnapshotCapacity[]](#snapshotcapacity)| |
+|**capacities**|[SnapshotCapacity[]](describeSnapshotsCapacity#SnapshotCapacity)| |
 ### <div id="SnapshotCapacity">SnapshotCapacity</div>
 |名称|类型|描述|
 |---|---|---|
