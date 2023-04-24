@@ -39,11 +39,3 @@ diskdrive get PNPDeviceID,SerialNumber
 ```
 	
 4. 如下图所示，其中序列号Ephemeral\_Disk\_1至Ephemeral\_Disk\_4即为对应四块本地数据盘<br>![](https://img1.jcloudcs.com/cn/image/vm/localdatadiskwin.png)
-
-## 相关参考
-
-[登录Linux实例](https://docs.jdcloud.com/cn/virtual-machines/connect-to-linux-instance)
-
-[登录Windows实例](https://docs.jdcloud.com/cn/virtual-machines/connect-to-windows-instance)
-
-[实例规格类型](https://docs.jdcloud.com/virtual-machines/instance-type-family)
