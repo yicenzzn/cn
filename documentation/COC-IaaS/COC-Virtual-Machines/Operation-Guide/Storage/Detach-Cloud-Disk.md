@@ -19,4 +19,3 @@
 
 ## 相关参考
 
-[云硬盘侧卸载](http://docs.jdcloud.com/cn/cloud-disk-service/detach-cloud-disk)
