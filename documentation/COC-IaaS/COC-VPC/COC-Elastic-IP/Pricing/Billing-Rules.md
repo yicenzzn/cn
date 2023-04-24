@@ -42,5 +42,3 @@
 - [创建公网IP](../Operation-Guide/Create-Elastic-IP.md)
 - [价格总览](Price-Overview.md)
 - [续费公网IP](../Operation-Guide/Renew-Elastic-IP.md)
-- [常见计费问题](Bill-FAQ.md)
-
