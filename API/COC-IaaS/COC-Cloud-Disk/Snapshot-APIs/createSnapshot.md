@@ -23,7 +23,7 @@ https://coc.disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**snapshotSpec**|[SnapshotSpec](#snapshotspec)|True| |创建快照规格|
+|**snapshotSpec**|[SnapshotSpec](createSnapshot#SnapshotSpec)|True| |创建快照规格|
 |**clientToken**|String|True| |幂等性校验参数|
 
 ### <div id="SnapshotSpec">SnapshotSpec</div>
@@ -36,7 +36,7 @@ https://coc.disk.jdcloud-api.com/v1/regions/{regionId}/snapshots
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)|结果集|
+|**result**|[Result](createSnapshot#Result)|结果集|
 |**requestId**|String|请求ID|
 
 ### <div id="Result">Result</div>
