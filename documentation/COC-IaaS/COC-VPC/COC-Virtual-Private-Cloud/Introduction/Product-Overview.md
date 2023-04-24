@@ -45,5 +45,5 @@
 - [VPC功能概述](Features/VPC-Features.md)
 - [子网功能概述](Features/Subnet-Features.md)
 - [路由表功能概述](Features/Route-Table-Features.md)
-- [基础架构](Basic-Infrastructure.md)
+- 基础架构
 - [常见问题](../FAQ/FAQ.md)
