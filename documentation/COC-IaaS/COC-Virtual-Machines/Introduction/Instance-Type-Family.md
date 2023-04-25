@@ -5,12 +5,12 @@
 以下为当前京东云在售的实例规格类型信息，不同地域可售卖实例类型及规格不完全相同，请以实例创建页面所显示为准。具体在售实例规格类型根据不同应用场景可以分为：
 
 #### x86规格
-* 通用型：[通用标准型](instance-type-family#user-content-1)
-* 计算优化型：[计算优化标准型](instance-type-family#user-content-2)
-* 内存优化型：[内存优化标准型](instance-type-family#user-content-3)、[内存优化增强型](instance-type-family#user-content-4)
-* 突发性能型：[突发性能型](instance-type-family#user-content-5)
-* 高频计算型：[高频计算通用型](instance-type-family#user-content-6)、[高频计算计算型](instance-type-family#user-content-7)
-* 存储优化型：[存储优化IO型](instance-type-family#user-content-8)、[存储优化大数据型](instance-type-family#user-content-9)
+* 通用型：[通用标准型](Instance-Type-Family#user-content-1)
+* 计算优化型：[计算优化标准型](Instance-Type-Family#user-content-2)
+* 内存优化型：[内存优化标准型](Instance-Type-Family#user-content-3)、[内存优化增强型](Instance-Type-Family#user-content-4)
+* 突发性能型：[突发性能型](Instance-Type-Family#user-content-5)
+* 高频计算型：[高频计算通用型](Instance-Type-Family#user-content-6)、[高频计算计算型](Instance-Type-Family#user-content-7)
+* 存储优化型：[存储优化IO型](Instance-Type-Family#user-content-8)、[存储优化大数据型](Instance-Type-Family#user-content-9)
 ## x86规格：
 ## 通用型
 通用型当前提供通用共享型及通用标准型，为您提供均衡的计算及内存资源，可满足大部分业务场景下的需求。其中通用标准型中每一个vCPU都对应一个处理器的超线程核，其vCPU与内存比为1:4。
