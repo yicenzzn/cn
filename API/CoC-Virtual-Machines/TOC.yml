@@ -57,10 +57,6 @@
         items:
           - name: describeInstanceTypes
             href: Instance-Type/describeInstanceTypes.md
-      - name: 配额
-        items:
-          - name: describeQuotas
-            href: Quota/describeQuotas.md
   - name: 使用帮助
     items:
       - name: 合作镜像状态说明
