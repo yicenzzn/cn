@@ -33,8 +33,6 @@ items:
     items:
       - name: 创建前准备
         href: Getting-Start-Linux/Account-Preparation-Linux.md
-      - name: 确定配置项
-        href: Getting-Start-Linux/Select-Configuration-Linux.md
       - name: 创建Linux实例
         href: Getting-Start-Linux/Create-Linux-Instance.md
       - name: 登录Linux实例
@@ -45,8 +43,6 @@ items:
     items:
       - name: 创建前准备
         href: Getting-Start-Windows/Account-Preparation-Windows.md
-      - name: 确定配置项
-        href: Getting-Start-Windows/Select-Configuration-Windows.md
       - name: 创建Windows实例
         href: Getting-Start-Windows/Create-Windows-Instance.md
       - name: 登录Windows实例
