@@ -22,8 +22,6 @@
 4. 单台操作：点击**操作-停止**按钮，或点击实例名称进入详情页后点击**操作-停止**按钮；
 <br>批量操作：点击列表下方**停止**按钮
 
-![image](https://user-images.githubusercontent.com/88134774/198262806-5320d4ad-d161-462b-9552-ff75b4d6c7d1.png)
-
 5. 在弹出的**停止实例**弹窗中，确认信息，点击**确定**提交启动。<div align="center"><img src="https://user-images.githubusercontent.com/88134774/198262974-4b65886b-5534-46aa-8e90-0d074d0632df.png" width=600px></div>
 
 操作后实例将进入**停止中**状态，过程中实例将无法进行其他操作。当停止完成后，实例将进入**已停止**状态。
