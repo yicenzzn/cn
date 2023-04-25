@@ -31,7 +31,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/vnc
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)|响应结果。|
+|**result**|[Result](describeInstanceVncUrl#Result)|响应结果。|
 |**requestId**|String|请求ID。|
 
 ### <div id="Result">Result</div>
