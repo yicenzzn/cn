@@ -38,13 +38,13 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)|响应结果。|
+|**result**|[Result](describeInstanceTypes#Result)|响应结果。|
 |**requestId**|String|请求ID。|
 
 ### <div id="Result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**instanceTypes**|[InstanceType[]](#instancetype)|实例规格详情列表。|
+|**instanceTypes**|[InstanceType[]](describeInstanceTypes#InstanceType)|实例规格详情列表。|
 |**totalCount**|Integer|本次查询到的所有实例规格数量。|
 ### <div id="InstanceType">InstanceType</div>
 |名称|类型|描述|
@@ -53,9 +53,9 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |**instanceType**|String|实例规格。|
 |**cpu**|Integer|cpu个数。|
 |**memoryMB**|Integer|内存大小。|
-|**state**|[InstanceTypeState[]](#instancetypestate)|实例规格售卖状态。已售罄的实例规格无法使用。|
+|**state**|[InstanceTypeState[]](describeInstanceTypes#InstanceTypeState)|实例规格售卖状态。已售罄的实例规格无法使用。|
 |**architecture**|String|架构|
-|**localDisks**|[FlavorDiskInfo](#flavordiskinfo)|本地盘配置。|
+|**localDisks**|[FlavorDiskInfo](describeInstanceTypes#FlavorDiskInfo)|本地盘配置。|
 |**gpu**|[GpuInfo](#gpuinfo)|GPU配置。|
 ### <div id="GpuInfo">GpuInfo</div>
 |名称|类型|描述|
