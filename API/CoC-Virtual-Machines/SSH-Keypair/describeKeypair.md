@@ -23,13 +23,13 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/keypairs/{keyName}
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)|密钥详情信息。|
+|**result**|[Result](describeKeypair#result)|密钥详情信息。|
 |**requestId**|String|请求ID。|
 
 ### <div id="Result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**keypairDetail**|[KeypairDetail](#keypairdetail)| |
+|**keypairDetail**|[KeypairDetail](describeKeypair#Keypairdetail)| |
 ### <div id="KeypairDetail">KeypairDetail</div>
 |名称|类型|描述|
 |---|---|---|
