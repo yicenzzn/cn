@@ -56,7 +56,7 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/instanceTypes
 |**state**|[InstanceTypeState[]](describeInstanceTypes#InstanceTypeState)|实例规格售卖状态。已售罄的实例规格无法使用。|
 |**architecture**|String|架构|
 |**localDisks**|[FlavorDiskInfo](describeInstanceTypes#FlavorDiskInfo)|本地盘配置。|
-|**gpu**|[GpuInfo](#gpuinfo)|GPU配置。|
+|**gpu**|[GpuInfo](describeInstanceTypes#GpuInfo)|GPU配置。|
 ### <div id="GpuInfo">GpuInfo</div>
 |名称|类型|描述|
 |---|---|---|
