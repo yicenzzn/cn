@@ -48,11 +48,7 @@
           - name: createKeypair
             href: SSH-Keypair/createKeypair.md
           - name: deleteKeypair
-            href: SSH-Keypair/deleteKeypair.md
-          - name: attachKeypair
-            href: SSH-Keypair/attachKeypair.md            
-          - name: detachKeypair
-            href: SSH-Keypair/detachKeypair.md             
+            href: SSH-Keypair/deleteKeypair.md          
           - name: importKeypair
             href: SSH-Keypair/importKeypair.md
           - name: describeKeypairs
