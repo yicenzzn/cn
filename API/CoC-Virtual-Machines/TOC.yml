@@ -37,36 +37,12 @@
             href: Virtual-Machines/disassociateElasticIp.md
       - name: 合作镜像
         items:
-          - name: createImage
-            href: Image/createImage.md
           - name: deleteImage
             href: Image/deleteImage.md            
-          - name: copyImages
-            href: Image/copyImages.md
-          - name: importImage
-            href: Image/importImage.md
-          - name: exportImage
-            href: Image/exportImage.md
-          - name: shareImage
-            href: Image/shareImage.md
-          - name: unShareImage
-            href: Image/unShareImage.md
-          - name: convertImages
-            href: Image/convertImage.md
           - name: describeImage
             href: Image/describeImage.md            
           - name: describeImages
             href: Image/describeImages.md
-          - name: describeImageMembers
-            href: Image/describeImageMembers.md 
-          - name: imageTasks
-            href: Image/imageTasks.md
-          - name: describeImageConstraints
-            href: Image/describeImageConstraints.md
-          - name: describeImageConstraintsBatch
-            href: Image/describeImageConstraintsBatch.md     
-          - name: modifyImageAttribute
-            href: Image/modifyImageAttribute.md
       - name: 合作SSH密钥
         items:      
           - name: createKeypair
