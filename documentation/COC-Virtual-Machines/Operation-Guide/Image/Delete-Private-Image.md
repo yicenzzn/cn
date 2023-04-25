@@ -8,13 +8,13 @@
 - 1、访问[镜像控制台](https://coccns-console.jdcloud.com/host/image/list)进入合作镜像列表页；或访问[京东云控制台](https://console.jdcloud.com)点击左侧导航栏【弹性计算】-【云主机】-【实例】进入实例列表页。点击【更多地域】跳转合作云主机列表页，点击左侧导航栏【合作镜像】进入合作镜像列表页。
 - 2、选择**私有镜像**TAB，找到要删除的私有镜像，在私有镜像列表操作中选择**删除**操作。
 
-![sdsd](../../../../../image/COCVM/COCVM/19.png)
+![sdsd](../../../../image/COCVM/COCVM/19.png)
 
 - 3、在确认删除弹出框中，点击**确认**，即可删除私有镜像，私有镜像删除时默认删除关联快照。
 		
-![sdsd](../../../../../image/COCVM/COCVM/20.png)
+![sdsd](../../../../image/COCVM/COCVM/20.png)
 
 - 4、私有镜像支持批量删除，可在列表页批量选择多个镜像后一同删除。
 
-![sdsd](../../../../../image/COCVM/COCVM/21.png)
+![sdsd](../../../../image/COCVM/COCVM/21.png)
 
