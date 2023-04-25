@@ -25,13 +25,13 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/keypairs
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)|响应结果。|
+|**result**|[Result](describeKeypairs#Result)|响应结果。|
 |**requestId**|String|请求ID。|
 
 ### <div id="Result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**keypairs**|[Keypair[]](#keypair)|密钥信息列表。|
+|**keypairs**|[Keypair[]](describeKeypairs#Keypair)|密钥信息列表。|
 |**totalCount**|Number|本次查询可匹配到的总记录数，使用者需要结合 `pageNumber` 和 `pageSize` 计算是否可以继续分页。|
 ### <div id="Keypair">Keypair</div>
 |名称|类型|描述|
