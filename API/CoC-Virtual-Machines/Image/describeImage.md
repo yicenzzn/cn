@@ -23,13 +23,13 @@ https://coc-vm.jdcloud-api.com/v1/regions/{regionId}/images/{imageId}
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)|响应结果。|
+|**result**|[Result](describeImage#Result)|响应结果。|
 |**requestId**|String|请求ID。|
 
 ### <div id="Result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**image**|[Image](#image)|镜像信息。|
+|**image**|[Image](describeImage#Image)|镜像信息。|
 ### <div id="Image">Image</div>
 |名称|类型|描述|
 |---|---|---|
