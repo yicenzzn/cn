@@ -24,7 +24,7 @@ https://coc.disk.jdcloud-api.com/v1/regions/{regionId}/disks:diskSpecification
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|[Result](#result)|查询结果集|
+|**result**|[Result](describeDiskSpecification#Result)|查询结果集|
 |**requestId**|String|请求ID|
 
 ### <div id="Result">Result</div>
