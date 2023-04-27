@@ -1,8 +1,6 @@
   name: 合作云主机
   href: 
   items:
-  - name: 接口概览
-    href: overview.md
   - name: 接口信息
     items:
       - name: 合作云主机

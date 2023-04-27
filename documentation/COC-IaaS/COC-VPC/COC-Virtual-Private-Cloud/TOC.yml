@@ -1,0 +1,67 @@
+name: 合作私有网络
+href:
+items:
+  - name: 产品简介
+    items:
+      - name: 产品概述
+        href: Introduction/Product-Overview.md
+      - name: 核心概念
+        href: Introduction/Core-Concepts.md
+      - name: 产品优势
+        href: Introduction/Benefits.md
+      - name: 产品功能
+        items:
+          - name: VPC
+            href: Introduction/Features/VPC-Features.md
+          - name: 子网
+            href: Introduction/Features/Subnet-Features.md
+          - name: ACL
+            href: Introduction/Features/Network-ACL-Features.md
+          - name: 安全组
+            href: Introduction/Features/Security-Group-Features.md
+          - name: 路由表
+            href: Introduction/Features/Route-Table-Features.md
+      - name: 限制说明
+        href: Introduction/Restrictions.md
+      - name: 地域及可用区
+        href: Introduction/Region-Az.md
+      - name: 应用场景
+        items:
+          - name: 基础业务上云
+            href: Introduction/Application-Scenarios/Basic-Business-Into-Cloud.md
+          - name: 业务安全访问控制
+            href: Introduction/Application-Scenarios/Business-Security-Access-Control.md
+  - name: 产品定价
+    items:
+      - name: 计费概览
+        href: Pricing/Billing-Overview.md
+  - name: 入门指南
+    items:
+       - name: 私有网络中部署云主机
+         href: Getting-Started/Create-Virtual-Machine-Instance-In-VPC.md
+       - name: 基于网络ACL配置子网级别的访问控制
+         href: Getting-Started/Subnet-Business-Security-Access-Control.md
+       - name: 基于安全组实现主机级别的访问控制
+         href: Getting-Started/Virtual-Machine-Instance-Security-Group-Rule-Configuration.md
+       - name: 安全组规则典型配置
+         href: Getting-Started/Security-Group-Rules-Typically-Configured.md
+       - name: 基于子网的策略路由管理
+         href: Getting-Started/Subnet-Based-Policy-Routing-Management.md
+  - name: 操作指南
+    items:
+       - name: VPC配置
+         href: Operation-Guide/VPC-Configuration.md
+       - name: 子网配置
+         href: Operation-Guide/Subnet-Configuration.md
+       - name: 路由表配置
+         href: Operation-Guide/Route-Table-Configuration.md
+       - name: ACL配置
+         href: Operation-Guide/Network-ACL-Configuration.md
+       - name: 安全组配置
+         href: Operation-Guide/Security-Group-Configuration.md
+  - name: 性能测试
+    items:
+     - name: 网络性能测试
+       href: Operation-Guide/Performence-Test/Vpc-Performance-Test.md
+  - name: 常见问题
+    href: FAQ/FAQ.md

@@ -30,7 +30,7 @@ https://coc.disk.jdcloud-api.com/v1/regions/{regionId}/disks:diskSpecification
 ### <div id="Result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**diskSpecification**|[DiskSpecification[]](#diskspecification)|查询的云硬盘规格信息详情列表|
+|**diskSpecification**|[DiskSpecification[]](describeDiskSpecification#DiskSpecification)|查询的云硬盘规格信息详情列表|
 |**totalCount**|Integer|查询的云硬盘规格数目|
 ### <div id="DiskSpecification">DiskSpecification</div>
 |名称|类型|描述|

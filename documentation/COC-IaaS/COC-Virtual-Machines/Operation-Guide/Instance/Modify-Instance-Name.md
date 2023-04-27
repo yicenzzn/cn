@@ -11,7 +11,5 @@
 3. 在实例列表中选择需要修改名称的实例，点击实例名称进入详情页。
 4. 点击**资源信息-基本信息-名称**右侧修改按钮。
 
-![image](https://user-images.githubusercontent.com/88134774/198036606-2b0d322f-f2bc-48a7-ad22-971de05da008.png)
 
-
-6. 在弹出的**修改名称**弹窗中，按需输入新实例名称，点击**确定**提交修改。<div align="center"><img src="https://user-images.githubusercontent.com/88134774/198036714-fcf70e3d-dfe4-4d6c-a243-ff664680660e.png" width="400"></div>
+6. 在弹出的**修改名称**弹窗中，按需输入新实例名称，点击**确定**提交修改。

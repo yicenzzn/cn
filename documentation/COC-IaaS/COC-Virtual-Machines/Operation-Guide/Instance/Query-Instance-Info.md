@@ -32,7 +32,6 @@
 2. 选择地域。
 3. 在实例列表中选择需要查看详细信息的实例，点击实例名称进入详情页。
 
-![image](https://user-images.githubusercontent.com/88134774/198038682-60ec5eff-1dba-454c-9840-fcf1f19b57d5.png)
 
 
 

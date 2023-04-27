@@ -16,8 +16,7 @@
 	1. 访问[合作云主机控制台](https://coccns-console.jdcloud.com/host/compute/list)；
 	2. 选择地域，可通过条件搜索找到需要操作续费的实例；
 	3. 点击**操作-更多-续费**，即跳转至对应续费页面；<br>
-	
-  ![image](https://user-images.githubusercontent.com/88134774/198030944-185c7d8b-63d1-4d6e-8d17-8cc339ab9502.png)
+
 
 
 	
