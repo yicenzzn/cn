@@ -41,6 +41,7 @@ v1
 |**listWafConditions**|POST|获取网站waf自定义防护条件|
 |**listWafFilter**|POST|获取网站waf自定义防护过滤器|
 |**listWafRules**|POST|获取网站的waf自定义规则|
+|**refreshUrlCache**|POST|刷新某条防篡改条目|
 |**setWafCondition**|POST|设置网站waf自定义防护条件|
 |**setWafRule**|POST|设置waf自定义规则|
 |**updateDomain**|POST|更新网站|
