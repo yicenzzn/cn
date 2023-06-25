@@ -53,6 +53,8 @@
             href: Domain-Protection/setWafCondition.md
           - name: setWafRule
             href: Domain-Protection/setWafRule.md
+          - name: refreshUrlCache
+            href: Domain-Protection/refreshUrlCache.md
       - name:  日志报表接口
         items:
           - name: getAntiEvent
