@@ -6,15 +6,16 @@
 2、选择一级菜单“弹性计算”下的二级菜单“云电脑”。<br>
 ### 操作步骤
 1、进入云电脑管理后台，点击左侧功能栏  “云电脑管理”，进入云电脑实例页面。点击“创建”进入购买云电脑页面。<br>
-![image](https://user-images.githubusercontent.com/103625856/172815250-f4d13f59-ad8e-4b41-8f9f-bc50226368a8.png)<br>
-![image](https://user-images.githubusercontent.com/103625856/174574532-cb67c6bb-8d95-46b0-933c-38de5e2b5928.png)<br>
-![image](https://user-images.githubusercontent.com/103625856/174574681-1e21bf89-bf52-45e2-8d92-1cb627275862.png)<br>
+![image](https://user-images.githubusercontent.com/103625856/190576033-7a9d8d98-fad5-4bdf-8339-3a1656fce67f.png)<br>
+![image](https://user-images.githubusercontent.com/103625856/190576930-52f338b9-881f-487c-9ee7-eed91e7ac530.png)<br>
+ ![image](https://user-images.githubusercontent.com/103625856/190578592-4a5ce8f1-6977-4b06-aba4-95f838763a0c.png)<br>
 2、填写创建云电脑相关信息：<br>
 计费模式：默认选择“包年/包月”<br>
 地域：默认选择“华北-北京”<br>
 工作区：如果未创建工作区，请先创建工作区。<br>
 镜像模板：默认选择Windows Server 2019<br>
 云电脑类型：默认选择“专属云电脑”<br>
+主机策略：选择主机策略<br>
 规格：根据实际需求选择相应规格<br>
 开通账号：选择使用云电脑的用户，如果还未创建用户，可进行创建用户<br>
 填写云电脑购买数量，时长，点击“立即购买”，支付成功后，成功创建云电脑。<br>

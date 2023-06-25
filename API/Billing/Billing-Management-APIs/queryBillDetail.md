@@ -24,8 +24,8 @@ https://billing.jdcloud-api.com/v1/regions/{regionId}/billDetail:list
 |**billingType**|Integer|False| |计费类型 1、按配置 2、按用量 3、包年包月 4、按次|
 |**resourceIds**|String[]|False| |资源单id列表,最多支持传入500个|
 |**tags**|Map[]|False| |标签|
-|**pageIndex**|Integer|False| |pageIndex 分页 从1开始,java客户端调用默认值1，其它客户端必传|
-|**pageSize**|Integer|False| |pageSize 每页查询数据条数，最多支持1000条,java客户端调用默认值10，其它客户端必传|
+|**pageIndex**|Integer|True| |pageIndex 分页 从1开始,java客户端调用默认值1，其它客户端必传|
+|**pageSize**|Integer|True| |pageSize 每页查询数据条数，最多支持200条,java客户端调用默认值10，其它客户端必传|
 
 
 ## 返回参数
@@ -84,3 +84,129 @@ https://billing.jdcloud-api.com/v1/regions/{regionId}/billDetail:list
 |---|---|
 |**200**|OK|
 |**404**|NOT_FOUND|
+
+## 请求示例
+
+POST
+
+```
+调用方法、签名算法及公共请求参数请参考[京东云OpenAPI公共说明](https://docs.jdcloud.com/common-declaration/api/introduction)。
+- 请求示例: 查询2021-1-31日资源vol-2iflk2kc95的账单明细数据
+{
+  "regionId": "cn-north-1",
+  "serviceCode":"disk",
+  "resourceIds": ["vol-2iflt2kc95"],
+  "startTime": "2021-01-31 00:00:00",
+  "endTime": "2021-01-31 23:59:59",
+  "pageIndex": 1,
+  "pageSize": 10
+}
+```
+
+## 返回示例
+
+```
+{
+    "result": {
+        "pagination": {
+            "currPageNo": 1, 
+            "numberPages": 3, 
+            "numberRecords": 24, 
+            "pageSize": 10, 
+            "startIndex": 0
+        }, 
+        "result": [
+            {
+                "actionTypeName": "按量费用", 
+                "appCode": "jcloud", 
+                "appCodeName": "基础云", 
+                "arrearFee": 0.0, 
+                "balancePayFee": 0.0, 
+                "billTime": "2021-01-31 00:16:58", 
+                "billingType": 1, 
+                "billingTypeName": "按配置", 
+                "cashCouponPayFee": 0.03, 
+                "cashPayFee": 0.0, 
+                "discountFee": 0.0, 
+                "endTime": "2021-01-30 23:59:59", 
+                "formula": "通用型ssd:40GB", 
+                "pin": "jcloudiaas5", 
+                "realTotalFee": 0.03, 
+                "region": "cn-north-1", 
+                "resourceId": "vol-2iflt2kc95", 
+                "resourceName": "", 
+                "serviceCode": "disk", 
+                "serviceCodeName": "云硬盘", 
+                "startTime": "2021-01-30 23:00:00", 
+                "tagDetails": [
+                    {
+                        "tagKey": "部门", 
+                        "tagValue": "商业平台部"
+                    }
+                ], 
+                "totalFee": 0.03
+            }, 
+            {
+                "actionTypeName": "按量费用", 
+                "appCode": "jcloud", 
+                "appCodeName": "基础云", 
+                "arrearFee": 0.0, 
+                "balancePayFee": 0.0, 
+                "billTime": "2021-01-31 01:16:56", 
+                "billingType": 1, 
+                "billingTypeName": "按配置", 
+                "cashCouponPayFee": 0.03, 
+                "cashPayFee": 0.0, 
+                "discountFee": 0.0, 
+                "endTime": "2021-01-31 00:59:59", 
+                "formula": "通用型ssd:40GB", 
+                "pin": "jcloudiaas5", 
+                "realTotalFee": 0.03, 
+                "region": "cn-north-1", 
+                "resourceId": "vol-2iflt2kc95", 
+                "resourceName": "", 
+                "serviceCode": "disk", 
+                "serviceCodeName": "云硬盘", 
+                "startTime": "2021-01-31 00:00:00", 
+                "tagDetails": [
+                    {
+                        "tagKey": "部门", 
+                        "tagValue": "商业平台部"
+                    }
+                ], 
+                "totalFee": 0.03
+            }, 
+            {
+                "actionTypeName": "按量费用", 
+                "appCode": "jcloud", 
+                "appCodeName": "基础云", 
+                "arrearFee": 0.0, 
+                "balancePayFee": 0.0, 
+                "billTime": "2021-01-31 02:16:57", 
+                "billingType": 1, 
+                "billingTypeName": "按配置", 
+                "cashCouponPayFee": 0.03, 
+                "cashPayFee": 0.0, 
+                "discountFee": 0.0, 
+                "endTime": "2021-01-31 01:59:59", 
+                "formula": "通用型ssd:40GB", 
+                "pin": "jcloudiaas5", 
+                "realTotalFee": 0.03, 
+                "region": "cn-north-1", 
+                "resourceId": "vol-2iflt2kc95", 
+                "resourceName": "", 
+                "serviceCode": "disk", 
+                "serviceCodeName": "云硬盘", 
+                "startTime": "2021-01-31 01:00:00", 
+                "tagDetails": [
+                    {
+                        "tagKey": "部门", 
+                        "tagValue": "商业平台部"
+                    }
+                ], 
+                "totalFee": 0.03
+            }
+        ]
+    }
+}
+```

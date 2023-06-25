@@ -6,5 +6,5 @@
 
  
 
-![img](http://devops-minio.jdcloud.com/doc-image/All-Image/deploy.assets/clip_image002.jpg)
+![img](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/deploy.assets/clip_image002.jpg)
 

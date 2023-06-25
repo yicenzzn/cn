@@ -51,6 +51,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**elasticIpId**|String|fip-z1z1****ja|主网卡主IP绑定弹性IP的ID。|
 |**elasticIpAddress**|String| |主网卡主IP绑定弹性IP的地址。|
 |**status**|String|running|云主机状态，参考 [云主机状态](https://docs.jdcloud.com/virtual-machines/api/vm_status)。|
+|**spotStatus**|String|occupying|抢占式实例状态，可能值：<br>`occupying`：使用中。 <br>`recycling`：待回收。 <br>`terminated`：已释放。|
 |**description**|String| |云主机描述。|
 |**imageId**|String|img-m5s0****29|云主机使用的镜像ID。|
 |**systemDisk**|[InstanceDiskAttachment](describeInstance#user-content-2)| |系统盘配置。|
@@ -66,7 +67,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 |**tags**|[Tag[]](describeInstance#user-content-5)| |Tag信息。|
 |**chargeOnStopped**|String|keepCharging|停机不计费模式。可能值：<br>`keepCharging`：关机后继续计费。<br>`stopCharging`：关机后停止计费。<br>|
 |**policies**|[Policy[]](describeInstance#user-content-6)| |自动任务策略，关联了自动任务策略时可获取相应信息。|
-
+|**resourceGroupId**|String|rg-default|资源组ID。|
 
 ### <div id="user-content-6">Policy</div>
 |名称|类型|示例值|描述|
@@ -89,7 +90,7 @@ https://vm.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}
 ### <div id="user-content-4">Charge</div>
 |名称|类型|示例值|描述|
 |---|---|---|---|
-|**chargeMode**|String| postpaid_by_duration|计费模式。<br>可能值：<br>`postpaid_by_duration`：按配置（后付费）<br>`prepaid_by_duration`：包年包月（预付费）<br>`postpaid_by_usage`：按用量（后付费）<br>仅弹性公网IP计费模式可能出现`postpaid_by_usage`|
+|**chargeMode**|String| postpaid_by_duration|计费模式。<br>可能值：<br>`postpaid_by_duration`：按配置（后付费）<br>`prepaid_by_duration`：包年包月（预付费）<br>`postpaid_by_spot`：抢占式实例（后付费）<br>`postpaid_by_usage`：按用量（后付费）<br>仅弹性公网IP计费模式可能出现`postpaid_by_usage`|
 |**chargeStatus**|String|normal |费用支付状态。可能值：<br>`normal`：正常<br>`overdue`：已到期<br>`arrear`：已欠费|
 |**chargeStartTime**|String|2020-11-11 12:22:56 |计费开始时间。遵循ISO8601标准，使用UTC时间，格式为：YYYY-MM-DDTHH:mm:ssZ。|
 |**chargeExpiredTime**|String| |到期时间。预付费资源的到期时间，遵循ISO8601标准，使用UTC时间，格式为：YYYY-MM-DDTHH:mm:ssZ，后付费资源此字段内容为空。|
@@ -183,6 +184,7 @@ GET
                 "chargeStatus": "normal"
             }, 
             "chargeOnStopped": "keepCharging", 
+            "resourceGroupId": "rg-default",
             "description": "", 
             "elasticIpAddress": "116.111.11.1", 
             "elasticIpId": "fip-z1z1****ja", 
@@ -224,7 +226,6 @@ GET
                     "diskId": "vol-u8r2****c1", 
                     "diskSizeGB": 40, 
                     "diskType": "ssd.gp1", 
-                    "encrypt": false, 
                     "encrypted": false, 
                     "iops": 2000, 
                     "multiAttachable": false, 

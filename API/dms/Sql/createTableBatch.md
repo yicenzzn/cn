@@ -2,7 +2,7 @@
 
 
 ## 描述
-批量建表
+批量建表，支持Stardb
 
 ## 请求方式
 POST
@@ -44,6 +44,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/console:createTableBatch
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](createtablebatch#result)| |
+|**requestId**|[String](createtablebatch#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
@@ -68,6 +69,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/console:createTableBatch
 |**affectCount**|Integer|查询到sql条数或影响行数。|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

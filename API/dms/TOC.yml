@@ -44,6 +44,10 @@ items:
             herf: Instance/open.md
           - name: queryInstance
             herf: Instance/queryInstance.md
+          - name: queryTypeInstance
+            herf: Instance/queryTypeInstance.md
+          - name: checkInstance
+            herf: Instance/checkInstance.md
 
       - name: 个人SQL操作
         items:
@@ -84,6 +88,114 @@ items:
             herf: Sql/importDdlDml.md
           - name: openTable
             herf: Sql/openTable.md
+
+      - name: 视图
+        items:
+          - name: generalAlterView
+            herf: DmsView/generalAlterView.md
+          - name: generalCreateView
+            herf: DmsView/generalCreateView.md
+          - name: generalDropView
+            herf: DmsView/generalDropView.md
+          - name: viewInfo
+            herf: DmsView/viewInfo.md
+
+      - name: 事件
+        items:
+          - name: generalCreateEvent
+            herf: DmsEvent/generalCreateEvent.md
+          - name: generalAlterEvent
+            herf: DmsEvent/generalAlterEvent.md
+          - name: generalDropEvent
+            herf: DmsEvent/generalDropEvent.md
+          - name: eventInfo
+            herf: DmsEvent/eventInfo.md
+
+      - name: 函数
+        items:
+          - name: generalCreateFunction
+            herf: DmsFunction/generalCreateFunction.md
+          - name: generalAlterFunction
+            herf: DmsFunction/generalAlterFunction.md
+          - name: generalDropFunction
+            herf: DmsFunction/generalDropFunction.md
+          - name: functionList
+            herf: DmsFunction/functionList.md
+          - name: functionInfo
+            herf: DmsFunction/functionInfo.md
+          - name: functionInvoke
+            herf: DmsFunction/functionInvoke.md
+
+      - name: 表SQL
+        items:
+          - name: generalCreateTableSql
+            herf: GeneralSql/generalCreateTableSql.md
+          - name: generalAlterTableSql
+            herf: GeneralSql/generalAlterTableSql.md
+
+      - name: 存储过程
+        items:
+          - name: generalCreateProcedure
+            herf: DmsProcedure/generalCreateProcedure.md
+          - name: generalAlterProcedure
+            herf: DmsProcedure/generalAlterProcedure.md
+          - name: generalDropProcedure
+            herf: DmsProcedure/generalDropProcedure.md
+          - name: procedureList
+            herf: DmsProcedure/procedureList.md
+          - name: procedureInfo
+            herf: DmsProcedure/procedureInfo.md
+          - name: procedureInvoke
+            herf: DmsProcedure/procedureInvoke.md
+
+      - name: 触发器
+        items:
+          - name: generalCreateTrigger
+            herf: DmsTrigger/generalCreateTrigger.md
+          - name: generalAlterTrigger
+            herf: DmsTrigger/generalAlterTrigger.md
+          - name: generalDropTrigger
+            herf: DmsTrigger/generalDropTrigger.md
+          - name: triggerList
+            herf: DmsTrigger/triggerList.md
+          - name: triggerInfo
+            herf: DmsTrigger/triggerInfo.md
+
+      - name: 可编程对象操作
+        items:
+          - name: exeProgram
+            herf: DmsProgram/exeProgram.md
+          - name: programList
+            herf: DmsProgram/programList.md
+         
+      - name: 用户管理
+        items:
+          - name: dmsConsoleCheck
+            herf: DmsUserManagement/dmsConsoleCheck.md
+          - name: queryUserList
+            herf: DmsUserManagement/queryUserList.md
+          - name: queryUserNotSync
+            herf: DmsUserManagement/queryUserNotSync.md
+          - name: syncSubUser
+            herf: DmsUserManagement/syncSubUser.md
+          - name: enableUser
+            herf: DmsUserManagement/enableUser.md
+          - name: deleteUser
+            herf: DmsUserManagement/deleteUser.md
+          - name: getUserInfo
+            herf: DmsUserManagement/getUserInfo.md
+          - name: updateUserInfo
+            herf: DmsUserManagement/updateUserInfo.md
+          - name: queryPrivilegeList
+            herf: DmsUserManagement/queryPrivilegeList.md
+          - name: queryPrivilegeSelfList
+            herf: DmsUserManagement/queryPrivilegeSelfList.md
+          - name: authPrivilege
+            herf: DmsUserManagement/authPrivilege.md
+          - name: modifyPrivilegeExpireDate
+            herf: DmsUserManagement/modifyPrivilegeExpireDate.md
+          - name: releasePrivilege
+            herf: DmsUserManagement/releasePrivilege.md
 
       - name: 枚举参数说明
         items:

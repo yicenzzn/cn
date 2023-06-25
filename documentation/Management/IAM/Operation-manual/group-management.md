@@ -18,7 +18,7 @@
 
 登录京东云控制台，进入访问控制 > 群组管理，点击“创建群组”，在创建群组窗口定义群组名与描述信息。同一个主账号下的群组名称不可重复。
 
-![群组创建](../../../../image/IAM/GroupManagement/grouplist.png)
+![群组创建](../../../../image/IAM/GroupManagement/grouplist1.png)
 
 ## 编辑群组
 
@@ -34,8 +34,8 @@
 
 访问群组列表，在选项“更多”里点击“添加组员”，可为群组添加子用户；也可以在群组详情页里为群组添加子用户。
 
-![群组列表添加组员按钮弹窗页面](../../../../image/IAM/GroupManagement/adduser1.png)
-![群组列表添加组员按钮弹窗页面](../../../../image/IAM/GroupManagement/adduser2.png)
+![群组列表添加组员按钮弹窗页面](../../../../image/IAM/GroupManagement/adduser11.png)
+![群组列表添加组员按钮弹窗页面](../../../../image/IAM/GroupManagement/adduser22.png)
 
 ## 为群组移除子用户
 
@@ -46,7 +46,7 @@
 
 访问群组列表，点击【授权】按钮，可快捷的授予群组相应的策略。
 
-![群组列表授予策略](../../../../image/IAM/GroupManagement/attachpolicy.png)
+![群组列表授予策略](../../../../image/IAM/GroupManagement/attachpolicy1.png)
 
 ## 为群组解除授权
 

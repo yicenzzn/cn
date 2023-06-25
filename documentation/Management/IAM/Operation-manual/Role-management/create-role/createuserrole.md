@@ -5,16 +5,16 @@
 ## 1. 创建角色
 在角色管理列表页点击“创建角色”
 
-![image](../../../../../../image/IAM/RoleNew/list.png)
+![image](../../../../../../image/IAM/RoleNew/list1.png)
 
 ## 2. 选择角色类型
 选择“用户角色”
 
-![image](../../../../../../image/IAM/RoleNew/create-select.png)
+![image](../../../../../../image/IAM/RoleNew/create-select1.png)
 
 ## 3. 设置角色信息
 
-![image](../../../../../../image/IAM/RoleNew/createuserrole.png)
+![image](../../../../../../image/IAM/RoleNew/createuserrole1.png)
 
 - 自定义角色名称
 > 必填，4-64 个字符，以字母开头，可使用字母、数字、“_”和“-”；

@@ -11,6 +11,8 @@
         href: Introduction/Benefits.md
       - name: 产品功能
         href: Introduction/Features.md
+      - name: 实例规格类型
+        href: Introduction/Instance-Type-Family.md
       - name: 地域及可用区
         href: Introduction/Regions-and-AvailabilityZones.md
       - name: 限制说明
@@ -110,7 +112,25 @@
       - name: 访问控制
         href: Operation-Guide/IAM.md
       - name: 标签
-        href: Operation-Guide/Tag.md
+        items:
+          - name: 标签概述
+            href: Operation-Guide/Tag/Tag-Overview.md
+          - name: 根据标签筛选
+            href: Operation-Guide/Tag/Filter-by-Tag.md
+          - name: 编辑标签
+            href: Operation-Guide/Tag/Edit-Tag.md
+          - name: 标签FAQ
+            href: Operation-Guide/Tag/Tag-FAQ.md 
+      - name: 资源组
+        items:
+          - name: 资源组概述
+            href: Operation-Guide/Resourse-Groups/Resource-Group-Introduction.md
+          - name: 资源组筛选
+            href: Operation-Guide/Resourse-Groups/Filter-Resource-Groups.md
+          - name: 加入资源组
+            href: Operation-Guide/Resourse-Groups/Add-Resource-Groups.md
+          - name: 变更资源组
+            href: Operation-Guide/Resourse-Groups/Change-Resource-Groups.md
   - name: 最佳实践
     items:
     - name: 制作带SSH的镜像

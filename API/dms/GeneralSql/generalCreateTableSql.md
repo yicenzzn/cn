@@ -2,7 +2,7 @@
 
 
 ## 描述
-生成建表语句sql
+生成建表语句sql，支持Mysql，Stardb
 
 ## 请求方式
 POST
@@ -69,6 +69,7 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/createSql:general
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](generalcreatetablesql#result)| |
+|**requestId**|[String](generalcreatetablesql#result)|请求id|
 
 ### <div id="result">Result</div>
 |名称|类型|描述|
@@ -76,6 +77,6 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/createSql:general
 |**strResult**|String|生成sql|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

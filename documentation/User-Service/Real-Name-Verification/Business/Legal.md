@@ -17,21 +17,21 @@
 
 进入[实名认证](https://realname.jdcloud.com/account/verify)页面，选择企业认证-法人扫脸认证。
 
-![cface1](../../../../image/User/newnewrealname/cface1.png)
- 
+![cface1new](../../../../image/User/newnewrealname/cface1new.png)
+
 **2. 填写企业名称和法人信息**
 
 请输入您营业执照上的主体名称、法人姓名、法人身份证号。
- 
-![cface2](../../../../image/User/newnewrealname/cface2.png)
- 
+
+![cface2new](../../../../image/User/newnewrealname/cface2new.png)
+
 **3. 进行扫脸认证**
 
 a. 使用京东云 App 扫脸认证
 点击京东云APP扫脸认证。下载京东云 App，使用 App 的控制台左上角的“扫一扫”功能扫描生成的二维码，完成您人脸信息的核验。
 
 ![cface3](../../../../image/User/newnewrealname/cface3.png)
- 
+
 **b. 使用微信扫脸认证**
 
 点击微信扫脸认证。打开微信右上角的扫一扫功能，扫描生成的二维码，完成您人脸信息的核验。

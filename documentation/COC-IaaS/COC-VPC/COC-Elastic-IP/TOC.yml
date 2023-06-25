@@ -1,0 +1,50 @@
+name: 弹性公网 IP
+href: 
+items:
+  - name: 产品简介
+    items:
+      - name: 产品概述
+        href: Introduction/Product-Overview.md
+      - name: 核心概念
+        href: Introduction/Core-Concepts.md
+      - name: 产品优势
+        href: Introduction/Benefits.md
+      - name: 产品功能
+        href: Introduction/Features.md
+      - name: 使用限制
+        href: Introduction/Restrictions.md
+      - name: 应用场景 
+        href: Introduction/Application-Scenarios.md    
+  - name: 产品定价
+    items:
+      - name: 计费概述
+        href: Pricing/Billing-Overview.md
+      - name: 计费规则
+        href: Pricing/Billing-Rules.md
+      - name: 价格总览
+        href: Pricing/Price-Overview.md
+      - name: 购买流程
+        href: Pricing/Purchase-Process.md 
+  - name: 入门指南
+    items:
+      - name: 云主机使用弹性公网IP
+        href: Getting-Started/Elastic-IP-with-VM/Associate-Elastic-IP-to-VM.md
+  - name: 操作指南
+    items:
+      - name: 管理弹性公网IP
+        items:
+          - name: 创建公网IP
+            href: Operation-Guide/Create-Elastic-IP.md
+          - name: 删除公网IP
+            href: Operation-Guide/Delete-Elastic-IP.md
+          - name: 绑定公网IP
+            href: Operation-Guide/Associate-Elastic-IP.md
+          - name: 解绑公网IP
+            href: Operation-Guide/Disassociate-Elastic-IP.md
+          - name: 修改公网IP
+            href: Operation-Guide/Modify-Elastic-IP.md
+          - name: 续费公网IP
+            href: Operation-Guide/Renew-Elastic-IP.md     
+  - name: 常见问题
+    href: FAQ/FAQ.md
+

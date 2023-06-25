@@ -1,0 +1,32 @@
+name: 云时序数据库 JITDB
+href: 
+items:
+  - name: 产品简介
+    items:
+      - name: 产品概述
+        href: Introduction/Product-Overview.md
+      - name: 基础架构
+        href: Introduction/Basic-Infrastructure.md
+      - name: 产品优势
+        href: Introduction/Benefits.md
+      - name: 产品功能
+        href: Introduction/Features.md
+  - name: 产品定价
+    items:
+      - name: 计费概述
+        href: Pricing/Billing-Overview.md
+      - name: 购买流程
+        href: Pricing/Purchase-Process.md 
+  - name: 操作指南
+    href: Operation-Guide/Resource-Manage.md
+  - name: 常见问题
+    href: FAQ/FAQ.md
+  - name: 用户协议
+    status: 0
+    items:
+      - name: 服务条款
+        href: User-Agreements/Product-Terms-of-Service.md
+        status: 0
+      - name: SLA
+        href: User-Agreements/SLA.md
+        status: 0

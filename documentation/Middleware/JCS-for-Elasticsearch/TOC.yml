@@ -75,6 +75,8 @@
           href: Operation-Guide/Instance/Nodes/Dedicated-master-node.md
         - name: 协调节点
           href: Operation-Guide/Instance/Nodes/Coordinating-node.md
+        - name: 冷热数据分离
+          href: Operation-Guide/Instance/Nodes/Warm-Node.md
         - name: 实例生命周期
           href: Operation-Guide/Instance/Manage/Instance-status.md
         - name: 修改实例名称
@@ -99,6 +101,14 @@
             href: Operation-Guide/Instance/Resource-group/Change-Resource-Groups.md
           - name: 资源组筛选
             href: Operation-Guide/Instance/Resource-group/Filter-Resource-Groups.md
+      - name: 集群变配
+        items:
+        - name: 升配集群
+          href: Operation-Guide/ChangeConfig/Cluster_Expansion.md
+        - name: 降配集群
+          href: Operation-Guide/ChangeConfig/Cluster_Shrink.md
+        - name: 缩容集群数据节点
+          href: Operation-Guide/ChangeConfig/Cluster_Nodes_Shrink.md
       - name: 集群配置
         items: 
         - name: 高级配置
@@ -119,7 +129,7 @@
           href: Operation-Guide/creatsnapshot.md
         - name: 查看快照信息
           href: Operation-Guide/viewsnapshot.md 
-        - name: 快照指定索引
+        - name: 从快照中恢复数据
           href: Operation-Guide/indexsnapshot.md
         - name: 删除快照
           href: Operation-Guide/deletesnapshot.md
@@ -127,8 +137,6 @@
         items: 
         - name: 查看监控信息
           href: Operation-Guide/Monitoring.md 
-        - name: 查看状态信息
-          href: Operation-Guide/status.md
         - name: 创建告警规则
           href: Operation-Guide/Monitor_Rules.md
       - name: 日志查询
@@ -153,6 +161,8 @@
           href: Operation-Guide/HealthCheck/Health_check_report.md
         - name: 关闭智能运维服务
           href: Operation-Guide/HealthCheck/Health_check_off.md
+        - name: 订阅健康诊断报告
+          href: Operation-Guide/HealthCheck/Health_check_subscribe.md
       - name: 访问控制
         items:
         - name: IAM访问控制
@@ -191,6 +201,8 @@
        href: Best-Practices/mysqltoes.md
      - name: 第三方Elasticsearch数据迁移
        href: Best-Practices/Ali-to-es.md
+     - name: 配置日志监控
+       href: Best-Practices/Log-Monitor.md
      - name: 性能指标
        items: 
         - name: 性能测试步骤
@@ -213,4 +225,6 @@
       href: Related-Resources/Document-History.md 
     - name: 云搜索Elasticsearch产品服务协议
       href: Related-Resources/Product-Service-Agreement.md
+
+
 

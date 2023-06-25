@@ -34,6 +34,7 @@ https://cloudsign.jdcloud-api.com/v1/contract
 | **templateId**      | String                                                       | False    |        | 合同模板文件ID（与templateContent二选一）  |
 | **contractTitle**   | String                                                       | False    |        | 合同标题或名称                             |
 | **caType**          | String                                                       | False    |        | 证书类型                                   |
+|**stampStyle**|String|False| |自定义签章类型（如需增加时间戳，该字段传time；无特殊需求不传该字段）|
 
 ### ComStamp
 

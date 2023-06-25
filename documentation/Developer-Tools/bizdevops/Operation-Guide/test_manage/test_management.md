@@ -2,4 +2,4 @@
 
 以下是需求各生命周期，大家使用测试管理的流程示意图：
 
-![流程图](http://devops-minio.jdcloud.com/doc-image/All-Image/test_management.assets/流程图.jpg)    
+![流程图](https://jdhelp.s3.cn-north-1.jdcloud-oss.com/test_management.assets/流程图.jpg)    

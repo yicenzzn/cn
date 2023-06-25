@@ -6,11 +6,11 @@
 
 在印章管理页面中，点击“添加印章”按钮。
 
-![添加印章.png](/image/Electronic-Signature/添加印章.png)
+![添加印章.png](/image/Electronic-Signature/添加印章new.png)
 
 在弹窗中完善密钥信息，包括印章名称，上传印章文件；填写完成后点击确定，完成印章的添加。
 
-![完善印章信息.png](/image/Electronic-Signature/完善印章信息.png)
+![完善印章信息.png](/image/Electronic-Signature/完善印章信息new.jpg)
 
 ### OpenAPI添加印章
 

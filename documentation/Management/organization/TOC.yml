@@ -1,0 +1,32 @@
+name: 组织账号管理
+href:
+items:
+
+  - name: 产品简介
+    items:
+      - name:产品概述
+        href:organization/Product-Overview.md
+
+  - name: 组织管理
+    items:
+      - name:查看成员列表及成员基础信息
+        href:organization/View-Member-List-Information.md
+      - name: 移除组织成员
+        href: organization/Remove-Organization-Members.md
+      - name: 添加组织成员
+        href:organization/Add-Organization-Members.md
+      - name: 取消成员邀请
+        href: organization/Add-Organization-Members.md
+      - name: 成员接收邀请及退出组织
+        href:organization/Members-Receive-Invitations-Leave-Organization.md
+
+  - name: 认证主体管理
+    items:
+      - name:认证主体管理
+        href:organization/Authentication-Entity-Management.md
+
+  - name: 财务管理
+    items:
+      - name:查看成员账号消费信息
+        href:organization/Consumption-Information.md
+

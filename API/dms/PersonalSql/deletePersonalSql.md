@@ -21,10 +21,12 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/personalSql:delete
 
 
 ## 返回参数
-无
+|名称|类型|描述|
+|---|---|---|
+|**requestId**|String|请求id|
 
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

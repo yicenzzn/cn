@@ -1,0 +1,38 @@
+name: 账户资产概览
+items:
+- name: 账户资产
+  desc: 云账户资产包括账户余额和卡券资产，可用于云产品的购买和费用抵扣。您可以通过费用管理控制台对账户资产进行管理。
+  items:
+    - name: 资金账户管理
+      href: https://capital.jdcloud.com/cost/capital/capital-overview
+    - name: 代金券管理
+      href: https://coupon-console.jdcloud.com/cost/coupon
+      btnstyle: white
+- name: 学习路线
+  items:
+    - name: 了解
+      items:
+        - name: 资金账户
+          items:
+            - name: 充值
+              href: https://docs.jdcloud.com/cn/account-assets/recharge
+            - name: 线下汇款单管理
+              href: https://docs.jdcloud.com/cn/account-assets/remittance
+            - name: 提现
+              href: https://docs.jdcloud.com/cn/account-assets/withdrawal
+            - name: 收支明细
+              href: https://docs.jdcloud.com/cn/account-assets/fund-flow
+        - name: 卡券管理
+          items:
+            - name: 代金券
+              href: https://docs.jdcloud.com/cn/account-assets/coupon
+            - name: 提货券
+              href: https://docs.jdcloud.com/cn/account-assets/voucher
+- name: 常见问题
+  items:
+    - name: 提现常见问题
+      href: https://docs.jdcloud.com/cn/account-assets/withdrawal-questions
+    - name: 代金券常见问题
+      href: https://docs.jdcloud.com/cn/account-assets/coupon-questions
+    - name: 提货券常见问题
+      href: https://docs.jdcloud.com/cn/account-assets/voucher-questions

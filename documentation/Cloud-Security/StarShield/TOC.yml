@@ -1,20 +1,18 @@
-name: 京东云星盾安全加速
+name: 安全加速 SCDN
 href:
 items:
   - name: 产品简介
     items:
       - name: 产品概述
         href: Introduction/Product-Overview.md
-      - name: 核心概念
-        href: Introduction/Core-Concepts.md
-      - name: 产品优势
-        href: Introduction/Benefits.md
-      - name: 产品功能
+      - name: 产品特性
         href: Introduction/Features.md
       - name: 基础架构
         href: Introduction/Basic-Infrastructure.md
       - name: 应用场景
         href: Introduction/Application-Scenarios/StarShield-Basic-Application-Scenarios.md
+      - name: 核心概念
+        href: Introduction/Core-Concepts.md
   - name: 产品定价
     items:
       - name: 计费概述
@@ -31,18 +29,20 @@ items:
         href: Getting-Started/Getting-Started.md
   - name: 操作指南
     items:
-      - name: DNS
+      - name: 域名管理
         href: Operation-Guide/DNS.md
-      - name: 缓存
+      - name: 缓存配置
         href: Operation-Guide/Cache.md
-      - name: 防火墙
+      - name: 应用防火墙
         href: Operation-Guide/Firewall.md
-      - name: SSL
+      - name: SSL证书与加密模式
         href: Operation-Guide/SSL.md
       - name: 页面规则
         href: Operation-Guide/Page-rule.md
   - name: FAQ
     items:
-      - name: FAQ
+      - name: 常见问题
         href: FAQ/FAQ.md
+      - name: 错误状态码
+        href: FAQ/Error-Code.md
           

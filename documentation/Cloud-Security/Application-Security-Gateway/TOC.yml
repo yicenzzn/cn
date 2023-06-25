@@ -1,4 +1,4 @@
-  name: 应用安全网关
+  name: Web 应用防火墙 负载均衡型
   href: 
   items:
   - name: 产品简介
@@ -11,7 +11,7 @@
         href: Introduction/Features.md
       - name: 限制说明
         href: Introduction/Restrictions.md
-        name: 产品规格
+      - name: 产品规格
         href: Introduction/Specifications.md  
   - name: 产品定价
     items:
@@ -31,7 +31,7 @@
     items:
       - name: 实例管理
         items:
-          - name: 创建应用安全网关
+          - name: 创建
             href: Operation-Guide/Instance-Management/Create-Application-Security-Gateway.md
           - name: 调整工作模式
             href: Operation-Guide/Instance-Management/Change-Working-Mode.md
@@ -61,7 +61,7 @@
             href: Operation-Guide/Protection-Configuration/Webpage-Tampering.md
   - name: 最佳实践
     items:
-    - name: 高防-应用安全网关最佳实践
+    - name: 最佳实践方案
       href: Best-Practices/Best-Practices.md   
   - name: 教程
     items:
@@ -79,7 +79,8 @@
         href: FAQ/Web-Security-Protection.md
       
   - name: SDK参考
-    href:
+    status: 0
+    items:   
   - name: 用户协议
     status: 0
     items:      

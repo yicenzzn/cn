@@ -85,6 +85,8 @@ items:
                 href: Operation-manual/Policy-management/policy-manage/edit.md
               - name: 删除策略
                 href: Operation-manual/Policy-management/policy-manage/delete.md
+      - name: 身份提供商
+        href: Operation-manual/IdP-management.md
       - name: 常见问题（FAQ）
         href: Operation-manual/FAQ.md
            

@@ -18,13 +18,13 @@
 
 进入[实名认证](https://realname.jdcloud.com/account/verify)页面，选择企业认证-对公账户打款认证。
 
-![remit1](../../../../image/User/newnewrealname/remit1.png)
+![remit1new](../../../../image/User/newnewrealname/remit1new.png)
 
 **2. 填写企业名称和企业银行对公账户信息**
 
 请输入您营业执照上的单位名称、您企业银行对公账户的卡号，列表选择您对公账户的开户银行、开户支行省市和支行名称。
 
-![remit2](../../../../image/User/newnewrealname/remit2.png)
+![remit2new](../../../../image/User/newnewrealname/remit2new.png)
 
 注：如果您的开户银行或开户支行不在页面可选列表中，请联系京东云客服 400-615-1212 为您处理。
 
@@ -39,19 +39,19 @@
 企业信息提交审核后，系统将在 1 ~ 10 分钟内完成企业信息审核。
 
 ![remit4](../../../../image/User/newnewrealname/remit4.png)
- 
+
 **5. 资料审核通过，打款验证**
 
 企业信息审核通过后，系统会向您提交的企业银行对公账户进行一笔小金额转账。请联系您的对公账户管理员，通过银行柜台、网上银行、手机银行等方式获取，并在京东云页面输入转账金额完成认证流程。根据不同银行的到账情况，转账时间可能需要1 ~ 30 分钟不等。
 
 ![remit5](../../../../image/User/newnewrealname/remit5.png)
- 
+
 注：企业名称与对公账户信息不符时，银行转账失败，实名认证申请将被驳回，请修改您的对公账户信息并重新提交审核。
- 
+
 **6. 打款金额正确，企业实名通过**
- 
+
 ![remit6](../../../../image/User/newnewrealname/remit6.png)
- 
+
 注：对公打款金额连续验证5次失败后，实名认证流程将被冻结两小时。请于两小时后确认对公账户信息并重新提交申请。
- 
+
 

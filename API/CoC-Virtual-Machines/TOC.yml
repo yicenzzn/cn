@@ -1,0 +1,65 @@
+  name: 合作云主机
+  href: 
+  items:
+  - name: 接口信息
+    items:
+      - name: 合作云主机
+        items:
+          - name: createInstances
+            href: Virtual-Machines/createInstances.md
+          - name: startInstance
+            href: Virtual-Machines/startInstance.md
+          - name: stopInstance
+            href: Virtual-Machines/stopInstance.md
+          - name: rebootInstance
+            href: Virtual-Machines/rebootInstance.md
+          - name: modifyInstancePassword
+            href: Virtual-Machines/modifyInstancePassword.md
+          - name: rebuildInstance
+            href: Virtual-Machines/rebuildInstance.md
+          - name: resizeInstance
+            href: Virtual-Machines/resizeInstance.md
+          - name: describeInstance
+            href: Virtual-Machines/describeInstance.md            
+          - name: describeInstances
+            href: Virtual-Machines/describeInstances.md
+          - name: modifyInstanceAttribute
+            href: Virtual-Machines/modifyInstanceAttribute.md                     
+          - name: describeInstanceVncUrl
+            href: Virtual-Machines/describeInstanceVncUrl.md         
+          - name: attachDisk
+            href: Virtual-Machines/attachDisk.md
+          - name: detachDisk
+            href: Virtual-Machines/detachDisk.md
+          - name: associateElasticIp
+            href: Virtual-Machines/associateElasticIp.md
+          - name: disassociateElasticIp
+            href: Virtual-Machines/disassociateElasticIp.md
+      - name: 合作镜像
+        items:
+          - name: deleteImage
+            href: Image/deleteImage.md            
+          - name: describeImage
+            href: Image/describeImage.md            
+          - name: describeImages
+            href: Image/describeImages.md
+      - name: 合作SSH密钥
+        items:      
+          - name: createKeypair
+            href: SSH-Keypair/createKeypair.md
+          - name: deleteKeypair
+            href: SSH-Keypair/deleteKeypair.md          
+          - name: importKeypair
+            href: SSH-Keypair/importKeypair.md
+          - name: describeKeypairs
+            href: SSH-Keypair/describeKeypairs.md        
+      - name: 实例规格类型
+        items:
+          - name: describeInstanceTypes
+            href: Instance-Type/describeInstanceTypes.md
+  - name: 使用帮助
+    items:
+      - name: 合作镜像状态说明
+        href: Help/Image_Status.md
+      - name: 合作云主机状态说明
+        href: Help/Vm_Status.md

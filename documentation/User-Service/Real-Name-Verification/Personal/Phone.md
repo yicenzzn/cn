@@ -10,22 +10,20 @@
 
 1.	进入[实名认证](https://realname.jdcloud.com/account/verify)页面，在“个人认证”选项卡里点击“实名手机认证”。 
 
-![face1](../../../../image/User/newnewrealname/phone1.png)
+![face1new](../../../../image/User/newnewrealname/phone1new.png)
 
 2.	如果系统检测到您的账号已经在京东商城/京东金融完成了个人实名认证，会自动弹出如下弹窗，您可以点击“立即授权”授权京东云获取您在京东商城/京东金融的实名信息。
 
-![face2](../../../../image/User/newnewrealname/phone2.png)
- 
+![face2new](../../../../image/User/newnewrealname/face2new.png)
+
 如果您的账号未在京东商城/京东金融完成个人实名认证或者您选择“暂不授权，手动认证”，则进入选择个人实名认证方式的页面，您可以选择“实名手机认证”或“扫脸认证”。
 
-3. 选择实名手机认证后，点击下一步，需要在如下页面填写您的姓名、身份证号、本人名下手机号，并接收手机验证码来提交验证。
 
-![face3](../../../../image/User/newnewrealname/phone3.png)
- 
+
 4.	信息验证无误，账号通过了个人实名认证。
 
 ![face4](../../../../image/User/newnewrealname/phone4.png)
- 
+
 ### 常见问题
 
 **问题：一个身份信息最多可认证几个京东云账号？**

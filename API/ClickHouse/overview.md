@@ -44,3 +44,5 @@ v1
 |**resetPassword**|POST|重置数据库账号密码|
 |**selectDetailList**|GET|根据实例的的id，获取实例相关信息。|
 |**upgradeEngineVersion**|POST|集群版本升级。|
+|**modifyReplicaNum**|POST|扩容副本。|
+
